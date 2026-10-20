@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-19T22:27:55-04:00",
+  "updated": "2026-10-19T22:32:23-04:00",
   "version": 3
  },
  "nodes": [
@@ -1522,6 +1522,44 @@
     "https://x.com/FlareNetworks"
    ],
    "added": "2026-10-19T21:55:00-04:00"
+  },
+  {
+   "id": "bis",
+   "label": "BIS",
+   "type": "regulator",
+   "handle": "@BIS_org",
+   "summary": "Bank for International Settlements, the central banks' bank.",
+   "grade": "A",
+   "sources": [
+    "https://www.bis.org"
+   ],
+   "added": "2026-10-19"
+  },
+  {
+   "id": "bis-wp1374",
+   "label": "BIS WP 1374 (XRPL PoC)",
+   "type": "event",
+   "handle": "",
+   "summary": "Sept 2026 BIS working paper: proof of concept anchoring official statistics on XRPL DevNet with did:xrpl identity. Data integrity, not payments; not production.",
+   "grade": "A",
+   "sources": [
+    "https://www.bis.org/publications/working-paper-1374-verifiable-official-statistics-blockchain-based-approach"
+   ],
+   "added": "2026-10-19",
+   "sector": "regulators"
+  },
+  {
+   "id": "bis-wp1385",
+   "label": "BIS WP 1385 (Competing rails)",
+   "type": "event",
+   "handle": "",
+   "summary": "Oct 2026 BIS working paper by Du, Huang, Scharfstein: fintech MTOs compressed costs; stablecoins 'not a panacea' due to off-ramp/FX costs. Does not evaluate XRP.",
+   "grade": "A",
+   "sources": [
+    "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins"
+   ],
+   "added": "2026-10-19",
+   "sector": "regulators"
   }
  ],
  "edges": [
@@ -3444,6 +3482,34 @@
    "source": "https://www.craftventures.com/portfolio/bitwise",
    "added": "2026-10-19T21:55:00-04:00",
    "strength": 1
+  },
+  {
+   "from": "bis",
+   "to": "bis-wp1374",
+   "label": "published",
+   "grade": "A",
+   "source": "https://www.bis.org/publications/working-paper-1374-verifiable-official-statistics-blockchain-based-approach",
+   "added": "2026-10-19",
+   "strength": 4
+  },
+  {
+   "from": "bis-wp1374",
+   "to": "xrpl",
+   "label": "prototype built on XRPL (DevNet)",
+   "grade": "A",
+   "source": "https://www.bis.org/publications/working-paper-1374-verifiable-official-statistics-blockchain-based-approach",
+   "added": "2026-10-19",
+   "strength": 3,
+   "key": true
+  },
+  {
+   "from": "bis",
+   "to": "bis-wp1385",
+   "label": "published",
+   "grade": "A",
+   "source": "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins",
+   "added": "2026-10-19",
+   "strength": 3
   }
  ]
 }
