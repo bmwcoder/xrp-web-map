@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T14:37:46-04:00",
+  "updated": "2026-10-20T14:48:08-04:00",
   "version": 3
  },
  "nodes": [
@@ -81,7 +81,7 @@
    "label": "Chris Larsen",
    "type": "person",
    "handle": "@chrislarsensf",
-   "summary": "OpenCoin co-founder & CEO; executive chairman from 2017. Kept 9B XRP. Co-defendant in SEC v. Ripple. Prior company Prosper was sued by the SEC in 2008.",
+   "summary": "OpenCoin co-founder & CEO; executive chairman from 2017. Kept 9B XRP. Co-defendant in SEC v. Ripple. His earlier company Prosper settled an SEC action in Nov 2008 over unregistered note sales (per the SEC's 2020 complaint, ¶18); the SEC's claims against Larsen in the Ripple case were dismissed in 2023.",
    "why": "Ripple co-founder and executive chairman, described in an Oct 2026 13G as Ripple's controlling shareholder; he kept 9B XRP from the founders' split and also links to Evernorth through his family trust.",
    "grade": "A",
    "sources": [
@@ -779,7 +779,7 @@
    "label": "$FUZZY",
    "type": "asset",
    "handle": "",
-   "summary": "XRPL meme token with a grinning brown bear mascot with light-blue eyes (no red mask in the official avatar or ~60 @fuzzy_xrp images, Feb 2025–Apr 2026; the red mask appears only in fan/compare art). Critics claim ~7 wallets hold the supply (C). UPDATE 2026-10-19: Mascot eyes match Evernorth teaser frame (Otto). Accounts: @fuzzy_xrp; @FUZZYCON (2 followers, not official). High-risk pump-into-announcement vector.",
+   "summary": "XRPL meme token with a grinning brown bear mascot with light-blue eyes (no red mask in the official avatar or ~60 @fuzzy_xrp images, Feb 2025–Apr 2026; the red mask appears only in fan/compare art). Critics claim ~7 wallets hold the supply (C). UPDATE 2026-10-19: Mascot eyes match Evernorth teaser frame (Otto). Accounts: @fuzzy_xrp; @FUZZYCON (2 followers, not official). Meme tokens tied to announcement rumours can be extremely volatile (general risk note, not a claim about any person or team).",
    "grade": "A",
    "sources": [
     "https://x.com/evernorthxrp/status/2112304285908381828",
@@ -1044,7 +1044,7 @@
    "label": "@VeteranAndrew",
    "type": "community",
    "handle": "@VeteranAndrew",
-   "summary": "X user pushing the PayPal Mafia/X Money–XRP claim. UPDATE 2026-10-19: Paid blue check (~1.8K). Claimed Musk mentioned XRP Oct 2024 — not found in archive search.",
+   "summary": "Small X account (~1.8K followers) that posted the PayPal Mafia/X Money–XRP claim. UPDATE 2026-10-19: Paid blue check (~1.8K). Claimed Musk mentioned XRP Oct 2024 — not found in archive search.",
    "grade": "C",
    "sources": [
     "https://x.com/VeteranAndrew/status/2111472146572582959"
@@ -1056,7 +1056,7 @@
    "label": "@stoneiland",
    "type": "community",
    "handle": "@stoneiland",
-   "summary": "X account (daoland589) amplifying Thiel/PayPal/Stripe money-map posts. UPDATE 2026-10-19: Paid-blue 'pump alert' account (display name daoland589, ~7.7K).",
+   "summary": "X account (daoland589) amplifying Thiel/PayPal/Stripe money-map posts. UPDATE 2026-10-19: Small X account (~7.7K followers) with a paid verification badge.",
    "grade": "C",
    "sources": [
     "https://x.com/stoneiland/status/2112055927692288021"
@@ -3673,7 +3673,7 @@
    "label": "Dom Kwok \"$1,000 XRP price target\" posts",
    "type": "riddle",
    "handle": "",
-   "summary": "Oct 12, 2026: Dom Kwok ran a $1,000 XRP giveaway (430K views, 11K reposts) and posted \"$735,000 at my $1,000 price target.\" Promotional; no basis given.",
+   "summary": "Oct 12, 2026: Dom Kwok ran a $1,000 XRP giveaway (430K views, 11K reposts) and posted \"$735,000 at my $1,000 price target.\" No basis for the target was given in the posts.",
    "grade": "C",
    "sources": [
     "https://x.com/dom_kwok/status/2109663959200506272",
@@ -13206,7 +13206,7 @@
    "label": "Digital Perspectives (Brad Kimes)",
    "type": "person",
    "handle": "@DigPerspectives",
-   "summary": "Daily XRP YouTube show and founder of XRP Las Vegas (211K followers). His bio says: 'Some Tweets/Retweets are paid endorsements.' He frequently reposts BankXRP and high price-target charts (e.g. a $50 triangle on Oct 20, 2026). Reliability: C, promotional.",
+   "summary": "Daily XRP YouTube show and founder of XRP Las Vegas (211K followers). His bio says: 'Some Tweets/Retweets are paid endorsements.' He frequently reposts BankXRP and high price-target charts (e.g. a $50 triangle on Oct 20, 2026). Source rating on this map: C (opinion/promotional content; see methodology).",
    "grade": "A",
    "sources": [
     "https://x.com/DigPerspectives",
@@ -13275,7 +13275,7 @@
    "label": "Edo Farina",
    "type": "person",
    "handle": "@edward_farina",
-   "summary": "Greek XRP promoter. Founder of Alpha Lions Academy, co-founder of the Alpha Husky Club NFT project, and formerly 'Head of Social Adoption' at XRP Healthcare (bio, 2023). An 'AlphaLionsAcademy XRP' token on First Ledger links to his X account. Neither @edward_farina nor @edofarinaalpha resolved in the X API on Oct 19, 2026. Reliability: C, promotional.",
+   "summary": "Greek XRP promoter. Founder of Alpha Lions Academy, co-founder of the Alpha Husky Club NFT project, and formerly 'Head of Social Adoption' at XRP Healthcare (bio, 2023). An 'AlphaLionsAcademy XRP' token on First Ledger links to his X account. Neither @edward_farina nor @edofarinaalpha resolved in the X API on Oct 19, 2026. Source rating on this map: C (promotional content; see methodology).",
    "grade": "B",
    "sources": [
     "https://alphalionsacademy.com/team/",
@@ -13411,7 +13411,7 @@
    "label": "Moon Lambo",
    "type": "person",
    "handle": "@MoonLamboio",
-   "summary": "XRP YouTuber and business owner (139K followers). Bio: 'Nothing I communicate is financial advice.' No documented scandal found. Community critiques centre on hype framing. Reliability: C.",
+   "summary": "XRP YouTuber and business owner (139K followers). Bio: 'Nothing I communicate is financial advice.' Source rating on this map: C (opinion content; see methodology).",
    "grade": "A",
    "sources": [
     "https://x.com/MoonLamboio"
@@ -13437,7 +13437,7 @@
    "label": "XRPcryptowolf",
    "type": "person",
    "handle": "@XRPcryptowolf",
-   "summary": "XRP news reposter (433K followers). Bio is a stack of affiliate links ('Click The Link'). Posts headline-bait several times an hour. Reliability: C, promotional.",
+   "summary": "XRP news reposter (433K followers). Bio is a stack of affiliate links ('Click The Link'). Posts news headlines several times an hour (observed Oct 2026). Source rating on this map: C (reposted headlines, not original sourcing; see methodology).",
    "grade": "A",
    "sources": [
     "https://x.com/XRPcryptowolf"
@@ -13765,7 +13765,7 @@
    "label": "SEC sues Ripple, Larsen, Garlinghouse (Dec 22, 2020)",
    "type": "event",
    "handle": "",
-   "summary": "SEC complaint alleging ~$1.3B in unregistered XRP sales (§5). Filed under Chair Jay Clayton on his way out.",
+   "summary": "SEC complaint alleging ~$1.3B in unregistered XRP sales (§5). Filed Dec 22, 2020, the day before Chair Jay Clayton's last day.",
    "grade": "A",
    "sources": [
     "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
@@ -13833,7 +13833,7 @@
    "label": "Paid lifestyle accounts promoting scam accounts",
    "type": "event",
    "handle": "",
-   "summary": "Oct 19, 2026: Schwartz challenged @collinstimbela_ (a 120K-follower blue-check lifestyle account): 'You are promoting a scam account. Why?' Big non-crypto accounts are rented to boost impersonators.",
+   "summary": "Oct 19, 2026: Schwartz challenged @collinstimbela_ (a 120K-follower blue-check lifestyle account): 'You are promoting a scam account. Why?' Schwartz did not say whether the account was paid; no evidence of payment is cited here.",
    "grade": "A",
    "sources": [
     "https://x.com/JoelKatz/status/2112041420873965834"
@@ -13930,7 +13930,7 @@
    "label": "Ripple Bull Winkle",
    "type": "person",
    "handle": "@RipBullWinkle",
-   "summary": "XRP YouTuber (132K followers, '3 new XRP & crypto videos daily'). Posts affiliate links ('USE MY LINK AND SAVE SOME $$$$', Oct 13, 2026) and '$500 giveaway every Sunday!' via his link (Oct 6, 2026). Quote-replied to @XRP's launch. Reliability: C, monetised.",
+   "summary": "XRP YouTuber (132K followers, '3 new XRP & crypto videos daily'). Posts affiliate links ('USE MY LINK AND SAVE SOME $$$$', Oct 13, 2026) and '$500 giveaway every Sunday!' via his link (Oct 6, 2026). Quote-replied to @XRP's launch. Source rating on this map: C (opinion content with affiliate links; see methodology).",
    "grade": "A",
    "sources": [
     "https://x.com/RipBullWinkle/status/2110107273393778944",
@@ -14100,7 +14100,7 @@
    "label": "@jakeclaver441 (Claver look-alike)",
    "type": "community",
    "handle": "@jakeclaver441",
-   "summary": "2-follower account posting '$10,000… banks flip the switch' under Jake Claver's name (Jul 30, 2026). A likely impersonation or parody of the Claver persona.",
+   "summary": "2-follower account posting '$10,000… banks flip the switch' under Jake Claver's name (Jul 30, 2026). Not affiliated with Jake Claver as far as we know.",
    "grade": "C",
    "sources": [
     "https://x.com/jakeclaver441/status/2082780038533939593"
@@ -14113,7 +14113,7 @@
    "label": "Mr Pool (@_Mr_Pool_)",
    "type": "riddle",
    "handle": "@_Mr_Pool_",
-   "summary": "Second-most-famous XRP 'insider' riddler after BG123, associated with 113/311, 589 and posting at 3:11/3:33/11:11. The original handle @looP_rM311_7211 is suspended. The current @_Mr_Pool_ was created Oct 9, 2023 (47K followers, 39 posts, up to 1M views per post). 4chan lore claims 'Mr Pool is David Schwartz' (C, no evidence).",
+   "summary": "Second-most-famous XRP 'insider' riddler after BG123, associated with 113/311, 589 and posting at 3:11/3:33/11:11. The original handle @looP_rM311_7211 is suspended. The current @_Mr_Pool_ was created Oct 9, 2023 (47K followers, 39 posts, up to 1M views per post). An anonymous 4chan claim that Mr Pool is David Schwartz has no supporting evidence (grade C).",
    "grade": "C",
    "sources": [
     "https://x.com/_Mr_Pool_",
@@ -14225,7 +14225,7 @@
    "label": "$589 memecoin (@589CTO)",
    "type": "asset",
    "handle": "@589CTO",
-   "summary": "XRPL memecoin branded on the 589 lore ('XRP's most ICONIC memecoin!', 21K followers, created Dec 11, 2024). Unaffiliated with BG123. It monetises the riddle. High risk.",
+   "summary": "XRPL memecoin branded on the 589 lore ('XRP's most ICONIC memecoin!', 21K followers, created Dec 11, 2024). Unaffiliated with BG123. Meme tokens are highly speculative (general note, not a claim about this token's team).",
    "grade": "C",
    "sources": [
     "https://x.com/589CTO"
@@ -15962,25 +15962,11 @@
    "sector": "claims"
   },
   {
-   "id": "[name withheld]",
-   "label": "Lead plaintiff, In re Ripple Labs (private individual)",
-   "type": "person",
-   "handle": "",
-   "summary": "Lead plaintiff in the In re Ripple Labs Inc. securities class action (appointed 2019), an individual XRP buyer. Counsel: Susman Godfrey and Taylor-Copeland Law.",
-   "grade": "A",
-   "sources": [
-    "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/01/27/24-7599.pdf",
-    "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.471.0.pdf"
-   ],
-   "added": "2026-10-19T23:02:33-04:00",
-   "sector": "claims"
-  },
-  {
    "id": "cand-sj-2024",
    "label": "N.D. Cal. summary-judgment order (Dkt. 419, Jun 20, 2024)",
    "type": "event",
    "handle": "",
-   "summary": "Hamilton granted in part and denied in part Ripple's summary-judgment motion. The federal §12(a)(1) and §15 class claims and the Cal. §25503/25504 claims were resolved for defendants on the Securities Act §13 three-year statute of repose. Only [name withheld]'s individual Cal. Corp. Code §25501/25504.1 misleading-statements claim survived.",
+   "summary": "Hamilton granted in part and denied in part Ripple's summary-judgment motion. The federal §12(a)(1) and §15 class claims and the Cal. §25503/25504 claims were resolved for defendants on the Securities Act §13 three-year statute of repose. Only the lead plaintiff's individual Cal. Corp. Code §25501/25504.1 misleading-statements claim survived.",
    "grade": "A",
    "sources": [
     "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.471.0.pdf",
@@ -16040,7 +16026,7 @@
    "label": "In re Ripple Labs: final stipulated dismissal (Dkt. 471, Apr 6, 2026)",
    "type": "event",
    "handle": "",
-   "summary": "[name withheld] and Ripple, XRP II and Garlinghouse stipulated under FRCP 41(a)(1)(A)(ii) to dismiss with prejudice the last surviving individual §25501/25504.1 misleading-statements claim. This ended the 2018 class action. No trial was held.",
+   "summary": "The lead plaintiff and Ripple, XRP II and Garlinghouse stipulated under FRCP 41(a)(1)(A)(ii) to dismiss with prejudice the last surviving individual §25501/25504.1 misleading-statements claim. This ended the 2018 class action. No trial was held.",
    "grade": "A",
    "sources": [
     "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.471.0.pdf"
@@ -18704,7 +18690,7 @@
   },
   {
    "id": "w-ripple-binance-chain",
-   "label": "Ripple 50 → raRVLN1i → rBNCyNEw → Binance 11 chain",
+   "label": "Ripple 50 → raRVLN1i → rBNCyNEw → Binance 11 flow (owner of rBNCyNEw unconfirmed)",
    "type": "company",
    "handle": "",
    "summary": "raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf was created 2024-12-02 by rP4X2hTa… (itself created by Ripple 50). It received ~796M XRP from Ripple 50 (rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE, always DT 4156796778) between Mar 24 and Oct 19, 2026, and forwarded 748.1M in 296 payments to rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR (DT 2695199675). rBNCyNEw was created 2025-07-30 by rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u, which was created by the XRPScan-verified 'Binance 10' wallet rNU4eAowPuixS5ZCWaRL72UUeKgxcKExpK. That is a withdrawal-funded account; the parent is not the owner. rBNCyNEw also takes deposits from Binance's rDAE53VfMvftPB4ogpWGWvzkQxfht6JPxr and other wallets on the same DT. Between Sep 15 and Oct 19, 2026 it sent 168.0M in 85 payments to the verified 'Binance 11' wallet rNxp4h8apvRis6mJf9Sh8C6iRxfrDWN7AV, plus many smaller tagged payouts. It looks like a third-party service or OTC account, not Ripple's own.",
@@ -19199,10 +19185,10 @@
   },
   {
    "id": "w-larsen-fundingwallet1",
-   "label": "'FundingWallet1' rU1bPM4q… (Larsen-tree hub wallet)",
+   "label": "'FundingWallet1' rU1bPM4q… (seeded in 2013 by the 'chrislarsen'-labeled genesis wallet)",
    "type": "asset",
    "handle": "",
-   "summary": "rU1bPM4q2rVhC73F7znm7Lt5QnYzZsV35q (explorer username 'FundingWallet1') was activated on 2013-02-06 with 500M XRP by rB5TihdPbKgMrkFqrqUC3yLdE8hhv4BdeY (username 'chrislarsen', which held ~8.19B and seeded 16 × 500M wallets that day). Ledger history, 2015 to Mar 2020: ~2.12B XRP out (2015 91M, 2016 288M, 2017 692M, 2018 336M, 2019 653M, Jan–Mar 2020 59M). Main destinations: r4sL7JrJFJY2HDF8ZVCnDK1a7hkLvq6wPE 799.5M (2016–2018; it forwarded 902M to bot-like rsSQuEvK5Hwcg8APxxAcgiTCC1TzFHzG7Z), r4hZoYW8eEkTJMci6qFPGBxqxQfqyWyvB5 623.7M (2018–Mar 2020; it forwarded to rGr2PJjX…, which spread 539M through r49yezViZ8N6FtwwKg9byDYtJ3UDuJi1zv in 429 payments to tagged exchange deposits), and the 'chrislarsen 7' wallet rJNLz3A1… 211M. Inflows came from sibling wallets that rB5Tih seeded (rhgovzKY… 465M, rPNoY3pu… 484M, rLt5hnUw… 315M). The timing and size match the complaint's Larsen sales window and its 'bots' description, but the SEC's address list is not public.",
+   "summary": "rU1bPM4q2rVhC73F7znm7Lt5QnYzZsV35q (explorer username 'FundingWallet1') was activated on 2013-02-06 with 500M XRP by rB5TihdPbKgMrkFqrqUC3yLdE8hhv4BdeY (username 'chrislarsen', which held ~8.19B and seeded 16 × 500M wallets that day). Ledger history, 2015 to Mar 2020: ~2.12B XRP out (2015 91M, 2016 288M, 2017 692M, 2018 336M, 2019 653M, Jan–Mar 2020 59M). Main destinations: r4sL7JrJFJY2HDF8ZVCnDK1a7hkLvq6wPE 799.5M (2016–2018; it forwarded 902M to high-frequency account rsSQuEvK5Hwcg8APxxAcgiTCC1TzFHzG7Z), r4hZoYW8eEkTJMci6qFPGBxqxQfqyWyvB5 623.7M (2018–Mar 2020; it forwarded to rGr2PJjX…, which spread 539M through r49yezViZ8N6FtwwKg9byDYtJ3UDuJi1zv in 429 payments to tagged exchange deposits), and the 'chrislarsen 7' wallet rJNLz3A1… 211M. Inflows came from sibling wallets that rB5Tih seeded (rhgovzKY… 465M, rPNoY3pu… 484M, rLt5hnUw… 315M). Who controls this wallet and its destinations is not confirmed: the SEC's address list is not public, the explorer username is not an ownership record, and the SEC's claims against Larsen were dismissed in 2023. Grade C (on-chain inference only).",
    "grade": "C",
    "sources": [
     "https://classic.xrpscan.com/account/rU1bPM4q2rVhC73F7znm7Lt5QnYzZsV35q",
@@ -19581,7 +19567,7 @@
    "label": "Edo Farina impersonator accounts",
    "type": "community",
    "handle": "",
-   "summary": "Users report that Farina's X account was banned and that he has no X account now. Look-alikes (@edofarinaalpha, @eddo_farina, @edofarinaxrpap) are being called out as scam accounts. Media still quote him as Alpha Lions Academy founder (Oct 2026).",
+   "summary": "His X handles no longer resolve in the X API (Oct 19, 2026); the reason is not known. Look-alikes (@edofarinaalpha, @eddo_farina, @edofarinaxrpap) are being called out as scam accounts. Media still quote him as Alpha Lions Academy founder (Oct 2026).",
    "grade": "C",
    "sources": [
     "https://x.com/NshoWorld/status/2110248504597807451",
@@ -19596,7 +19582,7 @@
    "label": "Dom Kwok '$1,000 XRP' giveaway + $1,000 target (Oct 12)",
    "type": "event",
    "handle": "",
-   "summary": "Follow-and-RT giveaway (430K views), the same day as his '$1,000 gives you 735 $XRP… $735,000 at my $1,000 price target' post (270K views). Engagement-farming format. He is a Swell speaker.",
+   "summary": "Follow-and-RT giveaway (430K views), the same day as his '$1,000 gives you 735 $XRP… $735,000 at my $1,000 price target' post (270K views). Follow-and-repost giveaway format. He is a Swell speaker.",
    "grade": "A",
    "sources": [
     "https://x.com/dom_kwok/status/2109663959200506272",
@@ -21588,7 +21574,7 @@
    "label": "Brian P. Brooks",
    "type": "person",
    "handle": "",
-   "summary": "Coinbase Chief Legal Officer Sep 2018 to 2020, then OCC First Deputy/COO (from 2020-04-01) and Acting Comptroller 2020-05-29 to 2021-01-14. A revolving-door link between the largest XRP ETF custodian's parent and the bank regulator.",
+   "summary": "Coinbase Chief Legal Officer Sep 2018 to 2020, then OCC First Deputy/COO (from 2020-04-01) and Acting Comptroller 2020-05-29 to 2021-01-14. He moved from Coinbase (parent of a major XRP ETF custodian) to the OCC.",
    "grade": "A",
    "sources": [
     "https://www.occ.gov/about/who-we-are/history/previous-comptrollers/previous-acting-comptrollers/bio-brian-brooks.html",
@@ -26491,7 +26477,7 @@
    "label": "Jennifer Shasky Calvery",
    "type": "person",
    "handle": "",
-   "summary": "FinCEN Director (Sep 2012–May 2016). She is quoted in FinCEN's May 5 2015 release fining Ripple Labs and XRP II $700K, its first civil action against a virtual-currency exchanger. She left for HSBC in 2016 and is now Group Head of Financial Crime Risk and Compliance and Wolfsberg Group co-chair (2024). HSBC is the bank where Ripple CLO Alderoty was North America GC, though the dates are not shown to overlap.",
+   "summary": "FinCEN Director (Sep 2012–May 2016). She is quoted in FinCEN's May 5 2015 release fining Ripple Labs and XRP II $700K, its first civil action against a virtual-currency exchanger. She left for HSBC in 2016 and is now Group Head of Financial Crime Risk and Compliance and Wolfsberg Group co-chair (2024).",
    "grade": "A",
    "sources": [
     "https://www.fincen.gov/news/news-releases/fincen-fines-ripple-labs-inc-first-civil-enforcement-action-against-virtual",
@@ -27611,7 +27597,7 @@
    "label": "Josh Vlasto",
    "type": "person",
    "handle": "",
-   "summary": "Fairshake spokesman (FactCheck.org, Aug 2026). Earlier: Schumer staffer 2004–10 (press secretary 2007–10) and chief of staff to Gov. Andrew Cuomo; now partner at Bamberger & Vlasto. Fairshake's FEC Schedule B for 2024 and 2026 shows no direct payments to Vlasto, Kivvit or Bamberger & Vlasto, so he is probably paid through a consultant. Schumer, his former boss, voted Nay on all three Senate crypto votes (GENIUS 240 and 318, CLARITY 234).",
+   "summary": "Fairshake spokesman (FactCheck.org, Aug 2026). Earlier: Schumer staffer 2004–10 (press secretary 2007–10) and chief of staff to Gov. Andrew Cuomo; now partner at Bamberger & Vlasto. Fairshake's FEC Schedule B for 2024 and 2026 shows no direct payments to Vlasto, Kivvit or Bamberger & Vlasto. How he is compensated is not shown in these filings. Schumer, his former boss, voted Nay on all three Senate crypto votes (GENIUS 240 and 318, CLARITY 234).",
    "grade": "A",
    "sources": [
     "https://www.factcheck.org/2026/08/fairshake-2/",
@@ -52900,17 +52886,6 @@
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
-   "from": "[name withheld]",
-   "to": "in-re-ripple-litigation",
-   "label": "lead plaintiff (appointed 2019)",
-   "grade": "A",
-   "strength": 4,
-   "key": false,
-   "source": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/01/27/24-7599.pdf",
-   "side": "neutral",
-   "added": "2026-10-19T23:02:33-04:00"
-  },
-  {
    "from": "judge-hamilton",
    "to": "cand-sj-2024",
    "label": "issued 2024-06-20",
@@ -52999,17 +52974,6 @@
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
-   "from": "[name withheld]",
-   "to": "ca9-ripple-2026",
-   "label": "appellant (lost)",
-   "grade": "A",
-   "strength": 3,
-   "key": false,
-   "source": "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/01/27/24-7599.pdf",
-   "side": "supports",
-   "added": "2026-10-19T23:02:33-04:00"
-  },
-  {
    "from": "ca9-ripple-2026",
    "to": "rule54b-2024",
    "label": "affirmed judgment appealed from",
@@ -53048,17 +53012,6 @@
    "label": "case ended (dismissed with prejudice 2026-04-06)",
    "grade": "A",
    "strength": 4,
-   "key": false,
-   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.471.0.pdf",
-   "side": "supports",
-   "added": "2026-10-19T23:02:33-04:00"
-  },
-  {
-   "from": "[name withheld]",
-   "to": "cand-dismissal-2026",
-   "label": "stipulated dismissal of remaining claim",
-   "grade": "A",
-   "strength": 3,
    "key": false,
    "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.471.0.pdf",
    "side": "supports",
@@ -53419,7 +53372,7 @@
   {
    "from": "larsen",
    "to": "prosper",
-   "label": "co-founded 2005, CEO to 2011; SEC sued Prosper Nov 2008 (complaint ¶18)",
+   "label": "co-founded 2005, CEO to 2011; Prosper settled an SEC action, Nov 2008 (per 2020 SEC complaint ¶18)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -64078,7 +64031,7 @@
   {
    "from": "w-rlusd-ops",
    "to": "w-ripple-binance-chain",
-   "label": "138.3M RLUSD to rBNCyNEw, the same account that gets Ripple 50 XRP via raRVLN1i: points to a Ripple trading counterparty (OTC/market maker)",
+   "label": "138.3M RLUSD to rBNCyNEw (unlabeled; owner unconfirmed), the same account that receives Ripple 50 XRP via raRVLN1i",
    "grade": "C",
    "strength": 1,
    "key": false,
@@ -65354,7 +65307,7 @@
   {
    "from": "zachrector",
    "to": "claim-claver100",
-   "label": "called it misleading ('not a chance')",
+   "label": "publicly disputed the $100-by-end-2025 call ('not a chance', X, 2025-12-30)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -68852,7 +68805,7 @@
   {
    "from": "w-rbnc-desk",
    "to": "binance",
-   "label": "two-way: 770M RLUSD + 676M XRP to Binance 11; 737M RLUSD from Binance 6 (May–Oct 2026)",
+   "label": "UNVERIFIED lead: trades both ways with Binance wallets; owner unconfirmed, no exchange or market-maker disclosure names it",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -68890,17 +68843,6 @@
    "strength": 2,
    "key": false,
    "source": "https://xrpscan.com/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR",
-   "side": "neutral",
-   "added": "2026-10-19T23:24:14-04:00"
-  },
-  {
-   "from": "w-rbnc-desk",
-   "to": "binance",
-   "label": "lead: Binance-adjacent market-maker/OTC desk (Binance-10-created parent; no disclosure)",
-   "grade": "C",
-   "strength": 1,
-   "key": false,
-   "source": "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
    "side": "neutral",
    "added": "2026-10-19T23:24:14-04:00"
   },
@@ -79819,7 +79761,7 @@
   {
    "from": "bitrue",
    "to": "vanity-impostor-issuers-2025",
-   "label": "withdrawals from XRPScan-labeled \"Bitrue 3\" wallet (rfKsmLP6…) activated rippLE4uy… (2024-08-02) and fake-RLUSD issuer rLUSDtykL… (2024-06-12): exchange-funded, so a KYC trail may exist",
+   "label": "withdrawals from XRPScan-labeled \"Bitrue 3\" wallet (rfKsmLP6…) activated rippLE4uy… (2024-08-02) and fake-RLUSD issuer rLUSDtykL… (2024-06-12). Funding by an exchange withdrawal does not mean the exchange was involved",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -80655,7 +80597,7 @@
   {
    "from": "jason-yaworske",
    "to": "warren-davidson",
-   "label": "ex-Chief of Staff (LDA covered position). Lobbied CLARITY for Ripple while Davidson was an original cosponsor",
+   "label": "ex-Chief of Staff (LDA covered position); later lobbied on CLARITY for Ripple (LDA 2024Q4–2026Q2)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -80842,7 +80784,7 @@
   {
    "from": "clayton",
    "to": "one-river",
-   "label": "joined crypto manager's regulatory advisory council (2021-03-29), 3 months after the SEC sued Ripple on his watch",
+   "label": "joined crypto manager's regulatory advisory council (2021-03-29), after leaving the SEC in Dec 2020",
    "grade": "A",
    "strength": 2,
    "key": false,
