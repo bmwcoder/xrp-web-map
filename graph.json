@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-19T23:28:25-04:00",
+  "updated": "2026-10-19T23:33:13-04:00",
   "version": 3
  },
  "nodes": [
@@ -16901,20 +16901,6 @@
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
-   "id": "larsen-sales-alleged",
-   "label": "Larsen & spouse XRP sales 2015–Mar 2020 (alleged ≥1.7B XRP, ≥$450M)",
-   "type": "event",
-   "handle": "",
-   "summary": "SEC complaint ¶85 alleges Larsen and his wife sold over 1.7B XRP to public investors while he was CEO/chair, netting at least $450M. ECF 874 held Larsen's and Garlinghouse's programmatic sales were not investment contracts.",
-   "grade": "A",
-   "sources": [
-    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.4.0.pdf",
-    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.874.0.pdf"
-   ],
-   "sector": "founders",
-   "added": "2026-10-19T23:02:33-04:00"
-  },
-  {
    "id": "bounty-2013",
    "label": "XRP bounty/giveaway distribution 2013–14 (~12.5B XRP)",
    "type": "event",
@@ -20108,9 +20094,23 @@
    "grade": "A",
    "sources": [
     "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
-    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.796.8.pdf"
+    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.796.8.pdf",
+    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.4.0.pdf",
+    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.874.0.pdf"
    ],
-   "added": "2026-10-19T23:09:55-04:00"
+   "added": "2026-10-19T23:09:55-04:00",
+   "merged_from": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "id": "larsen-sales-alleged",
+     "label": "Larsen & spouse XRP sales 2015–Mar 2020 (alleged ≥1.7B XRP, ≥$450M)",
+     "summary": "SEC complaint ¶85 alleges Larsen and his wife sold over 1.7B XRP to public investors while he was CEO/chair, netting at least $450M. ECF 874 held Larsen's and Garlinghouse's programmatic sales were not investment contracts.",
+     "grade": "A",
+     "handle": "",
+     "evidence": "same-entity: duplicate ids for Larsen XRP sales alleged in SEC complaint ¶85 (1.7B+ XRP, $450M+)",
+     "source": "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf"
+    }
+   ]
   },
   {
    "id": "garlinghouse-sales-sec",
@@ -22284,12 +22284,32 @@
    "grade": "B",
    "sources": [
     "https://ripple.com/insights/ripple-expands-academic-collaboration-with-usf-partnership-and-ubri-renewals-in-rlusd/",
-    "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
     "https://www.uwyo.edu/news/2022/05/uw-establishes-ripple-blockchain-collaboratory-to-support-education-and-research.html",
     "https://www.uwyo.edu/uw/degree-programs/blockchain-minor.html",
     "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
    ],
-   "added": "2026-10-19T23:24:14-04:00"
+   "added": "2026-10-19T23:24:14-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "sources",
+     "from": [
+      "https://ripple.com/insights/ripple-expands-academic-collaboration-with-usf-partnership-and-ubri-renewals-in-rlusd/",
+      "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+      "https://www.uwyo.edu/news/2022/05/uw-establishes-ripple-blockchain-collaboratory-to-support-education-and-research.html",
+      "https://www.uwyo.edu/uw/degree-programs/blockchain-minor.html",
+      "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+     ],
+     "to": [
+      "https://ripple.com/insights/ripple-expands-academic-collaboration-with-usf-partnership-and-ubri-renewals-in-rlusd/",
+      "https://www.uwyo.edu/news/2022/05/uw-establishes-ripple-blockchain-collaboratory-to-support-education-and-research.html",
+      "https://www.uwyo.edu/uw/degree-programs/blockchain-minor.html",
+      "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+     ],
+     "note": "remove Blockstream Media URL (returns 404 on 2026-10-19); claims re-sourced to uwyo.edu and salt.org",
+     "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+    }
+   ]
   },
   {
    "id": "mcclurg",
@@ -22593,6 +22613,232 @@
    ],
    "sector": "regulators",
    "added": "2026-10-19T23:26:37-04:00"
+  },
+  {
+   "id": "nv-fid",
+   "label": "Nevada Financial Institutions Division",
+   "type": "regulator",
+   "handle": "",
+   "summary": "Nevada state regulator of trust companies; issued cease-and-desist to Fortress Trust LLC on 2025-10-22 and sought receivership of its parent.",
+   "grade": "A",
+   "sources": [
+    "https://www.fid.nv.gov/siteassets/opinion/Fortress_Trust_LLC_-_Cease_and_Desist_10.22.25.pdf",
+    "https://www.business.nv.gov/siteassets/content/files/elemental-financial-technologies-inc.-petition-and-exhibits-filed.pdf"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "mgi-class-2021",
+   "label": "MoneyGram securities class action (2021)",
+   "type": "event",
+   "handle": "",
+   "summary": "Shareholder suit filed 2021-03-01 (C.D. Cal., moved to N.D. Tex. 3:21-cv-815) alleging MoneyGram misled investors about Ripple/XRP market-development fees and SEC risk after the stock fell 33.2% on 2021-02-23. Voluntarily dismissed with prejudice 2021-07-30.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1273931/000127393121000130/mgi-20210802.htm",
+    "https://securities.stanford.edu/filings-case.html?id=107653"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "taurus",
+   "label": "Taurus SA",
+   "type": "company",
+   "handle": "",
+   "summary": "Swiss digital-asset custody/tokenization vendor (PROTECT, CAPITAL); chosen by State Street in 2024 - a direct rival to Ripple Custody (Metaco).",
+   "grade": "A",
+   "sources": [
+    "https://investors.statestreet.com/investor-news-events/press-releases/news-details/2024/State-Street-Announces-Agreement-with-Taurus-to-Deliver-Full-Service-Digital-Platform-for-Institutional-Investors/default.aspx"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "fortress-receivership-2025",
+   "label": "Fortress Trust / Elemental receivership (Nevada, Oct 2025)",
+   "type": "event",
+   "handle": "",
+   "summary": "Nevada FID cease-and-desist (2025-10-22) and stipulated receivership petition for Elemental Financial Technologies (ex-Fortress Blockchain Technologies), parent of Fortress Trust; a third-party buyer had declined on 2025-10-21. Ripple was a minority investor in the parent from 2022 and pulled out of buying Fortress Trust in 2023.",
+   "grade": "A",
+   "sources": [
+    "https://www.fid.nv.gov/siteassets/opinion/Fortress_Trust_LLC_-_Cease_and_Desist_10.22.25.pdf",
+    "https://www.business.nv.gov/siteassets/content/files/elemental-financial-technologies-inc.-petition-and-exhibits-filed.pdf"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "eex",
+   "label": "European Energy Exchange (EEX)",
+   "type": "company",
+   "handle": "",
+   "summary": "Deutsche Börse Group energy exchange; wholly owns Nodal Exchange Holdings, which owns Nodal Clear, the clearer Ripple Prime joined in 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.nodalexchange.com/about-us/corporate-governance/shareholders/"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "bsdigital",
+   "label": "Boerse Stuttgart Digital",
+   "type": "company",
+   "handle": "",
+   "summary": "Boerse Stuttgart Group crypto custody/brokerage arm; holds the coins for DZ BANK/Volksbanken \"meinKrypto\" (BTC, ETH, LTC, ADA at launch; no XRP).",
+   "grade": "A",
+   "sources": [
+    "https://www.dzbank.de/content/dzbank/de/home/die-dz-bank/presse/pressemitteilungen/2026/dz-bank-erhaelt-micar-zulassung-fuer-handel-mit-kryptowerten.html"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "qivalis",
+   "label": "Qivalis (bank euro-stablecoin consortium)",
+   "type": "company",
+   "handle": "",
+   "summary": "Consortium of European banks building a MiCA-regulated euro stablecoin; 12 banks incl. BBVA, DZ BANK, ING, UniCredit, BNP Paribas, SEB by Feb 2026; 37 banks by May 2026. A bank-issued rival to RLUSD/EURCV-style rails.",
+   "grade": "A",
+   "sources": [
+    "https://qivalis.eu/media/pages/news/bbva-joins-qivalis-banking-consortium-to-advance-launch-of-regulated-euro-stablecoin/f32ad6a3ce-1783350779/20260204_press-release_qivalis_bbva-joining.pdf",
+    "https://www.bbva.com/en/innovation/bbva-joins-banking-consortium-to-issue-european-stablecoin/"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "citi-token-services",
+   "label": "Citi Token Services",
+   "type": "company",
+   "handle": "",
+   "summary": "Citi private-permissioned blockchain for 24/7 tokenized-deposit payments and liquidity; live in 7 markets incl. US, UK, Japan, UAE (2026). Not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://services.citi.com/solutions/citi-token-services",
+    "https://www.citigroup.com/global/news/press-release/2026/citi-token-services-expands-global-footprint-japan-united-arab-emirates"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "zelle-stablecoin",
+   "label": "Early Warning / Zelle cross-border stablecoin initiative (Oct 2025)",
+   "type": "event",
+   "handle": "",
+   "summary": "Early Warning (Zelle operator, owned by big US banks incl. BofA) announced a stablecoin initiative to take Zelle international.",
+   "grade": "A",
+   "sources": [
+    "https://www.zelle.com/press-releases/zelle-goes-international-early-warning-expands-1t-payments-network-stablecoin"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "i-payout",
+   "label": "i-payout",
+   "type": "company",
+   "handle": "",
+   "summary": "North America/US (Fort Lauderdale) payout platform, founded 2007. Partnered with Ripple 2025-09-29 for real-time payouts into the US and Canada, with planned RLUSD stablecoin payouts. Ripple case study tags: Cross-Border Payments, RLUSD, NAMER.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/customer-case-study/i-payout/",
+    "https://www.prnewswire.com/news-releases/i-payout-and-ripple-partner-to-deliver-a-new-standard-in-cross-border-payout-infrastructure-302569891.html"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "unicoin",
+   "label": "Unicoin (Unicorn Hunters)",
+   "type": "company",
+   "handle": "",
+   "summary": "NYC crypto/\"rights certificate\" issuer. SEC sued it and top executives (2025-05-20, SDNY) for offering fraud that raised $100M+ from 5,000+ investors (alleged conduct from Feb 2022). Rosie Rios, then a Ripple director, joined its board in Mar 2022; Unicoin lists her as a 2022 director. She was not charged.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/newsroom/press-releases/2025-75",
+    "https://www.prnewswire.com/news-releases/former-treasurer-of-the-united-states-rosie-rios-joins-the-board-of-directors-of-unicorn-hunters--unicoin-301508944.html"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "opic",
+   "label": "OPIC (now US DFC)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "Overseas Private Investment Corporation, the US government development lender (now the International Development Finance Corporation). Ex-Ripple director Michael Warren sat on its board (Obama appointee, 2010–19).",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/ripple-press/ripple-appoints-michael-warren-to-board-of-directors/"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "kirit-bhatia",
+   "label": "Kirit Bhatia",
+   "type": "person",
+   "handle": "",
+   "summary": "Former Ripple VP Business Development (led international expansion); earlier Sernova Financial, RBS and JPMorgan. Appointed Chief Digital Assets Officer of Banking Circle (Oct 2025), about five months before Ripple agreed to buy Banking Circle's Australian subsidiary (BC Payments Australia).",
+   "grade": "B",
+   "sources": [
+    "https://fintechnews.sg/119604/digitalassets/banking-circle-chief-digital-assets/"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "mitchnick",
+   "label": "Robert (Robbie) Mitchnick",
+   "type": "person",
+   "handle": "",
+   "summary": "BlackRock Head of Digital Assets. Earlier spent time at Ripple (a 2017 student profile calls it a product-marketing internship), where he co-wrote \"A Fundamental Valuation Framework for Cryptoassets\" with Ripple director Susan Athey. Later at CPP Investments.",
+   "grade": "B",
+   "sources": [
+    "https://www.aima.org/widgets/team_members/teamMemberDetails/?id=E8925CC2-A204-4567-A54DE04C77F31DF1",
+    "https://medium.com/queens-business-review/robbie-ripple-and-the-future-of-global-finance-58152f3f2aab"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "algorand-foundation",
+   "label": "Algorand Foundation",
+   "type": "company",
+   "handle": "",
+   "summary": "Singapore-incorporated foundation behind the Algorand L1 (CEO Staci Warden). Hired former XRPL lead developer and Ripple engineering lead Nik Bougalis as CTO (2025-09-29).",
+   "grade": "B",
+   "sources": [
+    "https://crypto.news/ex-ripple-exec-joins-algorand-foundation-as-cto-to-reboot-its-l1-strategy/"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "delatinne",
+   "label": "Marjan Delatinne",
+   "type": "person",
+   "handle": "",
+   "summary": "Left Swift gpi to join Ripple (2017) for European sales; became Ripple Global Head of Banking; joined SETL as Head of Payments (Feb 2021).",
+   "grade": "B",
+   "sources": [
+    "https://www.financemagnates.com/executives/moves/ripple-poaches-marjan-delatinne-swift-spearhead-european-sales/",
+    "https://financialit.net/news/people-moves/setl-hires-ripple-global-head-banking-lead-payments-business"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "setl",
+   "label": "SETL",
+   "type": "company",
+   "handle": "",
+   "summary": "UK DLT firm behind the Regulated Liability Network (RLN) concept. Hired ex-Ripple Global Head of Banking Marjan Delatinne (2021).",
+   "grade": "B",
+   "sources": [
+    "https://financialit.net/news/people-moves/setl-hires-ripple-global-head-banking-lead-payments-business"
+   ],
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "id": "michelle-bond",
+   "label": "Michelle Bond",
+   "type": "person",
+   "handle": "",
+   "summary": "Joined Ripple's DC regulatory team in Oct 2019 and sat on the Blockchain Association board. Previously SEC Senior Counsel, Senate Banking Committee Senior Counsel, and head of global regulatory affairs at Bloomberg (public roles only).",
+   "grade": "B",
+   "sources": [
+    "https://ct.com/news/ripple-adds-four-members-to-regulatory-team-joins-blockchain-association"
+   ],
+   "sector": "regulators",
+   "added": "2026-10-19T23:31:25-04:00"
   }
  ],
  "edges": [
@@ -33851,12 +34097,22 @@
   {
    "from": "blackrock",
    "to": "rlusd",
-   "label": "BUIDL holders can redeem into RLUSD via Securitize (Sep 2025) — Ethereum, no XRP leg",
+   "label": "BUIDL holders can redeem into RLUSD via Securitize (Sep 2025); release does not name the chain; no XRP leg",
    "grade": "A",
    "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/",
    "strength": 3,
    "key": false,
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "label",
+     "from": "BUIDL holders can redeem into RLUSD via Securitize (Sep 2025) — Ethereum, no XRP leg",
+     "to": "BUIDL holders can redeem into RLUSD via Securitize (Sep 2025); release does not name the chain; no XRP leg",
+     "note": "folds in historian's CORRECTION edge: 'Ethereum' is not stated in the release",
+     "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/"
+    }
+   ]
   },
   {
    "from": "blackrock",
@@ -33871,12 +34127,22 @@
   {
    "from": "blackrock",
    "to": "rlusd",
-   "label": "CORRECTION to prior edge: release does not state the chain ('Ethereum' label unverified); Securitize also integrating with XRPL; no XRP leg described",
+   "label": "Securitize also integrating with XRPL (same Sep 2025 release; no XRP leg described)",
    "grade": "A",
    "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/",
    "strength": 1,
    "key": false,
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "label",
+     "from": "CORRECTION to prior edge: release does not state the chain ('Ethereum' label unverified); Securitize also integrating with XRPL; no XRP leg described",
+     "to": "Securitize also integrating with XRPL (same Sep 2025 release; no XRP leg described)",
+     "note": "relation text instead of 'CORRECTION' wording; the chain caveat moved to the main edge",
+     "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/"
+    }
+   ]
   },
   {
    "from": "blackrock",
@@ -34770,12 +35036,22 @@
   {
    "from": "chertok",
    "to": "vast",
-   "label": "CORRECTION/source for prior edge: founder & GP of Vast Ventures; lists Ripple board role (Wellfound profile, B/C-lead)",
+   "label": "founder & GP of Vast Ventures; self-published profile lists a Ripple board role (Wellfound)",
    "grade": "B",
    "source": "https://wellfound.com/p/dchertok",
    "strength": 3,
    "key": false,
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "label",
+     "from": "CORRECTION/source for prior edge: founder & GP of Vast Ventures; lists Ripple board role (Wellfound profile, B/C-lead)",
+     "to": "founder & GP of Vast Ventures; self-published profile lists a Ripple board role (Wellfound)",
+     "note": "relation text instead of 'CORRECTION' wording",
+     "source": "https://wellfound.com/p/dchertok"
+    }
+   ]
   },
   {
    "from": "ripple",
@@ -47451,7 +47727,7 @@
   },
   {
    "from": "larsen",
-   "to": "larsen-sales-alleged",
+   "to": "larsen-sales-sec",
    "label": "alleged seller",
    "grade": "A",
    "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.4.0.pdf",
@@ -47461,7 +47737,7 @@
   },
   {
    "from": "torres-ruling-2023",
-   "to": "larsen-sales-alleged",
+   "to": "larsen-sales-sec",
    "label": "held exec programmatic sales not investment contracts",
    "grade": "A",
    "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.874.0.pdf",
@@ -61596,22 +61872,50 @@
    "to": "salt",
    "label": "sponsor of SALT Wyoming Blockchain Symposium 2026; Garlinghouse speaks",
    "grade": "B",
-   "source": "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+   "source": "https://www.salt.org/sponsors/ripple",
    "strength": 2,
    "key": false,
    "side": "neutral",
-   "added": "2026-10-19T23:24:14-04:00"
+   "added": "2026-10-19T23:24:14-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "source",
+     "from": "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+     "to": "https://www.salt.org/sponsors/ripple",
+     "note": "replace 404 Blockstream URL; SALT sponsor page lists Ripple (Garlinghouse speaker: 36crypto.com/ripple-ceo-brad-garlinghouse-confirmed-for-wyoming-blockchain-symposium/)",
+     "source": "https://www.salt.org/sponsors/ripple"
+    }
+   ]
   },
   {
    "from": "salt",
    "to": "kraken",
    "label": "co-hosts Wyoming Blockchain Symposium",
-   "grade": "B",
-   "source": "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+   "grade": "A",
+   "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026",
    "strength": 1,
    "key": false,
    "side": "neutral",
-   "added": "2026-10-19T23:24:14-04:00"
+   "added": "2026-10-19T23:24:14-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "source",
+     "from": "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+     "to": "https://www.salt.org/events/wyoming-blockchain-symposium-2026",
+     "note": "replace 404 Blockstream URL; SALT page: 'SALT and Kraken host'",
+     "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+    },
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "grade",
+     "from": "B",
+     "to": "A",
+     "note": "replace 404 Blockstream URL; SALT page: 'SALT and Kraken host'",
+     "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+    }
+   ]
   },
   {
    "from": "coinbase",
@@ -61837,12 +62141,30 @@
    "from": "uwyo",
    "to": "salt",
    "label": "academic partner of Wyoming Blockchain Symposium",
-   "grade": "B",
-   "source": "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+   "grade": "A",
+   "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026",
    "strength": 1,
    "key": false,
    "side": "neutral",
-   "added": "2026-10-19T23:24:14-04:00"
+   "added": "2026-10-19T23:24:14-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "source",
+     "from": "https://blockstreammedia.com/2026/07/30/ripple-takes-center-stage-at-wyoming-blockchain-event/",
+     "to": "https://www.salt.org/events/wyoming-blockchain-symposium-2026",
+     "note": "replace 404 Blockstream URL; SALT event page names UW CBDI as supporting partner",
+     "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+    },
+    {
+     "date": "2026-10-19T23:31:25-04:00",
+     "field": "grade",
+     "from": "B",
+     "to": "A",
+     "note": "replace 404 Blockstream URL; SALT event page names UW CBDI as supporting partner",
+     "source": "https://www.salt.org/events/wyoming-blockchain-symposium-2026"
+    }
+   ]
   },
   {
    "from": "infanger",
@@ -64002,6 +64324,1095 @@
    "side": "neutral",
    "key": false,
    "added": "2026-10-19T23:26:37-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "rprime",
+   "label": "Coinbase Ventures in Hidden Road $50M Series A (Jul 2022)",
+   "grade": "A",
+   "source": "https://www.prnewswire.com/news-releases/hidden-road-raises-50-million-in-series-a-led-by-castle-island-ventures-301581877.html",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "barclays",
+   "to": "robinhood",
+   "label": "financial adviser to Robinhood on Bitstamp acquisition (2024)",
+   "grade": "A",
+   "source": "https://investors.robinhood.com/pressreleases/news-details/2024/Robinhood-to-Acquire-Bitstamp/default.aspx",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "nv-fid",
+   "to": "fortress-trust",
+   "label": "cease-and-desist: liquidity \"wholly inadequate\", owes clients ~$8.37M fiat + $3.92M crypto (2025-10-22)",
+   "grade": "A",
+   "source": "https://www.fid.nv.gov/siteassets/opinion/Fortress_Trust_LLC_-_Cease_and_Desist_10.22.25.pdf",
+   "strength": 4,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "mgi-class-2021",
+   "to": "moneygram",
+   "label": "MoneyGram sued by shareholders over Ripple/XRP fee disclosures (dismissed 2021-07-30)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1273931/000127393121000130/mgi-20210802.htm",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "mgi-class-2021",
+   "to": "ripple",
+   "label": "Ripple XRP \"market development fees\" at center of MGI suit",
+   "grade": "A",
+   "source": "https://securities.stanford.edu/filings-case.html?id=107653",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "edx",
+   "label": "led EDX Markets $76M Series C (Jul 7, 2026); Kitao cites RLUSD handling",
+   "grade": "A",
+   "source": "https://edxmarkets.com/edx-markets-closes-76-million-series-c-funding-round-led-by-sbi-holdings-to-enhance-institutional-digital-asset-infrastructure/",
+   "strength": 3,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "edx",
+   "to": "occ",
+   "label": "applied for EDX Trust national trust bank charter (2026)",
+   "grade": "A",
+   "source": "https://edxmarkets.com/edx-markets-closes-76-million-series-c-funding-round-led-by-sbi-holdings-to-enhance-institutional-digital-asset-infrastructure/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "futureverse",
+   "to": "ripple",
+   "label": "Ripple co-invested in $54M Series A led by 10T (Jul 2023)",
+   "grade": "A",
+   "source": "https://www.prnewswire.com/news-releases/futureverse-raises-54-million-series-a-to-scale-metaverse-infrastructure-and-introduce-ai-to-the-metaverse-301879447.html",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "gtreasury",
+   "to": "rlusd",
+   "label": "Ripple Treasury Digital Asset Accounts manage XRP + RLUSD with fiat (Apr 2026)",
+   "grade": "A",
+   "source": "https://ripple.com/ripple-press/ripple-treasury-launches-the-first-treasury-management-system-tms-with-native-digital-asset-capabilities/",
+   "strength": 3,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "gtreasury",
+   "to": "xrp",
+   "label": "Ripple Treasury TMS holds XRP natively alongside cash (Apr 2026)",
+   "grade": "A",
+   "source": "https://ripple.com/ripple-press/ripple-treasury-launches-the-first-treasury-management-system-tms-with-native-digital-asset-capabilities/",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "kbank",
+   "to": "upbit",
+   "label": "real-name KRW account bank for Upbit, extended to Oct 2027",
+   "grade": "A",
+   "source": "https://biz.chosun.com/en/en-finance/2026/10/05/P4BKOBBDYRGK5O5P4EOTHV6GEQ/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "nomura",
+   "to": "komainu",
+   "label": "co-founded Komainu with Ledger + CoinShares (launched Jun 2020)",
+   "grade": "A",
+   "source": "https://www.nomuraholdings.com/en/news/nr_archive/news20200617103049/main/0/link/File44849183.pdf",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "state-street",
+   "to": "taurus",
+   "label": "chose Taurus for custody/tokenization platform (Aug 2024), not Ripple Custody",
+   "grade": "A",
+   "source": "https://investors.statestreet.com/investor-news-events/press-releases/news-details/2024/State-Street-Announces-Agreement-with-Taurus-to-Deliver-Full-Service-Digital-Platform-for-Institutional-Investors/default.aspx",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "state-street",
+   "to": "hyperledger-besu",
+   "label": "Taurus stack integrated on private Hyperledger Besu chain",
+   "grade": "A",
+   "source": "https://www.statestreet.com/us/en/insights/digital-digest-july-2025-state-street-taurus",
+   "strength": 1,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "smbc",
+   "to": "fireblocks",
+   "label": "stablecoin MoU with Fireblocks, Ava Labs, TIS (Apr 2025) - not XRPL",
+   "grade": "A",
+   "source": "https://www.smbc.co.jp/news_e/pdf/e20250402_01.pdf",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "mufg",
+   "to": "mizuho",
+   "label": "joint yen stablecoin with SMBC + Mizuho on Progmat (Ethereum/Polygon/Avalanche/Cosmos)",
+   "grade": "B",
+   "source": "https://cointelegraph.com/news/japan-mega-banks-stablecoin-mitsubishi-progmat",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "lloyds",
+   "to": "canton",
+   "label": "UK first tokenised-deposit gilt purchase on Canton Network (Jan 2026)",
+   "grade": "A",
+   "source": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/lloyds-tokenisation.html",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "lloyds",
+   "to": "archax",
+   "label": "bought tokenised gilt from Archax with tokenised deposits",
+   "grade": "A",
+   "source": "https://www.lloydsbankinggroup.com/media/press-releases/2026/lloyds/lloyds-tokenisation.html",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "proshares",
+   "to": "xrp",
+   "label": "withdrew 3x Daily XRP ETF amendment (AW, Dec 3, 2025)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1174610/000119312525306199/f43473d1.htm",
+   "strength": 1,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "volshares",
+   "to": "xrp",
+   "label": "withdrew 5x and -1x XRP ETF amendments (AW, Jan 2026)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1884021/000121390026008885/ea0274331-38_aw.htm",
+   "strength": 1,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "castle-island",
+   "to": "ripple",
+   "label": "partner Nic Carter: Ripple did not \"discover\" XRP, it created it (2018 criticism)",
+   "grade": "B",
+   "source": "https://beincrypto.com/ripple-slammed-for-implying-company-simply-discovered-xrp/",
+   "strength": 1,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "galaxy",
+   "to": "bitstamp",
+   "label": "Galaxy Digital Partners exclusive financial adviser to Bitstamp on Robinhood sale (2024)",
+   "grade": "A",
+   "source": "https://investors.robinhood.com/pressreleases/news-details/2024/Robinhood-to-Acquire-Bitstamp/default.aspx",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "fortress-receivership-2025",
+   "to": "fortress-trust",
+   "label": "trust company placed under state action; client shortfall",
+   "grade": "A",
+   "source": "https://www.fid.nv.gov/siteassets/opinion/Fortress_Trust_LLC_-_Cease_and_Desist_10.22.25.pdf",
+   "strength": 4,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "nv-fid",
+   "to": "fortress-receivership-2025",
+   "label": "petitioned for receivership of parent Elemental (stipulated, Oct 2025)",
+   "grade": "A",
+   "source": "https://www.business.nv.gov/siteassets/content/files/elemental-financial-technologies-inc.-petition-and-exhibits-filed.pdf",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "fortress-receivership-2025",
+   "to": "ripple",
+   "label": "collapse of a Ripple-backed trust co. two years after Ripple dropped the purchase",
+   "grade": "A",
+   "source": "https://www.business.nv.gov/siteassets/content/files/elemental-financial-technologies-inc.-petition-and-exhibits-filed.pdf",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "fortress-trust",
+   "to": "ripple",
+   "label": "Ripple was a minority investor in the $22.5M seed of parent Fortress Blockchain (Aug 2022)",
+   "grade": "A",
+   "source": "https://www.prnewswire.com/news-releases/22-5m-seed-funding-announced-by-web3-infrastructure-firm-fortress-blockchain-technologies-301602637.html",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "swisscom",
+   "to": "zkb",
+   "label": "co-investors in Metaco $17M Series A led by G+D (Jul 2020)",
+   "grade": "A",
+   "source": "https://www.metaco.com/press-release/metaco-secures-17m-in-series-a-investment-from-global-financial-services-leaders/",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "eex",
+   "to": "nodal-clear",
+   "label": "ultimate owner of Nodal Clear via Nodal Exchange Holdings",
+   "grade": "A",
+   "source": "https://www.nodalexchange.com/about-us/corporate-governance/shareholders/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "galaxy",
+   "to": "superstate",
+   "label": "Galaxy Digital in Superstate $82.5M Series B (Jan 2026); also in Ripple $500M round",
+   "grade": "A",
+   "source": "https://www.orrick.com/en/News/2026/02/Superstate-Raises-82-5-Million-Series-B-to-Advance-Tokenized-Investment-Products",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "brevan-howard",
+   "to": "superstate",
+   "label": "Brevan Howard Digital in Superstate Series B (Jan 2026)",
+   "grade": "A",
+   "source": "https://www.orrick.com/en/News/2026/02/Superstate-Raises-82-5-Million-Series-B-to-Advance-Tokenized-Investment-Products",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "bullish",
+   "to": "superstate",
+   "label": "Bullish in Superstate Series B (Jan 2026)",
+   "grade": "A",
+   "source": "https://www.orrick.com/en/News/2026/02/Superstate-Raises-82-5-Million-Series-B-to-Advance-Tokenized-Investment-Products",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "bitwise-am",
+   "to": "superstate",
+   "label": "Bitwise USCC tokenized fund runs on Superstate FundOS (2026)",
+   "grade": "B",
+   "source": "https://x.com/Bitwise/status/2052373189213229153",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "ibm",
+   "to": "stellar",
+   "label": "IBM Blockchain World Wire built on Stellar/XLM, not XRP (Mar 2019)",
+   "grade": "A",
+   "source": "https://www.prnewswire.com/news-releases/ibm-blockchain-world-wire-a-new-global-payment-network-to-support-payments-and-foreign-exchange-in-more-than-50-countries-300813674.html",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "eurcv",
+   "to": "stellar",
+   "label": "EURCV also live on Stellar (Mar 10, 2026) - XRPL one of 4 chains",
+   "grade": "A",
+   "source": "https://www.sgforge.com/sgf-eur-coinvertible-on-the-stellar-network/",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "dz-bank",
+   "to": "bsdigital",
+   "label": "meinKrypto retail coins held by Boerse Stuttgart Digital, not Ripple Custody; launch list BTC/ETH/LTC/ADA, no XRP",
+   "grade": "A",
+   "source": "https://www.dzbank.de/content/dzbank/de/home/die-dz-bank/presse/pressemitteilungen/2026/dz-bank-erhaelt-micar-zulassung-fuer-handel-mit-kryptowerten.html",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "dz-bank",
+   "to": "qivalis",
+   "label": "member of euro-stablecoin bank consortium",
+   "grade": "A",
+   "source": "https://qivalis.eu/media/pages/news/bbva-joins-qivalis-banking-consortium-to-advance-launch-of-regulated-euro-stablecoin/f32ad6a3ce-1783350779/20260204_press-release_qivalis_bbva-joining.pdf",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "bbva",
+   "to": "qivalis",
+   "label": "joined Qivalis euro stablecoin consortium (Feb 4, 2026)",
+   "grade": "A",
+   "source": "https://www.bbva.com/en/innovation/bbva-joins-banking-consortium-to-issue-european-stablecoin/",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "unicredit",
+   "to": "qivalis",
+   "label": "founding-wave member of Qivalis",
+   "grade": "A",
+   "source": "https://qivalis.eu/media/pages/news/bbva-joins-qivalis-banking-consortium-to-advance-launch-of-regulated-euro-stablecoin/f32ad6a3ce-1783350779/20260204_press-release_qivalis_bbva-joining.pdf",
+   "strength": 1,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "seb",
+   "to": "qivalis",
+   "label": "member of Qivalis",
+   "grade": "A",
+   "source": "https://qivalis.eu/media/pages/news/bbva-joins-qivalis-banking-consortium-to-advance-launch-of-regulated-euro-stablecoin/f32ad6a3ce-1783350779/20260204_press-release_qivalis_bbva-joining.pdf",
+   "strength": 1,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "citi",
+   "to": "citi-token-services",
+   "label": "runs own private tokenized-deposit chain (7 markets, 2026)",
+   "grade": "A",
+   "source": "https://www.citigroup.com/global/news/press-release/2026/citi-token-services-expands-global-footprint-japan-united-arab-emirates",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "bofa",
+   "to": "zelle-stablecoin",
+   "label": "owner bank of Early Warning, backing Zelle stablecoin push (Oct 2025)",
+   "grade": "A",
+   "source": "https://www.zelle.com/press-releases/zelle-goes-international-early-warning-expands-1t-payments-network-stablecoin",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "citadel-sec",
+   "to": "edx",
+   "label": "founding backer of EDX Markets (Sep 2022)",
+   "grade": "A",
+   "source": "https://edxmarkets.com/digital-asset-exchange-edx-markets-launches-with-backing-from-leading-broker-dealers-global-market-makers-and-venture-capital-firms/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "fidelityda",
+   "to": "edx",
+   "label": "founding backer of EDX Markets (Sep 2022)",
+   "grade": "A",
+   "source": "https://edxmarkets.com/digital-asset-exchange-edx-markets-launches-with-backing-from-leading-broker-dealers-global-market-makers-and-venture-capital-firms/",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "virtu",
+   "to": "edx",
+   "label": "founding backer of EDX Markets (Sep 2022)",
+   "grade": "A",
+   "source": "https://edxmarkets.com/digital-asset-exchange-edx-markets-launches-with-backing-from-leading-broker-dealers-global-market-makers-and-venture-capital-firms/",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "paradigm",
+   "to": "edx",
+   "label": "founding backer of EDX Markets (Sep 2022)",
+   "grade": "A",
+   "source": "https://edxmarkets.com/digital-asset-exchange-edx-markets-launches-with-backing-from-leading-broker-dealers-global-market-makers-and-venture-capital-firms/",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "bbva",
+   "to": "swift-ledger",
+   "label": "working with SWIFT on blockchain shared bank registry (per BBVA, Feb 2026)",
+   "grade": "A",
+   "source": "https://www.bbva.com/en/innovation/bbva-joins-banking-consortium-to-issue-european-stablecoin/",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "fxrp",
+   "to": "hyperliquid",
+   "label": "Hyperliquid's first XRP spot market (FXRP/USDC, Jan 7 2026) via LayerZero OFT/HyperEVM",
+   "grade": "A",
+   "source": "https://flare.network/news/hyperliquids-first-xrp-spot-market-powered-by-flares-fxrp",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "hextrust",
+   "to": "fxrp",
+   "label": "institutional FXRP minting/redemption live for clients (Feb 10 2026)",
+   "grade": "A",
+   "source": "https://www.hextrust.com/resources-collection/hex-trust-and-flare-launch-secure-institutional-access-to-fxrp-minting-and-flr-staking",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "founders-fund",
+   "to": "paxos",
+   "label": "portfolio company (Founders Fund portfolio page)",
+   "grade": "A",
+   "source": "https://foundersfund.com/portfolio/",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "founders-fund",
+   "to": "polymarket",
+   "label": "portfolio company (Founders Fund portfolio page)",
+   "grade": "A",
+   "source": "https://foundersfund.com/portfolio/",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "ondo",
+   "label": "Coinbase Ventures strategic investor in $20M Series A (Apr 2022)",
+   "grade": "A",
+   "source": "https://ondo.finance/blog/ondo-raises-20m-in-series-a-investment-round-led-by-founders-fund-and-pantera-capital",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "xdc",
+   "to": "hextrust",
+   "label": "XDC Network adds Hex Trust as institutional masternode validator (Hex Trust news list)",
+   "grade": "B",
+   "source": "https://www.hextrust.com/resources-collection/hex-trust-receives-strategic-investment-from-leading-asia-blockchain-firm-kenetic",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "kweather",
+   "to": "ripple",
+   "label": "acquiring economic rights to part of VivoPower Ripple Labs stake, subject to Ripple approval process (6-K Feb 2026)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226005214/ex99-1.htm",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "lean-ventures",
+   "to": "ripple",
+   "label": "to economically acquire balance of VivoPower Ripple Labs shares, subject to Ripple approval (6-K Feb 2026)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226005214/ex99-1.htm",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "cumberland",
+   "to": "gxrp",
+   "label": "liquidity provider to Grayscale XRP Trust (424B3)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/2037427/000119312526159164/424b3_xrp_pos_am_final.htm",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "flowdesk",
+   "to": "gxrp",
+   "label": "liquidity provider to Grayscale XRP Trust (424B3)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/2037427/000119312526159164/424b3_xrp_pos_am_final.htm",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "galaxy",
+   "to": "gxrp",
+   "label": "Galaxy Digital Trading Cayman: liquidity provider to GXRP (424B3)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/2037427/000119312526159164/424b3_xrp_pos_am_final.htm",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "dl-holdings",
+   "label": "supports Animoca Brands LPF tokenisation on XRPL (Cyberport subsidy, Sep 2025; HKEX announcement)",
+   "grade": "A",
+   "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1008/2025100801942.pdf",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "dl-holdings",
+   "to": "kraken",
+   "label": "holds private equity interest in Payward (Kraken); plans to tokenise via Asseto (HKEX Oct 2025)",
+   "grade": "A",
+   "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1008/2025100801942.pdf",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "dl-holdings",
+   "to": "hk-sfc",
+   "label": "DL Tower LPF/Animoca LPF RWA plans submitted to SFC for approval (pending)",
+   "grade": "A",
+   "source": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/1008/2025100801942.pdf",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "bitstamp",
+   "to": "opencoin",
+   "label": "Bitcoin Bridge conversion venue (OpenCoin release 2013-07-02: Ripple→BTC via Bitstamp.net)",
+   "grade": "A",
+   "source": "https://www.firmenpresse.de/pressrelease275023/opencoin-extends-ripple-network-to-include-all-bitcoin-merchants-and-users.html",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "i-payout",
+   "to": "ripplenet",
+   "label": "Ripple Payments US/Canada payout partner (2025-09-29; case study 2026-03)",
+   "grade": "A",
+   "source": "https://ripple.com/customer-case-study/i-payout/",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "i-payout",
+   "to": "rlusd",
+   "label": "planned RLUSD stablecoin payouts (case study tagged RLUSD)",
+   "grade": "A",
+   "source": "https://ripple.com/customer-case-study/i-payout/",
+   "strength": 1,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "macquarie",
+   "to": "xrpr",
+   "label": "authorized participant (Form N-CEN, ETF Opportunities Trust, filed 2026-05-13)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000089418926014719/primary_doc.xml",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "virtu",
+   "to": "xrpr",
+   "label": "authorized participant (Form N-CEN, ETF Opportunities Trust, filed 2026-05-13)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000089418926014719/primary_doc.xml",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "goldman",
+   "to": "xrpr",
+   "label": "authorized participant (Form N-CEN, ETF Opportunities Trust, filed 2026-05-13); separate from its 13F holding",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000089418926014719/primary_doc.xml",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "jane-street",
+   "to": "xrpr",
+   "label": "authorized participant (Form N-CEN, ETF Opportunities Trust, filed 2026-05-13); separate from its 13F holding",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000089418926014719/primary_doc.xml",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "rios",
+   "to": "unicoin",
+   "label": "Joined Unicorn Hunters/Unicoin board (2022-03-23) while a Ripple director; listed past director 2022. Not a defendant in the SEC suit",
+   "grade": "A",
+   "source": "https://www.prnewswire.com/news-releases/former-treasurer-of-the-united-states-rosie-rios-joins-the-board-of-directors-of-unicorn-hunters--unicoin-301508944.html",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "sec",
+   "to": "unicoin",
+   "label": "SEC v. Unicoin (SDNY 1:25-cv-04254, filed 2025-05-20): offering fraud and §5 claims vs company and executives",
+   "grade": "A",
+   "source": "https://www.sec.gov/newsroom/press-releases/2025-75",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "michael-warren",
+   "to": "opic",
+   "label": "Board of Directors, OPIC (Obama appointee 2010–2019; audit committee)",
+   "grade": "A",
+   "source": "https://ripple.com/ripple-press/ripple-appoints-michael-warren-to-board-of-directors/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "bilich",
+   "to": "morgan-stanley",
+   "label": "ex-Morgan Stanley Global Capital Markets (M&A financings), 2007–12, before Ripple (2016); CFO from Jan 2024",
+   "grade": "B",
+   "source": "https://people.equilar.com/bio/person/jon-bilich-ripple/57296512",
+   "strength": 1,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "kirit-bhatia",
+   "to": "ripple",
+   "label": "ex-VP Business Development (international expansion)",
+   "grade": "B",
+   "source": "https://fintechnews.sg/119604/digitalassets/banking-circle-chief-digital-assets/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "kirit-bhatia",
+   "to": "banking-circle",
+   "label": "Alumni move: Chief Digital Assets Officer (2025-10-02)",
+   "grade": "B",
+   "source": "https://fintechnews.sg/119604/digitalassets/banking-circle-chief-digital-assets/",
+   "strength": 3,
+   "key": true,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "kirit-bhatia",
+   "to": "jpm",
+   "label": "ex-JPMorgan Chase",
+   "grade": "B",
+   "source": "https://fintechnews.sg/119604/digitalassets/banking-circle-chief-digital-assets/",
+   "strength": 1,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "mitchnick",
+   "to": "ripple",
+   "label": "early-career stint at Ripple (intern-level per 2017 profile); co-authored crypto valuation framework",
+   "grade": "B",
+   "source": "https://www.aima.org/widgets/team_members/teamMemberDetails/?id=E8925CC2-A204-4567-A54DE04C77F31DF1",
+   "strength": 1,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "mitchnick",
+   "to": "athey",
+   "label": "co-author, \"A Fundamental Valuation Framework for Cryptoassets\" (written while at Ripple)",
+   "grade": "B",
+   "source": "https://www.aima.org/widgets/team_members/teamMemberDetails/?id=E8925CC2-A204-4567-A54DE04C77F31DF1",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "mitchnick",
+   "to": "blackrock",
+   "label": "Alumni move: Head of Digital Assets, BlackRock",
+   "grade": "A",
+   "source": "https://www.aima.org/widgets/team_members/teamMemberDetails/?id=E8925CC2-A204-4567-A54DE04C77F31DF1",
+   "strength": 3,
+   "key": true,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "nik-bougalis",
+   "to": "algorand-foundation",
+   "label": "Alumni move: CTO, Algorand Foundation (2025-09-29), ex-XRPL lead developer / Ripple engineering lead",
+   "grade": "B",
+   "source": "https://crypto.news/ex-ripple-exec-joins-algorand-foundation-as-cto-to-reboot-its-l1-strategy/",
+   "strength": 3,
+   "key": true,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "nik-bougalis",
+   "to": "ripple",
+   "label": "ex-engineering lead; XRPL lead developer",
+   "grade": "B",
+   "source": "https://crypto.news/ex-ripple-exec-joins-algorand-foundation-as-cto-to-reboot-its-l1-strategy/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "yoshikawa",
+   "to": "sbi",
+   "label": "SBI Holdings is anchor LP of her $100M Across Ventures Fund I (Apr 2026); SBI cited her role in the Ripple–SBI JVs",
+   "grade": "B",
+   "source": "https://coinpedia.org/news/ex-ripple-vp-who-built-japans-xrp-strategy-launches-100m-fund-with-sbi/",
+   "strength": 3,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "gregkidd",
+   "to": "uphold",
+   "label": "USBC–Uphold–Vast Bank definitive tokenized-deposit agreement (2026-01-26; MOU Oct 2025); Kidd also an early Uphold investor",
+   "grade": "B",
+   "source": "https://cryptobriefing.com/usbc-tokenized-bank-deposits-uphold-vast-bank/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "delatinne",
+   "to": "swift-gpi",
+   "label": "came from Swift gpi (2017)",
+   "grade": "B",
+   "source": "https://www.financemagnates.com/executives/moves/ripple-poaches-marjan-delatinne-swift-spearhead-european-sales/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "delatinne",
+   "to": "ripple",
+   "label": "Ripple European sales, then Global Head of Banking (2017–21)",
+   "grade": "B",
+   "source": "https://www.financemagnates.com/executives/moves/ripple-poaches-marjan-delatinne-swift-spearhead-european-sales/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "delatinne",
+   "to": "setl",
+   "label": "Alumni move: Head of Payments, SETL (2021)",
+   "grade": "B",
+   "source": "https://financialit.net/news/people-moves/setl-hires-ripple-global-head-banking-lead-payments-business",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "eric-jeck",
+   "to": "outmatch",
+   "label": "ex-Executive Chairman of OutMatch (per Ripple bio); Garlinghouse also sat on the OutMatch board, a shared outside seat",
+   "grade": "A",
+   "source": "https://ripple.com/company/leadership/",
+   "strength": 3,
+   "key": true,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "hollars",
+   "to": "a16z",
+   "label": "ex-partner at Andreessen Horowitz (2012), counselling portfolio companies; a16z was a 2013 OpenCoin investor",
+   "grade": "A",
+   "source": "https://ripple.com/company/leadership/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "hollars",
+   "to": "hightail",
+   "label": "led media campaigns for Hightail (Garlinghouse's pre-Ripple company); also ran Ripple comms as a Hatch Agency partner before joining (2018)",
+   "grade": "A",
+   "source": "https://ripple.com/company/leadership/",
+   "strength": 1,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "mlong",
+   "to": "prosper",
+   "label": "handled PR for Prosper (Larsen's prior company) before joining Ripple as its first comms hire (2013)",
+   "grade": "A",
+   "source": "https://ripple.com/company/leadership/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "kimmel",
+   "to": "cme",
+   "label": "member, CME Group FCM Advisory Board",
+   "grade": "A",
+   "source": "https://ripple.com/company/leadership/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "kimmel",
+   "to": "dtcc",
+   "label": "member, DTCC Digital Assets Solutions Advisory Council",
+   "grade": "A",
+   "source": "https://ripple.com/company/leadership/",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "winklevoss",
+   "to": "wh-ballroom",
+   "label": "Tyler & Cameron Winklevoss listed as White House ballroom donors (Oct 2025)",
+   "grade": "A",
+   "source": "https://www.cnn.com/2025/10/23/politics/ballroom-donors-white-house-trump",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "mccalebexit",
+   "to": "w-tacostand",
+   "label": "sell-down vehicle: 'tacostand' wallet sold its last 1.1M XRP on 2022-07-17, ending the 9B exit",
+   "grade": "A",
+   "source": "https://ripple.com/insights/the-stand-is-finally-out-of-tacos/",
+   "strength": 3,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "bounty-2013",
+   "label": "complaint ¶¶500–502 alleges Ripple and Larsen distributed ~12.5B XRP via bounties/giveaways (2013–14); Torres held these not investment contracts",
+   "grade": "A",
+   "source": "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "amd-amm",
+   "to": "xrpl-amm",
+   "label": "XLS-30 amendment (live Mar 2024) created the AMM pools now mapped here (~1,000 pools, ~10–12M XRP)",
+   "grade": "A",
+   "source": "https://github.com/XRPLF/XRPL-Standards/tree/master/XLS-0030-automated-market-maker",
+   "strength": 3,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "xrpl-amm",
+   "to": "xrpl-dex-native",
+   "label": "subset: AMM pool landscape within the native DEX+AMM (DefiLlama ~$34.8M TVL)",
+   "grade": "A",
+   "source": "https://api.xrpscan.com/api/v1/amm/pools",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "blockchain-assn",
+   "label": "joined the Blockchain Association (2019-10-22); the Association later filed a pro-Ripple amicus (ECF 706, 2022)",
+   "grade": "B",
+   "source": "https://ct.com/news/ripple-adds-four-members-to-regulatory-team-joins-blockchain-association",
+   "strength": 3,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "michelle-bond",
+   "to": "ripple",
+   "label": "joined global regulatory team (Oct 2019)",
+   "grade": "B",
+   "source": "https://ct.com/news/ripple-adds-four-members-to-regulatory-team-joins-blockchain-association",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "michelle-bond",
+   "to": "sec",
+   "label": "ex-Senior Counsel at the SEC (pre-Ripple)",
+   "grade": "B",
+   "source": "https://ct.com/news/ripple-adds-four-members-to-regulatory-team-joins-blockchain-association",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
+  },
+  {
+   "from": "michelle-bond",
+   "to": "blockchain-assn",
+   "label": "board seat while at Ripple (2019)",
+   "grade": "B",
+   "source": "https://ct.com/news/ripple-adds-four-members-to-regulatory-team-joins-blockchain-association",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-19T23:31:25-04:00"
   }
  ]
 }
