@@ -13,7 +13,9 @@ Research data only. This is not financial advice. No holdings, orders or portfol
 | `build.py` | Validates graph.json, computes the layout, and regenerates index.html. When the output changes it stamps `meta.updated` with the current America/New_York time (in graph.json and the page). It's idempotent: re-running with no changes leaves both files byte-identical. |
 | `layout.py` | Deterministic sector layout (fixed x/y for every node). Called by build.py. |
 | `layout-cache.json` | Last build's positions and sector wedges (local only, not published). It keeps existing nodes in place between builds. |
-| `publish.sh` | Rebuilds, then pushes index.html, graph.json and README.md to GitHub Pages. |
+| `publish.sh` | Rebuilds, runs `verify_public.py` (aborts on any failure), then pushes index.html, graph.json and README.md to GitHub Pages. |
+| `verify_public.py` | Checks the built public output: privacy, private terms, no CORRECTION labels, sources, key-link count + both sides, every shipped UI feature, stories, why lines, portfolio terms, node-count shrink guard. |
+| `PUBLISH-CHECKLIST.md` | The canonical step list every publish follows. |
 | `vis-network.min.js` | Local copy of vis-network 9.1.9 (inlined at build time). |
 
 ## Viewing
@@ -26,7 +28,9 @@ Controls: search, type chips (tap to toggle), grade filter, a "new since" date (
 Dots can't be dragged (`interaction.dragNodes: false`, physics off), so every visit shows the same picture. You can pan, zoom (pinch on a phone), and tap. Small labels appear as you zoom in.
 
 - **Spacing** (0.6×–3×, default 1×) scales every node's fixed position from the center, along with the sector wedges and titles. Dot and label sizes stay the same, so a higher setting spreads things out and reduces clutter. The page remembers the value in `localStorage` (`xrpweb.spacing`).
-- **★ Key links** shows only the highest-signal connections: every edge with `"key": true`, plus any A/B edge with strength 5 that touches a hub (a node with 10+ links). XRP, Ripple and the XRPL always stay visible.
+- **Guided view (default).** The page opens on **★ Key links**: only the hand-curated `"key": true` edges (about 60-90), with their dots spread out and labelled at a readable size (labels that would overlap are hidden until you zoom). XRP, Ripple and the XRPL always stay visible. The big **Explore all N dots →** button (or ★ Key links again) switches to the full map; **★ Back to key links** returns. Add `#all` to the URL to open straight on the full map.
+- **How to read this** card: shown once on first visit (remembered in `localStorage` as `xrpweb.howto.v1`); the **?** button next to the title reopens it.
+- **⚙ Filters** shows or hides the type and sector chips (and, on a phone, the grade/side/date/Spacing/Reset controls).
 
 ## Layout
 `build.py` calls `layout.py`, which computes fixed x/y positions. They're embedded in the page as `_layout`; graph.json itself never stores positions.
@@ -57,7 +61,7 @@ Dots can't be dragged (`interaction.dragNodes: false`, physics off), so every vi
   - **3** documented business tie
   - **2** indirect or shared-party link
   - **1** loose association, claim, or lore (all C/X claims default here)
-- `key` (optional, edges, `true`/`false`) marks a link as one of the most important. Key links show in the ★ Key links view and are drawn brighter in the full map. Use it sparingly; about 30 links are marked today (Ripple acquisitions, BNY/SCTC/RLUSD, DTCC/Canton, Barr/Donahue, Evernorth, SEC Rel. 33-11412, Cross River/X Money, SBI, EasyA, @XRP/XRP.org, $FUZZY…).
+- `key` (optional, edges, `true`/`false`) marks a link as one of the most important. Key links make up the guided ★ Key links view and are drawn brighter in the full map. Keep the set at about 60-90 and show both sides (`verify_public.py` fails outside 40-120 or with fewer than 3 "contradicts" key links). Change it only with queue lines in `queue/keys.jsonl`: `{"kind":"key","from","to","label","key":true|false}` (the label must match the edge exactly; omit it to set every from→to edge).
 - `sector` (optional, nodes) pins a node to a layout sector (see Layout).
 - `added` is an ISO-8601 timestamp with an ET offset (`-04:00` for EDT, `-05:00` for EST). The "new since" filter and "Recent additions" both use it.
 
