@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T01:11:01-04:00",
+  "updated": "2026-10-20T01:13:39-04:00",
   "version": 3
  },
  "nodes": [
@@ -2556,10 +2556,11 @@
    "label": "Securitize",
    "type": "company",
    "handle": "",
-   "summary": "Tokenization firm; Sep 23, 2025 with Ripple enabled smart contract letting BlackRock BUIDL and VanEck VBILL holders exchange into RLUSD 24/7.",
+   "summary": "Tokenization firm, now listed on the NYSE as SECZ (Jul 2 2026) after merging with Cantor Equity Partners II on Jul 1 2026. It reports $4B+ AUM (Jun 2026), with BlackRock, Apollo, BNY, Hamilton Lane, KKR and VanEck as partners. Xpring invested in its Series A (Nov 2018). On Sep 23 2025 it launched, with Ripple, a smart contract letting BlackRock BUIDL and VanEck VBILL holders exchange into RLUSD 24/7.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/"
+    "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/",
+    "https://investors.securitize.io/news/news-details/2026/Securitize-Completes-Business-Combination-with-Cantor-Equity-Partners-II/default.aspx"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -2847,13 +2848,14 @@
   },
   {
    "id": "abrdn",
-   "label": "abrdn (Aberdeen)",
+   "label": "aberdeen (formerly abrdn)",
    "type": "company",
    "handle": "",
-   "summary": "UK asset manager; tokenized part of its GBP 3.8B US Dollar Liquidity Fund (Lux) on XRPL via Archax, Nov 25, 2024 - first tokenized MMF on XRPL. Ripple allocated $5M.",
+   "summary": "UK asset manager. It renamed itself from abrdn plc to Aberdeen Group plc, effective Mar 12 2025 (RNS; ticker ABDN unchanged). On Nov 25 2024, as abrdn, it tokenized part of its GBP 3.8B US Dollar Liquidity Fund (Lux) on the XRPL via Archax: the first tokenized MMF on the XRPL. Ripple allocated $5M.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/ripple-press/archax-provides-access-to-abrdn-money-market-fund-on-the-xrp-ledger-in-collaboration-with-ripple/"
+    "https://ripple.com/ripple-press/archax-provides-access-to-abrdn-money-market-fund-on-the-xrp-ledger-in-collaboration-with-ripple/",
+    "https://www.investegate.co.uk/announcement/rns/abrdn--abdn/change-of-name-effective/8777932"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -10963,10 +10965,11 @@
    "label": "Forte",
    "type": "company",
    "handle": "",
-   "summary": "Blockchain gaming platform; formed a $100M game-developer fund with Ripple's Xpring (Mar 2019).",
+   "summary": "Blockchain gaming platform. It formed a $100M game-developer fund with Ripple's Xpring in Mar 2019 and co-led Heirloom's $8M round (2022). It quietly bought Phoenix Labs (2023), which cut ~140 jobs in May 2024, laid off most staff in Jan 2025 and shut Dauntless on May 29 2025. It also bought Rumble Entertainment, then closed it in Jul 2024 (PocketGamer.biz, Game Developer).",
    "grade": "A",
    "sources": [
-    "https://www.prnewswire.com/news-releases/forte-and-ripples-xpring-form-100-million-fund-to-accelerate-mainstream-use-of-blockchain-in-games-300810578.html"
+    "https://www.prnewswire.com/news-releases/forte-and-ripples-xpring-form-100-million-fund-to-accelerate-mainstream-use-of-blockchain-in-games-300810578.html",
+    "https://www.pocketgamer.biz/forte-closes-rumble-entertainment-following-phoenix-labs-closure/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 2
@@ -12308,10 +12311,11 @@
    "label": "Kava",
    "type": "company",
    "handle": "",
-   "summary": "Cosmos-based DeFi L1; Xpring investment (Apr 2019).",
+   "summary": "Cosmos-based DeFi L1 (Xpring investment, Apr 2019). XRP entered only as XRPB, a Binance-chain-wrapped XRP via BEP3, never native XRPL XRP. In Apr 2024 BEP3 transfers were paused (Apr 15) and the assets migrated to BNB Smart Chain (~Apr 24), per a Kava Labs staff post. The Kava Help Center (updated Jan 2025) still lists XRPB in Mint, Lend and Swap.",
    "grade": "B",
    "sources": [
-    "https://messari.io/organization/xpring-org"
+    "https://messari.io/organization/xpring-org",
+    "https://www.reddit.com/r/kava_platform/comments/1c08gs1/attention_bep3_deprecation_timeline_update/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 2
@@ -15674,7 +15678,7 @@
    "label": "Lead plaintiff, In re Ripple Labs (private individual)",
    "type": "person",
    "handle": "",
-   "summary": "Lead plaintiff in In re Ripple Labs Inc. Litigation (appointed 2019). He bought XRP on Poloniex in Jan 2018. His counsel are Susman Godfrey and Taylor-Copeland Law. He is a named party in public court records.",
+   "summary": "Lead plaintiff in the In re Ripple Labs Inc. securities class action (appointed 2019), an individual XRP buyer. Counsel: Susman Godfrey and Taylor-Copeland Law.",
    "grade": "A",
    "sources": [
     "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/01/27/24-7599.pdf",
@@ -26130,6 +26134,37 @@
    "added": "2026-10-20T01:08:58-04:00",
    "sector": "regulators",
    "tier": 3
+  },
+  {
+   "id": "fit21",
+   "label": "FIT21 (H.R. 4763, 118th Congress)",
+   "type": "event",
+   "handle": "",
+   "summary": "Financial Innovation and Technology for the 21st Century Act. Sponsored by Rep. Glenn 'GT' Thompson (House Ag chair) and introduced 2023-07-20 with original cosponsors Hill, Dusty Johnson, Davidson and Emmer; McHenry (HFSC chair) cosponsored 2024-04-30. Passed the House 279–136 on 2024-05-22 (roll 226): Republicans 208–3, Democrats 71–133. The Senate never acted; it was referred to Banking on 2024-09-09. It is the template for the 119th Congress's CLARITY Act, which has the same sponsor pair (Hill/Thompson) and the same SEC/CFTC split.",
+   "grade": "A",
+   "sources": [
+    "https://www.congress.gov/bill/118th-congress/house-bill/4763",
+    "https://clerk.house.gov/evs/2024/roll226.xml"
+   ],
+   "added": "2026-10-20T01:11:52-04:00",
+   "sector": "regulators",
+   "tier": 2
+  },
+  {
+   "id": "patrick-mchenry",
+   "label": "Patrick McHenry",
+   "type": "person",
+   "handle": "@PatrickMcHenry",
+   "summary": "Rep. (R-NC-10), 2005–Jan 2025. HFSC Chair in the 118th Congress, when the committee marked up FIT21; cosponsored FIT21 on 2024-04-30 and voted for it (roll 226). He did not run in 2024 and joined a16z as a senior advisor in Feb 2025. a16z (AH Capital) put $90.8M into Fairshake, and Fairshake backed many of the CLARITY sponsors who succeeded him. This is a Capitol Hill to crypto VC path.",
+   "grade": "A",
+   "sources": [
+    "https://www.coindesk.com/policy/2025/02/26/crypto-friendly-former-congressman-patrick-mchenry-joins-a16z-as-a-senior-advisor",
+    "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+    "https://clerk.house.gov/evs/2024/roll226.xml"
+   ],
+   "added": "2026-10-20T01:11:52-04:00",
+   "sector": "regulators",
+   "tier": 2
   }
  ],
  "edges": [
@@ -28889,6 +28924,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.globenewswire.com/de/news-release/2026/02/05/3233123/0/en/VivoPower-Completes-Definitive-Agreement-with-KWeather-Advances-Strategic-Exit-from-Digital-Asset-Holdings-with-No-Realized-or-Unrealized-Losses.html",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -35607,6 +35643,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315224027121/form424b3.htm",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -35657,6 +35694,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.coinbase.com/blog/coinbase-will-suspend-trading-in-xrp-on-january-19",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -38158,6 +38196,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/project/mariana",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -38179,6 +38218,7 @@
    "strength": 5,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -38189,6 +38229,7 @@
    "strength": 4,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -82084,6 +82125,402 @@
    "source": "https://www.milbank.com/en/news/sec-division-of-enforcement-director-gurbir-s-grewal-joins-milbanks-litigation-and-arbitration-group.html",
    "side": "neutral",
    "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "yzilabs",
+   "to": "openeden",
+   "label": "strategic investment as Binance Labs (Sep 12 2024): its first RWA investment, amount undisclosed. OpenEden TVL was then ~$115M across Ethereum, Arbitrum and the XRPL.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://openeden.com/news/openeden-joins-binance-labs-portfolio-with-strategic-investment/",
+   "side": "supports",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "alt-drx",
+   "to": "xrpl",
+   "label": "records KYC-whitelisted users' custodial ledger positions on the XRPL: custodial, not self-custody, tokens (May 2025 release); ~100K transactions/yr run-rate claimed",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.prnewswire.com/in/news-releases/alt-drx-raises-2-7-million-in-pre-series-a-round-backed-by-global-investors-302450851.html",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "xrpl",
+   "label": "live check Oct 20 2026: issuer rKCu4Cucp… (Domain archax.com, the XRPScan-verified Archax issuer) has 0 outstanding obligations at ledger 107,777,079. It holds 31 zero-balance trust lines and its last Payment was Mar 18 2026. The abrdn MMF token may sit at another address (Dataroom Ledger cites r4GDFMLGJUKMjNEycSB…, truncated and unchecked), so this does not prove the product is gone.",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrplcluster.com",
+   "side": "contradicts",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "near",
+   "to": "xrpl",
+   "label": "scope check Oct 20 2026: the 1Click tokens API (205 assets) lists only native XRP on the XRPL chain: no RLUSD or other XRPL issued tokens (it lists Stellar issued assets, for contrast). Docs say classic addresses with destination tags are not supported for 1Click swaps.",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://1click.chaindefuser.com/v0/tokens",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "near",
+   "to": "rlusd",
+   "label": "not supported: RLUSD is absent from the NEAR Intents 1Click token list (205 assets, Oct 20 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://1click.chaindefuser.com/v0/tokens",
+   "side": "contradicts",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "cantor",
+   "to": "securitize",
+   "label": "SPAC sponsor: Securitize merged with Cantor Equity Partners II (completed Jul 1 2026) and listed on the NYSE as SECZ on Jul 2 2026. Cantor was co-placement agent for the PIPE.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://investors.securitize.io/news/news-details/2026/Securitize-Completes-Business-Combination-with-Cantor-Equity-Partners-II/default.aspx",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "citi",
+   "to": "securitize",
+   "label": "financial/capital-markets advisor and PIPE co-placement agent for the SECZ listing (Jul 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://investors.securitize.io/news/news-details/2026/Securitize-Completes-Business-Combination-with-Cantor-Equity-Partners-II/default.aspx",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "fit21",
+   "to": "clarity",
+   "label": "predecessor bill: same Hill/Thompson sponsor pair and SEC/CFTC market-structure split (118th → 119th)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "gt-thompson",
+   "to": "fit21",
+   "label": "sponsor (introduced 2023-07-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "french-hill",
+   "to": "fit21",
+   "label": "cosponsor (2023-07-20 original)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "dusty-johnson",
+   "to": "fit21",
+   "label": "cosponsor (2023-07-20 original)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "warren-davidson",
+   "to": "fit21",
+   "label": "cosponsor (2023-07-20 original)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "tom-emmer",
+   "to": "fit21",
+   "label": "cosponsor (2023-07-20 original)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "ritchie-torres",
+   "to": "fit21",
+   "label": "cosponsor (2024-05-01)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "french-hill",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "gt-thompson",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "angie-craig",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "tom-emmer",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "bryan-steil",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "dusty-johnson",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "ritchie-torres",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "josh-gottheimer",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "warren-davidson",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22); later voted Nay on GENIUS (2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "don-davis",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "bill-huizenga",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "zach-nunn",
+   "to": "fit21",
+   "label": "voted Not Voting on passage (roll 226, 2024-05-22); later a CLARITY cosponsor",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "mike-lawler",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "dan-meuser",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "buddy-carter",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "shri-thanedar",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "haley-stevens",
+   "to": "fit21",
+   "label": "voted Yea on passage (roll 226, 2024-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://clerk.house.gov/evs/2024/roll226.xml",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "fit21",
+   "to": "house-ag",
+   "label": "Agriculture markup 2023-07-27; reported 2024-05-06",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "fit21",
+   "to": "hfsc",
+   "label": "Financial Services markup 2023-07-26; reported 2024-05-06",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "patrick-mchenry",
+   "to": "hfsc",
+   "label": "Chairman, 118th Congress (2023–Jan 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/policy/2025/02/26/crypto-friendly-former-congressman-patrick-mchenry-joins-a16z-as-a-senior-advisor",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "patrick-mchenry",
+   "to": "fit21",
+   "label": "cosponsor 2024-04-30; voted Yea (roll 226)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.congress.gov/bill/118th-congress/house-bill/4763/cosponsors",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
+  },
+  {
+   "from": "patrick-mchenry",
+   "to": "a16z",
+   "label": "senior advisor from Feb 2025, weeks after leaving Congress",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.coindesk.com/policy/2025/02/26/crypto-friendly-former-congressman-patrick-mchenry-joins-a16z-as-a-senior-advisor",
+   "side": "neutral",
+   "added": "2026-10-20T01:11:52-04:00"
   }
  ]
 }
