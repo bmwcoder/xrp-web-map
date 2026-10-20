@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T02:37:31-04:00",
+  "updated": "2026-10-20T03:00:06-04:00",
   "version": 3
  },
  "nodes": [
@@ -21490,12 +21490,13 @@
    "label": "rBNCyNEw… two-way XRP/RLUSD desk (owner unconfirmed)",
    "type": "asset",
    "handle": "",
-   "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange looks like a market-maker or OTC liquidity desk, not a plain Binance deposit. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C.",
+   "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange looks like a market-maker or OTC liquidity desk, not a plain Binance deposit. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C. Follow-up Oct 20, 2026 ~02:40 ET: XRPScan API shows no accountName, username or domain; Bithomp shows 'No username'. Destination tag 2695199675 appears in no published market-maker or exchange deposit list found. Ripple's XRP Markets reports disclose no wallet addresses (they only mention leases to market makers). Biggest unlabeled counterparty rLoD9U2g… (2019) also cycles XRP with Coinbase, Crypto.com, Kraken and Bitstamp under per-venue tags, which again looks like a trading desk. Still grade C.",
    "grade": "C",
    "sources": [
     "https://xrpscan.com/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR",
     "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
-    "https://x.com/RivexPro/status/2109829763493982660"
+    "https://x.com/RivexPro/status/2109829763493982660",
+    "https://bithomp.com/en/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR"
    ],
    "added": "2026-10-19T23:24:14-04:00"
   },
@@ -27808,6 +27809,22 @@
    "added": "2026-10-20T02:33:14-04:00",
    "sector": "regulators",
    "tier": 3
+  },
+  {
+   "id": "w-ruwuj-lp",
+   "label": "rUWUJ2F3… BitGo-hosted omnibus that delivered Evernorth's purchased XRP",
+   "type": "asset",
+   "handle": "",
+   "summary": "rUWUJ2F3aZknSd8PVutoMnxowMK792maTD. Created 2019-09-09 by XRPScan's 'BitGo Initialization Wallet'. 2-of-3 SignerList, master key disabled, RequireDestTag set; balance 30.27M XRP (Oct 20, 2026). Full ledger history: 13,555 transactions, 305.8M XRP in from 459 senders and 275.5M out to 442 destinations, with most senders using a fixed destination tag of their own (an omnibus/sub-account pattern). On Oct 31 and Nov 12, 2025 (UTC) it sent Evernorth's staging wallet rNtaHck1… 5 + 74,509,670.389 + 9,856,200.973 = 84,365,876.362 XRP. That is exactly the 84,365,876.3625 XRP that the Nov 4, 2025 8-K/425, the press release and the 424B3 say Evernorth bought 'from one or more liquidity providers'. The press release (Nov 4) came 8 days before the last 9.86M settled on the ledger. From Oct 24 to Nov 12, 2025 it took in 90.1M XRP from 41 tagged senders, none labeled on XRPScan. Separately, a relay created by a Ripple-50 sub-wallet (rwH4Cgqb…) deposited 84.17M and withdrew 84.17M between Dec 2024 and Jul 2026, netting ~1 XRP. Owner UNCONFIRMED: there is no XRPScan or Bithomp label (Bithomp still Cloudflare-blocked), no public post names it, and the filings name no liquidity provider.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rUWUJ2F3aZknSd8PVutoMnxowMK792maTD",
+    "https://api.xrpscan.com/api/v1/tx/3C059B7AD528610845EC7E5B99470514BDFE6E040AEE28B9B7C97D976EE4A87F",
+    "https://api.xrpscan.com/api/v1/tx/110B243A84D756E18DC5048DF6A168F8E295BCF33D30C3CD460C1FBCB3DCC92F",
+    "https://www.sec.gov/Archives/edgar/data/2044009/000119312525263630/d77894d425.htm",
+    "https://www.evernorth.xyz/press-release-11-04-2025"
+   ],
+   "added": "2026-10-20T02:56:02-04:00"
   }
  ],
  "edges": [
@@ -89733,7 +89750,7 @@
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.coindesk.com/markets/2021/08/13/nydfs-head-lacewell-to-depart-agency-by-months-end",
+   "source": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202105041",
    "side": "neutral",
    "added": "2026-10-20T02:33:14-04:00"
   },
@@ -89868,6 +89885,94 @@
    "source": "https://www.theblock.co/news/business/2025-01-29-gary-gensler-mit-return-337645",
    "side": "neutral",
    "added": "2026-10-20T02:33:14-04:00"
+  },
+  {
+   "from": "w-ruwuj-lp",
+   "to": "w-evernorth-purchased",
+   "label": "delivered 84,365,876.36 XRP to Evernorth staging (Oct 31 + Nov 12, 2025), the exact purchase figure in the filings",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/tx/3C059B7AD528610845EC7E5B99470514BDFE6E040AEE28B9B7C97D976EE4A87F",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "w-ruwuj-lp",
+   "to": "evernorth",
+   "label": "liquidity-provider side of Evernorth's $214M XRP buy (filings say 'one or more liquidity providers' but name no wallet; the Nov 4 PR preceded final settlement on Nov 12)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2044009/000119312525263630/d77894d425.htm",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "w-ruwuj-lp",
+   "to": "bitgo",
+   "label": "created 2019-09-09 by BitGo Initialization Wallet; 2-of-3, master disabled, dest-tag required (BitGo-hosted; BitGo ownership not shown)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rUWUJ2F3aZknSd8PVutoMnxowMK792maTD",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "w-ripple-50",
+   "to": "w-ruwuj-lp",
+   "label": "Ripple-50 sub-wallet rP7jPqEB… → relay rwH4Cgqb… deposited 84.17M XRP Dec 2024–Jun 2026 and got 84.17M back (net ~1 XRP); last 48.36M went on Aug 3, 2026 to Ripple-50-created r3mSX4Gy…",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/tx/48AC930129CD06FB8E5E2287A1C101D94816D71C7065ABA14D1926E8C73D75A4",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "w-ruwuj-lp",
+   "label": "lead: net-zero round trip looks like the short-term XRP leases to market makers described in Ripple's XRP Markets reports (no report names a wallet)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://ripple.com/insights/q3-2022-xrp-markets-report/",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "w-ruwuj-lp",
+   "to": "binance",
+   "label": "lead: top purchase-window senders rPnbJ3LF… (21.0M, created by Binance 9) and rQDQgwpX… (13.5M, grandchild of Binance 2), Oct 24–Nov 12, 2025; creation lineage only",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rPnbJ3LFU9stjtUCs7yweMKmhHULT4fUE8",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "w-ruwuj-lp",
+   "to": "w-rbnc-desk",
+   "label": "lead: shared unlabeled counterparties: rUSYaUPU… (10.28M into the purchase window) was created by rLoD9U2g…, a top RLUSD counterparty of rBNCyNEw; rsM7KAW1… trades with both",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rUSYaUPUyXhEebdrQHXScFsKyUAjgPNbKf",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "maria-vullo",
+   "to": "bitlicense-xrp-ii-2016",
+   "label": "announced the license as Acting Superintendent (2016-06-13)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1606131",
+   "side": "neutral",
+   "added": "2026-10-20T02:56:02-04:00"
   }
  ]
 }
