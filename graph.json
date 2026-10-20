@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T14:48:08-04:00",
+  "updated": "2026-10-20T19:12:49-04:00",
   "version": 3
  },
  "nodes": [
@@ -28696,6 +28696,33 @@
     "https://www.sec.gov/Archives/edgar/data/2081119/000121390026110793/ea0308441-01_n2a.htm"
    ],
    "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "xrpl-ai-starter-kit",
+   "label": "XRPL AI Starter Kit",
+   "type": "builder",
+   "handle": "",
+   "summary": "Ripple developer toolkit for agent payments on the XRP Ledger, launched Jun 9, 2026 (XRPL Docs MCP server, Claude wallet/payment skills, X402 payments in XRP and RLUSD via a t54 contribution). v1.1 (Sep 15, 2026) added XRPL as a settlement rail for Tempo and Stripe's Machine Payments Protocol (xrpl-mpp-sdk, beta) and the Open Wallet Standard.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/insights/xrpl-ai-starter-kit/",
+    "https://dev.to/ripplexdev/the-xrp-ledger-ai-starter-kit-v11-open-standards-not-an-island-358k",
+    "https://xrpl.org/docs/agents/agentic-payments-x402",
+    "https://raw.githubusercontent.com/ripple/xrpl-mpp-sdk/main/README.md"
+   ],
+   "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "id": "xrp-article-2026-10-20",
+   "label": "@XRP article: 'Your path into the XRP Community' (Oct 20, 2026)",
+   "type": "event",
+   "handle": "@XRP",
+   "summary": "Promotional X Article posted by the @XRP account (bio: managed by Ripple and the XRPL Foundation) on Oct 20, 2026 at 4:59 PM ET. It cites Standard Chartered RLUSD custody, CSD BR, Aviva Investors, Guggenheim, Ondo, XRPL stablecoins, agentic payments and wXRP; those claims are mapped separately to the institutions' own sources. Its outlook that most assets will be tokenized is Ripple/XRPLF's stated vision, not an established fact.",
+   "grade": "A",
+   "sources": [
+    "https://x.com/XRP/status/2112650041185964194"
+   ],
+   "added": "2026-10-20T19:10:43-04:00"
   }
  ],
  "edges": [
@@ -59445,10 +59472,10 @@
    "from": "t54",
    "to": "rlusd",
    "label": "XRPL x402 Facilitator lets agents pay in XRP/RLUSD",
-   "grade": "B",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.gate.com/news/detail/19048664",
+   "source": "https://xrpl.org/docs/agents/agentic-payments-x402",
    "side": "supports",
    "added": "2026-10-19T23:09:55-04:00"
   },
@@ -94002,6 +94029,61 @@
    "source": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf",
    "side": "neutral",
    "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "atxrp",
+   "to": "xrp-article-2026-10-20",
+   "label": "published X Article 'Your path into the XRP Community' (2026-10-20, 4:59 PM ET; promotional, issuer-side)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/XRP/status/2112650041185964194",
+   "side": "neutral",
+   "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "xrpl-ai-starter-kit",
+   "label": "launched XRPL AI Starter Kit with X402 payments in XRP and RLUSD (2026-06-09)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ripple.com/insights/xrpl-ai-starter-kit/",
+   "side": "supports",
+   "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "from": "t54",
+   "to": "xrpl-ai-starter-kit",
+   "label": "maintains x402-xrpl reference implementation and runs a mainnet facilitator (per xrpl.org docs)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/docs/agents/agentic-payments-x402",
+   "side": "neutral",
+   "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "from": "xrpl-ai-starter-kit",
+   "to": "tempo",
+   "label": "v1.1 (2026-09-15) adds XRPL as a settlement rail for Tempo/Stripe Machine Payments Protocol (xrpl-mpp-sdk, beta)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://dev.to/ripplexdev/the-xrp-ledger-ai-starter-kit-v11-open-standards-not-an-island-358k",
+   "side": "neutral",
+   "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "from": "xrpl-ai-starter-kit",
+   "to": "xrpl",
+   "label": "Ripple-reported figure: 5.6M X402 transactions on XRPL since inception (Sep 2026); not independently verified (compare Bitquery's bot-concentration audit)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://dev.to/ripplexdev/the-xrp-ledger-ai-starter-kit-v11-open-standards-not-an-island-358k",
+   "side": "neutral",
+   "added": "2026-10-20T19:10:43-04:00"
   }
  ]
 }
