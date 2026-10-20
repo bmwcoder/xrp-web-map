@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T03:00:06-04:00",
+  "updated": "2026-10-20T04:07:11-04:00",
   "version": 3
  },
  "nodes": [
@@ -8023,10 +8023,11 @@
    "label": "ChinaRock Capital Management",
    "type": "company",
    "handle": "",
-   "summary": "Ripple Series A investor (2015).",
+   "summary": "ChinaRock Capital Management Ltd, Central Hong Kong. SEC 13D/13G filings (2013–16) show it as sub-investment adviser to CRCM Institutional Master Fund (BVI), managed by CRCM LP in San Francisco, with Chun R. Ding as managing member of the general partner; e.g. a 5.75% NQ Mobile ADS stake (13D, Mar 2015). Ripple Labs Series A investor (May 2015).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/"
+    "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
+    "https://www.sec.gov/Archives/edgar/data/1412327/000089843215000425/sc_13d.htm"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "founders"
@@ -8036,10 +8037,11 @@
    "label": "China Growth Capital",
    "type": "company",
    "handle": "",
-   "summary": "Ripple Series A investor (2015).",
+   "summary": "Chinese venture firm. Ripple Labs Series A investor (May 2015); TechNode (2018) reports it later invested in Circle and in Beijing-based Hoopox (2017) and stopped looking at tokens after China's ICO ban.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/"
+    "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
+    "https://technode.com/2018/02/07/blockchain/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "founders"
@@ -8063,11 +8065,12 @@
    "label": "Route 66 Ventures",
    "type": "company",
    "handle": "",
-   "summary": "Ripple Series A investor (2015).",
+   "summary": "Fintech venture firm. Invested in Ripple Labs' May 2015 Series A and Dec 2019 Series C (one of only three named Series C investors with Tetragon and SBI); its portfolio page still lists Ripple Labs.",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
-    "https://www.coindesk.com/business/2019/12/20/ripple-raises-200m-in-series-c-round-led-by-tetragon"
+    "https://www.coindesk.com/business/2019/12/20/ripple-raises-200m-in-series-c-round-led-by-tetragon",
+    "https://www.route66ventures.com/portfolio_company/ripple-labs/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "founders"
@@ -8092,12 +8095,13 @@
    "label": "Venture 51",
    "type": "company",
    "handle": "",
-   "summary": "Ripple Series A (2015) and Series B (2016) investor.",
+   "summary": "Scottsdale, Arizona venture firm. Its fund Form Ds (2011–2013) list Ryan Swagar as co-managing member of the general partner, and Brandon Zeuner for Venture51 Capital Partners II. Invested in Ripple Labs' Nov 2013 round, the May 2015 Series A and the Sep 2016 Series B.",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
     "https://ripple.com/ripple-press/ripple-raises-55-million-series-b-funding/",
-    "https://web.archive.org/web/20191216103733/https://ripple.com/insights/ripple-labs-raises-28-million-from-idg-capital-partners-cme-group-seagate-and-others/"
+    "https://web.archive.org/web/20191216103733/https://ripple.com/insights/ripple-labs-raises-28-million-from-idg-capital-partners-cme-group-seagate-and-others/",
+    "https://www.sec.gov/Archives/edgar/data/1517374/000151737412000001/primary_doc.xml"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "founders"
@@ -16190,10 +16194,11 @@
    "label": "Camp One Ventures",
    "type": "company",
    "handle": "",
-   "summary": "Investor in Ripple Labs' Nov 2013 $3.5M round.",
+   "summary": "Birmingham, Alabama early-stage fintech venture firm (Camp One Ventures LLC Form D May 2012; Fund B Form D Jul 2013, $12M offering). Its Form Ds list Madding King III, J. Twiford and Robert Claassen as executive officers and directors. Invested in Ripple Labs' Nov 2013 $3.5M round; its team page lists Ripple among its investments.",
    "grade": "A",
    "sources": [
-    "https://www.globenewswire.com/fr/news-release/2013/11/12/1146606/0/en/ripple-labs-announces-3-5-million-investment-round.html"
+    "https://www.globenewswire.com/fr/news-release/2013/11/12/1146606/0/en/ripple-labs-announces-3-5-million-investment-round.html",
+    "https://www.sec.gov/Archives/edgar/data/1581893/000158189313000001/primary_doc.xml"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "founders"
@@ -23373,7 +23378,7 @@
    "label": "S.P. Kothari",
    "type": "person",
    "handle": "",
-   "summary": "MIT Sloan professor. SEC Chief Economist and Director of DERA Mar 2019–Jan 2021, which covers the SEC's Dec 2020 filing against Ripple. Afterwards a defense damages expert for Ripple and Garlinghouse in In re Ripple Labs (N.D. Cal.); the plaintiff's motion to exclude him was denied as moot (2024-06-20).",
+   "summary": "MIT Sloan professor. SEC Chief Economist and Director of DERA Mar 2019–Jan 2021. Afterwards a defense damages expert for Ripple and Garlinghouse in In re Ripple Labs (N.D. Cal.); the plaintiff's motion to exclude him was denied as moot (2024-06-20).",
    "grade": "A",
    "sources": [
     "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.419.0.pdf",
@@ -23762,10 +23767,11 @@
    "label": "Wave Digital Assets",
    "type": "company",
    "handle": "",
-   "summary": "Ripple portfolio company (funds category) per ripple.com/investments. Ripple describes it as: \"Investment advisory firm that provides a unique combination of venture capital, fund, and private wealth management to the digital asset ecosystem.\"",
+   "summary": "Ripple portfolio company (funds category) per ripple.com/investments. Ripple describes it as: \"Investment advisory firm that provides a unique combination of venture capital, fund, and private wealth management to the digital asset ecosystem.\" Formerly Wave Financial; renamed Wave Digital Assets on Mar 1 2023 (Los Angeles, SEC-registered investment adviser, CRD 305726).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/investments/"
+    "https://ripple.com/investments/",
+    "https://wavegp.com/insights/sec-registered-wave-financial-changes-name-to-wave-digital-assets/"
    ],
    "added": "2026-10-20T00:26:07-04:00"
   },
@@ -24426,11 +24432,12 @@
    "label": "Bitstamp v. Ripple Labs interpleader (N.D. Cal. 3:15-cv-01503, Apr 2015)",
    "type": "event",
    "handle": "",
-   "summary": "Bitstamp filed an interpleader on Apr 1, 2015 over $1,038,172 that Ripple Labs paid on Mar 20, 2015 for 96.3M XRP offered from accounts linked to McCaleb (rUf6…, r3Q…). Ripple said the sale broke McCaleb's Aug 2014 agreement capping sales at $10K/week in year one. The complaint alleged the proceeds were meant to buy STR in Stellar's auction. Bitstamp called itself a disinterested stakeholder.",
+   "summary": "Bitstamp filed an interpleader on Apr 1, 2015 over $1,038,172 that Ripple Labs paid on Mar 20, 2015 for 96.3M XRP offered from accounts linked to McCaleb (rUf6…, r3Q…). Ripple said the sale broke McCaleb's Aug 2014 agreement capping sales at $10K/week in year one. The complaint alleged the proceeds were meant to buy STR in Stellar's auction. Bitstamp called itself a disinterested stakeholder. Judge William H. Orrick compelled JAMS arbitration of Ripple's cross-claims (Aug 2015) and let the Stellar Development Foundation intervene. The case was dismissed with prejudice in April 2016: the $942,138.24 left in the registry went to the foundation, and the sealed key to 96,342,361.6 deposited XRP went back to Ripple.",
    "grade": "A",
    "sources": [
     "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/",
-    "https://www.coindesk.com/markets/2015/04/02/1-million-legal-fight-ensnares-ripple-bitstamp-and-jed-mccaleb"
+    "https://www.coindesk.com/markets/2015/04/02/1-million-legal-fight-ensnares-ripple-bitstamp-and-jed-mccaleb",
+    "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.178.0.pdf"
    ],
    "added": "2026-10-20T00:29:28-04:00"
   },
@@ -25696,11 +25703,12 @@
    "label": "Open Payments Coalition / PayID (later PayString)",
    "type": "company",
    "handle": "",
-   "summary": "Ripple-led alliance of 40+ firms that launched PayID, a universal payment ID, on 2020-06-18. PayID was renamed PayString later in 2020. Status: appears dormant. The reference repo is archived (last push 2023-03-31) and paystring.org did not resolve when checked on 2026-10-20.",
+   "summary": "Ripple-led alliance of 40+ firms that launched PayID, a universal payment ID, on 2020-06-18. PayID was renamed PayString later in 2020. Status: dormant. GitHub shows the PayString reference repo was archived by its owner on 2024-03-08 and is read-only (last code push 2023-03-31, last release v1.4.0). The Wayback Machine's latest capture of paystring.org is from 2024-03-05, and the site timed out when checked on 2026-10-20. No formal shutdown notice from Ripple or the coalition was found.",
    "grade": "B",
    "sources": [
     "https://www.businesswire.com/news/home/20200618005489/en/Industry-Leaders-Launch-PayID-the-Universal-ID-for-Payments",
-    "https://github.com/paystring/paystring"
+    "https://github.com/paystring/paystring",
+    "https://github.com/PayString/paystring/releases"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -27324,7 +27332,7 @@
    "type": "event",
    "handle": "",
    "summary": "Investor class action over the failed Genesis Yield lending program (withdrawals suspended; Genesis bankrupt in early 2023). In Jul 2026 Judge Stefan Underhill revived the NY common-law fraud claim and kept the federal securities claims alive. He also certified DCG's interlocutory appeal to the 2nd Circuit on whether Genesis Yield is a security. DCG calls the allegations baseless. No liability has been found.",
-   "grade": "A",
+   "grade": "B",
    "sources": [
     "https://www.theblock.co/post/407337/judge-revives-fraud-claim-against-barry-silbert-dcg-genesis-yield-lawsuit"
    ],
@@ -27825,6 +27833,119 @@
     "https://www.evernorth.xyz/press-release-11-04-2025"
    ],
    "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "id": "rippleworks-990pf-xrp",
+   "label": "RippleWorks IRS filings: XRP gifts from Larsen and Ripple (2014–2017)",
+   "type": "event",
+   "handle": "",
+   "summary": "RippleWorks Inc's Form 990-PF Schedule B filings (EIN 46-5604812) list Chris Larsen's XRP gifts: 200M (received Jul 11, 2014, valued $604,500), 500M (Apr 27, 2015, $2.99M), 499,999,979 (Jul 27, 2015, $3.20M), 33M (Dec 15, 2016, $426,300) and 20M (May 22, 2017, $3.96M). That is about 1.253B XRP through April 2018, roughly 18% of the 7B he pledged in May 2014. Ripple Inc gave 1B XRP (Nov 25, 2015) and pledged a second 1B (Feb 1, 2017; booked Oct 6, 2017).",
+   "grade": "A",
+   "sources": [
+    "https://apps.irs.gov/pub/epostcard/cor/465604812_201504_990PF_2018050215280326.pdf",
+    "https://apps.irs.gov/pub/epostcard/cor/465604812_201604_990PF_2018040315242793.pdf",
+    "https://apps.irs.gov/pub/epostcard/cor/465604812_201704_990PF_2018040315242732.pdf",
+    "https://apps.irs.gov/pub/epostcard/cor/465604812_201804_990PF_2019050616271575.pdf"
+   ],
+   "added": "2026-10-20T03:52:34-04:00",
+   "sector": "founders"
+  },
+  {
+   "id": "omidyar-network",
+   "label": "Omidyar Network",
+   "type": "company",
+   "handle": "",
+   "summary": "Philanthropic investment firm founded by eBay founder Pierre Omidyar. RippleWorks' 990-PF Schedule B lists 'Omidyar' (Omidyar Network's Redwood City address) as a cash donor of $200,000 (year to Apr 2016) and $100,000 (year to Apr 2017); RippleWorks says its first five projects in 2015 had Omidyar Network support.",
+   "grade": "A",
+   "sources": [
+    "https://apps.irs.gov/pub/epostcard/cor/465604812_201604_990PF_2018040315242793.pdf",
+    "https://apps.irs.gov/pub/epostcard/cor/465604812_201704_990PF_2018040315242732.pdf",
+    "https://rippleworks.co/our-story/"
+   ],
+   "added": "2026-10-20T03:52:34-04:00",
+   "sector": "founders"
+  },
+  {
+   "id": "xrp-key-deposit-2015",
+   "label": "Court holds 96.3M XRP via a sealed private key (2015–16)",
+   "type": "event",
+   "handle": "",
+   "summary": "In Bitstamp v. Ripple Labs, Judge William H. Orrick approved (Jul 29, 2015) a stipulation to deposit disputed XRP with the court by filing the private key to a Ripple account under seal. The key to 96,342,361.6 XRP was lodged Aug 19, 2015 (Dkt 125) and handed back to Ripple's counsel in April 2016 under the dismissal stipulation.",
+   "grade": "A",
+   "sources": [
+    "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/?page=2",
+    "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.178.0.pdf",
+    "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/?page=3"
+   ],
+   "added": "2026-10-20T03:52:34-04:00",
+   "sector": "founders"
+  },
+  {
+   "id": "goodwin-procter",
+   "label": "Goodwin Procter",
+   "type": "company",
+   "handle": "",
+   "summary": "Law firm. Its lawyers (Menlo Park and New York offices) represented Ripple Labs in Bitstamp v. Ripple Labs (N.D. Cal. 3:15-cv-01503, 2015–16), filing Ripple's cross-claims against McCaleb and its 2015 corporate disclosure that Ripple had no parent and no 10% public-company owner.",
+   "grade": "A",
+   "sources": [
+    "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.8.0.pdf",
+    "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.178.0.pdf"
+   ],
+   "added": "2026-10-20T03:52:34-04:00",
+   "sector": "founders"
+  },
+  {
+   "id": "george-frost",
+   "label": "George Frost",
+   "type": "person",
+   "handle": "",
+   "summary": "Lawyer. CoinDesk (May 2014) reported he sent Ripple Labs' cease-and-desist letter to Jesse Powell. He filed Bitstamp's Apr 1, 2015 interpleader complaint against Ripple Labs and McCaleb. Stellar Development Foundation later cross-claimed against him, and the court granted his anti-SLAPP motion to strike in Jan 2016.",
+   "grade": "A",
+   "sources": [
+    "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/",
+    "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/?page=2",
+    "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.178.0.pdf",
+    "https://www.coindesk.com/markets/2014/05/27/ripple-price-rebounds-after-ceo-pledges-7-billion-xrp-donation"
+   ],
+   "added": "2026-10-20T03:52:34-04:00",
+   "sector": "founders"
+  },
+  {
+   "id": "ashton-kutcher",
+   "label": "Ashton Kutcher",
+   "type": "person",
+   "handle": "@aplusk",
+   "summary": "Actor and tech investor; co-founder of Sound Ventures with Guy Oseary. On May 23 2018 he and Oseary gave $4M in XRP to the Ellen DeGeneres Wildlife Fund on air, on behalf of Ripple (CNBC).",
+   "grade": "B",
+   "sources": [
+    "https://www.cnbc.com/2018/05/24/ashton-kutcher-gave-ellen-degeneres-ripples-xrp-for-charity.html"
+   ],
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "id": "terrapay",
+   "label": "TerraPay",
+   "type": "company",
+   "handle": "",
+   "summary": "Cross-border payments infrastructure company (founded 2015, incubated by Comviva, now London-HQ). Its Mar 2020 release lists Ripple among its partners alongside Western Union, Visa, MoneyGram and Ria. In May 2026 it launched euro remittance settlement to Ethiopia on the Xahau blockchain with Cooperative Bank of Oromia and Quantoz.",
+   "grade": "A",
+   "sources": [
+    "https://www.finextra.com/pressarticle/81714/terrapay-acquired-and-gets-cash-injection",
+    "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/"
+   ],
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "id": "quantoz",
+   "label": "Quantoz Payments",
+   "type": "company",
+   "handle": "",
+   "summary": "Regulated European issuer of digital money instruments (euro settlement tokens). Provides the regulated digital-euro settlement leg of the TerraPay / Cooperative Bank of Oromia remittance corridor to Ethiopia on Xahau (May 2026).",
+   "grade": "A",
+   "sources": [
+    "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/"
+   ],
+   "added": "2026-10-20T03:52:34-04:00"
   }
  ],
  "edges": [
@@ -29342,16 +29463,6 @@
    "added": "2026-10-19T21:55:00-04:00"
   },
   {
-   "from": "xmoney",
-   "to": "rlusd",
-   "label": "hypothesis only, not documented: X Money's bank partner Cross River separately integrated RLUSD on the XRPL (Cross River, 2026-10-15); the release does not mention X Money",
-   "grade": "C",
-   "strength": 1,
-   "source": "https://www.crossriver.com/newsroom/cross-river-embeds-ripple-usd-stablecoin-on-the-xrp-ledger-into-its-core-banking-infrastructure-expanding-faster-payment-capabilities-for-businesses",
-   "side": "neutral",
-   "added": "2026-10-19T21:55:00-04:00"
-  },
-  {
    "from": "visa",
    "to": "xmoney",
    "label": "wallet/debit partner",
@@ -29962,11 +30073,11 @@
   {
    "from": "bis-wp1374",
    "to": "xrpl",
-   "label": "proof of concept implemented on the XRP Ledger",
+   "label": "proof of concept on the XRP Ledger, anchored to XRPL DevNet (BIS project page; WP 1374, Sep 2026)",
    "grade": "A",
    "strength": 3,
    "key": true,
-   "source": "https://www.bis.org/publications/working-paper-1374-verifiable-official-statistics-blockchain-based-approach",
+   "source": "https://www.bis.org/project/sdmx-blockchain",
    "side": "supports",
    "added": "2026-10-19"
   },
@@ -32584,7 +32695,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.inc.com/tobi-opeyemi-amure/easya-ai-billion-company-venture-capital-customers-upfront-funding/91418821",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -38245,10 +38356,10 @@
    "from": "larsen",
    "to": "prosper",
    "label": "co-founder & CEO",
-   "grade": "B",
-   "strength": 4,
+   "grade": "A",
+   "strength": 5,
    "key": false,
-   "source": "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
+   "source": "https://www.sec.gov/Archives/edgar/data/1416265/000114036112047830/forms1a.htm",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -39800,7 +39911,7 @@
    "strength": 5,
    "key": false,
    "source": "https://www.bis.org/project/agora",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -39811,7 +39922,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/project/agora",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -48160,7 +48271,7 @@
    "strength": 3,
    "key": false,
    "source": "https://x.com/Ripple/status/1863664630528143676",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -49212,10 +49323,10 @@
    "from": "larsen",
    "to": "prosper",
    "label": "co-founder (2005)",
-   "grade": "B",
+   "grade": "A",
    "strength": 5,
    "key": false,
-   "source": "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
+   "source": "https://www.sec.gov/Archives/edgar/data/1416265/000114036112047830/forms1a.htm",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -52533,12 +52644,12 @@
   {
    "from": "gregkidd",
    "to": "vast",
-   "label": "NAME COLLISION: Kidd owns Vast Bank (2024); no evidence it relates to 2013 OpenCoin investor Vast Ventures",
+   "label": "name collision only: Kidd owns Vast Bank (2024); no evidence it relates to 2013 OpenCoin investor Vast Ventures",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.federalreserve.gov/releases/h2/20240601/delactions.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -58214,7 +58325,7 @@
    "strength": 5,
    "key": false,
    "source": "https://www.bny.com/corporate/global/en/investor-relations/corporate-governance/board-of-directors/oconnor.html",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:06:27-04:00"
   },
   {
@@ -58913,7 +59024,7 @@
   {
    "from": "ripple-markets-inc",
    "to": "toxr",
-   "label": "seed capital investor: 10M shares for $220.68M (2024-12-20), paid with 100M XRP; locked up for 2 years (to 2026-12-20) and at least 6 months after listing",
+   "label": "Seed Capital Investor: bought 10,000,000 shares at $22.07 ($220,676,000) on 2024-12-20; locked up for 2 years (to 2026-12-20), plus a further 6 months after listing in some cases (21Shares 10-Q)",
    "grade": "A",
    "strength": 5,
    "key": true,
@@ -61404,7 +61515,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/company-news/bny-extends-digital-cash-capabilities-for-institutional-clients.html",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -64946,7 +65057,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -64957,7 +65068,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -64968,7 +65079,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -64979,7 +65090,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -64990,7 +65101,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65001,7 +65112,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65012,7 +65123,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65023,7 +65134,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65034,7 +65145,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65045,7 +65156,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65056,7 +65167,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65067,7 +65178,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65078,7 +65189,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65089,7 +65200,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65100,7 +65211,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65111,7 +65222,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65122,7 +65233,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65133,7 +65244,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65144,7 +65255,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.iif.com/About-Us/Press/View/ID/5880/Private-sector-partners-join-Project-Agora",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65155,7 +65266,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.iif.com/About-Us/Press/View/ID/5880/Private-sector-partners-join-Project-Agora",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65166,7 +65277,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.iif.com/About-Us/Press/View/ID/5880/Private-sector-partners-join-Project-Agora",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65177,7 +65288,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.iif.com/About-Us/Press/View/ID/5880/Private-sector-partners-join-Project-Agora",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65188,7 +65299,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.iif.com/About-Us/Press/View/ID/5880/Private-sector-partners-join-Project-Agora",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -65199,7 +65310,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.iif.com/About-Us/Press/View/ID/5880/Private-sector-partners-join-Project-Agora",
-   "side": "neutral",
+   "side": "contradicts",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -77316,7 +77427,7 @@
   {
    "from": "sp-kothari",
    "to": "sec",
-   "label": "SEC Chief Economist and DERA Director (Mar 2019–Jan 2021); departure announced Dec 21, 2020, the day before the SEC sued Ripple",
+   "label": "SEC Chief Economist and DERA Director (joined March 2019); SEC announced on Dec 21, 2020 that he would leave by the end of January",
    "grade": "A",
    "strength": 4,
    "key": true,
@@ -78253,7 +78364,7 @@
    "to": "udax",
    "label": "UDAX – Oxford 2026 cohort; demo day at Ripple London office",
    "grade": "A",
-   "strength": 1,
+   "strength": 2,
    "key": false,
    "source": "https://luma.com/rivbfm31",
    "side": "supports",
@@ -78461,8 +78572,8 @@
    "from": "dragonfly",
    "to": "ripple-investments",
    "label": "listed on Ripple's investments page as an LP fund position (not independently confirmed)",
-   "grade": "B",
-   "strength": 2,
+   "grade": "A",
+   "strength": 3,
    "key": false,
    "source": "https://ripple.com/investments/",
    "side": "supports",
@@ -78538,8 +78649,8 @@
    "from": "pantera",
    "to": "ripple-investments",
    "label": "listed on Ripple's investments page as an LP fund position (not independently confirmed)",
-   "grade": "B",
-   "strength": 2,
+   "grade": "A",
+   "strength": 3,
    "key": false,
    "source": "https://ripple.com/investments/",
    "side": "supports",
@@ -78713,22 +78824,22 @@
   {
    "from": "private-shares-fund",
    "to": "linqto",
-   "label": "bought 160,000 Ripple shares at $100 ($16M) from Linqto estate (court-approved Jul 1 2026)",
-   "grade": "B",
+   "label": "reported to have bought 160,000 Ripple common shares at $100 ($16,000,000) from Linqto Liquidshares (debtors' sale motion, Doc 1988, filed 2026-06-26; sale order Doc 2004 entered 2026-07-01)",
+   "grade": "C",
    "strength": 2,
    "key": false,
-   "source": "https://finance.yahoo.com/markets/crypto/articles/bankruptcy-court-clears-130m-ripple-095423094.html",
+   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
   {
    "from": "gam-lsa",
    "to": "linqto",
-   "label": "bought 40,000 Ripple shares at $100 ($4M) from Linqto estate (Jul 2026)",
-   "grade": "B",
+   "label": "reported to have bought 40,000 Ripple common shares at $100 ($4,000,000) from Linqto Liquidshares (debtors' sale motion, Doc 1989, filed 2026-06-26; hearing 2026-07-01)",
+   "grade": "C",
    "strength": 1,
    "key": false,
-   "source": "https://finance.yahoo.com/markets/crypto/articles/bankruptcy-court-clears-130m-ripple-095423094.html",
+   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
@@ -78905,7 +79016,7 @@
    "strength": 2,
    "key": false,
    "source": "https://api.xrpscan.com/api/v1/account/roUSG6gvxKGBcgGVXhPKHEgy4YyDfiSi3",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
   {
@@ -79153,7 +79264,7 @@
   {
    "from": "justin-sun",
    "to": "ripple",
-   "label": "Chief Representative, Greater China (team page Mar 2015; joined late 2013): later founded Tron",
+   "label": "Chief Representative, leading Ripple Labs' day-to-day business in Greater China (Ripple Labs team page, Mar 2015)",
    "grade": "A",
    "strength": 3,
    "key": true,
@@ -81001,7 +81112,7 @@
   {
    "from": "k-campbell",
    "to": "sui-group",
-   "label": "independent director and audit-committee chair from Jul 9, 2026: ex-Ripple CFO (2021–23) now governs a rival-chain treasury company",
+   "label": "independent director and audit-committee chair of SUI Group (Sui treasury company) from 2026-07-09; former Ripple Labs CFO",
    "grade": "A",
    "strength": 3,
    "key": true,
@@ -82541,11 +82652,11 @@
   {
    "from": "open-payments-coalition",
    "to": "ripple",
-   "label": "PayString reference repo archived on GitHub (last push 2023-03-31); paystring.org/payid.org not resolving (checked 2026-10-20). Looks dormant",
+   "label": "dormant: PayString reference repo archived by its owner on Mar 8 2024 (last code push Mar 2023); paystring.org last archived Mar 2024 and timing out in Oct 2026",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://api.github.com/repos/paystring/paystring",
+   "source": "https://github.com/PayString/paystring/releases",
    "side": "contradicts",
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -83939,7 +84050,7 @@
    "from": "xrpl-korea",
    "to": "xrpseoul",
    "label": "host/organizer of XRP Seoul (2025 and 2026)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.kucoin.com/news/flash/xrp-seoul-2026-concludes-with-over-5-000-attendees",
@@ -84724,7 +84835,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:59:43-04:00"
   },
   {
@@ -84763,8 +84874,8 @@
   {
    "from": "ripple-tender-2024",
    "to": "ripple-tender-dec2024",
-   "label": "buyback series: the Jan 2024 tender ($285M at an $11.3B valuation, up to 6% per holder, confirmed by a Ripple spokesperson to Cointelegraph) was followed by the Dec 2024 tender at $125/share (Linqto docket)",
-   "grade": "A",
+   "label": "buyback series: the Jan 2024 tender ($285M at an $11.3B valuation, up to 6% per holder per Reuters; Ripple confirmed the deal to Cointelegraph) was followed by the Dec 2024 tender at $125/share (Linqto docket)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://cointelegraph.com/news/ripple-labs-buy-back-285-million-stake-tender-offer-report",
@@ -87833,7 +87944,7 @@
    "from": "dcg",
    "to": "genesis-yield-litigation",
    "label": "defendant; NY fraud claim revived Jul 2026; 2nd Cir. interlocutory appeal certified",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.theblock.co/post/407337/judge-revives-fraud-claim-against-barry-silbert-dcg-genesis-yield-lawsuit",
@@ -87844,7 +87955,7 @@
    "from": "silbert",
    "to": "genesis-yield-litigation",
    "label": "individual defendant (no liability found; DCG denies)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://www.theblock.co/post/407337/judge-revives-fraud-claim-against-barry-silbert-dcg-genesis-yield-lawsuit",
@@ -88229,7 +88340,7 @@
    "from": "vert",
    "to": "xrpl-rwa-table",
    "label": "Data conflict: RWA.xyz platform page (vert-capital) shows 13 XRPL assets with 551.9M \"circulating value\" (-0.45% over 30 days) vs $116.1M in the XRPL RWA table; the ~4.75x ratio suggests a BRL/USD unit mismatch (unverified)",
-   "grade": "B",
+   "grade": "C",
    "strength": 1,
    "key": false,
    "source": "https://app.rwa.xyz/platforms/vert-capital",
@@ -88596,7 +88707,7 @@
    "strength": 1,
    "key": false,
    "source": "https://x.com/Ripple/status/1948076703852720617",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
   {
@@ -89340,10 +89451,10 @@
    "from": "fairshake",
    "to": "illinois-primary-2026",
    "label": "about $13.3M opposing Stratton (~$10M), Ford (~$2.5M) and Peters (~$817K) in the 2026-03-17 primary; Stratton and Ford won",
-   "grade": "B",
-   "strength": 3,
+   "grade": "A",
+   "strength": 4,
    "key": false,
-   "source": "https://chicago.suntimes.com/elections/2026/03/18/illinois-primary-super-pac-spending-aipac-cryptocurrency-ai-sports-betting",
+   "source": "https://api.open.fec.gov/v1/schedules/schedule_e/?committee_id=C00835959&min_date=2026-01-01&max_date=2026-03-17",
    "side": "contradicts",
    "added": "2026-10-20T01:54:19-04:00"
   },
@@ -89549,7 +89660,7 @@
    "from": "sbi",
    "to": "ripple",
    "label": "CEO Kitao: SBI owns 'around 9%' ('more than 9%') of Ripple Labs (X, 2026-02-15). Executive statement, not in audited filings",
-   "grade": "B",
+   "grade": "A",
    "strength": 3,
    "key": false,
    "source": "https://x.com/yoshitaka_kitao/status/2022851705772138784",
@@ -89713,7 +89824,7 @@
   {
    "from": "torres-ruling-2023",
    "to": "sales-41",
-   "label": "Institutional Sales about $728.9M to 'institutional buyers, hedge funds, and ODL customers' (parties' 56.1 figures)",
+   "label": "Institutional Sales to 'institutional buyers, hedge funds, and ODL customers'; the SEC alleged about $728.9M (opinion citing Defs. 56.1 Resp. ¶716)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -89973,6 +90084,534 @@
    "source": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr1606131",
    "side": "neutral",
    "added": "2026-10-20T02:56:02-04:00"
+  },
+  {
+   "from": "rippleworks-990pf-xrp",
+   "to": "larsen-7b-pledge-2014",
+   "label": "IRS filings show about 1.25B of the pledged 7B XRP given by Apr 2018",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://apps.irs.gov/pub/epostcard/cor/465604812_201804_990PF_2019050616271575.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "rippleworks-990pf-xrp",
+   "label": "listed donor of about 1.253B XRP in five gifts (Jul 2014 to May 2017)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://apps.irs.gov/pub/epostcard/cor/465604812_201704_990PF_2018040315242732.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rippleworks-990pf-xrp",
+   "label": "listed donor: 1B XRP (Nov 25, 2015), plus 1B pledged Feb 1, 2017",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://apps.irs.gov/pub/epostcard/cor/465604812_201704_990PF_2018040315242732.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "rippleworks-990pf-xrp",
+   "to": "rippleworks",
+   "label": "the foundation's own tax filings (FY ending Apr 2015 to Apr 2018)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://apps.irs.gov/pub/epostcard/cor/465604812_201604_990PF_2018040315242793.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "larsen-7b-pledge-2014",
+   "to": "rippleworks",
+   "label": "the pledged foundation became RippleWorks (SSIR 2015: 7B units pledged to launch it)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://ssir.org/articles/entry/mentoring_meets_its_match",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "larsen-7b-pledge-2014",
+   "to": "xrp",
+   "label": "Messari (2019) counted about 5.9B pledged-but-undonated XRP inside circulating supply",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://messari.io/report/messari-research-ripple-s-market-cap-is-likely-overstated-by-6-1-billion",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "omidyar-network",
+   "to": "rippleworks",
+   "label": "cash donor: $200K (FY to Apr 2016) and $100K (FY to Apr 2017)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://apps.irs.gov/pub/epostcard/cor/465604812_201704_990PF_2018040315242732.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "xrp-key-deposit-2015",
+   "to": "bitstamp-interpleader-2015",
+   "label": "how the disputed XRP was put in the court's custody (Jul–Aug 2015)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/?page=2",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "xrp-key-deposit-2015",
+   "to": "ripple",
+   "label": "key to the 96,342,361.6 XRP returned to Ripple (Apr 2016)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/?page=3",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "goodwin-procter",
+   "to": "bitstamp-interpleader-2015",
+   "label": "Ripple Labs' counsel; filed its cross-claims against McCaleb (Apr 29, 2015)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.178.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "goodwin-procter",
+   "to": "ripple",
+   "label": "litigation counsel in the 2015–16 Bitstamp interpleader",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.8.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "orrick",
+   "to": "bitstamp-interpleader-2015",
+   "label": "counsel for McCaleb and two co-defendants; won an order compelling JAMS arbitration (Aug 2015)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.40.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "orrick",
+   "to": "mccaleb",
+   "label": "represented McCaleb against Ripple Labs' cross-claims (2015–16)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.31.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "stellar",
+   "to": "bitstamp-interpleader-2015",
+   "label": "Stellar Development Foundation intervened (Aug 6, 2015), cross-claimed against Ripple, and received the $942,138.24 (Apr 2016)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.178.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "joyce-kim",
+   "to": "bitstamp-interpleader-2015",
+   "label": "filed declarations for Stellar Development Foundation (May and Jul 2015)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.39.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "bitstamp-interpleader-2015",
+   "to": "mccalebexit",
+   "label": "filings call the 2014 deal a confidential 'Settlement Agreement' with a JAMS arbitration clause",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.286282/gov.uscourts.cand.286282.40.0.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "george-frost",
+   "to": "bitstamp-interpleader-2015",
+   "label": "filed Bitstamp's complaint (Apr 1, 2015); later a cross-defendant, won an anti-SLAPP strike (Jan 14, 2016)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.courtlistener.com/docket/5972743/bitstamp-ltd-v-ripple-labs-inc/?page=2",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "george-frost",
+   "to": "powell-resign-2014",
+   "label": "sent Ripple Labs' cease-and-desist letter to Powell (May 2014)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://farside.co.uk/wp-content/uploads/2018/02/5-24-14-Retraction-Demand-Powell_.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "chinagrowth",
+   "to": "circle",
+   "label": "later investor in Circle (TechNode 2018)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://technode.com/2018/02/07/blockchain/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "idg",
+   "to": "circle",
+   "label": "investor in Circle alongside China Growth Capital, Baidu, Everbright and CICC (TechNode 2018)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://technode.com/2018/02/07/blockchain/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "campone",
+   "to": "wilson-sonsini",
+   "label": "co-founder Robert Claassen was formerly co-head of Wilson Sonsini's global capital markets practice (Camp One site)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.camponeventures.com/team",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "rippleworks-990pf-xrp",
+   "to": "larsen-7b-pledge-2014",
+   "label": "later filings show total gifts of only $500 to $400K a year (FY2019 to FY2023), so no further large XRP gift is reported",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://projects.propublica.org/nonprofits/api/v2/organizations/465604812.json",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "ashton-kutcher",
+   "to": "sound-ventures",
+   "label": "co-runs Sound Ventures with Guy Oseary (CNBC, May 2018)",
+   "grade": "B",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.cnbc.com/2018/05/24/ashton-kutcher-gave-ellen-degeneres-ripples-xrp-for-charity.html",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "sound-ventures",
+   "to": "ripple",
+   "label": "invested in Ripple (CNBC, May 2018)",
+   "grade": "B",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.cnbc.com/2018/05/24/ashton-kutcher-gave-ellen-degeneres-ripples-xrp-for-charity.html",
+   "side": "supports",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "ashton-kutcher",
+   "to": "xrp",
+   "label": "on-air $4M XRP donation to the Ellen DeGeneres Wildlife Fund on behalf of Ripple (May 23 2018)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.cnbc.com/2018/05/24/ashton-kutcher-gave-ellen-degeneres-ripples-xrp-for-charity.html",
+   "side": "supports",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "terrapay",
+   "to": "ripple",
+   "label": "lists Ripple among its money-transfer partners, next to Western Union, Visa and MoneyGram (TerraPay release, Mar 2020)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.finextra.com/pressarticle/81714/terrapay-acquired-and-gets-cash-injection",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "terrapay",
+   "to": "xahau-eth-remit-2026",
+   "label": "lead partner: euro remittance settlement to Ethiopia on Xahau (launched May 6 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "quantoz",
+   "to": "xahau-eth-remit-2026",
+   "label": "supplies regulated digital-euro settlement for the Europe→Ethiopia corridor on Xahau (May 6 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "codius",
+   "to": "coil",
+   "label": "relaunched by ex-Ripple CTO Stefan Thomas in Jun 2018 as the technical backbone of his company Coil, paid via Interledger",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.coindesk.com/markets/2018/06/06/ripple-smart-contracts-creator-targets-ethereum-with-new-tech-launch",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "codius",
+   "to": "telindus-proximus",
+   "label": "Telindus (Proximus Group) said it would build on the relaunched Codius (CoinDesk, Jun 2018)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/markets/2018/06/06/ripple-smart-contracts-creator-targets-ethereum-with-new-tech-launch",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "paribu",
+   "to": "xrp",
+   "label": "lists XRP spot pairs (XRP/TL, XRP/USDT), checked Oct 20 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.paribu.com/en/markets/xrp_usdt",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "animoca-brands",
+   "to": "hextrust",
+   "label": "led Hex Trust's $10M round, with Ripple Labs also investing (Oct 5 2021)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.hextrust.com/resources-collection/hex-trust-raises-a-us-10m-investment-round-led-by-animoca-brands",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "animoca-brands",
+   "to": "mintable",
+   "label": "invested in Mintable's $13M Series A alongside Ripple; Mintable to integrate XRPL (Jul 2021)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://coinjournal.net/news/ripple-and-animoca-brands-support-mintables-13m-series-a/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "sound-ventures",
+   "to": "mintable",
+   "label": "early 2021 backer of Mintable, before Ripple joined its Series A (CoinJournal, Jul 2021)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://coinjournal.net/news/ripple-and-animoca-brands-support-mintables-13m-series-a/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "wave-digital-assets",
+   "to": "hextrust",
+   "label": "named (as Wave Financial) among Hex Trust's strategic partners and clients in its Oct 2021 funding release",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.hextrust.com/resources-collection/hex-trust-raises-a-us-10m-investment-round-led-by-animoca-brands",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "immix",
+   "label": "Ripple Ventures joined Immix's $2.7M seed round led by MassMutual Ventures (Sep 2023)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://techfundingnews.com/immix-co-founded-by-former-j-p-morgan-trader-raises-2-7m-for-marketplace-to-trade-crypto-assets/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "immix",
+   "to": "virtu",
+   "label": "co-founded by former J.P. Morgan and Virtu Financial quant traders (Sep 2023)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://techfundingnews.com/immix-co-founded-by-former-j-p-morgan-trader-raises-2-7m-for-marketplace-to-trade-crypto-assets/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "xpring",
+   "to": "dharma",
+   "label": "Ripple's Xpring fund joined Dharma Labs' $7M round led by Green Visor Capital (Feb 2019)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.coindesk.com/markets/2019/02/05/dharma-labs-raises-7-million-from-green-visor-coinbase-and-polychain",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "dharma",
+   "label": "Coinbase Ventures co-invested in Dharma Labs' $7M round alongside Xpring (Feb 2019)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/markets/2019/02/05/dharma-labs-raises-7-million-from-green-visor-coinbase-and-polychain",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "dispersion-capital",
+   "label": "backer (LP) of Dispersion Capital's $40M decentralized-infrastructure fund (May 23 2023)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://dispersion.xyz/learn/343/dispersion-capital-launches-40m-fund-for-decentralized-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "dispersion-capital",
+   "label": "Circle Ventures named as a backer of Dispersion's $40M fund, alongside Ripple (May 23 2023)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://dispersion.xyz/learn/343/dispersion-capital-launches-40m-fund-for-decentralized-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "xrp-asia",
+   "to": "xrpl-korea",
+   "label": "plans to support existing communities such as XRPL Korea and XRPL Japan (announced at XRP Seoul, Oct 3 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.kucoin.com/news/flash/xrp-seoul-2026-concludes-with-over-5-000-attendees",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "north-island-ventures",
+   "to": "squid",
+   "label": "led Squid's $6M round with Ripple participating, after also leading its seed (May 22 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/squid-raises-6m-to-expand-consumer-product-offering-on-cross-chain-infrastructure-302779721.html",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "temasek",
+   "to": "superscrypt",
+   "label": "founded Superscrypt, an early-stage blockchain investment company (Superscrypt site)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.superscrypt.xyz/",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "ledger-hw",
+   "to": "xrpl-hackathon-nyc-2026",
+   "label": "partner and mentor/judge (Oct 24–25 2026, NYC)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://luma.com/xrpl-hackathon-nyc",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "soil",
+   "to": "xrpl-hackathon-nyc-2026",
+   "label": "mentor/judge (Oct 24–25 2026, NYC)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://luma.com/xrpl-hackathon-nyc",
+   "side": "neutral",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "jp-act64-2026",
+   "to": "sbi-am-etf",
+   "label": "the Jul 2026 law approves no crypto ETF; the FSA will only now consider an ETF framework, so SBI's planned BTC+XRP ETF still has no listing route",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/policy/2026/07/15/japan-reclassifies-crypto-as-a-financial-asset-paves-way-for-tax-cuts",
+   "side": "contradicts",
+   "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "from": "george-frost",
+   "to": "ripple",
+   "label": "outside counsel to Ripple Labs: signed its cease-and-desist to Jesse Powell (May 24, 2014)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://farside.co.uk/wp-content/uploads/2018/02/5-24-14-Retraction-Demand-Powell_.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T03:53:26-04:00"
   }
  ]
 }
