@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T08:22:53-04:00",
+  "updated": "2026-10-20T08:33:22-04:00",
   "version": 3
  },
  "nodes": [
@@ -27824,14 +27824,15 @@
    "label": "rUWUJ2F3… BitGo-hosted omnibus that delivered Evernorth's purchased XRP",
    "type": "asset",
    "handle": "",
-   "summary": "rUWUJ2F3aZknSd8PVutoMnxowMK792maTD. Created 2019-09-09 by XRPScan's 'BitGo Initialization Wallet'. 2-of-3 SignerList, master key disabled, RequireDestTag set; balance 30.27M XRP (Oct 20, 2026). Full ledger history: 13,555 transactions, 305.8M XRP in from 459 senders and 275.5M out to 442 destinations, with most senders using a fixed destination tag of their own (an omnibus/sub-account pattern). On Oct 31 and Nov 12, 2025 (UTC) it sent Evernorth's staging wallet rNtaHck1… 5 + 74,509,670.389 + 9,856,200.973 = 84,365,876.362 XRP. That is exactly the 84,365,876.3625 XRP that the Nov 4, 2025 8-K/425, the press release and the 424B3 say Evernorth bought 'from one or more liquidity providers'. The press release (Nov 4) came 8 days before the last 9.86M settled on the ledger. From Oct 24 to Nov 12, 2025 it took in 90.1M XRP from 41 tagged senders, none labeled on XRPScan. Separately, a relay created by a Ripple-50 sub-wallet (rwH4Cgqb…) deposited 84.17M and withdrew 84.17M between Dec 2024 and Jul 2026, netting ~1 XRP. Owner UNCONFIRMED: there is no XRPScan or Bithomp label (Bithomp still Cloudflare-blocked), no public post names it, and the filings name no liquidity provider.",
+   "summary": "rUWUJ2F3aZknSd8PVutoMnxowMK792maTD. Created 2019-09-09 by XRPScan's 'BitGo Initialization Wallet'. 2-of-3 SignerList, master key disabled, RequireDestTag set; balance 30.27M XRP (Oct 20, 2026). Full ledger history: 13,555 transactions, 305.8M XRP in from 459 senders and 275.5M out to 442 destinations, with most senders using a fixed destination tag of their own (an omnibus/sub-account pattern). On Oct 31 and Nov 12, 2025 (UTC) it sent Evernorth's staging wallet rNtaHck1… 5 + 74,509,670.389 + 9,856,200.973 = 84,365,876.362 XRP. That is exactly the 84,365,876.3625 XRP that the Nov 4, 2025 8-K/425, the press release and the 424B3 say Evernorth bought 'from one or more liquidity providers'. The press release (Nov 4) came 8 days before the last 9.86M settled on the ledger. From Oct 24 to Nov 12, 2025 it took in 90.1M XRP from 41 tagged senders, none labeled on XRPScan. Separately, a relay created by a Ripple-50 sub-wallet (rwH4Cgqb…) deposited 84.17M and withdrew 84.17M between Dec 2024 and Jul 2026, netting ~1 XRP. Owner UNCONFIRMED: there is no XRPScan or Bithomp label (Bithomp still Cloudflare-blocked), no public post names it, and the filings name no liquidity provider. Oct 20, 2026 trace: the account held 50.65M XRP on Oct 1, 2025 and took in 87.54M in 207 payments from 30 senders between Oct 23 20:00 ET and the 74.51M delivery on Oct 31. Top senders Oct 1–Nov 12: rPnbJ3LF… 21.49M, rw1xqK3T… 15.01M, rQDQgwpX… 13.68M, rLXUCgmb… 13.48M, rUSYaUPU… 10.28M, rsG4ixhf… 8.86M (created by the BitGo Initialization Wallet), rsM7KAW1… 7.44M; none have XRPScan labels. The balance never fell below ~53M, so the 9.86M Nov 11 ET settlement came from the existing balance. Per the DEFM14A (Aug 27, 2026), Pubco sent the cash 'to its XRP custodian for use in purchasing XRP at then-prevailing market prices from one or more liquidity providers', averaging $2.53657058 per XRP.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rUWUJ2F3aZknSd8PVutoMnxowMK792maTD",
     "https://api.xrpscan.com/api/v1/tx/3C059B7AD528610845EC7E5B99470514BDFE6E040AEE28B9B7C97D976EE4A87F",
     "https://api.xrpscan.com/api/v1/tx/110B243A84D756E18DC5048DF6A168F8E295BCF33D30C3CD460C1FBCB3DCC92F",
     "https://www.sec.gov/Archives/edgar/data/2044009/000119312525263630/d77894d425.htm",
-    "https://www.evernorth.xyz/press-release-11-04-2025"
+    "https://www.evernorth.xyz/press-release-11-04-2025",
+    "https://www.sec.gov/Archives/edgar/data/2044009/000119312526371516/d944435ddefm14a.htm"
    ],
    "added": "2026-10-20T02:56:02-04:00"
   },
@@ -27999,6 +28000,103 @@
     "https://www.sec.gov/Archives/edgar/data/1771146/000177114626000780/etfot-497suppxliquidationo.htm"
    ],
    "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "id": "w-rpxh-hub",
+   "label": "rpxh7h17… hub (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rpxh7h17d8h2pARfKCe17KpzskZkhuZZY1, unlabeled. rKxLugg51… activated it with 95 XRP on Aug 2, 2025. rKxLugg51… was created Apr 1, 2025 by rHPGFxtg…, the same account that created the rBNCyNEw desk; XRPScan shows rHPGFxtg… was itself created by 'Binance 10'. Full ledger history (196 tx): 1,520.85M XRP in over 132 payments and 1,520.85M out over 47, leaving a live balance of 1,000.91 XRP (Oct 20, 2026). Largest flows: 917.91M from Ripple-50 sub-wallet rnU65s4J… (12 payments, Nov 3, 2025–Oct 6, 2026); 412.40M from rBNCyNEw… (12, Dec 2025–Jun 2026) and 102.60M back to it; 533.0M to rJUdpvAX…, 298.26M to rN1yT2…, 255.34M to r3bh7pm… and 170.99M to rL1quAgi…. It funded the 82.3M XRP wallet move of Oct 19, 2026. Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rpxh7h17d8h2pARfKCe17KpzskZkhuZZY1",
+    "https://api.xrpscan.com/api/v1/account/rKxLugg51yhhPRJ21yeb5Ymcwsmm4T66Jh",
+    "https://xrpscan.com/tx/C841460DAB8BE38D6942B11FED43CF95D839832C33FDCC0398021E41DCBC665C",
+    "https://xrplcluster.com"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "w-rn1yt2",
+   "label": "rN1yT2hk… hub-funded wallet (sent 82.3M XRP on Oct 19, 2026)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rN1yT2hkfMt89CJVsXdvnKqRJbqm7TC8uo, unlabeled. Created Nov 14, 2025 by hub rpxh7h17…, which sent it 298.26M XRP in 8 payments through Feb 5, 2026. It returned 73.18M to the hub on May 20, 2026 and sent 82,314,668.80 XRP to the new wallet r3pjzQLP… on Oct 19, 2026 at 20:30 ET. Live balance 142.77M XRP (Oct 20, 2026). Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rN1yT2hkfMt89CJVsXdvnKqRJbqm7TC8uo",
+    "https://xrpscan.com/tx/A6F7FC7E80CEEE910F87C0634378F98A540F32E8F4DEF9F05A95CD0F80466296",
+    "https://xrpscan.com/tx/439B9776158CA88A53FF8839022179417BE68F576AA6744963F353E6EE24F3B0"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "w-r3pjzq",
+   "label": "r3pjzQLP… new wallet holding 82.3M XRP (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "r3pjzQLPjJLCzJKqtNpy9fAVAwaaSvjybc. Created Oct 19, 2026 at 20:30 ET by a single 82,314,668.8046 XRP payment from rN1yT2hk…. That payment is its only transaction; the balance is unchanged as of Oct 20, 2026. Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/r3pjzQLPjJLCzJKqtNpy9fAVAwaaSvjybc",
+    "https://xrpscan.com/tx/439B9776158CA88A53FF8839022179417BE68F576AA6744963F353E6EE24F3B0"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "w-rjudpvax",
+   "label": "rJUdpvAX… hub-created wallet (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rJUdpvAXHucQmPfWngRv6BacqkTvF5PYXE, unlabeled. Created Dec 19, 2025 by hub rpxh7h17…, which sent it 533.0M XRP in 8 payments through May 20, 2026. It forwarded 438.0M to rGMiNvZB… (created by r3bh7pm…) and holds 28.37M XRP (Oct 20, 2026). Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rJUdpvAXHucQmPfWngRv6BacqkTvF5PYXE",
+    "https://xrpscan.com/tx/4E0192B2074535E794EA7A063D5DF15EE5E79AEA38843419958A833013C37798"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "w-r3bh7pm",
+   "label": "r3bh7pmT… hub-created wallet (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "r3bh7pmTCWUuT7PGcQ9qSYptRuWDvHMc5D, unlabeled. Created Nov 28, 2025 by hub rpxh7h17…, which sent it 255.34M XRP in 6 payments through Oct 6, 2026. It sent 423.0M XRP to the rBNCyNEw desk, 255.3M to rGMiNvZB… and 70M back to the hub, and now holds ~98 XRP. Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/r3bh7pmTCWUuT7PGcQ9qSYptRuWDvHMc5D",
+    "https://xrpscan.com/tx/9C7D9C31FEF345461C5D980879D8C223F6206B88D8D2A1BED49FC07CA779D059"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "w-rl1quagi",
+   "label": "rL1quAgi… Nexo-created wallet that receives from the hub (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rL1quAgi8JEZXbgEg63A3iCpCMY9SVrkjf, with no XRPScan label of its own. 'Nexo 1' (rwADc5YV…, nexo.io) created it on Mar 19, 2020. It received 170.99M XRP from hub rpxh7h17… in 6 payments (Feb 2–Jun 26, 2026, dest tag 1634879248), and since Feb 2026 it has sent ~120.2M XRP in 193 payments to 'Binance 11' (rNxp4h8a…). Live balance ~36.36M XRP. Owner unconfirmed; the creator link is lineage only.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rL1quAgi8JEZXbgEg63A3iCpCMY9SVrkjf",
+    "https://xrpscan.com/tx/045B4C02E933F7C618DC24B676CEE64B15F59333E94662B29CA8D98225B4B33B"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "xrpl-xrp-overflow-2026",
+   "label": "XRPL payment-engine XRP overflow bug (fixed in xrpld 3.4.1, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Official XRPL disclosure (Oct 9, 2026): an integer overflow in the payment engine, present since 2015, could have minted spendable XRP beyond the 100B supply in a single crafted payment. The 'no XRP created' invariant wrapped the same way, so it caught nothing. Cayden Liao and Veria AI reported it via the XRPL bug bounty on Sep 22, 2026. RippleX rated it critical and shipped the fix in xrpld 3.4.1 on Sep 25, 2026 without an amendment vote, a first for the amendment era. The report found no evidence of exploitation. Live ledger total_coins was 99,985,588,738 XRP (ledger 107,783,359, Oct 20, 2026). The X 'supply cap bug' claim is accurate. GitHub's XRPLF/rippled advisories page lists no GHSA for it; the disclosure was published on xrpl.org.",
+   "why": "The XRPL's own disclosure says a bug present since 2015 could have let one crafted payment create spendable XRP beyond the 100 billion cap; it was fixed in xrpld 3.4.1 on Sep 25, 2026, shipped without the usual amendment vote, and no exploitation was found.",
+   "grade": "A",
+   "sources": [
+    "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+    "https://github.com/XRPLF/rippled/releases/tag/3.4.1",
+    "https://github.com/XRPLF/rippled/security/advisories",
+    "https://www.coindesk.com/tech/2026/10/12/why-a-bug-that-could-have-threatened-xrp-s-100-billion-supply-cap-stayed-hidden-for-years"
+   ],
+   "added": "2026-10-20T08:26:00-04:00"
   }
  ],
  "edges": [
@@ -90863,6 +90961,204 @@
    "source": "https://www.prnewswire.com/news-releases/moneygram-ramps-goes-multichain-with-solana-launch-302847719.html",
    "side": "contradicts",
    "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "w-ripple-50",
+   "to": "w-rpxh-hub",
+   "label": "Ripple-50 sub-wallet rnU65s4J… sent the hub 917.91M XRP in 12 payments, Nov 3, 2025–Oct 6, 2026",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/87499ECC330E07896C21BDFF4ABF7F7AFBADF6D5D005CE2872E51A16F298E9C3",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rbnc-desk",
+   "to": "w-rpxh-hub",
+   "label": "412.40M XRP to the hub in 12 payments, Dec 2025–Jun 2026; 102.60M flowed back the other way",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/D57355AB3762C18F06EFE10BEE4E02136A009CDE1B44D8D79593AE4733C16CBC",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rbnc-desk",
+   "label": "shared creator: the hub was activated by rKxLugg51…, which rHPGFxtg… created; rHPGFxtg… also created rBNCyNEw",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rKxLugg51yhhPRJ21yeb5Ymcwsmm4T66Jh",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rn1yt2",
+   "label": "created it and sent 298.26M XRP in 8 payments, Nov 14, 2025–Feb 5, 2026 (73.18M came back May 20, 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://xrpscan.com/tx/A6F7FC7E80CEEE910F87C0634378F98A540F32E8F4DEF9F05A95CD0F80466296",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rn1yt2",
+   "to": "w-r3pjzq",
+   "label": "created it with one 82.31M XRP payment, Oct 19, 2026 20:30 ET",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://xrpscan.com/tx/439B9776158CA88A53FF8839022179417BE68F576AA6744963F353E6EE24F3B0",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rjudpvax",
+   "label": "created it and sent 533.0M XRP in 8 payments, Dec 19, 2025–May 20, 2026",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/B808D80D9C23B5BEA2D1076A9A6CEF500D49B4ABC4481ABA67629AB5B6A427FD",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-r3bh7pm",
+   "label": "created it and sent 255.34M XRP in 6 payments, Nov 28, 2025–Oct 6, 2026",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/DB273F9CB8B919885506061C47275AE8910829FFAB7D9A5854BF9F19ABF20774",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rl1quagi",
+   "label": "170.99M XRP in 6 payments, Feb 2–Jun 26, 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/CE1C40D0471691BD9ECD6FCF646A5220DE7144162C1B85B13FF8B44409ACD08E",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-r3bh7pm",
+   "to": "w-rbnc-desk",
+   "label": "423.0M XRP to rBNCyNEw in 11 payments, Dec 2025–Jun 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/r3bh7pmTCWUuT7PGcQ9qSYptRuWDvHMc5D",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rl1quagi",
+   "to": "binance",
+   "label": "~120.2M XRP to 'Binance 11' rNxp4h8a… in 193 payments, Feb–Aug 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rL1quAgi8JEZXbgEg63A3iCpCMY9SVrkjf",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-ripple-50",
+   "to": "w-ruwuj-lp",
+   "label": "timing: no relay rwH4Cgqb… flows between Apr 18, 2025 and Jan 31, 2026; its net 26.82M deposit was outstanding at the Oct 31, 2025 Evernorth delivery (pooled omnibus balance, not traceable to it)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/0D993FBDBC43F62E7474CCE42F32D316ED1A876A05175D90F0C8B35B5FE26371",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "w-rl1quagi",
+   "to": "w-ruwuj-lp",
+   "label": "lead: rw1xqK3T…, which put 15.0M XRP into rUWUJ2F3 between Oct 1 and Nov 12, 2025, paid rL1quAgi 4.9M on Jun 25, 2026 with the hub's dest tag 1634879248",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/CFADE76016D8FADF813AC164B6BA7E71ED5A1B23F23BC360A00965DB96179C34",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "bitgo",
+   "label": "advance-funding subscription agreement names BitGo Trust Co. 'XRP Custodian'; XRP to be bought via custodian affiliates or third-party 'Liquidity Providers' and prime brokers (Oct 20, 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2044009/000119312525243103/d97098dex105.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "xrpl-xrp-overflow-2026",
+   "to": "xrpl",
+   "label": "critical payment-engine overflow (since 2015) could mint XRP past the 100B cap; fixed Sep 25, 2026; no exploitation found",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+   "side": "contradicts",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "xrpl-xrp-overflow-2026",
+   "to": "rippled",
+   "label": "fixed in xrpld 3.4.1 (Sep 25, 2026) as a direct code change with no amendment vote; source published Oct 9",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://github.com/XRPLF/rippled/releases/tag/3.4.1",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "xrpl-xrp-overflow-2026",
+   "to": "ripple",
+   "label": "RippleX Engineering reproduced the mint, raised it to critical and shipped the fix (Sep 22–25, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "xrpl-xrp-overflow-2026",
+   "to": "xrplf",
+   "label": "XRPL Foundation co-decided to skip the amendment process and published an explainer (Oct 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpl.org/blog/2026/vulnerabilitydisclosurereport-bug-20261009",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "from": "moneygram",
+   "to": "kraken",
+   "label": "crypto-to-cash withdrawal partnership: Kraken customers cash out through MoneyGram's payout network in 100+ countries (announced May 5, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/kraken-and-moneygram-partner-to-turn-crypto-into-cash-at-global-scale-302762600.html",
+   "side": "neutral",
+   "added": "2026-10-20T08:26:09-04:00"
   }
  ]
 }
