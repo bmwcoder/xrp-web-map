@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T00:13:08-04:00",
+  "updated": "2026-10-20T00:19:00-04:00",
   "version": 3
  },
  "nodes": [
@@ -16,7 +16,8 @@
     "https://www.coingecko.com/en/coins/xrp",
     "https://xrp-insights.com/xrp-radar/escrow"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "The asset everything here is about: Ripple's escrow, Evernorth and the spot ETFs all hold it, and a 2026 SEC/CFTC release named it a digital commodity, while some funds (e.g. WisdomTree's US filing) withdrew."
   },
   {
    "id": "xrpl",
@@ -30,7 +31,8 @@
     "https://xrpl.org/resources/known-amendments.md",
     "https://api.xrpscan.com/api/v1/amendments"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "The public ledger XRP runs on, live since 2012; banks and funds build on it, but big projects like Swift's ledger and DTCC's tokenization service picked other chains."
   },
   {
    "id": "rlusd",
@@ -43,7 +45,8 @@
     "https://ripple.com/ripple-press/raising-the-standard-for-stablecoins-ripple-usd-launches-globally/",
     "https://ripple.com/products/stablecoin/"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Ripple's US-dollar stablecoin, issued by Standard Custody with BNY as primary reserve custodian; it is how many banks and funds on this map actually connect to Ripple."
   },
   {
    "id": "fugger",
@@ -83,7 +86,8 @@
     "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
     "https://ripple.com/ripple-press/amid-high-growth-ripples-chris-larsen-appoints-brad-garlinghouse-chief-executive-officer/"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Ripple co-founder and executive chairman, described in an Oct 2026 13G as Ripple's controlling shareholder; he kept 9B XRP from the founders' split and also links to Evernorth through his family trust."
   },
   {
    "id": "britto",
@@ -122,7 +126,8 @@
     "https://en.wikipedia.org/wiki/Ripple_Labs",
     "https://nysd.uscourts.gov/sites/default/files/2023-07/SEC%20vs%20Ripple%207-13-23.pdf"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Ripple's original company name (NewCoin/OpenCoin, 2012); the founders gave it 80B XRP, which is where Ripple's large XRP holdings started."
   },
   {
    "id": "a16z",
@@ -236,7 +241,8 @@
     "https://en.wikipedia.org/wiki/Ripple_Labs",
     "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "The company at the center of the map: it holds about 31.4B XRP in escrow, bought Hidden Road, GTreasury, Metaco, Rail and Standard Custody, and was valued at $40B in Nov 2025, yet its trust-bank charter is only conditionally approved."
   },
   {
    "id": "garlinghouse",
@@ -294,7 +300,8 @@
     "https://ripple.com/insights/ripple-closes-hidden-road-acquisition/",
     "https://ripple.com/ripple-press/ripple-launches-support-for-institutions-to-access-real-world-asset-perpetual-swaps/"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Ripple's prime broker (ex-Hidden Road, bought for $1.25B) gives Ripple a seat in Wall Street plumbing: it cleared the first CME XRP futures block and sits in DTCC's working group, but its US trades clear via Pershing with no XRPL role."
   },
   {
    "id": "gtreasury",
@@ -306,7 +313,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-breaks-into-corporate-treasury-with-gtreasury-acquisition/"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Treasury-management software company Ripple bought for $1B in 2025; it then acquired Solvexia, now part of Ripple Treasury."
   },
   {
    "id": "rail",
@@ -331,7 +339,8 @@
     "https://ripple.com/ripple-press/leading-enterprise-crypto-company-ripple-acquires-custody-provider-metaco-for-250m/",
     "https://docs.ripple.com/products/custody/support/change-history/v143"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Swiss custody firm Ripple bought for $250M; it became Ripple Custody, used by SG-FORGE and Absa, and it now supports other chains like Canton and Sui, not only XRPL."
   },
   {
    "id": "sctc",
@@ -343,7 +352,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-announces-acquisition-of-standard-custody-and-trust-company-expands/"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Standard Custody & Trust, bought by Ripple in 2024, is RLUSD's issuer; its Fed master-account request (filed Mar 2025) is still pending."
   },
   {
    "id": "bny",
@@ -356,7 +366,8 @@
     "https://ripple.com/insights/ripple-closes-hidden-road-acquisition/",
     "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-selects-bny-to-custody-ripple-usd-reserves.html"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "BNY is RLUSD's primary reserve custodian (and also custodies USDC reserves); its Pershing unit clears Ripple Prime's US trades."
   },
   {
    "id": "stanchart",
@@ -368,7 +379,8 @@
    "sources": [
     "https://www.sc.com/en/press-release/standard-chartered-launches-rlusd-custody-and-joins-planned-collateral-integration-with-ripple-and-lmax-group/"
    ],
-   "added": "2026-10-19T13:55:00-04:00"
+   "added": "2026-10-19T13:55:00-04:00",
+   "why": "Standard Chartered invested in Ripple in 2016 with a board observer seat and, ten years later (Oct 2026), began custodying RLUSD on XRPL from its DIFC branch."
   },
   {
    "id": "crossriver",
@@ -382,7 +394,8 @@
     "https://www.crossriver.com/newsroom/cross-river-powers-x-money-first-p2p-payments-experience-built-into-us-social-media-platform",
     "https://ripple.com/insights/ripple-labs-signs-first-two-us-banks/"
    ],
-   "added": "2026-10-19T07:47:00-04:00"
+   "added": "2026-10-19T07:47:00-04:00",
+   "why": "A US bank that was one of the first on the Ripple protocol (2014), embedded RLUSD on XRPL (2026), and is also the bank behind X Money."
   },
   {
    "id": "drivewealth",
@@ -443,7 +456,8 @@
     "https://www.sbigroup.co.jp/english/news/pdf/2016/0519_a_en.pdf",
     "https://www.sbigroup.co.jp/english/news/pdf/2025/0822_d_en.pdf"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "Japan's SBI is a long-time Ripple shareholder and partner (SBI Ripple Asia, RLUSD Japan MOU, a $200M Evernorth commitment), but it signed a USDC joint venture with Circle the same day as the RLUSD deal."
   },
   {
    "id": "kitao",
@@ -479,7 +493,8 @@
    "sources": [
     "https://communications.dtcc.com/rs/669-QIL-921/images/DTCC%20Tokenization%20Service%20At-a-Glance.pdf"
    ],
-   "added": "2026-10-19T13:55:00-04:00"
+   "added": "2026-10-19T13:55:00-04:00",
+   "why": "Wall Street's settlement utility launched its tokenization service on Canton and its own Besu network, naming Stellar and Circle Arc for 2027, not XRPL; Ripple Prime has a working-group seat only."
   },
   {
    "id": "canton",
@@ -492,7 +507,8 @@
     "https://communications.dtcc.com/rs/669-QIL-921/images/DTCC%20Tokenization%20Service%20At-a-Glance.pdf",
     "https://docs.ripple.com/products/custody/support/change-history/v143"
    ],
-   "added": "2026-10-19T13:55:00-04:00"
+   "added": "2026-10-19T13:55:00-04:00",
+   "why": "Digital Asset's Canton Network went live in DTCC's tokenization service and is now supported by Ripple Custody: custody support, not an XRP role."
   },
   {
    "id": "sec",
@@ -505,7 +521,8 @@
     "https://www.sec.gov/newsroom/press-releases/2020-338",
     "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26369"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "The regulator that sued Ripple in 2020 and won a $125M judgment in 2024, then in 2026 issued the release naming XRP among 16 digital commodities."
   },
   {
    "id": "cftc",
@@ -531,7 +548,8 @@
     "https://clerk.house.gov/Votes/2025199",
     "https://www.senate.gov/legislative/cloture/119.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "The US crypto market-structure bill: it passed the House 294-134 in July 2025, but Senate cloture failed 49-50 in Sep 2026, so it is stalled."
   },
   {
    "id": "occ",
@@ -644,7 +662,8 @@
    "sources": [
     "https://www.globenewswire.com/news-release/2025/12/11/3204020/0/en/21shares-broadens-us-spot-crypto-lineup-with-the-launch-of-xrp-etf-toxr.html"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "21Shares' US spot XRP ETF; a Ripple subsidiary bought $220.68M of seed shares to fund its first 100M XRP, so Ripple money stands behind this fund."
   },
   {
    "id": "xrpr",
@@ -693,7 +712,8 @@
     "https://www.evernorth.xyz/press-release-10-09-2026",
     "https://www.sec.gov/Archives/edgar/data/2092592/000119312526347519/d944435ds4a.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "why": "A Nasdaq-listed XRP treasury company (XRPN) backed by Ripple, SBI and Arrington that holds about 473M XRP; that is more XRP than any single ETF on this map."
   },
   {
    "id": "birla",
@@ -941,7 +961,8 @@
      "to": "Verified official @XRP account; first post 2026-10-19 12:08 ET ('hello, world. It's about time.'). Ripple welcomed it. Who runs it is unconfirmed. UPDATE 2026-10-19: Bio: 'X account managed by @Ripple & @XRPLF.' Created 2026-10-15; X business verification. The @XRP handle was acquired from a prior private owner (C; terms undisclosed).",
      "note": "non-identifying aggregate replacing a private node on the public map"
     }
-   ]
+   ],
+   "why": "The verified @XRP account launched Oct 19, 2026; its bio says it is managed by Ripple and the XRPL Foundation, so it speaks for the ecosystem rather than an independent community."
   },
   {
    "id": "xrporg",
@@ -1225,7 +1246,8 @@
     "https://www.sec.gov/Archives/edgar/data/1273931/000119312519174813/d766773dex101.htm",
     "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.708.14.pdf"
    ],
-   "added": "2026-10-19T08:10:00-04:00"
+   "added": "2026-10-19T08:10:00-04:00",
+   "why": "Once Ripple's biggest ODL partner (Ripple paid it $61.5M in market-development fees), MoneyGram ended the deal in March 2021 after the SEC suit and moved to Stellar instead: key evidence against the thesis."
   },
   {
    "id": "gsr",
@@ -1251,7 +1273,8 @@
     "https://www.sec.gov/Archives/edgar/data/1862935/000149315223027705/ex10-16.htm",
     "https://www.sec.gov/Archives/edgar/data/1862935/000149315224027121/form424b3.htm"
    ],
-   "added": "2026-10-19T08:10:00-04:00"
+   "added": "2026-10-19T08:10:00-04:00",
+   "why": "A payout company 40% owned by Ripple that used XRP as a bridge currency; its filings show only 4 of 88 customers used ODL by 2024 and that it stopped offering Ripple ODL in Nov 2025."
   },
   {
    "id": "gemini",
@@ -1494,7 +1517,8 @@
     "grade": "C",
     "url": "https://x.com/Eeinyy/status/2111946874936823973",
     "note": "Node's NDA claim unsupported (no public source). BlackRock's Open USD partner listing is a separate, sourced fact; node stays C on the NDA framing."
-   }
+   },
+   "why": "The world's largest asset manager appears here mainly through stablecoin and tokenization ties; it denied the fake 2023 'iShares XRP' filing and has said it has no plans to file an XRP ETF."
   },
   {
    "id": "polysign",
@@ -1554,7 +1578,8 @@
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20230103a.htm",
     "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20250424a.htm"
    ],
-   "added": "2026-10-19T21:55:00-04:00"
+   "added": "2026-10-19T21:55:00-04:00",
+   "why": "Michael Barr sat on Ripple's advisory board in 2015 and later became the Fed's Vice Chair for Supervision, yet he dissented against the Fed's 2026 'skinny' master-account plan."
   },
   {
    "id": "fed",
@@ -1725,7 +1750,8 @@
     "https://www.federalregister.gov/documents/2026/03/23/2026-05635/application-of-the-federal-securities-laws-to-certain-types-of-crypto-assets-and-certain",
     "https://www.cftc.gov/PressRoom/PressReleases/9198-26"
    ],
-   "added": "2026-10-19T21:55:00-04:00"
+   "added": "2026-10-19T21:55:00-04:00",
+   "why": "The Mar 17, 2026 SEC release (with CFTC guidance) that names XRP among 16 example digital commodities; it does not make XRP the only asset with clarity."
   },
   {
    "id": "atkins",
@@ -1752,7 +1778,8 @@
     "https://x.com/XRPLF"
    ],
    "added": "2026-10-19T21:55:00-04:00",
-   "tier": 1
+   "tier": 1,
+   "why": "The non-profit that publishes the XRPL's default validator list (identical to Ripple's) and co-manages the @XRP account."
   },
   {
    "id": "nca",
@@ -1969,7 +1996,8 @@
      "note": "macro pass-2 summary update (queue/macro.jsonl)",
      "source": "https://www.fec.gov/data/committee/C00835959/"
     }
-   ]
+   ],
+   "why": "A crypto super PAC; FEC filings show Ripple gave it $93M across four contributions from Dec 2023 to Aug 2025, alongside Coinbase."
   },
   {
    "id": "flare",
@@ -2129,7 +2157,8 @@
     "https://www.cmegroup.com/notices/clearing/2025/04/25-166.html",
     "https://bitnomial.com/news/2025-03-20/xrp-futures-launch/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "CME's regulated XRP futures (May 2025) matter because the SEC/CFTC release cites such futures as the reason XRP was named a digital commodity."
   },
   {
    "id": "coinbase-xrp-futures",
@@ -2457,7 +2486,8 @@
     "https://www.evernorth.xyz/press-release-10-09-2026",
     "https://www.sec.gov/Archives/edgar/data/2092592/000119312526425558/xslSCHEDULE_13G_X02/primary_doc.xml"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Michael Arrington's fund sponsored the SPAC that became Evernorth and holds most of its Class C shares; Ripple's nonprofit RippleWorks is its majority investor and directs those votes."
   },
   {
    "id": "michael-arrington",
@@ -2497,7 +2527,8 @@
     "https://www.sec.gov/Archives/edgar/data/2092592/000119312526425558/xslSCHEDULE_13G_X02/primary_doc.xml",
     "https://api.xrpscan.com/api/v1/account/rBUDHw8us7ePyr1Qd1iFFRRZ58TkUUzWGD"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "A nonprofit co-founded by Chris Larsen that put 211M XRP into Evernorth's sponsor fund and directs how those Evernorth shares vote."
   },
   {
    "id": "pathfinder",
@@ -3226,7 +3257,8 @@
     "https://ripple.com/press-releases/page/2/",
     "https://x.com/Bitso/status/2112271867864285375"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Mexican exchange and long-time ODL payout partner; on-ledger data shows about 1.71B XRP sent to it through a Ripple-created relay chain from Jan 2025 to Oct 2026."
   },
   {
    "id": "moonpay",
@@ -4748,7 +4780,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Ripple's Nov 2025 raise of $500M at a $40B valuation, led by Fortress and Citadel Securities, shows how big investors priced the company."
   },
   {
    "id": "aesthetes",
@@ -7844,7 +7877,8 @@
     "https://communications.dtcc.com/rs/669-QIL-921/images/DTCC%20Tokenization%20Service%20At-a-Glance.pdf",
     "https://www.circle.com/blog/deepening-our-partnership-with-blackrock"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Issuer of USDC, RLUSD's main competitor; it shares partners with Ripple (BNY custody, SBI joint venture, DTCC working group), showing those partners back more than one stablecoin."
   },
   {
    "id": "seriesb2016",
@@ -7885,7 +7919,8 @@
     "https://www.coindesk.com/markets/2014/12/21/stellars-joyce-kim-talks-the-launch-the-fork-and-the-future/",
     "https://x.com/JedMcCaleb"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Rival payments chain co-founded by ex-Ripple co-founder Jed McCaleb; MoneyGram moved to it after leaving Ripple, and DTCC named it (not XRPL) for 2027."
   },
   {
    "id": "occ1212",
@@ -8187,7 +8222,8 @@
     "https://www.gtreview.com/news/global/swift-innovates-on-global-payments-without-blockchain/",
     "https://ripple.com/ripple-press/hsbc-executive-swift-board-member-joins-ripple-support-continued-global-growth/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "The bank messaging network some say XRP will replace; in 2025 it chose Consensys, not XRPL, to prototype its own blockchain ledger."
   },
   {
    "id": "consensys",
@@ -8217,7 +8253,8 @@
     "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance",
     "https://en.wikipedia.org/wiki/Ripple_Labs"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "An early Ripple investor (Series B) often cited as an XRP bank, but its One Pay FX ran on Ripple messaging, not XRP, and its CEO said XRP was not liquid enough."
   },
   {
    "id": "accenture",
@@ -9494,7 +9531,8 @@
      "evidence": "same order (ECF 874) — duplicate ids",
      "source": "https://www.sec.gov/newsroom/press-releases/2020-338"
     }
-   ]
+   ],
+   "why": "Judge Torres' 2023 ruling that XRP sold on exchanges was not an investment contract, while institutional sales were; it is a district-court ruling, not binding precedent."
   },
   {
    "id": "ripple-judgment-2024",
@@ -11080,7 +11118,8 @@
     "https://xrp-insights.com/xrp-radar/evernorth",
     "https://www.sec.gov/Archives/edgar/data/2092592/000119312526371512/d944435d424b3.htm"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "On-ledger check of Evernorth's 13 BitGo wallets, holding about 473.28M XRP, matching its filing; the traced wallets show no outgoing transactions since the merger."
   },
   {
    "id": "larsen-trust",
@@ -11689,7 +11728,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-secures-federal-approval-to-establish-national-trust-bank/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Ripple's proposed national trust bank to hold RLUSD reserves: the OCC approved it only conditionally (Dec 2025), and no Fed master-account request is listed for it."
   },
   {
    "id": "cssf",
@@ -12087,7 +12127,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-announces-more-than-300-customers-ripplenet-growth/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "why": "Ripple's product that uses XRP as a bridge currency in payments; it is the core of the 'banks will use XRP' thesis, and also where the biggest exits happened (MoneyGram 2021, Tranglo 2025)."
   },
   {
    "id": "golance",
@@ -17103,7 +17144,8 @@
     "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.csv",
     "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/holder-data.csv"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "why": "The Fed's public master-account list; the only Ripple entity on it is Standard Custody, whose request is still pending, which shows Ripple has no direct Fed access yet."
   },
   {
    "id": "custodia",
@@ -17766,7 +17808,8 @@
     "https://fortune.com/2018/06/13/ripple-xrp-cryptocurrency-western-union/",
     "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-USDPT-on-Solana-Advancing-Regulated-Digital-Infrastructure-for-Global-Payments/default.aspx"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "why": "Western Union tested xRapid in 2018 (about 10 payments; its CEO said it was too expensive) and in 2026 launched its own stablecoin on Solana, not XRPL."
   },
   {
    "id": "mercury-fx",
@@ -24416,15 +24459,49 @@
   },
   {
    "id": "know-labs",
-   "label": "Know Labs, Inc. (NYSE American: KNW)",
+   "label": "USBC, Inc. (formerly Know Labs; NYSE American: USBC)",
    "type": "company",
    "handle": "",
-   "summary": "Health-sensing company. In Jun 2025 it agreed to sell control to Goldeneye 1995 LLC, an affiliate of ex-Ripple CRO Greg Kidd, for 1,000 BTC plus cash, with Kidd becoming CEO and Chairman and the company adopting a Bitcoin treasury strategy.",
+   "summary": "Formerly Know Labs, a health-sensing company. On 2025-08-06 control passed to Goldeneye 1995 LLC, wholly owned by ex-Ripple CRO Greg Kidd, which paid 1,000 BTC + $15M for 357.8M new shares (~81% fully diluted). Kidd became CEO, President and Chairman. Renamed USBC, Inc. with ticker USBC on 2025-08-15. Strategy is a BTC yield treasury plus a 'USBC' USD deposit token.",
    "grade": "A",
    "sources": [
-    "https://www.businesswire.com/news/home/20250605905268/en/Greg-Kidd-to-Acquire-Controlling-Interest-in-Know-Labs-and-Introduce-Bitcoin-Treasury-Strategy"
+    "https://www.businesswire.com/news/home/20250605905268/en/Greg-Kidd-to-Acquire-Controlling-Interest-in-Know-Labs-and-Introduce-Bitcoin-Treasury-Strategy",
+    "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009690/usbc_8k.htm"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "label",
+     "from": "Know Labs, Inc. (NYSE American: KNW)",
+     "to": "USBC, Inc. (formerly Know Labs; NYSE American: USBC)",
+     "note": "sweeper: deal closed 2025-08-06 and company renamed; node was stale at the Jun 2025 'agreed' stage",
+     "source": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "summary",
+     "from": "Health-sensing company. In Jun 2025 it agreed to sell control to Goldeneye 1995 LLC, an affiliate of ex-Ripple CRO Greg Kidd, for 1,000 BTC plus cash, with Kidd becoming CEO and Chairman and the company adopting a Bitcoin treasury strategy.",
+     "to": "Formerly Know Labs, a health-sensing company. On 2025-08-06 control passed to Goldeneye 1995 LLC, wholly owned by ex-Ripple CRO Greg Kidd, which paid 1,000 BTC + $15M for 357.8M new shares (~81% fully diluted). Kidd became CEO, President and Chairman. Renamed USBC, Inc. with ticker USBC on 2025-08-15. Strategy is a BTC yield treasury plus a 'USBC' USD deposit token.",
+     "note": "sweeper: deal closed 2025-08-06 and company renamed; node was stale at the Jun 2025 'agreed' stage",
+     "source": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "sources",
+     "from": [
+      "https://www.businesswire.com/news/home/20250605905268/en/Greg-Kidd-to-Acquire-Controlling-Interest-in-Know-Labs-and-Introduce-Bitcoin-Treasury-Strategy"
+     ],
+     "to": [
+      "https://www.businesswire.com/news/home/20250605905268/en/Greg-Kidd-to-Acquire-Controlling-Interest-in-Know-Labs-and-Introduce-Bitcoin-Treasury-Strategy",
+      "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm",
+      "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009690/usbc_8k.htm"
+     ],
+     "note": "sweeper: deal closed 2025-08-06 and company renamed; node was stale at the Jun 2025 'agreed' stage",
+     "source": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm"
+    }
+   ]
   },
   {
    "id": "sp-kothari",
@@ -24502,6 +24579,167 @@
    "sector": "founders",
    "tier": 3,
    "added": "2026-10-20T00:11:15-04:00"
+  },
+  {
+   "id": "worksport",
+   "label": "Worksport Ltd (WKSP)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed truck-accessories maker. On Dec 5, 2024 its board approved buying up to $5M of BTC and XRP (capped at 10% of excess operating cash). It made an initial 'six-figure' BTC+XRP purchase in late Jan 2025 and appointed Coinbase as custodian (Jan 28, 2025, per 10-K). This is a small treasury, not an XRP-only strategy.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1096275/000149315224048809/ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1096275/000149315225004095/ex99-1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1096275/000149315226012945/form10-k.htm"
+   ],
+   "sector": "etfs",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "claim-ripple-ipo",
+   "label": "'Ripple IPO is coming' claim",
+   "type": "riddle",
+   "handle": "",
+   "summary": "A recurring community claim that Ripple will soon list publicly. Ripple President Monica Long said there is 'no plan, no timeline' (Bloomberg, Nov 5, 2025) and 'Currently, we still plan to remain private' (Bloomberg interview, Jan 6, 2026, via CoinDesk). On Aug 19, 2026, Garlinghouse told Cointelegraph he is 'more neutral' on an IPO, with no decision. No S-1 or confidential-filing announcement is known. Unconfirmed: C.",
+   "grade": "C",
+   "sources": [
+    "https://www.coindesk.com/markets/2026/01/07/ripple-again-rules-out-ipo-says-balance-sheet-gives-it-room-to-stay-private",
+    "https://en.bloomingbit.io/feed/news/118632",
+    "https://www.bloomberg.com/news/articles/2025-11-05/ripple-president-long-says-no-plan-no-timeline-for-an-ipo"
+   ],
+   "sector": "claims",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "ripple-scam-guide",
+   "label": "Ripple scam guide: \"Ripple will never ask you to send us XRP\"",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's official scam page. It says Garlinghouse is 'increasingly being used in deepfakes… promising free XRP giveaways' and that 'Ripple will never ask you to send us XRP'. It lists impersonation, giveaway, phishing, rug-pull, pig-butchering and drainer patterns, says Ripple 'does not have the ability to stop or alter transactions on the XRP Ledger', and points victims to FBI IC3, the FTC, Europol, Chainabuse and Google Safe Browsing.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/how-to-identify-crypto-scams/"
+   ],
+   "sector": "claims",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "bchamp-token",
+   "label": "$BCHAMP \"Bear Champ\" token (XRPL)",
+   "type": "asset",
+   "handle": "",
+   "summary": "XRPL meme token for JC Rivera's Bear Champ brand. Issuer rhYhn7s6z4HAfuJm7ehuSE7wxepRoUPwpi was created 2025-02-20 (UTC) and launched via First Ledger (TOML on firstledger.net). XRPL Meta, Oct 20, 2026: supply ≈974.8M, 2,066 holders, 2,395 trustlines, price ≈0.0051 XRP (≈4.95M XRP market cap). Official site listed as xrp.cafe/collection/bearchamp. Evernorth's Bear Champ collab posts tag the artist and $XRPN, not $BCHAMP.",
+   "grade": "A",
+   "sources": [
+    "https://s1.xrplmeta.org/token/424348414D500000000000000000000000000000:rhYhn7s6z4HAfuJm7ehuSE7wxepRoUPwpi",
+    "https://xrpscan.com/account/rhYhn7s6z4HAfuJm7ehuSE7wxepRoUPwpi"
+   ],
+   "sector": "lore",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "apex",
+   "label": "XRPL Apex (developer summit), merged into Swell 2026",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's XRPL developer/builder conference. For 2026, Ripple says it is 'for the first time… combining Swell and Apex into a single, comprehensive experience', with builder and academic tracks plus a hackathon the weekend before. Oct 27–29, 2026 at The Shed, 545 W 30th St, NYC, which also hosts the 'XRP Community Night'.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/faq"
+   ],
+   "sector": "lore",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "xrp-treasury-filings-check",
+   "label": "SEC-filing check of announced XRP-treasury companies (Oct 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Cross-check of what small listed companies that announced XRP treasuries actually report in SEC filings as of Oct 2026. Trident (20-F FY2025) reports no XRP. Webus renamed itself Wetour Robotics and its Aug 2026 prospectus never mentions XRP. Wellgistics' 424B4 says it never bought or kept XRP. VivoPower now describes itself as an AI data-centre developer. Several non-XRP-branded filers hold only small amounts (e.g. Quantum Biopharma ~$98K of XRP at Jun 30 2026).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1983550/000121390026048646/ea0286241-20f_trident.htm",
+    "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093723/ea0303200-424b5_wetour.htm",
+    "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
+    "https://www.sec.gov/Archives/edgar/data/1681348/000149315226033801/form6-k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1771885/000118518526003497/qntmex99-1.htm"
+   ],
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "quantum-biopharma",
+   "label": "Quantum Biopharma (QNTM)",
+   "type": "company",
+   "handle": "",
+   "summary": "Canadian biopharma (formerly FSD Pharma) with a multi-asset crypto treasury. Its Q2 2026 6-K shows XRP worth $98,183 at Jun 30 2026 ($154,000 bought in H1 2026, $55,817 unrealized loss) alongside BTC, SOL, ETH, SUI and LINK.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1771885/000118518526003497/qntmex99-1.htm"
+   ],
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "made-in-usa-inc",
+   "label": "Made in USA Inc. (USDW)",
+   "type": "company",
+   "handle": "",
+   "summary": "OTC company. Its Aug 31 2026 10-Q describes acquired certification-platform assets that publish public certificate status to the XRP Ledger and anchor private record fingerprints on Hyperledger Fabric.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1977837/000168316826007780/madeinusa_i10q-083126.htm"
+   ],
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "asia-web3-alliance-jp",
+   "label": "Asia Web3 Alliance Japan (Web3 Salon)",
+   "type": "community",
+   "handle": "",
+   "summary": "Japanese Web3 startup network that runs the JETRO-supported Web3 Salon project. Partnered with Ripple in Jun 2025: Ripple offers XRPL grants of up to $200K per Japanese startup from the XRPL Japan & Korea Fund, while Web3 Salon provides mentoring. The two planned four co-hosted events through Mar 2026. President: Hinza Asif.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/insights/unlocking-innovation-in-japan/"
+   ],
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "hot-import-nights",
+   "label": "Hot Import Nights",
+   "type": "company",
+   "handle": "",
+   "summary": "US car-culture event brand (CEO Michael Munar). Named a Wave 3 Ripple Creator Fund winner (Feb 16 2023) for XRPL NFTs used as event tickets, VIP badges and merch access.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/insights/ripples-creator-fund-enables-phygital-nft-projects-on-the-xrp-ledger/"
+   ],
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "emporio-records",
+   "label": "Emporio Records",
+   "type": "company",
+   "handle": "",
+   "summary": "Independent Latin American record label (CEO Sebastián Jácome). Named a Wave 3 Ripple Creator Fund winner (Feb 2023) for fan-access NFTs on the XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/insights/ripples-creator-fund-enables-phygital-nft-projects-on-the-xrp-ledger/"
+   ],
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "id": "vast-space",
+   "label": "Vast (space stations)",
+   "type": "company",
+   "handle": "",
+   "summary": "Commercial space-station company founded in 2021 by Jed McCaleb and self-funded by him (TechCrunch 2023: 'single founder ... single investor'). Raised $500M in Mar 2026 ($300M Series A + $200M debt) led by Balerion, with IQT, QIA, Mitsui, MUFG, Nikon and others. Haven-1 is planned for 2027. Not the same as Vast Ventures (OpenCoin 2013 angel investor) or Vast Bank.",
+   "grade": "A",
+   "sources": [
+    "https://www.vastspace.com/updates/vast-secures-500m-in-funding-to-accelerate-production-of-haven-space-stations",
+    "https://techcrunch.com/2023/05/10/jed-mccalebs-space-station-vast/"
+   ],
+   "sector": "founders",
+   "tier": 3,
+   "added": "2026-10-20T00:17:21-04:00"
   }
  ],
  "edges": [
@@ -28559,12 +28797,39 @@
   {
    "from": "wellgistics",
    "to": "xrp",
-   "label": "$50M ELOC for XRP treasury + XRPL payments (May 2025)",
+   "label": "$50M ELOC for XRP treasury (May 2025) — Sep 29 2025 424B4: 'To date, we have not purchased XRP, nor have we retained any XRP received from customers'; no target holding; SEC staff (Sep 10 2025 comment letter) pressed for treasury-strategy details",
    "grade": "A",
-   "source": "https://www.globenewswire.com/news-release/2025/05/08/3077317/0/en/Wellgistics-Health-Secures-50M-ELOC-facility-for-XRP-Treasury-Reserve-Real-Time-Payments-Infrastructure-and-other-general-ops.html",
+   "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
    "strength": 2,
    "key": false,
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "label",
+     "from": "$50M ELOC for XRP treasury + XRPL payments (May 2025)",
+     "to": "$50M ELOC for XRP treasury (May 2025) — Sep 29 2025 424B4: 'To date, we have not purchased XRP, nor have we retained any XRP received from customers'; no target holding; SEC staff (Sep 10 2025 comment letter) pressed for treasury-strategy details",
+     "note": "treasury unexecuted per prospectus",
+     "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "side",
+     "from": null,
+     "to": "contradicts",
+     "note": "treasury unexecuted per prospectus",
+     "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "source",
+     "from": "https://www.globenewswire.com/news-release/2025/05/08/3077317/0/en/Wellgistics-Health-Secures-50M-ELOC-facility-for-XRP-Treasury-Reserve-Real-Time-Payments-Infrastructure-and-other-general-ops.html",
+     "to": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
+     "note": "treasury unexecuted per prospectus",
+     "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm"
+    }
+   ],
+   "side": "contradicts"
   },
   {
    "from": "hyperscale",
@@ -54917,7 +55182,17 @@
    "strength": 2,
    "key": false,
    "added": "2026-10-19T23:02:33-04:00",
-   "side": "supports"
+   "side": "neutral",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "side",
+     "from": "supports",
+     "to": "neutral",
+     "note": "sweeper: side tag",
+     "source": "https://ripple.com/investments/"
+    }
+   ]
   },
   {
    "from": "ripple",
@@ -55286,9 +55561,9 @@
   {
    "from": "wellgistics",
    "to": "xrpl",
-   "label": "$50M ELOC for XRP treasury + XRPL real-time payments (2025-05-08)",
+   "label": "XRPL payment option for pharmacy customers launched Aug 2025 with RxERP; XRP received is converted to USD immediately (424B4, Sep 29 2025)",
    "grade": "A",
-   "source": "https://www.globenewswire.com/news-release/2025/05/08/3077317/0/en/Wellgistics-Health-Secures-50M-ELOC-facility-for-XRP-Treasury-Reserve-Real-Time-Payments-Infrastructure-and-other-general-ops.html",
+   "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
    "strength": 2,
    "key": false,
    "added": "2026-10-19T23:02:33-04:00",
@@ -55300,6 +55575,22 @@
      "to": "neutral",
      "note": "sweeper: side tag added (factual tie, no thesis direction)",
      "source": "https://www.globenewswire.com/news-release/2025/05/08/3077317/0/en/Wellgistics-Health-Secures-50M-ELOC-facility-for-XRP-Treasury-Reserve-Real-Time-Payments-Infrastructure-and-other-general-ops.html"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "label",
+     "from": "$50M ELOC for XRP treasury + XRPL real-time payments (2025-05-08)",
+     "to": "XRPL payment option for pharmacy customers launched Aug 2025 with RxERP; XRP received is converted to USD immediately (424B4, Sep 29 2025)",
+     "note": "sharper label from prospectus",
+     "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "source",
+     "from": "https://www.globenewswire.com/news-release/2025/05/08/3077317/0/en/Wellgistics-Health-Secures-50M-ELOC-facility-for-XRP-Treasury-Reserve-Real-Time-Payments-Infrastructure-and-other-general-ops.html",
+     "to": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
+     "note": "sharper label from prospectus",
+     "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm"
     }
    ],
    "side": "neutral"
@@ -63517,7 +63808,17 @@
    "strength": 3,
    "key": false,
    "added": "2026-10-19T23:14:58-04:00",
-   "side": "supports"
+   "side": "neutral",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "side",
+     "from": "supports",
+     "to": "neutral",
+     "note": "sweeper: side tag",
+     "source": "https://ripple.com/ripple-press/major-banks-launch-global-payments-steering-group/"
+    }
+   ]
   },
   {
    "from": "santander",
@@ -63654,7 +63955,17 @@
    "strength": 3,
    "key": false,
    "added": "2026-10-19T23:14:58-04:00",
-   "side": "supports"
+   "side": "neutral",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "side",
+     "from": "supports",
+     "to": "neutral",
+     "note": "sweeper: side tag",
+     "source": "https://www.bk.mufg.jp/global/newsroom/news2017/pdf/newse0331.pdf"
+    }
+   ]
   },
   {
    "from": "treacher",
@@ -65967,7 +66278,17 @@
    "strength": 3,
    "key": false,
    "added": "2026-10-19T23:17:00-04:00",
-   "side": "supports"
+   "side": "neutral",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "side",
+     "from": "supports",
+     "to": "neutral",
+     "note": "sweeper: side tag",
+     "source": "https://www.coindesk.com/tech/2016/07/20/mizuho-to-conduct-blockchain-payments-trial-with-ripple"
+    }
+   ]
   },
   {
    "from": "mizuho",
@@ -78692,12 +79013,30 @@
    "side": "neutral",
    "from": "gregkidd",
    "to": "know-labs",
-   "label": "agreed to acquire control via Goldeneye 1995 LLC (1,000 BTC + cash, Jun 2025) and become CEO and Chairman; Bitcoin-treasury pivot",
+   "label": "controls ~81% via Goldeneye 1995 LLC (closed 2025-08-06: 1,000 BTC + $15M); CEO, President and Chairman of renamed USBC, Inc.",
    "grade": "A",
-   "source": "https://www.businesswire.com/news/home/20250605905268/en/Greg-Kidd-to-Acquire-Controlling-Interest-in-Know-Labs-and-Introduce-Bitcoin-Treasury-Strategy",
+   "source": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm",
    "strength": 4,
    "key": true,
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "corrections": [
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "label",
+     "from": "agreed to acquire control via Goldeneye 1995 LLC (1,000 BTC + cash, Jun 2025) and become CEO and Chairman; Bitcoin-treasury pivot",
+     "to": "controls ~81% via Goldeneye 1995 LLC (closed 2025-08-06: 1,000 BTC + $15M); CEO, President and Chairman of renamed USBC, Inc.",
+     "note": "sweeper: closing 8-K",
+     "source": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm"
+    },
+    {
+     "date": "2026-10-20T00:17:21-04:00",
+     "field": "source",
+     "from": "https://www.businesswire.com/news/home/20250605905268/en/Greg-Kidd-to-Acquire-Controlling-Interest-in-Know-Labs-and-Introduce-Bitcoin-Treasury-Strategy",
+     "to": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm",
+     "note": "sweeper: closing 8-K",
+     "source": "https://www.sec.gov/Archives/edgar/data/1074828/000165495425009164/knwn_8k.htm"
+    }
+   ]
   },
   {
    "side": "neutral",
@@ -79017,6 +79356,512 @@
    "side": "neutral",
    "key": false,
    "added": "2026-10-20T00:11:15-04:00"
+  },
+  {
+   "from": "worksport",
+   "to": "xrp",
+   "label": "treasury: board-approved up to $5M BTC+XRP (Dec 2024); initial six-figure purchase (Jan 2025)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1096275/000149315225004095/ex99-1.htm",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "worksport",
+   "to": "coinbase",
+   "label": "appointed Coinbase custodian for crypto holdings (2025-01-28, 10-K FY2025)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1096275/000149315226012945/form10-k.htm",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "mlong",
+   "to": "claim-ripple-ipo",
+   "label": "'Currently, we still plan to remain private' (Jan 6, 2026)",
+   "grade": "B",
+   "source": "https://www.coindesk.com/markets/2026/01/07/ripple-again-rules-out-ipo-says-balance-sheet-gives-it-room-to-stay-private",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "claim-ripple-ipo",
+   "label": "'more neutral' on an IPO, no decision (Aug 19, 2026)",
+   "grade": "B",
+   "source": "https://en.bloomingbit.io/feed/news/118632",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "claim-ripple-ipo",
+   "to": "ripple",
+   "label": "no IPO filing; private after the $500M Nov 2025 raise at $40B",
+   "grade": "B",
+   "source": "https://www.coindesk.com/markets/2026/01/07/ripple-again-rules-out-ipo-says-balance-sheet-gives-it-room-to-stay-private",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-scam-guide",
+   "label": "publishes official scam guide (detection, disruption, partnership)",
+   "grade": "A",
+   "source": "https://ripple.com/how-to-identify-crypto-scams/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "ripple-scam-guide",
+   "to": "deepfakebrad",
+   "label": "'Brad Garlinghouse is increasingly being used in deepfakes… free XRP giveaways'",
+   "grade": "A",
+   "source": "https://ripple.com/how-to-identify-crypto-scams/",
+   "strength": 3,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "ripple-scam-guide",
+   "to": "scamvectors",
+   "label": "official list of scam types: impersonation, giveaway, phishing, rug pull, pig butchering, drainer",
+   "grade": "A",
+   "source": "https://ripple.com/how-to-identify-crypto-scams/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "bearchamp",
+   "to": "bchamp-token",
+   "label": "brand token: token metadata links @jcrivera and xrp.cafe/collection/bearchamp",
+   "grade": "A",
+   "source": "https://s1.xrplmeta.org/token/424348414D500000000000000000000000000000:rhYhn7s6z4HAfuJm7ehuSE7wxepRoUPwpi",
+   "strength": 3,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "firstledger",
+   "to": "bchamp-token",
+   "label": "launch venue (issuer TOML hosted on firstledger.net)",
+   "grade": "A",
+   "source": "https://s1.xrplmeta.org/token/424348414D500000000000000000000000000000:rhYhn7s6z4HAfuJm7ehuSE7wxepRoUPwpi",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "bchamp-token",
+   "to": "xrpl",
+   "label": "issued on XRPL (issuer created 2025-02-20)",
+   "grade": "A",
+   "source": "https://xrpscan.com/account/rhYhn7s6z4HAfuJm7ehuSE7wxepRoUPwpi",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "apex",
+   "to": "swell",
+   "label": "combined into Swell 2026 (Oct 27–29, The Shed, NYC); hackathon the weekend prior",
+   "grade": "A",
+   "source": "https://swell.ripple.com/faq",
+   "strength": 3,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "apex",
+   "label": "organiser (combined Swell + Apex 2026)",
+   "grade": "A",
+   "source": "https://swell.ripple.com/faq",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "fuzzycon",
+   "to": "swell",
+   "label": "held Oct 26 at 518 W 27th St, NYC, the eve of Swell (Oct 27–29, The Shed, 545 W 30th St), three blocks away; 'Swell by Ripple' logo on the flyer, Ripple sanction unverified",
+   "grade": "A",
+   "source": "https://x.com/fuzzy_xrp/status/2101822144812601720",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "sec",
+   "to": "wellgistics",
+   "label": "SEC Corp Fin comment letter (Sep 10 2025) on S-1/A asked Wellgistics to detail its XRP Treasury Strategy custody, policies and treatment of customer XRP",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/2030763/000000000025009795/filename2.txt",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "gemini-credit-2025",
+   "to": "rlusd",
+   "label": "Gemini Q2 2026 10-Q: $146.9M outstanding at 7.0% (Jun 30 2026), maturity 2027-11-15; balance under $150M by Jul 2, so the 10% step-up and enhanced RLUSD collateral/activity covenants were NOT triggered; H1 2026 draws $845.0M vs repayments $852.2M",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/2055592/000205559226000065/gemi-20260630.htm",
+   "strength": 3,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "trident",
+   "to": "xrp-treasury-filings-check",
+   "label": "$500M plan; FY2025 20-F shows no XRP holdings",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1983550/000121390026048646/ea0286241-20f_trident.htm",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "webus",
+   "to": "xrp-treasury-filings-check",
+   "label": "$300M mandate; renamed Wetour Robotics, Aug 2026 prospectus has 0 XRP mentions",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093723/ea0303200-424b5_wetour.htm",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "wellgistics",
+   "to": "xrp-treasury-filings-check",
+   "label": "$50M ELOC; \"to date, we have not purchased XRP\" (424B4 Sep 2025)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "vivopower",
+   "to": "xrp-treasury-filings-check",
+   "label": "2026 6-Ks: AI data-center/powered-land developer; XRP advisory chair departed Jul 2026",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226033801/form6-k.htm",
+   "strength": 2,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "quantum-biopharma",
+   "to": "xrp",
+   "label": "held $98,183 of XRP at Jun 30 2026 (6-K Q2 2026)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771885/000118518526003497/qntmex99-1.htm",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "quantum-biopharma",
+   "to": "xrp-treasury-filings-check",
+   "label": "small multi-asset holder (XRP ~1.7% of $5.89M crypto book)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771885/000118518526003497/qntmex99-1.htm",
+   "strength": 1,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "made-in-usa-inc",
+   "to": "xrpl",
+   "label": "publishes certificate status to the XRP Ledger (10-Q, Aug 31 2026)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1977837/000168316826007780/madeinusa_i10q-083126.htm",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "xrp-treasury-filings-check",
+   "to": "xrp",
+   "label": "net: announced XRP-treasury plans by Trident/Webus/Wellgistics produced no reported XRP holdings",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1983550/000121390026048646/ea0286241-20f_trident.htm",
+   "strength": 3,
+   "key": false,
+   "side": "contradicts",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "securitize",
+   "to": "vbill",
+   "label": "Securitize smart contract lets VBILL holders exchange tokens for RLUSD (Ripple–Securitize release)",
+   "grade": "A",
+   "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "a16z",
+   "to": "forte",
+   "label": "backer of Forte (a16z crypto listed as investor in Forte–Xpring $100M fund release, 2019)",
+   "grade": "A",
+   "source": "https://www.prnewswire.com/news-releases/forte-and-ripples-xpring-form-100-million-fund-to-accelerate-mainstream-use-of-blockchain-in-games-300810578.html",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "amd-clawback",
+   "to": "xrpl",
+   "label": "mainnet status: Clawback enabled on mainnet 2024-02-08 (33 yes-votes, introduced rippled 1.12.0; XRPScan amendments API)",
+   "grade": "A",
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "amd-nftokens",
+   "to": "xrpl",
+   "label": "mainnet status: original NonFungibleTokensV1 never enabled (0 votes); NonFungibleTokensV1_1 enabled 2022-10-31, fixNFTokenRemint 2023-11-27, DynamicNFT 2025-06-11 (XRPScan amendments API)",
+   "grade": "A",
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "asia-web3-alliance-jp",
+   "to": "xrpl-jpkr-fund",
+   "label": "Web3 Salon partnership (Jun 9 2025): grants up to $200K per Japan XRPL startup from the JP/KR Fund; 4 co-hosted events through Mar 2026",
+   "grade": "A",
+   "source": "https://ripple.com/insights/unlocking-innovation-in-japan/",
+   "strength": 2,
+   "key": false,
+   "side": "supports",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "asia-web3-alliance-jp",
+   "label": "partner on Web3 Salon grants and events (Jun 2025); RippleX's Christina Chan quoted",
+   "grade": "A",
+   "source": "https://ripple.com/insights/unlocking-innovation-in-japan/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "hot-import-nights",
+   "to": "creator-fund",
+   "label": "Wave 3 Creator Fund winner (Feb 16 2023): NFT tickets/VIP access on XRPL",
+   "grade": "A",
+   "source": "https://ripple.com/insights/ripples-creator-fund-enables-phygital-nft-projects-on-the-xrp-ledger/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "emporio-records",
+   "to": "creator-fund",
+   "label": "Wave 3 Creator Fund winner (Feb 16 2023): fan-access NFTs on XRPL",
+   "grade": "A",
+   "source": "https://ripple.com/insights/ripples-creator-fund-enables-phygital-nft-projects-on-the-xrp-ledger/",
+   "strength": 2,
+   "key": false,
+   "side": "neutral",
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "eric-van-miltenburg",
+   "to": "ripple",
+   "label": "Chief Business Officer and interim CFO (Schedule A, MoneyGram 13D/A, 2020-11-27), after Ron Will left in Sep 2020",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1685012/000110465920129908/tm2037181d1_sc13da.htm",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "sameer-dhond",
+   "to": "moneygram",
+   "label": "signed Ripple's MoneyGram Schedule 13D (2019-06-27) and 13D/A (2019-11-26) as Deputy General Counsel",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1685012/000134100419000421/sc13d.htm",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "zoe-cruz",
+   "to": "ripple",
+   "label": "still listed as a Ripple director on the Jun 2019 MoneyGram 13D Schedule A; gone from the Nov 2019 13D/A",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1685012/000134100419000565/sc13da-1.htm",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "kitao",
+   "to": "ripple",
+   "label": "Ripple director (Schedule A, MoneyGram 13D Jun 2019 through 13D/A Nov 2020), as SBI Holdings President and CEO",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1685012/000110465920129908/tm2037181d1_sc13da.htm",
+   "strength": 3,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "alderoty",
+   "to": "moneygram",
+   "label": "listed as a Ripple officer (General Counsel) on the MoneyGram 13D Schedule A (2019–20)",
+   "grade": "A",
+   "source": "https://www.sec.gov/Archives/edgar/data/1685012/000134100419000421/sc13d.htm",
+   "strength": 1,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "normanreed",
+   "to": "binance-us",
+   "label": "General Counsel from Dec 2021, later CEO; stepped down to Senior Advisor Mar 2026. The second ex-Ripple exec to run Binance.US after Coley",
+   "grade": "A",
+   "source": "https://www.businesswire.com/news/home/20260311265102/en/Binance.US-Expands-Leadership-Team",
+   "strength": 4,
+   "key": true,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "normanreed",
+   "to": "sec",
+   "label": "ex-staff, SEC Division of Trading and Markets (pre-Ripple)",
+   "grade": "A",
+   "source": "https://blog.binance.us/norman-reed-joins-binance-us-as-general-counsel",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "normanreed",
+   "to": "fed",
+   "label": "ex-staff, Federal Reserve Bank of New York",
+   "grade": "A",
+   "source": "https://blog.binance.us/norman-reed-joins-binance-us-as-general-counsel",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "normanreed",
+   "to": "dtcc",
+   "label": "ex-Managing Director, DTCC; earlier GC of DTCC's Omgeo",
+   "grade": "A",
+   "source": "https://blog.binance.us/norman-reed-joins-binance-us-as-general-counsel",
+   "strength": 2,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "side": "neutral",
+   "from": "zagone",
+   "to": "morgan-stanley",
+   "label": "Executive Director (from Jan 2026), after Head of Bank Partnerships Americas at Wise Platform (Sep 2020–Jan 2026); self-reported",
+   "grade": "C",
+   "source": "https://linkedin.com/in/ryanzagone",
+   "strength": 1,
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "rippleworks",
+   "to": "gsr",
+   "label": "complaint ¶131: Ripple had the 'Market Maker' sell ~693M XRP for ~$176M on RippleWorks' behalf (mid-2015 to 2020). That 'Market Maker' = GSR is an inference from the unsealed SJ record",
+   "grade": "B",
+   "source": "https://www.sec.gov/files/litigation/complaints/2020/comp-pr2020-338.pdf",
+   "strength": 3,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "mccaleb",
+   "to": "vast-space",
+   "label": "founder and first investor (2021); sole funder until the Mar 2026 $500M round",
+   "grade": "A",
+   "source": "https://www.vastspace.com/updates/vast-secures-500m-in-funding-to-accelerate-production-of-haven-space-stations",
+   "strength": 3,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "mccalebexit",
+   "to": "vast-space",
+   "label": "XRP/crypto proceeds bankrolled Vast's space-station build (Bloomberg 2025-03-20, 'Crypto windfall')",
+   "grade": "B",
+   "source": "https://www.bloomberg.com/news/features/2025-03-20/crypto-windfall-is-funding-vast-s-space-station-ambitions",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
+  },
+  {
+   "from": "mufg",
+   "to": "vast-space",
+   "label": "investor in Vast's $500M round (Mar 2026). The GPSG/RippleNet bank now co-invests with McCaleb",
+   "grade": "A",
+   "source": "https://www.vastspace.com/updates/vast-secures-500m-in-funding-to-accelerate-production-of-haven-space-stations",
+   "strength": 2,
+   "side": "neutral",
+   "key": false,
+   "added": "2026-10-20T00:17:21-04:00"
   }
  ]
 }

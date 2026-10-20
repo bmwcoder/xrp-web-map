@@ -31,6 +31,10 @@ Dots can't be dragged (`interaction.dragNodes: false`, physics off), so every vi
 - **Guided view (default).** The page opens on **★ Key links**: only the hand-curated `"key": true` edges (about 60-90), with their dots spread out and labelled at a readable size (labels that would overlap are hidden until you zoom). XRP, Ripple and the XRPL always stay visible. The big **Explore all N dots →** button (or ★ Key links again) switches to the full map; **★ Back to key links** returns. Add `#all` to the URL to open straight on the full map.
 - **How to read this** card: shown once on first visit (remembered in `localStorage` as `xrpweb.howto.v1`); the **?** button next to the title reopens it.
 - **⚙ Filters** shows or hides the type and sector chips (and, on a phone, the grade/side/date/Spacing/Reset controls).
+- **Story buttons** (row under the filters): each isolates one cluster with a 2-sentence plain-English caption. They are defined in `stories.json` (id, title, caption, `nodes` list and/or a `rule` such as `{"side":"contradicts","grade":["A","B"],"minStrength":3}` or `[{"grade":["X"]},{"nodeGrade":["X"]}]`). Captions may only use facts already on the map's edges. `verify_public.py` fails if a story names a missing node id.
+- **🌉 Bridges**: dots whose A/B links reach 3+ different sectors, ranked by sectors reached then link strength (XRP, Ripple and the XRPL excluded); the top 25 are highlighted with a ranked list. Computed at build time by `netstats.py`.
+- **🔺 Closed loops**: triangles where all three sides are A/B evidence with strength 3+, excluding XRP/Ripple/XRPL, ranked by evidence strength; the top 30 are listed and tapping one isolates it. Also `netstats.py`.
+- **Why it matters**: an optional node field `why` (one plain-English sentence from facts already in the node's edges and sources, both sides) shown at the top of the tap panel. Set it with `{"kind":"why","id","why":"..."}` lines in `queue/why.jsonl`.
 
 ## Layout
 `build.py` calls `layout.py`, which computes fixed x/y positions. They're embedded in the page as `_layout`; graph.json itself never stores positions.
