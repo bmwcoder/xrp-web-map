@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T12:37:17-04:00",
+  "updated": "2026-10-20T14:37:46-04:00",
   "version": 3
  },
  "nodes": [
@@ -443,12 +443,13 @@
    "label": "SBI Holdings",
    "type": "company",
    "handle": "",
-   "summary": "Ripple shareholder; SBI Ripple Asia JV (May 2016); ODL with SBI Remit (2021); RLUSD Japan MOU (2025-08-22); Evernorth investor. UPDATE 2026-10-19: Board seat via Masashi Okuyama (CEO, SBI Ripple Asia). Series B & C investor. Open USD member. Kitao statements: ~9% Ripple equity (B).",
+   "summary": "Ripple shareholder; SBI Ripple Asia JV (May 2016); ODL with SBI Remit (2021); RLUSD Japan MOU (2025-08-22); Evernorth investor. UPDATE 2026-10-19: Board seat via Masashi Okuyama (CEO, SBI Ripple Asia). Series B & C investor. Open USD member. SBI's own release (2025-06-09) says it holds ~9% of Ripple as largest external shareholder (A, company statement; not quantified in its FY2025 securities report). That report (filed 2026-06-25) calls SBI's strategy multi-chain and names SBI the only Asian super validator on Canton Network.",
    "why": "Japan's SBI is a long-time Ripple shareholder and partner (SBI Ripple Asia, RLUSD Japan MOU, a $200M Evernorth commitment), but it signed a USDC joint venture with Circle the same day as the RLUSD deal.",
    "grade": "A",
    "sources": [
     "https://www.sbigroup.co.jp/english/news/pdf/2016/0519_a_en.pdf",
-    "https://www.sbigroup.co.jp/english/news/pdf/2025/0822_d_en.pdf"
+    "https://www.sbigroup.co.jp/english/news/pdf/2025/0822_d_en.pdf",
+    "https://www.sbigroup.co.jp/investors/library/filings/pdf/2026.pdf"
    ],
    "added": "2026-10-19T06:36:00-04:00"
   },
@@ -21437,13 +21438,14 @@
    "label": "Evernorth purchased-XRP custody wallets H/I/J + purchase staging",
    "type": "asset",
    "handle": "",
-   "summary": "The last 4 of Evernorth's 13 wallets, as listed by xrp-insights' Evernorth tracker. The SEC filings (424B3, 13Gs, closing 8-K) give no XRPL addresses. Custody H rfiEXPM2ZgdvH6stURRF2t5Tk3SmRX7EDR holds 44,033,471.63 XRP; Custody I r3tTJV8rppEqixa4LDxCvMtYAbWgFFyA6Y holds 30,476,206.16; Custody J rBZWJZpVDSDFBFmRpcuXJ8ePqX7wE4BeYa holds 10,056,203.38, including 199,999.999 XRP received from Uphold 3 (rMdG3ju8…) on Oct 3, 2026. Staging rNtaHck1h268GQpfrQQ5AW68CEF2q919WU (created 2025-10-09) holds 1.2 XRP. All four are 2-of-3 multisigs with the master key disabled, activated by XRPScan's 'BitGo Initialization Wallet' rD4G6gtD2KwHqsRf7pcyA8r1neUzXT61ix. Live (ledger ~107,775,3xx, Oct 19, 2026): no transactions since the Oct 9 close. Together with the other 9 wallets (388,710,683 XRP), all 13 sum to 473,276,566 XRP, matching the 424B3 to within ~136 XRP.",
+   "summary": "The last 4 of Evernorth's 13 wallets, as listed by xrp-insights' Evernorth tracker. The SEC filings (424B3, 13Gs, closing 8-K) give no XRPL addresses. Custody H rfiEXPM2ZgdvH6stURRF2t5Tk3SmRX7EDR holds 44,033,471.63 XRP; Custody I r3tTJV8rppEqixa4LDxCvMtYAbWgFFyA6Y holds 30,476,206.16; Custody J rBZWJZpVDSDFBFmRpcuXJ8ePqX7wE4BeYa holds 10,056,203.38, including 199,999.999 XRP received from Uphold 3 (rMdG3ju8…) on Oct 3, 2026. Staging rNtaHck1h268GQpfrQQ5AW68CEF2q919WU (created 2025-10-09) holds 1.2 XRP. All four are 2-of-3 multisigs with the master key disabled, activated by XRPScan's 'BitGo Initialization Wallet' rD4G6gtD2KwHqsRf7pcyA8r1neUzXT61ix. Live (ledger ~107,775,3xx, Oct 19, 2026): no transactions since the Oct 9 close. Together with the other 9 wallets (388,710,683 XRP), all 13 sum to 473,276,566 XRP, matching the 424B3 to within ~136 XRP. Filings (DEFM14A 2026-08-27; 424B3 2026-10-19): the $214.1M advance-funding cash went to the XRP custodian 'for use in purchasing XRP at then-prevailing market prices from one or more liquidity providers': 84,365,876.3625 XRP at an average $2.53657058 (announced 2025-11-04). No liquidity provider is named in any EDGAR filing under CIK 2092592 or 2044009 (full-text check 2026-10-20).",
    "grade": "A",
    "sources": [
     "https://xrp-insights.com/xrp-radar/evernorth",
     "https://api.xrpscan.com/api/v1/account/rfiEXPM2ZgdvH6stURRF2t5Tk3SmRX7EDR",
     "https://api.xrpscan.com/api/v1/account/rBZWJZpVDSDFBFmRpcuXJ8ePqX7wE4BeYa",
-    "https://www.sec.gov/Archives/edgar/data/2092592/000119312526371512/d944435d424b3.htm"
+    "https://www.sec.gov/Archives/edgar/data/2092592/000119312526371512/d944435d424b3.htm",
+    "https://www.sec.gov/Archives/edgar/data/2044009/000119312526371516/d944435ddefm14a.htm"
    ],
    "added": "2026-10-19T23:24:14-04:00"
   },
@@ -25008,10 +25010,11 @@
    "label": "Aomori Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-20): merged with Michinoku Bank on 2025-01-01 to form Aomori Michinoku Bank (Procrea Holdings). Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.procrea-hd.co.jp/release/2025/pdf/20250106_kanryo.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25200,10 +25203,11 @@
    "label": "Shinsei Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-20): now SBI Shinsei Bank, a consolidated SBI Holdings subsidiary (SBI FY2025 securities report). Ripple/MoneyTap use not checked.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.sbigroup.co.jp/investors/library/filings/pdf/2026.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25236,10 +25240,11 @@
    "label": "Daishi Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-20): merged with Hokuetsu Bank on 2021-01-01 to form Daishi Hokuetsu Bank. Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.dhfg.co.jp/news/pdf/210104_001.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25428,10 +25433,11 @@
    "label": "Michinoku Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-20): merged into Aomori Bank on 2025-01-01; the combined bank is Aomori Michinoku Bank (Procrea Holdings). Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.procrea-hd.co.jp/release/2025/pdf/20250106_kanryo.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25464,10 +25470,11 @@
    "label": "Yachiyo Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-20): absorbed Tokyo Tomin Bank and Shinginko Tokyo and was renamed Kiraboshi Bank on 2018-05-01. Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.kiraboshibank.co.jp/about/sgt/release/2018pdf/180305_01.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -28454,6 +28461,255 @@
     "https://xrplcluster.com"
    ],
    "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "stellar-bell-p30",
+   "label": "Stellar Bell (Protocol 30) upgrade",
+   "type": "event",
+   "handle": "",
+   "summary": "Stellar network upgrade announced by SDF on Oct 20 2026. stellar-core v30.0.0 stable was released Oct 16 2026. The testnet upgrade vote is Nov 3 2026 and the mainnet vote Nov 23 2026, both at 17:00 UTC. It adds muxed contract addresses with a new W address prefix (CAP-84), ML-DSA post-quantum signature verification for smart contracts (CAP-87) and millisecond-resolution ledger close times (CAP-88).",
+   "grade": "A",
+   "sources": [
+    "https://stellar.org/blog/developers/bell-protocol-30-upgrade-guide",
+    "https://github.com/stellar/stellar-core/releases/tag/v30.0.0",
+    "https://x.com/StellarOrg/status/2112576464789094776"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "meridian-2026",
+   "label": "Meridian 2026 (Stellar conference)",
+   "type": "event",
+   "handle": "",
+   "summary": "Stellar's annual conference, Oct 28–29 2026 at Convento do Beato, Lisbon, Portugal. HackMeridian runs Oct 25–26 2026 in Lisbon. Listed speakers include Nadine Chakar (Global Head of DTCC Digital Assets), Jamie Walker (U.S. Bank), Michael Shaulov (Fireblocks) and Anthony Scaramucci (SkyBridge).",
+   "grade": "A",
+   "sources": [
+    "https://meridian.stellar.org"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "xrp-us-trademark",
+   "label": "US 'XRP' trademark (Reg. 4,458,993)",
+   "type": "event",
+   "handle": "",
+   "summary": "USPTO word mark XRP (SN 85935696), filed 2013-05-17 by OpenCoin, registered 2013-12-31 for payment services (first use claimed Mar 1, 2013); renewed 2024-03-21. Chain of title: OpenCoin renamed Ripple Labs (executed 2013-10-16); Ripple Labs assigned the entire interest to MTÜ XRP Ledger Trust, an Estonian non-profit (executed 2022-03-02, recorded 2022-03-23); that entity, by then named INFTF MTÜ, assigned it to the XRP Ledger Foundation (France) (executed 2025-01-22, recorded 2025-04-17). Ripple has not owned the US 'XRP' mark since March 2022.",
+   "grade": "A",
+   "sources": [
+    "https://tsdr.uspto.gov/statusview/sn85935696",
+    "https://tsdr.uspto.gov/assignments/sn85935696"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "xrpl-trust-ee",
+   "label": "MTÜ XRP Ledger Trust (Estonia; later INFTF MTÜ)",
+   "type": "company",
+   "handle": "",
+   "summary": "Estonian non-profit (Kuressaare address in USPTO records) that received the US 'XRP' trademark from Ripple Labs (assignment executed 2022-03-02) and, as INFTF MTÜ, assigned it to the XRP Ledger Foundation (France) on 2025-01-22. Its link to the XRPL Foundation's pre-2024 structure is not confirmed.",
+   "grade": "A",
+   "sources": [
+    "https://tsdr.uspto.gov/assignments/sn85935696"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "ripple-tm-abandoned-2020",
+   "label": "xRapid / xCurrent / xVia / xPool US trademark applications abandoned (2020)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's 2017 intent-to-use applications lapsed with no Statement of Use after allowance: XVIA (SN 87526109) 2020-03-09, XPOOL (SN 87541375) 2020-03-16, XRAPID (SN 87526100) 2020-03-30, XCURRENT (SN 87526107) 2020-06-08. Kurrent Inc. had taken a TTAB extension of time to oppose XCURRENT in 2018. Ripple filed ON-DEMAND LIQUIDITY on 2020-04-23 (registered 2021-03-09, live). Dated 'ended' facts for the 2019 rebrand.",
+   "grade": "A",
+   "sources": [
+    "https://tsdr.uspto.gov/statusview/sn87526109",
+    "https://tsdr.uspto.gov/statusview/sn87541375",
+    "https://tsdr.uspto.gov/statusview/sn87526100",
+    "https://tsdr.uspto.gov/statusview/sn87526107",
+    "https://tsdr.uspto.gov/statusview/sn88884557",
+    "https://ttabvue.uspto.gov/ttabvue/v?pno=87526107&pty=EXT"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "kilpatrick-townsend",
+   "label": "Kilpatrick Townsend & Stockton LLP",
+   "type": "company",
+   "handle": "",
+   "summary": "Law firm. Its attorney is the USPTO attorney of record both for the XRP Ledger Foundation's US 'XRP' mark and for Ripple's RLUSD application, and was the correspondent on Ripple's 2022 assignment of the 'XRP' mark (USPTO records, Oct 2026).",
+   "grade": "A",
+   "sources": [
+    "https://tsdr.uspto.gov/statusview/sn85935696",
+    "https://tsdr.uspto.gov/statusview/sn98537677",
+    "https://tsdr.uspto.gov/assignments/sn85935696"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "startale",
+   "label": "Startale Group",
+   "type": "company",
+   "handle": "",
+   "summary": "Singapore blockchain developer (Startale Group Pte. Ltd.). SBI Holdings' equity-method affiliate; co-developing with SBI the yen stablecoin JPYSC and the Layer-1 'Strium Network' for on-chain trading of financial assets including RWA tokens (SBI FY2025 securities report, filed 2026-06-25).",
+   "grade": "A",
+   "sources": [
+    "https://www.sbigroup.co.jp/investors/library/filings/pdf/2026.pdf"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "swell-2023",
+   "label": "Ripple Swell 2023 (Dubai)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's seventh annual Swell conference, Nov 8–9, 2023, Dubai. Announcements: RippleNet relaunched as Ripple Payments (with XRPL DEX liquidity integration), RocketFuel named first customer, and an Onafriq deal for UK/GCC/Australia-to-Africa corridors. None named XRP as the settlement asset.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/ripple-press/ripple-expands-in-the-middle-east-deepens-commitment-with-new-office-and-brings-annual-global-conference-to-dubai/",
+    "https://ripple.com/ripple-press/ripple-transforms-payments-experience-to-unlock-enterprise-crypto-adoption/",
+    "https://ripple.com/insights/four-key-takeaways-from-swell-2023/"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "swell-2024",
+   "label": "Ripple Swell 2024 (Miami)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's eighth annual Swell conference, Oct 15–16, 2024, Miami. Announcements: RLUSD exchange partners and market makers (pending NYDFS approval), an International Rescue Committee aid partnership, and (Bitnomial release) a Ripple-led $25M round with planned RLUSD settlement of perpetual futures. None named XRP as settlement or collateral.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/insights/4-key-themes-from-ripples-annual-swell-conference/",
+    "https://ripple.com/ripple-press/ripple-announces-ripple-usd-exchange-partners-for-global-distribution/",
+    "https://www.coindesk.com/business/2024/10/15/ripple-names-exchange-partners-for-stablecoin-rlusd-awaits-nydfs-approval",
+    "https://ripple.com/ripple-press/ripple-and-international-rescue-committee-partner-to-innovate-humanitarian-aid-delivery/",
+    "https://bitnomial.com/news/2024-10-15/perpetual-futures-announcement/"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "swell-2025",
+   "label": "Ripple Swell 2025 (New York)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's ninth annual Swell conference, Nov 4–5, 2025, New York (Convene Hudson Yards per reporting). Announcements: Mastercard/WebBank/Gemini RLUSD-on-XRPL card-settlement collaboration, Bitnomial RLUSD and XRP margin collateral, Gemini zero-fee RLUSD/USD, and a $500M raise at a $40B valuation; the Palisade acquisition and US spot prime brokerage were announced Nov 3.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/insights/five-themes-that-defined-ripple-swell-2025/",
+    "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
+    "https://www.prnewswire.com/news-releases/bitnomial-launches-first-ever-stablecoin-margin-collateral-with-rlusd-expands-digital-asset-support-to-xrp-302604112.html",
+    "https://finance.yahoo.com/news/mastercard-ripple-test-stablecoin-settlement-201541045.html"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "arrington-13f-q2-2026",
+   "label": "Arrington Capital Management 13F-HR, Q2 2026 (period 2026-06-30)",
+   "type": "event",
+   "handle": "",
+   "summary": "Form 13F-HR filed 2026-08-11 by Arrington Capital Management, LLC (CIK 2087115; Miami; signed Taryn Naidu). 46 information-table entries, total reported value $162,714,337 (the value includes the underlying value of listed options). Largest line: Armada Acquisition Corp II (the Evernorth/XRPN SPAC) Class A, 5,796,000 sh, $60,394,320 (37.1%), plus 140,000 warrants ($119,000). Treasury-company positions in rival chains: Hyperliquid Strategies (HYPE) 1,493,201 sh, $11,751,492, plus calls on 669,800 sh, $5,271,326; Upexi (SOL) 2,760,107 sh, $2,164,476; SUI Group 1,660,510 sh, $1,926,192; Solana Co (SOL) 658,908 sh, $1,087,198; TON Strategy 378,549 sh, $965,300; Hyperion DeFi (HYPE) 297,777 sh, $935,020; CEA Industries/BNB Standard (BNB) 320,545 sh, $871,882. Together that is $24,972,886, about 15.3% of reported value. Smaller lines: Bitmine (ETH) $199,650, Canton Strategic $84,600, IP Strategy $48,610 and DeFi Development warrants ($0). Other large lines: TLT puts $30.2M, Robinhood calls $6.8M, GLD calls $5.9M. No XRP-only vehicle other than Armada appears.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+    "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/primary_doc.xml"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "hyperliquid-strategies",
+   "label": "Hyperliquid Strategies Inc (PURR)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed HYPE treasury company (CIK 2078856). Its 8-K investor materials report its HYPE token holdings and adjusted NAV.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2078856/000119312526369668/purr-ex99_2.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "upexi",
+   "label": "Upexi, Inc. (UPXI)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed Solana treasury company (CIK 1775194). Its 2026-09-17 8-K press release reports about 2.34 million SOL held as of 2026-06-30.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005669/upxi_ex991.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "solana-co",
+   "label": "Solana Co (HSDT)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed SOL treasury company (CIK 1610853). Its Aug 2026 8-K describes a strategy of staking SOL for yield and building operating businesses.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1610853/000161085326000005/pressreleaseexhibit991.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "ton-strategy",
+   "label": "TON Strategy Co (TONX)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed Toncoin treasury company (CIK 1566610). Its Q2 2026 results are in an 8-K dated 2026-08-11.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1566610/000149315226036987/ex99-1.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "hyperion-defi",
+   "label": "Hyperion DeFi, Inc. (HYPD)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed HYPE treasury company (CIK 1682639). Its 2026-08-12 8-K says 1 million HYPE were redeployed to support HIP-3/HIP-4 markets.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1682639/000110465926094849/tm2622908d1_ex99-1.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "bnb-standard",
+   "label": "BNB Standard Corp (ex-CEA Industries, BNC)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed BNB treasury company (CIK 1482541). Its 2026-10-02 8-K says it is 'managing the world's largest corporate treasury of BNB' and announces the name change from CEA Industries effective 2026-09-29.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1482541/000148254126000056/bnc-2026x10x02xpr.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "arrington-form4-2026-10-13",
+   "label": "Arrington XRP Capital Fund Form 4 (filed 2026-10-13; Armada II/XRPN)",
+   "type": "event",
+   "handle": "",
+   "summary": "Form 4 filed 2026-10-13 by Arrington XRP Capital Fund, LP (CIK 1727934) and Arrington Capital Management, LLC (CIK 2087115), both 10% owners of Armada Acquisition Corp. II, transaction date 2026-10-09. Immediately before the merger they forfeited, for no consideration, 230,694 Class A shares, 4,544,672 Class B shares and 115,347 warrants under the amended Sponsor Support Agreement (2025-10-19, amended 2026-08-12). The remaining 169,306 Class A, 3,335,328 Class B and 84,653 warrants converted into Evernorth Holdings (Pubco) securities. The Form 3 filed 2026-10-19 for Evernorth Holdings (CIK 2092592) reports 4,704,137 Class A shares held directly, plus Class C shares and warrants. 1,199,503 Class A and 29,033,708 Class C are 'DAT Side Pocket Shares': RippleWorks directs their votes and must be consulted on disposition (letter agreement 2025-10-17).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1727934/000119312526420731/ownership.xml",
+    "https://www.sec.gov/Archives/edgar/data/1727934/000119312526425555/ownership.xml"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "id": "robostrategy",
+   "label": "RoboStrategy, Inc. (Nasdaq: BOT)",
+   "type": "company",
+   "handle": "",
+   "summary": "Registered closed-end fund (San Juan, PR; CIK 2081119) investing mainly in private robotics and physical-AI companies; agent for service Andrew Kang. Its N-2/A filed 2026-10-20 registers resale of up to 23,927,600 shares by selling stockholders. Arrington XRP Capital Fund is listed with 84,298 shares (new table) and 26,763 shares previously registered under the May 5, 2026 N-2. Nothing is crypto- or XRP-related beyond the holder's name.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2081119/000121390026110793/ea0308441-01_n2a.htm"
+   ],
+   "added": "2026-10-20T14:29:06-04:00"
   }
  ],
  "edges": [
@@ -67408,22 +67664,22 @@
   {
    "from": "galaxy",
    "to": "linqto",
-   "label": "bought 882,353 Ripple shares from Linqto estate at $68 ($60M, 2026)",
+   "label": "Galaxy Digital Ventures LLC bought 882,353 Ripple shares from the Linqto estate at $68 ($60M); sale motion Doc 1990, sale order Doc 2007 entered 2026-07-01",
    "grade": "B",
    "strength": 3,
    "key": false,
-   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
+   "source": "https://dm.epiq11.com/api/lnq/rss/dockets",
    "side": "neutral",
    "added": "2026-10-19T23:24:14-04:00"
   },
   {
    "from": "arrington-capital",
    "to": "linqto",
-   "label": "bought 624,686 Ripple shares from Linqto estate at $80 ($50M, 2026)",
+   "label": "Arrington Capital bought 624,686 Ripple shares from the Linqto estate at $80 (~$50M); sale motion Doc 1987, sale order Doc 2003 entered 2026-07-01",
    "grade": "B",
    "strength": 3,
    "key": false,
-   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
+   "source": "https://dm.epiq11.com/api/lnq/rss/dockets",
    "side": "neutral",
    "added": "2026-10-19T23:24:14-04:00"
   },
@@ -79332,33 +79588,33 @@
   {
    "from": "private-shares-fund",
    "to": "linqto",
-   "label": "reported to have bought 160,000 Ripple common shares at $100 ($16,000,000) from Linqto Liquidshares (debtors' sale motion, Doc 1988, filed 2026-06-26; sale order Doc 2004 entered 2026-07-01)",
-   "grade": "C",
+   "label": "bought 160,000 Ripple common shares at $100 ($16,000,000) from Linqto Liquidshares (sale motion Doc 1988, filed 2026-06-26; sale order Doc 2004 entered 2026-07-01)",
+   "grade": "B",
    "strength": 2,
    "key": false,
-   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
+   "source": "https://dm.epiq11.com/api/lnq/rss/dockets",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
   {
    "from": "gam-lsa",
    "to": "linqto",
-   "label": "reported to have bought 40,000 Ripple common shares at $100 ($4,000,000) from Linqto Liquidshares (debtors' sale motion, Doc 1989, filed 2026-06-26; hearing 2026-07-01)",
-   "grade": "C",
+   "label": "bought 40,000 Ripple common shares at $100 ($4,000,000) from Linqto Liquidshares (sale motion Doc 1989, filed 2026-06-26; sale order Doc 2006 entered 2026-07-01)",
+   "grade": "B",
    "strength": 1,
    "key": false,
-   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
+   "source": "https://dm.epiq11.com/api/lnq/rss/dockets",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
   {
    "from": "ripple",
    "to": "linqto",
-   "label": "waived its right of first refusal on the Galaxy block of the ~$130M Linqto-estate Ripple share sales (court-approved Jul 1 2026)",
+   "label": "declined its right of first refusal on all four Linqto-estate Ripple share sales (notice 2026-06-16; 1,707,039 shares, ~$130M; orders entered 2026-07-01)",
    "grade": "B",
    "strength": 2,
    "key": false,
-   "source": "https://finance.yahoo.com/markets/crypto/articles/bankruptcy-court-clears-130m-ripple-095423094.html",
+   "source": "https://app.bondoro.com/preview/cases/Linqto_Texas_LLC/apa-summary",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
@@ -90167,11 +90423,11 @@
   {
    "from": "sbi",
    "to": "ripple",
-   "label": "CEO Kitao: SBI owns 'around 9%' ('more than 9%') of Ripple Labs (X, 2026-02-15). Executive statement, not in audited filings",
+   "label": "SBI says it holds about 9% of Ripple Labs as its largest external shareholder (SBI Holdings release, 2025-06-09; Kitao X post, 2026-02-15). Company statement; not quantified in SBI's FY2025 securities report",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://x.com/yoshitaka_kitao/status/2022851705772138784",
+   "source": "https://www.sbigroup.co.jp/english/news/pdf/2025/0609%5Fa%5Fen.pdf",
    "side": "supports",
    "added": "2026-10-20T02:33:14-04:00"
   },
@@ -91828,34 +92084,34 @@
   {
    "from": "xrpcafe",
    "to": "xrpl-grants",
-   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jun 27 2023 (github.com/xrpcafe, 5 public repos, none archived; checked Oct 20 2026)",
+   "label": "XRPL Grants awardee; public repo idle (no GitHub pushes since Jun 27 2023), product live: marketplace loads and its xrp.cafe-domain account sent XRPL payments on Oct 20 2026",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://github.com/xrpcafe",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
    "from": "xp-market",
    "to": "xrpl-grants",
-   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since May 9 2023 (github.com/XPmarket, 1 public repo, none archived; checked Oct 20 2026)",
+   "label": "XRPL Grants awardee; public repo idle (no GitHub pushes since May 9 2023), product live: XPMarket DEX/AMM/NFT site serves live market data and its XPM issuer (declared in xpmarket.com xrp-ledger.toml) is in active use (Oct 20 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://github.com/XPmarket",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
    "from": "crossmark",
    "to": "xrpl-grants",
-   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jun 7 2024 (github.com/crossmarkio, 4 public repos, 1 archived; checked Oct 20 2026)",
+   "label": "XRPL Grants awardee; public repo idle (no GitHub pushes since Jun 7 2024), product still live: Crossmark wallet extension listed on Chrome Web Store (v0.2.19, last updated Mar 28 2025; checked Oct 20 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://github.com/crossmarkio",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -91905,12 +92161,12 @@
   {
    "from": "universalnft-dev",
    "to": "xrpl-grants",
-   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Apr 4 2025 (github.com/ohonesix/api.universalnft.dev, not archived; checked Oct 20 2026)",
+   "label": "XRPL Grants awardee; public repo idle (no GitHub pushes since Apr 4 2025), product live: UniversalNFT.dev site and public API (api.universalnft.dev) respond (Oct 20 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://github.com/ohonesix/api.universalnft.dev",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -91960,12 +92216,12 @@
   {
    "from": "feeturre",
    "to": "xrpl-grants",
-   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Nov 5 2021 (github.com/feeturre, 1 public repo, none archived; checked Oct 20 2026)",
+   "label": "XRPL Grants awardee; public repo idle (no GitHub pushes since Nov 5 2021), product live: Feeturre creator marketplace site up and its FEE token (issuer declared in feeturre.com xrp-ledger.toml) trading on the XRPL DEX on Oct 20 2026",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://github.com/feeturre",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -91982,12 +92238,12 @@
   {
    "from": "phi-wallet",
    "to": "xrpl-grants",
-   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Sep 30 2025 (github.com/phiwallet, 2 public repos, none archived; checked Oct 20 2026)",
+   "label": "XRPL Accelerator awardee; public repo idle (no GitHub pushes since Sep 30 2025), product live: Phi gold wallet ('Built on the XRPL') site up with customer reviews dated Jul–Aug 2026",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://github.com/phiwallet",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -92924,6 +93180,886 @@
    "source": "https://xrpl.org/resources/known-amendments",
    "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "peerkat",
+   "to": "xrpl-grants",
+   "label": "listed project site www.peerkat.com now redirects to an unrelated site (fintechfuturists.net); checked Oct 20 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.peerkat.com/",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "dallipay",
+   "to": "xrpl",
+   "label": "maker radynamics' XRPL price-oracle account rpXCfDds… (still listed in radynamics.com xrp-ledger.toml) was deleted via AccountDelete on Feb 11 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rpXCfDds782Bd6eK9Hsn15RDnGMtxf752m",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "stellar-bell-p30",
+   "to": "stellar",
+   "label": "Protocol 30 'Bell': stellar-core v30.0.0 released Oct 16 2026; testnet vote Nov 3, mainnet vote Nov 23 2026 (17:00 UTC)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://stellar.org/blog/developers/bell-protocol-30-upgrade-guide",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "stellar-bell-p30",
+   "to": "stellar",
+   "label": "adds ML-DSA post-quantum signature checks for smart contracts and muxed contract addresses (CAP-87, CAP-84; v30.0.0 release, Oct 16 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/stellar/stellar-core/releases/tag/v30.0.0",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "meridian-2026",
+   "to": "stellar",
+   "label": "Stellar's annual conference, Oct 28–29 2026, Convento do Beato, Lisbon",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://meridian.stellar.org",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "meridian-2026",
+   "label": "Nadine Chakar, Global Head of DTCC Digital Assets, listed speaker (Oct 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://meridian.stellar.org",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "usbank",
+   "to": "meridian-2026",
+   "label": "Jamie Walker, Head of Digital Assets and Money Movement, listed speaker (Oct 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://meridian.stellar.org",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "fireblocks",
+   "to": "meridian-2026",
+   "label": "CEO Michael Shaulov listed speaker (Oct 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://meridian.stellar.org",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "opencoin",
+   "to": "xrp-us-trademark",
+   "label": "original registrant of the US 'XRP' mark (filed 2013-05-17; registered 2013-12-31)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn85935696",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "xrp-us-trademark",
+   "label": "assigned the entire interest in the US 'XRP' mark to an Estonian non-profit trust (executed 2022-03-02, recorded 2022-03-23)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/assignments/sn85935696",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "xrpl-trust-ee",
+   "to": "xrp-us-trademark",
+   "label": "held the US 'XRP' mark 2022-2025, then assigned it to the XRP Ledger Foundation (executed 2025-01-22)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/assignments/sn85935696",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "xrplf",
+   "to": "xrp-us-trademark",
+   "label": "current owner of the US 'XRP' mark (recorded 2025-04-17)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn85935696",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "xrp-us-trademark",
+   "to": "xrp",
+   "label": "US word mark for 'XRP' (payment services, class 36)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn85935696",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "kilpatrick-townsend",
+   "to": "xrp-us-trademark",
+   "label": "attorney of record for XRPLF's 'XRP' mark; correspondent on Ripple's 2022 assignment",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/assignments/sn85935696",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "kilpatrick-townsend",
+   "to": "ripple",
+   "label": "trademark counsel of record on Ripple's RLUSD application (SN 98537677)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn98537677",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-tm-abandoned-2020",
+   "label": "let its xRapid, xCurrent, xVia and xPool US trademark applications lapse (Mar-Jun 2020)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn87526100",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "xrapid",
+   "to": "ripple-tm-abandoned-2020",
+   "label": "XRAPID US application abandoned 2020-03-30; ON-DEMAND LIQUIDITY filed 2020-04-23 (registered 2021-03-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn88884557",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rlusd",
+   "label": "US 'RLUSD' trademark: Statement of Use accepted 2026-10-16 (first use 2024-12-16)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn98537677",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "gtreasury",
+   "label": "filed US trademark 'RIPPLE TREASURY' (SN 99766330, 2026-04-15; office action 2026-08-06)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn99766330",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rprime",
+   "label": "'RIPPLE PRIME' US trademark (SN 99465980, filed 2025-10-28): notice of allowance 2026-08-11",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tsdr.uspto.gov/statusview/sn99465980",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "canton",
+   "label": "only Asia-region Super Validator on Canton Network; multi-chain strategy (FY2025 securities report, filed 2026-06-25)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sbigroup.co.jp/investors/library/filings/pdf/2026.pdf",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "startale",
+   "label": "equity-method affiliate; co-developing JPYSC yen stablecoin and the Strium Network L1 (FY2025 securities report)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sbigroup.co.jp/investors/library/filings/pdf/2026.pdf",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bitquery",
+   "to": "rlusd",
+   "label": "audit (2026-10-19): 99.6% of 7.82M XRPL RLUSD payments (Sep 19-Oct 18) came from a 110-wallet Binance-funded dust cluster",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://bitquery.io/investigations/rlusd-xrpl-dust-bots",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "chainlink",
+   "label": "GOVY tokenised T-bills use Chainlink Data Streams for collateral pricing; distribution across Ethereum, Hedera, Stellar 'and other networks' (XRPL not named) (2026-10-19)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://thepaypers.com/crypto-web3-and-cbdc/news/archax-adopts-chainlink-data-streams-for-tokenised-treasury-product",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "swell-2023",
+   "label": "hosted Swell 2023 (Dubai, Nov 8–9, 2023)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-expands-in-the-middle-east-deepens-commitment-with-new-office-and-brings-annual-global-conference-to-dubai/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "swell-2024",
+   "label": "hosted Swell 2024 (Miami, Oct 2024)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ripple.com/insights/4-key-themes-from-ripples-annual-swell-conference/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "swell-2025",
+   "label": "hosted Swell 2025 (New York, Nov 2025)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ripple.com/insights/five-themes-that-defined-ripple-swell-2025/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "swell-2023",
+   "to": "swell",
+   "label": "earlier edition (2023, Dubai)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/insights/four-key-takeaways-from-swell-2023/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "swell-2024",
+   "to": "swell",
+   "label": "earlier edition (2024, Miami)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/insights/4-key-themes-from-ripples-annual-swell-conference/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "swell-2025",
+   "to": "swell",
+   "label": "earlier edition (2025, New York)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/insights/five-themes-that-defined-ripple-swell-2025/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripplenet",
+   "to": "swell-2023",
+   "label": "relaunched from RippleNet as Ripple Payments at Swell 2023 (Nov 8, 2023): SME focus, 70+ payout markets, XRPL DEX liquidity integration",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-transforms-payments-experience-to-unlock-enterprise-crypto-adoption/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "rocketfuel",
+   "to": "swell-2023",
+   "label": "named first customer of the relaunched Ripple Payments at Swell 2023 (Nov 8, 2023)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.globenewswire.com/news-release/2023/11/08/2776592/0/en/RocketFuel-Partners-with-Ripple-to-Revolutionize-Global-Payments.html",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "rocketfuel",
+   "to": "ripplenet",
+   "label": "no Ripple Payments use found after the Nov 2023 announcement: EDGAR full-text hits for 'Ripple' in RocketFuel filings are 2023–24 SEC correspondence only (checked Oct 20, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://efts.sec.gov/LATEST/search-index?q=%22Ripple%22&entityName=RocketFuel",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "onafriq",
+   "to": "swell-2023",
+   "label": "Ripple Payments deal for UK, GCC and Australia to Africa corridors (via PayAngel, Pyypl, Zazi Transfer) announced at Swell 2023 (Nov 8, 2023)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-partners-with-onafriq-to-power-digital-asset-enabled-cross-border-payments-between-africa-and-the-rest-of-the-world/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "onafriq",
+   "to": "ripplenet",
+   "label": "Onafriq's head of crypto (undated interview, c. 2025): serves RippleNet institutions and is an 'exclusive partner for Ripple's ODL' for its send-money product into Africa",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.the-heard.co.uk/blog/hearing-from-gwera-kiwana-head-of-crypto-at-onafriq-debf8",
+   "side": "supports",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "swell-2024",
+   "label": "exchange partners (Uphold, Bitstamp, Bitso, MoonPay, Independent Reserve, CoinMENA, Bullish) and market makers B2C2 and Keyrock named at Swell 2024 (Oct 15, 2024), pending NYDFS approval",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-announces-ripple-usd-exchange-partners-for-global-distribution/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bitstamp",
+   "to": "rlusd",
+   "label": "listed RLUSD on the Ethereum network only, not XRPL (Bitstamp blog, Jan 8, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://blog.bitstamp.net/post/introducing-ripple-usd-rlusd-your-next-enterprise-grade-stablecoin-on-bitstamp/",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "irc",
+   "to": "swell-2024",
+   "label": "aid partnership (Ripple Payments + RLUSD exploration, $1M pledge) announced at Swell 2024 (Oct 16, 2024)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-international-rescue-committee-partner-to-innovate-humanitarian-aid-delivery/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "irc",
+   "to": "ripple",
+   "label": "not among the nonprofits Ripple named as using Ripple Payments/RLUSD on Oct 30, 2025 (WCK, Water.org, GiveDirectly, Mercy Corps); no IRC deployment found by Oct 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/global-nonprofits-use-ripple-payments-rippleusd-to-move-money-faster-and-drive-real-world-impact/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bitnomial",
+   "to": "swell-2024",
+   "label": "Ripple-led $25M round and planned RLUSD settlement of perpetual futures announced Oct 15, 2024 (Swell 2024 week)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://bitnomial.com/news/2024-10-15/perpetual-futures-announcement/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bitnomial",
+   "to": "swell-2025",
+   "label": "RLUSD and XRP margin collateral announced at Swell 2025 (Nov 4, 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/bitnomial-launches-first-ever-stablecoin-margin-collateral-with-rlusd-expands-digital-asset-support-to-xrp-302604112.html",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bitnomial",
+   "to": "xrp",
+   "label": "accepts XRP as margin collateral on its CFTC-regulated exchange and clearinghouse (announced Nov 4, 2025, 'subject to all applicable regulatory approvals')",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/bitnomial-launches-first-ever-stablecoin-margin-collateral-with-rlusd-expands-digital-asset-support-to-xrp-302604112.html",
+   "side": "supports",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "swell-2025",
+   "label": "RLUSD-on-XRPL card-settlement collaboration with WebBank and Gemini announced at Swell 2025 (Nov 5, 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "gemini",
+   "to": "rlusd",
+   "label": "zero trading fees on RLUSD/USD pairs from Nov 4, 2025, announced during Swell 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.gemini.com/blog/announcing-zero-fees-for-rlusd-usd-trading-pairs",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "palisade",
+   "to": "swell-2025",
+   "label": "Ripple acquisition (announced Nov 3, 2025) presented on stage at Swell 2025 (Nov 4)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.tradingview.com/news/coinpedia:f4e2698a1094b:0-ripple-swell-2025-key-updates-day-1-xrp-etf-xrpl-rlusd-stable-coin-and-more/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "xrp",
+   "label": "US OTC spot execution covering XRP and RLUSD launched (Nov 3, 2025, eve of Swell 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-launches-digital-asset-spot-prime-brokerage-for-the-united-states-market/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "ripple-round-2025",
+   "to": "swell-2025",
+   "label": "announced during Swell 2025 (Nov 5, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-capital",
+   "to": "arrington-13f-q2-2026",
+   "label": "filer: Arrington Capital Management, LLC (CIK 2087115), general partner of Arrington XRP Capital Fund",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1727934/000119312526425555/ownership.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "armada",
+   "label": "5,796,000 Class A sh, $60,394,320 (37.1% of 13F value), plus 140,000 warrants $119,000",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "supports",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "hyperliquid-strategies",
+   "to": "hyperliquid",
+   "label": "token treasury company",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2078856/000119312526369668/purr-ex99_2.htm",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "upexi",
+   "to": "solana",
+   "label": "token treasury company",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1775194/000147793226005669/upxi_ex991.htm",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "solana-co",
+   "to": "solana",
+   "label": "token treasury company",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1610853/000161085326000005/pressreleaseexhibit991.htm",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "hyperion-defi",
+   "to": "hyperliquid",
+   "label": "token treasury company",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1682639/000110465926094849/tm2622908d1_ex99-1.htm",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "hyperliquid-strategies",
+   "label": "13F Q2 2026: 1,493,201 sh, $11,751,492 (7.2%) + calls on 669,800 sh $5,271,326 (3.2%); largest non-XRP crypto exposure",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "contradicts",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "upexi",
+   "label": "13F Q2 2026: 2,760,107 sh, $2,164,476 (1.3%)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "sui-group",
+   "label": "13F Q2 2026: 1,660,510 sh, $1,926,192 (1.2%)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "solana-co",
+   "label": "13F Q2 2026: 658,908 Class A sh, $1,087,198 (0.7%)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "ton-strategy",
+   "label": "13F Q2 2026: 378,549 sh, $965,300 (0.6%)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "hyperion-defi",
+   "label": "13F Q2 2026: 297,777 sh, $935,020 (0.6%)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-13f-q2-2026",
+   "to": "bnb-standard",
+   "label": "13F Q2 2026: 320,545 sh, $871,882 (0.5%) + 445,545 warrants ($0)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2087115/000208711526000003/13farrington.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-capital",
+   "to": "arrington-form4-2026-10-13",
+   "label": "reporting persons (Fund + GP)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1727934/000119312526420731/ownership.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-form4-2026-10-13",
+   "to": "armada",
+   "label": "issuer; forfeited 230,694 Cl A + 4,544,672 Cl B + 115,347 warrants at closing (2026-10-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1727934/000119312526420731/ownership.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-form4-2026-10-13",
+   "to": "evernorth",
+   "label": "remaining sponsor securities converted to Evernorth Holdings; Form 3 (2026-10-19): 4,704,137 Class A held",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1727934/000119312526425555/ownership.xml",
+   "side": "supports",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-form4-2026-10-13",
+   "to": "rippleworks",
+   "label": "directs votes on 1,199,503 Cl A + 29,033,708 Cl C 'DAT Side Pocket Shares' (Form 3 fn. 3)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1727934/000119312526425555/ownership.xml",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "arrington-capital",
+   "to": "robostrategy",
+   "label": "selling stockholder (N-2/A 2026-10-20): Arrington XRP Capital Fund 84,298 sh + 26,763 sh previously registered; 0 after offering",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2081119/000121390026110793/ea0308441-01_n2a.htm",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bnm",
+   "to": "tranglo",
+   "label": "BNM MSB directory: Tranglo Sdn. Bhd. (809241-M), HQ Bangsar South KL, Active, Remittance (Class B) licensee",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bnm.gov.my/regulations/msb-directory",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bnm",
+   "to": "instarem",
+   "label": "BNM MSB directory: NIUM Sdn. Bhd. (formerly InstaReM Malaysia, 1214517-X), Active, Remittance (Class B)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bnm.gov.my/regulations/msb-directory",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bnm",
+   "to": "paynet",
+   "label": "BNM directory: Payments Network Malaysia Sdn Bhd (PayNet), Approved Payment System Operator",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bnm.gov.my/regulations/msb-directory",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bsp",
+   "to": "coinsph",
+   "label": "BSP VASP list (as of 2026-07-15): Betur Inc. (d/b/a COINS.PH), Active non-bank VASP; affiliate DCPay Philippines is on BSP EMI list (EMI-NBFI, as of 2026-05-31)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bsp.gov.ph/Lists/Directories/Attachments/19/VASP.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "bsp",
+   "to": "pdax",
+   "label": "BSP VASP list (as of 2026-07-15): Philippine Digital Asset Exchange (PDAX), Active non-bank VASP",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bsp.gov.ph/Lists/Directories/Attachments/19/VASP.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "rbi",
+   "to": "moneygram",
+   "label": "RBI PSO list (2026-10-16): MoneyGram Payment Systems Inc., USA, authorised MTSS cross-border in-bound operator (authorised 25.05.2009)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://rbi.org.in/scripts/PublicationsView.aspx?Id=12043",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "rbi",
+   "to": "npci-intl",
+   "label": "RBI PSO list (2026-10-16): all NPCI international-activity approvals transferred to NIPL, wholly owned NPCI subsidiary, from 2020-08-10",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://rbi.org.in/scripts/PublicationsView.aspx?Id=12043",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "stark-reiners",
+   "to": "duke",
+   "label": "Lee Reiners signs as Duke Financial Economics Center",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1096499-3852606.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "stark-reiners",
+   "to": "senate-vote-234",
+   "label": "letter cites 2026-09-15 cloture failure on H.R. 3633 (49-50, roll call 234)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1096499-3852606.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "hl-policy-center",
+   "to": "hyperliquid",
+   "label": "self-described independent research & advocacy org for US access to onchain markets 'including those available on Hyperliquid'",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1098379-3868467.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "aima",
+   "to": "fsb",
+   "label": "responded to FSB crypto-asset framework consultation (Dec 2022; listed among 54 responses)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.fsb.org/2023/01/public-responses-to-fsbs-proposed-framework-for-international-regulation-of-crypto-asset-activities/",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-20",
+   "to": "aima",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-20",
+   "to": "hl-policy-center",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-20",
+   "to": "stark-reiners",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
+  },
+  {
+   "from": "iosco",
+   "to": "fsb",
+   "label": "FR11/2023 states its recommendations complement and support the work of the FSB and other standard-setting bodies",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T14:29:06-04:00"
   }
  ]
 }
