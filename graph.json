@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T06:49:06-04:00",
+  "updated": "2026-10-20T08:10:35-04:00",
   "version": 3
  },
  "nodes": [
@@ -661,7 +661,7 @@
    "label": "REX-Osprey XRPR",
    "type": "etf",
    "handle": "",
-   "summary": "Launched 2025-09-18 (tracker; medium confidence). ~35.7M XRP.",
+   "summary": "REX-Osprey XRP ETF, a 1940-Act ETF (ETF Opportunities Trust) on Cboe BZX; commenced operations 2025-09-18 (N-CSR), the first US-listed spot-XRP-exposure ETF. SEC staff required at least 40% in investment securities, so it holds other XRP ETPs too. At 2026-02-28: net assets $59.08M; 25,181,382 XRP direct (58.90%, partly via a Cayman subsidiary) and CoinShares XRP ETP 38.82%. Tracker (Oct 2026): ~35.7M XRP incl. look-through.",
    "grade": "A",
    "sources": [
     "https://xrp-insights.com/",
@@ -4298,7 +4298,7 @@
    "label": "Zerpmon",
    "type": "builder",
    "handle": "",
-   "summary": "Zerpmon is an original collection of digital collectible creatures that live on the XRPL, with each Zerpmon being a completely unique 1/1. Train and level-up your Zerpmon by taking them on Missions, then Battle other Trainers for  Listed on XRPL.org ecosystem page (category: gaming). Site: https://www.zerpmon.world/",
+   "summary": "Zerpmon is an original collection of digital collectible creatures that live on the XRPL, with each Zerpmon being a completely unique 1/1. Train and level-up your Zerpmon by taking them on Missions, then Battle other Trainers for XRP, NFTs and Tournament prizes. Listed on XRPL.org ecosystem page (category: gaming). Site: https://www.zerpmon.world/",
    "grade": "A",
    "sources": [
     "https://xrpl.org/about/uses",
@@ -26465,12 +26465,13 @@
    "label": "Katie Haun",
    "type": "person",
    "handle": "@katie_haun",
-   "summary": "Assistant US Attorney, N.D. Cal. She led the DOJ investigation that ended in Ripple's May 2015 BSA settlement (00K FinCEN penalty, 50K forfeiture, no criminal charges) and became DOJ's first Digital Currency Crimes Coordinator in June 2015. Then Coinbase board (May 2017–Jun 2025), a16z general partner co-running its crypto funds (2018–22), and founder of Haun Ventures (Mar 2022, $1.5B raised). This is a prosecutor-to-crypto-VC path. No Ripple role found after DOJ.",
+   "summary": "Assistant US Attorney, N.D. Cal. She led the DOJ investigation that ended in Ripple's May 2015 BSA settlement ($700K FinCEN civil penalty, $450K of it paid as a forfeiture to the US Attorney's Office, no criminal charges) and became DOJ's first Digital Currency Crimes Coordinator in June 2015. Then Coinbase board (May 2017–Jun 2025), a16z general partner co-running its crypto funds (2018–22), and founder of Haun Ventures (Mar 2022, $1.5B raised). This is a prosecutor-to-crypto-VC path. No Ripple role found after DOJ.",
    "grade": "A",
    "sources": [
     "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.830.39.pdf",
     "https://www.coindesk.com/markets/2015/09/10/digital-currency-crimes-chief-doj-has-no-bitcoin-agenda",
-    "https://www.haun.co/writing/introducing-haun-ventures"
+    "https://www.haun.co/writing/introducing-haun-ventures",
+    "https://www.fincen.gov/sites/default/files/shared/Ripple_Assessment.pdf"
    ],
    "added": "2026-10-20T01:08:58-04:00",
    "sector": "regulators",
@@ -27946,6 +27947,58 @@
     "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/"
    ],
    "added": "2026-10-20T03:52:34-04:00"
+  },
+  {
+   "id": "volante",
+   "label": "Volante Technologies",
+   "type": "company",
+   "handle": "",
+   "summary": "Payments middleware vendor (VolPay). Added a Ripple interface to VolPay on Oct 13, 2015 (Chris Larsen quoted). Separately offers FedNow and RTP connectivity; pairing the two is the basis of the recurring 'XRP powers FedNow' claim.",
+   "grade": "A",
+   "sources": [
+    "https://www.volantetech.com/news/volante-technologies-vol-pay-suite-of-payment-integration-and-processing-products-are-ripple-ready/",
+    "https://cryptonews.com/news/volante-technologies-fednow-ripple-payment/"
+   ],
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "id": "rlusd-chain-share-2026-10",
+   "label": "RLUSD chain-share claims vs on-chain supply (Oct 20, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "At ~07:50 ET Oct 20, 2026 the RLUSD issuer showed 935.35M outstanding on the XRPL and the ERC-20 contract 1,445.45M on Ethereum (XRPL ~39.3%). XRP Insights' same-day banner said the XRPL 'flipped' Ethereum ($810M vs $756M); its basis is undisclosed and the flip isn't reproducible on raw supply.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+    "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+    "https://xrp-insights.com/"
+   ],
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "id": "sec-im-40pct-test-2025",
+   "label": "SEC staff 40% 'investment securities' test for REX-Osprey crypto ETFs (2025)",
+   "type": "event",
+   "handle": "",
+   "summary": "On May 29 and Jun 6, 2025 calls, SEC Division of Investment Management staff said REX-Osprey's crypto ETFs (incl. XRP) must hold at least 40% of assets in investment securities to qualify under 1940 Act §3(a)(1)(C). The Trust agreed (CORRESP Jun 10, resubmitted Jun 18, 2025); XRPR's prospectus requires at least 40% in other XRP ETPs.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1771146/000199937125007979/filename1.htm",
+    "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm"
+   ],
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "id": "trex-xrpk",
+   "label": "T-REX 2X Long XRP Daily Target ETF (XRPK, liquidated)",
+   "type": "etf",
+   "handle": "",
+   "summary": "2x leveraged XRP ETF (adviser Tuttle Capital Management; ETF Opportunities Trust; Cboe BZX) that commenced 2025-12-02. On 2026-04-10 the board approved its liquidation, citing 'limited prospect for meaningful future asset growth'; it was delisted after the 2026-05-04 close and liquidated ~2026-05-11. The SOL twin (SOLX) was liquidated at the same time.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1771146/000177114626000780/etfot-497suppxliquidationo.htm"
+   ],
+   "added": "2026-10-20T08:05:11-04:00"
   }
  ],
  "edges": [
@@ -90612,6 +90665,204 @@
    "source": "https://farside.co.uk/wp-content/uploads/2018/02/5-24-14-Retraction-Demand-Powell_.pdf",
    "side": "neutral",
    "added": "2026-10-20T03:53:26-04:00"
+  },
+  {
+   "from": "volante",
+   "to": "ripple",
+   "label": "added a Ripple interface to its VolPay payments suite (2015-10-13)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.volantetech.com/news/volante-technologies-vol-pay-suite-of-payment-integration-and-processing-products-are-ripple-ready/",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "volante",
+   "to": "claim-fednow",
+   "label": "its FedNow offering and Ripple interface are separate products; pairing them fuels the 'XRP powers FedNow' claim (fact-check 2026-08-24)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://cryptonews.com/news/volante-technologies-fednow-ripple-payment/",
+   "side": "contradicts",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "crossriver",
+   "to": "claim-fednow",
+   "label": "Oct 15 RLUSD integration recycled as 'FedNow provider integrates Ripple' (FX Leaders, 2026-10-20)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.fxleaders.com/news/2026/10/20/xrp-bullish-outlook-builds-as-fednow-provider-integrates-ripple/",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "rlusd-chain-share-2026-10",
+   "to": "rlusd-xrpl-supply",
+   "label": "935.35M RLUSD on the XRPL, about 39.3% of raw supply (2026-10-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+   "side": "contradicts",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "rlusd-chain-share-2026-10",
+   "to": "rlusd-eth-supply",
+   "label": "1,445.45M RLUSD on Ethereum, about 60.7% of raw supply (2026-10-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "rlusd-chain-share-2026-10",
+   "to": "rlusd",
+   "label": "tracker banner says the XRPL 'flipped' Ethereum ($810M vs $756M); not reproducible on raw supply (2026-10-20)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrp-insights.com/",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "sec",
+   "to": "sec-im-40pct-test-2025",
+   "label": "Investment Management staff set the 40% test on May 29 and Jun 6, 2025 calls",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125007979/filename1.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "rex-osprey",
+   "to": "sec-im-40pct-test-2025",
+   "label": "counsel's letter agreed to hold at least 40% investment securities (Jun 10 and 18, 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125007979/filename1.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "sec-im-40pct-test-2025",
+   "to": "xrpr",
+   "label": "why XRPR must hold at least 40% in other ETPs and can't be all direct XRP",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "xrpi",
+   "label": "named a permitted Reference ETF in the prospectus (2025-09-12)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "evolve-xrp",
+   "label": "named a permitted Reference ETF in the prospectus (2025-09-12)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "21shares",
+   "label": "21Shares XRP ETP (AXRP) named a permitted Reference ETF (2025-09-12)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "wisdomtree",
+   "label": "WisdomTree Physical XRP (XRPW) named a permitted Reference ETF (2025-09-12)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "kraken",
+   "label": "prospectus: buys XRP on exchanges such as Coinbase and Kraken (2025-09-12)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "coinbase",
+   "label": "prospectus: buys XRP on exchanges such as Coinbase and Kraken (2025-09-12)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125013188/rexosprey-485bpos_091225.htm",
+   "side": "neutral",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "trex-xrpk",
+   "to": "xrp",
+   "label": "2x XRP ETF liquidated: board OK 2026-04-10, delisted 2026-05-04 ('limited prospect for meaningful future asset growth'; SOL twin too)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000177114626000780/etfot-497suppxliquidationo.htm",
+   "side": "contradicts",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "moneygram",
+   "to": "solana",
+   "label": "became Solana validator staking SOL + joined Solana Developer Platform (2026-06-22); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/moneygram-joins-solana-as-validator-deepening-commitment-to-blockchain-infrastructure-302805719.html",
+   "side": "contradicts",
+   "added": "2026-10-20T08:05:11-04:00"
+  },
+  {
+   "from": "moneygram",
+   "to": "solana",
+   "label": "MoneyGram Ramps cash on/off-ramp live on Solana via Solana Developer Platform (2026-08-11); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/moneygram-ramps-goes-multichain-with-solana-launch-302847719.html",
+   "side": "contradicts",
+   "added": "2026-10-20T08:05:11-04:00"
   }
  ]
 }
