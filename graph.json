@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T10:37:47-04:00",
+  "updated": "2026-10-20T12:37:17-04:00",
   "version": 3
  },
  "nodes": [
@@ -17880,11 +17880,12 @@
    "label": "Dom Kwok Swell 2026 talk",
    "type": "event",
    "handle": "",
-   "summary": "\"From Learning to Launch: How We're Bringing the World's Best Developers to the XRPL\" (Ripple Swell, Oct 24, 2026 slot per ConfBase agenda). Speaker bio repeats \"backed by a16z, Founders Fund, Y Combinator\" (contradicted by Inc.'s no-VC account).",
-   "grade": "B",
+   "summary": "\"From Learning to Launch: How We're Bringing the World's Best Developers to the XRPL\" (Ripple Swell 2026, Day 2: Oct 29, 2026, 4:45–5:00 PM ET, Level 4, The Shed, 545 W 30th St, New York; XRP Ecosystem track, per the official Swell agenda). Speaker bio repeats \"backed by a16z, Founders Fund, Y Combinator\" (contradicted by Inc.'s no-VC account).",
+   "grade": "A",
    "sources": [
     "https://www.confbase.com/conferences/ripple-swell",
-    "https://www.confbase.com/speakers/dom-kwok"
+    "https://www.confbase.com/speakers/dom-kwok",
+    "https://swell.ripple.com/agenda"
    ],
    "added": "2026-10-19T23:05:08-04:00",
    "tier": 2
@@ -18158,11 +18159,12 @@
    "label": "Batch amendment (XLS-56)",
    "type": "event",
    "handle": "",
-   "summary": "XRPL amendment spec XLS-0056 created 2023-12-13; status Final; original Batch disabled in v3.1.1 for a bug, replaced by BatchV1_1. Authors: mayukha-vadari.",
+   "summary": "XRPL amendment spec XLS-0056 created 2023-12-13; status Final; original Batch disabled in v3.1.1 for a bug, replaced by BatchV1_1. Authors: mayukha-vadari. Status as of 2026-10-20 11:26 ET: the original 'Batch' (rippled 2.5.0) is obsolete and was never enabled. XRPScan still shows 12 yes votes, but against an old 28-of-35 threshold, so that tally is stale. BatchV1_1 (rippled 3.3.0) gained a majority on 2026-09-25 10:46 ET and was enabled on mainnet on 2026-10-09 10:47 ET with 27 of 32 yes.",
    "grade": "A",
    "sources": [
     "https://github.com/XRPLF/XRPL-Standards/tree/master/XLS-0056-batch",
-    "https://xrpl.org/resources/known-amendments"
+    "https://xrpl.org/resources/known-amendments",
+    "https://api.xrpscan.com/api/v1/amendments"
    ],
    "added": "2026-10-19T23:05:08-04:00",
    "tier": 2
@@ -28262,6 +28264,196 @@
     "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197"
    ],
    "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "hedera",
+   "label": "Hedera",
+   "type": "company",
+   "handle": "",
+   "summary": "Public network (HBAR) governed by the Hedera Council, whose member organizations validate transactions and steer the network with equal votes and term limits. The Council Members list on hederacouncil.org (hedera.com/council redirects there; checked Oct 20 2026) shows 33 members, including Aberdeen, BitGo, Chainlink Labs, Shinhan Bank, Standard Bank, Nomura, IBM, Google and Accenture.",
+   "grade": "A",
+   "sources": [
+    "https://hederacouncil.org/"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "swift-chainlink-2023",
+   "label": "Swift–Chainlink tokenised-asset interoperability experiments (2023)",
+   "type": "event",
+   "handle": "",
+   "summary": "Swift results released Aug 31 2023: with Chainlink and more than a dozen institutions (ANZ, BNP Paribas, BNY Mellon, Citi, Clearstream, Euroclear, Lloyds, SDX, DTCC), Swift moved simulated tokenised assets across public and private chains, using Chainlink as an abstraction layer to Ethereum Sepolia and Chainlink CCIP for cross-chain transfers. XRPL is not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+    "https://chain.link/blog/dtcc-chainlink-collaboration-capital-markets"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "dtcc-smart-nav",
+   "label": "DTCC Smart NAV pilot (2024)",
+   "type": "event",
+   "handle": "",
+   "summary": "DTCC pilot (report May 16 2024) that put mutual-fund NAV (price and rate) data from its MFPS I service on-chain, using Chainlink CCIP as the interoperability layer and DTCC's private Ethereum network. The 10 participants were American Century, BNY Mellon, Edward Jones, Franklin Templeton, Invesco, JPMorgan, MFS, American Trust Custody, State Street and U.S. Bank. XRPL is not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.dtcc.com/dtcc-connection/articles/2024/may/16/smart-nav-pilot-report-bringing-trusted-data-to-the-blockchain-ecosystem",
+    "https://files.dtcc.com/download/assets/Smart_NAV-Report/8c752246369511f09a6b820bd5ac0897"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "inveo",
+   "label": "Inveo Kripto (Inveo Kripto Varlık Alım Satım Platformu AŞ)",
+   "type": "company",
+   "handle": "",
+   "summary": "Turkish crypto platform, formerly 'Misyon Kripto Varlık Alım Satım Platformu AŞ' according to SPK's provisional list (01 Oct 2026), where it appears as an operating firm. Listing is not authorisation. It listed RLUSD on its mobile, web and OTC platforms on 2026-10-20, and Ripple MEA MD Reece Merrick announced the partnership on X that day (08:12 ET). CEO Evren Cantürk; the company calls itself Türkiye's first 'bank-custodial' crypto platform to offer RLUSD (B, company claim via Turkish press). The SPK list also shows a separate custody application by Misyon Yatırım Bankası AŞ. Any Misyon Bank–Inveo/RLUSD custody link is held as unverified (X-only).",
+   "grade": "A",
+   "sources": [
+    "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
+    "https://x.com/reece_merrick/status/2112517218928144812",
+    "https://www.haberler.com/haberler/ripplein-dolar-stablecoini-rlusd-turkiyede-islem-20348421-haberi/"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "iosco",
+   "label": "IOSCO (International Organization of Securities Commissions)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "Global securities standard-setter. Final report FR11/2023 'Policy Recommendations for Crypto and Digital Asset Markets' (IOSCOPD747, Nov 2023; 18 recommendations) has no mention of XRP, Ripple or RLUSD (full-text search, 77 pp). Ripple commented on the CR01/2023 consultation (2023-07-31) and on IOSCO's DeFi consultation (Oct 2023).",
+   "grade": "A",
+   "sources": [
+    "https://www.iosco.org/library/pubdocs/pdf/IOSCOPD747.pdf",
+    "https://ripple.com/files/Ripple_IOSCO_Policy%20Recommendations%20for%20Crypto%20and%20Digital%20Asset%20Markets%20Consultation_July%202023_final.pdf",
+    "https://ripple.com/public-policy/"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "ripple-iosco-2023",
+   "label": "Ripple comment letter to IOSCO on CR01/2023 (2023-07-31)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple Labs letter on IOSCO's crypto and digital asset markets consultation. It describes ODL as using XRP to reduce or remove pre-funding ('XRP is independent of Ripple') and asks for a technology-agnostic, risk-sensitive framework plus mutual recognition of licences across jurisdictions.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/files/Ripple_IOSCO_Policy%20Recommendations%20for%20Crypto%20and%20Digital%20Asset%20Markets%20Consultation_July%202023_final.pdf",
+    "https://ripple.com/public-policy/"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "ripple-fsb-2022",
+   "label": "Ripple comment letter to FSB on crypto-asset framework (2022-12-15)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple Labs response to FSB's Oct 2022 proposed framework and the revised global-stablecoin recommendations. It describes RippleNet/ODL use of XRP, asks for a technology-agnostic framework, and supports cross-border cooperation and mutual recognition. Listed among 54 public responses. The final FSB framework (2023-07-17: umbrella note plus two sets of high-level recommendations) has no mention of Ripple, XRP or RLUSD (full-text search).",
+   "grade": "A",
+   "sources": [
+    "https://www.fsb.org/uploads/Ripple.pdf",
+    "https://www.fsb.org/2023/01/public-responses-to-fsbs-proposed-framework-for-international-regulation-of-crypto-asset-activities/",
+    "https://www.fsb.org/uploads/P170723-1.pdf"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "w-rgmivzb",
+   "label": "rGMiNvZB… r3bh7pm-created wallet holding ~295M XRP (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rGMiNvZB2kcoXHv81BFRvaAkrSsiy9bQ9j has no XRPScan label. r3bh7pmT… created it with a 25M XRP payment on Dec 1, 2025 at 11:03 ET. Ledger history to Oct 20, 2026 (71 tx): 693.34M XRP in, of which 437.99M came from rJUdpvAX… (6 payments, Dec 30, 2025–May 20, 2026) and 255.34M from r3bh7pm… (6 payments, Dec 1, 2025–Oct 6, 2026). 398.0M went out, all to r3bh7pm… (13 payments, Dec 4, 2025–Jun 25, 2026), which forwarded 328.0M to the rBNCyNEw desk and 70.0M to the hub. Live balance 295,343,942 XRP (ledger 107,786,315). Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rGMiNvZB2kcoXHv81BFRvaAkrSsiy9bQ9j",
+    "https://xrpscan.com/tx/68CE84B2C9C28954337E6EF142D874456644A4C904574B06562D9EB38223D7F8",
+    "https://xrplcluster.com"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "w-rdzukhg",
+   "label": "rDzukHGH… desk-linked wallet paying Binance 11 (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz has no XRPScan label. rHPGFxtg… created it on Jan 17, 2025; that is the Binance-10-created account that also created the rBNCyNEw desk and the hub's activator. Ledger history to Oct 20, 2026 (585 tx): 233.21M XRP in (127.18M from rBNCyNEw…, 69.0M from the hub on May 13, 2026, 37.03M from rHPGFxtg…) and 178.20M out (82.05M to 'Binance 11' rNxp4h8a… in 246 payments with dest tag 280342602, May 2025–Aug 2026; 47.36M to the hub and 34.37M to rBNCyNEw… on Sep 22, 2026). Live balance 55.01M XRP. Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz",
+    "https://xrpscan.com/tx/325ACF46D165A2EE2F28A8E25255296C918878DCBA7A01AE4361FFDB36A49015",
+    "https://xrpscan.com/tx/0807857DA3FE106194327C16C0A494EBDAFB65F496132442894A9D19D36E1C73"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "amd-confidential-transfer",
+   "label": "ConfidentialTransfer amendment (XLS-96)",
+   "type": "event",
+   "handle": "",
+   "summary": "XRPL amendment from rippled 3.3.0 that shields MPT balances and transfer amounts using EC-ElGamal encryption and zero-knowledge proofs, while issuers, auditors or other designated parties can still verify total supply. Status as of 2026-10-20 11:26 ET: open for voting, not enabled; 19 of 32 validators vote yes against a threshold of 25, with no majority (XRPScan). xrpl.org's table, a snapshot from Sep 16, 2026, showed 31.43%.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/amendments",
+    "https://xrpl.org/resources/known-amendments",
+    "https://opensource.ripple.com/docs/xls-96-confidential-transfers"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "amd-lending-v1-1",
+   "label": "LendingProtocolV1_1 amendment (XLS-66 follow-up)",
+   "type": "event",
+   "handle": "",
+   "summary": "XRPL amendment from rippled 3.4.0 that extends LendingProtocol and SingleAssetVault with closed-ended vaults (subscription, investment and redemption phases) and cash-basis interest accounting. Once enabled, new loan brokers can only be created against closed-ended vaults. Status as of 2026-10-20 11:26 ET: open for voting, not enabled; 18 of 32 yes against a threshold of 25, no majority (XRPScan). LendingProtocol itself also has 18 of 32.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/amendments",
+    "https://xrpl.org/resources/known-amendments"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "amd-dynamic-mpt",
+   "label": "DynamicMPT amendment (XLS-94)",
+   "type": "event",
+   "handle": "",
+   "summary": "XRPL amendment from rippled 3.3.0 that makes an MPT's on-chain metadata, transfer fee and capability flags mutable by default; issuers can lock any of these with ImmutableFlags. Status as of 2026-10-20 11:26 ET: open for voting, not enabled; 15 of 32 yes against a threshold of 25, no majority (XRPScan).",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/amendments",
+    "https://xrpl.org/resources/known-amendments",
+    "https://xrpl.org/docs/concepts/tokens/fungible-tokens/mutable-mpts"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "amd-sponsor",
+   "label": "Sponsor amendment (XLS-68, sponsored fees and reserves)",
+   "type": "event",
+   "handle": "",
+   "summary": "XRPL amendment from rippled 3.3.0 that lets companies or issuers pay transaction fees and reserves for end users, by co-signing or pre-funding sponsorships, while users keep control of their keys. Status as of 2026-10-20 11:26 ET: open for voting, not enabled; 9 of 32 yes against a threshold of 25, no majority (XRPScan).",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/amendments",
+    "https://xrpl.org/resources/known-amendments",
+    "https://opensource.ripple.com/docs/xls-68-sponsored-fees-and-reserves"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "id": "amd-fixcleanup-3-4-0",
+   "label": "fixCleanup3_4_0 amendment (rippled 3.4.0 fix bundle)",
+   "type": "event",
+   "handle": "",
+   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-20 11:26 ET: 26 of 32 yes against a threshold of 25. It has held a majority since 2026-10-09 05:34 ET (the ledger Amendments object confirms CloseTime 844853670), so it is expected to activate around 2026-10-23 05:34 ET if the majority holds; one lost vote would reset the clock. xrpl.org's Sep 16 snapshot still shows 0.00%.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/amendments",
+    "https://xrpl.org/resources/known-amendments",
+    "https://xrplcluster.com"
+   ],
+   "added": "2026-10-20T12:25:42-04:00"
   }
  ],
  "edges": [
@@ -28605,11 +28797,11 @@
   {
    "from": "bny",
    "to": "rlusd",
-   "label": "primary reserve custodian",
+   "label": "primary reserve custodian (announced Jul 9, 2025)",
    "grade": "A",
    "strength": 5,
    "key": true,
-   "source": "https://ripple.com/insights/ripple-closes-hidden-road-acquisition/",
+   "source": "https://ripple.com/ripple-press/ripple-selects-bny-to-custody-ripple-usd-reserves/",
    "side": "neutral",
    "added": "2026-10-19T06:36:00-04:00"
   },
@@ -28657,7 +28849,7 @@
   {
    "from": "crossriver",
    "to": "rlusd",
-   "label": "embeds RLUSD on XRPL",
+   "label": "embeds RLUSD on XRPL (announced Oct 15, 2026)",
    "grade": "A",
    "strength": 4,
    "key": true,
@@ -28780,7 +28972,7 @@
   {
    "from": "canton",
    "to": "dtcc",
-   "label": "live at launch in DTCC tokenization",
+   "label": "live at launch in DTCC tokenization (DTCC overview, Oct 2026; service launch set for Oct 2026)",
    "grade": "A",
    "strength": 4,
    "key": true,
@@ -29155,7 +29347,7 @@
   {
    "from": "evernorth",
    "to": "fuzzy",
-   "label": "Swell teaser end card: merch/community collab for Fuzzy Con, not an endorsement of $FUZZY; eye colours match the $FUZZY mascot (our pixel check)",
+   "label": "Swell teaser (posted Oct 19, 2026) end card: merch/community collab for Fuzzy Con, not an endorsement of $FUZZY; eye colours match the $FUZZY mascot (our pixel check)",
    "grade": "A",
    "strength": 2,
    "key": true,
@@ -29738,7 +29930,7 @@
   {
    "from": "xrp",
    "to": "xrpl",
-   "label": "native asset",
+   "label": "native asset (since the ledger's creation, built 2011–early 2012)",
    "grade": "A",
    "strength": 5,
    "key": true,
@@ -29749,7 +29941,7 @@
   {
    "from": "ripple",
    "to": "xrp",
-   "label": "holds ~31.4B in escrow",
+   "label": "holds ~31.4B in escrow (as of Oct 20, 2026)",
    "grade": "A",
    "strength": 3,
    "key": true,
@@ -30137,7 +30329,7 @@
   {
    "from": "ripple",
    "to": "atxrp",
-   "label": "co-manages (per @XRP bio)",
+   "label": "co-manages (per @XRP bio, checked Oct 20, 2026; account created Oct 15, 2026)",
    "grade": "A",
    "strength": 4,
    "key": true,
@@ -42213,7 +42405,7 @@
   {
    "from": "senate-vote-234",
    "to": "clarity",
-   "label": "cloture failed 49–50",
+   "label": "cloture failed 49–50 (Sep 15, 2026)",
    "grade": "A",
    "strength": 4,
    "key": true,
@@ -77754,7 +77946,7 @@
   {
    "from": "sp-kothari",
    "to": "in-re-ripple-litigation",
-   "label": "defense expert (class damages) for Ripple and Garlinghouse; plaintiff's motion to exclude denied as moot",
+   "label": "defense expert (class damages) for Ripple and Garlinghouse; plaintiff's motion to exclude denied as moot (order of Jun 20, 2024)",
    "grade": "A",
    "strength": 3,
    "key": true,
@@ -91251,7 +91443,7 @@
   {
    "from": "w-rl1quagi",
    "to": "w-ruwuj-lp",
-   "label": "lead: rw1xqK3T…, which put 15.0M XRP into rUWUJ2F3 between Oct 1 and Nov 12, 2025, paid rL1quAgi 4.9M on Jun 25, 2026 with the hub's dest tag 1634879248",
+   "label": "lead: rw1xqK3T…, which put 15.0M XRP into rUWUJ2F3 between Oct 1 and Nov 12, 2025, paid rL1quAgi 4.9M on Jun 25, 2026 with dest tag 1634879248 (rL1quAgi's deposit tag, also used by the hub)",
    "grade": "C",
    "strength": 1,
    "key": false,
@@ -91632,6 +91824,1106 @@
    "source": "https://docs.nexusglobalpayments.org/",
    "side": "contradicts",
    "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "xrpcafe",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jun 27 2023 (github.com/xrpcafe, 5 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/xrpcafe",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xp-market",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since May 9 2023 (github.com/XPmarket, 1 public repo, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/XPmarket",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "crossmark",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jun 7 2024 (github.com/crossmarkio, 4 public repos, 1 archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/crossmarkio",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xurlpay",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jun 2 2023 (github.com/claytantor/xrpl-poc-python, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/claytantor/xrpl-poc-python",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "audiotarky",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since May 23 2023 (github.com/audiotarky, 13 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/audiotarky",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dallipay",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jul 23 2025 (github.com/radynamics, 7 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/radynamics",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "peerkat",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jul 18 2024 (github.com/Vivid-IOV-Labs incl. the listed peerkat-nft-viewer repo (last push Jan 24 2024); checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/Vivid-IOV-Labs/peerkat-nft-viewer",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "universalnft-dev",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Apr 4 2025 (github.com/ohonesix/api.universalnft.dev, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/ohonesix/api.universalnft.dev",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xrpl4gd",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jul 16 2023 (github.com/Interstellar-Trinity/xrpl4gd, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/Interstellar-Trinity/xrpl4gd",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "cryptum",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Apr 15 2025 (github.com/cryptum-official, 11 public repos, 1 archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/cryptum-official",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "kodelab",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Aug 1 2025 (github.com/kodelabio, 2 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/kodelabio",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xrphone",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jul 26 2022 (github.com/XRPhone, 3 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/XRPhone",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "feeturre",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Nov 5 2021 (github.com/feeturre, 1 public repo, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/feeturre",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "x-tokenize",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Dec 22 2023 (github.com/x-Tokenize, 2 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/x-Tokenize",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "phi-wallet",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Sep 30 2025 (github.com/phiwallet, 2 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/phiwallet",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xrpl-discord-bot",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jun 19 2024 (github.com/ohonesix/XRPL-Discord-Bot, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/ohonesix/XRPL-Discord-Bot",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "crypto-iso20022-interoperability",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jul 23 2025 (grant repo github.com/rsteimen/CryptoIso20022Interop now redirects to radynamics/DalliPay; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/rsteimen/CryptoIso20022Interop",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "foodtrust-simulator",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Sep 29 2025 (github.com/VBoureaud/FoodTrustSimulator, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/VBoureaud/FoodTrustSimulator",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "petproof",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Mar 22 2023 (github.com/petproof, 2 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/petproof",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "poof-payments",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Oct 31 2023 (github.com/poofpayments, 1 public repo, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/poofpayments",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "scratch2hooks",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Jul 23 2023 (github.com/wshbair/blockly2hooks, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/wshbair/blockly2hooks",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "medledger",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Aug 11 2025 (github.com/TusharPardhe/medledger-docs, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/TusharPardhe/medledger-docs",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "thingsgoonline",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Oct 15 2022 (github.com/thingsgoonline, 2 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/thingsgoonline",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "confiel",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Nov 17 2023 (github.com/conFIEL, 2 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/conFIEL",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "kaiju-labs",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Apr 29 2024 (github.com/kaiju-web3-labs, 1 public repo, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/kaiju-web3-labs",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xrpl-cli",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Aug 28 2025 (github.com/covecredit, 10 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/covecredit",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "evm-finance",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Oct 1 2025 (github.com/evm-finance/XRP, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/evm-finance/XRP",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "safehaven",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Oct 7 2024 (github.com/Safehaven-io, 18 public repos, none archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/Safehaven-io",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xrpl-sdk-for-rust",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Mar 2 2025 (github.com/gmosx/xrpl-sdk-rust, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/gmosx/xrpl-sdk-rust",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "xrpl-elixir",
+   "to": "xrpl-grants",
+   "label": "XRPL Grants awardee; public GitHub inactive: no code pushes since Mar 24 2024 (github.com/lucca65/xrpl, not archived; checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/lucca65/xrpl",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "abrdn",
+   "to": "hedera",
+   "label": "Hedera Council member (hederacouncil.org council list, checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://hederacouncil.org/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "bitgo",
+   "to": "hedera",
+   "label": "Hedera Council member (hederacouncil.org council list, checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://hederacouncil.org/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "chainlink",
+   "to": "hedera",
+   "label": "Hedera Council member (as Chainlink Labs) (hederacouncil.org council list, checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://hederacouncil.org/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "shinhan",
+   "to": "hedera",
+   "label": "Hedera Council member (hederacouncil.org council list, checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://hederacouncil.org/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "accenture",
+   "to": "hedera",
+   "label": "Hedera Council member (hederacouncil.org council list, checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://hederacouncil.org/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "ibm",
+   "to": "hedera",
+   "label": "Hedera Council member (hederacouncil.org council list, checked Oct 20 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://hederacouncil.org/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "abrdn",
+   "to": "hedera",
+   "label": "tokenised MMF units used as collateral for FX trades with Lloyds, issued and held by Archax on Hedera (Jul 14 2025); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://archax.com/insights/digital-assets-breakthrough-aberdeen-investments-lloyds-banking-group-and-archax-complete-uk-first-use-of-digital-assets",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "lloyds",
+   "to": "hedera",
+   "label": "took tokenised Aberdeen MMF units and UK gilts as FX-trade collateral, issued and held via Archax on Hedera (Jul 14 2025); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://archax.com/insights/digital-assets-breakthrough-aberdeen-investments-lloyds-banking-group-and-archax-complete-uk-first-use-of-digital-assets",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "hedera",
+   "label": "issued, transferred and held tokenised MMF and gilt collateral on Hedera for Aberdeen–Lloyds FX trades via its Nest network (Jul 14 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://archax.com/insights/digital-assets-breakthrough-aberdeen-investments-lloyds-banking-group-and-archax-complete-uk-first-use-of-digital-assets",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "swift",
+   "to": "chainlink",
+   "label": "used Chainlink CCIP as the cross-chain layer to move simulated tokenised assets in its interoperability experiments (results Aug 31 2023); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "swift",
+   "to": "swift-chainlink-2023",
+   "label": "ran the experiments; results report released Aug 31 2023",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "chainlink",
+   "to": "swift-chainlink-2023",
+   "label": "abstraction layer to Ethereum Sepolia and CCIP cross-chain protocol for the experiments (2023)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "swift-chainlink-2023",
+   "label": "participant institution named by Swift (Aug 31 2023)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "swift-chainlink-2023",
+   "label": "participant institution named by Swift (Aug 31 2023)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "citi",
+   "to": "swift-chainlink-2023",
+   "label": "participant institution named by Swift (Aug 31 2023)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "lloyds",
+   "to": "swift-chainlink-2023",
+   "label": "participant institution named by Swift (Aug 31 2023)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "euroclear",
+   "to": "swift-chainlink-2023",
+   "label": "participant institution named by Swift (Aug 31 2023)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-unlocks-potential-tokenisation-successful-blockchain-experiments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "chainlink",
+   "label": "as token issuer and CSD, minted CCIP-compatible test 'BondTokens' for Swift's interoperability experiment (DTCC exec blog, Sep 15 2023)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://chain.link/blog/dtcc-chainlink-collaboration-capital-markets",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "dtcc-smart-nav",
+   "label": "ran the pilot; report published May 16 2024",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.dtcc.com/dtcc-connection/articles/2024/may/16/smart-nav-pilot-report-bringing-trusted-data-to-the-blockchain-ecosystem",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "chainlink",
+   "label": "Smart NAV pilot used Chainlink CCIP as the interoperability layer for on-chain fund NAV data (May 16 2024); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.dtcc.com/dtcc-connection/articles/2024/may/16/smart-nav-pilot-report-bringing-trusted-data-to-the-blockchain-ecosystem",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "chainlink",
+   "to": "dtcc-smart-nav",
+   "label": "CCIP interoperability layer for the pilot (May 2024)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.dtcc.com/dtcc-connection/articles/2024/may/16/smart-nav-pilot-report-bringing-trusted-data-to-the-blockchain-ecosystem",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "dtcc-smart-nav",
+   "label": "named pilot participant (DTCC Smart NAV report, May 2024)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://files.dtcc.com/download/assets/Smart_NAV-Report/8c752246369511f09a6b820bd5ac0897",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "franklin",
+   "to": "dtcc-smart-nav",
+   "label": "named pilot participant (DTCC Smart NAV report, May 2024)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://files.dtcc.com/download/assets/Smart_NAV-Report/8c752246369511f09a6b820bd5ac0897",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "jpm",
+   "to": "dtcc-smart-nav",
+   "label": "named pilot participant (DTCC Smart NAV report, May 2024)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://files.dtcc.com/download/assets/Smart_NAV-Report/8c752246369511f09a6b820bd5ac0897",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "state-street",
+   "to": "dtcc-smart-nav",
+   "label": "named pilot participant (DTCC Smart NAV report, May 2024)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://files.dtcc.com/download/assets/Smart_NAV-Report/8c752246369511f09a6b820bd5ac0897",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "usbank",
+   "to": "dtcc-smart-nav",
+   "label": "named pilot participant (DTCC Smart NAV report, May 2024)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://files.dtcc.com/download/assets/Smart_NAV-Report/8c752246369511f09a6b820bd5ac0897",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "canton",
+   "label": "partnered with Digital Asset to tokenize DTC-custodied U.S. Treasuries on Canton, MVP targeted H1 2026; DTCC to co-chair the Canton Foundation with Euroclear (Dec 17 2025); XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.dtcc.com/press-releases/2025/dtcc-and-digital-asset-partner-to-tokenize-dtc-custodied-us-treasury-securities",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "canton",
+   "label": "Jul 15 2026 production trades with DTC-tokenized assets ran on DTCC's private Besu network and public Canton, ahead of the October 2026 Tokenization Service launch; XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "chainlink",
+   "to": "dtcc",
+   "label": "named participant in DTCC's Jul 15 2026 tokenized production trades (with 30+ firms incl. BitGo, Circle, Fireblocks)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.dtcc.com/press-releases/2026/dtcc-turns-tokenization-into-reality",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "reece-merrick",
+   "to": "inveo",
+   "label": "announced RLUSD partnership with Inveo (X, 2026-10-20 08:12 ET)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/reece_merrick/status/2112517218928144812",
+   "side": "supports",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "inveo",
+   "to": "rlusd",
+   "label": "listed RLUSD on mobile, web and OTC (2026-10-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/reece_merrick/status/2112517218928144812",
+   "side": "supports",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "inveo",
+   "label": "on SPK provisional operating list (01 Oct 2026; formerly Misyon Kripto); not an authorisation",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "bilira",
+   "label": "on SPK provisional operating list (01 Oct 2026) as Bilira Kripto Varlık Alım Satım Platformu AŞ; not an authorisation",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "bitexen",
+   "label": "on SPK provisional list but restricted: SPK decision 2026-09-23 (meeting 61) bars new customers and new listings until further notice",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
+   "side": "contradicts",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "bitlo",
+   "label": "platform on SPK provisional operating list (01 Oct 2026); Bitlo's custody arm (Bitlo Dijital Varlık Saklama, custody application) is on the liquidation/not-continuing list (21 Sep 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/tasfiye-surecinde-olanlar-listesi",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "paribu",
+   "label": "platform and custody arm (Paribu Kripto Varlık Saklama, custody application) on SPK provisional operating list (01 Oct 2026); no RLUSD partnership found",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-iosco-2023",
+   "label": "author",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/files/Ripple_IOSCO_Policy%20Recommendations%20for%20Crypto%20and%20Digital%20Asset%20Markets%20Consultation_July%202023_final.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "ripple-iosco-2023",
+   "to": "iosco",
+   "label": "comment on CR01/2023 (final FR11/2023 has no XRP/Ripple mention)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/files/Ripple_IOSCO_Policy%20Recommendations%20for%20Crypto%20and%20Digital%20Asset%20Markets%20Consultation_July%202023_final.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-fsb-2022",
+   "label": "author",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsb.org/uploads/Ripple.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "ripple-fsb-2022",
+   "to": "fsb",
+   "label": "response to proposed crypto-asset/GSC framework (one of 54); final 2023 framework does not mention Ripple/XRP",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsb.org/2023/01/public-responses-to-fsbs-proposed-framework-for-international-regulation-of-crypto-asset-activities/",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-r3bh7pm",
+   "to": "w-rgmivzb",
+   "label": "created it with a 25M XRP payment, Dec 1, 2025 11:03 ET",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://xrpscan.com/tx/68CE84B2C9C28954337E6EF142D874456644A4C904574B06562D9EB38223D7F8",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rjudpvax",
+   "to": "w-rgmivzb",
+   "label": "437.99M XRP in 6 payments, Dec 30, 2025–May 20, 2026 (dest tag 3774558691)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/20639152E12DE53343C50776D763C22827DFFEF1E23BFEC01CA406548846EB0A",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-r3bh7pm",
+   "to": "w-rgmivzb",
+   "label": "255.34M XRP in 6 payments, Dec 1, 2025–Oct 6, 2026; 5 of 6 matched a same-size hub payment into r3bh7pm 5 min–3 days earlier",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/6E8ABFAE5B6F41B4D1CE5C596C5D1C532218D115DBD05B8B0439560F45D13795",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rgmivzb",
+   "to": "w-r3bh7pm",
+   "label": "398.0M XRP in 13 payments, Dec 4, 2025–Jun 25, 2026 (dest tag 3513586717); r3bh7pm forwarded 11 within 3–39 min and one after ~17 h (the 13th was a 1-XRP test)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/41802EDEA44E9E1DB9B87470B3905BB4D54126C649515D53FAEE75DC830FB4A5",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-r3bh7pm",
+   "to": "w-rbnc-desk",
+   "label": "forwarded 328.0M of rGMiNvZB…'s outflow to the desk in 9 payments, Dec 4, 2025–Jun 2, 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/D4AE74E2BA7E93B799C8FE6255CEDF54212E3EF04C653B4531277089ABC903E3",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-r3bh7pm",
+   "to": "w-rpxh-hub",
+   "label": "70.0M XRP to the hub in 3 payments, Jun 4–25, 2026, minutes after the same amounts came from rGMiNvZB…",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/56CB6FCF3FEEC5B27F5521001EC98B3FACA5DD99FBF3DF4745741FF2906B23C7",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rbnc-desk",
+   "to": "w-rpxh-hub",
+   "label": "297.4M XRP back to the hub in 8 payments, 2–68 min after r3bh7pm relayed rGMiNvZB… funds (Dec 4, 2025–Jun 2, 2026; dest tag 3287086030)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/EB5DC88F02D0CBEE93F100BA59BC8A26E9FBBD71C25F279E2A42E42CFB9A5D20",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rl1quagi",
+   "label": "90,999,893 XRP on Feb 2, 2026 (tag 1634879248), 2 h after the desk returned 91.0M of rGMiNvZB…'s outflow",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/CE1C40D0471691BD9ECD6FCF646A5220DE7144162C1B85B13FF8B44409ACD08E",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rl1quagi",
+   "to": "binance",
+   "label": "88.53M XRP to 'Binance 11' rNxp4h8a… in 144 payments, Feb 3–24, 2026, right after the hub's 91.0M arrived",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/C1BC33B1F944EE30B00BBF8FD55ECB6DFF3AD52F3039F670D47827341FBFA150",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rn1yt2",
+   "label": "73.0M XRP on Jan 12, 2026, 44 min after the desk returned the same 73.0M from rGMiNvZB…",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/0F639000AE78A6C5DC6472743F32E9569974999ED509441432EBF3C15A56C109",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rpxh-hub",
+   "to": "w-rdzukhg",
+   "label": "69.0M XRP in 2 payments, May 13, 2026 (tag 1284601105), the day after the desk returned 30.0M of rGMiNvZB…'s outflow",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/325ACF46D165A2EE2F28A8E25255296C918878DCBA7A01AE4361FFDB36A49015",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rdzukhg",
+   "to": "binance",
+   "label": "82.05M XRP to 'Binance 11' rNxp4h8a… in 246 payments, May 2025–Aug 26, 2026 (dest tag 280342602)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/0807857DA3FE106194327C16C0A494EBDAFB65F496132442894A9D19D36E1C73",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rdzukhg",
+   "to": "w-rpxh-hub",
+   "label": "47.36M XRP to the hub on Sep 22, 2026; the hub sent 47.36M to r3bh7pm, which passed it to rGMiNvZB… the same day",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/F6CD908A0D3277A56B0DC0E812470289606574E6EE67F3B62E1D9501B9372675",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rdzukhg",
+   "to": "w-rbnc-desk",
+   "label": "shared creator rHPGFxtg… (Jan 17 and Jul 30, 2025); the desk sent it 127.18M XRP and got 34.37M back",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rgmivzb",
+   "to": "w-rpxh-hub",
+   "label": "lead: 367.4M of rGMiNvZB…'s 398.0M outflow returned to the hub within ~2 h via r3bh7pm and the desk, and some re-entered rGMiNvZB… (e.g. 120M on Feb 6 and 12.83M on Sep 25, 2026); amount/timing match only",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/D3484795E8E1EF6AC1BA604A780E666DFBF1D28A7A83DB283F32079DB22AABB6",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "w-rgmivzb",
+   "to": "binance",
+   "label": "lead: ~130M of rGMiNvZB…'s outflow plausibly reached 'Binance 11' via the hub and rL1quAgi (91.0M Feb 2 plus ~39.5M Jun 2026); amount/timing match only",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/C1BC33B1F944EE30B00BBF8FD55ECB6DFF3AD52F3039F670D47827341FBFA150",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-confidential-transfer",
+   "to": "xrpl",
+   "label": "protocol amendment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-confidential-transfer",
+   "to": "xrpl",
+   "label": "mainnet status as of 2026-10-20: open for voting, 19/32 yes vs 25 needed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-lending-v1-1",
+   "to": "xrpl",
+   "label": "protocol amendment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-lending-v1-1",
+   "to": "xrpl",
+   "label": "mainnet status as of 2026-10-20: open for voting, 18/32 yes vs 25 needed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-dynamic-mpt",
+   "to": "xrpl",
+   "label": "protocol amendment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-dynamic-mpt",
+   "to": "xrpl",
+   "label": "mainnet status as of 2026-10-20: open for voting, 15/32 yes vs 25 needed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-sponsor",
+   "to": "xrpl",
+   "label": "protocol amendment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-sponsor",
+   "to": "xrpl",
+   "label": "mainnet status as of 2026-10-20: open for voting, 9/32 yes vs 25 needed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-fixcleanup-3-4-0",
+   "to": "xrpl",
+   "label": "protocol amendment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-fixcleanup-3-4-0",
+   "to": "xrpl",
+   "label": "mainnet status as of 2026-10-20: majority (26/32) since Oct 9 05:34 ET; expected ~Oct 23, 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-lending-v1-1",
+   "to": "amd-lending",
+   "label": "extends LendingProtocol with closed-ended vaults and cash-basis accounting (rippled 3.4.0)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-lending-v1-1",
+   "to": "amd-vault",
+   "label": "extends SingleAssetVault with closed-ended vault lifecycle (rippled 3.4.0)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-fixcleanup-3-4-0",
+   "to": "amd-vault",
+   "label": "bundles Single Asset Vault fixes (rounding, VaultClawback, VaultWithdraw)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
+  },
+  {
+   "from": "amd-fixcleanup-3-4-0",
+   "to": "amd-lending",
+   "label": "bundles Lending Protocol fixes (late, impaired and default checks)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpl.org/resources/known-amendments",
+   "side": "neutral",
+   "added": "2026-10-20T12:25:42-04:00"
   }
  ]
 }
