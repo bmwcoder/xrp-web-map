@@ -35,6 +35,9 @@ Dots can't be dragged (`interaction.dragNodes: false`, physics off), so every vi
 - **🌉 Bridges**: dots whose A/B links reach 3+ different sectors, ranked by sectors reached then link strength (XRP, Ripple and the XRPL excluded); the top 25 are highlighted with a ranked list. Computed at build time by `netstats.py`.
 - **🔺 Closed loops**: triangles where all three sides are A/B evidence with strength 3+, excluding XRP/Ripple/XRPL, ranked by evidence strength; the top 30 are listed and tapping one isolates it. Also `netstats.py`.
 - **Why it matters**: an optional node field `why` (one plain-English sentence from facts already in the node's edges and sources, both sides) shown at the top of the tap panel. Set it with `{"kind":"why","id","why":"..."}` lines in `queue/why.jsonl`.
+- **Short names**: an optional node field `short` (≤28 characters) used for labels in the guided, story, bridges and loops views; without it the page shortens long labels itself ("On-Demand Liquidity (ODL, ex-xRapid)" → "ODL"). Set it with `{"kind":"short","id","short":"..."}` lines in `queue/shorts.jsonl`.
+- **Bridges** list a plain-words line of the groups each top bridge connects; **Closed loops** rank triangles inside one organization or family (shared name, "became"/"renamed" links, or 2+ ownership/role links) after cross-organization loops.
+- **Publish log**: `PUBLISH-LOG.md`, one line per push, appended by publish.sh.
 
 ## Layout
 `build.py` calls `layout.py`, which computes fixed x/y positions. They're embedded in the page as `_layout`; graph.json itself never stores positions.

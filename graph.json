@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T01:05:16-04:00",
+  "updated": "2026-10-20T01:11:01-04:00",
   "version": 3
  },
  "nodes": [
@@ -1416,6 +1416,7 @@
   {
    "id": "rel33",
    "label": "SEC Rel. 33-11412 (Mar 17, 2026)",
+   "short": "SEC Rel. 33-11412",
    "type": "regulator",
    "handle": "",
    "summary": "SEC interpretation with CFTC guidance (effective Mar 23, 2026) naming XRP among 16 example 'digital commodities' (APT, AVAX, BTC, BCH, ADA, LINK, DOGE, ETH, HBAR, LTC, DOT, SHIB, SOL, XLM, XTZ, XRP), chosen because each underlies a CFTC-regulated future. Interpretation, not statute.",
@@ -2038,6 +2039,7 @@
   {
    "id": "pathfinder",
    "label": "Pathfinder Digital Assets LLC",
+   "short": "Pathfinder Digital Assets",
    "type": "company",
    "handle": "",
    "summary": "Ripple-backed Evernorth operating company named in the Armada II business combination documents (units issued in the deal).",
@@ -2486,12 +2488,13 @@
    "label": "RLUSD crosses $1B (Nov 2025)",
    "type": "event",
    "handle": "",
-   "summary": "RLUSD market cap first passed $1B ~Nov 3, 2025 (~$819M on Ethereum, ~$203M on XRPL).",
+   "summary": "RLUSD market cap first passed $1B around Nov 3-4 2025. The DefiLlama daily series shows $977.7M on Nov 3 and $1,027.7M on Nov 4 2025. Chain split on Nov 3, per DefiLlama: Ethereum $819.7M, XRPL $158.0M. The originally cited ~$203M XRPL figure comes from a different source and differs.",
    "grade": "A",
    "sources": [
     "https://www.coindesk.com/markets/2025/11/04/ripple-s-stablecoin-hits-usd1b-milestone-as-president-discusses-m-and-a-strategy-to-fuel-growth",
     "https://www.tradingview.com/news/u_today:3658f1311094b:0-1-billion-rlusd-now-circulating-on-xrpl-and-ethereum/",
-    "https://x.com/Ripple/status/1985384072676266009"
+    "https://x.com/Ripple/status/1985384072676266009",
+    "https://stablecoins.llama.fi/stablecoin/250"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -2500,13 +2503,14 @@
    "label": "RLUSD crosses $2B (Aug 2026)",
    "type": "event",
    "handle": "",
-   "summary": "RLUSD passed $2B in late Aug 2026; record ~$2.44B supply Sep 14, 2026 with Ethereum ($1.37B) ahead of XRPL ($1.05B). Ripple transparency page: $2,405.8M circulating vs $2,534.5M reserves (Oct 15, 2026).",
+   "summary": "RLUSD passed $2B in late Aug 2026; ~$2.38B on Sep 15, 2026, then a record ~$2.53B on Oct 8, 2026 (DefiLlama daily) with Ethereum ($1.37B) ahead of XRPL ($1.05B). Ripple transparency page: $2,405.8M circulating vs $2,534.5M reserves (Oct 15, 2026).",
    "grade": "A",
    "sources": [
     "https://news.bitcoin.com/crypto-news/ripples-rlusd-market-cap-crosses-2b-nearly-1b-on-xrp-ledger/",
     "https://news.bitcoin.com/crypto-news/rlusd-supply-record-ethereum-xrp-ledger/",
     "https://ripple.com/products/stablecoin/transparency/",
-    "https://x.com/Ripple/status/2092283458412331070"
+    "https://x.com/Ripple/status/2092283458412331070",
+    "https://stablecoins.llama.fi/stablecoin/250"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -3763,6 +3767,7 @@
   {
    "id": "dld-secondary",
    "label": "DLD tokenized real estate secondary trading (Feb 2026)",
+   "short": "Dubai property token trading",
    "type": "event",
    "handle": "",
    "summary": "Phase two of the Dubai Land Department / Ctrl Alt pilot opened controlled secondary trading Feb 20, 2026: 10 properties (~$5M), ~7.8M tokens, Ripple Custody.",
@@ -4131,6 +4136,7 @@
   {
    "id": "ripple-round-2025",
    "label": "Ripple $500M strategic round (Nov 2025)",
+   "short": "Ripple $500M round",
    "type": "event",
    "handle": "",
    "summary": "Ripple raised $500M at a $40B valuation, led by Fortress Investment Group and Citadel Securities with Pantera, Galaxy Digital, Brevan Howard and Marshall Wace (Nov 5, 2025).",
@@ -7378,6 +7384,7 @@
   {
    "id": "svb2023",
    "label": "US bank failures / SVB week (Mar 2023)",
+   "short": "SVB bank failures",
    "type": "event",
    "handle": "",
    "summary": "In the same week of March 2023: Circle stood up Cross River Bank for USDC settlement (Mar 13–14), while Ripple and Tranglo suspended ODL for 9 of 11 partners on Mar 15 for 'liquidity' reasons and partners switched to fiat prefunding.",
@@ -7896,7 +7903,8 @@
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
-    "https://insights.dcg.co/digital-currency-group-launches-announces-fundraise-cbbc442154c5"
+    "https://insights.dcg.co/digital-currency-group-launches-announces-fundraise-cbbc442154c5",
+    "https://web.archive.org/web/20191216103733/https://ripple.com/insights/ripple-labs-raises-28-million-from-idg-capital-partners-cme-group-seagate-and-others/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "founders"
@@ -7910,7 +7918,8 @@
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
-    "https://ripple.com/ripple-press/ripple-raises-55-million-series-b-funding/"
+    "https://ripple.com/ripple-press/ripple-raises-55-million-series-b-funding/",
+    "https://web.archive.org/web/20191216103733/https://ripple.com/insights/ripple-labs-raises-28-million-from-idg-capital-partners-cme-group-seagate-and-others/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "founders"
@@ -8571,6 +8580,7 @@
   {
    "id": "skinny-ma",
    "label": "Fed 'skinny' master account proposal (May 2026)",
+   "short": "Fed 'skinny' account plan",
    "type": "regulator",
    "handle": "",
    "summary": "Fed proposed limited payment master accounts in May 2026: no interest, no discount window/intraday credit, balance cap, ~90-day approval. Gov. Michael Barr dissented on AML safeguards. Kraken got a 12-month pilot limited master account in March 2026. Relevant to Ripple National Trust Bank.",
@@ -8746,6 +8756,7 @@
   {
    "id": "tranglo-odl-exit-2025",
    "label": "Tranglo ceases Ripple ODL (Nov 10, 2025)",
+   "short": "Tranglo quits ODL",
    "type": "event",
    "handle": "",
    "summary": "Currenc Group 20-F (filed 2026-04-30): \"As of November 10, 2025, Tranglo ceased Ripple's ODL services to its customers.\" ODL remittance revenue fell from $1,407,709 (2023) to $880,171 (2024) to $430,517 (2025); ODL flows were 4.5% of Tranglo TPV in 2024 and 1.3% in 2025. Ripple Labs Singapore still holds about 40% of Tranglo.",
@@ -8771,6 +8782,7 @@
   {
    "id": "torres-ruling-2023",
    "label": "Torres summary-judgment order (2023-07-13)",
+   "short": "Torres ruling (2023)",
    "type": "event",
    "handle": "",
    "summary": "ECF 874: SEC summary judgment GRANTED as to Institutional Sales; Defendants GRANTED as to Programmatic Sales, Other Distributions and Larsen/Garlinghouse sales. Cited the XRP-holder affidavits collected by amicus counsel John Deaton.",
@@ -9261,6 +9273,7 @@
   {
    "id": "in-re-ripple-litigation",
    "label": "In re Ripple Labs, Inc. Litigation (N.D. Cal. 4:18-cv-06753-PJH)",
+   "short": "XRP class action (Calif.)",
    "type": "event",
    "handle": "",
    "summary": "Verified caption of the private XRP securities class action (Oakland Division). It is commonly called the \"Zakinov\" class action; only this caption has been verified.",
@@ -9297,6 +9310,7 @@
   {
    "id": "senate-vote-234",
    "label": "Senate cloture vote on CLARITY (2026-09-15)",
+   "short": "Senate CLARITY vote",
    "type": "event",
    "handle": "",
    "summary": "Cloture on the motion to proceed to H.R. 3633 rejected 49–50. All 49 yeas were Republicans; nays were 44 D, 2 I and 4 R (Collins, Hawley, Moran, Tillis); Coons (D) did not vote. Tillis then entered a motion to reconsider.",
@@ -10101,6 +10115,7 @@
   {
    "id": "rma-v-seamless",
    "label": "Ripple Markets APAC v. Seamless & GEA (Singapore HC/OC 628/2024)",
+   "short": "Ripple v. Seamless suit",
    "type": "event",
    "handle": "",
    "summary": "Ripple Markets APAC sued GEA Ltd (ODL user, ex-Seamless sub) and guarantor Seamless (2024-08-19) over unpaid ODL/XRP line of credit; summary judgment 2025-04-17 ($23.95M principal); registered in Malaysia 2026-04-17; Malaysian High Court made a charging order absolute over Seamless's 100,465 Tranglo shares (Currenc informed 2026-10-01); sale proceedings possible from 2026-10-07.",
@@ -10216,6 +10231,7 @@
   {
    "id": "w-ripple-release",
    "label": "Ripple escrow release wallets (r9Npy…/rMhkq…)",
+   "short": "Escrow release wallets",
    "type": "asset",
    "handle": "",
    "summary": "r9NpyVfLfUG8hatuCCHKzosyDtKnBdsEN3 and rMhkqz3DeU7GUUJKGZofusbrTwZe6bDyb1 (XRPScan: Ripple, multisig) receive the monthly 1B escrow releases (500M each). Each month since at least Oct 2025, about 700M has gone straight back into new escrows on day 1, and 300M has gone to Ripple's operating wallet rBg2FuZT…. Balance ~208 XRP each on 2026-10-19.",
@@ -10273,6 +10289,7 @@
   {
    "id": "w-evernorth-set",
    "label": "Evernorth custody wallets (13, BitGo)",
+   "short": "Evernorth wallets",
    "type": "asset",
    "handle": "",
    "summary": "13 BitGo-activated 2-of-3 multisig XRPL accounts with the master key disabled. Together they hold 473,276,566 XRP (live, ledger 107,774,862, Oct 19, 2026, 22:4x ET), which matches the 424B3's 'at least 473,276,430 XRP'. XRPScan labels only two of them 'Evernorth' (rsT3yYMk… 45.62M, rKXXrAgp… 42.26M). Seven more are linked by payments (rKhjV48G…, rGJBNGkD…, rJX1qoSG…, rJuyHPDF…, rUgQciCP…, rPhQdyEa…, rGy4zJtG…). Three plus a staging wallet (rfiEXPM2…, r3tTJV8r…, rBZWJZpV…, rNtaHck1…) are linked only by matching the purchased tranche's amount (per xrp-insights). The XRP has not moved since Nov 2025.",
@@ -10289,6 +10306,7 @@
   {
    "id": "larsen-trust",
    "label": "Larsen Lam Children's Remainder Trust",
+   "short": "Larsen family trust",
    "type": "company",
    "handle": "",
    "summary": "A trust that Chris Larsen serves as trustee, and the 424B3's 'Contributor Related Party Entity'. It contributed 50,000,000 XRP to Evernorth. The 13G (Oct 15, 2026) reports it holds 661,867 XRPN Class A shares (2.8%). On-chain, the 50M XRP left 'chrislarsen'-labeled wallet r44CNwMW… for Evernorth 1 on 2025-10-20.",
@@ -10568,6 +10586,7 @@
   {
    "id": "exch-total",
    "label": "XRP on labeled exchange wallets (~22.06B)",
+   "short": "XRP on exchanges",
    "type": "asset",
    "handle": "",
    "summary": "About 22.06B XRP (22.1% of supply) sits in 699 publicly attributed exchange wallets across 24 exchanges (xrp-insights, Oct 19, 2026). Korea 8.62B, US 8.08B, Japan 1.39B. It is a floor, because omnibus and unlabeled wallets are excluded. The desk's own live reads showed ~−9M XRP net on labeled exchanges for Oct 19.",
@@ -10804,6 +10823,7 @@
   {
    "id": "rntb",
    "label": "Ripple National Trust Bank (proposed)",
+   "short": "Ripple Trust Bank",
    "type": "bank",
    "handle": "",
    "summary": "OCC conditionally approved Ripple's application for a national trust bank on 2025-12-12 to manage RLUSD reserves (dual NYDFS + OCC oversight). Final approval needs pre-opening conditions; not yet opened as of Oct 2026.",
@@ -15365,10 +15385,11 @@
    "label": "RLUSD supply dip (mid-2026)",
    "type": "event",
    "handle": "",
-   "summary": "crypto.news (Jul 2, 2026) reported RLUSD slipping from a ~$1.7B peak toward ~$1.4B as Ripple joined the rival Open USD consortium; supply later recovered above $2B (Aug-Sep 2026).",
+   "summary": "The RLUSD supply dip was real. DefiLlama daily series: a peak of $1.814B on Jun 2 2026 fell to $1.411B on Jul 1 2026 (-22%). By chain it was all Ethereum ($1.085B to $0.734B), while XRPL supply rose ($613M to $677M). crypto.news (Jul 2 2026) tied it to Ripple joining the Open USD consortium; that is a reported timing link, not a demonstrated cause. Supply recovered to $2.26B by Sep 1 and hit a record $2.53B on Oct 8 2026.",
    "grade": "B",
    "sources": [
-    "https://crypto.news/ripple-joins-open-usd-what-it-means-for-rlusd-and-xrp/"
+    "https://crypto.news/ripple-joins-open-usd-what-it-means-for-rlusd-and-xrp/",
+    "https://stablecoins.llama.fi/stablecoin/250"
    ],
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -15680,6 +15701,7 @@
   {
    "id": "rule54b-2024",
    "label": "Rule 54(b) partial final judgment, In re Ripple Labs (Dkt. 442, Nov 12, 2024)",
+   "short": "Class-action judgment (2024)",
    "type": "event",
    "handle": "",
    "summary": "Hamilton entered judgment for Ripple, XRP II and Garlinghouse on four class claims (Securities Act §12(a)(1), §15; Cal. Corp. Code §25503, §25504). She stayed the remaining §25501/25504.1 claim and vacated the Jan 21, 2025 trial date pending appeal. This is the real 'Rule 54(b) judgment, Nov 2024'. It belongs to the N.D. Cal. class action, NOT SEC v. Ripple.",
@@ -15708,6 +15730,7 @@
   {
    "id": "ca9-ripple-2026",
    "label": "9th Cir. affirms for Ripple, Nos. 24-7599 & 25-483 (Jan 27, 2026)",
+   "short": "9th Cir. win for Ripple",
    "type": "event",
    "handle": "",
    "summary": "Unpublished memorandum (Rawlinson, Miller, Sanchez; argued Dec 4, 2025). It affirmed summary judgment: XRP was first offered to the public in 2012–13, so the 3-year Securities Act repose expired before the 2018 suit. It rejected the theory that Ripple's 2017 monthly-tranche releases were a new offering. The decision is nonprecedential.",
@@ -15902,6 +15925,7 @@
   {
    "id": "fed-ma-db",
    "label": "Fed Master Account & Services Database",
+   "short": "Fed master-account list",
    "type": "regulator",
    "handle": "",
    "summary": "Federal Reserve Board database of institutions that hold, or have requested since Dec 23 2022, Reserve Bank master accounts. Downloaded 2026-10-19 (requests data current as of 2026-08-31): the only Ripple entity listed is Standard Custody & Trust Co. LLC (submitted 2025-03-18, Tier 3, Pending). Ripple National Trust Bank and Ripple Labs do not appear in either file.",
@@ -16922,6 +16946,7 @@
   {
    "id": "w-ripple-odl-chain",
    "label": "Ripple-created relay chain to ODL exchanges (rP4X2hTa→rhWt2bhR→r4wf7enW)",
+   "short": "Ripple ODL relay wallets",
    "type": "company",
    "handle": "",
    "summary": "Unlabeled wallets whose creation parents lead back to Ripple 50 (rJqiMb94…): rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3 was created by Ripple 50 on 2023-10-02. rhWt2bhRq3wiK9sQnYVmhhKb5Dr2SE32hk (depositAuth on, 13.35M XRP) was created 2023-03-31 by rp6vx6zw…, which was itself created by the Ripple-50-created rP7jPqEB…. rhWt2bhR received 5,597M XRP from rP4X2hTa and sent 5,644M to r4wf7enWPxyHtbizyV7ZHiZi5XgwHh4Rzn in 812 payments (Dec 2023–Oct 19, 2026). r4wf7enW relays the same odd amounts within minutes. Since Jan 2025 it has sent Bitso 1,714M, Bitstamp 564M (to Oct 2025), BTC Markets 276M and Independent Reserve 4.9M; its last Bitso payment was 1,491,100 XRP at 2026-10-19 15:35 ET. Live XRPL tx history read via xrplcluster/XRPScan, Oct 19, 2026.",
@@ -16936,6 +16961,7 @@
   {
    "id": "ripple-investments",
    "label": "Ripple strategic investments program",
+   "short": "Ripple investments",
    "type": "event",
    "handle": "",
    "summary": "Ripple says it has invested $600M+ across 70+ direct investments and 10+ LP fund investments since 2015 (sectors: markets, creation, storage, movement, funds). Named portfolio includes a100x, Agoric, Azimo, Bitso, Bitstamp, Blockchain Founders Fund, Born Ready Ventures, Breadwinner, Centigrade. DefiLlama lists 26 disclosed rounds 2021–2026.",
@@ -17335,6 +17361,7 @@
   {
    "id": "ripple-buyback-2022",
    "label": "Ripple Series C buyback at $15B (Jan 2022)",
+   "short": "Ripple share buyback (2022)",
    "type": "event",
    "handle": "",
    "summary": "Ripple repurchased its Series C preferred shares (holders incl. Tetragon, SBI Holdings, Route 66) at a $15B valuation, up from ~$10B at the Dec 2019 round.",
@@ -17452,6 +17479,7 @@
   {
    "id": "wisdomtree-xrp-fund",
    "label": "WisdomTree XRP Fund (US S-1, withdrawn)",
+   "short": "WisdomTree XRP Fund",
    "type": "etf",
    "handle": "",
    "summary": "US spot XRP trust sponsored by WisdomTree Digital Commodity Services. S-1 (File 333-283538) filed 2024-12-02; Form RW filed 2026-01-06 because it 'determined not to proceed at this time'; no shares sold. Separate from WisdomTree's European XRPW ETP.",
@@ -18098,6 +18126,7 @@
   {
    "id": "occ-ca1359",
    "label": "OCC Conditional Approval #1359 — Ripple National Trust Bank",
+   "short": "OCC bank approval",
    "type": "event",
    "handle": "",
    "summary": "Ripple Labs applied 2025-07-02 (OCC control 2025-Charter-342347 + residency waiver). OCC preliminary conditional approval 2025-12-12 (CA #1359, charter 25364, letter to Brian Spahn). Bank to manage RLUSD reserve for SCTC on a directed basis, act as collateral trustee for RLUSD holders, offer crypto custody; will NOT issue stablecoins. Min tier 1 capital $11.7M; liquid assets ≥ greater of 50% or $5.85M. Approval lapses if capital not raised within 12 months (≈2026-12-12) or bank not opened within 18 months (≈2027-06-12). No final OCC approval found as of 2026-10-19. No OCC application by SCTC found.",
@@ -18574,10 +18603,11 @@
    "label": "SBI Digital Finance",
    "type": "company",
    "handle": "",
-   "summary": "SBI group digital finance unit; Doppler says it runs dedicated institutional vaults for it (Sep 2026).",
+   "summary": "SBI Group's Japanese crypto-asset lending company, operator of the HashHub Lending service. On Jul 13 2026 it announced a strategic partnership with Doppler Finance for institutional XRP finance in Japan, covering infrastructure, XRP/tokenized-asset solutions and tokenization adoption. The release states intent only: no live product or volumes. Doppler later (Sep 2026) claimed it runs dedicated institutional vaults for it.",
    "grade": "B",
    "sources": [
-    "https://blog.doppler.finance/blog/building-the-financial-operating-layer-for-tokenized-assets"
+    "https://blog.doppler.finance/blog/building-the-financial-operating-layer-for-tokenized-assets",
+    "https://blog.doppler.finance/blog/doppler-finance-and-sbi-digital-finance-announce-strategic-partnership-to-expand-institutional-xrp-finance-in-japan"
    ],
    "added": "2026-10-19T23:09:55-04:00"
   },
@@ -20323,6 +20353,7 @@
   {
    "id": "ripple-labs-pac-contribs-fec",
    "label": "Ripple Labs contributions to Fairshake family & pro-Deaton super PACs (FEC Schedule A, deduped)",
+   "short": "Ripple PAC donations",
    "type": "event",
    "handle": "",
    "summary": "CONTRIBUTIONS BY Ripple Labs (not PAC spending). Method: FEC Schedule A, contributor names matching 'Ripple' (RIPPLE LABS INC / Ripple Labs Inc. / Ripple Labs), 2024+2026 cycles; cross-checked against raw .fec filings for every F3X (originals and amendments); latest amendment kept per transaction ID; no memo entries found. Fairshake C00835959: $20,000,000 (2023-12-15), $25,000,000 (2024-05-15), $23,000,000 (2025-01-21), $25,000,000 (2025-08-29; same txn 39E6100E… in original YE-2025 1940775 and amendment 2008746, counted once) = $93,000,000. Protect Progress C00848440: $1,500,000 (2023-12-15) + $250,000 (2025-01-21) = $1,750,000. Defend American Jobs C00836221: $1,500,000 (2023-12-15) + $250,000 (2025-01-21) = $1,750,000. Fairshake family total $96,500,000. Pro-Deaton: Commonwealth Unity Fund C00875856 $1,000,000 (2024-05-15); Commonwealth Prosperity Fund C00924183 $1,000,000 (2025-12-10); total $2,000,000. No Ripple Labs receipts at Deaton campaign committees (C00870337, C00926139). Affiliation: FEC lists Protect Progress as affiliated with Fairshake; DAJ is widely reported as a Fairshake affiliate (FEC field 'NONE'). Lone Star Rising and You Can Push Back are NOT Fairshake affiliates and received nothing from Ripple Labs (funded by Chris Larsen personally, Reid Hoffman and others). Discrepancy: Ripple's 2024-05-29 PR says it gave Fairshake $25M in 2023; FEC shows $20M to Fairshake + $1.5M + $1.5M to affiliates on 2023-12-15 ($23M).",
@@ -21011,6 +21042,7 @@
   {
    "id": "fake-ishares-xrp",
    "label": "Fake 'iShares XRP Trust' Delaware filing (Nov 13, 2023)",
+   "short": "Fake iShares XRP filing",
    "type": "event",
    "handle": "",
    "summary": "Someone registered an 'iShares XRP Trust' with Delaware using BlackRock's address. XRP jumped ~12%, then fell back after BlackRock denied the filing, and Delaware referred it to law enforcement. Separately, BlackRock told The Block (Aug 8, 2025): 'At this time, BlackRock does not have any plans to file an XRP or SOL ETF.' As of Oct 2026 it still has not filed (Motley Fool, Oct 6, 2026).",
@@ -25819,6 +25851,285 @@
    "added": "2026-10-20T01:02:49-04:00",
    "sector": "regulators",
    "tier": 3
+  },
+  {
+   "id": "shift-payments",
+   "label": "Shift Payments",
+   "type": "company",
+   "handle": "",
+   "summary": "Y Combinator-backed US debit-card startup. Ripple promoted its Ripple-powered debit card in 2014. The Ripple post has since been removed from ripple.com (archived copy).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20201112022100/https://ripple.com/insights/a-debit-card-powered-by-ripple/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "crosscoin-ventures",
+   "label": "CrossCoin Ventures",
+   "type": "company",
+   "handle": "",
+   "summary": "Startup accelerator that backed teams building on the Ripple protocol. Ripple profiled it in 2014 (post since removed, archived copy).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190916002909/https://ripple.com/insights/jumpstarting-the-future-crosscoins-cryptocurrency-startup-accelerator/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "ipfa",
+   "label": "International Payments Framework Association (IPFA)",
+   "type": "company",
+   "handle": "",
+   "summary": "Cross-border payments rule-set body whose members include NACHA and SWIFT. Ripple Labs joined on 2015-03-04 (post since removed, archived copy).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20191216081518/https://ripple.com/insights/ripple-labs-joins-international-payments-framework-association/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "cfsi",
+   "label": "Center for Financial Services Innovation (CFSI)",
+   "type": "company",
+   "handle": "",
+   "summary": "US financial-health nonprofit network. Ripple Labs joined on 2015-02-10 (post since removed, archived copy).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20191216092355/https://ripple.com/insights/ripple-labs-joins-the-center-for-financial-services-innovation-network-cfsi-network/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "gates-foundation",
+   "label": "Bill & Melinda Gates Foundation",
+   "type": "company",
+   "handle": "",
+   "summary": "Funded and supported the open-source Mojaloop payments software, which Ripple built with Dwolla, ModusBox, Software Group and Crosslake Technologies (Ripple post 2017-10-16, since removed, archived copy).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "crosslake",
+   "label": "Crosslake Technologies",
+   "type": "company",
+   "handle": "",
+   "summary": "Software engineering firm. Co-developed Mojaloop with Ripple under Gates Foundation funding (2017).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "software-group",
+   "label": "Software Group",
+   "type": "company",
+   "handle": "",
+   "summary": "Banking/payments software firm. Co-developed Mojaloop with Ripple under Gates Foundation funding (2017).",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "dayli-financial",
+   "label": "DAYLI Financial Group (DAYLI Intelligence)",
+   "type": "company",
+   "handle": "",
+   "summary": "South Korean fintech group. Its subsidiary DAYLI Intelligence signed a partnership with SBI Ripple Asia (2017-09-11) to bring Ripple payments to Korea. Ripple post since removed (archived copy). Status unknown.",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190818135123/https://ripple.com/insights/sbi-ripple-asia-partners-dayli-financial-group-bring-ripple-south-korea/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "mitsubishi-corp",
+   "label": "Mitsubishi Corporation",
+   "type": "company",
+   "handle": "",
+   "summary": "Japanese trading conglomerate. Ran a 2018 xCurrent pilot for Singapore→Thailand payments with Standard Chartered and Krungsri (Ripple post 2018-05-14, since removed, archived copy). Outcome unknown.",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190717122824/https://ripple.com/insights/mitsubishi-corporation-standard-chartered-and-krungsri-pilot-payments-from-singapore-to-thailand-on-ripplenet/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "world-community-grid",
+   "label": "World Community Grid (IBM)",
+   "type": "company",
+   "handle": "",
+   "summary": "IBM-founded volunteer computing program. Ripple Labs' 2013 \"Computing for Good\" program rewarded WCG participants with XRP. The archived post itself says the program \"is no longer active\".",
+   "grade": "A",
+   "sources": [
+    "https://web.archive.org/web/20190717121945/https://ripple.com/insights/computing-for-good-ripple-labs-launches-global-xrp-giveaway/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "marine-biologics",
+   "label": "Marine Biologics",
+   "type": "company",
+   "handle": "",
+   "summary": "Seaweed-based biomaterials startup (\"SuperCrude\" fermented seaweed feedstocks for food, cosmetics, bioplastics). CEO Patrick Griffin, described by WIRED as Ripple's first employee, founded it after leaving Ripple.",
+   "grade": "B",
+   "sources": [
+    "https://www.wired.com/story/marine-biologics-seaweed-supercrude/"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "superset",
+   "label": "Superset",
+   "type": "company",
+   "handle": "",
+   "summary": "Stablecoin liquidity startup ('unify global liquidity'). Chairman Charles McManus (ClearBank co-founder, former Group CEO); CEO Neil Staunton built ClearBank's UK bank stablecoin platform; ex-Ripple XRP Markets manager Dinuka Samarasinghe leads liquidity strategy and tokenomics.",
+   "grade": "B",
+   "sources": [
+    "https://www.superset.finance/team"
+   ],
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "id": "invest-tomorrow-pac",
+   "label": "Invest in Tomorrow Coalition PAC",
+   "type": "community",
+   "handle": "",
+   "summary": "VA-registered super PAC, first filed 2026-01-29 (treasurer Brendan Bell). Chris Larsen gave $6.0M (Feb–Jun 2026). Its biggest disbursements went to Tusk Strategies for non-federal TV ads, including ads opposing Chip Roy in the 2026 Texas Attorney General race, plus $550K to Invest in America's Future PAC.",
+   "grade": "A",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00936997/",
+    "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890868271"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 3
+  },
+  {
+   "id": "hmp",
+   "label": "House Majority PAC (HMP)",
+   "type": "community",
+   "handle": "",
+   "summary": "Democratic House super PAC (C00495028). Chris Larsen gave $1.75M to its non-contribution account (Aug–Oct 2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.fec.gov/data/committee/C00495028/",
+    "https://docquery.fec.gov/cgi-bin/fecimg/?202604039856976670"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 3
+  },
+  {
+   "id": "fonda-climate-pac",
+   "label": "Jane Fonda Climate PAC",
+   "type": "community",
+   "handle": "",
+   "summary": "Hybrid PAC (C00806893). Reported a $1,000,000 in-kind receipt of XRP from Chris Larsen into its non-contribution account (2025-11-05).",
+   "grade": "A",
+   "sources": [
+    "https://docquery.fec.gov/cgi-bin/fecimg/?202512179793527027"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 3
+  },
+  {
+   "id": "roll234-exec-money",
+   "label": "Ripple exec donations vs. CLARITY cloture vote (roll 234)",
+   "type": "event",
+   "handle": "",
+   "summary": "Cross-tab of FEC Schedule A gifts (2023–26) from Garlinghouse, Larsen and Alderoty (employer Ripple) to sitting senators, against Senate roll 234 (cloture on the motion to proceed, 2026-09-15, failed 49–50). Recipients voting Yea: Moreno, Lummis, Hagerty, Cotton, Sheehy. Recipients voting Nay: Gillibrand, Alsobrooks, Booker, Hickenlooper, Luján, Ossoff, Rosen, Schiff, Slotkin. Exec money (mostly Larsen's to Democrats) did not predict the vote. Method: one 100-row page per exec per cycle, so totals are floors.",
+   "grade": "B",
+   "sources": [
+    "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.xml",
+    "https://www.fec.gov/data/receipts/individual-contributions/?contributor_employer=ripple&contributor_name=larsen&contributor_name=garlinghouse&contributor_name=alderoty"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 2
+  },
+  {
+   "id": "katie-haun",
+   "label": "Katie Haun",
+   "type": "person",
+   "handle": "@katie_haun",
+   "summary": "Assistant US Attorney, N.D. Cal. She led the DOJ investigation that ended in Ripple's May 2015 BSA settlement (00K FinCEN penalty, 50K forfeiture, no criminal charges) and became DOJ's first Digital Currency Crimes Coordinator in June 2015. Then Coinbase board (May 2017–Jun 2025), a16z general partner co-running its crypto funds (2018–22), and founder of Haun Ventures (Mar 2022, $1.5B raised). This is a prosecutor-to-crypto-VC path. No Ripple role found after DOJ.",
+   "grade": "A",
+   "sources": [
+    "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.830.39.pdf",
+    "https://www.coindesk.com/markets/2015/09/10/digital-currency-crimes-chief-doj-has-no-bitcoin-agenda",
+    "https://www.haun.co/writing/introducing-haun-ventures"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 2
+  },
+  {
+   "id": "jennifer-calvery",
+   "label": "Jennifer Shasky Calvery",
+   "type": "person",
+   "handle": "",
+   "summary": "FinCEN Director (Sep 2012–May 2016). She is quoted in FinCEN's May 5 2015 release fining Ripple Labs and XRP II $700K, its first civil action against a virtual-currency exchanger. She left for HSBC in 2016 and is now Group Head of Financial Crime Risk and Compliance and Wolfsberg Group co-chair (2024). HSBC is the bank where Ripple CLO Alderoty was North America GC, though the dates are not shown to overlap.",
+   "grade": "A",
+   "sources": [
+    "https://www.fincen.gov/news/news-releases/fincen-fines-ripple-labs-inc-first-civil-enforcement-action-against-virtual",
+    "https://www.fincen.gov/news/news-releases/director-jennifer-shasky-calvery-departing-financial-crimes-enforcement-network",
+    "https://wolfsberg-group.org/news/election-of-jennifer-calvery-and-joe-salama-as-co-chairs-of-the-wolfsberg-group"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 3
+  },
+  {
+   "id": "patomak",
+   "label": "Patomak Global Partners",
+   "type": "company",
+   "handle": "",
+   "summary": "Washington regulatory consultancy that Paul Atkins founded and ran as CEO for 16 years before becoming SEC Chair. His stake was valued at $25M or more, and he pledged to divest within 90 days of his 2025-04-09 confirmation (OGE ethics agreement of 2025-03-20). Sen. Warren's 2025-08-05 letter asked who bought it and for how much. Clients included fintechs and derivatives clearing firms. No Ripple client relationship is shown publicly.",
+   "grade": "A",
+   "sources": [
+    "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/84398B6A308FF36C85258C58002C898F/$FILE/Atkins%2C%20Paul%20S.%20%20finalEA.pdf",
+    "https://www.banking.senate.gov/imo/media/doc/Follow%20Up%20Letter%20to%20Atkins%20re%20Divestments.pdf"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 3
+  },
+  {
+   "id": "gurbir-grewal",
+   "label": "Gurbir S. Grewal",
+   "type": "person",
+   "handle": "",
+   "summary": "SEC Director of Enforcement Jul 2021 to Oct 11 2024. That span covered the main phase of SEC v. Ripple: the Hinman-document fights, the Torres 2023 summary-judgment ruling, the dismissal of claims against the executives, and the $125M remedies judgment of Aug 2024. His exit was announced on 2024-10-02, the same day the SEC filed its notice of appeal. He joined Milbank as a partner on 2024-10-15, alongside ex-SEC Chief Litigation Counsel Olivia Choe and ex-CFTC division director Josh Sterling.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/newsroom/press-releases/2024-162",
+    "https://www.milbank.com/en/news/sec-division-of-enforcement-director-gurbir-s-grewal-joins-milbanks-litigation-and-arbitration-group.html"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 2
+  },
+  {
+   "id": "milbank",
+   "label": "Milbank LLP",
+   "type": "company",
+   "handle": "",
+   "summary": "Law firm. Its Litigation & Arbitration group under George Canellos, a former SEC co-director of enforcement, hired SEC Enforcement Director Grewal, SEC Chief Litigation Counsel Choe and CFTC Market Participants director Sterling in 2024. No Ripple engagement has been found.",
+   "grade": "A",
+   "sources": [
+    "https://www.milbank.com/en/news/sec-division-of-enforcement-director-gurbir-s-grewal-joins-milbanks-litigation-and-arbitration-group.html"
+   ],
+   "added": "2026-10-20T01:08:58-04:00",
+   "sector": "regulators",
+   "tier": 3
   }
  ],
  "edges": [
@@ -26025,7 +26336,7 @@
    "from": "schwartz",
    "to": "ripple",
    "label": "CTO Emeritus & board (2026)",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "source": "https://www.coindesk.com/markets/2025/10/01/ripple-cto-david-schwartz-to-step-back-joins-board",
    "added": "2026-10-19T06:36:00-04:00"
@@ -26061,7 +26372,7 @@
    "from": "garlinghouse",
    "to": "northstar",
    "label": "'XRP is the North Star for Ripple' — XRP Community Day 2026-02-11 (transcript); promise pending, leaning miss [was B]",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "source": "https://www.theblock.co/news/business/2026-02-11-xrp-north-star-ripple-garlinghouse-keeps-door-open-more-acquisitions-2026-389467",
    "added": "2026-10-19T21:20:00-04:00"
@@ -26156,7 +26467,7 @@
    "label": "approved (2024-12-10)",
    "grade": "A",
    "strength": 4,
-   "source": "https://www.coindesk.com/markets/2024/12/10/xrp-rallies-10-as-ripples-stablecoin-gets-regulatory-approval-ceo-garlinghouse-says",
+   "source": "https://x.com/bgarlinghouse/status/1866571228464460215",
    "added": "2026-10-19T06:36:00-04:00"
   },
   {
@@ -26301,10 +26612,11 @@
   {
    "from": "dtcc",
    "to": "xrpl",
-   "label": "XRPL NOT named in launch/2027 networks",
+   "label": "XRPL not named in launch/2027 networks",
    "grade": "A",
    "strength": 1,
    "source": "https://communications.dtcc.com/rs/669-QIL-921/images/DTCC%20Tokenization%20Service%20At-a-Glance.pdf",
+   "side": "contradicts",
    "added": "2026-10-19T13:55:00-04:00"
   },
   {
@@ -27092,7 +27404,7 @@
   {
    "from": "moneygram",
    "to": "xrp",
-   "label": "ODL user; paid $61.5M by Ripple",
+   "label": "ODL user; Ripple paid $61.5M in market development fees ($11.3M 2019 + $50.2M 2020)",
    "grade": "A",
    "strength": 3,
    "source": "https://www.sec.gov/Archives/edgar/data/1273931/000127393121000021/mgi-20201231.htm",
@@ -27556,7 +27868,7 @@
    "label": "xrp.org email runs on Ripple's Proofpoint tenant (same MX as ripple.com); DMARC reports go to ripple.com (DNS check, Oct 20, 2026)",
    "grade": "B",
    "strength": 4,
-   "key": true,
+   "key": false,
    "source": "https://x.com/XRP",
    "added": "2026-10-19T21:55:00-04:00"
   },
@@ -28070,11 +28382,11 @@
   {
    "from": "xrph11",
    "to": "xrp",
-   "label": "spot XRP (first ever XRP ETF, 2025-04-25)",
+   "label": "spot XRP: approved by Brazil CVM (Feb 2025), began trading on B3 2025-04-25 as the first spot XRP ETF",
    "grade": "B",
    "strength": 4,
    "key": false,
-   "source": "https://cointelegraph.com/news/brazilian-bank-launching-stablecoin-xrpl-first-spot-xrp-etf-approved",
+   "source": "https://valor.globo.com/financas/criptomoedas/noticia/2025/04/25/b3-comea-nesta-sexta-a-negociar-o-primeiro-etf-da-criptomoeda-xrp-do-mundo.ghtml",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -28241,7 +28553,7 @@
    "from": "larsen",
    "to": "rippleworks",
    "label": "co-founder; board member",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://protos.com/chris-larsen-uses-nonprofit-to-pump-for-profit-xrp-treasury-stock/",
@@ -28260,8 +28572,8 @@
   {
    "from": "ripple",
    "to": "evernorth",
-   "label": "contributed ~126.8M XRP; owns 1.68M Class A",
-   "grade": "A",
+   "label": "contributing 126,791,458 XRP to the treasury company (Larsen is Ripple exec chair; conflict disclosed)",
+   "grade": "B",
    "strength": 5,
    "key": false,
    "source": "https://protos.com/chris-larsen-uses-nonprofit-to-pump-for-profit-xrp-treasury-stock/",
@@ -30409,11 +30721,11 @@
   {
    "from": "larsen-trust",
    "to": "evernorth",
-   "label": "contributes 50M XRP for 1,832,454 shares (S-4)",
-   "grade": "A",
+   "label": "to contribute 50M XRP for 1,832,454 Evernorth shares (S-4 terms reported by Protos; 13G later shows 661,867 Class A)",
+   "grade": "B",
    "strength": 4,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000119312526347519/d944435ds4a.htm",
+   "source": "https://protos.com/chris-larsen-uses-nonprofit-to-pump-for-profit-xrp-treasury-stock/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -35466,7 +35778,7 @@
    "label": "subsidiary",
    "grade": "A",
    "strength": 5,
-   "key": true,
+   "key": false,
    "source": "https://www.pershing.com/",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
@@ -36079,11 +36391,11 @@
   {
    "from": "seriesa2015",
    "to": "ripple",
-   "label": "raised $28M → $32M (2015)",
+   "label": "raised $28M (May 19, 2015); Santander InnoVentures brought the round to $32M (Oct 6, 2015)",
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
+   "source": "https://ripple.com/ripple-press/ripple-adds-santander-innoventures-fund-as-series-a-investor/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -36629,11 +36941,12 @@
   {
    "from": "drex",
    "to": "xrpl",
-   "label": "XRPL NOT chosen; platform = Hyperledger Besu",
+   "label": "XRPL not chosen; platform = Hyperledger Besu",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.bcb.gov.br/content/estabilidadefinanceira/real_digital_docs/piloto/Relatorio_Drex_piloto_fase_1.pdf",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -36709,11 +37022,12 @@
   {
    "from": "swift-ledger",
    "to": "xrpl",
-   "label": "XRPL NOT chosen (Consensys/Linea picked)",
+   "label": "XRPL not chosen (Consensys/Linea picked)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -36789,11 +37103,12 @@
   {
    "from": "agora",
    "to": "xrpl",
-   "label": "XRPL/Ripple NOT used; tech provider Kaleido",
+   "label": "XRPL/Ripple not used; tech provider Kaleido",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/project/agora",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -36849,11 +37164,12 @@
   {
    "from": "mbridge",
    "to": "xrpl",
-   "label": "XRPL NOT used; own EVM-compatible mBridge Ledger",
+   "label": "XRPL not used; own EVM-compatible mBridge Ledger",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/about/bisih/topics/cbdc/mcbdc_bridge.htm",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -36889,31 +37205,34 @@
   {
    "from": "partior",
    "to": "xrpl",
-   "label": "XRPL NOT used; Quorum-based",
+   "label": "XRPL not used; Quorum-based",
    "grade": "A",
    "strength": 3,
    "key": false,
    "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/dunbar/project_dunbar_report_2022.pdf",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "fnality",
    "to": "xrpl",
-   "label": "XRPL NOT used; private Ethereum network",
+   "label": "XRPL not used; private Ethereum network",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://fnality.com/how-it-works",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "cls",
    "to": "xrpl",
-   "label": "XRPL NOT used; CLSNet on Hyperledger Fabric (2018)",
+   "label": "XRPL not used; CLSNet on Hyperledger Fabric (2018)",
    "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.coindesk.com/markets/2018/11/28/goldman-morgan-stanley-go-live-with-cls-ibm-powered-blockchain",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -37092,11 +37411,12 @@
   {
    "from": "santander",
    "to": "ripple",
-   "label": "Series B investor (InnoVentures); One Pay FX on xCurrent, NOT XRP (2018)",
+   "label": "Series B investor (InnoVentures); One Pay FX on xCurrent, not XRP (2018)",
    "grade": "A",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-raises-55-million-series-b-funding/",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -37203,7 +37523,7 @@
    "from": "absa",
    "to": "metaco",
    "label": "built Absa Digital Asset Custody on Ripple Custody (live 2026-09-21)",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://itweb.africa/article/absa-sets-digital-asset-custody-milestone/WnpNgM21yNz7VrGd",
@@ -37412,11 +37732,12 @@
   {
    "from": "sbivc",
    "to": "xrpl",
-   "label": "RLUSD Japan launch did NOT support XRPL chain (Ethereum only)",
+   "label": "RLUSD Japan launch did not support XRPL chain (Ethereum only)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://prtimes.jp/main/html/rd/p/000000210.000059421.html",
+   "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -37483,7 +37804,7 @@
    "from": "hsbc",
    "to": "metaco",
    "label": "tokenised-securities custody on Metaco tech (2023-11-08)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.bankingdive.com/news/hsbc-digital-asset-custody-non-crypto-metaco-ripple-2024-bny-citi-state-street/699191/",
@@ -37893,7 +38214,7 @@
   {
    "from": "currenc",
    "to": "tranglo",
-   "label": "$400M sale of 100,465 Tranglo shares to New Margin (SPA 2026-01-02; auto-terminates if not closed by 2026-09-30). No 6-K reports closing; the 2026-10-07 6-K still describes Seamless as owner of the same shares. Sale likely lapsed but termination was never disclosed.",
+   "label": "$400M sale of the 100,465 Tranglo shares to New Margin (SPA 2026-01-02; lapses if not closed by 2026-09-30) is not reported closed: the Oct 2026 6-K still has Seamless owning them, now under a Ripple Markets APAC charging order. Termination not disclosed.",
    "grade": "B",
    "strength": 3,
    "key": false,
@@ -39396,7 +39717,7 @@
   {
    "from": "ripple",
    "to": "nca",
-   "label": "$50M grant at launch (2025-03-05) [CORRECTED source for earlier macro ripple→nca edge]",
+   "label": "$50M grant to launch the NCA, a 501(c)(4) (2025-03-05)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -40301,7 +40622,7 @@
    "grade": "B",
    "strength": 4,
    "key": false,
-   "source": "https://api.xrpscan.com/api/v1/account/rDfrrrBJZshSQDvfT2kmL9oUBdish52unH",
+   "source": "https://api.xrpscan.com/api/v1/balances",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -40657,11 +40978,11 @@
   {
    "from": "coinbase",
    "to": "w-coinbase",
-   "label": "labeled XRP wallets ~5.8B (Oct 2026)",
-   "grade": "A",
+   "label": "tracked XRP wallets hold ~5.84B XRP (358 wallets, xrp-insights radar, Oct 2026)",
+   "grade": "B",
    "strength": 4,
    "key": false,
-   "source": "https://api.xrpscan.com/api/v1/account/rN4GiawFXbgMNtW12mVH4p7CWQDzXsRB5k",
+   "source": "https://xrp-insights.com/xrp-radar",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -41372,7 +41693,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/12/",
+   "source": "https://ripple.com/ripple-press/ripple-added-to-central-bank-of-irelands-virtual-asset-service-providers-register/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -41392,7 +41713,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/3/",
+   "source": "https://ripple.com/ripple-press/ripple-joins-monetary-authority-of-singapore-s-bloom-initiative-and-partners-with-unloq-to-advance-programmable-settlement-infrastructure-in-trade-finance/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -41900,7 +42221,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/2/",
+   "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -41910,7 +42231,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/10/",
+   "source": "https://ripple.com/ripple-press/archax-provides-access-to-abrdn-money-market-fund-on-the-xrp-ledger-in-collaboration-with-ripple/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -42709,7 +43030,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/19/",
+   "source": "https://ripple.com/ripple-press/bkash-and-mobile-money-connect-through-ripplenet-to-power-wallet-to-wallet-remittances-2/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -42749,7 +43070,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/17/",
+   "source": "https://ripple.com/ripple-press/modulr-and-ripple-announce-strategic-partnership-to-enable-seamless-payments-into-the-uk-and-europe/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -42776,11 +43097,11 @@
   {
    "from": "onafriq",
    "to": "ripple",
-   "label": "partnership (2022–23, Africa)",
+   "label": "Ripple Payments partner for Africa corridors (2023-11-08)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/13/",
+   "source": "https://ripple.com/ripple-press/ripple-partners-with-onafriq-to-power-digital-asset-enabled-cross-border-payments-between-africa-and-the-rest-of-the-world/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -42839,11 +43160,11 @@
   {
    "from": "brooks-entwistle",
    "to": "ripple",
-   "label": "SE Asia lead (2021)",
+   "label": "MD Southeast Asia (2021-03-19)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/19/",
+   "source": "https://ripple.com/ripple-press/ripple-appoints-brooks-entwistle-to-lead-operations-in-fast-growing-southeast-asia-region/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -42853,7 +43174,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/18/",
+   "source": "https://ripple.com/ripple-press/ripple-appoints-sendi-young-as-managing-director-of-europe/",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -42964,7 +43285,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/13/",
+   "source": "https://ripple.com/ripple-press/republic-of-palau-launches-us-dollar-backed-palau-stablecoin-in-the-next-phase-of-collaboration-with-ripple-on-the-xrp-ledger/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43014,7 +43335,7 @@
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/24/",
+   "source": "https://ripple.com/ripple-press/amid-high-growth-ripples-chris-larsen-appoints-brad-garlinghouse-chief-executive-officer/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43024,7 +43345,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/13/",
+   "source": "https://ripple.com/ripple-press/ripple-forges-new-partnership-with-uphold-to-enhance-underlying-crypto-liquidity-infrastructure/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43040,11 +43361,11 @@
   {
    "from": "amina",
    "to": "ripplenet",
-   "label": "first EU bank on Ripple Payments (2025, Switzerland)",
+   "label": "first European bank on Ripple Payments (Dec 2025, Switzerland)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/5/",
+   "source": "https://ripple.com/ripple-press/ripple-payments-sees-first-european-bank-adoption-with-amina-bank/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43127,7 +43448,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/6/",
+   "source": "https://ripple.com/ripple-press/dbs-franklin-templeton-to-launch-trading-and-lending-solutions-tokenised-mmf-ripple-stablecoin-rlusd/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43158,7 +43479,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/6/",
+   "source": "https://ripple.com/ripple-press/ripple-expands-global-custody-footprint-into-africa-with-absa-bank/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -43169,7 +43490,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/7/",
+   "source": "https://ripple.com/ripple-press/ripple-expands-global-custody-footprint-into-middle-east-with-ctrl-alt/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -43180,7 +43501,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/5/",
+   "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43190,7 +43511,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/5/",
+   "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43200,7 +43521,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/5/",
+   "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43210,7 +43531,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/6/",
+   "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43250,7 +43571,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/6/",
+   "source": "https://ripple.com/ripple-press/ripple-expands-into-the-kingdom-of-bahrain-through-strategic-partnership-with-bahrain-fintech-bay/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43281,7 +43602,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/8/",
+   "source": "https://ripple.com/ripple-press/straitsx-launches-xsgd-stablecoin-on-xrp-ledger/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43301,7 +43622,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/9/",
+   "source": "https://ripple.com/ripple-press/braza-group-announces-launch-of-bbrl-stablecoin-on-the-xrp-ledger/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43311,7 +43632,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/7/",
+   "source": "https://ripple.com/ripple-press/mercado-bitcoin-expands-global-access-by-tokenizing-200m-in-regulated-financial-assets-on-the-xrp-ledger/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43321,7 +43642,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/7/",
+   "source": "https://ripple.com/ripple-press/tokenized-private-credit-operations-on-xrpl/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43331,7 +43652,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/8/",
+   "source": "https://ripple.com/ripple-press/guggenheim-uses-zeconomy-to-issue-digital-paper-on-xrp-ledger/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43425,7 +43746,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/3/",
+   "source": "https://ripple.com/ripple-press/ripple-joins-monetary-authority-of-singapore-s-bloom-initiative-and-partners-with-unloq-to-advance-programmable-settlement-infrastructure-in-trade-finance/",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43478,7 +43799,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/press-releases/page/1/",
+   "source": "https://ripple.com/ripple-press/ripple-and-brevan-howard-deepen-relationship/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -43916,7 +44237,7 @@
    "from": "cory-johnson",
    "to": "ripple",
    "label": "Chief Market Strategist (2018–Feb 2019)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.coindesk.com/markets/2019/02/11/cory-johnson-out-as-ripples-chief-market-strategist",
@@ -44017,7 +44338,7 @@
    "from": "coley",
    "to": "ripple",
    "label": "Head of XRP Institutional Liquidity (to 2019)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.coindesk.com/markets/2019/07/02/former-ripple-exec-to-lead-binances-us-expansion-as-new-exchange-ceo",
@@ -44047,7 +44368,7 @@
    "from": "dilip-rao",
    "to": "ripple",
    "label": "Global Head Infrastructure Innovation (2014–2019)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://dailyhodl.com/2020/01/15/high-turnover-hits-crypto-startup-ripple-with-9-executives-departing-in-the-last-12-months/",
@@ -44147,7 +44468,7 @@
    "from": "birla",
    "to": "ripple",
    "label": "SVP Product (2013–2020), GM RippleNet (2020–22), board (Jan 2022–Oct 2025)",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://www.reuters.com/business/ripple-backed-evernorth-set-raise-over-1-billion-us-listing-hoard-xrp-token-2025-10-20/",
@@ -44167,7 +44488,7 @@
    "from": "ethan-beard",
    "to": "ripple",
    "label": "SVP Xpring (2018–Oct 2020), left to start new venture",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://nextmoney.jp/?p=34462",
@@ -44187,7 +44508,7 @@
    "from": "ron-will",
    "to": "ripple",
    "label": "CFO left Feb 2021 for Hinge Health",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ryortho.com/2021/03/ron-will-joins-hinge-health-as-cfo/",
@@ -44197,7 +44518,7 @@
    "from": "k-campbell",
    "to": "ripple",
    "label": "CFO left 2023 for Maven Clinic",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.cfodive.com/news/ripple-cfo-departs-maven-clinic-sec-battle-cryptocurrency/696191/",
@@ -44707,11 +45028,11 @@
   {
    "from": "deaton",
    "to": "secvripple",
-   "label": "amicus counsel for ~75K XRP holders",
+   "label": "amicus counsel: six named XRP holders granted amici status (ECF 372); he cites a putative class of ~75.9K",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://electionstats.state.ma.us/candidates/view/John-Deaton",
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.cand.334410/gov.uscourts.cand.334410.206.0.pdf",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -45138,7 +45459,7 @@
    "from": "mccalebexit",
    "to": "ripple",
    "label": "2014 lock-up deal; 2016 settlement",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://www.coindesk.com/markets/2014/08/14/jed-mccaleb-ripple-labs-strike-deal-to-avoid-9-billion-xrp-sell-off",
@@ -47717,7 +48038,7 @@
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://github.com/JoelKatz",
+   "source": "https://api.github.com/repos/XRPLF/rippled/contributors?per_page=3",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -48876,7 +49197,7 @@
    "from": "tether",
    "to": "rlusd",
    "label": "competitor: USDT (~$189B) and USAT ($0.14B) vs RLUSD (~$1.7B), May 2026",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.coindesk.com/business/2026/05/28/tether-s-u-s-focused-stablecoin-grows-over-500-in-a-month-but-still-lags-main-rivals",
@@ -49376,7 +49697,7 @@
    "from": "japan-bank-consortium",
    "to": "ripplenet",
    "label": "xCurrent pilot Japan↔Korea, Dec 2017",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.finextra.com/newsarticle/31484/japanese-and-korean-banks-to-test-ripplenet-for-cross-border-funds-transfers",
@@ -49396,7 +49717,7 @@
    "from": "woori",
    "to": "ripplenet",
    "label": "xCurrent pilot with Japan Bank Consortium, Dec 2017",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.finextra.com/newsarticle/31484/japanese-and-korean-banks-to-test-ripplenet-for-cross-border-funds-transfers",
@@ -49406,7 +49727,7 @@
    "from": "shinhan",
    "to": "ripplenet",
    "label": "xCurrent pilot with Japan Bank Consortium, Dec 2017",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.finextra.com/newsarticle/31484/japanese-and-korean-banks-to-test-ripplenet-for-cross-border-funds-transfers",
@@ -49495,18 +49816,19 @@
   {
    "from": "western-union",
    "to": "odl",
-   "label": "NEGATIVE: xRapid pilot, 10 payments; CEO said \"still too expensive\" (2018-06-13)",
-   "grade": "A",
+   "label": "xRapid pilot, 10 payments; CEO said \"still too expensive\" (2018-06-13)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://fortune.com/2018/06/13/ripple-xrp-cryptocurrency-western-union/",
+   "side": "contradicts",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
    "from": "mercury-fx",
    "to": "odl",
    "label": "xRapid pilot (reported May 2018)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://fortune.com/2018/06/13/ripple-xrp-cryptocurrency-western-union/",
@@ -50421,7 +50743,7 @@
    "from": "ripple",
    "to": "ripple-acq-census",
    "label": "acquisitions",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://tracxn.com/d/acquisitions/acquisitions-by-ripple/__RI5NqNB2xmmrUkf5iftdStz97omfcqLLEWHh-AydmF8",
@@ -50511,7 +50833,7 @@
    "from": "treccani",
    "to": "metaco",
    "label": "founder & CEO (to Feb 2024)",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://www.reuters.com/technology/ripple-owned-crypto-custody-firm-metacos-ceo-departs-2024-02-12/",
@@ -50561,7 +50883,7 @@
    "from": "susan-friedman",
    "to": "ripple",
    "label": "Head of Policy (2019–Jul 2023), from US Treasury",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.forbes.com/sites/thomassilkjaer/2019/10/22/ripple-expands-into-washington-dc/",
@@ -50581,7 +50903,7 @@
    "from": "yoshikawa",
    "to": "ripple",
    "label": "VP Strategic Initiatives (2016–Nov 2024)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://u.today/top-ripple-executive-steps-down",
@@ -50731,7 +51053,7 @@
    "from": "ripple",
    "to": "ripple-buyback-2022",
    "label": "repurchased Series C at $15B",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://fortune.com/2022/01/26/crypto-company-ripple-labs-buys-back-series-c-investment-tetragon-sec/",
@@ -50761,7 +51083,7 @@
    "from": "sbi",
    "to": "ripple-buyback-2022",
    "label": "Series C holder bought out",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://fortune.com/2022/01/26/crypto-company-ripple-labs-buys-back-series-c-investment-tetragon-sec/",
@@ -50781,7 +51103,7 @@
    "from": "ripple",
    "to": "ripple-buyback-2026",
    "label": "tender offer",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.theblock.co/news/business/2026-03-11-ripple-launches-750-million-share-buyback-at-50-billion-valuation-393299",
@@ -50823,7 +51145,7 @@
    "from": "ripple",
    "to": "ripple-buyback-2022",
    "label": "paid 50% premium; $1B cash, zero debt after",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://fortune.com/2022/01/26/crypto-company-ripple-labs-buys-back-series-c-investment-tetragon-sec/",
@@ -53949,7 +54271,7 @@
    "from": "garlinghouse",
    "to": "hightail",
    "label": "ex-CEO (pre-Ripple)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://techcrunch.com/author/brad-garlinghouse/",
@@ -54401,7 +54723,7 @@
    "label": "Ripple-affiliated entity (notice address 600 Battery St, ripple.com email; 21Shares subscription agreement)",
    "grade": "B",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/2028835/000121390025107665/ea026238401ex10-10_21shares.htm",
    "side": "neutral",
    "added": "2026-10-19T23:09:55-04:00"
@@ -55971,7 +56293,7 @@
    "from": "stanchart",
    "to": "metaco",
    "label": "Metaco investor (Series A 2020), cashed out when Ripple became sole shareholder (2023)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.startupticker.ch/en/news/ripple-acquires-metaco-for-usd-250-million",
@@ -56762,10 +57084,10 @@
    "from": "binance",
    "to": "xrpl",
    "label": "RLUSD listed on Ethereum first (Jan 22 2026); XRPL integration completed and deposits opened Feb 12 2026 (withdrawals tied to liquidity build-up)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
-   "source": "https://www.coindesk.com/markets/2026/01/21/binance-adds-ripple-s-rlusd-stablecoin-with-xrpl-support-coming",
+   "source": "https://cryptobriefing.com/ripple-usd-integration-xrp-network/",
    "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
@@ -56783,7 +57105,7 @@
   {
    "from": "robinhood",
    "to": "rlusd",
-   "label": "RLUSD NOT on Robinhood app supported list (Oct 2026); only via Bitstamp by Robinhood",
+   "label": "RLUSD not on Robinhood app supported list (Oct 2026); only via Bitstamp by Robinhood",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -58803,7 +59125,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://api.xrpscan.com/api/v1/account/rsT3yYMkuicxW1hYsy787mg5XHhkz2uQRk",
+   "source": "https://xrp-insights.com/xrp-radar/evernorth",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -59041,7 +59363,7 @@
    "from": "k-campbell",
    "to": "ripple",
    "label": "Left Ripple CFO post for Maven Clinic CFO (Oct 2023)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.cfodive.com/news/ripple-cfo-departs-maven-clinic-sec-battle-cryptocurrency/696191/",
@@ -59382,7 +59704,7 @@
    "from": "ripple",
    "to": "xrp-college-sports",
    "label": "sponsor",
-   "grade": "A",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://cryptoslate.com/ripples-university-strategy-is-evolving-from-blockchain-labs-to-xrp-logos-in-packed-stadiums/",
@@ -61153,7 +61475,7 @@
    "from": "mizuho",
    "to": "sbi",
    "label": "joint Ripple cross-currency payments trial, R3 as consultant (Jul 2016)",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.coindesk.com/tech/2016/07/20/mizuho-to-conduct-blockchain-payments-trial-with-ripple",
@@ -61471,7 +61793,7 @@
   {
    "from": "ripple",
    "to": "gemini",
-   "label": "Ripple Credit Agreement (Jul 2025): $75M initial commitment, never above $150M; S-1 calls it a 'warehouse facility with Ripple' (~$41.9M incremental borrowings after 2025-06-30)",
+   "label": "Ripple Credit Agreement (Jul 2025): $75M initial commitment, capped at $150M under the original terms (a Dec 26, 2025 amendment later lifted it to $250M until Jul 1, 2026); S-1 calls it a 'warehouse facility with Ripple' (~$41.9M incremental borrowings after 2025-06-30)",
    "grade": "A",
    "strength": 4,
    "key": false,
@@ -63991,7 +64313,7 @@
    "from": "coinbase",
    "to": "trumpinaug",
    "label": "$1M to Trump Vance Inaugural Committee (company-confirmed; Ripple gave $5M in XRP)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.cnn.com/2024/12/26/politics/trump-inauguration-corporate-donors",
@@ -64566,7 +64888,7 @@
    "from": "coinbase",
    "to": "wh-ballroom",
    "label": "listed ballroom donor (White House list, Oct 2025)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.cnn.com/2025/10/23/politics/ballroom-donors-white-house-trump",
@@ -64577,7 +64899,7 @@
    "from": "gemini",
    "to": "wh-ballroom",
    "label": "co-founders Tyler & Cameron Winklevoss listed as ballroom donors (Oct 2025)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.cnn.com/2025/10/23/politics/ballroom-donors-white-house-trump",
@@ -67909,7 +68231,7 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol: NOT enabled on mainnet as of Oct 19 2026; 17 validator yes-votes vs 25 needed (introduced rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol: not enabled on mainnet as of Oct 19 2026; 17 validator yes-votes vs 25 needed (introduced rippled 3.1.0) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -67920,7 +68242,7 @@
   {
    "from": "amd-vault",
    "to": "xrpl",
-   "label": "mainnet status: SingleAssetVault: NOT enabled on mainnet as of Oct 19 2026; 19 yes-votes vs 25 needed (rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: SingleAssetVault: not enabled on mainnet as of Oct 19 2026; 19 yes-votes vs 25 needed (rippled 3.1.0) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -68030,7 +68352,7 @@
   {
    "from": "amd-xchainbridge",
    "to": "xrpl",
-   "label": "mainnet status: XChainBridge NOT enabled (4 yes-votes vs 25 needed, since rippled 2.0.0) (XRPScan amendments API)",
+   "label": "mainnet status: XChainBridge not enabled (4 yes-votes vs 25 needed, since rippled 2.0.0) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -68746,7 +69068,7 @@
    "from": "meritz",
    "to": "ripple",
    "label": "Meritz-side confirmation (Yonhap, Oct 7, 2026): signed Oct 1 to 'review' Ripple Custody + tokenization within current rules; no XRP or XRPL named",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.yna.co.kr/view/AKR20261007106200008",
@@ -70767,7 +71089,7 @@
    "from": "blockpeer",
    "to": "rlusd",
    "label": "RLUSD \"potentially\" the settlement layer for TradeTrust trade docs (plan, not live volume)",
-   "grade": "A",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://www.tradefinanceglobal.com/posts/uae-firm-extends-singapores-tradetrust-framework-to-ripple-usd-stablecoin-settlement/",
@@ -73175,7 +73497,7 @@
   {
    "from": "gemini-credit-2025",
    "to": "rlusd",
-   "label": "Gemini Q2 2026 10-Q: $146.9M outstanding at 7.0% (Jun 30 2026), maturity 2027-11-15; balance under $150M by Jul 2, so the 10% step-up and enhanced RLUSD collateral/activity covenants were NOT triggered; H1 2026 draws $845.0M vs repayments $852.2M",
+   "label": "Gemini Q2 2026 10-Q: $146.9M outstanding at 7.0% (Jun 30 2026), maturity 2027-11-15; balance under $150M by Jul 2, so the 10% step-up and enhanced RLUSD collateral/activity covenants were not triggered; H1 2026 draws $845.0M vs repayments $852.2M",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -74366,7 +74688,7 @@
    "label": "board member 2021–23, then Executive Chair (May 2023): ex-Ripple customer-success SVP chairing a settlement-network rival",
    "grade": "B",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://paymentexpert.com/2023/05/15/jarrad-hubble-rtgs-global-new-ceo/",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
@@ -75375,7 +75697,7 @@
   {
    "from": "adrienne-harris",
    "to": "nydfs",
-   "label": "Superintendent 2021 to Oct 2025, when RLUSD was approved (2024-12-10)",
+   "label": "Superintendent Aug 2021–Oct 2025; in office when NYDFS approved RLUSD (2024-12-10)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -81047,6 +81369,721 @@
    "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202606169870689340",
    "side": "neutral",
    "added": "2026-10-20T01:02:49-04:00"
+  },
+  {
+   "from": "hope-bailie",
+   "to": "w3c",
+   "label": "Ripple Labs' W3C Advisory Committee rep in the Web Payments IG (Apr 2015)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://lists.w3.org/Archives/Public/public-webpayments-ig/2015Apr/0074.html",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "shift-payments",
+   "to": "xrpl",
+   "label": "debit card powered by the Ripple protocol (Ripple post 2014-08-13)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20201112022100/https://ripple.com/insights/a-debit-card-powered-by-ripple/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "crosscoin-ventures",
+   "to": "xrpl",
+   "label": "accelerator for startups building on the Ripple protocol (Ripple post 2014-03-11)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190916002909/https://ripple.com/insights/jumpstarting-the-future-crosscoins-cryptocurrency-startup-accelerator/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ipfa",
+   "label": "joined IPFA (2015-03-04)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20191216081518/https://ripple.com/insights/ripple-labs-joins-international-payments-framework-association/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "cfsi",
+   "label": "joined CFSI Network (2015-02-10)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20191216092355/https://ripple.com/insights/ripple-labs-joins-the-center-for-financial-services-innovation-network-cfsi-network/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "gates-foundation",
+   "to": "mojaloop",
+   "label": "funded and supported Mojaloop development (2017-10-16)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "mojaloop",
+   "label": "co-developed Mojaloop with Gates Foundation funding (2017-10-16)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "crosslake",
+   "to": "mojaloop",
+   "label": "co-developer of Mojaloop with Ripple (2017-10-16)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "software-group",
+   "to": "mojaloop",
+   "label": "co-developer of Mojaloop with Ripple (2017-10-16)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "dwolla",
+   "to": "mojaloop",
+   "label": "co-developer of Mojaloop with Ripple (2017-10-16)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "modusbox",
+   "to": "mojaloop",
+   "label": "co-developer of Mojaloop with Ripple (2017-10-16)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717123701/https://ripple.com/insights/ripple-the-gates-foundation-team-up-to-level-the-economic-playing-field-for-the-poor/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "dayli-financial",
+   "to": "sbi-ripple-asia",
+   "label": "partnership to bring Ripple cross-border payments to South Korea (2017-09-11)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190818135123/https://ripple.com/insights/sbi-ripple-asia-partners-dayli-financial-group-bring-ripple-south-korea/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "rre",
+   "to": "seriesa2015",
+   "label": "investor (2015 Series A)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20191216103733/https://ripple.com/insights/ripple-labs-raises-28-million-from-idg-capital-partners-cme-group-seagate-and-others/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "venture51",
+   "to": "seriesa2015",
+   "label": "investor (2015 Series A)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20191216103733/https://ripple.com/insights/ripple-labs-raises-28-million-from-idg-capital-partners-cme-group-seagate-and-others/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "mitsubishi-corp",
+   "to": "ripplenet",
+   "label": "xCurrent pilot SG→TH with Standard Chartered & Krungsri (2018-05-14)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717122824/https://ripple.com/insights/mitsubishi-corporation-standard-chartered-and-krungsri-pilot-payments-from-singapore-to-thailand-on-ripplenet/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "mitsubishi-corp",
+   "to": "stanchart",
+   "label": "co-pilot partner, SG→TH xCurrent pilot (2018)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717122824/https://ripple.com/insights/mitsubishi-corporation-standard-chartered-and-krungsri-pilot-payments-from-singapore-to-thailand-on-ripplenet/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "mitsubishi-corp",
+   "to": "krungsri",
+   "label": "co-pilot partner, SG→TH xCurrent pilot (2018)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717122824/https://ripple.com/insights/mitsubishi-corporation-standard-chartered-and-krungsri-pilot-payments-from-singapore-to-thailand-on-ripplenet/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "world-community-grid",
+   "label": "Computing for Good: XRP rewards for WCG volunteers (2013-11-27)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717121945/https://ripple.com/insights/computing-for-good-ripple-labs-launches-global-xrp-giveaway/",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "world-community-grid",
+   "to": "ripple",
+   "label": "ENDED: Computing for Good program \"no longer active\" (note on archived Ripple post)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://web.archive.org/web/20190717121945/https://ripple.com/insights/computing-for-good-ripple-labs-launches-global-xrp-giveaway/",
+   "side": "contradicts",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "doppler",
+   "to": "sbi-digital-finance",
+   "label": "strategic partnership for institutional XRP finance in Japan (Jul 13 2026): intent-level initiatives only, with no product, volume or launch date named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://blog.doppler.finance/blog/doppler-finance-and-sbi-digital-finance-announce-strategic-partnership-to-expand-institutional-xrp-finance-in-japan",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "sbi-digital-finance",
+   "label": "SBI Group unit: Japan crypto-asset lender running HashHub Lending (Doppler release boilerplate)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://blog.doppler.finance/blog/doppler-finance-and-sbi-digital-finance-announce-strategic-partnership-to-expand-institutional-xrp-finance-in-japan",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "xrpl",
+   "label": "live Oct 20 2026: issuer rMxCKb… gateway_balances obligations are 953.25M RLUSD (ledger 107,776,975), about 40% of the ~$2.40B total. That is down ~$97M from the ~$1.05B XRPL figure on Sep 14 2026, while Ethereum grew.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrplcluster.com",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "ethereum",
+   "label": "DefiLlama Oct 20 2026: $1.461B of the $2.403B RLUSD supply is on Ethereum (61%); Morpho pools alone hold ~$723M, roughly half of it",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://stablecoins.llama.fi/stablecoins?includePrices=false",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "rlusd-dip-2026",
+   "to": "ethereum",
+   "label": "the Jun 2 to Jul 1 2026 contraction was on Ethereum only ($1.085B to $0.734B); XRPL RLUSD rose ($613M to $677M) in the same window (DefiLlama per-chain series)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://stablecoins.llama.fi/stablecoin/250",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "dfsa",
+   "to": "mamo",
+   "label": "Ripple names Mamo as one of its first UAE Ripple Payments clients, which it attributes to its Mar 2025 DFSA licence",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/zand-bank-and-mamo-newest-ripple-payments-customers-in-uae/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "reece-merrick",
+   "to": "mamo",
+   "label": "announced Mamo + Zand as first UAE Ripple Payments clients (MD Middle East & Africa, May 19 2025)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/zand-bank-and-mamo-newest-ripple-payments-customers-in-uae/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "heirloom",
+   "to": "xrpl",
+   "label": "stack built on the XRPL: no-code NFT and verifiable-credential tooling for enterprises; 12 staff at its Aug 2022 raise (The Block, CEO Nick Dazé)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.theblock.co/post/161780/heirloom-raises-8-million-from-ripple-and-forte-to-onboard-enterprises-into-web3",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "patrick-griffin",
+   "to": "marine-biologics",
+   "label": "CEO of Marine Biologics; WIRED (Mar 2025) calls him Ripple's first employee, who left crypto to start the company",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.wired.com/story/marine-biologics-seaweed-supercrude/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "dinuka-samarasinghe",
+   "to": "superset",
+   "label": "Liquidity Strategy & Tokenomics Lead at Superset (team page cites Ripple, GSR, Forte background)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.superset.finance/team",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "dinuka-samarasinghe",
+   "to": "forte",
+   "label": "Superset team page lists Forte among his past employers (after Ripple and GSR)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.superset.finance/team",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "superset",
+   "to": "clearbank",
+   "label": "Chairman Charles McManus co-founded ClearBank and was its Group CEO; CEO Neil Staunton built ClearBank's UK bank stablecoin platform",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.superset.finance/team",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "gt-thompson",
+   "label": "$6,600 to Friends of Glenn Thompson via WinRed (2025-06-30), the House Ag chair co-leading CLARITY",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763128425",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "angie-craig",
+   "label": "$6,600 to Angie Craig for Minnesota (Senate, 2025-06-30) + $3,300 to her House campaign (2024-08-26)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202507159763523294",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "don-davis",
+   "label": "$3,300 to Don Davis for NC (earmarked, 2025-06-30)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791450546",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "bill-huizenga",
+   "label": "$1,500 to Huizenga for Congress (2025-06-30)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202507249764217665",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "zach-nunn",
+   "label": "$1,500 to Team Nunn JFC + ~$314 JFC allocations to Iowans for Zach Nunn (2025-06-30)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202507319779653648",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "nick-begich",
+   "label": "$300 JFC allocation to Alaskans for Nick Begich (2025-06-30)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791488042",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "mike-lawler",
+   "label": "$300 allocation from Emmer Majority Builders JFC to Lawler for Congress (2025-06-30)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202510099790737869",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "rob-bresnahan",
+   "label": "$300 to Rob for PA (H4PA08124), 2025-06-30",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202510159791190073",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "gillibrand",
+   "label": "$11,800 gross to Gillibrand for Senate (2024-09-03 to 2026-03-11; a $1,500 refund noted later). She voted Nay on CLARITY cloture (roll 234)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202604159857673885",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "moreno",
+   "label": "$25,000 to Team Moreno JFC via WinRed (2025-10-24); $13,200 transferred to Bernie Moreno for Senate",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202604149857185059",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "lummis",
+   "label": "$1,000 via Lummis Victory Committee (2025-08-20)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202601319795366826",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "trump",
+   "label": "$300,000 to Trump 47 Committee JFC on 2024-06-11 ($250K + $50K; FEC lists the rows twice across original and amended reports). Allocated to the RNC ($165.2K), state GOP parties ($10K each), Save America ($5K) and Never Surrender ($3.3K). Employer: Ripple. This came while SEC v. Ripple remedies were pending",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202505129760934349",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "invest-tomorrow-pac",
+   "label": "$6,000,000 in 2026 ($250K 02-12, $250K 03-30, $500K 05-13, $5M 06-30; FEC Schedule A, employer Ripple)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202607179890868271",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "hmp",
+   "label": "$1.75M to non-contribution account: $250K 2025-08-25, $500K 09-10, $1M 10-15",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202604039856976670",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "fonda-climate-pac",
+   "label": "$1,000,000 in-kind contribution paid in XRP (memo: 'XRP cryptocurrency receipt'), 2025-11-05",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202512179793527027",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "fonda-climate-pac",
+   "to": "xrp",
+   "label": "received $1M of XRP in kind from Larsen (2025-11-05), XRP used as political-money rail",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202512179793527027",
+   "side": "supports",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "roll234-exec-money",
+   "to": "senate-vote-234",
+   "label": "9 of 14 senators who got Ripple-exec money voted Nay on cloture; 5 voted Yea",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.senate.gov/legislative/LIS/roll_call_votes/vote1192/vote_119_2_00234.xml",
+   "side": "contradicts",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "roll234-exec-money",
+   "label": "gave to Alsobrooks, Hickenlooper, Luján, Ossoff, Rosen, Schiff, Slotkin (all Nay)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=larsen%2C+chris&contributor_employer=ripple",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "roll234-exec-money",
+   "label": "gave to Moreno, Lummis, Hagerty, Cotton, Sheehy (Yea) and Gillibrand, Booker, Hickenlooper (Nay)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=garlinghouse&contributor_employer=ripple",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "roll234-exec-money",
+   "label": "gave to Moreno, Lummis (Yea) and Gillibrand (Nay)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fec.gov/data/receipts/individual-contributions/?contributor_name=alderoty&contributor_employer=ripple",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "katie-haun",
+   "to": "ripple",
+   "label": "AUSA who led 2015 BSA investigation; chose settlement over criminal charges (Sep 2015 remarks)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.coindesk.com/markets/2015/09/10/digital-currency-crimes-chief-doj-has-no-bitcoin-agenda",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "katie-haun",
+   "to": "fincen",
+   "label": "DOJ side of joint DOJ/FinCEN Ripple action (May 5 2015)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.830.39.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "katie-haun",
+   "to": "coinbase",
+   "label": "board director May 2017–Jun 2025 (recruited by Armstrong after leaving DOJ)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.haun.co/writing/introducing-haun-ventures",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "katie-haun",
+   "to": "a16z",
+   "label": "general partner, co-ran first three crypto funds (2018–2022)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.haun.co/writing/introducing-haun-ventures",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "jennifer-calvery",
+   "to": "fincen",
+   "label": "Director Sep 2012–May 27 2016",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fincen.gov/news/news-releases/director-jennifer-shasky-calvery-departing-financial-crimes-enforcement-network",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "jennifer-calvery",
+   "to": "ripple",
+   "label": "FinCEN director quoted on $700K Ripple/XRP II penalty (2015-05-05)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fincen.gov/news/news-releases/fincen-fines-ripple-labs-inc-first-civil-enforcement-action-against-virtual",
+   "side": "contradicts",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "jennifer-calvery",
+   "to": "hsbc",
+   "label": "joined 2016 after FinCEN; Group Head of Financial Crime Risk & Compliance",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://wolfsberg-group.org/news/election-of-jennifer-calvery-and-joe-salama-as-co-chairs-of-the-wolfsberg-group",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "a16z",
+   "to": "fairshake",
+   "label": "$90.8M via AH Capital Management, 5 receipts 2023-10-23 to 2025-12-10, attributed half each to Andreessen and Horowitz (FEC; Ripple Labs gave $93.0M)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.fec.gov/data/receipts/?committee_id=C00835959&contributor_name=AH+Capital+Management",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "atkins",
+   "to": "securitize",
+   "label": "Securitize board seat until Feb 2025 plus $250K–500K call options, disclosed before he became SEC chair; ethics pledge to divest (Securitize is in Ripple's portfolio)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://fortune.com/crypto/2025/03/25/paul-atkins-sec-nominee-securitize-anchorage-off-the-chain-capital-6-million-ethics-disclosure/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "atkins",
+   "to": "anchorage",
+   "label": "$250K–500K equity in Anchorage Digital disclosed as SEC nominee (Mar 2025); divestment pledged",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://fortune.com/crypto/2025/03/25/paul-atkins-sec-nominee-securitize-anchorage-off-the-chain-capital-6-million-ethics-disclosure/",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "atkins",
+   "to": "patomak",
+   "label": "founder/CEO ~2009–2025; ≥$25M stake to be divested within 90 days of confirmation",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://extapps2.oge.gov/201/Presiden.nsf/PAS+Index/84398B6A308FF36C85258C58002C898F/$FILE/Atkins%2C%20Paul%20S.%20%20finalEA.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "gurbir-grewal",
+   "to": "sec",
+   "label": "Director of Enforcement Jul 2021–2024-10-11",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/newsroom/press-releases/2024-162",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "gurbir-grewal",
+   "to": "secvripple",
+   "label": "enforcement director through the 2023 ruling and $125M judgment; exit announced the day SEC noticed its appeal (2024-10-02)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/newsroom/press-releases/2024-162",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
+  },
+  {
+   "from": "gurbir-grewal",
+   "to": "milbank",
+   "label": "joined as partner 2024-10-15, four days after leaving the SEC",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.milbank.com/en/news/sec-division-of-enforcement-director-gurbir-s-grewal-joins-milbanks-litigation-and-arbitration-group.html",
+   "side": "neutral",
+   "added": "2026-10-20T01:08:58-04:00"
   }
  ]
 }
