@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T08:33:22-04:00",
+  "updated": "2026-10-20T10:37:47-04:00",
   "version": 3
  },
  "nodes": [
@@ -28097,6 +28097,171 @@
     "https://www.coindesk.com/tech/2026/10/12/why-a-bug-that-could-have-threatened-xrp-s-100-billion-supply-cap-stayed-hidden-for-years"
    ],
    "added": "2026-10-20T08:26:00-04:00"
+  },
+  {
+   "id": "bafin",
+   "label": "BaFin (Bundesanstalt für Finanzdienstleistungsaufsicht)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "German financial supervisor. InstInfo (checked 2026-10-20): DekaBank (BaFin-ID 10100426) — KWG crypto custody 2024-12-16→12-29, qualified crypto custody from 2024-12-30, crypto securities registrar from 2024-06-27, MiCA Art. 59(1b)/60 notification for custody & administration, execution and transfer from 2025-12-01 and exchange crypto↔funds from 2026-05-25. DZ BANK (101261): MiCA execution from 2025-12-23, custody & transfer from 2026-03-02. Boerse Stuttgart Digital Custody GmbH (157207): KWG crypto custody from 2023-03-27, qualified custody from 2024-12-30; MiCA Art. 63 CASP authorisation 2025-01-17 (custody & transfer).",
+   "grade": "A",
+   "sources": [
+    "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=100426",
+    "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=101261",
+    "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=157207"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "esma",
+   "label": "ESMA (European Securities and Markets Authority)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "EU securities authority; publishes the interim MiCA CASP register (CASPS.csv). As of 2026-10-20 it lists DekaBank (LEI 0W2PZJM8XOY22M4GG883) and DZ BANK under 'Article 60 - Notification' (credit institutions), Boerse Stuttgart Digital Custody GmbH (LEI 529900RC04FR9EHUT228) under Art. 63 authorisation (2025-01-17), and Ripple Payments Europe S.A. as a CSSF CASP with date 2026-06-29 (last update 2026-07-07). Date discrepancy: ESMA gives DekaBank's exchange-for-funds service as 2026-06-25 whereas BaFin InstInfo says 2026-05-25.",
+   "grade": "A",
+   "sources": [
+    "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "hl-policy-center",
+   "label": "Hyperliquid Policy Center",
+   "type": "community",
+   "handle": "",
+   "summary": "Comment letter on SEC Regulation Crypto Assets (S7-2026-27), 2026-10-19, signed Bourque and Chervinsky: 'generally support… urge prompt adoption'; five asks (airdrops, secondary markets, safe harbor, token buybacks, durable preemption). Cites SEC v. Ripple, 682 F. Supp. 3d at 330, on airdrops and employee distributions.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1098379-3868467.pdf"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "aima",
+   "label": "Alternative Investment Management Association (AIMA)",
+   "type": "community",
+   "handle": "",
+   "summary": "Hedge-fund industry body. S7-2026-27 letter (signed Jiří Król; dated 2026-10-20, listed 2026-10-19): supports a 'proportionate framework'; asks for Form TR mapping of commitments, time-stamped status records, and an express reliance framework for good-faith investors relying on issuer disclosures. No mention of XRP or Ripple.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1098539-3868966.pdf"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "stark-reiners",
+   "label": "John Reed Stark & Lee Reiners (Duke Financial Economics Center)",
+   "type": "person",
+   "handle": "",
+   "summary": "Ex-SEC enforcement official (Stark) and Duke lecturer (Reiners). S7-2026-27 letter 2026-10-16 OPPOSES the proposal and urges withdrawal, predicting court vacatur; mentions XRP 10 times and Ripple 39 times, arguing XRP institutional sales were securities transactions; cites the 2026-09-15 Senate cloture failure on CLARITY (H.R. 3633), 49-50.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1096499-3852606.pdf"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "s72627-docket-2026-10-20",
+   "label": "S7-2026-27 comment file snapshot (2026-10-20 08:55 ET)",
+   "type": "event",
+   "handle": "",
+   "summary": "155 entries scraped from the SEC comment listing (148 public comments, 6 meeting memoranda, 1 staff study). Meeting memos: Digital Chamber (Aug 19, Sep 23), Digital Asset Inc. (Aug 26), Coinbase (Sep 2), Principal Traders Group (Sep 15), Auditchain (Oct 14). NO letter or meeting memo from Ripple at capture time (comment period closes 2026-10-20, so a late filing is still possible). Notable letters: Bitwise (supportive), Hyperliquid Policy Center (supportive), AIMA (supportive), Chainalysis (supportive), Davis Polk (supportive), Jossey PLLC (supportive), Stark & Reiners (opposed).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "nexus-ngp",
+   "label": "Nexus Global Payments (Project Nexus)",
+   "type": "company",
+   "handle": "",
+   "summary": "Not-for-profit company limited by guarantee in Singapore, incorporated (announced 2025-04-03; docs say established 2025-03-26) by the 'first mover' central banks RBI, BNM, BSP, MAS and BOT, with their IPS operators, to run the Nexus scheme linking domestic instant-payment systems. Uses ISO 20022 messages and APIs, with third-party FX Providers; no blockchain or digital asset appears in the design docs. ECB and Bank Indonesia are special observers. The BIS page lists Indonesia among the incorporators, but the NGP/BOT release says five banks plus observers. Technical operator: PayNet–NETS JV (2026-02-09), with AWS and Endava building it; go-live targeted for 2027. CEO Andrew McCormack; Benjamin Lee (seconded from MAS) was interim director.",
+   "grade": "A",
+   "sources": [
+    "https://www.bot.or.th/en/news-and-media/news/news-20250403.html",
+    "https://www.bis.org/project/nexus",
+    "https://docs.nexusglobalpayments.org/",
+    "https://www.nets.com.sg/newsroom/nexus-global-payments-appoints-technical-operator"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "rbi",
+   "label": "Reserve Bank of India (RBI)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "Indian central bank. Joined Project Nexus by signing in Basel on 2024-06-30 alongside BNM, BOT, BSP and MAS, to link UPI multilaterally; co-founder of Nexus Global Payments (2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197",
+    "https://www.bot.or.th/en/news-and-media/news/news-20250403.html"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "bnm",
+   "label": "Bank Negara Malaysia (BNM)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "Malaysian central bank; Nexus founding partner (2024-06-30 agreement) and NGP co-founder (2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197",
+    "https://www.bot.or.th/en/news-and-media/news/news-20250403.html"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "bsp",
+   "label": "Bangko Sentral ng Pilipinas (BSP)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "Philippine central bank; Nexus founding partner (2024-06-30 agreement) and NGP co-founder (2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197",
+    "https://www.bot.or.th/en/news-and-media/news/news-20250403.html"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "paynet",
+   "label": "Payments Network Malaysia (PayNet)",
+   "type": "company",
+   "handle": "",
+   "summary": "Malaysia's national payments network (DuitNow). Its JV with NETS was appointed Nexus Technical Operator on 2026-02-09.",
+   "grade": "A",
+   "sources": [
+    "https://www.nets.com.sg/newsroom/nexus-global-payments-appoints-technical-operator"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "nets-sg",
+   "label": "NETS (Network for Electronic Transfers Singapore)",
+   "type": "company",
+   "handle": "",
+   "summary": "Singapore payments network. Its JV with PayNet was appointed Nexus Technical Operator on 2026-02-09; it built the 2021 Singapore–Thailand PayNow–PromptPay link.",
+   "grade": "A",
+   "sources": [
+    "https://www.nets.com.sg/newsroom/nexus-global-payments-appoints-technical-operator"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "id": "npci-intl",
+   "label": "NPCI International Payments Ltd (NIPL)",
+   "type": "company",
+   "handle": "",
+   "summary": "International arm of India's NPCI, which operates UPI. NIPL's own LinkedIn post (about 2026-04-20) says the 'UPI–NEXUS Industry Workshop on 15th & 16th April brought together NPCI International, Nexus Global Payments, and UPI ecosystem participants'. Banks tagged include Axis, Kotak, IndusInd, SBI, HDFC, ICICI, DBS and Standard Chartered.",
+   "grade": "A",
+   "sources": [
+    "https://www.linkedin.com/posts/npci-international_npciinternational-npci-upi-activity-7452212157892521984-uXqp",
+    "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197"
+   ],
+   "added": "2026-10-20T10:29:10-04:00"
   }
  ],
  "edges": [
@@ -42807,11 +42972,11 @@
   {
    "from": "cssf",
    "to": "ripple",
-   "label": "MiCA CASP authorisation (announced 2026-07-06)",
+   "label": "MiCA CASP authorisation 2026-06-29 (ESMA interim MiCA register; Ripple press release 2026-07-06)",
    "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://ripple.com/ripple-press/ripple-receives-full-eu-mica-casp-license/",
+   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -44985,11 +45150,11 @@
   {
    "from": "cssf",
    "to": "ripple-payments-europe",
-   "label": "EMI (Feb 2026) + MiCA CASP (Jul 2026)",
+   "label": "EMI (Feb 2026) + MiCA CASP (2026-06-29)",
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/legal/compliance/",
+   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -91159,6 +91324,314 @@
    "source": "https://www.prnewswire.com/news-releases/kraken-and-moneygram-partner-to-turn-crypto-into-cash-at-global-scale-302762600.html",
    "side": "neutral",
    "added": "2026-10-20T08:26:09-04:00"
+  },
+  {
+   "from": "bafin",
+   "to": "dekabank",
+   "label": "MiCA Art. 60 notification (custody, execution, transfer from 2025-12-01; exchange for funds: BaFin 2026-05-25 vs ESMA 2026-06-25, unresolved) + qualified crypto custody (2024-12-30)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=100426",
+   "side": "supports",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "esma",
+   "to": "dekabank",
+   "label": "interim MiCA register: Art. 60 notification (custody/execution/transfer 2025-12-01; exchange for funds: ESMA 2026-06-25 vs BaFin 2026-05-25, unresolved)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bafin",
+   "to": "dz-bank",
+   "label": "MiCA Art. 60: execution from 2025-12-23; custody & transfer from 2026-03-02",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=101261",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bafin",
+   "to": "bsdigital",
+   "label": "Boerse Stuttgart Digital Custody GmbH: MiCA Art. 63 CASP authorisation 2025-01-17 (custody & transfer); KWG crypto custody since 2023-03-27",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=157207",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "esma",
+   "to": "ripple-payments-europe",
+   "label": "interim MiCA register: CSSF-authorised CASP, date 2026-06-29 (last update 2026-07-07)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv",
+   "side": "supports",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "dekabank",
+   "to": "ripple-custody",
+   "label": "institutional crypto trading & custody built on Ripple Custody (Ripple, 2025-02-24); whether the Sparkassen retail offer runs on it is unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/Ripple/status/1894086890220839000",
+   "side": "supports",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-20",
+   "to": "reg-crypto-assets",
+   "label": "comment file snapshot",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "reg-crypto-assets",
+   "label": "no comment letter or meeting memo on file as of 2026-10-20 08:55 ET (155 entries checked)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bitwise-am",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-19: supportive; asks for an observable 'separation' standard and Form TR reliance rules for non-issuers such as ETP sponsors (footnote lists Bitwise XRP ETF)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1099339-3870848.pdf",
+   "side": "supports",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "hl-policy-center",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-19: supports prompt adoption; cites SEC v. Ripple on airdrops",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1098379-3868467.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "aima",
+   "to": "reg-crypto-assets",
+   "label": "comment (dated 2026-10-20): supports a proportionate framework; no XRP mention",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1098539-3868966.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "chainalysis",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-16: supportive; asks for on-chain verification of Rule 103 disclosures and objective safe-harbor metrics; no XRP mention",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1096279-3852187.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "davis-polk",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-15: 'enthusiastically support'; wants an objective test instead of Howey; cites SEC v. Ripple programmatic-sales holding vs Terraform",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1094859-3845526.pdf",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "stark-reiners",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-16: OPPOSED, urges withdrawal; argues XRP institutional sales were securities",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1096499-3852606.pdf",
+   "side": "contradicts",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "korea-fsc",
+   "to": "bdacs",
+   "label": "FIU-reported VASP (BDACS; one of 28 listed in the FSC notice of 2026-06-24)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsc.go.kr/po010101/87177",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "korea-fsc",
+   "to": "upbit",
+   "label": "FIU-reported VASP (Dunamu / Upbit; one of 28 listed 2026-06-24)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsc.go.kr/po010101/87177",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "rbi",
+   "to": "nexus-ngp",
+   "label": "co-founder / first-mover owner (incorporated 2025; BOT release lists 5 founders + Bank Indonesia/ECB as observers, while BIS lists Indonesia as a 6th founder, unresolved)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bot.or.th/en/news-and-media/news/news-20250403.html",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bnm",
+   "to": "nexus-ngp",
+   "label": "co-founder / first-mover owner (incorporated 2025; BOT release lists 5 founders + Bank Indonesia/ECB as observers, while BIS lists Indonesia as a 6th founder, unresolved)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bot.or.th/en/news-and-media/news/news-20250403.html",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bsp",
+   "to": "nexus-ngp",
+   "label": "co-founder / first-mover owner (incorporated 2025; BOT release lists 5 founders + Bank Indonesia/ECB as observers, while BIS lists Indonesia as a 6th founder, unresolved)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bot.or.th/en/news-and-media/news/news-20250403.html",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "mas",
+   "to": "nexus-ngp",
+   "label": "co-founder / first-mover owner (incorporated 2025; BOT release lists 5 founders + Bank Indonesia/ECB as observers, while BIS lists Indonesia as a 6th founder, unresolved)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bot.or.th/en/news-and-media/news/news-20250403.html",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bot-thailand",
+   "to": "nexus-ngp",
+   "label": "co-founder / first-mover owner (incorporated 2025; BOT release lists 5 founders + Bank Indonesia/ECB as observers, while BIS lists Indonesia as a 6th founder, unresolved)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bot.or.th/en/news-and-media/news/news-20250403.html",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bis",
+   "to": "nexus-ngp",
+   "label": "BIS Innovation Hub conceived Nexus; handed over to NGP (2025); BIS not an owner. Founder list unresolved: BIS page names Indonesia among the six incorporating central banks, but the BOT/NGP release (2025-04-03) names five founders (RBI, BNM, BSP, MAS, BOT) with Bank Indonesia and the ECB as special observers",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bis.org/project/nexus",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "bis-ih-projects",
+   "to": "nexus-ngp",
+   "label": "Nexus graduated from BIS IH to NGP",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.bis.org/project/nexus",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "paynet",
+   "to": "nexus-ngp",
+   "label": "Nexus Technical Operator JV with NETS (2026-02-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.nets.com.sg/newsroom/nexus-global-payments-appoints-technical-operator",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "nets-sg",
+   "to": "nexus-ngp",
+   "label": "Nexus Technical Operator JV with PayNet (2026-02-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.nets.com.sg/newsroom/nexus-global-payments-appoints-technical-operator",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "npci-intl",
+   "to": "nexus-ngp",
+   "label": "UPI–Nexus industry workshop (Apr 15–16, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.linkedin.com/posts/npci-international_npciinternational-npci-upi-activity-7452212157892521984-uXqp",
+   "side": "neutral",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "nexus-ngp",
+   "to": "odl",
+   "label": "multilateral instant-payment link (IN/MY/PH/SG/TH) with no XRP or blockchain; overlaps Asian ODL/RippleNet corridors (PH via Coins.ph/SBI Remit, MY/SG via Tranglo, which exited ODL 2025-11-10; TH via SCB; IN via Axis) — overlap is analysis",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://docs.nexusglobalpayments.org/",
+   "side": "contradicts",
+   "added": "2026-10-20T10:29:10-04:00"
+  },
+  {
+   "from": "nexus-ngp",
+   "to": "xrp",
+   "label": "design uses ISO 20022 IPS-to-IPS links plus FX Providers; no bridge asset",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docs.nexusglobalpayments.org/",
+   "side": "contradicts",
+   "added": "2026-10-20T10:29:10-04:00"
   }
  ]
 }
