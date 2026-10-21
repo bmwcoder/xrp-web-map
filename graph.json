@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T10:31:06-04:00",
+  "updated": "2026-10-21T12:37:58-04:00",
   "version": 3
  },
  "nodes": [
@@ -29059,6 +29059,31 @@
     "https://xrpscan.com/account/rsG4ixhfa4VDGusiajqy8aaGjxZp7EGB8s"
    ],
    "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "rippled-3-5-0-rc1",
+   "label": "rippled 3.5.0-rc1 (release-candidate tag, Oct 20, 2026)",
+   "type": "company",
+   "handle": "",
+   "summary": "Signed tag 'Version 3.5.0-rc1 release' pushed to XRPLF/rippled on 2026-10-20 08:49 ET. No GitHub release yet (latest release 3.4.1, Oct 10). Not confirmed by maintainers as the fix for the Oct 20-21 slow ledger closings.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/XRPLF/rippled/releases/tag/3.5.0-rc1",
+    "https://api.github.com/repos/XRPLF/rippled/git/refs/tags/3.5.0-rc1"
+   ],
+   "added": "2026-10-21T12:31:57-04:00"
+  },
+  {
+   "id": "occ-genius-final-rule-2026-10-21",
+   "label": "OCC final rule implementing the GENIUS Act (NR 2026-92, Oct 21, 2026)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "OCC News Release 2026-92 (Oct 21, 2026) announces a final rule to implement the GENIUS Act's federal framework for payment stablecoins. The release does not name Ripple or RLUSD; Ripple National Trust Bank's charter approval is still conditional.",
+   "grade": "A",
+   "sources": [
+    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+   ],
+   "added": "2026-10-21T12:31:57-04:00"
   }
  ],
  "edges": [
@@ -92158,7 +92183,7 @@
   {
    "from": "ripple",
    "to": "reg-crypto-assets",
-   "label": "no comment letter or meeting memo on file as of 2026-10-20 08:55 ET (155 entries checked)",
+   "label": "no comment letter or meeting memo on file as of 2026-10-20 08:55 ET (155 entries checked); superseded: Ripple's Oct 20 letter is now posted on the docket (sec.gov PDF)",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -95322,6 +95347,50 @@
    "source": "https://xrpscan.com/tx/2EF0B51E20EA18882DBC5427976F1FA747FFACF42A6A71B6A0149D2713B17EBC",
    "side": "neutral",
    "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "ripple-reg-crypto-letter-2026-10-20",
+   "label": "letter on file (sec.gov copy, dated Oct 20, 2026; signed by Ripple's Deputy General Counsel)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T12:31:57-04:00"
+  },
+  {
+   "from": "rippled-3-5-0-rc1",
+   "to": "rippled",
+   "label": "release-candidate tag 3.5.0-rc1 (2026-10-20 08:49 ET); no release published yet",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/XRPLF/rippled/releases/tag/3.5.0-rc1",
+   "side": "neutral",
+   "added": "2026-10-21T12:31:57-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "occ-genius-final-rule-2026-10-21",
+   "label": "announced final rule implementing the GENIUS Act (Oct 21, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+   "side": "neutral",
+   "added": "2026-10-21T12:31:57-04:00"
+  },
+  {
+   "from": "occ-genius-final-rule-2026-10-21",
+   "to": "genius",
+   "label": "implements the GENIUS Act for OCC-supervised payment stablecoin issuers (final rule, Oct 21, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+   "side": "neutral",
+   "added": "2026-10-21T12:31:57-04:00"
   }
  ]
 }
