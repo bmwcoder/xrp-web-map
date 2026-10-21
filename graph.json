@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T08:28:09-04:00",
+  "updated": "2026-10-21T10:31:06-04:00",
   "version": 3
  },
  "nodes": [
@@ -28791,12 +28791,274 @@
    "label": "XRPL slow ledger closings (Oct 20, 2026)",
    "type": "event",
    "handle": "",
-   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. No resolution or root-cause post from @XRPLOperations as of 2026-10-21 06:27 ET.",
+   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). No root-cause post as of 2026-10-21 10:10 ET.",
    "grade": "A",
    "sources": [
-    "https://x.com/XRPLOperations/status/2112733899558371703"
+    "https://x.com/XRPLOperations/status/2112733899558371703",
+    "https://x.com/XRPLOperations/status/2112909423110922597"
    ],
    "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "id": "s72627-docket-2026-10-21",
+   "label": "S7-2026-27 comment file after close (2026-10-21 09:20 ET)",
+   "type": "event",
+   "handle": "",
+   "summary": "178 entries on the SEC comment listing after the Oct 20 close (171 public comments, 6 meeting memoranda, 1 staff study), up from 155 on Oct 20 08:55 ET: 14 new letters dated Oct 20, 7 more dated Oct 19, and 2 back-dated (Oct 14, Oct 1). None of the 23 new letters mentions XRP; two cite SEC v. Ripple. Ripple's Oct 20 letter (published on ripple.com) and the Blockchain Association and SIFMA letters reported by The Block were NOT yet on the sec.gov list at capture; the SEC said it will keep accepting late comments.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "icba",
+   "label": "Independent Community Bankers of America (ICBA)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Community-bank trade group. S7-2026-27 letter 2026-10-20 (signed Brian Laverdure) is skeptical: asks the SEC to justify each crypto-specific exemption by real differences in function or risk, and warns the agenda may support crypto payment systems that compete with bank deposits. No XRP or Ripple mention.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1100619-3879786.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "public-citizen",
+   "label": "Public Citizen",
+   "type": "community",
+   "handle": "",
+   "summary": "Consumer-advocacy group. S7-2026-27 letter 2026-10-20 OPPOSES the proposal: calls crypto \"inherently a Ponzi scheme,\" urges the SEC to resume enforcement actions and withdraw the proposal, citing the failed Senate cloture vote on CLARITY. No XRP or Ripple mention.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1101319-3880788.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "cahill-gordon",
+   "label": "Cahill Gordon & Reindel LLP",
+   "type": "company",
+   "handle": "",
+   "summary": "Law firm. S7-2026-27 letter 2026-10-20 (partners Sarah W. Chen and Lewis Rinaudo Cohen) commends the proposal and asks for an added safe harbor for independent market participants and fuller secondary-market coverage; a footnote cites SEC v. Ripple (programmatic sales did not satisfy Howey; secondary resales left undecided).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102100-3881728.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "global-digital-finance",
+   "label": "Global Digital Finance (GDF)",
+   "type": "community",
+   "handle": "",
+   "summary": "Digital-asset industry body. S7-2026-27 letter 2026-10-20 supports principles-based disclosure and proportionate compliance, asks that the regime work across a project's lifecycle, and supports separating the asset from the investment contract. No XRP or Ripple mention.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1101599-3881226.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "center-for-audit-quality",
+   "label": "Center for Audit Quality (CAQ)",
+   "type": "community",
+   "handle": "",
+   "summary": "Audit-profession policy group. S7-2026-27 letter 2026-10-20 supports the goal of regulatory clarity and the audit flexibility for small issuers, while recommending uniform assurance for Tier 1 filers and clearer interim-statement disclosure.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1100579-3879386.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "wall-street-blockchain-alliance",
+   "label": "Wall Street Blockchain Alliance (WSBA)",
+   "type": "community",
+   "handle": "",
+   "summary": "Industry trade group. S7-2026-27 letter (listed 2026-10-19, signed by Ron Quaranta and working-group chairs) generally supports the \"covered investment contract\" and \"crypto asset\" definitions and urges continuity with Howey.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1099979-3872846.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "nova-labs",
+   "label": "Nova Labs, Inc. (Helium)",
+   "type": "company",
+   "handle": "",
+   "summary": "Developer of the Helium Network and a former SEC defendant (SEC v. Nova Labs). S7-2026-27 letter (listed 2026-10-19, signed CLO Sarah E. Aberg) supports a tailored framework and welcomes the statement that a functional network's token derives value from programmatic operation.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1099659-3871567.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "coinlist",
+   "label": "CoinList (Amalgamated Token Services, Inc.)",
+   "type": "company",
+   "handle": "",
+   "summary": "Token-sale platform. S7-2026-27 letter 2026-10-20 (filed by Amalgamated Token Services GC Felicity A. Lewis) \"strongly supports\" the tailored offering regime and the Tier 1 financial-statement treatment.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102279-3881928.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "vault12",
+   "label": "Vault12, Inc.",
+   "type": "company",
+   "handle": "",
+   "summary": "Crypto custody/inheritance startup. S7-2026-27 letter 2026-10-20 supports the proposal's split between a crypto asset and its investment contract and summarizes arguments that the reasoning in Ripple and Binance supports a transaction-specific analysis.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1100479-3879107.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "dti-foundation",
+   "label": "Digital Token Identifier Foundation (DTIF)",
+   "type": "community",
+   "handle": "",
+   "summary": "ISO 24165 token-identifier registry. S7-2026-27 letter (listed 2026-10-19) supports Form TR and asks that it identify assets by a standardized identifier, noting 89 tokens using the ticker USDC across 77 ledgers.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1100299-3878246.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "cornell-securities-law-clinic",
+   "label": "Cornell Securities Law Clinic",
+   "type": "community",
+   "handle": "",
+   "summary": "Cornell Law School clinic (director William A. Jacobson). S7-2026-27 letter dated 2026-10-14 (posted after the Oct 20 snapshot) generally supports the proposal as beneficial to retail investors, including the $5M / four-year startup exemption.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1093119-3839427.pdf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rpnbj3lf",
+   "label": "rPnbJ3LF… top pre-delivery funder of rUWUJ2F3 (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rPnbJ3LFU9stjtUCs7yweMKmhHULT4fUE8. Created 2023-07-19 by XRPScan 'Binance 9' (a withdrawal-funded creation; the parent is not the owner). It sent 20,955,039 XRP to rUWUJ2F3 in 7 payments (DT 107) between Oct 24 and Oct 31, 2025, which is 23.9% of the 87.54M that came in before the Oct 31 Evernorth delivery. Its inflows for Oct 17–31, 2025 (48.4M) came from Coinbase 7/6/10 (12.4M), Bybit 4 (6.5M), Robinhood 6 (4.8M) and its own child rEQjQm… (13.6M, mostly Binance-fed). From Sep 2 to Nov 10, 2025 it deposited 90.42M to Robinhood 6 using DT 529809109. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rPnbJ3LFU9stjtUCs7yweMKmhHULT4fUE8",
+    "https://xrpscan.com/account/rPnbJ3LFU9stjtUCs7yweMKmhHULT4fUE8"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rhyc2qxa",
+   "label": "rhyc2Qxa… sole feeder of rw1xqK3T (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rhyc2QxaHV5pVEtMSPNr27or475C2bQQNd. Created 2021-11-18 by unlabeled rHN3dmzx…, which also created rw1xqK3T… a day earlier. From Oct 17 to Oct 31, 2025 it sent all 21.64M of its XRP outflow to rw1xqK3T in 105 payments. Inflows over the same period came from rQDQgwpX… (6.39M), rPnbJ3LF… (6.06M), Binance 18/6/14 (3.65M) and smaller unlabeled senders. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rhyc2QxaHV5pVEtMSPNr27or475C2bQQNd",
+    "https://xrpscan.com/account/rhyc2QxaHV5pVEtMSPNr27or475C2bQQNd"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rw1xqk3t",
+   "label": "rw1xqK3T… rUWUJ2F3 funder (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rw1xqK3TvKCZcdTcHGp6b2Q8dELnCCGFvT. Created 2021-11-17 by unlabeled rHN3dmzx…. It sent 14,421,340 XRP to rUWUJ2F3 in 7 payments (DT 736) between Oct 24 and Oct 31, 2025, 16.5% of the pre-delivery inflow (15.01M from Oct 1 to Nov 12). Between Oct 17 and Oct 31, 2025 its only inflow source was sibling rhyc2Qxa… (21.64M). It later paid rL1quAgi 4.9M (Jun 25, 2026) with DT 1634879248, which is rL1quAgi's own deposit tag, not a hub fingerprint. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rw1xqK3TvKCZcdTcHGp6b2Q8dELnCCGFvT",
+    "https://xrpscan.com/account/rw1xqK3TvKCZcdTcHGp6b2Q8dELnCCGFvT"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rqdqgwpx",
+   "label": "rQDQgwpX… Binance-fed rUWUJ2F3 funder (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rQDQgwpXdpQdVoaCXQHSYcWkHhgKspnzXn. Created 2025-04-17 by unlabeled rfQNcBfs…, itself created by 'Binance 2'. It sent 13,460,675 XRP to rUWUJ2F3 in 10 payments (DT 100/164) between Oct 24 and Oct 31, 2025, 15.4% of the pre-delivery inflow. Between Oct 17 and Oct 31, 2025 it received 109.5M, 79.1M of it from Binance hot wallets 14/6/15/10/9/18 (all to DT 980834983) and 13.06M via rnPtKk… (fed only by Robinhood 6), and it sent 64.2M to Binance 11. It trades both ways with the rBNCyNEw desk (2.12M in, 1.33M out, Sep–Nov 2025). Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rQDQgwpXdpQdVoaCXQHSYcWkHhgKspnzXn",
+    "https://xrpscan.com/account/rQDQgwpXdpQdVoaCXQHSYcWkHhgKspnzXn"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rlod9u2g",
+   "label": "rLoD9U2g… pooled feeder of three rUWUJ2F3 funders (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc. Created 2019-10-04 by unlabeled rUQngTeb…, itself created by 'Bitstamp 1' in 2017. Between Oct 17 and Oct 31, 2025 it took in 102.4M XRP: 23.42M from the rBNCyNEw desk, 20.60M from Crypto.com 1, 13.27M from Bitstamp 1, 9.07M from Coinbase 6/4/7/10, 7.47M from rBuZfn… and 20.5M from two of its own child accounts on Oct 31. It created and funded rUSYaUPU… (13.81M) and rHDjPEK5… (11.85M, which went on to rLXUCgmb…), and it sent rsM7KAW1… 3.49M. It is also a large RLUSD counterparty of rBNCyNEw. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc",
+    "https://xrpscan.com/account/rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rlxucgmb",
+   "label": "rLXUCgmb… rUWUJ2F3 funder (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rLXUCgmbukkQvFSpftKDTd5Ep6Zr8mG6qt. Created 2025-07-30 by unlabeled r3qnbXdQ…. It sent 13,164,341 XRP to rUWUJ2F3 in 6 payments (DT 812) between Oct 24 and Oct 31, 2025, 15.0% of the pre-delivery inflow. Between Oct 17 and Oct 31, 2025 its inflow (17.95M) came mainly from two single-purpose relays: rHDjPEK5… (11.85M, created and funded only by rLoD9U2g…) and rHm6ivKz… (4.89M, created by Robinhood 3 and funded only by Robinhood 6). It deposited 5.56M to Robinhood 6 with DT 529809109 (Sep 2–Nov 5, 2025). Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rLXUCgmbukkQvFSpftKDTd5Ep6Zr8mG6qt",
+    "https://xrpscan.com/account/rLXUCgmbukkQvFSpftKDTd5Ep6Zr8mG6qt"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rusyaupu",
+   "label": "rUSYaUPU… rUWUJ2F3 funder (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rUSYaUPUyXhEebdrQHXScFsKyUAjgPNbKf. Created 2019-12-17 by rLoD9U2g…. It sent 10,278,498 XRP to rUWUJ2F3 in 10 payments (DT 1670) between Oct 24 and Oct 31, 2025, 11.7% of the pre-delivery inflow. Between Oct 17 and Oct 31, 2025 it took in 21.96M: 13.81M from rLoD9U2g…, 2.81M via rND7mGeb… (created and ~95% funded by Uphold 12), 2.73M from Robinhood 6, and 1.93M from rPnbJ3LF's child rGbfMxWn…. From Sep 2 to Nov 12, 2025 it deposited 70.53M to Robinhood 6 with DT 529809109. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rUSYaUPUyXhEebdrQHXScFsKyUAjgPNbKf",
+    "https://xrpscan.com/account/rUSYaUPUyXhEebdrQHXScFsKyUAjgPNbKf"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rsm7kaw1",
+   "label": "rsM7KAW1… rUWUJ2F3 funder (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rsM7KAW1wutm2qxeF2FUWb9yRmSPjjS2Ex. Created 2019-12-09 by unlabeled r3vGVrkf…. It sent 7,064,873 XRP to rUWUJ2F3 in 4 payments (DT 1356) between Oct 24 and Oct 31, 2025, 8.1% of the pre-delivery inflow (7.44M from Oct 1 to Nov 12). Between Oct 17 and Oct 31, 2025 it took in 16.27M from 49 senders, the largest being rLoD9U2g… (3.49M), rND7mGeb… (2.67M, Uphold-12-fed), rJ1v4yzo… (2.5M), rMVuea9t… (2.05M, fed by Binance-9-created r4eHH59b…) and Binance-2-created rHfwtjak… (1.41M). It got 0.33M from the rBNCyNEw desk (Sep–Nov 2025). Live balance ~1.16 XRP. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rsM7KAW1wutm2qxeF2FUWb9yRmSPjjS2Ex",
+    "https://xrpscan.com/account/rsM7KAW1wutm2qxeF2FUWb9yRmSPjjS2Ex"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "id": "w-rsg4ixhf",
+   "label": "rsG4ixhf… BitGo-created rUWUJ2F3 funder (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rsG4ixhfa4VDGusiajqy8aaGjxZp7EGB8s. Created 2023-08-08 by XRPScan's 'BitGo Initialization Wallet'. It sent 3,336,738 XRP to rUWUJ2F3 in 2 payments (DT 1018) on Oct 24 and Oct 30, 2025, 3.8% of the pre-delivery inflow (8.86M from Oct 1 to Nov 12). Between Oct 17 and Oct 31, 2025, rUWUJ2F3 was its only outflow destination. Its inflows were many small payments using rising per-sender destination tags (1497–1555), a hosted-deposit pattern; the senders are mostly unlabeled. Owner unconfirmed: no XRPScan label, and the ledger shows no named entity behind it.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rsG4ixhfa4VDGusiajqy8aaGjxZp7EGB8s",
+    "https://xrpscan.com/account/rsG4ixhfa4VDGusiajqy8aaGjxZp7EGB8s"
+   ],
+   "added": "2026-10-21T10:26:11-04:00"
   }
  ],
  "edges": [
@@ -94338,13 +94600,728 @@
   {
    "from": "xrpl",
    "to": "xrpl-slow-ledger-closings-2026-10-20",
-   "label": "some ledger closings slower than usual; fix in progress per @XRPLOperations (2026-10-20; unresolved as of 2026-10-21 06:27 ET)",
+   "label": "some ledger closings slower than usual per @XRPLOperations (2026-10-20); still occurring with a fix release being finalized as of 2026-10-21 10:10 ET",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://x.com/XRPLOperations/status/2112733899558371703",
+   "source": "https://x.com/XRPLOperations/status/2112909423110922597",
    "side": "neutral",
    "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "reg-crypto-assets",
+   "label": "comment file snapshot after close",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "s72627-docket-2026-10-20",
+   "label": "follows earlier snapshot (155 entries)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "nasdaq",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: supports a tailored, disclosure-based framework via formal notice-and-comment rulemaking",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1100499-3879167.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "nasdaq",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "icba",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: skeptical; asks each crypto exemption be justified, warns of deposit competition",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1100619-3879786.pdf",
+   "side": "contradicts",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "icba",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "public-citizen",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: OPPOSED, urges withdrawal and resumed crypto enforcement",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1101319-3880788.pdf",
+   "side": "contradicts",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "public-citizen",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "cahill-gordon",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: supportive; seeks independent-participant safe harbor; cites SEC v. Ripple",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102100-3881728.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "cahill-gordon",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "global-digital-finance",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: supports principles-based, lifecycle-usable regime",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1101599-3881226.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "global-digital-finance",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "center-for-audit-quality",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: supports clarity goal; recommends uniform Tier 1 assurance",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1100579-3879386.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "center-for-audit-quality",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "wall-street-blockchain-alliance",
+   "to": "reg-crypto-assets",
+   "label": "comment listed 2026-10-19: generally supports core definitions",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1099979-3872846.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "wall-street-blockchain-alliance",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "nova-labs",
+   "to": "reg-crypto-assets",
+   "label": "comment listed 2026-10-19: supports tailored framework",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1099659-3871567.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "nova-labs",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "coinlist",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: strongly supports tailored offering regime",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102279-3881928.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "coinlist",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "vault12",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-20: supportive; cites Ripple reasoning on transaction-specific analysis",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1100479-3879107.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "vault12",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "dti-foundation",
+   "to": "reg-crypto-assets",
+   "label": "comment listed 2026-10-19: supports Form TR, asks for standard token identifiers",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1100299-3878246.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "dti-foundation",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "cornell-securities-law-clinic",
+   "to": "reg-crypto-assets",
+   "label": "comment 2026-10-14: generally supports; backs $5M / 4-year startup exemption",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1093119-3839427.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "s72627-docket-2026-10-21",
+   "to": "cornell-securities-law-clinic",
+   "label": "letter on file",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "cornell-securities-law-clinic",
+   "to": "cornell",
+   "label": "clinic at Cornell Law School",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1093119-3839427.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rpnbj3lf",
+   "to": "w-ruwuj-lp",
+   "label": "sent 20,955,039 XRP in 7 payments (DT 107), Oct 24–31, 2025: 23.9% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/1576FC28D30A9EE665F5522A719F31A5A5F448903F42CA4F3DFCADA33424B2A6",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rw1xqk3t",
+   "to": "w-ruwuj-lp",
+   "label": "sent 14,421,340 XRP in 7 payments (DT 736), Oct 24–31, 2025: 16.5% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/4FD6A5869D466469502A99C5929D4C907E1A1C4D760618B4DBFC35BAA0DEC070",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rqdqgwpx",
+   "to": "w-ruwuj-lp",
+   "label": "sent 13,460,675 XRP in 10 payments (DT 100/164), Oct 24–31, 2025: 15.4% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/860E2AE855CB2B2C1C17DB2249FF658BC6FC65496153DD646272915E3DDBF679",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rlxucgmb",
+   "to": "w-ruwuj-lp",
+   "label": "sent 13,164,341 XRP in 6 payments (DT 812), Oct 24–31, 2025: 15.0% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/FBDAA166ECE76FD59B12401D9F639E2720BD6B62D8A12D60DB9148AD6FAE72DA",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rusyaupu",
+   "to": "w-ruwuj-lp",
+   "label": "sent 10,278,498 XRP in 10 payments (DT 1670), Oct 24–31, 2025: 11.7% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/2E49B50DA872D5369567FC527BC0B6C6B23949C4E24607C686295DAC66A776C0",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rsm7kaw1",
+   "to": "w-ruwuj-lp",
+   "label": "sent 7,064,873 XRP in 4 payments (DT 1356), Oct 24–31, 2025: 8.1% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/07AD34DAC6FD567946532653A3D87EF228B6A938DA0DE47406E97AFA460A2433",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rsg4ixhf",
+   "to": "w-ruwuj-lp",
+   "label": "sent 3,336,738 XRP in 2 payments (DT 1018), Oct 24–31, 2025: 3.8% of the 87.54M that came in before the Oct 31 Evernorth delivery",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/2CC12852EB7BFFC2DEF92D921CAFDB7BCE6CD392110BABC87DF3ABC56C737295",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "binance",
+   "to": "w-rqdqgwpx",
+   "label": "Binance 14/6/15/10/9/18 sent 79.1M XRP (DT 980834983), Oct 17–31, 2025; it sent 64.2M back to Binance 11",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/FBC240EAE694D64BBD74B967B6D52A150DF04629C4547FC1D6702E5F03F0F6A0",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "w-rqdqgwpx",
+   "label": "Robinhood 6 sent 13.06M XRP via single-purpose relay rnPtKk… (created by a Robinhood-4-created account), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/D3200344F4369698CA10527503758BDCBFD2B108C35DA69DC26A188F42046AE6",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "w-rpnbj3lf",
+   "label": "Coinbase 7/6/10 sent 12.35M XRP (DT 3530168541), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/8CF99213AFF514439DB7A8CFC903FC3D238C521EB0640D89178BE32145093309",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "bybit",
+   "to": "w-rpnbj3lf",
+   "label": "Bybit 4 sent 6.51M XRP (DT 3530168541), Oct 17–30, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/1D0539798CDCD54A013C20F302F3321DE097636A5CC23D7A7F97B96FE11FFB8A",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "w-rpnbj3lf",
+   "label": "Robinhood 6 sent 4.76M XRP (DT 3303337878), Oct 23–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/5213EA845F45D741BAE3E8A6681955D28BA144DFD990FE1C3660D7E747FE9FB8",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "binance",
+   "to": "w-rpnbj3lf",
+   "label": "Binance 6/18/10 sent 12.9M XRP to its child rEQjQm…, which passed 13.6M to it, Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/BE6B205C9E92E2BA30E694FDC2DD38AA0DED6777A0CD5BFE34757A9CD4E74CED",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rhyc2qxa",
+   "to": "w-rw1xqk3t",
+   "label": "sole inflow source: 21.64M XRP in 105 payments (DT 1490057718), Oct 17–31, 2025; same creator rHN3dmzx…",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/A3E0326BD877B94B39B8051B6635CB59E94D88A1A88D9B269E177C2946FF20B5",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rqdqgwpx",
+   "to": "w-rhyc2qxa",
+   "label": "6.39M XRP in 12 payments, Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/F71BFA010EC4B6BB753EBE614A688DBF17448779F4DBF6C544DFF11471D7EDDA",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rpnbj3lf",
+   "to": "w-rhyc2qxa",
+   "label": "6.06M XRP in 10 payments, Oct 21–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/164B449D4FEFED8462EF17E69A958BE73421CF121E35B8971B9648D72FA6F45E",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "binance",
+   "to": "w-rhyc2qxa",
+   "label": "Binance 18/6/14 sent 3.65M XRP (DT 3606147887), Oct 24–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/12C20936D3AAAF6F1B8AC14D442608367DD4A95A627448B229061C772FE5BDE1",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "w-rlxucgmb",
+   "label": "Robinhood 6 sent 4.89M XRP via relay rHm6ivKz… (created by Robinhood 3, funded only by Robinhood 6), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/A3659F8F4A457B5960C3C4409F213A9578D60E46FE5D82FE0928EC16404FFEBA",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rlod9u2g",
+   "to": "w-rlxucgmb",
+   "label": "11.85M XRP via relay rHDjPEK5… (created and funded only by rLoD9U2g…), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/644E2C12490BD19FE022DCBCC5715779D2A7FCB5879BDCC4051643251B2DAEA9",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rlod9u2g",
+   "to": "w-rusyaupu",
+   "label": "creator (2019) and main feeder: 13.81M XRP in 4 payments, Oct 24–31, 2025",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/6CFF9D85DC734C99DF465BC0C1925835AA73646A387475A32307C47E6DC9519B",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rlod9u2g",
+   "to": "w-rsm7kaw1",
+   "label": "3.49M XRP in 6 payments, Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/BAC501AB0779C3735ACDFB09C3B97545D5BC8568A525C8B46E284FB6365541EB",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rbnc-desk",
+   "to": "w-rlod9u2g",
+   "label": "23.42M XRP in 82 payments, Oct 17–31, 2025 (2.81M went back to the desk)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/4FBE26690DBCC3839286A7C83A7BA234B3E5960BE4E86E5F314B5FDD2689C7D4",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "cryptocom",
+   "to": "w-rlod9u2g",
+   "label": "Crypto.com 1 sent 20.60M XRP (DT 4107436671), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/BCF8FC742C039912368A2D4D7E6C57E473262C216DB9C78BC2F734C8217C365D",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "bitstamp",
+   "to": "w-rlod9u2g",
+   "label": "Bitstamp 1 sent 13.27M XRP (DT 3287392735), Oct 17–31, 2025; its creator rUQngTeb… was created by Bitstamp 1 in 2017",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/A3319D51EBCAF1680E4296BBBADBAE64B3B20381D46A363D3801477781D66854",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "w-rlod9u2g",
+   "label": "Coinbase 6/4/7/10 sent 9.07M XRP (DT 2136956198), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/F9CBB087CDA36BDBB3A3610B85A0C8000291F4A2776D4B461DA75D008D6E83A0",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "w-rusyaupu",
+   "label": "Robinhood 6 sent 2.73M XRP (DT 1121957021), Oct 17–30, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/623D830EE14209935A3C63DFAFEAC7E453C60B2B5845726D99D7B4B72981B9C7",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "uphold",
+   "to": "w-rusyaupu",
+   "label": "2.81M XRP via rND7mGeb… (created by Uphold 12, which sent it 12.56M of its 13.16M inflow), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/28A0021C0D87BFED2882DD8C587228340620E083F0343177C1FDE02B29CACFA3",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "uphold",
+   "to": "w-rsm7kaw1",
+   "label": "2.67M XRP via rND7mGeb… (created and ~95% funded by Uphold 12), Oct 17–31, 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/361298D60F7BEC538C85322678C7B873BDA7B7FDBFD00F780AA8081332ABC6EE",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rsg4ixhf",
+   "to": "bitgo",
+   "label": "created 2023-08-08 by BitGo Initialization Wallet (BitGo-hosted; ownership not shown)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rsG4ixhfa4VDGusiajqy8aaGjxZp7EGB8s",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rpnbj3lf",
+   "to": "robinhood",
+   "label": "deposited 90.42M XRP to Robinhood 6 with DT 529809109 (38 payments, Sep 2–Nov 10, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/2D65ECD3A25C00ABEB6792179FC4466C463DB8A06A61ED4E8141769E24F983F1",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rusyaupu",
+   "to": "robinhood",
+   "label": "deposited 70.53M XRP to Robinhood 6 with DT 529809109 (38 payments, Sep 2–Nov 12, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/40081C36FA03154146AC1436F8ACA691D4645226B8C21F4ED29879891E7B4A2B",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rqdqgwpx",
+   "to": "robinhood",
+   "label": "deposited 12.81M XRP to Robinhood 6 with DT 529809109 (7 payments, Sep 15–Nov 3, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/95BF110659EFD467A1366BACDD0B6DA9908E7B4334DF1A42C38CF9857F7570E4",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rlxucgmb",
+   "to": "robinhood",
+   "label": "deposited 5.56M XRP to Robinhood 6 with DT 529809109 (13 payments, Sep 2–Nov 5, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/2EF0B51E20EA18882DBC5427976F1FA747FFACF42A6A71B6A0149D2713B17EBC",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-ripple-50",
+   "to": "w-ripple-binance-chain",
+   "label": "Oct 10–31, 2025: Ripple 50 sent 120M XRP to raRVLN1i… in 3 payments (DT 4156796778), months before the Mar–Oct 2026 run",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/B68F1C68D55AA20021197579E9A359CC8CCB70E3EB5A70317EFBF9470FC342FD",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-ripple-binance-chain",
+   "to": "w-rbnc-desk",
+   "label": "Oct 10–31, 2025: raRVLN1i… forwarded 116.9M XRP to rBNCyNEw in 60 payments (DT 2695199675)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/6A166833345064597D786F7EA4F51939D0063BD13CAE0A8FB14C16F313930885",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rpnbj3lf",
+   "to": "w-rusyaupu",
+   "label": "inference: both deposit to Robinhood 6 under the same DT 529809109 (this wallet 70.53M, Sep–Nov 2025), which points to one Robinhood account holder; the ledger does not show who",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/40081C36FA03154146AC1436F8ACA691D4645226B8C21F4ED29879891E7B4A2B",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rpnbj3lf",
+   "to": "w-rqdqgwpx",
+   "label": "inference: both deposit to Robinhood 6 under the same DT 529809109 (this wallet 12.81M, Sep–Nov 2025), which points to one Robinhood account holder; the ledger does not show who",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/95BF110659EFD467A1366BACDD0B6DA9908E7B4334DF1A42C38CF9857F7570E4",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
+  },
+  {
+   "from": "w-rpnbj3lf",
+   "to": "w-rlxucgmb",
+   "label": "inference: both deposit to Robinhood 6 under the same DT 529809109 (this wallet 5.56M, Sep–Nov 2025), which points to one Robinhood account holder; the ledger does not show who",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/2EF0B51E20EA18882DBC5427976F1FA747FFACF42A6A71B6A0149D2713B17EBC",
+   "side": "neutral",
+   "added": "2026-10-21T10:26:11-04:00"
   }
  ]
 }
