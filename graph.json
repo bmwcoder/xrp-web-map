@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T14:29:21-04:00",
+  "updated": "2026-10-21T18:28:47-04:00",
   "version": 3
  },
  "nodes": [
@@ -28746,9 +28746,10 @@
    "label": "Ripple comment letter on SEC Regulation Crypto Assets (2026-10-20)",
    "type": "event",
    "handle": "",
-   "summary": "20-page letter dated Oct 20, 2026 to SEC Secretary Countryman on File S7-2026-27. Ripple 'fully supports' the proposal and urges a final rule; argues the investment contract, not the token, is the security, and rejects decentralization as a legal test. XRP appears only in the SEC v. Ripple history it cites. Not yet on the sec.gov comment list as of 07:50 ET Oct 21.",
+   "summary": "20-page letter dated Oct 20, 2026 to SEC Secretary Countryman on File S7-2026-27. Ripple 'fully supports' the proposal and urges a final rule; argues the investment contract, not the token, is the security, and rejects decentralization as a legal test. XRP appears only in the SEC v. Ripple history it cites. Posted on the sec.gov docket on Oct 21 (s7202627-1102200-3881828.pdf, identical to the ripple.com copy). Signed by Stuart Alderoty (CLO), Sameer Dhond (GC) and Deborah McCrimmon (Deputy GC). Specific asks are mapped as rc-ask-* nodes.",
    "grade": "A",
    "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
     "https://ripple.com/reports/ripple-comment-letter-on-sec-reg-proposed-crypto-rule.pdf",
     "https://x.com/s_alderoty/status/2112673463416795466"
    ],
@@ -29085,12 +29086,337 @@
    "label": "OCC final rule implementing the GENIUS Act (NR 2026-92, Oct 21, 2026)",
    "type": "regulator",
    "handle": "",
-   "summary": "OCC News Release 2026-92 (Oct 21, 2026) announces a final rule to implement the GENIUS Act's federal framework for payment stablecoins. The release does not name Ripple or RLUSD; Ripple National Trust Bank's charter approval is still conditional.",
+   "summary": "OCC News Release 2026-92 (Oct 21, 2026) announces a final rule to implement the GENIUS Act's federal framework for payment stablecoins. The release does not name Ripple or RLUSD; Ripple National Trust Bank's charter approval is still conditional (OCC CAS, Oct 21: only Receipt 2025-07-02 and Approved 2025-12-12 for charter 25364). Rule text (721 pp; new 12 CFR 15) covers reserves, redemption, custody (subpart C), capital/backstop and the §15.15 $10B state-to-federal transition; it names neither Ripple nor RLUSD.",
    "grade": "A",
    "sources": [
-    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
+    "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
+    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf"
    ],
    "added": "2026-10-21T12:31:57-04:00"
+  },
+  {
+   "id": "rc-ask-rule400-no-presumption",
+   "label": "Ripple ask: Rule 400(c) 'no presumption' clause (Q134)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's S7-2026-27 letter (Oct 20, 2026, Part IV.A) proposes new Rule 400(c): failing to file Form TR, or not relying on Rule 400(a)-(b), 'shall not create any presumption or inference that a crypto asset is or was subject to an investment contract, or that any person is or was the issuer of an investment contract.' Ripple argues that the law decides status, not a filing, and that a future Commission might treat not filing as a litmus test. Fallback: state the principle in the adopting release.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-formation-guidance",
+   "label": "Ripple ask: guidance on 'common enterprise' and 'new representations' (Q131-132)",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.B of the letter asks for guidance in the adopting release or a supplemental interpretation on two points. (1) Formation: the Howey 'common enterprise' prong; shared interest in token price alone should not satisfy horizontal or vertical commonality (citing Revak). (2) Rule 400(a)'s 'no new representations' condition: Ripple asks the SEC to confirm that promoting one's own products and services built on shared infrastructure is not a promise of essential managerial efforts for the native token, and to list examples of communications that do not count.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-ica-iaa-scope",
+   "label": "Ripple ask: extend Rule 400 to the ICA and Advisers Act; no 'note' or profit-sharing recharacterization (Q126, Q135)",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.C of the letter asks that Rule 400 also apply to the definitions of 'security' in the Investment Company Act and the Advisers Act (citing ICA §§6(c), 38(a) and Advisers Act §§206A, 211(a)). It also asks the SEC to confirm that a separated crypto asset is not recharacterized as a 'note' or 'certificate of interest or participation in any profit-sharing agreement' merely because it was once subject to a covered investment contract.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-form-tr-reliance",
+   "label": "Ripple ask: good-faith reliance on a filed Form TR (Q125, Q128)",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.D of the letter asks that Rule 400 provide that anyone transacting in good faith in reliance on a filed Form TR acts in conformity with a Commission rule for purposes of Securities Act §19(a) and Exchange Act §23(a)(1). It also asks that any later SEC finding that the safe-harbor conditions were not met apply prospectively only, so that exchanges and brokers can rely on the filing without continuously monitoring the issuer.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-rule500b-dealer",
+   "label": "Ripple ask: narrow the Rule 500(b) dealer exclusion",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.E.1 of the letter says proposed Rule 500(b) preempts state law only for transactions 'by any person other than an issuer, underwriter, or dealer', so registered broker-dealers providing liquidity get no relief. Proposed text: 'by any person other than (i) an issuer or underwriter, or (ii) a dealer participating in a distribution of the covered investment contract by or on behalf of the issuer or an affiliate of the issuer'. Ripple also asks the SEC to confirm that agency execution of customer orders is not excluded.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-rule500-current-condition",
+   "label": "Ripple ask: loosen the 'current filings' condition for secondary-market preemption (Q141-142)",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.E.2 of the letter supports the alternatives in Q141 (preemption where a purchaser could reasonably conclude the issuer relied on a Reg Crypto exemption) and Q142 (issuer 'subject to' rather than 'current with' reporting). It also asks for a good-faith safe harbor: absent a later EDGAR filing stating non-compliance, good-faith trades do not violate Section 5. If the condition stays, Ripple asks for no verification duty on secondary-market participants, a public EDGAR filing-status indicator, and no lapse when a startup-exemption issuer files Form TR at the four-year mark.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-holder-activities",
+   "label": "Ripple ask: holding, lending, pledging, collateralizing or staking does not change status",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.E.3 of the letter asks the SEC to confirm that holding, lending, pledging, collateralizing or staking a subject crypto asset does not, by itself, (i) require the holder to register or rely on an exemption, or (ii) affect the status of a covered investment contract or the availability of Rule 500 preemption.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-qp-no-thresholds",
+   "label": "Ripple ask: no wealth thresholds for qualified purchasers (Q138)",
+   "type": "event",
+   "handle": "",
+   "summary": "Part IV.E.4 of the letter supports treating all offerees and purchasers as 'qualified purchasers' (citing Lindeen v. SEC) and urges the SEC not to impose income, net-worth or investment-asset thresholds, which it calls impractical in anonymous secondary trading.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-no-decentralization-test",
+   "label": "Ripple ask: reaffirm fn. 193; no decentralization or control criteria",
+   "type": "event",
+   "handle": "",
+   "summary": "Part II.C of the letter calls decentralization 'unworkable as a legal standard' and urges the SEC to reaffirm Proposal footnote 193 in the adopting release and decline to add decentralization or control criteria to the rule. It cites the Sept 25, 2026 Corp Fin Staff FAQs.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-no-company-token-split",
+   "label": "Ripple ask: no 'company-backed vs network token' classification",
+   "type": "event",
+   "handle": "",
+   "summary": "Part II.D of the letter urges the SEC not to adopt a company-backed vs network-token split, in the final rule or in guidance. It cites a16z crypto's Mar 5, 2025 post (Jennings, Kominers, Lazzarin) and argues the split would revive the 'implicit' promise standard of the withdrawn 2019 Framework. As a limit, it suggests the final release state that an issuer may not return enterprise revenue to token holders by payment, buyback or burn, and that a standing revenue-share mechanism creates an investment contract. Fee-funded burns and supply-management buybacks do not.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "rc-ask-q133-abandonment",
+   "label": "Ripple ask: Rule 400 safe harbor also covers abandoned promises (Q133)",
+   "type": "event",
+   "handle": "",
+   "summary": "Part II.B of the letter says Ripple does not believe the safe harbor should be limited to issuers that have fulfilled their promises (as Q133 contemplates). Promises that fail or are expressly disavowed by a widely disseminated, unambiguous announcement should also end the investment contract, citing Chairman Atkins (Nov 12, 2025) and the Interpretation at 91 FR 13723.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "occ-15-15-state-transition",
+   "label": "12 CFR 15.15: state issuers above $10B must move to OCC oversight",
+   "type": "event",
+   "handle": "",
+   "summary": "OCC GENIUS final rule (released Oct 21, 2026; effective Jan 18, 2027). §15.15 implements GENIUS §4(d). A state qualified payment stablecoin issuer that is a nonbank and exceeds $10 billion in total consolidated outstanding issuance must comply with the part 15 provisions for Federal qualified issuers within 360 days, or stop issuing new stablecoins on a net basis until it is back under $10B. It must submit a capital analysis within 270 days. The OCC may supervise jointly with the state regulator and may release the issuer if it falls back below $10B. Affiliate structuring to stay under the threshold may indicate evasion. Other parts of the rule: subpart C (§15.20-15.23) covers custody of stablecoins, reserves and 'covered assets' by OCC-supervised entities; §15.11 reserves; §15.12 redemption; §15.40-15.42 capital and operational backstop. BSA/AML/OFAC rules come separately. The 721-page rule text names Circle only in its cost analysis and never names Ripple, RLUSD or XRP.",
+   "grade": "A",
+   "sources": [
+    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf",
+    "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
+    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "circle-national-trust",
+   "label": "Circle National Trust (First National Digital Currency Bank, N.A.)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Circle's national trust bank (proposed charter 25361; preliminary conditional approval CA #1356, Dec 12, 2025, the same day as Ripple's CA #1359). Per Circle's Q2 2026 10-Q, the OCC granted final approval on July 9, 2026; Circle announced it July 10 and the bank opened July 24, 2026. At opening it offers fiduciary digital-asset custody to Circle and its affiliates; managing the USDC Reserve is a planned future capability. Circle also received a NYDFS limited-purpose trust charter (Circle Internet Trust Company LLC) on July 31, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/R30.htm",
+    "https://www.circle.com/pressroom/circle-receives-final-occ-approval-to-establish-national-trust-bank",
+    "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/ca1356.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "bridge-ntb",
+   "label": "Bridge National Trust Bank (proposed)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Stripe's Bridge Ventures LLC got OCC preliminary conditional approval for a de novo national trust bank in New York on Feb 12, 2026 (Corporate Decision #1365; proposed charter 25393). Per the decision, Bridge Building Inc. issues the USDB stablecoin and white-label xUSD variants.",
+   "grade": "A",
+   "sources": [
+    "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1365.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "fednow",
+   "label": "FedNow Service",
+   "type": "builder",
+   "handle": "",
+   "summary": "The Federal Reserve Banks' 24x7x365 instant-payment rail, launched July 20, 2023; it settles in central-bank money. frbservices.org figures: 1,949 participating financial institutions on the live list dated Oct 19, 2026. Q3 2026: 6,376,467 settled payments (+27.6% q/q) worth $370.86B; average daily volume 69,309 payments and $4.03B; average payment about $58,161. Full-year 2025: 8,413,402 payments worth $853.4B. No XRP or XRPL component.",
+   "grade": "A",
+   "sources": [
+    "https://www.frbservices.org/resources/financial-services/fednow-service-resources/fednow-service-volume-value-statistics/",
+    "https://www.frbservices.org/financial-services/fednow/organizations",
+    "https://www.federalreserve.gov/paymentsystems/fednow_about.htm"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "arc",
+   "label": "Arc (Circle L1)",
+   "type": "builder",
+   "handle": "",
+   "summary": "Circle's open Layer-1 blockchain. Public mainnet launched Sep 16, 2026 after a private mainnet phase. Gas is paid in USDC, finality is sub-second, it is EVM-compatible, and Circle StableFX runs on it. Founding validator cohort (announced Aug 5, 2026): BlackRock, DTCC, Galaxy, Global Payments/Worldpay, ICE, Mastercard, MoneyGram, SBI Group, Standard Chartered, Sumitomo Corporation and Visa. Circle says it had 100+ apps and builders on day one.",
+   "grade": "A",
+   "sources": [
+    "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+    "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "plasma",
+   "label": "Plasma (XPL)",
+   "type": "builder",
+   "handle": "",
+   "summary": "Stablecoin-focused Layer-1 (native token XPL; CEO Paul Faecks) and the Plasma One consumer dollar account and card app (plasma.org). On Oct 15, 2026 Stripe and Plasma announced multi-currency stablecoin cards with Plasma as design partner: USD, BRL, EUR, MXN and COP; OUSD and 'eligible GENIUS-ready stablecoins'; 30+ countries now, 100+ planned in 2027.",
+   "grade": "A",
+   "sources": [
+    "https://www.globenewswire.com/news-release/2026/10/15/3381757/0/en/stripe-and-plasma-co-develop-a-new-multi-currency-card-experience.html",
+    "https://www.plasma.org/"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "bvnk",
+   "label": "BVNK",
+   "type": "company",
+   "handle": "",
+   "summary": "Stablecoin payments infrastructure firm founded in 2021. Mastercard agreed to buy it on Mar 17, 2026 for up to $1.8B, including $300M contingent, and completed the deal on Aug 3, 2026. On Oct 15, 2026 they launched the Mastercard Global Money Platform: fiat and stablecoin accounts, conversion, stablecoin-linked cards, and payouts via Mastercard Move. BVNK's docs list rewards on USDC and OUSD and do not mention RLUSD or XRP.",
+   "grade": "A",
+   "sources": [
+    "https://www.bvnk.com/press/mastercard-completes-acquisition-of-bvnk-to-advance-global-stablecoin-capabilities",
+    "https://www.bvnk.com/press/mastercard-and-bvnk-launch-global-money-platform-to-power-a-multi-money-world",
+    "https://docs.bvnk.com/bvnk/get-started/global-money-platform/",
+    "https://www.mastercard.com/global/en/news-and-trends/press/2026/march/Mastercard-to-acquire-BVNK-to-connect-on-chain-payments-and-fiat-rails.html"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "bok",
+   "label": "Bank of Korea",
+   "type": "regulator",
+   "handle": "",
+   "summary": "South Korea's central bank. It runs Project Hangang, a deposit-token and wholesale-CBDC pilot; Phase II was formally launched in a BoK press release on Mar 18, 2026 (Digital Currency Planning Team). Its press list also shows participation in BIS Project Agorá prototype and live-transaction tests (releases May 27 and Jul 30, 2026).",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=10097017&programType=newsData&relate=Y"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "hangang",
+   "label": "Project Hangang (BoK deposit-token pilot)",
+   "type": "event",
+   "handle": "",
+   "summary": "Bank of Korea pilot in which banks issue deposit tokens settled against wholesale CBDC on a BoK-run ledger. Phase I (2025) ran with 7 banks; Phase II started Mar 18, 2026 (BoK release). Per CoinDesk reporting, Phase II has 9 banks: KB Kookmin, Shinhan, Woori, Hana, IBK, NH NongHyup, Busan, BNK Kyongnam and iM Bank. It adds merchant payments, wallet-to-wallet transfers and government-subsidy disbursement. The bank list is reporting (B); the phase dates are from the BoK release. It does not use XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=10097017&programType=newsData&relate=Y",
+    "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
+    "https://www.ecb.europa.eu/pub/pdf/sintra/ecb.forumcentbankpub2026%5FShin%5Fpaper.en.pdf"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "pboc",
+   "label": "People's Bank of China (PBoC)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "China's central bank; issuer of e-CNY. It takes part in Project mBridge through its Digital Currency Institute, one of the founding participants alongside the HKMA, Bank of Thailand and CBUAE (collaboration since 2021). Per the BIS, each founding central bank runs a validating node on the mBridge Ledger at MVP stage (Jun 5, 2024). The BIS left the project on Oct 31, 2024.",
+   "grade": "A",
+   "sources": [
+    "https://www.bis.org/media-releases/20240605-project-mbridge-reaches-minimum-viable-product-stage-and-invites-further-international",
+    "https://www.bis.org/about/bisih/topics/cbdc/mcbdc_bridge.htm"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "xrp-etf-in-kind-2026-10",
+   "label": "US spot XRP ETFs: in-kind creation status (Oct 21, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "This is a flow mechanic, not demand: in-kind creation moves XRP someone already holds into a trust in exchange for shares, with no new purchase needed. Status from EDGAR filings. Bitwise XRP ETF: 424B3 of Sep 28, 2026 allows in-kind or cash creations and redemptions. Canary XRPC: 10-Q for Q2 2026 allows in-kind or cash creation orders. Franklin XRPZ: 10-Q for Q2 2026 shows 2,750,000 shares ($40,780,163) created in kind that quarter. 21Shares TOXR: 10-Q for Q2 2026 says APs may purchase shares in kind. Grayscale GXRP: its Nov 2025 S-1/A said it could not yet do in-kind; an 8-K and 424B3 (both Oct 5, 2026) make in-kind orders effective Sep 29, 2026. Grayscale's Oct 21 release markets that existing route to eligible investors through APs, with a minimum of about $257,000. Not available: the WisdomTree and CoinShares US XRP S-1s were withdrawn (RW Jan 6, 2026 and Nov 28, 2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2037427/000119312526414265/ck0002037427-20260929.htm",
+    "https://www.sec.gov/Archives/edgar/data/2037427/000119312526414361/gxrp_424b3_s.custodian_i.htm",
+    "https://www.sec.gov/Archives/edgar/data/2039525/000121390026104143/ea0306697-424b3_bitwisexrp.htm",
+    "https://www.sec.gov/Archives/edgar/data/2059438/000114036126033198/ef20077164_10-q.htm"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "cftc-ctx-cam-anprm-2026",
+   "label": "CFTC ANPRM: Regulation CTX and Regulation CAM (Oct 5, 2026; 91 FR 64811)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "CFTC advance notice of proposed rulemaking under CEA §2(c)(2)(D) on retail commodity transactions in crypto assets (CTXs): press release 9307-26 (Oct 5, 2026), Federal Register Oct 13, 2026 (91 FR 64811), comments due Dec 14, 2026. It would create a 'crypto asset market' (CAM), a subcategory of designated contract market for venues that list only CTXs. Selig's WSJ op-ed (Oct 5, on cftc.gov) says the rules 'wouldn't require crypto assets to trade on CFTC-registered platforms' and offer an opt-in 'single federal market-regulatory scheme'. Unlike state-licensed exchanges, such venues could let retail customers trade on a margined, leveraged or financed basis. Ordinary state-licensed spot venues are unaffected. This is an ANPRM, not a proposed or final rule. XRP appears only in the notice's recap of the Joint Crypto Asset Taxonomy (XRP listed among example digital commodities) and in a case citation about the Ripple ruling. No XRP-specific provision.",
+   "grade": "A",
+   "sources": [
+    "https://www.cftc.gov/PressRoom/PressReleases/9307-26",
+    "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
+    "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "selig-x-optin-2026-10-21",
+   "label": "Selig X post: 'pathway for crypto exchanges to opt in' (Oct 21, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "@ChairmanSelig post at about 15:25 ET on Oct 21, 2026: the CFTC 'proposed a pathway for crypto exchanges to opt in to a federal regulatory framework designed for national markets'. The text is as logged by X Scout (x-sentiment/2026-10-21.md); macro did not re-read X. It refers to the Oct 5 ANPRM (release 9307-26). cftc.gov shows no new release or statement on Oct 21: the latest releases are 9310-26 to 9313-26, none on this topic. This is promotion of an existing ANPRM, not a new action.",
+   "grade": "B",
+   "sources": [
+    "https://x.com/ChairmanSelig/status/2112988540854292939",
+    "https://www.cftc.gov/PressRoom/PressReleases/9307-26"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "usbank-xrpl-check-2026-10-21",
+   "label": "U.S. Bank and XRPL: pre-registered check (Oct 21, 2026), verdict NO",
+   "type": "event",
+   "handle": "",
+   "summary": "Criteria were pre-registered at 17:07 ET. YES = an official U.S. Bank statement (IR or newsroom release, U.S. Bancorp SEC filing, or a conference agenda listing a U.S. Bank speaker on an XRPL or RLUSD topic) naming XRPL, RLUSD or Ripple as something it uses, pilots or evaluates. ETF custody roles and third-party claims do not count. Findings: (1) ir.usbank.com feed, all 516 releases 2019–Oct 2026: crypto-related headlines are only bitcoin custody (2021, resumed Sep 2025), Anchorage stablecoin reserve custody (Oct 2025), the Digital Assets and Money Movement org (Oct 2025) and USBDC on Stellar (Sep 9, 2026); none names XRP, XRPL, Ripple or RLUSD. (2) EDGAR full-text search, U.S. Bancorp (CIK 36104): zero hits for XRPL, 'XRP Ledger', 'Ripple Labs' and RLUSD. 'XRP' appears only in 13F-HR rows for client holdings (Q2 2026: Bitwise XRP ETF $746, Canary XRP ETF $9,352). 'Ripple' appears once, in a 2019 investor-day slide listing fintech competitors. The Q3 2026 earnings 8-K (Oct 15) names only Stellar for USBDC. (3) Meridian 2026 (Stellar): fireside with Jamie Walker on Oct 29, about USBDC on Stellar; no XRPL. (4) Swell 2026: no U.S. Bank speaker found; the official agenda is JS-rendered, so this rests on the Platinum Summit page plus secondary coverage (medium confidence). No second Stellar product was found.",
+   "grade": "A",
+   "sources": [
+    "https://ir.usbank.com/news-events/news",
+    "https://efts.sec.gov/LATEST/search-index?q=%22XRPL%22&ciks=0000036104",
+    "https://meridian.stellar.org/schedule",
+    "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm"
+   ],
+   "added": "2026-10-21T18:24:12-04:00"
   }
  ],
  "edges": [
@@ -92194,7 +92520,7 @@
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-27",
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
    "side": "neutral",
    "added": "2026-10-20T10:29:10-04:00"
   },
@@ -93587,11 +93913,11 @@
   {
    "from": "usbank",
    "to": "meridian-2026",
-   "label": "Jamie Walker, Head of Digital Assets and Money Movement, listed speaker (Oct 2026)",
+   "label": "Jamie Walker, Head of Digital Assets and Money Movement: fireside Oct 29, 2026, 10:05 Lisbon (06:05 ET), on USBDC on Stellar",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://meridian.stellar.org",
+   "source": "https://meridian.stellar.org/schedule",
    "side": "neutral",
    "added": "2026-10-20T14:29:06-04:00"
   },
@@ -94460,7 +94786,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/reports/ripple-comment-letter-on-sec-reg-proposed-crypto-rule.pdf",
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
    "side": "neutral",
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -94471,7 +94797,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/reports/ripple-comment-letter-on-sec-reg-proposed-crypto-rule.pdf",
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
    "side": "neutral",
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -95358,7 +95684,7 @@
   {
    "from": "s72627-docket-2026-10-21",
    "to": "ripple-reg-crypto-letter-2026-10-20",
-   "label": "letter on file (sec.gov copy, dated Oct 20, 2026; signed by Ripple's Deputy General Counsel)",
+   "label": "letter on file (sec.gov copy, dated Oct 20, 2026; docket lists Deborah McCrimmon, Deputy GC; signed by Alderoty, Dhond and McCrimmon)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -95442,6 +95768,622 @@
    "source": "https://www.gunmabank.co.jp/ir/library/en/pdf/20260409.pdf",
    "side": "neutral",
    "added": "2026-10-21T14:24:22-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-rule400-no-presumption",
+   "label": "asks for new Rule 400(c): no presumption from not filing Form TR (Q134)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-formation-guidance",
+   "label": "asks for guidance on the common-enterprise prong and on what is not a 'new representation' (Q131-132)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-ica-iaa-scope",
+   "label": "asks that Rule 400 extend to ICA and Advisers Act 'security' definitions and bar recharacterization (Q126, Q135)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-form-tr-reliance",
+   "label": "asks for §19(a)/§23(a)(1) good-faith reliance on filed Form TR; later findings prospective only (Q125, Q128)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-rule500b-dealer",
+   "label": "asks to limit Rule 500(b)'s dealer exclusion to dealers participating in a distribution",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-rule500-current-condition",
+   "label": "asks to relax the 'current filings' preemption condition (Q141-142) and for a §5 good-faith safe harbor",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-holder-activities",
+   "label": "asks the SEC to confirm that holding, lending, pledging and staking do not trigger registration or affect preemption",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-qp-no-thresholds",
+   "label": "asks the SEC to keep qualified-purchaser treatment without income or net-worth thresholds (Q138)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-no-decentralization-test",
+   "label": "asks the SEC to reaffirm fn. 193 and add no decentralization or control criteria",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-no-company-token-split",
+   "label": "asks the SEC to reject the company-backed vs network-token split; offers a revenue-share limit instead",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "rc-ask-q133-abandonment",
+   "label": "asks that Rule 400 not be limited to fulfilled promises; abandonment or disavowal also qualifies (Q133)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "rc-ask-no-company-token-split",
+   "to": "a16z",
+   "label": "rebuts a16z crypto's 'Network Tokens vs. Company-Backed Tokens' framework (Mar 5, 2025), cited in fn. 48",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "nca",
+   "label": "cites NCA study (Oct 2026): rule in place 2022-Oct 2026 would have added 382-1,518 U.S. token offerings and $325M-$1,117M raised",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "senate-vote-234",
+   "label": "argues the failed CLARITY cloture vote (49-50, Sep 15, 2026) withdraws none of the SEC's exemptive authority",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ-genius-final-rule-2026-10-21",
+   "to": "occ-15-15-state-transition",
+   "label": "§15.15: state nonbank issuers above $10B must comply with federal part 15 within 360 days or stop net new issuance",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ-15-15-state-transition",
+   "to": "rlusd",
+   "label": "RLUSD (~$2.4-2.5B, NYDFS/SCTC) is below the $10B trigger, so §15.15 transition is not triggered now (inference from the rule plus RLUSD supply)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ-genius-final-rule-2026-10-21",
+   "to": "rntb",
+   "label": "subpart C custody (§15.20-15.23) and the trust-bank activity rules (§15.10) would govern RNTB once open; the rule text does not name Ripple",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "rntb",
+   "label": "status check Oct 21, 2026: OCC CAS shows only Receipt (2025-07-02) and Approved (2025-12-12) for charter 25364; no final approval, extension or expiry posted",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://apps.occ.gov/CAS/home/details?FilingID=RjzoD2gxmYOv&FilingSubtypeID=1093&FilingTypeID=2",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ-ca1359",
+   "to": "rntb",
+   "label": "CA #1359 text: approval expires if capital is not raised within 12 months or the bank does not open within 18 months; OCC 'opposed to granting extensions'",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/ca1359.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "occ-ca1359",
+   "label": "OCC CD #1393 (Sep 18, 2026) still cites CA 1359 as 'Ripple National Trust Bank conditional approval'",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1393.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "circle-national-trust",
+   "label": "owns; OCC final approval 2026-07-09, opened 2026-07-24 (10-Q)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/R30.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "circle-national-trust",
+   "label": "final approval for First National Digital Currency Bank, N.A. (July 9, 2026), about 7 months after conditional approval",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000248/R30.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "circle-national-trust",
+   "to": "rntb",
+   "label": "approved on the same day (Dec 12, 2025); Circle opened Jul 24, 2026, while RNTB is still conditional at 10+ months (no news, so neither for nor against)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://apps.occ.gov/CAS/home/details?FilingID=RjzoD2gxmYOv&FilingSubtypeID=1093&FilingTypeID=2",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "bridge-xyz",
+   "to": "bridge-ntb",
+   "label": "parent (Bridge Ventures LLC, a Stripe company)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1365.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "bridge-ntb",
+   "label": "preliminary conditional approval, CD #1365 (Feb 12, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/cd1365.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "fed",
+   "to": "fednow",
+   "label": "operates (Federal Reserve Banks; live since 2023-07-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "fednow",
+   "to": "claim-fednow",
+   "label": "the real rail: 1,949 participating FIs (Oct 19, 2026); Q3 2026 6.38M payments / $370.9B, settled in Fed money, no XRP",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.frbservices.org/resources/financial-services/fednow-service-resources/fednow-service-volume-value-statistics/",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "arc",
+   "label": "launched Arc public mainnet (Sep 16, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "moneygram",
+   "to": "arc",
+   "label": "founding Arc validator (Aug 5, 2026), while also a Tempo validator",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "arc",
+   "label": "SBI Group named a founding Arc validator (Aug 5, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "dtcc",
+   "to": "arc",
+   "label": "founding Arc validator (Aug 5, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "arc",
+   "label": "founding Arc validator (Aug 5, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "stripe",
+   "to": "plasma",
+   "label": "co-developing multi-currency stablecoin cards with Plasma as design partner (Oct 15, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.globenewswire.com/news-release/2026/10/15/3381757/0/en/stripe-and-plasma-co-develop-a-new-multi-currency-card-experience.html",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "bvnk",
+   "label": "acquired (closed Aug 3, 2026; up to $1.8B incl. $300M contingent)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bvnk.com/press/mastercard-completes-acquisition-of-bvnk-to-advance-global-stablecoin-capabilities",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "bvnk",
+   "to": "circle",
+   "label": "Global Money Platform (Oct 15, 2026) pays rewards on USDC and OUSD; no RLUSD listed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://docs.bvnk.com/bvnk/get-started/global-money-platform/",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "bok",
+   "to": "hangang",
+   "label": "runs; Phase II formally launched (BoK press release, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=10097017&programType=newsData&relate=Y",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "shinhan",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, per CoinDesk)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "woori",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, per CoinDesk)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "bok",
+   "to": "agora",
+   "label": "took part in Project Agorá prototype and live-transaction tests (BoK releases May 27 and Jul 30, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=10097017&programType=newsData&relate=Y",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "pboc",
+   "to": "mbridge",
+   "label": "founding participant via its Digital Currency Institute (since 2021); runs a validating node at MVP (BIS, Jun 5, 2024)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bis.org/media-releases/20240605-project-mbridge-reaches-minimum-viable-product-stage-and-invites-further-international",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "gxrp",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "in-kind orders effective Sep 29, 2026 (8-K and 424B3, Oct 5); the Nov 2025 S-1/A said 'not at this time able'",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2037427/000119312526414361/gxrp_424b3_s.custodian_i.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "bitwise",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "424B3 (Sep 28, 2026): Trust may create/redeem in-kind for XRP or for cash",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2039525/000121390026104143/ea0306697-424b3_bitwisexrp.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "xrpc",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "10-Q (Q2 2026): creation orders may be in-kind (XRP) or cash",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2039505/000199937126017438/xrpc-10q_063026.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "xrpz",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "10-Q (Q2 2026): 2,750,000 shares ($40.78M) created in kind; XRP moved in, not bought",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2059438/000114036126033198/ef20077164_10-q.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "toxr",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "10-Q (Q2 2026): Authorized Participants may purchase shares in-kind",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2028835/000121390026087823/ea0299658-10q_21shares.htm",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "grayscale",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "Oct 21 release markets in-kind GXRP subscriptions via APs (~$257,000 minimum); the mechanism itself took effect Sep 29",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.globenewswire.com/news-release/2026/10/21/3385595/0/en/grayscale-expands-access-to-in-kind-transfers-across-its-digital-asset-investment-platform.html",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "cftc",
+   "to": "cftc-ctx-cam-anprm-2026",
+   "label": "issued ANPRM on Regulation CTX / Regulation CAM (release 9307-26, Oct 5, 2026; comments due Dec 14)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.cftc.gov/PressRoom/PressReleases/9307-26",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "selig",
+   "to": "cftc-ctx-cam-anprm-2026",
+   "label": "WSJ op-ed (Oct 5, 2026): opt-in 'single federal market-regulatory scheme' for crypto exchanges; not mandatory",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "cftc-ctx-cam-anprm-2026",
+   "to": "rel33",
+   "label": "recaps the Joint Crypto Asset Taxonomy, which lists XRP among example digital commodities (no XRP-specific rule)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "cftc-ctx-cam-anprm-2026",
+   "to": "senate-vote-234",
+   "label": "op-ed frames the ANPRM as following the Senate's failure to advance CLARITY",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "selig",
+   "to": "selig-x-optin-2026-10-21",
+   "label": "posted (Oct 21, 2026, ~15:25 ET)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/ChairmanSelig/status/2112988540854292939",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "selig-x-optin-2026-10-21",
+   "to": "cftc-ctx-cam-anprm-2026",
+   "label": "refers to the Oct 5 ANPRM (cftc.gov release 9307-26); no new CFTC action on Oct 21",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.cftc.gov/PressRoom/PressReleases/9307-26",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "usbank",
+   "to": "usbank-xrpl-check-2026-10-21",
+   "label": "no official XRPL, XRP-rail, Ripple or RLUSD statement in 516 IR releases or EDGAR (checked Oct 21, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ir.usbank.com/news-events/news",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "usbank-xrpl-check-2026-10-21",
+   "to": "meridian-2026",
+   "label": "Walker fireside, Oct 29 10:05–10:25 Lisbon (06:05 ET), Tejo Stage: abstract covers USBDC on Stellar only",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://meridian.stellar.org/schedule",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "usbank-xrpl-check-2026-10-21",
+   "to": "swell",
+   "label": "no U.S. Bank speaker found on Swell 2026 materials (official agenda JS-rendered; checked secondary listings)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://news.bitcoin.com/crypto-news/ripple-swell-2026-agenda-goes-live-with-xrp-in-finances-next-wave/",
+   "side": "neutral",
+   "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "usbank-xrpl-check-2026-10-21",
+   "to": "stellar",
+   "label": "only chain U.S. Bank names in its own releases and filings (USBDC pilot, Sep 9, 2026; Q3 8-K); same product, not a second one",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ir.usbank.com/news-events/news/news-details/2026/U-S--Bank-Launches-USBDC-Stablecoin/default.aspx",
+   "side": "contradicts",
+   "added": "2026-10-21T18:24:12-04:00"
   }
  ]
 }
