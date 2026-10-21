@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T12:37:58-04:00",
+  "updated": "2026-10-21T14:29:21-04:00",
   "version": 3
  },
  "nodes": [
@@ -25101,10 +25101,11 @@
    "label": "Gunma Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; definitive agreement (2026-03-26) to integrate with Daishi Hokuetsu FG via share exchange, Gunma to become a subsidiary of the renamed Gunma Niigata FG on 2027-04-01 (planned). Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.gunmabank.co.jp/ir/library/en/pdf/20260409.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25211,10 +25212,11 @@
    "label": "Seven Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; no longer a consolidated Seven & i subsidiary (Seven-Eleven Japan ~33.4%, ITOCHU ~20.4%). Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.sevenbank.co.jp/english/ir/stock/stock_info.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25261,10 +25263,11 @@
    "label": "Chiba Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; definitive agreement (2026-03-25) with Chiba Kogyo Bank to form joint holding company Chiba Financial Group on 2027-04-01 (planned). Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.chibabank.co.jp/en/news/en_newsrelease_20260325_02"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25358,10 +25361,11 @@
    "label": "Hachijuni Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): merged with its subsidiary Nagano Bank on 2026-01-01 and now operates as Hachijuni Nagano Bank (FSA approval 2025-12-25). Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://bank.82group.jp/english/pdf/topic_20260105.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -28451,12 +28455,13 @@
    "label": "fixCleanup3_4_0 amendment (rippled 3.4.0 fix bundle)",
    "type": "event",
    "handle": "",
-   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-20 11:26 ET: 26 of 32 yes against a threshold of 25. It has held a majority since 2026-10-09 05:34 ET (the ledger Amendments object confirms CloseTime 844853670), so it is expected to activate around 2026-10-23 05:34 ET if the majority holds; one lost vote would reset the clock. xrpl.org's Sep 16 snapshot still shows 0.00%.",
+   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-20 11:26 ET: 26 of 32 yes against a threshold of 25. It held a majority from 2026-10-09 05:34 ET, but a dropped validator vote reset the two-week clock; it regained majority at 2026-10-21 10:46 ET (ledger majority time 845909182 per a public node's feature RPC), so the earliest activation is now around 2026-11-04 09:46 ET if the majority holds. The earlier ~2026-10-23 date no longer applies. xrpl.org's Sep 16 snapshot still shows 0.00%.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/amendments",
     "https://xrpl.org/resources/known-amendments",
-    "https://xrplcluster.com"
+    "https://xrplcluster.com",
+    "https://x.com/Vet_X0/status/2112942047468687492"
    ],
    "added": "2026-10-20T12:25:42-04:00"
   },
@@ -28791,11 +28796,13 @@
    "label": "XRPL slow ledger closings (Oct 20, 2026)",
    "type": "event",
    "handle": "",
-   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). No root-cause post as of 2026-10-21 10:10 ET.",
+   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). A second slow episode followed on 2026-10-21 about 09:17-09:23 ET: ledgers 107806240-107806259 closed 10-40 s apart (vs ~4 s normally), with no halt (ledger close-time read). On 2026-10-21 at 13:54 ET @XRPLOperations said it had begun rolling out a recommended xrpld config change to hub, validator and node operators as an interim mitigation, and was testing fixes for a point release to address the root cause (planned; not yet shipped as of that post). No root cause has been publicly named as of 2026-10-21 14:15 ET.",
    "grade": "A",
    "sources": [
     "https://x.com/XRPLOperations/status/2112733899558371703",
-    "https://x.com/XRPLOperations/status/2112909423110922597"
+    "https://x.com/XRPLOperations/status/2112909423110922597",
+    "https://xrpscan.com/ledger/107806240",
+    "https://x.com/XRPLOperations/status/2112965763078488088"
    ],
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -93459,11 +93466,11 @@
   {
    "from": "amd-fixcleanup-3-4-0",
    "to": "xrpl",
-   "label": "mainnet status as of 2026-10-20: majority (26/32) since Oct 9 05:34 ET; expected ~Oct 23, 2026",
+   "label": "mainnet status: majority since Oct 9 was lost and regained 2026-10-21 10:46 ET; earliest activation ~Nov 4, 2026",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://api.xrpscan.com/api/v1/amendments",
+   "source": "https://xrplcluster.com",
    "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
@@ -94625,11 +94632,11 @@
   {
    "from": "xrpl",
    "to": "xrpl-slow-ledger-closings-2026-10-20",
-   "label": "some ledger closings slower than usual per @XRPLOperations (2026-10-20); still occurring with a fix release being finalized as of 2026-10-21 10:10 ET",
+   "label": "some ledger closings slower than usual per @XRPLOperations (2026-10-20); interim config change rolling out to operators and a root-cause point release in testing as of 2026-10-21 13:54 ET",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://x.com/XRPLOperations/status/2112909423110922597",
+   "source": "https://x.com/XRPLOperations/status/2112965763078488088",
    "side": "neutral",
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -95391,6 +95398,50 @@
    "source": "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
    "side": "neutral",
    "added": "2026-10-21T12:31:57-04:00"
+  },
+  {
+   "from": "grayscale",
+   "to": "gxrp",
+   "label": "opens in-kind subscriptions (XRP for shares) to eligible investors via APs; ~$257,000 minimum (2026-10-21)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.globenewswire.com/news-release/2026/10/21/3385595/0/en/grayscale-expands-access-to-in-kind-transfers-across-its-digital-asset-investment-platform.html",
+   "side": "neutral",
+   "added": "2026-10-21T14:24:22-04:00"
+  },
+  {
+   "from": "bitso",
+   "to": "xrpl",
+   "label": "runs a UNL validator (vl.ripple.com and unl.xrplf.org; rippled 3.4.1); no amendment yes-votes recorded as of 2026-10-21",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/validatorregistry",
+   "side": "neutral",
+   "added": "2026-10-21T14:24:22-04:00"
+  },
+  {
+   "from": "reg-crypto-assets",
+   "to": "ripple",
+   "label": "proposing release cites two Ripple comment letters (2025-03-21, 2026-01-09) and quotes Ripple on decentralization; XRP not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/full_text/text/2026/08/21/2026-17183.txt",
+   "side": "neutral",
+   "added": "2026-10-21T14:24:22-04:00"
+  },
+  {
+   "from": "jp-gunma-bank",
+   "to": "jp-daishi-bank",
+   "label": "business integration with Daishi Hokuetsu FG (Daishi's successor group), planned 2027-04-01",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.gunmabank.co.jp/ir/library/en/pdf/20260409.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T14:24:22-04:00"
   }
  ]
 }
