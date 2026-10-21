@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T06:07:27-04:00",
+  "updated": "2026-10-21T08:28:09-04:00",
   "version": 3
  },
  "nodes": [
@@ -12541,12 +12541,14 @@
    "id": "near",
    "label": "NEAR Protocol",
    "type": "company",
-   "handle": "",
-   "summary": "Layer-1 blockchain; Xpring seed investment (Jul 2019).",
+   "handle": "@NEARProtocol",
+   "summary": "Layer-1 blockchain; Xpring seed investment (Jul 2019). Runs near.com, a consumer multichain account powered by NEAR Intents that it markets as 'confidential by design'; on 2026-10-20 @NEARProtocol announced XRP on near.com (NEAR's claim).",
    "grade": "A",
    "sources": [
     "https://messari.io/organization/xpring-org",
-    "https://web.archive.org/web/2020/https://medium.com/xpring"
+    "https://web.archive.org/web/2020/https://medium.com/xpring",
+    "https://x.com/NEARProtocol/status/2112583911410999494",
+    "https://near.com/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 2
@@ -20875,12 +20877,13 @@
    "id": "clearpool",
    "label": "Clearpool",
    "type": "builder",
-   "handle": "",
-   "summary": "DeFi credit protocol. With Ripple and Cicada, building an XRPL-native institutional credit product lending RLUSD to fintech/payments firms; on Devnet pending XLS-65 vaults and XLS-66 lending (not live as of late Sep 2026).",
+   "handle": "@ClearpoolFin",
+   "summary": "DeFi credit protocol. With Ripple and Cicada, building an XRPL-native institutional credit product lending RLUSD to fintech/payments firms; on Devnet pending XLS-65 vaults and XLS-66 lending (not live as of late Sep 2026). Its whitepaper v4.0 (Oct 2026; issuer claim) says the marketplace is live on six EVM networks and expanding to the XRP Ledger: XRPL vaults on XLS-65/XLS-66 settled in RLUSD are 'coming soon' and the protocol is 'preparing for testing on XRPL Devnet' (planned, not live).",
    "grade": "B",
    "sources": [
     "https://cryptobriefing.com/ripple-clearpool-and-cicada-team-up-to-build-new-credit-rails-on-xrpl/",
-    "https://xrpbreadcrumbs.com/institutions/xrp-stack-live-versus-waiting/"
+    "https://xrpbreadcrumbs.com/institutions/xrp-stack-live-versus-waiting/",
+    "https://docs.clearpool.finance/clearpool/resources/whitepaper"
    ],
    "added": "2026-10-19T23:14:58-04:00",
    "sector": "builders"
@@ -25049,10 +25052,11 @@
    "label": "Senshu Ikeda Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating under Ikeda Senshu Holdings, which formed a capital alliance with Shiga Bank on 2026-04-17 (no merger). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.yomiuri.co.jp/economy/20260417-GYT1T00216/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25157,10 +25161,11 @@
    "label": "Shimizu Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still independent (FY2026/3 securities report); has a capital and business alliance with the SBI Group. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://edinetdb.jp/company/E03572/text"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25218,10 +25223,11 @@
    "label": "Sony Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): now under Sony Financial Group, which Sony spun off (partial spin-off completed 2025-10-01). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www2.jpx.co.jp/disc/67580/140120251001566172.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25279,10 +25285,11 @@
    "label": "Tsukuba Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; Nikkei reported (2025-12-25) that SBI asked it and Shimizu Bank to accept a ~15% stake. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.nikkei.com/article/DGXZQOUB246U70U5A221C2000000/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25387,10 +25394,11 @@
    "label": "Fukui Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): absorbed Fukuho Bank on 2026-05-02 and continues as Fukui Bank (bank release 2026-05-07). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.fukuibank.co.jp/info/2026/merger_completed20260507.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -28727,6 +28735,68 @@
     "https://x.com/XRP/status/2112650041185964194"
    ],
    "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "id": "ripple-reg-crypto-letter-2026-10-20",
+   "label": "Ripple comment letter on SEC Regulation Crypto Assets (2026-10-20)",
+   "type": "event",
+   "handle": "",
+   "summary": "20-page letter dated Oct 20, 2026 to SEC Secretary Countryman on File S7-2026-27. Ripple 'fully supports' the proposal and urges a final rule; argues the investment contract, not the token, is the security, and rejects decentralization as a legal test. XRP appears only in the SEC v. Ripple history it cites. Not yet on the sec.gov comment list as of 07:50 ET Oct 21.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/reports/ripple-comment-letter-on-sec-reg-proposed-crypto-rule.pdf",
+    "https://x.com/s_alderoty/status/2112673463416795466"
+   ],
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "id": "sbi-holdings-usa",
+   "label": "SBI Holdings USA, Inc.",
+   "type": "company",
+   "handle": "",
+   "summary": "Santa Clara, CA entity of the SBI Group (CIK 2107413). Filed a Form 3 on Evernorth Holdings (XRPN) on 2026-10-20 as a 10% owner, reporting holdings as of the Oct 9, 2026 business-combination close: 6,529,787 Class A shares plus 1,633,180 Class C shares, with conversion capped by the charter's 39.9% 'SBI Group Ownership Percentage'.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2092592/000114036126040302/form3.xml"
+   ],
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "id": "coded-firstledger-token",
+   "label": "CODED token (First Ledger, XRPL)",
+   "type": "asset",
+   "handle": "",
+   "summary": "XRPL issued token 'CODED' (issuer rnNErmg9xVmcxxNZUwivbJSH6i9GUwYPFj, created 2024-11-07; issuer Domain is a firstledger.net TOML). Batch-wrapped self-payments in CODED and XRP were the largest block of traffic in the slow ledgers of Oct 20, 2026 11:49-11:52 ET (historian ledger sample).",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rnNErmg9xVmcxxNZUwivbJSH6i9GUwYPFj",
+    "https://xrpscan.com/ledger/107786762"
+   ],
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "id": "ocbc",
+   "label": "OCBC",
+   "type": "bank",
+   "handle": "@OCBCBank",
+   "summary": "Singapore bank. Completed Southeast Asia's first cross-border USD tokenised deposit transaction on Swift's ledger with Citibank (Sep 2026) and launched a tokenised deposit solution with Ant International's WhaleRTP for SG-MY treasury (Oct 7, 2026). XRPL not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.ocbc.com/group/media/release/2026/ocbc-tokenised-deposit-ant-international-treasury"
+   ],
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "id": "xrpl-slow-ledger-closings-2026-10-20",
+   "label": "XRPL slow ledger closings (Oct 20, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. No resolution or root-cause post from @XRPLOperations as of 2026-10-21 06:27 ET.",
+   "grade": "A",
+   "sources": [
+    "https://x.com/XRPLOperations/status/2112733899558371703"
+   ],
+   "added": "2026-10-21T08:22:53-04:00"
   }
  ],
  "edges": [
@@ -64690,10 +64760,10 @@
    "from": "clearpool",
    "to": "rlusd",
    "label": "planned RLUSD institutional credit on XRPL with Ripple & Cicada (2026)",
-   "grade": "B",
+   "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://cryptobriefing.com/ripple-clearpool-and-cicada-team-up-to-build-new-credit-rails-on-xrpl/",
+   "source": "https://docs.clearpool.finance/clearpool/resources/whitepaper",
    "side": "supports",
    "added": "2026-10-19T23:14:58-04:00"
   },
@@ -73357,7 +73427,7 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol: not enabled on mainnet as of Oct 19 2026; 17 validator yes-votes vs 25 needed (introduced rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol: not enabled as of 2026-10-21 07:45 ET; 18 validator yes-votes vs 25 needed (introduced rippled 3.1.0) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -73368,7 +73438,7 @@
   {
    "from": "amd-vault",
    "to": "xrpl",
-   "label": "mainnet status: SingleAssetVault: not enabled on mainnet as of Oct 19 2026; 19 yes-votes vs 25 needed (rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: SingleAssetVault: not enabled as of 2026-10-21 07:45 ET; 20 yes-votes vs 25 needed (rippled 3.1.0) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -94088,6 +94158,193 @@
    "source": "https://dev.to/ripplexdev/the-xrp-ledger-ai-starter-kit-v11-open-standards-not-an-island-358k",
    "side": "neutral",
    "added": "2026-10-20T19:10:43-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-reg-crypto-letter-2026-10-20",
+   "label": "filed comment letter supporting Regulation Crypto Assets (2026-10-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/reports/ripple-comment-letter-on-sec-reg-proposed-crypto-rule.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "reg-crypto-assets",
+   "label": "comment on S7-2026-27: urges adoption as a final rule (2026-10-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/reports/ripple-comment-letter-on-sec-reg-proposed-crypto-rule.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "ripple-reg-crypto-letter-2026-10-20",
+   "label": "announced the letter on X, citing $150M+ spent on the SEC case (2026-10-20 18:32 ET)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/s_alderoty/status/2112673463416795466",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "sbi-holdings-usa",
+   "to": "evernorth",
+   "label": "10% owner per Form 3 (filed 2026-10-20): 6,529,787 Class A + 1,633,180 Class C held directly as of 2026-10-09",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000114036126040302/form3.xml",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "sbi-holdings-usa",
+   "to": "sbi",
+   "label": "SBI Group entity; its Evernorth Class C conversion is capped by the 39.9% 'SBI Group Ownership Percentage' (Form 3, 2026-10-20)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000114036126040302/form3.xml",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "coded-firstledger-token",
+   "to": "firstledger",
+   "label": "issuer domain is a firstledger.net TOML (issuer created 2024-11-07)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/account/rnNErmg9xVmcxxNZUwivbJSH6i9GUwYPFj",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "coded-firstledger-token",
+   "to": "xrpl-slow-ledger-closings-2026-10-20",
+   "label": "Batch-wrapped CODED/XRP self-payments dominated the slow ledgers of Oct 20, 11:49-11:52 ET (ledger sample)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/ledger/107786762",
+   "side": "contradicts",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "amd-batch",
+   "to": "xrpl-slow-ledger-closings-2026-10-20",
+   "label": "Batch txs were 59% of txs in 14 ledgers spanning the slow window (2,722 of 4,606; Oct 20 11:4x-11:52 ET) vs 5% in a calm Oct 21 sample",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/ledger/107786762",
+   "side": "contradicts",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "amd-lending",
+   "label": "ripple.com validator votes yes on LendingProtocol (18/32, 25 needed; 2026-10-21)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendment/565B90CA1AB2B9D42208ED10884188C64F9E19083DECB9634AAF06EB03299509",
+   "side": "supports",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "xrpl-commons",
+   "to": "amd-lending",
+   "label": "its validator votes yes on SingleAssetVault and fixCleanup3_4_0 but not LendingProtocol (2026-10-21)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendment/565B90CA1AB2B9D42208ED10884188C64F9E19083DECB9634AAF06EB03299509",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "interledger",
+   "to": "amd-lending",
+   "label": "its validator votes yes on fixCleanup3_4_0 but not LendingProtocol (2026-10-21)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/amendment/565B90CA1AB2B9D42208ED10884188C64F9E19083DECB9634AAF06EB03299509",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "jp-shimizu-bank",
+   "to": "sbi",
+   "label": "capital and business alliance with SBI Group; SBI reportedly asked for a ~15% stake (Dec 2025)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.nikkei.com/article/DGXZQOUB246U70U5A221C2000000/",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "jp-tsukuba-bank",
+   "to": "sbi",
+   "label": "SBI reportedly asked for a ~15% stake (Dec 2025)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nikkei.com/article/DGXZQOUB246U70U5A221C2000000/",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "usbank",
+   "to": "stellar",
+   "label": "issued USBDC, its own USD stablecoin; live cross-border pilot payment between U.S. Bank entities ran on Stellar (2026-09-09); XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ir.usbank.com/news-events/news/news-details/2026/U-S--Bank-Launches-USBDC-Stablecoin/default.aspx",
+   "side": "contradicts",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "ocbc",
+   "to": "swift-ledger",
+   "label": "cross-border USD tokenised deposit transaction on Swift's ledger with Citibank (Sep 2026); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.ocbc.com/group/media/release/2026/ocbc-tokenised-deposit-ant-international-treasury",
+   "side": "contradicts",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "near",
+   "to": "xrp",
+   "label": "announced XRP on near.com, 'confidential by default': deposit from the XRP Ledger, swap, pay anyone (2026-10-20; NEAR's claim)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/NEARProtocol/status/2112583911410999494",
+   "side": "supports",
+   "added": "2026-10-21T08:22:53-04:00"
+  },
+  {
+   "from": "xrpl",
+   "to": "xrpl-slow-ledger-closings-2026-10-20",
+   "label": "some ledger closings slower than usual; fix in progress per @XRPLOperations (2026-10-20; unresolved as of 2026-10-21 06:27 ET)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/XRPLOperations/status/2112733899558371703",
+   "side": "neutral",
+   "added": "2026-10-21T08:22:53-04:00"
   }
  ]
 }
