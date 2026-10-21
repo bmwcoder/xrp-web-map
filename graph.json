@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-20T19:12:49-04:00",
+  "updated": "2026-10-21T06:07:27-04:00",
   "version": 3
  },
  "nodes": [
@@ -11364,12 +11364,13 @@
    "label": "Ken Kurson",
    "type": "person",
    "handle": "",
-   "summary": "Ex-editor of the Kushner-owned New York Observer and Trump-family associate; joined Ripple board Feb 2017; resigned Oct 2020 when charged federally with cyberstalking (later pardoned by Trump; then charged by Manhattan DA in 2021).",
+   "summary": "Ex-editor of the Kushner-owned New York Observer and Trump-family associate; joined Ripple board Feb 2017; was arrested on a federal cyberstalking charge on Oct 23, 2020, while a Ripple board member (CoinDesk). President Trump pardoned him on Jan 19, 2021, before any trial (CNBC). In a separate state case brought by the Manhattan DA in Aug 2021, he pleaded guilty in Feb 2022 to two misdemeanors (attempted eavesdropping and attempted computer trespass); after completing the plea terms, in Feb 2023 he was allowed to replace that plea with second-degree harassment, a violation-level offense (Reuters; NY Post).",
    "grade": "B",
    "sources": [
     "https://www.coindesk.com/markets/2020/10/23/ken-kurson-trump-family-friend-and-ripple-board-member-arrested-on-cyberstalking-charge-report",
     "https://www.cnbc.com/2021/08/18/ken-kurson-kushner-friend-pardoned-by-trump-charged-by-manhattan-da.html",
-    "https://en.wikipedia.org/wiki/Ripple_Labs"
+    "https://en.wikipedia.org/wiki/Ripple_Labs",
+    "https://www.reuters.com/world/us/jared-kushner-ally-pardoned-by-trump-pleads-guilty-attempting-spy-ex-wife-2022-02-16/"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -12736,11 +12737,12 @@
    "type": "person",
    "handle": "@brynlyllyr",
    "summary": "Ripple General Counsel (2017 leadership page); preceded Stuart Alderoty (GC from Jan 2019).",
-   "why": "Brynly Llyr was Ripple's General Counsel before Stuart Alderoty, and since Dec 2024 she has led California's new crypto-licensing (DFAL) division at the DFPI: a former Ripple insider now regulating crypto.",
+   "why": "Brynly Llyr was Ripple's General Counsel before Stuart Alderoty, and in Dec 2024 California's DFPI appointed her the first Deputy Commissioner of its Digital Financial Assets Law (DFAL) crypto-licensing division, which she had run in an acting capacity since Dec 2023.",
    "grade": "A",
    "sources": [
     "https://web.archive.org/web/20170701/https://ripple.com/company/",
-    "https://x.com/brynlyllyr"
+    "https://x.com/brynlyllyr",
+    "https://dfpi.ca.gov/news/monthly-bulletins/monthly-bulletin-january-2025/"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -13220,12 +13222,13 @@
    "label": "Zach Rector",
    "type": "person",
    "handle": "@ZachRector7",
-   "summary": "XRP YouTuber (98K followers). On Dec 30, 2025 he called Jake Claver's $100-XRP-by-year-end call misleading ('not a chance'). Claver sued him and his company Entrepreneur Exposed LLC for $30M defamation (W.D. Wash., filed Jan 9, 2026), alleging an affiliate deal and a competing brokerage tie. Rector denies ever predicting $1,000 XRP.",
+   "summary": "XRP YouTuber (98K followers). On Dec 30-31, 2025 he posted videos disputing Jake Claver's $100-XRP-by-year-end call ('not a chance') and criticising Claver. Claver and his two companies then sued Rector, his company Entrepreneur Exposed LLC and broker Caleb & Brown for defamation and related claims (W.D. Wash. No. 2:26-cv-00084, filed Jan 9, 2026). On Sep 2, 2026 the court dismissed the amended complaint without prejudice, finding no actionably false statement in Rector's videos, and ruled that Rector and his company may recover attorney's fees under Washington's anti-SLAPP law (UPEPA). The plaintiffs filed a second amended complaint on Sep 24, 2026; the case was still open as of Oct 2026.",
    "grade": "A",
    "sources": [
     "https://x.com/ZachRector7/status/2005843281041604722",
     "https://altcoinist.org/a-viral-xrp-price-debate-just-became-a-30-million-federal-court-battle/",
-    "https://www.pacermonitor.com/public/filings/DLIPD2DQ/Claver_et_al_v_Rector_et_al__wawdce-26-00084__0009.0.pdf"
+    "https://www.pacermonitor.com/public/filings/DLIPD2DQ/Claver_et_al_v_Rector_et_al__wawdce-26-00084__0009.0.pdf",
+    "https://www.antislapplaws.com/index.php?n=Site.Opinion2026WashingtonClaverAttorneyFees"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -13234,10 +13237,11 @@
    "label": "Jake Claver",
    "type": "person",
    "handle": "",
-   "summary": "CEO of Digital Ascension Group and Digital Wealth Partners. Repeatedly called $100 XRP by end-2025 (XRP ended 2025 near $1.8). Filed a $30M defamation suit against Zach Rector on Jan 9, 2026.",
+   "summary": "CEO of Digital Ascension Group and Digital Wealth Partners. Repeatedly called $100 XRP by end-2025 (XRP ended 2025 near $1.8). Sued Zach Rector for defamation on Jan 9, 2026 (W.D. Wash. No. 2:26-cv-00084); the court dismissed the amended complaint without prejudice on Sep 2, 2026, and a second amended complaint was filed Sep 24, 2026.",
    "grade": "B",
    "sources": [
-    "https://altcoinist.org/a-viral-xrp-price-debate-just-became-a-30-million-federal-court-battle/"
+    "https://altcoinist.org/a-viral-xrp-price-debate-just-became-a-30-million-federal-court-battle/",
+    "https://www.antislapplaws.com/index.php?n=Site.Opinion2026WashingtonClaverAttorneyFees"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -49461,11 +49465,11 @@
   {
    "from": "zachrector",
    "to": "claver",
-   "label": "called $100 call misleading (2025-12-30); defendant in $30M suit (2026-01-09)",
-   "grade": "B",
+   "label": "defendant in Claver's defamation suit (W.D. Wash. 2:26-cv-00084, filed 2026-01-09); amended complaint dismissed without prejudice 2026-09-02 (no actionably false statement found; anti-SLAPP fees allowed to Rector); second amended complaint filed 2026-09-24, case open as of Oct 2026",
+   "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://altcoinist.org/a-viral-xrp-price-debate-just-became-a-30-million-federal-court-battle/",
+   "source": "https://www.antislapplaws.com/index.php?n=Site.Opinion2026WashingtonClaverAttorneyFees",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -64619,11 +64623,11 @@
   {
    "from": "sheila-bair",
    "to": "paxos",
-   "label": "director of Paxos Trust Company and parent Kabompo Holdings (rival stablecoin issuer) while advising RLUSD",
-   "grade": "C",
-   "strength": 1,
+   "label": "initial itBit (now Paxos) board member from May 2015; listed on the boards of Paxos Trust Company and parent Kabompo Holdings in Nov 2020; not on Paxos's board page in Oct 2026 (any overlap with her RLUSD advisory role not shown)",
+   "grade": "A",
+   "strength": 2,
    "key": false,
-   "source": "https://www.paxos.com/company",
+   "source": "https://insights.paxos.com/blog/itbit-trading-services-2015-year-in-review",
    "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
@@ -75696,7 +75700,7 @@
   {
    "from": "llyr",
    "to": "secvripple",
-   "label": "SEC sought him as a document custodian (GC 2016–18): talked to platforms about XRP's legal status; SEC: 'its own lawyers caused that confusion'",
+   "label": "SEC sought her as a document custodian (GC 2016–18): talked to platforms about XRP's legal status; SEC: 'its own lawyers caused that confusion'",
    "grade": "A",
    "strength": 2,
    "key": false,
