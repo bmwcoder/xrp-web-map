@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T18:28:47-04:00",
+  "updated": "2026-10-21T20:35:48-04:00",
   "version": 3
  },
  "nodes": [
@@ -18097,11 +18097,12 @@
    "label": "XChainBridge amendment (XLS-38)",
    "type": "event",
    "handle": "",
-   "summary": "XRPL amendment spec XLS-0038 created 2023-02-22; status Final. Authors: mayukha-vadari, scott-determan.",
+   "summary": "XRPL amendment spec XLS-0038 created 2023-02-22; status Final. Never enabled on Mainnet. xrpld PR #8255 (merged 2026-10-20) removes the feature from the code and makes XChainBridge and fixXChainRewardRounding obsolete, so they can no longer be voted for once a release ships it. Authors: mayukha-vadari, scott-determan.",
    "grade": "A",
    "sources": [
     "https://github.com/XRPLF/XRPL-Standards/tree/master/XLS-0038-cross-chain-bridge",
-    "https://xrpl.org/resources/known-amendments"
+    "https://xrpl.org/resources/known-amendments",
+    "https://github.com/XRPLF/rippled/pull/8255"
    ],
    "added": "2026-10-19T23:05:08-04:00",
    "tier": 1
@@ -25065,10 +25066,11 @@
    "label": "Iyo Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; since 2022-10-03 a wholly owned subsidiary of Iyogin Holdings (sole share transfer). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.iyobank.co.jp/english/pdf/RM_the119h.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25175,10 +25177,11 @@
    "label": "Juroku Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; since 2021-10-01 a wholly owned subsidiary of Juroku Financial Group (sole share transfer). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.16fg.co.jp/company/profile/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25276,10 +25279,11 @@
    "label": "Chugoku Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; since 2022-10-03 a wholly owned subsidiary of Chugin Financial Group (sole share transfer). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.chugin-fg.co.jp/assets/media/2022/10/221003_2.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25386,10 +25390,11 @@
    "label": "Hiroshima Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; since 2020-10-01 a wholly owned subsidiary of Hirogin Holdings (sole share transfer). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.hirogin-hd.co.jp/english/company/profile/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25510,10 +25515,11 @@
    "label": "The Bank of Yokohama (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; its parent Concordia Financial Group was renamed Yokohama Financial Group in 2025, and Kanagawa Bank became its consolidated subsidiary in 2023. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.yokohamafg.co.jp/en/company/summary/history/index.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -28455,7 +28461,7 @@
    "label": "fixCleanup3_4_0 amendment (rippled 3.4.0 fix bundle)",
    "type": "event",
    "handle": "",
-   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-20 11:26 ET: 26 of 32 yes against a threshold of 25. It held a majority from 2026-10-09 05:34 ET, but a dropped validator vote reset the two-week clock; it regained majority at 2026-10-21 10:46 ET (ledger majority time 845909182 per a public node's feature RPC), so the earliest activation is now around 2026-11-04 09:46 ET if the majority holds. The earlier ~2026-10-23 date no longer applies. xrpl.org's Sep 16 snapshot still shows 0.00%.",
+   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-21 20:20 ET: 27 of 32 yes against a threshold of 25 (withholding: xrpl-labs.com, gatehub.net, cabbit.tech, anodos.finance, bitso.com). It held a majority from 2026-10-09 05:34 ET, but a dropped validator vote reset the two-week clock; it regained majority at 2026-10-21 10:46 ET (ledger majority time 845909182 per a public node's feature RPC), so the earliest activation is now around 2026-11-04 09:46 ET if the majority holds. The earlier ~2026-10-23 date no longer applies. xrpl.org's Sep 16 snapshot still shows 0.00%.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/amendments",
@@ -28797,13 +28803,14 @@
    "label": "XRPL slow ledger closings (Oct 20, 2026)",
    "type": "event",
    "handle": "",
-   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). A second slow episode followed on 2026-10-21 about 09:17-09:23 ET: ledgers 107806240-107806259 closed 10-40 s apart (vs ~4 s normally), with no halt (ledger close-time read). On 2026-10-21 at 13:54 ET @XRPLOperations said it had begun rolling out a recommended xrpld config change to hub, validator and node operators as an interim mitigation, and was testing fixes for a point release to address the root cause (planned; not yet shipped as of that post). No root cause has been publicly named as of 2026-10-21 14:15 ET.",
+   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). A second slow episode followed on 2026-10-21 about 09:17-09:23 ET: ledgers 107806240-107806259 closed 10-40 s apart (vs ~4 s normally), with no halt (ledger close-time read). On 2026-10-21 at 13:54 ET @XRPLOperations said it had begun rolling out a recommended xrpld config change to hub, validator and node operators as an interim mitigation, and was testing fixes for a point release to address the root cause (planned; not yet shipped as of that post). No root cause had been publicly named as of 2026-10-21 19:45 ET. David Schwartz (X, 2026-10-21 01:31 ET) said slow consensus rounds are 'evidence of some reduction in safety margins' and could be 'an attack or bug'. Historian sampling of ledger close times from 13:21 to 19:43 ET found 250-ledger averages of 3.88-4.12 s, with no sustained slow episode.",
    "grade": "A",
    "sources": [
     "https://x.com/XRPLOperations/status/2112733899558371703",
     "https://x.com/XRPLOperations/status/2112909423110922597",
     "https://xrpscan.com/ledger/107806240",
-    "https://x.com/XRPLOperations/status/2112965763078488088"
+    "https://x.com/XRPLOperations/status/2112965763078488088",
+    "https://x.com/JoelKatz/status/2112778769228567022"
    ],
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -29417,6 +29424,110 @@
     "https://www.sec.gov/Archives/edgar/data/36104/000003610426000054/a3q26earningsrelease.htm"
    ],
    "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "id": "ripple-ctf-letter-2025-03-21",
+   "label": "Ripple letter to the SEC Crypto Task Force (2025-03-21)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple's 10-page response to Commissioner Peirce's Feb 21, 2025 Crypto Task Force RFI. It argues the SEC lacks authority over most digital assets and asks for clear, predictable criteria within existing statutes, leaving new standards to Congress. Mentions XRP 7 times, chiefly as the asset Ripple's products use. Incorporated by reference in Ripple's Oct 20, 2026 letter (fn 2).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/ctf-input-ripple-2025-3-21.pdf",
+    "https://www.sec.gov/featured-topics/crypto-task-force/crypto-task-force-written-input"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "ripple-ctf-letter-2025-05-27",
+   "label": "Ripple letter to the SEC Crypto Task Force (2025-05-27)",
+   "type": "event",
+   "handle": "",
+   "summary": "Follow-up to a May 20, 2025 Task Force meeting and Peirce's May 19 'New Paradigm' speech, on when a non-security crypto asset separates from an investment contract. Cites Judge Torres's holding that XRP itself is not a security. Asks that SEC guidance, including any safe harbor, stay within existing law; gaps are for Congress. Incorporated in the Oct 20, 2026 letter (fn 3).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/ctf-written-input-ripple-052725.pdf",
+    "https://www.sec.gov/featured-topics/crypto-task-force/crypto-task-force-written-input"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "ripple-ctf-letter-2025-05-28",
+   "label": "Ripple letter on regulatory sandboxes (2025-05-28)",
+   "type": "event",
+   "handle": "",
+   "summary": "Ripple letter to the SEC Crypto Task Force on regulatory sandboxes (custody, tokenization, trading). Argues that sandboxes should simulate production-like conditions under regulatory oversight. Not among the four letters the Oct 20, 2026 letter cites.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/ctf-written-input-ripple-letter-regulatory-sandboxes-052825.pdf",
+    "https://www.sec.gov/featured-topics/crypto-task-force/crypto-task-force-written-input"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "ripple-ctf-letter-2026-01-09",
+   "label": "Ripple letter to the SEC Crypto Task Force (2026-01-09)",
+   "type": "event",
+   "handle": "",
+   "summary": "Signed by Stuart Alderoty, Sameer Dhond and Deborah McCrimmon. On market-structure drafts (CLARITY and Senate drafts), it urges a test based on enforceable legal rights and promises, not expectations of profit, and rejects 'decentralization' as a legal metric. Does not mention XRP. Cited in the SEC's Reg Crypto Assets proposing release; incorporated in the Oct 20, 2026 letter (fn 4).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/ripple-letter-crypto-task-force-010926.pdf",
+    "https://www.sec.gov/featured-topics/crypto-task-force/crypto-task-force-written-input"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "ripple-sec-letter-2026-05-07",
+   "label": "Ripple comment on the SEC/CFTC crypto interpretation (2026-05-07)",
+   "type": "event",
+   "handle": "",
+   "summary": "Letter to SEC Secretary Vanessa Countryman on File S7-2026-09 (Rel. 33-11412). It welcomes the interpretation and asks for more guidance on three points: the common-enterprise prong; what counts as an issuer representation or promise; and the reasonableness standard for secondary-market buyers. Does not mention XRP. Incorporated in the Oct 20, 2026 letter (fn 5).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/comments/S7-2026-09/s7202609-770968-2360818.pdf",
+    "https://www.sec.gov/rules-regulations/public-comments/s7-2026-09"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "ripple-ctf-letter-2026-05-22",
+   "label": "Ripple follow-up letter to the SEC Crypto Task Force (2026-05-22)",
+   "type": "event",
+   "handle": "",
+   "summary": "Follow-up to a Mar 20, 2026 Task Force meeting. Ripple asks for Rule 15c3-1/15c3-3 changes or guidance so 'Qualified Payment Stablecoins' count as allowable broker-dealer assets, citing RLUSD price data. It also proposes redrafting a staff FAQ so that the readily-marketable treatment given to bitcoin and ether covers every 'digital commodity' under Rel. 33-11412. The letter records that the Task Force 'did not wish to be seen as picking winners or losers by referencing XRP or other assets.'",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/ctf-written-input-ripple-052226.pdf",
+    "https://www.sec.gov/featured-topics/crypto-task-force/crypto-task-force-written-input"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "yellow-network",
+   "label": "Yellow Network",
+   "type": "company",
+   "handle": "@Yellow",
+   "summary": "Decentralized clearing network built on state channels. Its Layer-3 'Yellow Clearnet' settles off-chain trades on-chain. Founded in 2018, per its own releases. It raised a $10M seed round led by Chris Larsen (Sep 17, 2024) and integrated Clearnet with the XRPL EVM Sidechain (announced Oct 23, 2025). It is not Yellow Card, a different company. The yellow.com news site is affiliated with Yellow, not independent.",
+   "grade": "A",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/yellow-network-integrates-with-xrpl-evm-sidechain-to-upgrade-rwa-trading-302595443.html",
+    "https://x.com/Yellow/status/1981370779842277758",
+    "https://decrypt.co/249869/ripple-co-founder-chris-larsen-leads-10-million-round-for-defi-protocol-yellow-network"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "tradr-2x-sndk",
+   "label": "Tradr 2x Long SNDK Daily ETF",
+   "type": "etf",
+   "handle": "",
+   "summary": "Leveraged single-stock ETF (series S000100925 of Investment Managers Series Trust II). Its Form N-PORT for the period ending 2026-07-31 lists 'Hidden Road Ripple Prime' as counterparty to total return swaps on SanDisk at OBFR + 400 bps. No XRP leg.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1587982/000119312526400654/primary_doc.xml"
+   ],
+   "added": "2026-10-21T20:31:21-04:00"
   }
  ],
  "edges": [
@@ -85828,11 +85939,11 @@
   {
    "from": "clearpool",
    "to": "xrpl",
-   "label": "XRPL RLUSD credit vault is still Devnet-only. It needs SingleAssetVault (19 of 32 validators voting yes) and LendingProtocolV1_1 (17 of 32), both short of the 25 needed and not enabled (XRPScan amendments, Oct 20 2026)",
+   "label": "XRPL RLUSD credit vault is still Devnet-only. It needs SingleAssetVault (19 of 32 validators voting yes) and LendingProtocolV1_1 (17 of 32), both short of the 25 needed and not enabled (XRPScan amendments, re-checked Oct 21 2026 20:20 ET)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://xrpscan.com/amendments",
+   "source": "https://api.xrpscan.com/api/v1/amendments",
    "side": "contradicts",
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -96384,6 +96495,325 @@
    "source": "https://ir.usbank.com/news-events/news/news-details/2026/U-S--Bank-Launches-USBDC-Stablecoin/default.aspx",
    "side": "contradicts",
    "added": "2026-10-21T18:24:12-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-ctf-letter-2025-03-21",
+   "label": "filed letter to the SEC Crypto Task Force (2025-03-21)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-input-ripple-2025-3-21.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-ctf-letter-2025-03-21",
+   "to": "crypto-tf",
+   "label": "addressed to the SEC Crypto Task Force (2025-03-21)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-input-ripple-2025-3-21.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-ctf-letter-2025-05-27",
+   "label": "filed letter to the SEC Crypto Task Force (2025-05-27)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-052725.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-ctf-letter-2025-05-27",
+   "to": "crypto-tf",
+   "label": "addressed to the SEC Crypto Task Force (2025-05-27)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-052725.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-ctf-letter-2025-05-28",
+   "label": "filed letter to the SEC Crypto Task Force (2025-05-28)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-letter-regulatory-sandboxes-052825.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-ctf-letter-2025-05-28",
+   "to": "crypto-tf",
+   "label": "addressed to the SEC Crypto Task Force (2025-05-28)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-letter-regulatory-sandboxes-052825.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-ctf-letter-2026-01-09",
+   "label": "filed letter to the SEC Crypto Task Force (2026-01-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/files/ripple-letter-crypto-task-force-010926.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-ctf-letter-2026-01-09",
+   "to": "crypto-tf",
+   "label": "addressed to the SEC Crypto Task Force (2026-01-09)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ripple-letter-crypto-task-force-010926.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-ctf-letter-2026-05-22",
+   "label": "filed letter to the SEC Crypto Task Force (2026-05-22)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-052226.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-ctf-letter-2026-05-22",
+   "to": "crypto-tf",
+   "label": "addressed to the SEC Crypto Task Force (2026-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-052226.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-sec-letter-2026-05-07",
+   "label": "filed comment on the SEC/CFTC interpretation, File S7-2026-09 (2026-05-07)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-09/s7202609-770968-2360818.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-sec-letter-2026-05-07",
+   "to": "sec",
+   "label": "comment to SEC Secretary Countryman on Rel. 33-11412 (2026-05-07)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-09/s7202609-770968-2360818.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "ripple-ctf-letter-2025-03-21",
+   "label": "incorporates this earlier Ripple letter by reference (fn 2, Oct 20 2026 letter)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "ripple-ctf-letter-2025-05-27",
+   "label": "incorporates this earlier Ripple letter by reference (fn 3, Oct 20 2026 letter)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "ripple-ctf-letter-2026-01-09",
+   "label": "incorporates this earlier Ripple letter by reference (fn 4, Oct 20 2026 letter)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-reg-crypto-letter-2026-10-20",
+   "to": "ripple-sec-letter-2026-05-07",
+   "label": "incorporates this earlier Ripple letter by reference (fn 5, Oct 20 2026 letter)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102200-3881828.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple-ctf-letter-2026-05-22",
+   "to": "xrp",
+   "label": "records that the SEC Crypto Task Force declined to single out XRP in a net-capital FAQ; Ripple asks for treatment covering all 'digital commodities' (2026-05-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ctf-written-input-ripple-052226.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "ripple-ctf-letter-2026-01-09",
+   "label": "co-signed as Ripple Chief Legal Officer (2026-01-09)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/ripple-letter-crypto-task-force-010926.pdf",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "alderoty",
+   "to": "ripple-sec-letter-2026-05-07",
+   "label": "listed as co-signer, Ripple Chief Legal Officer (SEC docket, 2026-05-07)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/public-comments/s7-2026-09",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "yellow-network",
+   "label": "lead investor in Yellow Network $10M seed round (2024-09-17)",
+   "grade": "B",
+   "strength": 4,
+   "key": false,
+   "source": "https://decrypt.co/249869/ripple-co-founder-chris-larsen-leads-10-million-round-for-defi-protocol-yellow-network",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "larsen",
+   "to": "yellow-network",
+   "label": "posts 'Proud to be an investor in @Yellow' as it integrates with the XRPL EVM sidechain (2025-11-07)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/chrislarsensf/status/1986902159582236788",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "yellow-network",
+   "to": "xrpl-evm",
+   "label": "integrated Yellow Clearnet with the XRPL EVM Sidechain (announced 2025-10-23)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/Yellow/status/1981370779842277758",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "peersyst",
+   "to": "yellow-network",
+   "label": "welcomed Yellow's XRPL EVM Sidechain integration, 'backed by @chrislarsensf' (2025-10-23)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/Peersyst/status/1981411840727843264",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "yellow-network",
+   "to": "xrp",
+   "label": "promotional claim: 'zero-gas execution with @XRP settlement' (Yellow X posts, Oct 20-21 2026); not confirmed by XRP or Ripple",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/Yellow/status/2112755761801781528",
+   "side": "supports",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "xrp",
+   "to": "yellow-network",
+   "label": "@XRP replied 'thanks @Yellow' to Yellow's 'we saved an open channel for you' post (2026-10-20); no partnership stated",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/XRP/status/2112562416198598782",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "tradr-2x-sndk",
+   "label": "total-return-swap counterparty on SanDisk at OBFR + 400 bps (N-PORT, period ending 2026-07-31)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1587982/000119312526400654/primary_doc.xml",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "rippled-3-5-0-rc1",
+   "to": "amd-lending",
+   "label": "3.5.0-rc1 registers LendingProtocolV1_2 as an unsupported placeholder (Supported::No, default no; requires LendingProtocolV1_1; FixedPrecision plus cash-basis for new vaults), so a third lending revision is queued before V1 is live (tag of Oct 20 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/XRPLF/rippled/3.5.0-rc1/include/xrpl/protocol/detail/features.macro",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "rippled-3-5-0-rc1",
+   "to": "amd-vault",
+   "label": "3.5.0-rc1 includes vault and lending fixes: waive CanTransfer on loan default (#8231), asset auth on LoanBrokerDelete (#8204), transfer fee on third-party vault withdrawals (#8267), FixedPrecision accounting (#8257, #8258, #8260, #8271, #8460) (merged Oct 13-15 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/XRPLF/rippled/compare/3.4.1...3.5.0-rc1",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "xrpl",
+   "to": "xrpl-slow-ledger-closings-2026-10-20",
+   "label": "ledger close-time scan (every 5th ledger, Oct 20 00:00 to Oct 21 20:28 ET): 6 slow episodes of about 1-6 min (Oct 20 11:08, 11:49, 15:10, 20:49 ET; Oct 21 09:17, 10:06 ET); none after 10:08 ET Oct 21",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/ledger/107806240",
+   "side": "neutral",
+   "added": "2026-10-21T20:31:21-04:00"
   }
  ]
 }
