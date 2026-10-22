@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T08:18:05-04:00",
+  "updated": "2026-10-22T08:30:27-04:00",
   "version": 3
  },
  "nodes": [
@@ -22920,10 +22920,11 @@
    "label": "Boston Consulting Group (BCG)",
    "type": "company",
    "handle": "",
-   "summary": "Global consultancy; co-authored a tokenisation report with Ripple projecting $18.9T in tokenised RWAs by 2033 (2025-04-07).",
+   "summary": "Global consultancy; co-authored a tokenisation report with Ripple projecting $18.9T in tokenised RWAs by 2033 (2025-04-07). Ripple later commissioned BCG's custody report 'Beyond Safekeeping: Custody as the Operating Layer Beneath Digital Finance' (Ripple summary 2026-10-21).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/ripple-press/global-financial-infrastructure-entering-a-new-era/"
+    "https://ripple.com/ripple-press/global-financial-infrastructure-entering-a-new-era/",
+    "https://ripple.com/insights/why-custody-is-the-foundation-of-digital-finance/"
    ],
    "added": "2026-10-20T00:11:15-04:00"
   },
@@ -25131,10 +25132,11 @@
    "label": "San-in Godo Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating and listed under its own name (TSE Prime 8381). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.gogin.co.jp/about/corporation/profile/index.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25143,10 +25145,11 @@
    "label": "Shikoku Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Kochi; Mar 2026 profile); member of the Shikoku Alliance with Awa, Hyakujushi and Iyo banks. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.shikokubank.co.jp/profile/profile.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25155,10 +25158,11 @@
    "label": "77 Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Sendai; Mar 2026 figures on its company page). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.77bank.co.jp/77bank/company/profile.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25310,10 +25314,11 @@
    "label": "Tokyo Star Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating; its shareholder page names CTBC Bank Co., Ltd. (Taiwan) as its shareholder. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.tokyostarbank.co.jp/foreign/en/profile/shareholder/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25322,10 +25327,11 @@
    "label": "Toho Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Fukushima; Mar 2026 figures on its company page). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.tohobank.co.jp/company/information/data/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25346,10 +25352,11 @@
    "label": "Nishi-Nippon City Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating; wholly owned by Nishi-Nippon Financial Holdings (TSE 7189) since 2016-10-03. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.nnfh.co.jp/corporate/summary/history.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25384,10 +25391,11 @@
    "label": "Hyakugo Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Tsu, Mie; Mar 2026 profile; listed since 1973). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.hyakugo.co.jp/about/profile/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25422,10 +25430,11 @@
    "label": "North Pacific Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating and listed under its own name (Hokuyo Bank; TSE Prime and Sapporo). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.hokuyobank.co.jp/about/company/profile.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25434,10 +25443,11 @@
    "label": "Hokuriku Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating (Toyama); a subsidiary of Hokuhoku Financial Group (TSE 8377, est. 2003-09-26), which also owns Hokkaido Bank. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.hokuhoku-fg.co.jp/info/overview/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25471,10 +25481,11 @@
    "label": "Musashino Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating and listed (TSE Prime 8336); in the Chiba-Musashino Alliance with Chiba Bank since 2016 (Phase 3 plan 2026-04 to 2031-03). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.musashinobank.co.jp/ir/news/pdf/2025/chibamusashinoalliance20260316.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25534,10 +25545,11 @@
    "label": "Bank of The Ryukyus (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Naha; Mar 2026 profile). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.ryugin.co.jp/corporate/about/profile/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -29549,6 +29561,66 @@
     "https://xrpscan.com/tx/C1C478B1B777CCB4909041847E47CA576BFBB69DF17110F6D1BC44707399FD35"
    ],
    "added": "2026-10-22T02:26:15-04:00"
+  },
+  {
+   "id": "hokuhoku-fg",
+   "label": "Hokuhoku Financial Group",
+   "type": "company",
+   "handle": "",
+   "summary": "Japanese bank holding company (Toyama; TSE Prime 8377 and Sapporo), est. 2003-09-26 (renamed 2004-09-01). Owns Hokuriku Bank and Hokkaido Bank.",
+   "grade": "A",
+   "sources": [
+    "https://www.hokuhoku-fg.co.jp/info/overview/"
+   ],
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "id": "nishi-nippon-fh",
+   "label": "Nishi-Nippon Financial Holdings",
+   "type": "company",
+   "handle": "",
+   "summary": "Japanese bank holding company (Fukuoka; TSE 7189), set up 2016-10-03 by joint share transfer of Nishi-Nippon City Bank, Nagasaki Bank and Nishi-Nippon Credit Guarantee.",
+   "grade": "A",
+   "sources": [
+    "https://www.nnfh.co.jp/corporate/summary/history.html"
+   ],
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "id": "ctbc-bank",
+   "label": "CTBC Bank (Taiwan)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Taiwanese commercial bank (founded 1966-03-14), core company of CTBC Financial Holding; named by Tokyo Star Bank as its shareholder.",
+   "grade": "A",
+   "sources": [
+    "https://www.tokyostarbank.co.jp/foreign/en/profile/shareholder/"
+   ],
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "id": "anz",
+   "label": "ANZ",
+   "type": "bank",
+   "handle": "",
+   "summary": "Australia and New Zealand Banking Group. Completed live corporate-treasury USD tokenised deposit payments between Melbourne and New York for BHP with Citi on Swift's blockchain ledger (reported Oct 6, 2026). XRPL not named.",
+   "grade": "B",
+   "sources": [
+    "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger"
+   ],
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "id": "mashreq",
+   "label": "Mashreq",
+   "type": "bank",
+   "handle": "",
+   "summary": "UAE bank. Completed a live tokenised deposit transaction with Citi on Swift's blockchain ledger (Oct 5, 2026). Its release says the ledger was designed by 40+ institutions and 17 banks have piloted it for tokenised deposits since July 2026. XRPL not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.mashreq.com/en/uae/news/2026/october/mashreq-citi-swift/"
+   ],
+   "added": "2026-10-22T08:25:18-04:00"
   }
  ],
  "edges": [
@@ -96890,6 +96962,127 @@
    "source": "https://xrpscan.com/tx/C1C478B1B777CCB4909041847E47CA576BFBB69DF17110F6D1BC44707399FD35",
    "side": "neutral",
    "added": "2026-10-22T02:26:15-04:00"
+  },
+  {
+   "from": "jp-hokuriku-bank",
+   "to": "hokuhoku-fg",
+   "label": "subsidiary of Hokuhoku Financial Group (holding company since 2003)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://www.hokuhoku-fg.co.jp/info/overview/",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "jp-nishi-nippon-city-bank",
+   "to": "nishi-nippon-fh",
+   "label": "wholly owned subsidiary since 2016-10-03",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://www.nnfh.co.jp/corporate/summary/history.html",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "jp-tokyo-star-bank",
+   "to": "ctbc-bank",
+   "label": "shareholder: CTBC Bank (Taiwan), per Tokyo Star's shareholder page",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://www.tokyostarbank.co.jp/foreign/en/profile/shareholder/",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "jp-musashino-bank",
+   "to": "jp-chiba-bank",
+   "label": "Chiba-Musashino Alliance (since 2016-03); Phase 3 plan 2026-04 to 2031-03",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.musashinobank.co.jp/ir/news/pdf/2025/chibamusashinoalliance20260316.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "bcg",
+   "to": "ripple",
+   "label": "Ripple-commissioned custody report 'Beyond Safekeeping' (2026-10-21)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/insights/why-custody-is-the-foundation-of-digital-finance/",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "schwartz",
+   "to": "btctalk2011",
+   "label": "confirmed thread as the 'starting point' for Ripple and Stellar (2019-06-16)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://bitcointalk.org/index.php?topic=10193.20",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "schwartz",
+   "to": "fuzzy",
+   "label": "opened gifted Fuzzycards packs on video, sender unknown (2026-10-21)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/JoelKatz/status/2113060996340441253",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "jp-shikoku-bank",
+   "to": "jp-iyo-bank",
+   "label": "Shikoku Alliance partner banks (independent management; JPX agreement 2017-10-10)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.jpx.co.jp/corporate/news/news-releases/0060/20171010-02.html",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "jp-shikoku-bank",
+   "to": "jp-awa-bank",
+   "label": "Shikoku Alliance partner banks (independent management; JPX agreement 2017-10-10)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.jpx.co.jp/corporate/news/news-releases/0060/20171010-02.html",
+   "side": "neutral",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "anz",
+   "to": "swift-ledger",
+   "label": "live USD tokenised deposit payments Melbourne to New York for BHP with Citi on Swift's blockchain ledger (Oct 2026); XRPL not named",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.finextra.com/newsarticle/48534/anz-completes-cross-border-tokenised-deposit-payment-with-swift-ledger",
+   "side": "contradicts",
+   "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "mashreq",
+   "to": "swift-ledger",
+   "label": "live tokenised deposit transaction with Citi on Swift's blockchain ledger (Oct 5, 2026); Swift says 17 banks piloting since July 2026; XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.mashreq.com/en/uae/news/2026/october/mashreq-citi-swift/",
+   "side": "contradicts",
+   "added": "2026-10-22T08:25:18-04:00"
   }
  ]
 }
