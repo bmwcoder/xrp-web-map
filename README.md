@@ -13,10 +13,12 @@ Research data only. This is not financial advice. No holdings, orders or portfol
 | `build.py` | Validates graph.json, computes the layout, and regenerates index.html. When the output changes it stamps `meta.updated` with the current America/New_York time (in graph.json and the page). It's idempotent: re-running with no changes leaves both files byte-identical. |
 | `layout.py` | Deterministic sector layout (fixed x/y for every node). Called by build.py. |
 | `layout-cache.json` | Last build's positions and sector wedges (local only, not published). It keeps existing nodes in place between builds. |
-| `publish.sh` | Rebuilds, runs `verify_public.py` (aborts on any failure), then pushes index.html, graph.json and README.md to GitHub Pages. |
+| `publish.sh` | Rebuilds, runs `verify_public.py` (aborts on any failure), then pushes index.html, graph.json, README.md and holders.json to GitHub Pages. |
 | `verify_public.py` | Checks the built public output: privacy, private terms, no CORRECTION labels, sources, key-link count + both sides, every shipped UI feature, stories, why lines, portfolio terms, node-count shrink guard. |
 | `PUBLISH-CHECKLIST.md` | The canonical step list every publish follows. |
 | `vis-network.min.js` | Local copy of vis-network 9.1.9 (inlined at build time). |
+| `holders/refresh_holders.py` | Builds `holders.json` (XRP holder rankings, tiers only) from public XRPL ledger data and XRPScan. See "XRP holder rankings" below. |
+| `holders.json` | Tier table for the holder-rankings view. build.py embeds it in index.html; publish.sh also publishes it. |
 
 ## Viewing
 - **Phone or shared link:** https://bmwcoder.github.io/xrp-web-map/ (once published).
@@ -30,7 +32,7 @@ Dots can't be dragged (`interaction.dragNodes: false`, physics off), so every vi
 - **Spacing** (0.6×–3×, default 1×) scales every node's fixed position from the center, along with the sector wedges and titles. Dot and label sizes stay the same, so a higher setting spreads things out and reduces clutter. The page remembers the value in `localStorage` (`xrpweb.spacing`).
 - **Guided view (default).** The page opens on **★ Key links**: only the hand-curated `"key": true` edges (about 60-90), with their dots spread out and labelled at a readable size (labels that would overlap are hidden until you zoom). XRP, Ripple and the XRPL always stay visible. The big **Explore all N dots →** button (or ★ Key links again) switches to the full map; **★ Back to key links** returns. Add `#all` to the URL to open straight on the full map.
 - **How to read this** card: shown once on first visit (remembered in `localStorage` as `xrpweb.howto.v1`); the **?** button next to the title reopens it.
-- **⚙ Filters** shows or hides the type and sector chips (and, on a phone, the grade/side/date/Spacing/Reset controls).
+- **⚙ Filters** (in the sidebar) shows or hides the type and sector chips.
 - **Story buttons** (row under the filters): each isolates one cluster with a 2-sentence plain-English caption. They are defined in `stories.json` (id, title, caption, `nodes` list and/or a `rule` such as `{"side":"contradicts","grade":["A","B"],"minStrength":3}` or `[{"grade":["X"]},{"nodeGrade":["X"]}]`). Captions may only use facts already on the map's edges. `verify_public.py` fails if a story names a missing node id.
 - **🌉 Bridges**: dots whose A/B links reach 3+ different sectors, ranked by sectors reached then link strength (XRP, Ripple and the XRPL excluded); the top 25 are highlighted with a ranked list. Computed at build time by `netstats.py`.
 - **🔺 Closed loops**: triangles where all three sides are A/B evidence with strength 3+, excluding XRP/Ripple/XRPL, ranked by evidence strength; the top 30 are listed and tapping one isolates it. Also `netstats.py`.
@@ -38,6 +40,35 @@ Dots can't be dragged (`interaction.dragNodes: false`, physics off), so every vi
 - **Short names**: an optional node field `short` (≤28 characters) used for labels in the guided, story, bridges and loops views; without it the page shortens long labels itself ("On-Demand Liquidity (ODL, ex-xRapid)" → "ODL"). Set it with `{"kind":"short","id","short":"..."}` lines in `queue/shorts.jsonl`.
 - **Bridges** list a plain-words line of the groups each top bridge connects; **Closed loops** rank triangles inside one organization or family (shared name, "became"/"renamed" links, or 2+ ownership/role links) after cross-organization loops.
 - **Publish log**: `PUBLISH-LOG.md`, one line per push, appended by publish.sh.
+
+## Sidebar
+All controls live in a collapsible left sidebar: the **🗺 Map / 🏆 XRP holder rankings** switch at the top, then the title, **?** help, search,
+**★ Key links**, **⚙ Filters** (grade, side, new-since date, Reset, type and group chips), **🎛 View** (timeline + ▶ Play, line opacity, min links,
+Spacing), the story buttons with **🌉 Bridges** and **🔺 Closed loops**, the progress line, the legend, **♥ Support the map** and the disclaimer link.
+- **Desktop:** the sidebar is open by default; the « / ☰ button in the top-left corner collapses it so the map gets the whole screen, and stays visible when collapsed.
+- **Phone (≤700px):** a slide-in drawer, closed by default, opened with the ☰ button; tap outside it, ✕ or Esc to close. Picking a story, Bridges, Loops, Key links or a search hit closes it so the map shows.
+- The open/closed state is remembered per form factor in `localStorage` (`xrpweb.nav.desk`, `xrpweb.nav.phone`).
+
+## XRP holder rankings
+The **🏆 XRP holder rankings** button switches the main view to a tier table: XRP Ledger accounts ranked by the XRP in the account, in tiers
+(Top 10%, 9%, 8% … 2%, 1% in 1% steps, then 0.5%, 0.1% and 0.01%). Each row reads like "Top 1%: N+ XRP" (the minimum XRP an account needs to rank in that tier), with the number of accounts in the
+tier and their share of all XRP, the as-of ledger and time, and links to the sources. There is no per-account list: no addresses and no labels. `#holders` in the URL opens it directly;
+**← Back to the map** (or 🗺 Map) returns.
+
+Data: `python3 holders/refresh_holders.py` writes `holders.json`, then `python3 build.py` embeds it.
+- **Full mode (default):** reads every account balance (about 8.3 million AccountRoot objects) from one pinned validated ledger with `ledger_data`
+  on the public xrplcluster.com / xrpl.ws servers, in 16 parallel key ranges (`--workers 6` by default). It takes **about 35-45 minutes** (about 9,800 requests) and uses ~1 GB of RAM at peak.
+- **Cross-checks (all must pass, or holders.json is left unchanged and the script exits 1):** account count vs XRPScan's AccountRoot count (±1%),
+  ledger total_coins vs XRPScan total_coins (±0.05%), account balances + XRPScan's escrowed total vs total_coins (±0.5%), and the scanned balances of
+  XRPScan's top 1,000 accounts vs XRPScan's nightly rich list (≥850 within 5%).
+- **Resumable:** finished key ranges are checkpointed in `holders/.cache/` and reused by a rerun within 3 hours (same ledger); `--no-resume` starts fresh.
+  The cache is deleted after a successful run.
+- **`--recompute`:** re-derives the tiers in seconds from the last full run's saved, sorted balances (`holders/.cache/last-scan-<ledger>.npy`, ~66 MB, no addresses; local only, never published). Use it after changing `TIERS`.
+- **`--quick`:** XRPScan only (a few seconds). Only XRPScan's top 10,000 accounts are available that way, so only the top 0.1% and 0.01% tiers get
+  numbers; the others say "not covered". The page shows which mode produced the data.
+- Escrowed XRP (about 31.5B, nearly all Ripple's) sits in escrow objects, not account balances, so it is not in the tiers; the page says so.
+- XRPScan data is CC BY-NC-SA 4.0 and is credited on the page. holders.json carries only public ledger aggregates; `verify_public.py` check (k)
+  fails on any account address, any per-account list, portfolio data, or private terms in it.
 
 ## Layout
 `build.py` calls `layout.py`, which computes fixed x/y positions. They're embedded in the page as `_layout`; graph.json itself never stores positions.

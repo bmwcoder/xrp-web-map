@@ -1,0 +1,222 @@
+{
+ "schema": 2,
+ "mode": "full",
+ "as_of": {
+  "ledger_index": 107826487,
+  "ledger_close_utc": "2026-10-22T11:38:20Z",
+  "ledger_close_et": "2026-10-22T07:38:20-04:00",
+  "xrpscan_snapshot_utc": "2026-10-21T20:25:22Z"
+ },
+ "generated_et": "2026-10-22T08:08:22-04:00",
+ "accounts_total": 8256115,
+ "coverage": "All 8,256,115 XRP Ledger accounts in validated ledger #107,826,487 were read. Tiers use the XRP in each account itself; the 31,535,232,987 XRP held in escrow (nearly all Ripple's) is not in any account balance and is not counted in the tiers.",
+ "supply": {
+  "total_xrp": 99985586931,
+  "escrowed_xrp": 31535232987,
+  "burned_xrp": 14412510,
+  "in_accounts_xrp": 68450266502
+ },
+ "tiers": [
+  {
+   "tier": "Top 10%",
+   "pct": 10,
+   "accounts": 825611,
+   "covered": true,
+   "min_xrp": 2070.0,
+   "total_xrp": 67524257319,
+   "share_of_supply_pct": 67.53,
+   "max_xrp": 2606.99
+  },
+  {
+   "tier": "Top 9%",
+   "pct": 9,
+   "accounts": 743050,
+   "covered": true,
+   "min_xrp": 2606.99,
+   "total_xrp": 67331806142,
+   "share_of_supply_pct": 67.34,
+   "max_xrp": 3300.0
+  },
+  {
+   "tier": "Top 8%",
+   "pct": 8,
+   "accounts": 660489,
+   "covered": true,
+   "min_xrp": 3300.0,
+   "total_xrp": 67087512533,
+   "share_of_supply_pct": 67.1,
+   "max_xrp": 4272.76
+  },
+  {
+   "tier": "Top 7%",
+   "pct": 7,
+   "accounts": 577928,
+   "covered": true,
+   "min_xrp": 4272.76,
+   "total_xrp": 66775323843,
+   "share_of_supply_pct": 66.78,
+   "max_xrp": 5351.34
+  },
+  {
+   "tier": "Top 6%",
+   "pct": 6,
+   "accounts": 495366,
+   "covered": true,
+   "min_xrp": 5351.34,
+   "total_xrp": 66374792667,
+   "share_of_supply_pct": 66.38,
+   "max_xrp": 7252.3
+  },
+  {
+   "tier": "Top 5%",
+   "pct": 5,
+   "accounts": 412805,
+   "covered": true,
+   "min_xrp": 7252.3,
+   "total_xrp": 65858846048,
+   "share_of_supply_pct": 65.87,
+   "max_xrp": 10006.0
+  },
+  {
+   "tier": "Top 4%",
+   "pct": 4,
+   "accounts": 330244,
+   "covered": true,
+   "min_xrp": 10006.0,
+   "total_xrp": 65138602204,
+   "share_of_supply_pct": 65.15,
+   "max_xrp": 13670.72
+  },
+  {
+   "tier": "Top 3%",
+   "pct": 3,
+   "accounts": 247683,
+   "covered": true,
+   "min_xrp": 13670.72,
+   "total_xrp": 64201854983,
+   "share_of_supply_pct": 64.21,
+   "max_xrp": 21334.59
+  },
+  {
+   "tier": "Top 2%",
+   "pct": 2,
+   "accounts": 165122,
+   "covered": true,
+   "min_xrp": 21334.59,
+   "total_xrp": 62770978363,
+   "share_of_supply_pct": 62.78,
+   "max_xrp": 43540.09
+  },
+  {
+   "tier": "Top 1%",
+   "pct": 1,
+   "accounts": 82561,
+   "covered": true,
+   "min_xrp": 43540.09,
+   "total_xrp": 60282143652,
+   "share_of_supply_pct": 60.29,
+   "max_xrp": 79001.55
+  },
+  {
+   "tier": "Top 0.5%",
+   "pct": 0.5,
+   "accounts": 41280,
+   "covered": true,
+   "min_xrp": 79001.55,
+   "total_xrp": 57936292228,
+   "share_of_supply_pct": 57.94,
+   "max_xrp": 272373.98
+  },
+  {
+   "tier": "Top 0.1%",
+   "pct": 0.1,
+   "accounts": 8256,
+   "covered": true,
+   "min_xrp": 272373.98,
+   "total_xrp": 53612420963,
+   "share_of_supply_pct": 53.62,
+   "max_xrp": 3800375.49
+  },
+  {
+   "tier": "Top 0.01%",
+   "pct": 0.01,
+   "accounts": 825,
+   "covered": true,
+   "min_xrp": 3800375.49,
+   "total_xrp": 48469242004,
+   "share_of_supply_pct": 48.48,
+   "max_xrp": null
+  }
+ ],
+ "crosschecks": [
+  {
+   "check": "ledger total_coins (xrplcluster) vs XRPScan total_coins",
+   "value": 99985586931189114,
+   "reference": 99985587490413964,
+   "diff_pct": -0.0,
+   "tolerance_pct": 0.05,
+   "ok": true,
+   "unit": "drops"
+  },
+  {
+   "check": "accounts scanned vs XRPScan AccountRoot count (nightly)",
+   "value": 8256115,
+   "reference": 8254159,
+   "diff_pct": 0.024,
+   "tolerance_pct": 1.0,
+   "ok": true,
+   "unit": "accounts"
+  },
+  {
+   "check": "XRP in account balances + XRPScan escrowed vs ledger total_coins",
+   "value": 99985499489258211,
+   "reference": 99985586931189114,
+   "diff_pct": -0.0,
+   "tolerance_pct": 0.5,
+   "ok": true,
+   "unit": "drops"
+  },
+  {
+   "check": "XRPScan top-1,000 accounts found in the scan within 5% of XRPScan's nightly balance",
+   "value": 971,
+   "reference": 1000,
+   "diff_pct": -2.9,
+   "tolerance_pct": 15,
+   "ok": true,
+   "unit": "accounts"
+  }
+ ],
+ "crosschecks_ok": true,
+ "notes": [
+  "An account is not a person: exchanges and custodians hold XRP for many customers in a few accounts, and one person can use many accounts.",
+  "Share of supply = XRP in the tier's accounts / all XRP in existence (ledger total_coins, incl. escrow)."
+ ],
+ "sources": [
+  {
+   "name": "XRP Ledger, validated ledger via xrplcluster.com",
+   "url": "https://xrplcluster.com",
+   "used_for": "every account balance and total supply"
+  },
+  {
+   "name": "XRPScan rich list API (top 10,000, nightly)",
+   "url": "https://api.xrpscan.com/api/v1/balances",
+   "used_for": "cross-check"
+  },
+  {
+   "name": "XRPScan XRP facts (escrowed, burned, total)",
+   "url": "https://api.xrpscan.com/api/v1/fact/XRP",
+   "used_for": "escrow total, supply cross-check"
+  },
+  {
+   "name": "XRPScan ledger object counts",
+   "url": "https://api.xrpscan.com/api/v1/fact/ObjectCount",
+   "used_for": "account-count cross-check"
+  },
+  {
+   "name": "XRPScan API licence (CC BY-NC-SA 4.0)",
+   "url": "https://docs.xrpscan.com/api-documentation/introduction",
+   "used_for": "attribution"
+  }
+ ],
+ "runtime_s": 1804
+}
