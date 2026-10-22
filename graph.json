@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-21T20:35:48-04:00",
+  "updated": "2026-10-22T02:31:06-04:00",
   "version": 3
  },
  "nodes": [
@@ -25017,10 +25017,11 @@
    "label": "Ashikaga Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating; wholly owned by Mebuki Financial Group since the Oct 2016 integration of Ashikaga Holdings and Joyo Bank. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.ashikagabank.co.jp/ashigin/company.html"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25029,10 +25030,11 @@
    "label": "Awa Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating as a standalone listed bank (TSE 8388; FY2026/3 results filed 2026-05-15). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.awabank.co.jp/about/assets/tanshin202603.pdf"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25103,11 +25105,12 @@
    "label": "Gunma Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; definitive agreement (2026-03-26) to integrate with Daishi Hokuetsu FG via share exchange, Gunma to become a subsidiary of the renamed Gunma Niigata FG on 2027-04-01 (planned). Ripple/MoneyTap use not found.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; definitive agreement (2026-03-26) to integrate with Daishi Hokuetsu FG via share exchange, Gunma to become a subsidiary of the renamed Gunma Niigata FG on 2027-04-01 (planned). Not on MoneyTap's current P2P bank table (moneytap.jp, run by SBI Remit since MoneyTap Co.'s 2022-09-30 merger; checked 2026-10-22); Ripple use not found.",
    "grade": "A",
    "sources": [
     "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
-    "https://www.gunmabank.co.jp/ir/library/en/pdf/20260409.pdf"
+    "https://www.gunmabank.co.jp/ir/library/en/pdf/20260409.pdf",
+    "https://moneytap.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25215,11 +25218,12 @@
    "label": "Seven Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; no longer a consolidated Seven & i subsidiary (Seven-Eleven Japan ~33.4%, ITOCHU ~20.4%). Ripple/MoneyTap use not found.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; no longer a consolidated Seven & i subsidiary (Seven-Eleven Japan ~33.4%, ITOCHU ~20.4%). Not on MoneyTap's current P2P bank table (moneytap.jp, run by SBI Remit since MoneyTap Co.'s 2022-09-30 merger; checked 2026-10-22); Ripple use not found.",
    "grade": "A",
    "sources": [
     "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
-    "https://www.sevenbank.co.jp/english/ir/stock/stock_info.html"
+    "https://www.sevenbank.co.jp/english/ir/stock/stock_info.html",
+    "https://moneytap.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25266,11 +25270,12 @@
    "label": "Chiba Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; definitive agreement (2026-03-25) with Chiba Kogyo Bank to form joint holding company Chiba Financial Group on 2027-04-01 (planned). Ripple/MoneyTap use not found.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): still operating; definitive agreement (2026-03-25) with Chiba Kogyo Bank to form joint holding company Chiba Financial Group on 2027-04-01 (planned). Not on MoneyTap's current P2P bank table (moneytap.jp, run by SBI Remit since MoneyTap Co.'s 2022-09-30 merger; checked 2026-10-22); Ripple use not found.",
    "grade": "A",
    "sources": [
     "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
-    "https://www.chibabank.co.jp/en/news/en_newsrelease_20260325_02"
+    "https://www.chibabank.co.jp/en/news/en_newsrelease_20260325_02",
+    "https://moneytap.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25365,11 +25370,12 @@
    "label": "Hachijuni Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): merged with its subsidiary Nagano Bank on 2026-01-01 and now operates as Hachijuni Nagano Bank (FSA approval 2025-12-25). Ripple/MoneyTap use not found.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-21): merged with its subsidiary Nagano Bank on 2026-01-01 and now operates as Hachijuni Nagano Bank (FSA approval 2025-12-25). Not on MoneyTap's current P2P bank table (moneytap.jp, run by SBI Remit since MoneyTap Co.'s 2022-09-30 merger; checked 2026-10-22); Ripple use not found.",
    "grade": "A",
    "sources": [
     "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
-    "https://bank.82group.jp/english/pdf/topic_20260105.pdf"
+    "https://bank.82group.jp/english/pdf/topic_20260105.pdf",
+    "https://moneytap.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -28461,13 +28467,14 @@
    "label": "fixCleanup3_4_0 amendment (rippled 3.4.0 fix bundle)",
    "type": "event",
    "handle": "",
-   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-21 20:20 ET: 27 of 32 yes against a threshold of 25 (withholding: xrpl-labs.com, gatehub.net, cabbit.tech, anodos.finance, bitso.com). It held a majority from 2026-10-09 05:34 ET, but a dropped validator vote reset the two-week clock; it regained majority at 2026-10-21 10:46 ET (ledger majority time 845909182 per a public node's feature RPC), so the earliest activation is now around 2026-11-04 09:46 ET if the majority holds. The earlier ~2026-10-23 date no longer applies. xrpl.org's Sep 16 snapshot still shows 0.00%.",
+   "summary": "Bundle of fixes from rippled 3.4.0 covering Single Asset Vaults (rounding, VaultClawback, VaultWithdraw), Lending Protocol default and impairment timing, AMM, the permissioned DEX, trust lines, NFTs, MPTs, Escrow, Sponsorship signing prefixes and permission delegation. Until it is enabled, xrpl.org advises against delegating PaymentBurn. Status as of 2026-10-22 01:50 ET: 28 of 32 yes against a threshold of 25 on XRPScan (cabbit.tech now votes yes; bitso.com still absent); XRPLWin counts 31 of 35 against 29. It held a majority from 2026-10-09 05:34 ET, but a dropped validator vote reset the two-week clock; it regained majority at 2026-10-21 10:46 ET (ledger majority time 845909182 per a public node's feature RPC), so the earliest activation is now around 2026-11-04 09:46 ET if the majority holds. The earlier ~2026-10-23 date no longer applies. xrpl.org's Sep 16 snapshot still shows 0.00%.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/amendments",
     "https://xrpl.org/resources/known-amendments",
     "https://xrplcluster.com",
-    "https://x.com/Vet_X0/status/2112942047468687492"
+    "https://x.com/Vet_X0/status/2112942047468687492",
+    "https://api.xrpscan.com/api/v1/amendment/98433DD001A5737F773D74F8CA2A25A065089C73B2E611C760BAF369E4FECA76"
    ],
    "added": "2026-10-20T12:25:42-04:00"
   },
@@ -29528,6 +29535,20 @@
     "https://www.sec.gov/Archives/edgar/data/1587982/000119312526400654/primary_doc.xml"
    ],
    "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "id": "w-bitgo-rpjkkbtu",
+   "label": "BitGo multisig rPjKkBTu (Evernorth-tested)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rPjKkBTutrvvoboPUuaxSaeXNki5XvjDei: 2-of-3 multisig, master key disabled, activated Oct 6, 2026 by the BitGo Initialization Wallet rD4G6gtD…. Received 2 XRP from Evernorth rGy4zJtG (Oct 6), 5 XRP from Evernorth rKXXrAgp (Oct 21 08:56 ET), then 41,963,819 XRP from rKXXrAgp at 20:51 ET Oct 21, 2026. Holds 41,963,827.2 XRP with no outbound payment as of ledger 107,821,526 (Oct 22 02:16 ET). Not exchange-labelled. Owner unconfirmed on-ledger; likely Evernorth-controlled (inference).",
+   "why": "Evernorth moved 41,963,819 XRP, nearly its whole stack in this wallet, into this BitGo-activated 2-of-3 multisig on Oct 21, 2026; the XRP has not moved onward, so it looks like a custody move rather than a sale, but nothing official says why.",
+   "grade": "B",
+   "sources": [
+    "https://xrpscan.com/account/rPjKkBTutrvvoboPUuaxSaeXNki5XvjDei",
+    "https://xrpscan.com/tx/C1C478B1B777CCB4909041847E47CA576BFBB69DF17110F6D1BC44707399FD35"
+   ],
+   "added": "2026-10-22T02:26:15-04:00"
   }
  ],
  "edges": [
@@ -95876,7 +95897,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.gunmabank.co.jp/ir/library/en/pdf/20260409.pdf",
+   "source": "https://www.dhfg.co.jp/news/pdf/260326_001.pdf",
    "side": "neutral",
    "added": "2026-10-21T14:24:22-04:00"
   },
@@ -96814,6 +96835,61 @@
    "source": "https://xrpscan.com/ledger/107806240",
    "side": "neutral",
    "added": "2026-10-21T20:31:21-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "moneytap",
+   "label": "held 23.54% of MoneyTap Co. (SBI Holdings 70.66%) before its 2022 merger into SBI Remit",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sbigroup.co.jp/news/pdf/2022/0623_d.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T02:26:15-04:00"
+  },
+  {
+   "from": "jp-shimizu-bank",
+   "to": "sbi",
+   "label": "capital and business alliance (2020-02-18): SBI to buy up to 3%, Shimizu to buy SBI shares; MoneyTap named among SBI tech to consider",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www2.jpx.co.jp/disc/84730/140120200218466619.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T02:26:15-04:00"
+  },
+  {
+   "from": "jp-tsukuba-bank",
+   "to": "sbi",
+   "label": "strengthened alliance (2021-05-14): SBI Regional Bank HD to buy up to ¥100M of Tsukuba shares, Tsukuba up to ¥100M of SBI",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.tsukubabank.co.jp/cms/article/2cce554331bb96b1932efb43f4abd38b7cfd9dbf/",
+   "side": "neutral",
+   "added": "2026-10-22T02:26:15-04:00"
+  },
+  {
+   "from": "jp-chikuho-bank",
+   "to": "sbi",
+   "label": "ended its SBI capital and business alliance (Dec 2025) after declining a request to raise SBI's 2.9% stake to 15%",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.yomiuri.co.jp/local/kyushu/news/20251225-GYS1T00088/",
+   "side": "neutral",
+   "added": "2026-10-22T02:26:15-04:00"
+  },
+  {
+   "from": "w-evernorth-set",
+   "to": "w-bitgo-rpjkkbtu",
+   "label": "Evernorth rKXXrAgp sent 41,963,819 XRP (its whole stack bar 300K) to BitGo multisig rPjKkBTu, 12 h after a 5 XRP test; no onward move yet (Oct 21 2026 20:51 ET)",
+   "grade": "A",
+   "strength": 3,
+   "key": true,
+   "source": "https://xrpscan.com/tx/C1C478B1B777CCB4909041847E47CA576BFBB69DF17110F6D1BC44707399FD35",
+   "side": "neutral",
+   "added": "2026-10-22T02:26:15-04:00"
   }
  ]
 }
