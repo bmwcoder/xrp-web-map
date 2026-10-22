@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T12:37:06-04:00",
+  "updated": "2026-10-22T14:36:25-04:00",
   "version": 3
  },
  "nodes": [
@@ -10442,12 +10442,13 @@
    "short": "Escrow release wallets",
    "type": "asset",
    "handle": "",
-   "summary": "r9NpyVfLfUG8hatuCCHKzosyDtKnBdsEN3 and rMhkqz3DeU7GUUJKGZofusbrTwZe6bDyb1 (XRPScan: Ripple, multisig) receive the monthly 1B escrow releases (500M each). Each month since at least Oct 2025, about 700M has gone straight back into new escrows on day 1, and 300M has gone to Ripple's operating wallet rBg2FuZT…. Balance ~208 XRP each on 2026-10-19.",
+   "summary": "r9NpyVfLfUG8hatuCCHKzosyDtKnBdsEN3 and rMhkqz3DeU7GUUJKGZofusbrTwZe6bDyb1 (XRPScan: Ripple, multisig) received the monthly 1B escrow releases (500M each) through Sep 1, 2026, holding each tranche about a month (Aug 31: 500M each; Sep 1: 1B each; Sep 1–30: 500M each). On each 1st, about 700M of the prior month's tranche went back into new escrows, and 300M has gone to Ripple's operating wallet rBg2FuZT…. Balance ~208 XRP each on 2026-10-19.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/r9NpyVfLfUG8hatuCCHKzosyDtKnBdsEN3",
     "https://api.xrpscan.com/api/v1/account/rMhkqz3DeU7GUUJKGZofusbrTwZe6bDyb1",
-    "https://api.xrpscan.com/api/v1/tx/261747C9DD2A6263A576B2EAF2134E4BBE0611D47CA2324B4EDAF97F9345A67A"
+    "https://api.xrpscan.com/api/v1/tx/261747C9DD2A6263A576B2EAF2134E4BBE0611D47CA2324B4EDAF97F9345A67A",
+    "https://xrpscan.com/account/r9NpyVfLfUG8hatuCCHKzosyDtKnBdsEN3"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -25044,10 +25045,11 @@
    "label": "AEON Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating (AEON Bank company page; 2026-09-14 progress report on its business improvement plan). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.aeonbank.co.jp/company/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25082,10 +25084,11 @@
    "label": "Oita Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Oita Bank home page). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.oitabank.co.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25094,10 +25097,11 @@
    "label": "ORIX Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): became a wholly owned subsidiary of Daiwa Next Bank (Daiwa Securities Group) in Aug 2026; no capital tie to ORIX Corp remains; keeps its name for now (bank code 0307). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.orixbank.co.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25120,10 +25124,11 @@
    "label": "Keiyo Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Chiba; bank code 0522). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.keiyobank.co.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25197,10 +25202,11 @@
    "label": "Shinkin Central Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating (central institution of Japan's shinkin banks). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.shinkin-central-bank.jp/about/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25262,10 +25268,11 @@
    "label": "Daiwa Next Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating, Daiwa Securities Group (bank code 0041); parent of ORIX Bank since Aug 2026. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.bank-daiwa.co.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25340,10 +25347,11 @@
    "label": "Tochigi Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (Tochigi Bank home page). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.tochigibank.co.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25365,10 +25373,11 @@
    "label": "Nomura Trust and Banking (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating as Nomura Group's trust bank (absorbed the former NCT Trust Bank). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.nomura-trust.co.jp/company/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25469,10 +25478,11 @@
    "label": "Sumitomo Mitsui Trust Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating, Sumitomo Mitsui Trust Group. Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.smtb.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -25507,10 +25517,11 @@
    "label": "Yamagata Bank (Japan)",
    "type": "bank",
    "handle": "",
-   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Its later use (MoneyTap etc.) has not been checked; status unknown.",
+   "summary": "Japan: bank listed by Ripple as one of the 47 Japan Bank Consortium members (SBI Ripple Asia) that completed the RC Cloud real-time payments pilot and moved to commercial phase (2017-03-02). Status (checked 2026-10-22): still operating under its own name (bank code 0122). Not on moneytap.jp's current bank table; Ripple/MoneyTap use not found.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/"
+    "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+    "https://www.yamagatabank.co.jp/"
    ],
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -29812,6 +29823,19 @@
     "https://x.com/Ripple/status/2113260588574843090"
    ],
    "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "w-bitgo-evernorth-new6",
+   "label": "Six BitGo multisigs funded by Evernorth (Oct 22, 2026)",
+   "type": "asset",
+   "handle": "",
+   "summary": "Six 2-of-3 BitGo self-custody multisigs (master key disabled), all activated Oct 19, 2026 by the BitGo Initialization Wallet rD4G6gtD…: rK1BUXU1LD3JEkRLCqY9pKq4BEVKmDrzbf, rLyTyA4nQJMy7T2wgKrd33KeZdjcEMPc2w, rJQ4sQVyoYT2SfRNJRXXfqU4rHS915UAjW (52.83M XRP each), rwtokyDZhkRwcC6h7b58Bv11tPFEdtJ9EW, rDFrBJGy2QMNphpknEWLjmrDsavmUewVrh (42.26M each) and rBKrEjXChk7iWTx1cdr2EpBVoXRZ2Bunhj (84.37M). Together they received 327.38M XRP from nine Evernorth custody wallets at 14:08 ET Oct 22, 2026; no outbound as of ledger 107,832,585. Not exchange-labelled. Likely Evernorth-controlled (inference from funding pattern).",
+   "grade": "B",
+   "sources": [
+    "https://xrpscan.com/account/rBKrEjXChk7iWTx1cdr2EpBVoXRZ2Bunhj",
+    "https://xrpscan.com/account/rK1BUXU1LD3JEkRLCqY9pKq4BEVKmDrzbf"
+   ],
+   "added": "2026-10-22T14:31:59-04:00"
   }
  ],
  "edges": [
@@ -45435,7 +45459,7 @@
   {
    "from": "ripple-escrow",
    "to": "w-ripple-release",
-   "label": "monthly 1B release lands here; ~700M re-locked same day (Oct 2025–Oct 2026)",
+   "label": "received the monthly 1B escrow releases through Sep 1, 2026 (Oct 1 tranche landed in owner accounts rB3WNZc4…/r9UUEXn3… instead); on each 1st it paid out the prior month's tranche: ~700M re-locked, 300M to Ripple",
    "grade": "A",
    "strength": 5,
    "key": false,
@@ -97747,6 +97771,83 @@
    "source": "https://www.circle.com/blog/founder-story-ali-erhat-nalbant-from-arf",
    "side": "neutral",
    "added": "2026-10-22T12:32:47-04:00"
+  },
+  {
+   "from": "jp-daiwa-next-bank",
+   "to": "jp-orix-bank",
+   "label": "parent: ORIX Bank became its wholly owned subsidiary in Aug 2026 (both were 2017 consortium members)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.orixbank.co.jp/",
+   "side": "neutral",
+   "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "jp-nomura-trust-and-banking",
+   "to": "nomura",
+   "label": "Nomura Group trust bank",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nomura-trust.co.jp/company/",
+   "side": "neutral",
+   "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "w-evernorth-set",
+   "to": "w-bitgo-evernorth-new6",
+   "label": "Nine Evernorth custody wallets moved 327.38M XRP into six new BitGo multisigs in four ledgers (Oct 22 2026 14:08 ET); combined Evernorth-linked XRP unchanged at ~472.78M, no exchange involved",
+   "grade": "A",
+   "strength": 3,
+   "key": true,
+   "source": "https://xrpscan.com/account/rBKrEjXChk7iWTx1cdr2EpBVoXRZ2Bunhj",
+   "side": "neutral",
+   "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "bitso",
+   "to": "amd-fixcleanup-3-4-0",
+   "label": "bitso.com validator (rippled 3.4.1) withdrew all its amendment votes between Oct 21 2026 08:21 and 14:12 ET, matching the fixCleanup3_4_0 majority loss at 08:41 ET and one-vote drops on LendingProtocol and SingleAssetVault",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/validators",
+   "side": "neutral",
+   "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "xrpl-labs",
+   "to": "amd-fixcleanup-3-4-0",
+   "label": "validator.xrpl-labs.com began voting yes on fixCleanup3_4_0 (seen Oct 22 2026 14:15 ET); 32 of 35 UNL validators now in favour, only GateHub, Anodos and bitso.com withholding",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/amendments",
+   "side": "neutral",
+   "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "binance",
+   "to": "rlusd",
+   "label": "runs a promotion sharing 600,000 XRP among users who hold RLUSD in Binance accounts (announced 2026-10-21)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.binance.com/en/support/announcement/detail/c453734d8dcc42d9af49c8f0627d67f7",
+   "side": "supports",
+   "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "jpm",
+   "to": "solana",
+   "label": "J.P. Morgan Asset Management made its tokenized money market funds MONY and JLTXX available on Solana for qualified U.S. investors (announced 2026-10-22)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html",
+   "side": "contradicts",
+   "added": "2026-10-22T14:31:59-04:00"
   }
  ]
 }
