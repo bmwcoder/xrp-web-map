@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T08:30:27-04:00",
+  "updated": "2026-10-22T10:31:36-04:00",
   "version": 3
  },
  "nodes": [
@@ -28822,14 +28822,15 @@
    "label": "XRPL slow ledger closings (Oct 20, 2026)",
    "type": "event",
    "handle": "",
-   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). A second slow episode followed on 2026-10-21 about 09:17-09:23 ET: ledgers 107806240-107806259 closed 10-40 s apart (vs ~4 s normally), with no halt (ledger close-time read). On 2026-10-21 at 13:54 ET @XRPLOperations said it had begun rolling out a recommended xrpld config change to hub, validator and node operators as an interim mitigation, and was testing fixes for a point release to address the root cause (planned; not yet shipped as of that post). No root cause had been publicly named as of 2026-10-21 19:45 ET. David Schwartz (X, 2026-10-21 01:31 ET) said slow consensus rounds are 'evidence of some reduction in safety margins' and could be 'an attack or bug'. Historian sampling of ledger close times from 13:21 to 19:43 ET found 250-ledger averages of 3.88-4.12 s, with no sustained slow episode.",
+   "summary": "On 2026-10-20 at 22:33 ET the official @XRPLOperations account said some XRP Ledger closings were slower than usual and could occasionally take longer to close, with closing times otherwise normal, and that a fix had been in progress since earlier that day. On 2026-10-21 at 10:10 ET @XRPLOperations said the slower closings were still occurring and that it was finalizing a fix release to address them (planned; not yet shipped as of that post). A second slow episode followed on 2026-10-21 about 09:17-09:23 ET: ledgers 107806240-107806259 closed 10-40 s apart (vs ~4 s normally), with no halt (ledger close-time read). On 2026-10-21 at 13:54 ET @XRPLOperations said it had begun rolling out a recommended xrpld config change to hub, validator and node operators as an interim mitigation, and was testing fixes for a point release to address the root cause (planned; not yet shipped as of that post). No root cause had been publicly named as of 2026-10-21 19:45 ET. On 2026-10-22 at 08:50 ET @XRPLOperations said the XRP Ledger was no longer experiencing the occasional slower ledger closes following publication of the recommended xrpld configuration, and that it was still preparing a dot release to address the behavior (planned; no version number given as of that post). David Schwartz (X, 2026-10-21 01:31 ET) said slow consensus rounds are 'evidence of some reduction in safety margins' and could be 'an attack or bug'. Historian sampling of ledger close times from 13:21 to 19:43 ET found 250-ledger averages of 3.88-4.12 s, with no sustained slow episode.",
    "grade": "A",
    "sources": [
     "https://x.com/XRPLOperations/status/2112733899558371703",
     "https://x.com/XRPLOperations/status/2112909423110922597",
     "https://xrpscan.com/ledger/107806240",
     "https://x.com/XRPLOperations/status/2112965763078488088",
-    "https://x.com/JoelKatz/status/2112778769228567022"
+    "https://x.com/JoelKatz/status/2112778769228567022",
+    "https://x.com/XRPLOperations/status/2113251601045479768"
    ],
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -29365,12 +29366,13 @@
    "label": "Project Hangang (BoK deposit-token pilot)",
    "type": "event",
    "handle": "",
-   "summary": "Bank of Korea pilot in which banks issue deposit tokens settled against wholesale CBDC on a BoK-run ledger. Phase I (2025) ran with 7 banks; Phase II started Mar 18, 2026 (BoK release). Per CoinDesk reporting, Phase II has 9 banks: KB Kookmin, Shinhan, Woori, Hana, IBK, NH NongHyup, Busan, BNK Kyongnam and iM Bank. It adds merchant payments, wallet-to-wallet transfers and government-subsidy disbursement. The bank list is reporting (B); the phase dates are from the BoK release. It does not use XRPL.",
+   "summary": "Bank of Korea pilot in which banks issue deposit tokens settled against wholesale CBDC on a BoK-run ledger. Phase I (2025) ran with 7 banks; Phase II started Mar 18, 2026 (BoK release). Per the BoK release attachment (<참고 1>, Mar 18, 2026), Phase II has 9 banks: KB Kookmin, Shinhan, Woori, Hana, IBK, NH NongHyup, Busan, BNK Kyongnam and iM Bank. It adds merchant payments, wallet-to-wallet transfers and government-subsidy disbursement. The bank list and dates are from the BoK release and its attachment (A), which matches CoinDesk. Phase II live transactions with the 9 banks are slated for H2 2026. It does not use XRPL.",
    "grade": "A",
    "sources": [
     "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=10097017&programType=newsData&relate=Y",
     "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
-    "https://www.ecb.europa.eu/pub/pdf/sintra/ecb.forumcentbankpub2026%5FShin%5Fpaper.en.pdf"
+    "https://www.ecb.europa.eu/pub/pdf/sintra/ecb.forumcentbankpub2026%5FShin%5Fpaper.en.pdf",
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
    ],
    "added": "2026-10-21T18:24:12-04:00"
   },
@@ -29621,6 +29623,195 @@
     "https://www.mashreq.com/en/uae/news/2026/october/mashreq-citi-swift/"
    ],
    "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "id": "bnp",
+   "label": "BNP Paribas",
+   "type": "bank",
+   "handle": "",
+   "summary": "French bank. One of the 17 Swift blockchain-ledger pilot banks (Swift, Jul 9, 2026) and a 2025 design-group bank. With HSBC, it completed a corporate treasury payment for Siemens on Swift's ledger (BNP Paribas release, Sep 4, 2026). No official BNP Paribas release naming XRP or XRPL was found (Oct 22, 2026 check).",
+   "grade": "A",
+   "sources": [
+    "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+    "https://cashmanagement.bnpparibas.com/sites/default/files/2026-09/POC_SWIFT_HSBC_BNP%20Paribas_PRESSRELEASE.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "firstrand",
+   "label": "FirstRand Bank",
+   "type": "bank",
+   "handle": "",
+   "summary": "South African bank. One of the 17 Swift blockchain-ledger pilot banks (Swift, Jul 9, 2026) and a 2025 design-group bank. No official FirstRand release naming XRP or XRPL was found (Oct 22, 2026 check).",
+   "grade": "A",
+   "sources": [
+    "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+    "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "uob",
+   "label": "UOB (United Overseas Bank)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Singapore bank. One of the 17 Swift blockchain-ledger pilot banks (Swift, Jul 9, 2026). It completed live SGD transactions with DBS and OCBC on Swift's ledger (Sep 10, 2026) and an HKD transaction with HSBC (UOB releases). No official UOB release naming XRP or XRPL was found (Oct 22, 2026 check).",
+   "grade": "A",
+   "sources": [
+    "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+    "https://www.uob.com.sg/assets/web-resources/uobgroup/pdf/newsroom/news-releases/2026/singapore-banks-on-swift-ledger.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "swift-ledger-xrp-newsroom-check-2026-10-22",
+   "label": "Swift ledger's 17 pilot banks: newsroom check for XRP/XRPL (Oct 22, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Rule set at 08:40:48 ET, before searching. An official bank newsroom item naming XRP or XRPL counts as supports; nothing found counts for neither side; third-party mentions don't count. Swift's own wording on interop counts as neutral, and an exclusive closed ledger would count as contradicts. Roster (Swift, Jul 9, 2026): ANZ, BNP Paribas, BNY, Citi, DBS, First Abu Dhabi Bank, FirstRand, HSBC, Itaú Unibanco, Lloyds, Mashreq, MUFG Bank, OCBC, Standard Chartered, UBS, UOB, Wells Fargo. Interop is neutral: the Sep 29, 2025 release says the ledger 'will be built for interoperability, both with existing and emerging networks', with orchestration 'supporting both private and public networks'. No public chain is named. Hits (3/17): DBS (Dec 10, 2020 release lists XRP among four tradable cryptos on DBS Digital Exchange); Standard Chartered (Oct 12, 2026: RLUSD custody on the XRP Ledger); Itaú (íon, Apr 23, 2025: the crypto 'Ripple', i.e. XRP, added for trading; the IR copy returned 403). Ripple/RLUSD but not XRP/XRPL, so not hits: MUFG (RippleNet 2017-18), BNY (RLUSD reserve custody 2025). No hit found: ANZ, BNP Paribas, Citi, FAB, FirstRand, HSBC, Lloyds, Mashreq, OCBC, UBS, UOB, Wells Fargo. This rests on web search plus newsroom pages, not a full crawl of every archive (medium confidence on the negatives).",
+   "grade": "A",
+   "sources": [
+    "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+    "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance",
+    "https://www.dbs.com/newsroom/dbs_digital_exchange",
+    "https://www.sc.com/en/press-release/standard-chartered-launches-rlusd-custody-and-joins-planned-collateral-integration-with-ripple-and-lmax-group/",
+    "https://www.ion.itau/news/novidade-solana-ripple-e-usdc-agora-disponiveis-no-ion/"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "kb-kookmin",
+   "label": "KB Kookmin Bank (South Korea)",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. Project Hangang deposit-token participant in Phase I (one of 7) and Phase II (one of 9), per the BoK release attachment (Mar 18, 2026; listed as '국민'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "hana-bank",
+   "label": "Hana Bank (South Korea)",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. Project Hangang deposit-token participant in Phase I (one of 7) and Phase II (one of 9), per the BoK release attachment (Mar 18, 2026; listed as '하나'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "ibk",
+   "label": "IBK Industrial Bank of Korea",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. Project Hangang deposit-token participant in Phase I (one of 7) and Phase II (one of 9), per the BoK release attachment (Mar 18, 2026; listed as '기업'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "nh-nonghyup",
+   "label": "NH NongHyup Bank (South Korea)",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. Project Hangang deposit-token participant in Phase I (one of 7) and Phase II (one of 9), per the BoK release attachment (Mar 18, 2026; listed as '농협'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "busan-bank",
+   "label": "BNK Busan Bank (South Korea)",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. Project Hangang deposit-token participant in Phase I (one of 7) and Phase II (one of 9), per the BoK release attachment (Mar 18, 2026; listed as '부산'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "kyongnam-bank",
+   "label": "BNK Kyongnam Bank (South Korea)",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. New in Project Hangang Phase II, one of 2 banks added to the 7 from Phase I, per the BoK release attachment (Mar 18, 2026; listed as '경남'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "im-bank",
+   "label": "iM Bank (South Korea, ex-DGB Daegu Bank)",
+   "type": "bank",
+   "handle": "",
+   "summary": "South Korean bank. New in Project Hangang Phase II, one of 2 banks added to the 7 from Phase I, per the BoK release attachment (Mar 18, 2026; listed as '아이엠뱅크'). Hangang runs on a BoK-run ledger, not XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "lev-xrp-etf-counterparty-check-2026-10-22",
+   "label": "Leveraged and 1940 Act XRP ETFs: swap counterparties and Ripple Prime (Oct 22, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Rule set at 08:40:48 ET, before searching. Ripple Prime as the TRS counterparty on an XRP fund counts as supports. Only banks or dealers named counts as neutral, mapped with notionals. No Ripple Prime link counts for neither side. Findings from EDGAR: XXRP (Teucrium, Listed Funds Trust) had no open swaps at 12/31/2025 or 6/30/2026. It held CME XRP plus Coinbase Derivatives XRP futures ($157.97M + $201.79M notional at 12/31/2025; $76.61M + $96.10M at 6/30/2026). Its 'Deposits at Brokers' table names Ripple Prime with $30,909,912 (12/31/2025 N-CSR) and Hidden Road Partners CIV US LLC (Ripple Prime's US entity) with $11,752,301 (6/30/2026 N-CSRS), alongside ADM, Wedbush, StoneX and Marex. FY2025 average swap notional was $12.95M, counterparty not named. Volatility Shares XRPI and XRPT (N-PORT 5/31/2026): CME XRP futures only (notional $106.6M and $136.1M), Marex reverse repo, no swaps. ProShares UXRP (N-PORT 5/31/2026): Coinbase Derivatives XRP futures $23.9M and CME XRP $53.3M, no swaps. REX-Osprey XRPR (N-PORT 5/31/2026): $30.69M spot XRP plus $20.62M CoinShares XRP ETP, no swaps. EDGAR full-text search for 'Ripple Prime' (2025 to Oct 22, 2026) returns 11 hits; the only fund-level ones are the Tradr 2x SNDK N-PORT/N-CSR and this XXRP N-CSR. Verdict: a Ripple Prime link to an XRP fund exists, but as a broker holding margin and collateral, not as a named TRS counterparty. The rule did not define this case, so it is mapped neutral rather than supports.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1683471/000113322826003207/tar-efp22750_ncsr.htm",
+    "https://www.sec.gov/Archives/edgar/data/1683471/000113322826012150/lft-efp27050_ncsrs.htm",
+    "https://www.sec.gov/Archives/edgar/data/1683471/000119312526367651/primary_doc.xml",
+    "https://www.sec.gov/Archives/edgar/data/1884021/000119312526325739/primary_doc.xml",
+    "https://www.sec.gov/Archives/edgar/data/1884021/000119312526325734/primary_doc.xml",
+    "https://www.sec.gov/Archives/edgar/data/1174610/000207169126017439/primary_doc.xml",
+    "https://www.sec.gov/Archives/edgar/data/1771146/000119312526337173/primary_doc.xml",
+    "https://efts.sec.gov/LATEST/search-index?q=%22Ripple%20Prime%22&dateRange=custom&startdt=2025-01-01&enddt=2026-10-22"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "h20-regulator-xrp-count-2026-10-22",
+   "label": "H20 test: SEC and CFTC documents naming XRP, 2025-26 (Oct 22, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Rule set at 08:40:48 ET, before searching. Three or more official SEC or CFTC documents from 2025-26 naming XRP weaken H20 ('US regulators avoid naming XRP'); one or two is a mild weakening; none leaves H20 at medium. Issuer and SRO filings don't count; SEC orders on 19b-4s do. Count: at least 5 documents. (1) SEC Rel. 33-11412 (Mar 17, 2026; effective Mar 23), a joint SEC/CFTC interpretation listing XRP among 16 example digital commodities. (2) SEC Rel. 34-103996 (Sep 17, 2025), the order approving GDLC listing, which names XRP 8 times (4.82% weight) and answers a commenter who opposed XRP. (3) SEC Rel. 34-103114 (May 22, 2025), the order instituting proceedings on the Bitwise XRP ETF. (4) SEC Rel. 34-102604 (Mar 11, 2025), extending the review period for the CoinShares XRP ETF. (5) CFTC ANPRM 91 FR 64811 (Oct 13, 2026), which recaps the taxonomy naming XRP. Items 3 and 4 are procedural, delegated-authority actions. More XRP-ETF OIPs and extension notices from 2025 exist but were not enumerated. The single-asset spot XRP ETFs listed under generic standards (34-103995) without individual approval orders. In the text-extracted copies, the Ripple Rule 506(d) waiver (33-11383, Aug 2025) and litigation release LR-26369 don't contain 'XRP'. Speeches and staff statements were not searched exhaustively and are not counted. Verdict: H20 is weakened. Regulators name XRP routinely, in neutral and taxonomic terms, not specifically to XRP's benefit.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf",
+    "https://www.sec.gov/files/rules/sro/nysearca/2025/34-103996.pdf",
+    "https://www.sec.gov/files/rules/sro/cboebzx/2025/34-103114.pdf",
+    "https://www.sec.gov/files/rules/sro/nasdaq/2025/34-102604.pdf",
+    "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "id": "arf",
+   "label": "Arf",
+   "type": "company",
+   "handle": "@arf_one",
+   "summary": "Swiss-regulated PayFi (payment finance) firm headquartered in Zug and a VQF member, launched November 2022; says it handles about $10B a year in global settlement volume (issuer claim). On 2026-10-22 it announced a partnership with Ripple to provide RLUSD-powered short-duration settlement liquidity to licensed cross-border payment companies on the XRP Ledger, with deeper use of XRPL native lending planned once those amendments are enabled.",
+   "why": "Arf, a Swiss-regulated payment-finance firm, announced on Oct 22, 2026 a partnership with Ripple to lend RLUSD on the XRP Ledger as short-term settlement liquidity for licensed payment companies; no dollar amount was given, and its planned use of XRPL native lending depends on amendments not yet enabled.",
+   "grade": "A",
+   "sources": [
+    "https://arf.one/arf-and-ripple-partner-to-bring-settlement-liquidity-to-the-xrp-ledger/",
+    "https://x.com/arf_one/status/2113259859986559367",
+    "https://x.com/Ripple/status/2113260588574843090"
+   ],
+   "added": "2026-10-22T10:26:53-04:00"
   }
  ],
  "edges": [
@@ -95162,11 +95353,11 @@
   {
    "from": "xrpl",
    "to": "xrpl-slow-ledger-closings-2026-10-20",
-   "label": "some ledger closings slower than usual per @XRPLOperations (2026-10-20); interim config change rolling out to operators and a root-cause point release in testing as of 2026-10-21 13:54 ET",
+   "label": "some ledger closings slower than usual per @XRPLOperations (2026-10-20); no longer occurring after a recommended config change per @XRPLOperations (2026-10-22 08:50 ET), dot release still being prepared",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://x.com/XRPLOperations/status/2112965763078488088",
+   "source": "https://x.com/XRPLOperations/status/2113251601045479768",
    "side": "neutral",
    "added": "2026-10-21T08:22:53-04:00"
   },
@@ -96372,22 +96563,22 @@
   {
    "from": "shinhan",
    "to": "hangang",
-   "label": "Phase II deposit-token bank (one of 9, per CoinDesk)",
-   "grade": "B",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
    "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
   {
    "from": "woori",
    "to": "hangang",
-   "label": "Phase II deposit-token bank (one of 9, per CoinDesk)",
-   "grade": "B",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.coindesk.com/business/2026/03/18/bank-of-korea-adds-two-banks-to-digital-won-trials-as-real-world-testing-begins",
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
    "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
@@ -97083,6 +97274,457 @@
    "source": "https://www.mashreq.com/en/uae/news/2026/october/mashreq-citi-swift/",
    "side": "contradicts",
    "added": "2026-10-22T08:25:18-04:00"
+  },
+  {
+   "from": "bnp",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "dbs",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "nbad",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "firstrand",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "itau",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "lloyds",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "ubs",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "uob",
+   "to": "swift-ledger",
+   "label": "pilot bank (2026-07-09)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "swift-ledger-xrp-newsroom-check-2026-10-22",
+   "to": "swift-ledger",
+   "label": "Swift: 'built for interoperability, both with existing and emerging networks'; orchestration supports 'private and public networks' (no chain named)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "dbs",
+   "to": "xrp",
+   "label": "DBS Digital Exchange launch release (Dec 10, 2020) lists XRP among its four tradable cryptocurrencies",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.dbs.com/newsroom/dbs_digital_exchange",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "xrpl",
+   "label": "official release (Oct 12, 2026): RLUSD custody on the XRP Ledger via the DIFC branch",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sc.com/en/press-release/standard-chartered-launches-rlusd-custody-and-joins-planned-collateral-integration-with-ripple-and-lmax-group/",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "itau",
+   "to": "xrp",
+   "label": "íon (Itaú) release, Apr 23, 2025: 'Ripple' (XRP) added to the crypto shelf alongside Solana and USDC",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.ion.itau/news/novidade-solana-ripple-e-usdc-agora-disponiveis-no-ion/",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "kb-kookmin",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "hana-bank",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "ibk",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "nh-nonghyup",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "busan-bank",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank (one of 9, BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "kyongnam-bank",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank, new in Phase II (BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "im-bank",
+   "to": "hangang",
+   "label": "Phase II deposit-token bank, new in Phase II (BoK release attachment, Mar 18, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bok.or.kr/fileSrc/portal/e061806f17494d2bad89480c4ff61865/3/d25f3091d7354f638a6622caf1fad037.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xrpi",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "cash creations: 485BPOS (Jun 26, 2026) says creations and redemptions are 'effected primarily with cash'",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1884021/000121390026072183/ea0295205-01_485bpos.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xrpt",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "cash creations: 485BPOS (Jun 26, 2026) says creations and redemptions are 'effected primarily with cash'",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1884021/000121390026072183/ea0295205-01_485bpos.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "mainly cash: 485BPOS (Jun 29, 2026) says it 'will issue and redeem Creation Units principally for cash'",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000177114626001359/ck0001771146-20260629.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xxrp",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "cash only: 497K (Apr 29, 2026) says it 'expects to effect all of its creations and redemptions for cash'",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1683471/000089418926013714/teucriumxxrpsummaryprospec.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "trex-xrpk",
+   "to": "xrp-etf-in-kind-2026-10",
+   "label": "cash creations: 497 (Nov 24, 2025) says it 'currently intend[s] to create and redeem Creation Units in cash' (fund since liquidated)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000199937125018469/trex2x-497_112425.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xxrp",
+   "to": "rprime",
+   "label": "broker deposits at Ripple Prime: $30,909,912 (12/31/2025 N-CSR); $11,752,301 at Hidden Road Partners CIV US (6/30/2026 N-CSRS); no open swaps on either date",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1683471/000113322826003207/tar-efp22750_ncsr.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xxrp",
+   "to": "cme-xrp-futures",
+   "label": "holds CME XRP futures: 1,460 contracts, $76.61M notional (6/30/2026 N-CSRS)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1683471/000113322826012150/lft-efp27050_ncsrs.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xxrp",
+   "to": "coinbase-xrp-futures",
+   "label": "holds Coinbase Derivatives XRP futures: 9,125 contracts, $96.10M notional (6/30/2026 N-CSRS)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1683471/000113322826012150/lft-efp27050_ncsrs.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xxrp",
+   "to": "marex",
+   "label": "reverse-repo counterparty: $325.9M face (6/30/2026 N-CSRS)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1683471/000113322826012150/lft-efp27050_ncsrs.htm",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "uxrp",
+   "to": "coinbase-xrp-futures",
+   "label": "holds Coinbase Derivatives XRP futures, $23.9M notional (N-PORT 5/31/2026); no swaps",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1174610/000207169126017439/primary_doc.xml",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "lev-xrp-etf-counterparty-check-2026-10-22",
+   "to": "rprime",
+   "label": "EDGAR search for 'Ripple Prime': the only XRP-fund hit is the XXRP broker-deposit line; it is not named as TRS counterparty on any XRP fund",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://efts.sec.gov/LATEST/search-index?q=%22Ripple%20Prime%22&dateRange=custom&startdt=2025-01-01&enddt=2026-10-22",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "h20-regulator-xrp-count-2026-10-22",
+   "to": "rel33",
+   "label": "counted: joint interpretation names XRP among 16 example digital commodities (Mar 17, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "h20-regulator-xrp-count-2026-10-22",
+   "to": "cftc-ctx-cam-anprm-2026",
+   "label": "counted: CFTC ANPRM recaps the taxonomy naming XRP (Oct 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "h20-regulator-xrp-count-2026-10-22",
+   "to": "sec",
+   "label": "counted: Rel. 34-103996 GDLC approval order names XRP (Sep 17, 2025)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/files/rules/sro/nysearca/2025/34-103996.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "h20-regulator-xrp-count-2026-10-22",
+   "to": "sec",
+   "label": "counted: Rel. 34-103114 OIP on the Bitwise XRP ETF (May 22, 2025)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/files/rules/sro/cboebzx/2025/34-103114.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "h20-regulator-xrp-count-2026-10-22",
+   "to": "sec",
+   "label": "counted: Rel. 34-102604, longer review period for the CoinShares XRP ETF (Mar 11, 2025)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/files/rules/sro/nasdaq/2025/34-102604.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "unl35",
+   "to": "amd-fixcleanup-3-4-0",
+   "label": "fixCleanup3_4_0 lost majority at ledger 107805697 (Oct 21 2026 08:41:31 ET, EnableAmendment tfLostMajority) and regained it at ledger 107807489 (10:46:30 ET, tfGotMajority; majority time 10:46:22 ET), resetting the 2-week clock to ~Nov 4",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/501B65D8CEE9DBC805A44294493A3689FE49B4B7B4691AF4A1A816AA270401C2",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "xao-dao",
+   "to": "firelight",
+   "label": "XAO DAO proposal 66 passed: 80% of the DAO's XRP treasury deployed to Firelight for staking (announced 2026-10-22)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/HugoPhilion/status/2113244292311556462",
+   "side": "neutral",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "ripple",
+   "label": "partnership announced 2026-10-22: RLUSD settlement liquidity for licensed cross-border payment companies on the XRPL (first phase)",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://arf.one/arf-and-ripple-partner-to-bring-settlement-liquidity-to-the-xrp-ledger/",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "rlusd",
+   "label": "provides short-duration settlement liquidity in RLUSD, repaid in 1-5 days as payments settle (announced 2026-10-22)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://arf.one/arf-and-ripple-partner-to-bring-settlement-liquidity-to-the-xrp-ledger/",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "xrpl",
+   "label": "bringing settlement liquidity to the XRP Ledger for licensed payment companies (announced 2026-10-22)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/arf_one/status/2113259859986559367",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "amd-lending",
+   "label": "plans to run settlement liquidity through XRPL native lending (Lending Protocol, Single Asset Vaults) once enabled on mainnet; planned, subject to the amendment process (stated 2026-10-22)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://arf.one/arf-and-ripple-partner-to-bring-settlement-liquidity-to-the-xrp-ledger/",
+   "side": "supports",
+   "added": "2026-10-22T10:26:53-04:00"
   }
  ]
 }
