@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T10:31:36-04:00",
+  "updated": "2026-10-22T12:37:06-04:00",
   "version": 3
  },
  "nodes": [
@@ -29804,7 +29804,7 @@
    "type": "company",
    "handle": "@arf_one",
    "summary": "Swiss-regulated PayFi (payment finance) firm headquartered in Zug and a VQF member, launched November 2022; says it handles about $10B a year in global settlement volume (issuer claim). On 2026-10-22 it announced a partnership with Ripple to provide RLUSD-powered short-duration settlement liquidity to licensed cross-border payment companies on the XRP Ledger, with deeper use of XRPL native lending planned once those amendments are enabled.",
-   "why": "Arf, a Swiss-regulated payment-finance firm, announced on Oct 22, 2026 a partnership with Ripple to lend RLUSD on the XRP Ledger as short-term settlement liquidity for licensed payment companies; no dollar amount was given, and its planned use of XRPL native lending depends on amendments not yet enabled.",
+   "why": "Arf, a Swiss-regulated payment-finance firm backed by Circle and the Stellar Development Foundation, announced on Oct 22, 2026 a partnership with Ripple to lend RLUSD on the XRP Ledger as short-term settlement liquidity, adding a rail beside its existing Stellar/USDC credit line; no dollar amount was given, and its planned use of XRPL native lending depends on amendments not yet enabled.",
    "grade": "A",
    "sources": [
     "https://arf.one/arf-and-ripple-partner-to-bring-settlement-liquidity-to-the-xrp-ledger/",
@@ -97725,6 +97725,28 @@
    "source": "https://arf.one/arf-and-ripple-partner-to-bring-settlement-liquidity-to-the-xrp-ledger/",
    "side": "supports",
    "added": "2026-10-22T10:26:53-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "stellar",
+   "label": "runs its Arf Credit Line (unsecured 1-5 day working capital for licensed payment firms) on Stellar with Circle's USDC, with SDF support; the XRPL/RLUSD deal adds a rail, not confirmed as a switch",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://stellar.org/press/arf-solving-liquidity-constraints-in-cross-border-payments-with-support-from-stellar-development-foundation",
+   "side": "neutral",
+   "added": "2026-10-22T12:32:47-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "arf",
+   "label": "strategic investor in Arf (Circle Ventures portfolio company, alongside the Stellar Development Foundation, per Arf's founder)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/blog/founder-story-ali-erhat-nalbant-from-arf",
+   "side": "neutral",
+   "added": "2026-10-22T12:32:47-04:00"
   }
  ]
 }
