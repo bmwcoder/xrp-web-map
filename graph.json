@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T14:36:25-04:00",
+  "updated": "2026-10-22T20:35:36-04:00",
   "version": 3
  },
  "nodes": [
@@ -29836,6 +29836,113 @@
     "https://xrpscan.com/account/rK1BUXU1LD3JEkRLCqY9pKq4BEVKmDrzbf"
    ],
    "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "id": "nedbank",
+   "label": "Nedbank",
+   "type": "bank",
+   "handle": "",
+   "summary": "South African bank group. Ripple Swell 2026 speaker firm (Managing Executive: RPA, Data & Analytics). No primary Ripple/XRPL tie found (checked 2026-10-22); speaking slot only.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/2026-speakers",
+    "https://group.nedbank.co.za/home/about-us.html"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "broadridge",
+   "label": "Broadridge",
+   "type": "company",
+   "handle": "",
+   "summary": "Broadridge Financial (NYSE: BR). Ripple Swell 2026 speaker firm (Head of Tokenized Product, International). Rival rails: DLX (2026-09-09) connects to the DTCC Tokenization Service via Canton; Distributed Ledger Repo processed $7.5T in Sep 2026. No Ripple/XRPL tie found; EDGAR full-text 0 hits for Ripple/XRP 2023-2026.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/2026-speakers",
+    "https://www.broadridge.com/press-release/2026/broadridge-launches-dlx",
+    "https://www.broadridge.com/press-release/2026/broadridges-distributed-ledger-repo-processes-7-point-5-trillion-in-september"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "fiserv",
+   "label": "Fiserv",
+   "type": "company",
+   "handle": "",
+   "summary": "US payments/core-banking processor. Ripple Swell 2026 speaker firm (VP, Head of Business Development, VARs & Solution Consulting, Digital Payments). Rival rails: digital asset platform live on Solana 2026-10-01 (Roughrider Coin for Bank of North Dakota); FIUSD announced for Solana 2025-06-23. x402 Foundation charter/premier member alongside Ripple. No direct Ripple/XRPL product tie; EDGAR 0 hits for Ripple/XRP.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/2026-speakers",
+    "https://investors.fiserv.com/news-releases/news-release-details/fiserv-digital-asset-platform-goes-live-financial-institution",
+    "https://investors.fiserv.com/news-releases/news-release-details/fiserv-launches-new-fiusd-stablecoin-financial-institutions",
+    "https://investors.fiserv.com/news-releases/news-release-details/fiserv-named-charter-member-x402-foundation"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "new-york-life",
+   "label": "New York Life",
+   "type": "company",
+   "handle": "",
+   "summary": "US mutual life insurer. Ripple Swell 2026 speaker firm (MD, Head of Multi-Asset Solutions & Digital Asset Solutions). Rival rails: NYLIM's first tokenized fund launched via Centrifuge 2026-06-30 with USDC subscriptions/redemptions. No Ripple/XRPL tie found.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/2026-speakers",
+    "https://centrifuge.io/blog/nylim-centrifuge"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "jump-trading",
+   "label": "Jump Trading",
+   "type": "company",
+   "handle": "",
+   "summary": "Chicago proprietary trading firm (crypto arm Jump Crypto; Solana Firedancer client). Ripple Swell 2026 speaker firm (President and CIO). No primary Ripple/XRPL tie found; speaking slot only.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/2026-speakers",
+    "https://www.jumptrading.com/"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "sbi-savings-bank",
+   "label": "SBI Savings Bank (Kyobo SBI Savings Bank from 2026-11-01)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Korean savings bank. Kyobo Life took control 2026-04-06 (SBI Holdings now 41.34% voting / 70% economic interest; equity-method affiliate; KRW 900B deal); renamed Kyobo SBI Savings Bank effective 2026-11-01. Ripple Swell 2026 speaker firm (Head of Corporate Development). No direct Ripple/XRPL product tie found.",
+   "grade": "A",
+   "sources": [
+    "https://swell.ripple.com/2026-speakers",
+    "https://www.sbigroup.co.jp/english/news/pdf/2026/0406_a_en.pdf",
+    "https://en.sedaily.com/finance/2026/09/30/sbi-savings-bank-to-become-kyobo-sbi-in-november"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "x402-foundation",
+   "label": "x402 Foundation",
+   "type": "company",
+   "handle": "",
+   "summary": "Linux Foundation project standardizing internet-native (HTTP 402) payments for AI agents; operational launch 2026-07-14 with 40 members. Premier members include Ripple, Fiserv, Circle, Coinbase, Solana Foundation, Stellar Development Foundation, Visa, Mastercard, Stripe; t54 labs is a general member. RippleX: x402 support lets agents transact using XRP and RLUSD today. A multi-rail standards body, not XRP adoption.",
+   "grade": "A",
+   "sources": [
+    "https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "usdc",
+   "label": "USDC",
+   "type": "asset",
+   "handle": "",
+   "summary": "Circle-issued US dollar stablecoin, native on many chains including Stellar (2021) and the XRP Ledger (2025-06-12). Main rival to RLUSD; Arf's proven credit book ($830M+ USDC loans) runs on it.",
+   "grade": "A",
+   "sources": [
+    "https://stellar.org/case-studies/arf",
+    "https://ripple.com/ripple-press/ripple-and-circle-launch-usdc-on-the-xrp-ledger/"
+   ],
+   "added": "2026-10-22T20:29:42-04:00"
   }
  ],
  "edges": [
@@ -97072,7 +97179,7 @@
    "from": "xrp",
    "to": "yellow-network",
    "label": "@XRP replied 'thanks @Yellow' to Yellow's 'we saved an open channel for you' post (2026-10-20); no partnership stated",
-   "grade": "A",
+   "grade": "C",
    "strength": 1,
    "key": false,
    "source": "https://x.com/XRP/status/2112562416198598782",
@@ -97848,6 +97955,94 @@
    "source": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html",
    "side": "contradicts",
    "added": "2026-10-22T14:31:59-04:00"
+  },
+  {
+   "from": "fiserv",
+   "to": "x402-foundation",
+   "label": "charter member (2026-05-01); premier member at operational launch (2026-07-14)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://investors.fiserv.com/news-releases/news-release-details/fiserv-named-charter-member-x402-foundation",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "x402-foundation",
+   "label": "premier member at operational launch (2026-07-14); RippleX: agents can transact using XRP and RLUSD via x402 today",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "t54",
+   "to": "x402-foundation",
+   "label": "general member (listed 2026-07-14)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.linuxfoundation.org/press/linux-foundation-announces-operational-launch-of-x402-foundation-to-standardize-internet-native-payments-for-ai-agents-and-applications",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "sbi-savings-bank",
+   "label": "equity-method affiliate since 2026-04-06 (41.34% voting, 70% economic interest; was 100% subsidiary)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sbigroup.co.jp/english/news/pdf/2026/0406_a_en.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "kyobo",
+   "to": "sbi-savings-bank",
+   "label": "controlling shareholder since 2026-04-06 (bought control from SBI Holdings, KRW 900B); bank renamed Kyobo SBI Savings Bank 2026-11-01",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sbigroup.co.jp/english/news/pdf/2026/0406_a_en.pdf",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "usdc",
+   "label": "issuer",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://www.circle.com/blog/founder-story-ali-erhat-nalbant-from-arf",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "usdc",
+   "label": "Arf Credit Line on Stellar: over $830M USDC loans in 20 months on a $16M facility, over $1.6B on-chain USDC volume, no defaults; its proven book is on a rival stablecoin rail (XRPL/RLUSD book undisclosed)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://stellar.org/case-studies/arf",
+   "side": "contradicts",
+   "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "stellar",
+   "to": "arf",
+   "label": "Stellar Development Foundation: strategic investor in Arf (with Circle) and supported the 2023 USDC Credit Line launch on Stellar",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://stellar.org/press/arf-solving-liquidity-constraints-in-cross-border-payments-with-support-from-stellar-development-foundation",
+   "side": "neutral",
+   "added": "2026-10-22T20:29:42-04:00"
   }
  ]
 }
