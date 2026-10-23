@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T20:35:36-04:00",
+  "updated": "2026-10-22T22:29:33-04:00",
   "version": 3
  },
  "nodes": [
@@ -98043,6 +98043,28 @@
    "source": "https://stellar.org/press/arf-solving-liquidity-constraints-in-cross-border-payments-with-support-from-stellar-development-foundation",
    "side": "neutral",
    "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "from": "xrpl-labs",
+   "to": "amd-fixcleanup-3-4-0",
+   "label": "validator.xrpl-labs.com votes yes on only two amendments (fixCleanup3_4_0 and fixXChainRewardRounding) as of Oct 22 2026 20:15 ET; both are DefaultNo in rippled 3.4.1, so the yes is an explicit operator vote, not a default",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/validatorregistry",
+   "side": "neutral",
+   "added": "2026-10-22T22:27:43-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rlusd",
+   "label": "Account raRwevcTC4, created Apr 2025 by a sub-account of Ripple 50, redeemed 12,000,000 RLUSD to the XRPL issuer at 02:46 ET on Oct 22 2026; no Ethereum RLUSD was minted in the same window",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/41BE7B0E877FB9C57A9BAFFE421A028ABA21377774750B6CC59143119AB44662",
+   "side": "neutral",
+   "added": "2026-10-22T22:27:43-04:00"
   }
  ]
 }
