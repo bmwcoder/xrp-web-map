@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T14:25:26-04:00",
+  "updated": "2026-10-23T18:33:18-04:00",
   "version": 3
  },
  "nodes": [
@@ -30405,6 +30405,34 @@
     "https://github.com/XRPLF/rippled/pull/8634"
    ],
    "added": "2026-10-23T14:23:20-04:00"
+  },
+  {
+   "id": "sec-exam-fy2027",
+   "label": "SEC FY2027 Examination Priorities (Oct 23, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "SEC Division of Examinations' FY2027 priorities report (press release 2026-109, Oct 23, 2026; 20 pages). It names tokenization for clearing-agency exams and 'tokenization of securities' for Regulation SCI exams. It does not mention crypto assets, digital assets, blockchain, stablecoins, in-kind ETF creations, XRP or Ripple.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/files/2027-exam-priorities.pdf",
+    "https://www.sec.gov/newsroom/press-releases/2026-109-sec-announces-fiscal-year-2027-examination-priorities"
+   ],
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "id": "frnt",
+   "label": "Frontier Stable Token (FRNT), Wyoming Stable Token",
+   "type": "asset",
+   "handle": "",
+   "summary": "First Wyoming Stable Token, issued by the Wyoming Stable Token Commission. Mainnet deployment Aug 18, 2025; public purchase via Kraken on Solana from Jan 7, 2026. The Commission's FRNT page (checked Oct 23, 2026) lists it live on Ethereum, Solana, Avalanche, Arbitrum, Base, Optimism, Polygon and Hedera, with Aptos, Etherlink, Monad, Stellar, Sui, Sei and Tempo pending. XRPL is not listed.",
+   "grade": "A",
+   "sources": [
+    "https://stabletoken.wyo.gov/frnt",
+    "https://governor.wyo.gov/news-releases/wyoming-ushers-in-new-era-launches-first-of-its-kind-frontier-stable-token-for-public-purchase",
+    "https://content.govdelivery.com/accounts/WYGOV/bulletins/3ee734a",
+    "https://wyoleg.gov/InterimCommittee/2025/02-20251208091-STC-152-Factbook.pdf"
+   ],
+   "added": "2026-10-23T18:28:45-04:00"
   }
  ],
  "edges": [
@@ -100144,6 +100172,160 @@
    "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
    "side": "contradicts",
    "added": "2026-10-23T14:23:20-04:00"
+  },
+  {
+   "from": "sec",
+   "to": "sec-exam-fy2027",
+   "label": "published FY2027 exam priorities (Oct 23, 2026): tokenization named for clearing agencies and Reg SCI; no crypto-asset section and no XRP or Ripple mention",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/files/2027-exam-priorities.pdf",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "ethereum",
+   "label": "FRNT live on Ethereum (Wyoming Stable Token Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "solana",
+   "label": "FRNT live on Solana (Wyoming Stable Token Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "base",
+   "label": "FRNT live on Base (Wyoming Stable Token Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "optimism",
+   "label": "FRNT live on Optimism (Wyoming Stable Token Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "hedera",
+   "label": "FRNT live on Hedera (Wyoming Stable Token Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "stellar",
+   "label": "candidate chain: FRNT deployment on Stellar listed as pending (Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "sui",
+   "label": "candidate chain: FRNT deployment on Sui listed as pending (Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "tempo",
+   "label": "candidate chain: FRNT deployment on Tempo listed as pending (Commission FRNT page, Oct 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stabletoken.wyo.gov/frnt",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "kraken",
+   "label": "publicly purchasable on Kraken (Solana) from Jan 7, 2026",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://governor.wyo.gov/news-releases/wyoming-ushers-in-new-era-launches-first-of-its-kind-frontier-stable-token-for-public-purchase",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "layerzero",
+   "label": "token issuance partner of the Wyoming Stable Token Commission",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://content.govdelivery.com/accounts/WYGOV/bulletins/3ee734a",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "fireblocks",
+   "label": "blockchain infrastructure partner of the Wyoming Stable Token Commission",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://content.govdelivery.com/accounts/WYGOV/bulletins/3ee734a",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "frnt",
+   "to": "franklin",
+   "label": "reserves managed by Franklin Advisers",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://content.govdelivery.com/accounts/WYGOV/bulletins/3ee734a",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "bcb",
+   "to": "ripple-brasil",
+   "label": "not in BCB's open authorisation-process list (data-base 30/09/2026) or supervised-entity register (BcBase, 22/10/2026); filings after 30/09 not yet visible",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://olinda.bcb.gov.br/olinda/servico/Processos_Autorizacao/versao/v1/odata/ProcessosAutorizacaoFuncionamentoEmAberto(dataBase=@dataBase)?@dataBase='2026-09'&$format=json",
+   "side": "neutral",
+   "added": "2026-10-23T18:28:45-04:00"
   }
  ]
 }
