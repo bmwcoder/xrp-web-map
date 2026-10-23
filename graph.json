@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T08:08:03-04:00",
+  "updated": "2026-10-23T08:37:06-04:00",
   "version": 3
  },
  "nodes": [
@@ -29994,6 +29994,19 @@
     "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html"
    ],
    "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "id": "hanwha-am",
+   "label": "Hanwha Asset Management",
+   "type": "company",
+   "handle": "",
+   "summary": "Korean asset manager (Hanwha group). Reported Aug 20, 2026 cooperation framework with Ripple and Canary Capital on digital-asset ETFs and RWA tokenization; no primary release found. Korea has no spot crypto ETFs yet (law change needed; Bitcoin first).",
+   "grade": "B",
+   "sources": [
+    "https://en.sedaily.com/finance/2026/08/20/hanwha-asset-ties-up-with-ripple-canary-capital-on-digital",
+    "https://coinness.com/en/news/1166123"
+   ],
+   "added": "2026-10-23T08:26:09-04:00"
   }
  ],
  "edges": [
@@ -46992,7 +47005,7 @@
   {
    "from": "mas",
    "to": "ripple",
-   "label": "BLOOM initiative member (2026-03-25)",
+   "label": "BLOOM initiative member (2026-03-25); MAS lists Ripple among BLOOM's expanded industry participants in its Oct 23, 2026 release, when BNM and BOT joined as policymaker members",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -98270,6 +98283,94 @@
    "source": "https://www.sec.gov/Archives/edgar/data/1374384/000137438426000007/isp_2026q2informationtable.xml",
    "side": "neutral",
    "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "hanwha-am",
+   "to": "ripple",
+   "label": "cooperation framework: digital-asset ETFs and RWA tokenization (reported 2026-08-20; no primary)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://en.sedaily.com/finance/2026/08/20/hanwha-asset-ties-up-with-ripple-canary-capital-on-digital",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "hanwha-am",
+   "to": "canary-capital",
+   "label": "cooperation framework, aim to launch an ETF in South Korea (reported 2026-08-20; no primary)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://en.sedaily.com/finance/2026/08/20/hanwha-asset-ties-up-with-ripple-canary-capital-on-digital",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "toxr",
+   "label": "seed capital investor via Ripple Markets Inc.: 10,000,000 seed shares at $22.07 ($220,676,000) on 2024-12-20, about 92% of 10.85M shares on 2026-03-24; lock-up to about 2026-12-20 (10-K)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2028835/000121390026036689/ea0282690-10k_21shares.htm",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "bnm",
+   "to": "mas",
+   "label": "joined MAS's BLOOM cross-border digital-money settlement initiative as a policymaker member (MAS release, Oct 23, 2026); Ripple is one of 24 BLOOM industry members, not an XRP/XRPL commitment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "bot-thailand",
+   "to": "mas",
+   "label": "joined MAS's BLOOM cross-border digital-money settlement initiative as a policymaker member (MAS release, Oct 23, 2026); Ripple is one of 24 BLOOM industry members, not an XRP/XRPL commitment",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "worldbank",
+   "to": "mas",
+   "label": "joined BLOOM as its multilateral development bank participant (MAS release, Oct 23, 2026), alongside industry members incl. Ripple",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "visa",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026), alongside Ripple, Mastercard, Circle and others: rival/peer rails in the same initiative",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026), alongside Ripple, Visa, Circle and others",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T08:26:09-04:00"
   }
  ]
 }
