@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-22T22:29:33-04:00",
+  "updated": "2026-10-23T00:25:11-04:00",
   "version": 3
  },
  "nodes": [
@@ -29943,6 +29943,18 @@
     "https://ripple.com/ripple-press/ripple-and-circle-launch-usdc-on-the-xrp-ledger/"
    ],
    "added": "2026-10-22T20:29:42-04:00"
+  },
+  {
+   "id": "cryptescrow",
+   "label": "CryptEscrow",
+   "type": "company",
+   "handle": "",
+   "summary": "Miami-based crypto-to-fiat settlement provider for real estate closings, founded by real estate attorney John Ioannou. On Oct 22, 2026 it announced a strategic partnership with Ripple in its own press release; the release names no Ripple product, amount or terms, and no Ripple-side announcement was found.",
+   "grade": "B",
+   "sources": [
+    "https://www.globenewswire.com/news-release/2026/10/23/3387005/0/en/cryptescrow-and-ripple-announce-strategic-partnership-to-advance-crypto-powered-real-estate-settlement.html"
+   ],
+   "added": "2026-10-23T00:23:17-04:00"
   }
  ],
  "edges": [
@@ -98065,6 +98077,50 @@
    "source": "https://xrpscan.com/tx/41BE7B0E877FB9C57A9BAFFE421A028ABA21377774750B6CC59143119AB44662",
    "side": "neutral",
    "added": "2026-10-22T22:27:43-04:00"
+  },
+  {
+   "from": "cryptescrow",
+   "to": "ripple",
+   "label": "announced a strategic partnership with Ripple for crypto-funded real estate settlement (Oct 22, 2026; CryptEscrow's own release, no product, amount or terms named)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.globenewswire.com/news-release/2026/10/23/3387005/0/en/cryptescrow-and-ripple-announce-strategic-partnership-to-advance-crypto-powered-real-estate-settlement.html",
+   "side": "neutral",
+   "added": "2026-10-23T00:23:17-04:00"
+  },
+  {
+   "from": "stellar",
+   "to": "reg-crypto-assets",
+   "label": "joint L1 comment letter on S7-2026-27 (posted Oct 21, 2026), signed by Stellar Development Foundation (Chief Legal and Policy Officer Candace Kelly) with Hedera, Aptos Labs, Ava Labs, SDF, Cardano Foundation and Chainlink Labs: asks the SEC to put the 2026 Interpretation's 'digital commodity' classification into the rule text; XRP/Ripple not among signers",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102859-3882366.pdf",
+   "side": "neutral",
+   "added": "2026-10-23T00:23:17-04:00"
+  },
+  {
+   "from": "hedera",
+   "to": "reg-crypto-assets",
+   "label": "joint L1 comment letter on S7-2026-27 (posted Oct 21, 2026), signed by Hedera Hashgraph, LLC (Chief Policy Officer Nilmini Rubin) with Hedera, Aptos Labs, Ava Labs, SDF, Cardano Foundation and Chainlink Labs: asks the SEC to put the 2026 Interpretation's 'digital commodity' classification into the rule text; XRP/Ripple not among signers",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102859-3882366.pdf",
+   "side": "neutral",
+   "added": "2026-10-23T00:23:17-04:00"
+  },
+  {
+   "from": "chainlink",
+   "to": "reg-crypto-assets",
+   "label": "joint L1 comment letter on S7-2026-27 (posted Oct 21, 2026), signed by Chainlink Labs (General Counsel Benjamin Sherwin) with Hedera, Aptos Labs, Ava Labs, SDF, Cardano Foundation and Chainlink Labs: asks the SEC to put the 2026 Interpretation's 'digital commodity' classification into the rule text; XRP/Ripple not among signers",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102859-3882366.pdf",
+   "side": "neutral",
+   "added": "2026-10-23T00:23:17-04:00"
   }
  ]
 }
