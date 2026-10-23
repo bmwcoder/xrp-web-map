@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T00:25:11-04:00",
+  "updated": "2026-10-23T02:27:07-04:00",
   "version": 3
  },
  "nodes": [
@@ -29955,6 +29955,45 @@
     "https://www.globenewswire.com/news-release/2026/10/23/3387005/0/en/cryptescrow-and-ripple-announce-strategic-partnership-to-advance-crypto-powered-real-estate-settlement.html"
    ],
    "added": "2026-10-23T00:23:17-04:00"
+  },
+  {
+   "id": "huma-finance",
+   "label": "Huma Finance (PayFi network)",
+   "type": "company",
+   "handle": "",
+   "summary": "PayFi / RWA-tokenization network. Merged with Arf on 2024-04-17 (separate brands kept). Its docs list programs on Solana, Stellar contracts (Certora-audited) and EVM pools including 'Arf 3-month' and 'Arf 6-month' pools; no XRPL deployment is listed (checked 2026-10-23). Joined Circle Payments Network with Arf as a credit service provider (announced 2025-09-30).",
+   "grade": "A",
+   "sources": [
+    "https://arf.one/huma-finance-and-arf-merge-to-transform-global-finance-through-real-world-asset-tokenization/",
+    "https://docs.huma.finance/llms-full.txt",
+    "https://arf.one/arf-and-huma-to-bring-credit-services-to-circle-payments-network/"
+   ],
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "id": "circle-payments-network",
+   "label": "Circle Payments Network (CPN)",
+   "type": "company",
+   "handle": "",
+   "summary": "Circle's network for real-time settlement between financial institutions in USDC/EURC, operated by Circle Technology Services, LLC. Arf and Huma joined as service providers offering on-demand USDC credit (2025-09-30). A rival stablecoin settlement network to Ripple Payments/RLUSD.",
+   "grade": "A",
+   "sources": [
+    "https://arf.one/arf-and-huma-to-bring-credit-services-to-circle-payments-network/",
+    "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement"
+   ],
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "id": "jpm-tokenized-mmf",
+   "label": "J.P. Morgan AM tokenized money market funds (MONY, JLTXX)",
+   "type": "asset",
+   "handle": "",
+   "summary": "MONY (My OnChain Net Yield Fund; 506(c) private placement, launched Dec 2025) and JLTXX (registered government MMF designed for GENIUS Act stablecoin-issuer reserves). Made available on Solana on 2026-10-22 through Morgan Money. No XRPL availability announced.",
+   "grade": "A",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html"
+   ],
+   "added": "2026-10-23T02:24:51-04:00"
   }
  ],
  "edges": [
@@ -97894,11 +97933,11 @@
   {
    "from": "jp-daiwa-next-bank",
    "to": "jp-orix-bank",
-   "label": "parent: ORIX Bank became its wholly owned subsidiary in Aug 2026 (both were 2017 consortium members)",
+   "label": "parent: acquired all ORIX Bank shares on 2026-08-03, making it a wholly owned subsidiary (Daiwa Securities Group / Daiwa Next Bank TDnet release; ORIX Corp release same day) (both were 2017 consortium members)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.orixbank.co.jp/",
+   "source": "https://www.bank-daiwa.co.jp/info/2026/pdf/0803_01.pdf",
    "side": "neutral",
    "added": "2026-10-22T14:31:59-04:00"
   },
@@ -98121,6 +98160,116 @@
    "source": "https://www.sec.gov/comments/S7-2026-27/s7202627-1102859-3882366.pdf",
    "side": "neutral",
    "added": "2026-10-23T00:23:17-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "huma-finance",
+   "label": "merged with Huma Finance (2024-04-17), brands kept separate; Arf's liquidity runs on Huma's PayFi network",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://arf.one/huma-finance-and-arf-merge-to-transform-global-finance-through-real-world-asset-tokenization/",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "huma-finance",
+   "to": "solana",
+   "label": "Huma PayFi programs deployed on Solana (Huma docs)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://docs.huma.finance/llms-full.txt",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "huma-finance",
+   "to": "stellar",
+   "label": "Huma contracts deployed on Stellar (Certora-audited), per Huma docs",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://docs.huma.finance/llms-full.txt",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "circle-payments-network",
+   "label": "joins CPN as a service provider with Huma, offering on-demand USDC credit to participants (announced 2025-09-30, Circle Forum Singapore)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://arf.one/arf-and-huma-to-bring-credit-services-to-circle-payments-network/",
+   "side": "contradicts",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "huma-finance",
+   "to": "circle-payments-network",
+   "label": "joins CPN as a credit service provider with Arf (announced 2025-09-30)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://arf.one/arf-and-huma-to-bring-credit-services-to-circle-payments-network/",
+   "side": "contradicts",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "circle-payments-network",
+   "label": "operates CPN through Circle Technology Services, LLC",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://arf.one/arf-and-huma-to-bring-credit-services-to-circle-payments-network/",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "jpm",
+   "to": "jpm-tokenized-mmf",
+   "label": "issuer through J.P. Morgan Asset Management (MONY launched Dec 2025; JLTXX for GENIUS Act stablecoin reserves)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "jpm-tokenized-mmf",
+   "to": "solana",
+   "label": "MONY and JLTXX available on Solana (2026-10-22) via Morgan Money; rival rail, no XRPL listing",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html",
+   "side": "contradicts",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "rippled",
+   "to": "amd-smartescrow",
+   "label": "develop-branch features.macro registers SmartEscrow as Supported::No, VoteBehavior::DefaultNo (placeholder, not votable; checked 2026-10-23); XLS-0100 still Draft",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/XRPLF/rippled/develop/include/xrpl/protocol/detail/features.macro",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
+  },
+  {
+   "from": "intesa",
+   "to": "gxrp",
+   "label": "Q2-2026 13F-HR (as of 2026-06-30, signed 2026-07-31), CUSIP 38965L106: 712,319 SH, $14,424,320, discretion DFND, no voting; long positions only",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1374384/000137438426000007/isp_2026q2informationtable.xml",
+   "side": "neutral",
+   "added": "2026-10-23T02:24:51-04:00"
   }
  ]
 }
