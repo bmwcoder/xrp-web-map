@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T08:37:06-04:00",
+  "updated": "2026-10-23T10:34:16-04:00",
   "version": 3
  },
  "nodes": [
@@ -3818,7 +3818,7 @@
    "label": "SBI VC Trade",
    "type": "company",
    "handle": "",
-   "summary": "SBI Group exchange; Japan distributor of RLUSD - began distribution Mar 31, 2026; full public launch after JFSA approval Jun 24, 2026 (first \"Type-4 electronic payment instrument\" in Japan, per SBI VC).",
+   "summary": "SBI Group exchange; Japan distributor of RLUSD - began distribution Mar 31, 2026; full public launch Jun 24, 2026, Ethereum chain only. SBI VC Trade itself classified RLUSD as a Type-4 electronic payment instrument and calls it Japan's first (its own survey); this was not an FSA approval.",
    "grade": "A",
    "sources": [
     "https://prtimes.jp/main/html/rd/p/000000210.000059421.html",
@@ -8681,13 +8681,14 @@
    "label": "Japan FSA",
    "type": "regulator",
    "handle": "",
-   "summary": "Japan Financial Services Agency; approved RLUSD as an electronic payment instrument under the Payment Services Act (announced 2026-06-24).",
-   "grade": "B",
+   "summary": "Japan Financial Services Agency; its electronic-payment-instrument dealer list (as of Aug 27, 2026) shows RLUSD handled by SBI VC Trade (Kanto Finance Bureau No. 00001). The FSA says the list only confirms instruments meet the Payment Services Act definition based on the dealer's own explanation; SBI VC Trade itself classified RLUSD as a Type-4 EPI (Jun 24, 2026). The FSA did not approve RLUSD.",
+   "grade": "A",
    "sources": [
     "https://www.theblock.co/news/defi/2026-06-24-ripple-launches-rlusd-stablecoin-japan-406067",
     "https://www.clb.go.jp/recent-laws/diet_bill/detail/id%3D5291",
     "https://www.nikkei.com/article/DGXZQOUB147UL0U6A710C2000000/",
-    "https://www.fsa.go.jp/frtc/kenkyu/event/20260624/02-sessyon1-1_saitomasahiko.pdf"
+    "https://www.fsa.go.jp/frtc/kenkyu/event/20260624/02-sessyon1-1_saitomasahiko.pdf",
+    "https://www.fsa.go.jp/en/regulated/licensed/denshikessaisyudan.pdf"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -29124,12 +29125,13 @@
    "label": "OCC final rule implementing the GENIUS Act (NR 2026-92, Oct 21, 2026)",
    "type": "regulator",
    "handle": "",
-   "summary": "OCC News Release 2026-92 (Oct 21, 2026) announces a final rule to implement the GENIUS Act's federal framework for payment stablecoins. The release does not name Ripple or RLUSD; Ripple National Trust Bank's charter approval is still conditional (OCC CAS, Oct 21: only Receipt 2025-07-02 and Approved 2025-12-12 for charter 25364). Rule text (721 pp; new 12 CFR 15) covers reserves, redemption, custody (subpart C), capital/backstop and the §15.15 $10B state-to-federal transition; it names neither Ripple nor RLUSD.",
+   "summary": "OCC News Release 2026-92 (Oct 21, 2026) announces a final rule to implement the GENIUS Act's federal framework for payment stablecoins. The release does not name Ripple or RLUSD; Ripple National Trust Bank's charter approval is still conditional (OCC CAS, Oct 21: only Receipt 2025-07-02 and Approved 2025-12-12 for charter 25364). Rule text (721 pp; new 12 CFR 15; published in the Federal Register Oct 23, 2026 as doc. 2026-21706, RIN 1557-AF41, effective Jan 18, 2027) covers reserves, redemption, custody (subpart C), capital/backstop and the §15.15 $10B state-to-federal transition; it names neither Ripple nor RLUSD.",
    "grade": "A",
    "sources": [
     "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92.html",
     "https://www.occ.gov/news-issuances/bulletins/2026/bulletin-2026-50.html",
-    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf"
+    "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf",
+    "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the"
    ],
    "added": "2026-10-21T12:31:57-04:00"
   },
@@ -30007,6 +30009,377 @@
     "https://coinness.com/en/news/1166123"
    ],
    "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "id": "aws",
+   "label": "Amazon Web Services (AWS)",
+   "type": "company",
+   "handle": "",
+   "summary": "Amazon cloud unit. Speaks at Swell 2026 on agentic payments (Oct 28) and runs an x402-on-AWS workshop with Ripple (Oct 29).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "peak6",
+   "label": "PEAK6",
+   "type": "company",
+   "handle": "",
+   "summary": "Chicago trading and investment firm. Its co-founder speaks at Swell 2026 (\"The Risk Advantage\", Oct 28). No Ripple or XRPL rail tie found.",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "rothera",
+   "label": "Rothera Markets",
+   "type": "company",
+   "handle": "",
+   "summary": "Markets firm whose CEO speaks at Swell 2026 (\"Always On\" panel with Polymarket and Ripple Prime, Oct 28). No rail tie found.",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "c2fo",
+   "label": "C2FO",
+   "type": "company",
+   "handle": "",
+   "summary": "Working-capital platform. Its President speaks with BNY and Ripple at Swell 2026 (Oct 28). No rail tie found.",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "trax",
+   "label": "Trax Technologies",
+   "type": "company",
+   "handle": "",
+   "summary": "Freight audit and payment firm. Its CEO speaks on always-on corporate treasury at Swell 2026 (Oct 28). No rail tie found.",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "project-eleven",
+   "label": "Project Eleven",
+   "type": "company",
+   "handle": "",
+   "summary": "Post-quantum security firm. Its CEO speaks on \"Preparing XRPL for a Post-Quantum Future\" at Swell 2026 (Oct 28).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "common-prefix",
+   "label": "Common Prefix",
+   "type": "company",
+   "handle": "",
+   "summary": "Blockchain research and audit firm. Co-presents \"Proof Over Trust: Formally Verifying the XRP Ledger\" with Ripple at Swell 2026 (Oct 28).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "pwc",
+   "label": "PwC",
+   "type": "company",
+   "handle": "",
+   "summary": "Professional-services firm. Its digital-assets leads present \"What Happens to Money? Four Futures\" at Swell 2026 (Oct 29).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "metacomp",
+   "label": "MetaComp",
+   "type": "company",
+   "handle": "",
+   "summary": "Singapore digital-payments firm. Its co-president is on the Swell 2026 regulation panel (Oct 29). No rail tie found.",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "ey",
+   "label": "EY",
+   "type": "company",
+   "handle": "",
+   "summary": "Professional-services firm. Its partner (also the UK Wholesale Digital Markets Champion) is on the Swell 2026 regulation panel (Oct 29).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "ergo",
+   "label": "Ergo (intelligence firm)",
+   "type": "company",
+   "handle": "",
+   "summary": "Global intelligence and advisory firm. Its CEO speaks with Ripple on global risk at Swell 2026 (Oct 27).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "borneo",
+   "label": "Borneo",
+   "type": "builder",
+   "handle": "",
+   "summary": "Security startup presenting \"Cryptographic Guardrails for Autonomous AI on the XRP Ledger\" at Swell 2026 (Oct 29).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "chamber-of-progress",
+   "label": "Chamber of Progress",
+   "type": "community",
+   "handle": "",
+   "summary": "Tech-industry policy group. Its CEO speaks with Ripple on the 2026 midterms at Swell 2026 (Oct 29).",
+   "grade": "A",
+   "sources": [
+    "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "ubyx",
+   "label": "Ubyx",
+   "type": "company",
+   "handle": "",
+   "summary": "US clearing and settlement network for regulated stablecoins and tokenized deposits. Barclays made a strategic investment (Jan 7, 2026).",
+   "grade": "B",
+   "sources": [
+    "https://www.coindesk.com/business/2026/01/07/barclays-invests-in-stablecoin-settlement-firm-as-tokenized-infrastructure-advances"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "jltxx",
+   "label": "JPMorgan OnChain Liquidity-Token Money Market Fund (JLTXX)",
+   "type": "asset",
+   "handle": "",
+   "summary": "Token Class of a series of JPMorgan Trust IV (CIK 0001659326), a registered government money market fund. Prospectus dated May 13, 2026: 'The Ethereum blockchain ... is currently the only available blockchain'. 497K supplement dated Oct 1, 2026: 'tokens of the Fund will be available on the Solana blockchain'; Ethereum and Solana are 'currently the only available blockchains'. Blockchain tech is designed, deployed and maintained by Kinexys Digital Assets (JPMorgan Chase Bank). No XRPL named.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1659326/000119312526410016/d172947d497k.htm",
+    "https://www.sec.gov/Archives/edgar/data/1659326/000119312526217424/d44657d485bpos.htm"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "esma-opinion-non-mica-stablecoins-2026-10-08",
+   "label": "ESMA opinion on services in non-MiCA-compliant stablecoins (Oct 8, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "ESMA opinion ESMA75-113276571-1742 (Oct 8, 2026): MiCA-authorised CASPs 'should cease providing services related to non-MiCA-compliant stablecoins to clients in the European Union', across trading, exchange, custody, transfers and advice. NCAs must require remediation of pre-existing exposures no later than three months after publication (about Jan 8, 2027). Wind-down is limited to liquidation, conversion, withdrawal, transfer or safekeeping. The opinion names no specific token.",
+   "grade": "A",
+   "sources": [
+    "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised",
+    "https://www.esma.europa.eu/sites/default/files/2026-10/ESMA75-113276571-1742_Opinion_on_the_provision_of_crypto_asset_services_in_relation_to_non-MiCA-compliant_asset-referenced_tokens_and_e-money_tokens.pdf"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "eba",
+   "label": "EBA (European Banking Authority)",
+   "type": "regulator",
+   "handle": "",
+   "summary": "EU banking authority; supervises significant e-money tokens under MiCA. On Oct 14, 2026 it classified USDC (Circle Internet Financial Europe SAS) as the first significant EMT, with EBA supervision from Nov 12, 2026. It also signed an MoU with NYDFS.",
+   "grade": "A",
+   "sources": [
+    "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "fca-cp26-36-2026-10-21",
+   "label": "FCA CP26/36: Cryptoasset perimeter guidance (Oct 21, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "FCA consultation (published Oct 21, 2026; closes Nov 18, 2026) on perimeter guidance for the UK cryptoasset regime. It covers the exclusions in the draft Cryptoassets (Miscellaneous Amendments) Regulations 2026, including UK qualifying stablecoin holdings for payments and backing assets. Final guidance is expected Jan 2027, and the regime starts Oct 25, 2027. Ripple is not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.fca.org.uk/publications/consultation-papers/cp26-36-cryptoasset-perimeter-guidance"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "jfsa-dfi-study-group-2026",
+   "label": "Japan FSA study group on digital and decentralised finance (from Oct 20, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "FSA expert study group (デジタル・分散型金融への対応のあり方等に関する研究会). First meeting Oct 20, 2026. Topics include tokenisation, stablecoins, DEX/DeFi and wallet providers. No XRP or Ripple item.",
+   "grade": "A",
+   "sources": [
+    "https://www.fsa.go.jp/singi/digital_2026/index.html"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "privy",
+   "label": "Privy",
+   "type": "company",
+   "handle": "@privy_io",
+   "summary": "Wallet-infrastructure firm owned by Stripe; added embedded XRPL wallets (incl. RLUSD) and x402 agentic payments on XRPL, announced 2026-10-13 with Ripple.",
+   "grade": "A",
+   "sources": [
+    "https://privy.io/blog/building-payments-and-agentic-commerce-with-the-xrp-ledger",
+    "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463",
+    "https://docs.privy.io/wallets/using-wallets/xrpl/overview"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "maybank",
+   "label": "Maybank",
+   "type": "bank",
+   "handle": "",
+   "summary": "Malaysian banking group; named a new BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "monee",
+   "label": "Monee",
+   "type": "company",
+   "handle": "",
+   "summary": "payments firm; named a new BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "nium",
+   "label": "Nium",
+   "type": "company",
+   "handle": "",
+   "summary": "Singapore-based cross-border payments firm; named a new BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "shopeepay",
+   "label": "ShopeePay",
+   "type": "company",
+   "handle": "",
+   "summary": "Sea Group e-wallet; named a new BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "ant-international",
+   "label": "Ant International",
+   "type": "company",
+   "handle": "",
+   "summary": "Ant Group's international payments arm; listed as an existing BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "kasikornbank",
+   "label": "Kasikornbank",
+   "type": "bank",
+   "handle": "",
+   "summary": "Thai bank (KBank Thailand; not Korea's Kbank); listed as an existing BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "schroders",
+   "label": "Schroders",
+   "type": "company",
+   "handle": "",
+   "summary": "UK asset manager; listed as an existing BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "xweave",
+   "label": "Xweave",
+   "type": "company",
+   "handle": "",
+   "summary": "DBS-launched cross-border settlement platform; listed as an existing BLOOM industry participant in the MAS/BNM/BOT release of Oct 23, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "usbank-custody-filings-check-2026-10-23",
+   "label": "EDGAR check: U.S. Bank custody roles in XRPC/XRPR/XRPI/XRPT, launch vs latest (Oct 23, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Launch-vs-latest filings compared for all four funds. U.S. Bank's role is unchanged in every one and limited to cash, traditional securities and futures collateral, plus admin/TA via U.S. Bancorp Fund Services. It never holds XRP (XRPC: Coinbase Custody + BitGo, formerly Gemini + BitGo; XRPR: Anchorage). No filing mentions Stellar or USBDC in a U.S. Bank context. Neither XRPL evidence nor a single-chain statement. Chain side: USBDC (Sep 2026) names only Stellar, but Jamie Walker called it 'one component of a broader strategy' with a 'long-term focus on interoperability across… other blockchain platforms' (American Banker); no other chain named, no exclusivity.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2039505/000199937125016081/canaryxrp-s1a_102425.htm",
+    "https://www.sec.gov/Archives/edgar/data/2039505/000199937126007350/xrpc-10k_123125.htm",
+    "https://www.sec.gov/Archives/edgar/data/1771146/000199937125015947/rexosprey-497_102325.htm",
+    "https://www.sec.gov/Archives/edgar/data/1771146/000199937126010096/xrpr-ncsr_022826.htm",
+    "https://www.sec.gov/Archives/edgar/data/1884021/000121390025046098/ea0242215-02_485bpos.htm",
+    "https://www.sec.gov/Archives/edgar/data/1884021/000121390025046095/ea0242216-02_485bpos.htm",
+    "https://www.americanbanker.com/payments/news/u-s-bank-partners-with-stellar-to-test-stablecoin"
+   ],
+   "added": "2026-10-23T10:28:22-04:00"
   }
  ],
  "edges": [
@@ -42671,11 +43044,11 @@
   {
    "from": "jfsa",
    "to": "rlusd",
-   "label": "approved as e-payment instrument (Jun 2026)",
+   "label": "FSA electronic-payment-instrument dealer list (as of Aug 27, 2026) shows RLUSD handled by SBI VC Trade; the FSA says the list relies on the dealer's own explanation (SBI VC Trade classified RLUSD as Type-4 itself). Not an FSA approval; Ethereum only",
    "grade": "A",
-   "strength": 4,
+   "strength": 3,
    "key": false,
-   "source": "https://x.com/Ripple/status/2069933811702333669",
+   "source": "https://www.fsa.go.jp/en/regulated/licensed/denshikessaisyudan.pdf",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -98371,6 +98744,1348 @@
    "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
    "side": "neutral",
    "added": "2026-10-23T08:26:09-04:00"
+  },
+  {
+   "from": "aave",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"From Issuance to Utility: The Next Chapter of Tokenization\" 10:25, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "dbs",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Boardroom Pitch for Digital Assets in Banking\" 11:20, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "btg",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Boardroom Pitch for Digital Assets in Banking\" 11:20, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "sgforge",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Boardroom Pitch for Digital Assets in Banking\" 11:20, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "aviva-investors",
+   "to": "swell",
+   "label": "Swell 2026 speaker: asset-manager panel \"From Allocation to Adoption\" 13:10, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "blackrock",
+   "to": "swell",
+   "label": "Swell 2026 speaker: asset-manager panel \"From Allocation to Adoption\" 13:10, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "new-york-life",
+   "to": "swell",
+   "label": "Swell 2026 speaker: asset-manager panel \"From Allocation to Adoption\" 13:10, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "citadel-sec",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Market Structure & the Convergence of Digital and Traditional Markets\" 13:40, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "susquehanna",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Market Structure & the Convergence of Digital and Traditional Markets\" 13:40, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "qrt",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Market Structure & the Convergence of Digital and Traditional Markets\" 13:40, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Market Structure\" 13:40 and \"Always On\" (Oct 28) panels, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "moonpay",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Accelerating Stablecoin Adoption\" 14:30, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Accelerating Stablecoin Adoption\" 14:30, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "okx",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"How Stablecoins Are Rewiring Institutional Markets\" 15:00, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "lmax",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"How Stablecoins Are Rewiring Institutional Markets\" 15:00, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Payments Reimagined\" 15:25 and \"What Happens When AI Moves Money?\" (Oct 28), Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "crossriver",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Payments Reimagined: Digital Assets, Stablecoins, and Agentic Commerce\" 15:25, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "polymarket",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Always On: Liquidity, Clearing, and the New Price Discovery\" 10:20, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "icapital",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Risk Advantage\" 10:45 and moderates CME fireside 11:35, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "stripe",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"What Happens When AI Moves Money?\" 13:20 (Head of Stripe Crypto / Privy), Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "zerohash",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"What Happens When AI Moves Money?\" 13:20, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The $3.7M Wake-Up Call\" 14:35 and Coinbase Institutional fireside 16:45, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "state-street",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Rewiring the Back Office\" 15:15 and \"The Case for Always-On Corporate Treasury\" 16:15, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "broadridge",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Rewiring the Back Office: The Onchain Operational Blueprint\" 15:15, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "franklin",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Next Wave of Digital Asset Adoption\" 15:45 and spot-XRP-ETF panel (Oct 29), Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "grayscale",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Next Wave of Digital Asset Adoption\" 15:45, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "xrpl-labs",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Inside Xaman Wallet: The Inner Workings of XRPL's Signing Layer\" 14:00, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "xaman",
+   "to": "swell",
+   "label": "Swell 2026 speaker: community panel \"Community is the Heart of XRPL\" 15:15 (XRPL Japan/Xaman), Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "xrpl-korea",
+   "to": "swell",
+   "label": "Swell 2026 speaker: community panel \"Community is the Heart of XRPL\" 15:15, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "nca",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The $3.7M Wake-Up Call\" 14:35, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jump-trading",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The New Architecture of Global Markets\" 09:55, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "intesa",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Digital Assets Into Bank-Grade Production\" 13:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "barclays",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Digital Assets Into Bank-Grade Production\" 13:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "sbi-savings-bank",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Digital Assets Into Bank-Grade Production\" 13:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "nedbank",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Digital Assets Into Bank-Grade Production\" 13:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "squid",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Banking and Trading with RLUSD in a Multichain World\" 13:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "t54",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Building Trusted Agentic Finance on XRPL with RLUSD\" 13:15, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "vs1-finance",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Institutional Credit on XRPL\" 13:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "cicada",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Institutional Credit on XRPL\" 13:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "clearpool",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Institutional Credit on XRPL\" 13:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "arf",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Bringing Institutional Credit on XRPL\" 13:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "vara",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Building the Rules for Digital Finance\" 14:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "flare",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Advancing DeFi for XRP\" 14:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "soil",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Advancing DeFi for XRP\" 14:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "bitwise",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The First 365 Days: Lessons from the First Spot XRP ETF\" 14:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "canary-capital",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The First 365 Days: Lessons from the First Spot XRP ETF\" 14:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "c9-tech",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Building LATAM's On-Chain Future on the XRPL\" 15:45, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "cryptum",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Building LATAM's On-Chain Future on the XRPL\" 15:45, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "kapitale",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Net-to-Cash Rail: Rebuilding B2B Payments on Programmable Assets\" 16:15, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "easya",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"From Learning to Launch: Bringing the World's Best Developers to the XRPL\" 16:45, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "aws",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"What Happens When AI Moves Money?\" 13:20 and x402 workshop with Ripple (Oct 29 16:30), Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "peak6",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Risk Advantage: From Trading Floors to the Future of Finance\" 10:45, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "rothera",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Always On: Liquidity, Clearing, and the New Price Discovery\" 10:20, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "c2fo",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Future of Working Capital in a Digital Economy\" 13:50, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "trax",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"The Case for Always-On Corporate Treasury\" 16:15, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "project-eleven",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Preparing XRPL for a Post-Quantum Future\" 16:30, Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "common-prefix",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Proof Over Trust: Formally Verifying the XRP Ledger\" 13:30 (with Ripple), Oct 28 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "pwc",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"What Happens to Money? Four Futures for the Age of Digital Assets\" 14:30, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "metacomp",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Building the Rules for Digital Finance\" 14:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "ey",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Building the Rules for Digital Finance\" 14:00, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "ergo",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Anticipating Global Shocks: Intelligence, Risks, and Resilience\" 15:50, Oct 27 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "borneo",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Securing Agentic Finance: Cryptographic Guardrails for Autonomous AI on the XRP Ledger\" 13:15, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "chamber-of-progress",
+   "to": "swell",
+   "label": "Swell 2026 speaker: \"Washington at a Crossroads: The 2026 Midterms\" 09:35, Oct 29 (Brella agenda)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "state-street",
+   "to": "solana",
+   "label": "State Street/Galaxy SWEEP tokenized liquidity fund launched on Solana (2026-05-05)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://investors.statestreet.com/investor-news-events/press-releases/news-details/2026/State-Street-Investment-Management-and-Galaxy-Digital-Bring-Cash-Management-Onchain/default.aspx",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "cme",
+   "to": "google",
+   "label": "tokenized cash on Google Cloud Universal Ledger with BMO (announced 2026-03-24; target live by end-2026; not XRPL)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.cmegroup.com/media-room/press-releases/2026/3/24/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud.html",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "bmo",
+   "to": "cme",
+   "label": "BMO tokenized cash and deposit platform with CME Group and Google Cloud (2026-03-24)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.cmegroup.com/media-room/press-releases/2026/3/24/bmo-introduces-tokenized-cash-and-deposit-platform-with-cme-group-and-google-cloud.html",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "barclays",
+   "to": "ubyx",
+   "label": "strategic investment in stablecoin clearing network Ubyx (2026-01-07)",
+   "grade": "B",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/01/07/barclays-invests-in-stablecoin-settlement-firm-as-tokenized-infrastructure-advances",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "aws",
+   "to": "ripple",
+   "label": "co-hosts Swell 2026 workshop on building x402 apps for agentic commerce on AWS (Oct 29 16:30)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "common-prefix",
+   "to": "xrpl",
+   "label": "formal-verification work on the XRP Ledger presented with Ripple at Swell 2026 (Oct 28)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jltxx",
+   "to": "solana",
+   "label": "497K supplement (Oct 1, 2026): 'tokens of the Fund will be available on the Solana blockchain'; Ethereum and Solana 'currently the only available blockchains'",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526410016/d172947d497k.htm",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jltxx",
+   "to": "ethereum",
+   "label": "launch chain: May 13, 2026 prospectus says Ethereum is 'currently the only available blockchain'; still listed in the Oct 1, 2026 supplement",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526217424/d44657d485bpos.htm",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jltxx",
+   "to": "jpm-tokenized-mmf",
+   "label": "registered fund of the MONY/JLTXX pair (Token Class, series of JPMorgan Trust IV)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526217424/d44657d485bpos.htm",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jpm",
+   "to": "jltxx",
+   "label": "Kinexys Digital Assets, a JPMorgan Chase Bank unit, designs, deploys and maintains the fund's blockchain technology (prospectus, May 13, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1659326/000119312526353379/d127628d497.htm",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "xrp",
+   "label": "424B3 (Oct 19, 2026): 'As of October 9, 2026, we held approximately 473 million XRP'; the on-chain total of ~472.78M (Oct 22) is within 0.1%",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000119312526425367/d184594d424b3.htm",
+   "side": "supports",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "esma",
+   "to": "esma-opinion-non-mica-stablecoins-2026-10-08",
+   "label": "published opinion telling MiCA CASPs to stop services in non-MiCA-compliant ARTs/EMTs (Oct 8, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.esma.europa.eu/press-news/esma-news/esma-sets-out-supervisory-expectations-services-related-unauthorised",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "esma-opinion-non-mica-stablecoins-2026-10-08",
+   "to": "rlusd",
+   "label": "in scope unless and until a MiCA EMT white paper is notified: RLUSD has no entry in ESMA's interim EMT register (register updated Oct 22, checked Oct 23, 2026); the opinion names no token. MiCA Art. 48 lets an EU-authorised EMI that is the token's issuer offer an EMT after at least 40 working days' notice (Ripple Payments Europe holds a CSSF EMI licence)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "eba",
+   "to": "usdc",
+   "label": "classified USDC as the first significant e-money token under MiCA (Oct 14, 2026); EBA supervision from Nov 12, 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "uk-fca",
+   "to": "fca-cp26-36-2026-10-21",
+   "label": "published CP26/36 cryptoasset perimeter guidance consultation (Oct 21, 2026; closes Nov 18)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fca.org.uk/publications/consultation-papers/cp26-36-cryptoasset-perimeter-guidance",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "hkma",
+   "to": "hsbc",
+   "label": "HSBC RedCoin (RCHKD) HKD stablecoin launched on PayMe Oct 23, 2026 under its HKMA stablecoin issuer licence (FRS02, effective Apr 10, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.about.hsbc.com.hk/news-and-media/hsbc-redcoin-launches-today",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jfsa",
+   "to": "jfsa-dfi-study-group-2026",
+   "label": "convened study group on digital and decentralised finance (1st meeting Oct 20, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsa.go.jp/singi/digital_2026/index.html",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "bcb",
+   "to": "ripple-brasil",
+   "label": "phase-1 SPSAV authorisation filing due by Oct 30, 2026 for firms already operating (IN BCB 704 art. 9); applies to Ripple Brasil's transitional status",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bcb.gov.br/estabilidadefinanceira/exibenormativo?tipo=Instru%C3%A7%C3%A3o%20Normativa%20BCB&numero=704",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "privy",
+   "to": "xrpl",
+   "label": "integrated embedded XRPL wallets (XRP, RLUSD) and x402 agentic payments on XRPL (2026-10-13)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://privy.io/blog/building-payments-and-agentic-commerce-with-the-xrp-ledger",
+   "side": "supports",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "privy",
+   "to": "ripple",
+   "label": "XRPL wallet launch announced jointly with Ripple (@Ripple post, 2026-10-13)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/Ripple/status/2110047614922375447",
+   "side": "supports",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "stripe",
+   "to": "privy",
+   "label": "owner (Stripe acquired Privy, 2025)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://www.theblock.co/news/business/2026-10-13-stripe-privy-ripple-xrp-ledger-wallets-418463",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "airwallex",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "maybank",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "monee",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "nium",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "shopeepay",
+   "to": "mas",
+   "label": "named a new BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "anchorage",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "ant-international",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "circle",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "dbs",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "jpm",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "kasikornbank",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "ocbc",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "partior",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "schroders",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "straitsx",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "stripe",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "temasek",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "uob",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "xweave",
+   "to": "mas",
+   "label": "listed as an existing BLOOM industry participant (MAS release, Oct 23, 2026); participation, not an MOU",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2026/mas-bnm-and-bot-partner-with-industry-to-advance-cross-border-settlement-in-digital-money",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "coinmena",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "coinsph",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "dlocal",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "flutterwave",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "fomopay",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "onafriq",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "openpayd",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "redotpay",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "tazapay",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "yellowcard",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "zodia",
+   "to": "circle-payments-network",
+   "label": "named CPN design partner (Circle launch release, Apr 2025); a Ripple partner also on Circle's rival network; current membership not re-verified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "santander",
+   "to": "circle-payments-network",
+   "label": "named CPN adviser (Circle launch release, Apr 2025); advisory role, not a settlement member",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "circle-payments-network",
+   "label": "named CPN adviser (Circle launch release, Apr 2025); advisory role, not a settlement member",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "sgforge",
+   "to": "circle-payments-network",
+   "label": "named CPN adviser (Circle names parent Société Générale) (Circle launch release, Apr 2025); advisory role, not a settlement member",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "crossriver",
+   "label": "2026 partnership: Cross River to support RLUSD (@Ripple 'We're partnering with @CrossRiverBank', 2026-10-15)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://x.com/Ripple/status/2110740236749717712",
+   "side": "supports",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "usbank",
+   "to": "usbank-custody-filings-check-2026-10-23",
+   "label": "custody role unchanged launch→latest in all four XRP fund filings; cash/securities only, never XRP; no Stellar/USBDC mention",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2039505/000199937126007350/xrpc-10k_123125.htm",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "gtreasury",
+   "to": "usbank",
+   "label": "ClearConnect Gateway bank-API integration: U.S. Bank balance and transaction reporting (2023-10-19, before Ripple acquired GTreasury); bank-data connectivity, not XRP/XRPL",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://treasury.ripple.com/news/gtreasury-adds-u-s-bank-to-its-clearconnect-gateway-connectivity-suite",
+   "side": "neutral",
+   "added": "2026-10-23T10:28:22-04:00"
   }
  ]
 }
