@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T10:34:16-04:00",
+  "updated": "2026-10-23T12:29:29-04:00",
   "version": 3
  },
  "nodes": [
@@ -61019,10 +61019,10 @@
    "from": "dom",
    "to": "swell-dom-talk",
    "label": "speaker",
-   "grade": "B",
+   "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.confbase.com/conferences/ripple-swell",
+   "source": "https://x.com/dom_kwok/status/2113652234181325226",
    "side": "neutral",
    "added": "2026-10-19T23:09:55-04:00"
   },
