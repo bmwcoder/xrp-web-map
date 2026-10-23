@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T12:29:29-04:00",
+  "updated": "2026-10-23T14:25:26-04:00",
   "version": 3
  },
  "nodes": [
@@ -30380,6 +30380,31 @@
     "https://www.americanbanker.com/payments/news/u-s-bank-partners-with-stellar-to-test-stablecoin"
    ],
    "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "id": "themes-2x-xrp",
+   "label": "Leverage Shares 2X Long/Short XRP Daily ETFs (Themes ETF Trust)",
+   "type": "etf",
+   "handle": "",
+   "summary": "Two proposed leveraged XRP ETFs (2X Long XRP Daily, 2X Short XRP Daily), series of Themes ETF Trust (File 333-271700), originally filed in PEA No. 27 on 2025-03-19. A 485BXT filed 2026-10-02 (PEA No. 494) delays their effectiveness to 2026-10-30. Not launched as of 2026-10-23.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1976322/000182912626010727/themesetf_485bxt.htm"
+   ],
+   "added": "2026-10-23T14:23:20-04:00"
+  },
+  {
+   "id": "amd-fixcleanup-3-5-0",
+   "label": "fixCleanup3_5_0 amendment (rippled 3.5.0 fix bundle, in development)",
+   "type": "event",
+   "handle": "",
+   "summary": "Placeholder fix amendment registered on rippled develop (PR #8174, 2026-09-05) with Supported::Yes, DefaultNo. PR #8634 (opened 2026-10-23) is the first behavior change gated on it. Not in any release and not voting as of 2026-10-23.",
+   "grade": "A",
+   "sources": [
+    "https://raw.githubusercontent.com/XRPLF/rippled/develop/include/xrpl/protocol/detail/features.macro",
+    "https://github.com/XRPLF/rippled/pull/8634"
+   ],
+   "added": "2026-10-23T14:23:20-04:00"
   }
  ],
  "edges": [
@@ -100086,6 +100111,39 @@
    "source": "https://treasury.ripple.com/news/gtreasury-adds-u-s-bank-to-its-clearconnect-gateway-connectivity-suite",
    "side": "neutral",
    "added": "2026-10-23T10:28:22-04:00"
+  },
+  {
+   "from": "themes-2x-xrp",
+   "to": "xrp",
+   "label": "proposed 2X long and 2X short daily XRP exposure; 485BXT (2026-10-02) delays effectiveness to 2026-10-30",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626010727/themesetf_485bxt.htm",
+   "side": "neutral",
+   "added": "2026-10-23T14:23:20-04:00"
+  },
+  {
+   "from": "rippled",
+   "to": "amd-fixcleanup-3-5-0",
+   "label": "develop features.macro registers fixCleanup3_5_0 Supported::Yes, DefaultNo (placeholder #8174, 2026-09-05; first gated change PR #8634, 2026-10-23)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/XRPLF/rippled/develop/include/xrpl/protocol/detail/features.macro",
+   "side": "neutral",
+   "added": "2026-10-23T14:23:20-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "circle-payments-network",
+   "label": "named one of four CPN advisers (with Santander, Société Générale, Standard Chartered) at launch, Apr 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-announces-payments-network-to-transform-global-money-movement",
+   "side": "contradicts",
+   "added": "2026-10-23T14:23:20-04:00"
   }
  ]
 }
