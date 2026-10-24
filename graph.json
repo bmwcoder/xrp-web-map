@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T12:29:42-04:00",
+  "updated": "2026-10-24T14:31:33-04:00",
   "version": 3
  },
  "nodes": [
@@ -39778,7 +39778,7 @@
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/dbs-franklin-templeton-to-launch-trading-and-lending-solutions-tokenised-mmf-ripple-stablecoin-rlusd/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43106,12 +43106,12 @@
   {
    "from": "jeonbuk",
    "to": "swift",
-   "label": "replacing multi-day SWIFT transfers (per Ripple)",
-   "grade": "A",
+   "label": "Ripple's Aug 2026 post said Ripple Payments replaces multi-day SWIFT transfers; Ripple president Monica Long said Oct 24 2026 it complements, not replaces, Jeonbuk's SWIFT-based system (Chosun Biz)",
+   "grade": "B",
    "strength": 2,
    "key": false,
-   "source": "https://x.com/Ripple/status/2089533091853357138",
-   "side": "supports",
+   "source": "https://biz.chosun.com/stock/finance/2026/10/24/U65PWG6TTVAWBJPMPSXRZAOTRI/",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -100465,7 +100465,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-24T02:23:40-04:00"
   },
   {
@@ -100511,6 +100511,17 @@
    "source": "https://x.com/wellbianlabs/status/2114006223968522380",
    "side": "neutral",
    "added": "2026-10-24T12:27:45-04:00"
+  },
+  {
+   "from": "jeonbuk",
+   "to": "ripple",
+   "label": "Jeonbuk Bank's own Aug 18 2026 announcement of a Ripple strategic partnership and first Korean bank use of Ripple Payments; no XRP or stablecoin named (Yonhap)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.yna.co.kr/view/AKR20260818115100055",
+   "side": "neutral",
+   "added": "2026-10-24T14:29:25-04:00"
   }
  ]
 }
