@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T18:33:18-04:00",
+  "updated": "2026-10-23T20:24:33-04:00",
   "version": 3
  },
  "nodes": [
@@ -17262,11 +17262,12 @@
    "type": "company",
    "handle": "",
    "summary": "Unlabeled wallets whose creation parents lead back to Ripple 50 (rJqiMb94…): rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3 was created by Ripple 50 on 2023-10-02. rhWt2bhRq3wiK9sQnYVmhhKb5Dr2SE32hk (depositAuth on, 13.35M XRP) was created 2023-03-31 by rp6vx6zw…, which was itself created by the Ripple-50-created rP7jPqEB…. rhWt2bhR received 5,597M XRP from rP4X2hTa and sent 5,644M to r4wf7enWPxyHtbizyV7ZHiZi5XgwHh4Rzn in 812 payments (Dec 2023–Oct 19, 2026). r4wf7enW relays the same odd amounts within minutes. Since Jan 2025 it has sent Bitso 1,714M, Bitstamp 564M (to Oct 2025), BTC Markets 276M and Independent Reserve 4.9M; its last Bitso payment was 1,491,100 XRP at 2026-10-19 15:35 ET. Live XRPL tx history read via xrplcluster/XRPScan, Oct 19, 2026.",
-   "grade": "A",
+   "grade": "B",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/r4wf7enWPxyHtbizyV7ZHiZi5XgwHh4Rzn",
     "https://api.xrpscan.com/api/v1/account/rhWt2bhRq3wiK9sQnYVmhhKb5Dr2SE32hk",
-    "https://api.xrpscan.com/api/v1/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3"
+    "https://api.xrpscan.com/api/v1/account/rP4X2hTa7A7udDbE6wczXvPz7XZ63sKxv3",
+    "https://bithomp.com/en/account/r4wf7enWPxyHtbizyV7ZHiZi5XgwHh4Rzn"
    ],
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -31267,8 +31268,8 @@
    "from": "evernorth",
    "to": "ripple",
    "label": "execution partner for 473M XRP",
-   "grade": "A",
-   "strength": 3,
+   "grade": "C",
+   "strength": 1,
    "source": "https://x.com/evernorthxrp/status/2110341960963654094",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
@@ -31277,8 +31278,8 @@
    "from": "evernorth",
    "to": "kraken",
    "label": "execution partner for 473M XRP",
-   "grade": "A",
-   "strength": 3,
+   "grade": "C",
+   "strength": 1,
    "source": "https://x.com/evernorthxrp/status/2110341960963654094",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
@@ -31287,8 +31288,8 @@
    "from": "evernorth",
    "to": "coinbase",
    "label": "execution partner for 473M XRP",
-   "grade": "A",
-   "strength": 3,
+   "grade": "C",
+   "strength": 1,
    "source": "https://x.com/evernorthxrp/status/2110341960963654094",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
@@ -31297,8 +31298,8 @@
    "from": "evernorth",
    "to": "bitgo",
    "label": "execution partner for 473M XRP",
-   "grade": "A",
-   "strength": 3,
+   "grade": "C",
+   "strength": 1,
    "source": "https://x.com/evernorthxrp/status/2110341960963654094",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
@@ -100326,6 +100327,28 @@
    "source": "https://olinda.bcb.gov.br/olinda/servico/Processos_Autorizacao/versao/v1/odata/ProcessosAutorizacaoFuncionamentoEmAberto(dataBase=@dataBase)?@dataBase='2026-09'&$format=json",
    "side": "neutral",
    "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "from": "cantor",
+   "to": "evernorth",
+   "label": "committed equity facility: Evernorth may sell up to 5,218,935 XRPN shares to CF Principal Investments at 97% of VWAP over 14 months; proceeds earmarked for XRP acquisition (8-K/S-1, Oct 23 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/evernorth-elocx8xk.htm",
+   "side": "supports",
+   "added": "2026-10-23T20:22:31-04:00"
+  },
+  {
+   "from": "bitso",
+   "to": "stellar",
+   "label": "USDT0's official account listed Bitso as a way to move dollars to Stellar (Oct 23 2026), reposted by @StellarOrg; Bitso also runs non-XRPL dollar rails",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/StellarOrg/status/2113672298003657107",
+   "side": "contradicts",
+   "added": "2026-10-23T20:22:31-04:00"
   }
  ]
 }
