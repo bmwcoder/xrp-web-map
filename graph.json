@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T14:31:33-04:00",
+  "updated": "2026-10-24T16:26:44-04:00",
   "version": 3
  },
  "nodes": [
@@ -100522,6 +100522,17 @@
    "source": "https://www.yna.co.kr/view/AKR20260818115100055",
    "side": "neutral",
    "added": "2026-10-24T14:29:25-04:00"
+  },
+  {
+   "from": "caroline-pham",
+   "to": "swell",
+   "label": "speaker at Swell 2026 Platinum Summit (Oct 27), billed as CEO, MoonPay Institutional; speaker card posted by Pham's own verified account on Oct 24, 2026",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/CarolineDPham/status/2114053502875971795",
+   "side": "neutral",
+   "added": "2026-10-24T16:22:31-04:00"
   }
  ]
 }
