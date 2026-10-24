@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T08:35:35-04:00",
+  "updated": "2026-10-24T12:29:42-04:00",
   "version": 3
  },
  "nodes": [
@@ -30473,6 +30473,19 @@
     "https://www.theblock.co/news/markets/2026-05-05-sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost-400098"
    ],
    "added": "2026-10-24T08:30:44-04:00"
+  },
+  {
+   "id": "wellbian",
+   "label": "Wellbian (Wellbian Labs)",
+   "type": "builder",
+   "handle": "@wellbianlabs",
+   "summary": "Weather-data rewards app that pays WLBN tokens, convertible to XRP/RLUSD; users can connect external wallets such as Xaman or D'CENT or use its custodial 'Simple Wallet'. On Oct 24, 2026 from 21:06 KST (8:06 AM ET) for about 10 minutes, WLBN, XRP and RLUSD were moved without authorization from Simple Wallets of some Google/email sign-up members; cause under investigation, Simple Wallet login, rewards, NFT minting and payments suspended, company operating wallets said to be safe, external-wallet users unaffected (per its own notice). App-level incident, not an XRPL protocol fault.",
+   "grade": "A",
+   "sources": [
+    "https://x.com/wellbianlabs/status/2114006223968522380",
+    "https://x.com/wellbianlabs/status/2114006227525239237"
+   ],
+   "added": "2026-10-24T12:27:45-04:00"
   }
  ],
  "edges": [
@@ -100476,6 +100489,28 @@
    "source": "https://www.theblock.co/news/markets/2026-05-05-sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost-400098",
    "side": "contradicts",
    "added": "2026-10-24T08:30:44-04:00"
+  },
+  {
+   "from": "wellbian",
+   "to": "kweather",
+   "label": "Wellbian Labs is KWeather's Web3 unit (XRP Seoul lists 'Kweather (Wellbian Labs)' CEO as speaker)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.xrp-seoul.com/en",
+   "side": "neutral",
+   "added": "2026-10-24T12:27:45-04:00"
+  },
+  {
+   "from": "wellbian",
+   "to": "xrpl",
+   "label": "custodial Simple Wallets drained of WLBN, XRP and RLUSD for ~10 min on Oct 24, 2026 (app-level, cause under investigation; services suspended)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/wellbianlabs/status/2114006223968522380",
+   "side": "neutral",
+   "added": "2026-10-24T12:27:45-04:00"
   }
  ]
 }
