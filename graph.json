@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T00:31:29-04:00",
+  "updated": "2026-10-24T02:28:18-04:00",
   "version": 3
  },
  "nodes": [
@@ -30434,6 +30434,30 @@
     "https://wyoleg.gov/InterimCommittee/2025/02-20251208091-STC-152-Factbook.pdf"
    ],
    "added": "2026-10-23T18:28:45-04:00"
+  },
+  {
+   "id": "ascend-markets",
+   "label": "Ascend Markets (AscendFi)",
+   "type": "company",
+   "handle": "",
+   "summary": "Ascend Markets, LLC, wholly owned subsidiary of PSG Digital Labs; institutional on-chain credit facility; ran the first institutional repo on Stellar (Oct 16–19 2026)",
+   "grade": "A",
+   "sources": [
+    "https://www.streetinsider.com/Business+Wire/Ascend+and+M1X+Global+Complete+First+Institutional+Repo+on+Stellar+Using+USDM1+Secured+Sovereign+Bond/27225725.html"
+   ],
+   "added": "2026-10-24T02:23:40-04:00"
+  },
+  {
+   "id": "m1x-global",
+   "label": "M1X Global",
+   "type": "company",
+   "handle": "",
+   "summary": "Arranger behind USDM1, a US-dollar sovereign bond of the Republic of the Marshall Islands issued on-chain and secured 1:1 by short-dated US Treasuries; collateral in Ascend's Stellar repo (Oct 2026)",
+   "grade": "A",
+   "sources": [
+    "https://www.streetinsider.com/Business+Wire/Ascend+and+M1X+Global+Complete+First+Institutional+Repo+on+Stellar+Using+USDM1+Secured+Sovereign+Bond/27225725.html"
+   ],
+   "added": "2026-10-24T02:23:40-04:00"
   }
  ],
  "edges": [
@@ -61484,7 +61508,7 @@
    "strength": 5,
    "key": true,
    "source": "https://www.sec.gov/Archives/edgar/data/2028835/000121390026087823/ea0299658-10q_21shares.htm",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:09:55-04:00"
   },
   {
@@ -100382,6 +100406,39 @@
    "source": "https://biz.chosun.com/stock/finance/2026/10/24/U65PWG6TTVAWBJPMPSXRZAOTRI/",
    "side": "neutral",
    "added": "2026-10-24T00:29:47-04:00"
+  },
+  {
+   "from": "ascend-markets",
+   "to": "stellar",
+   "label": "first institutional repo on Stellar: 72 automated hourly rolls Oct 16–19 2026, USDM1 collateral, SOFR + 10 bp (3.98%), 2% haircut; size undisclosed (single press release, Oct 23 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.streetinsider.com/Business+Wire/Ascend+and+M1X+Global+Complete+First+Institutional+Repo+on+Stellar+Using+USDM1+Secured+Sovereign+Bond/27225725.html",
+   "side": "contradicts",
+   "added": "2026-10-24T02:23:40-04:00"
+  },
+  {
+   "from": "m1x-global",
+   "to": "ascend-markets",
+   "label": "repo counterparty: USDM1 sovereign bond posted as collateral in Ascend's Stellar repo, returned on repayment (Oct 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.streetinsider.com/Business+Wire/Ascend+and+M1X+Global+Complete+First+Institutional+Repo+on+Stellar+Using+USDM1+Secured+Sovereign+Bond/27225725.html",
+   "side": "neutral",
+   "added": "2026-10-24T02:23:40-04:00"
+  },
+  {
+   "from": "sgbenji",
+   "to": "xrpl",
+   "label": "XRPL supply 192,698,409.62 shares after two 72,184,793.07-share mints (Oct 21 22:58 and Oct 22 00:13 ET) into one wallet sharing the issuer's 8-key signer set; 1 holder; about $150M of subscriptions per CoinDesk; no XRP leg",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
+   "side": "supports",
+   "added": "2026-10-24T02:23:40-04:00"
   }
  ]
 }
