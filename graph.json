@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T20:24:33-04:00",
+  "updated": "2026-10-23T22:27:27-04:00",
   "version": 3
  },
  "nodes": [
@@ -98429,7 +98429,7 @@
    "from": "binance",
    "to": "rlusd",
    "label": "runs a promotion sharing 600,000 XRP among users who hold RLUSD in Binance accounts (announced 2026-10-21)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://www.binance.com/en/support/announcement/detail/c453734d8dcc42d9af49c8f0627d67f7",
@@ -100349,6 +100349,28 @@
    "source": "https://x.com/StellarOrg/status/2113672298003657107",
    "side": "contradicts",
    "added": "2026-10-23T20:22:31-04:00"
+  },
+  {
+   "from": "schwartz",
+   "to": "xrp",
+   "label": "argues XRP demand is weak only if one settlement asset dominates (X thread, 2026-10-23)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/JoelKatz/status/2113696870866493856",
+   "side": "neutral",
+   "added": "2026-10-23T22:25:33-04:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "xrp",
+   "label": "unverified stat reposted by @XRP: RLUSD on XRPL peaked at $1.24B market cap on Oct 1, 2026, since down to $924.8M (third-party @TokenRelations; being checked)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/TokenRelations/status/2113712560583094352",
+   "side": "neutral",
+   "added": "2026-10-23T22:25:33-04:00"
   }
  ]
 }
