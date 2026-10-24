@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-23T22:27:27-04:00",
+  "updated": "2026-10-24T00:31:29-04:00",
   "version": 3
  },
  "nodes": [
@@ -100371,6 +100371,17 @@
    "source": "https://x.com/TokenRelations/status/2113712560583094352",
    "side": "neutral",
    "added": "2026-10-23T22:25:33-04:00"
+  },
+  {
+   "from": "jeonbuk",
+   "to": "ripple",
+   "label": "Ripple president Monica Long (Chosun Biz, Oct 24 2026): Jeonbuk pre-funds in US dollars and Ripple's network pays out in local currency; no stablecoin at launch (planned only after Korean stablecoin law), XRP described only generically; retail remittances to Southeast Asia due late 2026",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://biz.chosun.com/stock/finance/2026/10/24/U65PWG6TTVAWBJPMPSXRZAOTRI/",
+   "side": "neutral",
+   "added": "2026-10-24T00:29:47-04:00"
   }
  ]
 }
