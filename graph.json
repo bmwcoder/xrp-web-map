@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T06:07:58-04:00",
+  "updated": "2026-10-24T08:35:35-04:00",
   "version": 3
  },
  "nodes": [
@@ -30445,7 +30445,8 @@
    "sources": [
     "https://www.streetinsider.com/Business+Wire/Ascend+and+M1X+Global+Complete+First+Institutional+Repo+on+Stellar+Using+USDM1+Secured+Sovereign+Bond/27225725.html"
    ],
-   "added": "2026-10-24T02:23:40-04:00"
+   "added": "2026-10-24T02:23:40-04:00",
+   "sector": "banks"
   },
   {
    "id": "m1x-global",
@@ -30457,7 +30458,21 @@
    "sources": [
     "https://www.streetinsider.com/Business+Wire/Ascend+and+M1X+Global+Complete+First+Institutional+Repo+on+Stellar+Using+USDM1+Secured+Sovereign+Bond/27225725.html"
    ],
-   "added": "2026-10-24T02:23:40-04:00"
+   "added": "2026-10-24T02:23:40-04:00",
+   "sector": "banks"
+  },
+  {
+   "id": "sofi",
+   "label": "SoFi Bank, N.A.",
+   "type": "bank",
+   "handle": "",
+   "summary": "OCC-regulated U.S. national bank (SoFi Technologies). Issues SoFiUSD, described as the first stablecoin issued by a U.S. national bank. Per its May 27, 2026 release, SoFiUSD is available on Ethereum and Solana with more networks to be added; XRPL not named. Its SOFIE tokenized deposit (Oct 22, 2026) names no chain.",
+   "grade": "A",
+   "sources": [
+    "https://investors.sofi.com/news/news-details/2026/SoFiUSD-Becomes-the-First-Stablecoin-Issued-by-a-US-National-Bank-to-Launch-on-a-Banking-Platform/default.aspx",
+    "https://www.theblock.co/news/markets/2026-05-05-sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost-400098"
+   ],
+   "added": "2026-10-24T08:30:44-04:00"
   }
  ],
  "edges": [
@@ -31291,40 +31306,40 @@
   {
    "from": "evernorth",
    "to": "ripple",
-   "label": "execution partner for 473M XRP",
-   "grade": "C",
-   "strength": 1,
-   "source": "https://x.com/evernorthxrp/status/2110341960963654094",
+   "label": "named inaugural execution partner in Evernorth's Oct 14 2026 release for its 473M XRP treasury; subject to customary closing conditions; not named in the Oct 23 S-1",
+   "grade": "B",
+   "strength": 3,
+   "source": "https://www.evernorth.xyz/press-release-10-14-2026",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
   },
   {
    "from": "evernorth",
    "to": "kraken",
-   "label": "execution partner for 473M XRP",
-   "grade": "C",
-   "strength": 1,
-   "source": "https://x.com/evernorthxrp/status/2110341960963654094",
+   "label": "named inaugural execution partner in Evernorth's Oct 14 2026 release for its 473M XRP treasury; subject to customary closing conditions; not named in the Oct 23 S-1",
+   "grade": "B",
+   "strength": 3,
+   "source": "https://www.evernorth.xyz/press-release-10-14-2026",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
   },
   {
    "from": "evernorth",
    "to": "coinbase",
-   "label": "execution partner for 473M XRP",
-   "grade": "C",
-   "strength": 1,
-   "source": "https://x.com/evernorthxrp/status/2110341960963654094",
+   "label": "named inaugural execution partner in Evernorth's Oct 14 2026 release for its 473M XRP treasury; subject to customary closing conditions; not named in the Oct 23 S-1",
+   "grade": "B",
+   "strength": 3,
+   "source": "https://www.evernorth.xyz/press-release-10-14-2026",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
   },
   {
    "from": "evernorth",
    "to": "bitgo",
-   "label": "execution partner for 473M XRP",
-   "grade": "C",
-   "strength": 1,
-   "source": "https://x.com/evernorthxrp/status/2110341960963654094",
+   "label": "named inaugural execution partner in Evernorth's Oct 14 2026 release for its 473M XRP treasury; subject to customary closing conditions; not named in the Oct 23 S-1",
+   "grade": "B",
+   "strength": 3,
+   "source": "https://www.evernorth.xyz/press-release-10-14-2026",
    "side": "supports",
    "added": "2026-10-19T13:55:00-04:00"
   },
@@ -39739,7 +39754,7 @@
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/dbs-franklin-templeton-to-launch-trading-and-lending-solutions-tokenised-mmf-ripple-stablecoin-rlusd/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -100399,7 +100414,7 @@
   {
    "from": "jeonbuk",
    "to": "ripple",
-   "label": "Ripple president Monica Long (Chosun Biz, Oct 24 2026): Jeonbuk pre-funds in US dollars and Ripple's network pays out in local currency; no stablecoin at launch (planned only after Korean stablecoin law), XRP described only generically; retail remittances to Southeast Asia due late 2026",
+   "label": "Ripple president Monica Long (Chosun Biz, Oct 24 2026): Jeonbuk pre-funds in US dollars and Ripple's network pays out in local currency; no stablecoin at launch (planned only after Korean stablecoin law), XRP described only generically; retail remittances to Vietnam and the Philippines targeted for the third week of December 2026 (Edaily, Oct 3); Long did not say the flow uses XRP",
    "grade": "B",
    "strength": 2,
    "key": false,
@@ -100439,6 +100454,28 @@
    "source": "https://www.coindesk.com/markets/2026/10/24/franklin-templeton-adds-usd150-million-in-fund-shares-to-xrp-ledger-all-in-one-wallet",
    "side": "supports",
    "added": "2026-10-24T02:23:40-04:00"
+  },
+  {
+   "from": "sofi",
+   "to": "ethereum",
+   "label": "issues SoFiUSD bank stablecoin on Ethereum (launched Dec 2025; release of May 27, 2026 lists Ethereum and Solana); XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://investors.sofi.com/news/news-details/2026/SoFiUSD-Becomes-the-First-Stablecoin-Issued-by-a-US-National-Bank-to-Launch-on-a-Banking-Platform/default.aspx",
+   "side": "contradicts",
+   "added": "2026-10-24T08:30:44-04:00"
+  },
+  {
+   "from": "sofi",
+   "to": "solana",
+   "label": "issues SoFiUSD bank stablecoin on Solana, chosen for payments on cost, settlement speed and throughput (May 2026); XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.theblock.co/news/markets/2026-05-05-sofi-to-launch-its-stablecoin-on-solana-citing-speed-and-cost-400098",
+   "side": "contradicts",
+   "added": "2026-10-24T08:30:44-04:00"
   }
  ]
 }
