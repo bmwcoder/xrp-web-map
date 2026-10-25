@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T20:27:08-04:00",
+  "updated": "2026-10-25T02:26:37-04:00",
   "version": 3
  },
  "nodes": [
@@ -30498,6 +30498,18 @@
     "https://www.dcjpy.com/en/pressrelease/pr-20250901.html"
    ],
    "added": "2026-10-24T20:25:14-04:00"
+  },
+  {
+   "id": "thunes",
+   "label": "Thunes",
+   "type": "company",
+   "handle": "",
+   "summary": "Singapore-based cross-border payments network (not part of Ripple). Siam Commercial Bank's own Oct 2024 release credits Thunes with expanding SCB EASY outward remittances to 26 countries, alongside SCB's RippleNet-powered service.",
+   "grade": "A",
+   "sources": [
+    "https://www.scb.co.th/en/about-us/news/oct-2024/scb-thunes"
+   ],
+   "added": "2026-10-25T02:24:43-04:00"
   }
  ],
  "edges": [
@@ -100600,6 +100612,39 @@
    "source": "https://pressroom.credit-agricole.com/news/credit-agricole-tests-out-blockchain-technology-for-cross-border-credit-transfers-c396-94727.html",
    "side": "neutral",
    "added": "2026-10-24T20:25:14-04:00"
+  },
+  {
+   "from": "scb",
+   "to": "ripplenet",
+   "label": "SCB's own SCB EASY page: international transfers 'Powered by Blockchain technology via RippleNet' (26 countries / 17 currencies, live 2026); no XRP",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.scb.co.th/en/personal-banking/other-services/ripple/scb-easy-app",
+   "side": "neutral",
+   "added": "2026-10-25T02:24:43-04:00"
+  },
+  {
+   "from": "scb",
+   "to": "thunes",
+   "label": "SCB's own release (Oct 2024): Thunes partnership expanded SCB EASY outward remittances to 26 countries (a non-Ripple network)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.scb.co.th/en/about-us/news/oct-2024/scb-thunes",
+   "side": "neutral",
+   "added": "2026-10-25T02:24:43-04:00"
+  },
+  {
+   "from": "sbi-remit",
+   "to": "ripple",
+   "label": "SBI Remit's own 2026 regional-bank releases cite Ripple's DLT; none names XRP; May 2026 2.5T-yen milestone release names neither",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.remit.co.jp/en/kaigaisoukin/information_list/press-release/",
+   "side": "neutral",
+   "added": "2026-10-25T02:24:43-04:00"
   }
  ]
 }
