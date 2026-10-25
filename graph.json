@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-25T08:35:44-04:00",
+  "updated": "2026-10-25T10:36:14-04:00",
   "version": 3
  },
  "nodes": [
@@ -30523,6 +30523,56 @@
     "https://www.versabank.com/versabank-initiates-commercial-phase-of-tokenized-deposit-program-in-the-united-states/"
    ],
    "added": "2026-10-25T08:31:12-04:00"
+  },
+  {
+   "id": "fed-genius-nprm-r1899",
+   "label": "Fed Board GENIUS Act proposal, Docket R-1899 (2026-09-29)",
+   "type": "event",
+   "handle": "",
+   "summary": "NPRM 'Implementing the Federal Reserve Board's Responsibilities Under the GENIUS Act', 91 FR 61580 (FR Doc 2026-19860, Sep 29, 2026); comments close Nov 30, 2026. Proposed §247.51 reads the Act's ambiguity so that the Board is primary federal regulator for 'covered PPSIs' (State-qualified issuers that are uninsured state-chartered depository institutions) above $10B; fn 145 says the OCC administers the transition for nonbank State-qualified issuers. Economic-analysis fn 173 lists RLUSD among NYDFS-approved stablecoins. Ripple and Standard Custody are not otherwise named.",
+   "grade": "A",
+   "sources": [
+    "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act"
+   ],
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "id": "fed-genius-r1900-nprm",
+   "label": "Fed Board GENIUS application-procedures proposal, Docket R-1900 (2026-09-29)",
+   "type": "event",
+   "handle": "",
+   "summary": "NPRM on application procedures for Board-supervised insured depository institutions seeking approval for a payment stablecoin subsidiary, 91 FR 61346 (FR Doc 2026-19899, Sep 29, 2026); comments close Nov 30, 2026. No mention of Ripple, RLUSD, New York, NYDFS or the $10B threshold.",
+   "grade": "A",
+   "sources": [
+    "https://www.federalregister.gov/documents/2026/09/29/2026-19899/application-procedures-for-board-supervised-insured-depository-institutions-seeking-approval-for-a"
+   ],
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "id": "treasury-scrc-state-cert-ifr",
+   "label": "Treasury IFR: state certifications to the Stablecoin Certification Review Committee (2026-09-30)",
+   "type": "event",
+   "handle": "",
+   "summary": "Interim final rule, 12 CFR part 1522, 91 FR 61688 (FR Doc 2026-19966, RIN 1505-AC97, docket TREAS-DO-2026-0562), effective Sep 30, 2026; comments close Nov 30, 2026. Sets forms and procedures for State regulators to certify their regimes as 'substantially similar'. Any form of certification by Jan 18, 2028 satisfies §4(c)(4)(A); annual recertification required. A State that cannot certify or win approval: its issuers must stop issuing or obtain a federal license. Does not name New York, NYDFS, Ripple or RLUSD.",
+   "grade": "A",
+   "sources": [
+    "https://www.federalregister.gov/documents/2026/09/30/2026-19966/forms-and-procedures-for-review-of-state-certifications-by-the-stablecoin-certification-review",
+    "https://www.regulations.gov/docket/TREAS-DO-2026-0562"
+   ],
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "id": "ripple-treas-state-sim-letter-2026-06-02",
+   "label": "Ripple comment on Treasury's GENIUS 'substantially similar' principles (2026-06-02)",
+   "type": "event",
+   "handle": "",
+   "summary": "9-page letter dated June 2, 2026 on Treasury's proposed broad-based principles (docket TREAS-DO-2026-0232, RIN 1505-AC90, 91 FR 16844), posted as TREAS-DO-2026-0232-0047. States that RLUSD is issued through Standard Custody & Trust Company, a NYDFS-regulated limited-purpose trust company. Argues the NYDFS framework already meets GENIUS reserve, redemption and exam requirements (citing the OCC NPRM's cost analysis), and that substantial similarity should be outcomes-based. Asks Treasury to measure uniform requirements against the statute rather than OCC choices, to decouple the outcomes test from OCC metrics, to count enforceable supervisory instruments, and to set a 12-month conformance window. This is the companion principles docket, not the IFR docket.",
+   "grade": "A",
+   "sources": [
+    "https://www.regulations.gov/comment/TREAS-DO-2026-0232-0047",
+    "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf"
+   ],
+   "added": "2026-10-25T10:31:22-04:00"
   }
  ],
  "edges": [
@@ -100724,6 +100774,138 @@
    "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
    "side": "contradicts",
    "added": "2026-10-25T08:31:38-04:00"
+  },
+  {
+   "from": "fed",
+   "to": "fed-genius-nprm-r1899",
+   "label": "proposed GENIUS implementing rule, Docket R-1899 (91 FR 61580, 2026-09-29; comments close 2026-11-30)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "fed-genius-nprm-r1899",
+   "to": "genius",
+   "label": "proposes to implement GENIUS for Board-supervised issuers; claims primary-regulator role for covered state PPSIs above $10B (proposed §247.51)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "fed-genius-nprm-r1899",
+   "to": "rlusd",
+   "label": "lists RLUSD among NYDFS-approved payment stablecoins as of Feb 2026 (economic baseline, fn 173)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "fed-genius-nprm-r1899",
+   "to": "nydfs",
+   "label": "calls NYDFS's 2022 stablecoin guidance 'the most relied-upon standard for payment stablecoins in the United States' (economic baseline)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19860/implementing-the-federal-reserve-boards-responsibilities-under-the-genius-act",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "fed",
+   "to": "fed-genius-r1900-nprm",
+   "label": "proposed application procedures for state member bank stablecoin subsidiaries, Docket R-1900 (91 FR 61346, 2026-09-29)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19899/application-procedures-for-board-supervised-insured-depository-institutions-seeking-approval-for-a",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "fed-genius-r1900-nprm",
+   "to": "genius",
+   "label": "proposes GENIUS application procedures for Board-supervised insured depository institutions",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/29/2026-19899/application-procedures-for-board-supervised-insured-depository-institutions-seeking-approval-for-a",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "treasury",
+   "to": "treasury-scrc-state-cert-ifr",
+   "label": "issued the state-certification IFR, 12 CFR part 1522 (91 FR 61688, effective 2026-09-30; comments close 2026-11-30)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/30/2026-19966/forms-and-procedures-for-review-of-state-certifications-by-the-stablecoin-certification-review",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "treasury-scrc-state-cert-ifr",
+   "to": "genius",
+   "label": "implements §4(c) state 'substantially similar' certification; certification deadline Jan 18, 2028",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/09/30/2026-19966/forms-and-procedures-for-review-of-state-certifications-by-the-stablecoin-certification-review",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-treas-state-sim-letter-2026-06-02",
+   "label": "filed comment on Treasury's 'substantially similar' principles NPRM, TREAS-DO-2026-0232 (2026-06-02)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.regulations.gov/comment/TREAS-DO-2026-0232-0047",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "ripple-treas-state-sim-letter-2026-06-02",
+   "to": "treasury",
+   "label": "comment on RIN 1505-AC90 (91 FR 16844): asks for an outcomes-based test and a 12-month conformance window",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "ripple-treas-state-sim-letter-2026-06-02",
+   "to": "nydfs",
+   "label": "argues the NYDFS framework already meets GENIUS reserve, redemption and exam requirements (citing 91 FR 10240-41)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "from": "ripple-treas-state-sim-letter-2026-06-02",
+   "to": "sctc",
+   "label": "states RLUSD is issued through SCTC, a NYDFS-regulated limited-purpose trust company",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-25T10:31:22-04:00"
   }
  ]
 }
