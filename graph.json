@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-24T16:26:44-04:00",
+  "updated": "2026-10-24T20:27:08-04:00",
   "version": 3
  },
  "nodes": [
@@ -30486,6 +30486,18 @@
     "https://x.com/wellbianlabs/status/2114006227525239237"
    ],
    "added": "2026-10-24T12:27:45-04:00"
+  },
+  {
+   "id": "dcjpy",
+   "label": "DCJPY (DeCurret DCP)",
+   "type": "asset",
+   "handle": "",
+   "summary": "Japanese yen tokenized-deposit platform run by DeCurret DCP. Japan Post Bank said on Sep 1 2025 that it plans to issue tokenized deposits on DCJPY by FY2026. Not built on the XRP Ledger.",
+   "grade": "A",
+   "sources": [
+    "https://www.dcjpy.com/en/pressrelease/pr-20250901.html"
+   ],
+   "added": "2026-10-24T20:25:14-04:00"
   }
  ],
  "edges": [
@@ -100533,6 +100545,61 @@
    "source": "https://x.com/CarolineDPham/status/2114053502875971795",
    "side": "neutral",
    "added": "2026-10-24T16:22:31-04:00"
+  },
+  {
+   "from": "japan-post-bank",
+   "to": "dcjpy",
+   "label": "plans tokenized deposits on the DCJPY platform by FY2026 (joint statement Sep 1 2025); not XRPL",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.dcjpy.com/en/pressrelease/pr-20250901.html",
+   "side": "contradicts",
+   "added": "2026-10-24T20:25:14-04:00"
+  },
+  {
+   "from": "bbva",
+   "to": "ripple-custody",
+   "label": "BBVA statement (Sep 2025): its own crypto custody works with Ripple's technology; Spain service covers BTC and ETH only, no XRP",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.eleconomista.es/cripto/noticias/13535876/09/25/bbva-contrata-la-tecnologia-de-ripple-para-la-custodia-de-las-criptomonedas-de-sus-clientes-en-espana.html",
+   "side": "neutral",
+   "added": "2026-10-24T20:25:14-04:00"
+  },
+  {
+   "from": "garanti-bbva",
+   "to": "xrp",
+   "label": "Garanti BBVA Kripto offers XRP trading and custody to retail clients in Türkiye (per BBVA)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bbva.com/en/innovation/bbva-will-offer-bitcoin-and-ether-trading-and-custody-services-in-spain/",
+   "side": "neutral",
+   "added": "2026-10-24T20:25:14-04:00"
+  },
+  {
+   "from": "intesa",
+   "to": "ripple-custody",
+   "label": "Intesa's own Oct 23 2026 page on its award-winning Digital Asset Custody service names no vendor and no XRP or RLUSD",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.inbiz.intesasanpaolo.com/it/cos-e-inbiz/news/2026/premio-datos-insights-innovazione-digital-asset/",
+   "side": "neutral",
+   "added": "2026-10-24T20:25:14-04:00"
+  },
+  {
+   "from": "credit-agricole",
+   "to": "ripple",
+   "label": "bank's own pressroom (Jan 26 2018): six-month test of Ripple's blockchain for cross-border transfers; no XRP",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://pressroom.credit-agricole.com/news/credit-agricole-tests-out-blockchain-technology-for-cross-border-credit-transfers-c396-94727.html",
+   "side": "neutral",
+   "added": "2026-10-24T20:25:14-04:00"
   }
  ]
 }
