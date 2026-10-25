@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-25T02:26:37-04:00",
+  "updated": "2026-10-25T08:35:44-04:00",
   "version": 3
  },
  "nodes": [
@@ -30510,6 +30510,19 @@
     "https://www.scb.co.th/en/about-us/news/oct-2024/scb-thunes"
    ],
    "added": "2026-10-25T02:24:43-04:00"
+  },
+  {
+   "id": "versabank",
+   "label": "VersaBank",
+   "type": "bank",
+   "handle": "",
+   "summary": "Canadian Schedule I bank (TSX/NASDAQ: VBNK) issuing Real Bank Tokenized Deposits. Its Sept 16, 2025 SEC 6-K says issuance runs on the Algorand, Ethereum and Stellar blockchains; on Oct 15, 2026 VersaBank USA began the U.S. commercial phase (VUSD). XRPL is not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
+    "https://www.versabank.com/versabank-initiates-commercial-phase-of-tokenized-deposit-program-in-the-united-states/"
+   ],
+   "added": "2026-10-25T08:31:12-04:00"
   }
  ],
  "edges": [
@@ -98102,7 +98115,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.ion.itau/news/novidade-solana-ripple-e-usdc-agora-disponiveis-no-ion/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
@@ -100645,6 +100658,72 @@
    "source": "https://www.remit.co.jp/en/kaigaisoukin/information_list/press-release/",
    "side": "neutral",
    "added": "2026-10-25T02:24:43-04:00"
+  },
+  {
+   "from": "smbc",
+   "to": "moneytap",
+   "label": "SMBC's own news release (Jan 31 2020): collaboration with SBI, Money Tap and SBI R3 Japan; letter of intent to invest in Money Tap; Ripple and XRP not named (Corda named via SBI R3 Japan)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.smbc.co.jp/news/j601998_01.html",
+   "side": "neutral",
+   "added": "2026-10-25T08:31:12-04:00"
+  },
+  {
+   "from": "cibc",
+   "to": "ripple",
+   "label": "CIBC's own mediaroom release (Sep 21 2016): CIBC and NAB tested Ripple blockchain technology for Canada-Australia transfers (proof of concept); no XRP",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://cibc.mediaroom.com/2016-09-21-CIBC-forms-strategic-alliance-with-National-Australia-Bank-and-Israels-Bank-Leumi",
+   "side": "neutral",
+   "added": "2026-10-25T08:31:12-04:00"
+  },
+  {
+   "from": "bradesco",
+   "to": "xrp",
+   "label": "Bradesco international director on record (Blocknews, Jan 6 2020): Brazil-Japan tests on Ripple's blockchain with MUFG, but Bradesco not using XRP because Brazil had no regulation for it",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.blocknews.com.br/financas-corporativo/bradesco-testa-blockchain-entre-brasil-e-japao/",
+   "side": "contradicts",
+   "added": "2026-10-25T08:31:12-04:00"
+  },
+  {
+   "from": "versabank",
+   "to": "ethereum",
+   "label": "issues tokenized bank deposits (USDVB/CADVB, now VUSD) on Ethereum, alongside Algorand and Stellar (SEC 6-K, Sep 2025; U.S. commercial phase Oct 15, 2026); XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
+   "side": "contradicts",
+   "added": "2026-10-25T08:31:12-04:00"
+  },
+  {
+   "from": "versabank",
+   "to": "stellar",
+   "label": "issues tokenized bank deposits on Stellar, alongside Algorand and Ethereum (SEC 6-K, Sep 2025; U.S. commercial phase Oct 15, 2026); XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
+   "side": "contradicts",
+   "added": "2026-10-25T08:31:12-04:00"
+  },
+  {
+   "from": "versabank",
+   "to": "algorand-foundation",
+   "label": "issues tokenized bank deposits on the Algorand blockchain, alongside Ethereum and Stellar (SEC 6-K, Sep 2025; U.S. commercial phase Oct 15, 2026); XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
+   "side": "contradicts",
+   "added": "2026-10-25T08:31:38-04:00"
   }
  ]
 }
