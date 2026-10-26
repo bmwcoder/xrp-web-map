@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T06:07:51-04:00",
+  "updated": "2026-10-26T06:29:19-04:00",
   "version": 3
  },
  "nodes": [
@@ -11316,11 +11316,12 @@
    "label": "Aviva Investors",
    "type": "company",
    "handle": "",
-   "summary": "Asset manager; Feb 11, 2026 collaboration with Ripple to tokenise fund structures on XRPL.",
+   "summary": "Asset manager (Aviva plc). Feb 11, 2026 collaboration with Ripple to tokenise fund structures on XRPL; launched a tokenised USD Liquidity Fund share class on XRPL in July 2026 and a tokenised Sterling (GBP) Liquidity Fund share class on Oct 26, 2026 (over £86m across both classes, per Aviva).",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-strengthens-digital-capital-markets-infrastructure-with-investments-in-zilo-and-licuido/",
-    "https://ripple.com/press-releases/page/4/"
+    "https://ripple.com/press-releases/page/4/",
+    "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 2
@@ -101453,6 +101454,17 @@
    "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
    "side": "neutral",
    "added": "2026-10-26T02:29:57-04:00"
+  },
+  {
+   "from": "aviva-investors",
+   "to": "xrpl",
+   "label": "Aviva Investors (Oct 26 2026): tokenised share class of its Sterling (GBP) Liquidity Fund (Irish UCITS MMF, est. 2002; ~£22bn whole-fund AUM) launched on XRPL, its second after the USD fund in July; over £86m across both tokenised classes, incl. Aviva's own £50m in the new class; Komainu custody, Licuido platform, BNY Mellon custodian",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/",
+   "side": "supports",
+   "added": "2026-10-26T06:27:18-04:00"
   }
  ]
 }
