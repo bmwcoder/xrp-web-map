@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-25T20:32:40-04:00",
+  "updated": "2026-10-26T02:34:17-04:00",
   "version": 3
  },
  "nodes": [
@@ -3005,7 +3005,8 @@
    "sources": [
     "https://www.sgforge.com/sgf-coinvertible-on-the-xrp-ledger/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "usdcv-claim",
@@ -8213,7 +8214,8 @@
     "https://www.palaugov.pw/wp-content/uploads/Republic-of-Palau-Stablecoin-Program-Phase-1-Report.pdf",
     "https://ripple.com/ripple-press/republic-of-palau-launches-us-dollar-backed-palau-stablecoin-in-the-next-phase-of-collaboration-with-ripple-on-the-xrp-ledger/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "palau-audit",
@@ -15753,7 +15755,8 @@
     "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
     "https://s1.xrplmeta.org/tokens?name_like=MXNB&limit=10"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "rlusd-dip-2026",
@@ -16170,14 +16173,15 @@
    "label": "Discrepancy: XRPL launch date (June 2012 vs Dec 2012 vs \"late 2012/early 2013\")",
    "type": "riddle",
    "handle": "",
-   "summary": "Sources differ on when the ledger went live. xrpl.org: 'first launched in June 2012' and code complete by June 2012. SEC complaint ¶45: XRP created 'upon the completion of the XRP Ledger in December 2012'. 9th Cir. (Jan 2026): public 'in either late 2012 or early 2013'. The Ledger's earliest available history begins at ledger 32570 (Jan 2013) because early ledgers were lost. Not resolved; both sides recorded.",
+   "summary": "Sources differ on when the ledger went live. xrpl.org: 'first launched in June 2012' and code complete by June 2012. SEC complaint ¶45: XRP created 'upon the completion of the XRP Ledger in December 2012'. 9th Cir. (Jan 2026): public 'in either late 2012 or early 2013'. The Ledger's earliest available history begins at ledger 32570 (Jan 2013) because early ledgers were lost. JoelKatz (David Schwartz) on the Ripple Forum, Sep 4 2013 (archived): \"There was a bug that caused ledger headers not to be properly saved. All the servers running at the time had the same bug\"; only headers were missing and his reconstruction got stuck on 32,569. Not resolved; both sides recorded.",
    "grade": "B",
    "sources": [
     "https://xrpl.org/about/history",
     "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.4.0.pdf",
     "https://cdn.ca9.uscourts.gov/datastore/memoranda/2026/01/27/24-7599.pdf",
     "https://xrpl.org/docs/infrastructure/configuration/data-retention/configure-full-history",
-    "https://api.xrpscan.com/api/v1/ledger/32570"
+    "https://api.xrpscan.com/api/v1/ledger/32570",
+    "http://web.archive.org/web/20171211225452/https://forum.ripple.com/viewtopic.php?f=2&t=3613"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "founders"
@@ -17272,7 +17276,8 @@
     "https://api.xrpscan.com/api/v1/account/rhWTXC2m2gGGA9WozUaoMm6kLAVPb1tcS3",
     "https://api.xrpscan.com/api/v1/amm/pools"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "rlusd-xrpl-supply",
@@ -17285,7 +17290,8 @@
     "https://api.xrpscan.com/api/v1/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
     "https://xrp-insights.com/xrp-radar"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "amm-fuzzy-xrp",
@@ -18815,7 +18821,8 @@
    "sources": [
     "https://www.sec.gov/Archives/edgar/data/2055592/000205559226000026/a2025-12x26xamendmenttogem.htm"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "w-rl18-multisig",
@@ -19940,7 +19947,8 @@
     "https://www.zand.ae/en/news/zand-launches-uaes-first-aed-backed-stablecoin-on-public-blockchain",
     "https://www.zand.ae/en/news/zand-and-ripple-in-strategic-partnership-to-power-digital-economy-with-stablecoin-and-blockchain-innovations"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "bitgo-europe",
@@ -20914,7 +20922,8 @@
     "https://api.xrpscan.com/api/v1/account/r9c6A65SmhhZALrkMTpqc9X3kGjv5gtNNk",
     "https://api.xrpscan.com/api/v1/account/r3oSpUhBuiEw4jqtmNrCAeUNoS4cH1TwhC"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "rlusd-eth-supply",
@@ -20927,7 +20936,8 @@
     "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
     "https://governance.aave.com/t/arfc-add-rlusd-to-core-instance/20214/9"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "w-odl-exchange-wallets",
@@ -21650,7 +21660,8 @@
     "https://governance.aave.com/t/arfc-add-rlusd-to-core-instance/20214/9",
     "https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD#events"
    ],
-   "added": "2026-10-19T23:24:14-04:00"
+   "added": "2026-10-19T23:24:14-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "w-rbnc-desk",
@@ -22085,7 +22096,8 @@
     "https://en.newsroom.bdacs.co.kr/250918-krw1-stablecoin/",
     "https://www.theblock.co/post/371173/south-korea-first-stablecoin-avalanche"
    ],
-   "added": "2026-10-19T23:57:49-04:00"
+   "added": "2026-10-19T23:57:49-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "ethena",
@@ -30206,7 +30218,8 @@
     "https://stellar.org/case-studies/arf",
     "https://ripple.com/ripple-press/ripple-and-circle-launch-usdc-on-the-xrp-ledger/"
    ],
-   "added": "2026-10-22T20:29:42-04:00"
+   "added": "2026-10-22T20:29:42-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "cryptescrow",
@@ -30697,7 +30710,8 @@
     "https://content.govdelivery.com/accounts/WYGOV/bulletins/3ee734a",
     "https://wyoleg.gov/InterimCommittee/2025/02-20251208091-STC-152-Factbook.pdf"
    ],
-   "added": "2026-10-23T18:28:45-04:00"
+   "added": "2026-10-23T18:28:45-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "ascend-markets",
@@ -30762,7 +30776,8 @@
    "sources": [
     "https://www.dcjpy.com/en/pressrelease/pr-20250901.html"
    ],
-   "added": "2026-10-24T20:25:14-04:00"
+   "added": "2026-10-24T20:25:14-04:00",
+   "sector": "rlusd"
   },
   {
    "id": "thunes",
@@ -49274,7 +49289,7 @@
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/cimb-group-joins-ripplenet-to-power-instant-payments-across-asean-2/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -56149,7 +56164,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/lulu-exchange-and-federal-bank-connect-on-ripplenet-cloud-to-enhance-cross-border-payments-experience-into-india/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56204,7 +56219,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.kfh.com/en/home/Personal/news/2018/news-2018-01-24.html",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56248,7 +56263,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ten-financial-institutions-join-ripples-global-payments-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56259,7 +56274,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ten-financial-institutions-join-ripples-global-payments-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -99264,7 +99279,7 @@
   {
    "from": "sgforge",
    "to": "swell",
-   "label": "Swell 2026 speaker: \"The Boardroom Pitch for Digital Assets in Banking\" 11:20, Oct 27 (Brella agenda)",
+   "label": "Listed for \"The Boardroom Pitch for Digital Assets in Banking\" 11:20, Oct 27 in the Oct 23 Brella agenda; by Oct 26 the same panelist shows a BTG Pactual (LATAM) affiliation and SG-Forge no longer appears",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -99396,7 +99411,7 @@
   {
    "from": "mastercard",
    "to": "swell",
-   "label": "Swell 2026 speaker: \"Payments Reimagined\" 15:25 and \"What Happens When AI Moves Money?\" (Oct 28), Oct 27 (Brella agenda)",
+   "label": "Swell 2026 speaker: \"What Happens When AI Moves Money?\" (Oct 28); no longer listed on the Oct 27 \"Payments Reimagined\" panel (Brella agenda, Oct 26)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -99671,7 +99686,7 @@
   {
    "from": "arf",
    "to": "swell",
-   "label": "Swell 2026 speaker: \"Bringing Institutional Credit on XRPL\" 13:30, Oct 29 (Brella agenda)",
+   "label": "Swell 2026 listed speaker; no longer on the \"Bringing Institutional Credit on XRPL\" 13:30, Oct 29 panel (Brella agenda, Oct 26)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -101394,6 +101409,50 @@
    "source": "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution",
    "side": "neutral",
    "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "federal-bank",
+   "to": "ripple",
+   "label": "exchange filing (Reg 30, 2019-03-25): partnership with Ripple for cross-border remittance; no XRP named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalbank.co.in/documents/10180/17276109/Federal+Bank+Partners+Ripple.pdf/0161bf3f-a74f-4476-9efb-408028e63403?t=1554441915135",
+   "side": "neutral",
+   "added": "2026-10-26T02:29:57-04:00"
+  },
+  {
+   "from": "seb",
+   "to": "ripple",
+   "label": "internal closed blockchain payment pilot with Ripple, Stockholm to New York (SEB release 2016-11-07); no XRP named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://sebgroup.com/press/news/2016/new-payment-solution-with-blockchain-technology",
+   "side": "neutral",
+   "added": "2026-10-26T02:29:57-04:00"
+  },
+  {
+   "from": "kfh",
+   "to": "al-rajhi",
+   "label": "KFH 'Instant International Transfer' to Al Rajhi Bank beneficiaries over RippleNet, live 2019-01-07 (KFH release); no XRP named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.kfh.com/en/home/Personal/news/2019/news-2018-01-54.html",
+   "side": "neutral",
+   "added": "2026-10-26T02:29:57-04:00"
+  },
+  {
+   "from": "stefanthomas",
+   "to": "swell",
+   "label": "Swell 2026 session \"Dassie: A Payment Network Anyone Can Run, Made Possible by XRPL\" 16:30, Oct 29 (Brella agenda; added after Oct 23)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-29",
+   "side": "neutral",
+   "added": "2026-10-26T02:29:57-04:00"
   }
  ]
 }
