@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T06:29:19-04:00",
+  "updated": "2026-10-26T08:36:52-04:00",
   "version": 3
  },
  "nodes": [
@@ -11316,12 +11316,13 @@
    "label": "Aviva Investors",
    "type": "company",
    "handle": "",
-   "summary": "Asset manager (Aviva plc). Feb 11, 2026 collaboration with Ripple to tokenise fund structures on XRPL; launched a tokenised USD Liquidity Fund share class on XRPL in July 2026 and a tokenised Sterling (GBP) Liquidity Fund share class on Oct 26, 2026 (over £86m across both classes, per Aviva).",
+   "summary": "Asset manager (Aviva plc). Feb 11, 2026 collaboration with Ripple to tokenise fund structures on XRPL; launched a tokenised USD Liquidity Fund share class on XRPL in July 2026 and a tokenised Sterling (GBP) Liquidity Fund share class on Oct 26, 2026 (over £86m across both classes, per Aviva). Both tokenised share classes are MPT issuances (tickers AUS and AGB) from XRPL account r9o37ZXw3VQyvZzYk4p6wEgGZhH14mHmr2, whose on-ledger metadata names the issuer as Aviva Investors Liquidity Funds plc.",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-strengthens-digital-capital-markets-infrastructure-with-investments-in-zilo-and-licuido/",
     "https://ripple.com/press-releases/page/4/",
-    "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/"
+    "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/",
+    "https://xrpscan.com/account/r9o37ZXw3VQyvZzYk4p6wEgGZhH14mHmr2"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 2
@@ -30879,6 +30880,32 @@
     "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution"
    ],
    "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "id": "dassie",
+   "label": "Dassie (open peer-to-peer payment network)",
+   "type": "builder",
+   "handle": "",
+   "summary": "Open-source (Apache-2.0) peer-to-peer payment network software by Stefan Thomas (GitHub justmoon). README (checked Oct 26 2026): settles on the XRP Ledger testnet only; 'works with test money only'; schemes xrpl-testnet and xrpl-testnet-dsusd (its own testnet dollar); xrpl-testnet-rlusd scheme disabled. No releases; README cites v0.1.1.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/justmoon/dassie",
+    "https://raw.githubusercontent.com/justmoon/dassie/main/README.md"
+   ],
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "id": "vantage-bank",
+   "label": "Vantage Bank",
+   "type": "bank",
+   "handle": "",
+   "summary": "Family/employee-owned Texas bank. With Custodia it tokenized U.S.-dollar demand deposits as Avit tokens on Ethereum mainnet (ERC-20), Mar 24-25 2025, and co-developed the Hazel Network tokenized-deposit/stablecoin platform; on Oct 19 2026 Hazel carried a loan-participation payment from Vantage Bank to Rio Bank (via Participate, 750-bank network). XRPL not named.",
+   "grade": "A",
+   "sources": [
+    "https://custodiabank.com/press/custodia-issues-Stablecoin/",
+    "https://custodiabank.com/press/participate-hazel-complete-worlds-first-loan-participation-or-syndication-payment-using-tokenized-deposits/"
+   ],
+   "added": "2026-10-26T08:32:14-04:00"
   }
  ],
  "edges": [
@@ -78820,12 +78847,12 @@
   {
    "from": "al-rajhi",
    "to": "ripplenet",
-   "label": "logo on Ripple's RippleNet customer wall (Apr 2019 & Jun 2021 snapshots; Ripple self-listing, not confirmed by the firm)",
+   "label": "logo on Ripple's RippleNet customer wall (Apr 2019 & Jun 2021 snapshots); Al Rajhi's own release (2017-05-13) confirms a Riyadh-Jordan transfer on Ripple blockchain technology; no XRP named",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20190425154805/https://ripple.com/ripplenet/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -101465,6 +101492,138 @@
    "source": "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/",
    "side": "supports",
    "added": "2026-10-26T06:27:18-04:00"
+  },
+  {
+   "from": "stefanthomas",
+   "to": "dassie",
+   "label": "author/maintainer of Dassie (GitHub justmoon, Stefan Thomas; repo pushed 2026-10-25)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.github.com/users/justmoon",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "dassie",
+   "to": "xrpl",
+   "label": "settles on XRP Ledger testnet only (schemes xrpl-testnet, xrpl-testnet-dsusd); RLUSD testnet scheme disabled; 'test money only' (README, checked Oct 26 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/justmoon/dassie/main/README.md",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "dassie",
+   "to": "interledger",
+   "label": "Interledger-lineage peer-to-peer payment network by an Interledger co-creator (README; author bio 'working on @interledger')",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/justmoon/dassie/main/README.md",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "aviva-investors",
+   "label": "custodian of the assets of Aviva Investors Sterling (GBP) Liquidity Fund, whose tokenised share class launched on XRPL (Ripple release, Oct 26 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/aviva-investors-expands-its-tokenised-offering-with-the-launch-of-a-sterling-liquidity-fund-tokenised-share-class/",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "al-rajhi",
+   "to": "ripple",
+   "label": "own release (2017-05-13): cross-border transfer Riyadh to Jordan head offices using Ripple blockchain technology, first in Saudi Arabia; no XRP named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Media-Center/Old-Article/al-rajhi-bank-completes-transaction-using-blockchain-technology",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "al-rajhi",
+   "to": "indusind",
+   "label": "own release (2018-12-25): blockchain remittances Saudi Arabia to India with IndusInd Bank; Ripple and XRP not named in that release",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.alrajhibank.com.sa/en/About-alrajhi-bank/Media-Center/Old-Article/Al-Rajhi-Bank-Continues-to-Conduct-Secure-Money-Transfer-Transactions-through-the-Blockchain-Initi",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "krungsri",
+   "to": "interledger",
+   "label": "own release (2019-10-28): 'Krungsri Blockchain Interledger' real-time USD/THB transfers Thailand to Lao PDR under BOT sandbox; Ripple and XRP not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.krungsri.com/en/international-banking/lao/news-activities/krungsri-blockchain-interledger",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "interbank-peru",
+   "to": "swift",
+   "label": "own business transfer page (checked Oct 26 2026): correspondent banks, SWIFT message copy, up to 48h outside the Americas; Ripple, ODL and XRP not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://interbank.pe/empresas-instituciones/pagos-cobros/transferencias/transferencias-al-exterior",
+   "side": "neutral",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "shinhan",
+   "to": "ripple",
+   "label": "xCurrent rollout stalled (Newspim 2019-05-09): platform cost and thin RippleNet reach; Shinhan official 'currently watching'; SWIFT works fine",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.newspim.com/news/view/20190509000719",
+   "side": "contradicts",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "woori",
+   "to": "ripple",
+   "label": "xCurrent rollout stalled (Newspim 2019-05-09): platform cost and thin RippleNet reach cited for Woori and Shinhan",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.newspim.com/news/view/20190509000719",
+   "side": "contradicts",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "vantage-bank",
+   "to": "ethereum",
+   "label": "tokenized its U.S.-dollar demand deposits as Avit tokens on Ethereum mainnet (ERC-20) with Custodia (Mar 2025); its Hazel Network then carried a live bank-to-bank tokenized-deposit loan payment to Rio Bank (Oct 19, 2026); XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://custodiabank.com/press/custodia-issues-Stablecoin/",
+   "side": "contradicts",
+   "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "custodia",
+   "to": "ethereum",
+   "label": "issues Avit bank-deposit tokens on Ethereum mainnet (ERC-20) for Vantage Bank (Mar 2025); blockchain layer of the Hazel Network used for the Oct 19, 2026 Vantage-to-Rio Bank tokenized-deposit payment; XRPL not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://custodiabank.com/press/custodia-issues-Stablecoin/",
+   "side": "contradicts",
+   "added": "2026-10-26T08:32:14-04:00"
   }
  ]
 }
