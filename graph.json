@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T10:35:12-04:00",
+  "updated": "2026-10-26T14:28:44-04:00",
   "version": 3
  },
  "nodes": [
@@ -2712,9 +2712,11 @@
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripples-usd-backed-stablecoin-rlusd-arrives-in-Africa/",
-    "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
+    "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv",
+    "https://ripple.com/ripple-press/crypto-enabled-payments-in-africa/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "valr",
@@ -4212,9 +4214,11 @@
    "grade": "A",
    "sources": [
     "https://x.com/RippleSwell/status/2111137992148468091",
-    "https://ripple.com/press-releases/page/5/"
+    "https://ripple.com/press-releases/page/5/",
+    "https://ripple.com/ripple-press/redotpay-integrates-ripple-payments-to-extend-stablecoin-reach-and-launches-send-crypto-receive-ngn/"
    ],
    "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks",
    "tier": 2
   },
   {
@@ -8665,7 +8669,8 @@
     "https://x.com/Ripple/status/2033875276195577876",
     "https://ripple.com/ripple-press/ripple-deepens-commitment-to-brazil-with-expanded-payments-offering-growing-customer-momentum-and-vasp-license-application/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "crx",
@@ -11509,7 +11514,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-announces-more-than-300-customers-ripplenet-growth/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "viamericas",
@@ -11522,7 +11528,8 @@
     "https://ripple.com/ripple-press/ripple-announces-more-than-300-customers-ripplenet-growth/",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "flashfx",
@@ -11535,7 +11542,8 @@
     "https://ripple.com/ripple-press/ripple-announces-more-than-300-customers-ripplenet-growth/",
     "https://www.businesswire.com/news/home/20200618005489/en/Industry-Leaders-Launch-PayID-the-Universal-ID-for-Payments"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "interbank-peru",
@@ -11561,7 +11569,8 @@
     "https://ripple.com/insights/azimo-uses-on-demand-liquidity-for-faster-international-payments-into-the-philippines/",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "novatti",
@@ -11573,7 +11582,8 @@
    "sources": [
     "https://ripple.com/insights/novatti-taps-odl-to-improve-australian-remittance-payments-to-southeast-asia/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "iremit",
@@ -11586,7 +11596,8 @@
     "https://ripple.com/ripple-press/i-remit-expands-partnership-with-ripple-to-further-leverage-on-demand-liquidity-for-treasury-management/",
     "https://storage.courtlistener.com/recap/gov.uscourts.nysd.551082/gov.uscourts.nysd.551082.660.0_1.pdf"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "pyypl",
@@ -11599,7 +11610,8 @@
     "https://ripple.com/ripple-press/ripple-and-pyypl-debut-new-first-in-market-services-in-middle-east/",
     "https://ripple.com/ripple-press/ripple-partners-with-onafriq-to-power-digital-asset-enabled-cross-border-payments-between-africa-and-the-rest-of-the-world/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "pnc",
@@ -11641,7 +11653,8 @@
     "https://www.remit.co.jp/en/kaigaisoukin/information/release20230906/",
     "https://www.remit.co.jp/kaigaisoukin/information/release20220930/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "travelex-br",
@@ -11973,9 +11986,11 @@
    "summary": "Chinese cross-border payments firm; Ripple partnership to power payments into China (2018-02-08).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/23/"
+    "https://ripple.com/press-releases/page/23/",
+    "https://ripple.com/ripple-press/ripple-partners-lianlian-international-power-instant-payments-china/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "sama",
@@ -11999,9 +12014,11 @@
    "summary": "UAE remittance firm; partnered with Ripple for cross-border payments (2018-02-11).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/23/"
+    "https://ripple.com/press-releases/page/23/",
+    "https://ripple.com/ripple-press/uae-exchange-partners-ripple-instant-cross-border-payments/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "cimb",
@@ -12036,9 +12053,11 @@
    "summary": "Bangladeshi mobile wallet; wallet-to-wallet remittances via RippleNet (2021-01-13).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/19/"
+    "https://ripple.com/press-releases/page/19/",
+    "https://ripple.com/ripple-press/bkash-and-mobile-money-connect-through-ripplenet-to-power-wallet-to-wallet-remittances-2/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "gme-remit",
@@ -12048,9 +12067,11 @@
    "summary": "Korean remittance firm; joined RippleNet for Korea→Thailand (2021-08-11).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/18/"
+    "https://ripple.com/press-releases/page/18/",
+    "https://ripple.com/ripple-press/gme-remittance-korea-joins-ripplenet-to-accelerate-and-scale-payments-into-thailand/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "deemoney",
@@ -12061,9 +12082,11 @@
    "grade": "A",
    "sources": [
     "https://ripple.com/press-releases/page/20/",
-    "https://www.businesswire.com/news/home/20200618005489/en/Industry-Leaders-Launch-PayID-the-Universal-ID-for-Payments"
+    "https://www.businesswire.com/news/home/20200618005489/en/Industry-Leaders-Launch-PayID-the-Universal-ID-for-Payments",
+    "https://ripple.com/ripple-press/deemoney-partners-with-ripple-to-power-faster-and-cheaper-cross-border-money-transfers/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "lemonway",
@@ -12073,9 +12096,11 @@
    "summary": "French payments institution; joined RippleNet for euro payments (2020-10-06).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/20/"
+    "https://ripple.com/press-releases/page/20/",
+    "https://ripple.com/ripple-press/lemonway-joins-ripplenet-to-power-instant-cost-effective-euro-to-euro-payments/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "modulr",
@@ -12097,9 +12122,11 @@
    "summary": "Lithuanian fintech; brought ODL to Lithuania (2022-05-18).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/17/"
+    "https://ripple.com/press-releases/page/17/",
+    "https://ripple.com/ripple-press/ripple-and-finci-introduce-the-benefits-of-on-demand-liquidity-to-lithuania/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "fomopay",
@@ -12109,9 +12136,11 @@
    "summary": "Singapore payments firm; ODL for treasury management (2022-07-26).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/16/"
+    "https://ripple.com/press-releases/page/16/",
+    "https://ripple.com/ripple-press/fomo-pay-to-utilize-ripples-on-demand-liquidity-for-crypto-enabled-treasury-management/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "onafriq",
@@ -12122,9 +12151,11 @@
    "grade": "A",
    "sources": [
     "https://ripple.com/press-releases/page/15/",
-    "https://ripple.com/press-releases/page/13/"
+    "https://ripple.com/press-releases/page/13/",
+    "https://www.the-heard.co.uk/blog/hearing-from-gwera-kiwana-head-of-crypto-at-onafriq-debf8"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "dz-bank",
@@ -12260,9 +12291,11 @@
    "summary": "Portuguese FX/remittance firm; crypto-enabled cross-border payments with Ripple (2025-02-10).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/9/"
+    "https://ripple.com/press-releases/page/9/",
+    "https://ripple.com/ripple-press/ripple-brings-crypto-enabled-cross-border-payments-to-portugal-in-partnership-with-unicambio/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "zand",
@@ -16381,7 +16414,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-launches-crypto-enabled-enterprise-payments-in-brazil-with-travelex-bank/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "frente-corretora",
@@ -16393,7 +16427,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-launches-crypto-enabled-enterprise-payments-in-brazil-with-travelex-bank/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "banco-topazio",
@@ -16418,7 +16453,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-launches-crypto-enabled-enterprise-payments-in-brazil-with-travelex-bank/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "usend",
@@ -16430,7 +16466,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-cloud-reaches-new-milestone-signs-first-bank-customer/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "moneymatch",
@@ -16442,7 +16479,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-cloud-reaches-new-milestone-signs-first-bank-customer/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "axis-bank",
@@ -16520,7 +16558,8 @@
    "sources": [
     "https://ripple.com/insights/lulu-exchange-and-federal-bank-connect-on-ripplenet-cloud-to-enhance-cross-border-payments-experience-into-india/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "al-ansari",
@@ -16532,7 +16571,8 @@
    "sources": [
     "https://ripple.com/insights/al-ansari-exchange-taps-ripplenet-cloud-to-enable-cross-border-remittances-to-malaysia-with-moneymatch/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "nbk",
@@ -16690,7 +16730,8 @@
     "https://ripple.com/ripple-press/ten-financial-institutions-join-ripples-global-payments-network/",
     "https://www.corpay.com/cross-border"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "star-one",
@@ -16715,7 +16756,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ten-financial-institutions-join-ripples-global-payments-network/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "bexs",
@@ -16741,7 +16783,8 @@
     "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "credit-agricole",
@@ -16768,7 +16811,8 @@
     "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "ifx",
@@ -16780,7 +16824,8 @@
    "sources": [
     "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "krungsri",
@@ -16806,7 +16851,8 @@
    "sources": [
     "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "transfergo",
@@ -16819,7 +16865,8 @@
     "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "cuallix",
@@ -16832,7 +16879,8 @@
     "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/",
     "https://web.archive.org/web/20181005153213/https://swell.ripple.com/agenda/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "sentbe",
@@ -16845,7 +16893,8 @@
     "https://ripple.com/insights/sentbe-hanpass-wirebarley-and-more-leverage-ripplenet-to-improve-remittances-in-korea/",
     "https://www.sec.gov/Archives/edgar/data/1862935/000149315224027121/form424b3.htm"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "hanpass",
@@ -16857,7 +16906,8 @@
    "sources": [
     "https://ripple.com/insights/sentbe-hanpass-wirebarley-and-more-leverage-ripplenet-to-improve-remittances-in-korea/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "wirebarley",
@@ -16870,7 +16920,8 @@
     "https://ripple.com/insights/sentbe-hanpass-wirebarley-and-more-leverage-ripplenet-to-improve-remittances-in-korea/",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "coinone-transfer",
@@ -16884,7 +16935,8 @@
     "https://ripple.com/ripple-press/gme-remittance-korea-joins-ripplenet-to-accelerate-and-scale-payments-into-thailand/",
     "https://ripple.com/insights/with-ripple-coinone-transfer-expands-quickly-in-newly-opened-korean-remittance-market/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "japan-bank-consortium",
@@ -16965,7 +17017,8 @@
     "https://ripple.com/ripple-press/ripple-continues-european-expansion-bringing-the-benefits-of-on-demand-liquidity-to-france-and-sweden",
     "https://www.sec.gov/Archives/edgar/data/1862935/000149315224027121/form424b3.htm"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "hai-ha",
@@ -16977,7 +17030,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "stables",
@@ -17015,7 +17069,8 @@
     "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/",
     "https://flash-payments.com/about-us/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "western-union",
@@ -17029,7 +17084,8 @@
     "https://fortune.com/2018/06/13/ripple-xrp-cryptocurrency-western-union/",
     "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-USDPT-on-Solana-Advancing-Regulated-Digital-Infrastructure-for-Global-Payments/default.aspx"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "mercury-fx",
@@ -17042,7 +17098,8 @@
     "https://fortune.com/2018/06/13/ripple-xrp-cryptocurrency-western-union/",
     "https://ripple.com/ripple-press/ripple-highlights-record-year-xrapid-now-commercially-available/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "nda-class-investors",
@@ -20226,7 +20283,8 @@
     "https://ripple.com/ripple-press/ripple-extends-reach-emerging-markets-five-new-customers/",
     "https://www.prnewswire.com/news-releases/nium-and-partior-partner-on-real-time-cross-border-payments-clearing-and-settlement-302296464.html"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "beetech",
@@ -20238,7 +20296,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-extends-reach-emerging-markets-five-new-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "zip-remit",
@@ -20251,7 +20310,8 @@
     "https://ripple.com/ripple-press/ripple-extends-reach-emerging-markets-five-new-customers/",
     "https://web.archive.org/web/20181229220457/https://ripple.com/ripplenet/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "fairfx",
@@ -20263,7 +20323,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-grows-global-payments-network-five-new-xvia-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "rationalfx",
@@ -20275,7 +20336,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-grows-global-payments-network-five-new-xvia-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "exchange4free",
@@ -20287,7 +20349,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-grows-global-payments-network-five-new-xvia-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "unipay-ge",
@@ -20299,7 +20362,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-grows-global-payments-network-five-new-xvia-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "catalyst-cu",
@@ -20338,7 +20402,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "jnfx",
@@ -20350,7 +20415,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "ftcs",
@@ -20362,7 +20428,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "transpaygo",
@@ -20374,7 +20441,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "ahli-bank-kuwait",
@@ -20399,7 +20467,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "connectpay",
@@ -20411,7 +20480,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "gmt-remit",
@@ -20423,7 +20493,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "worldcom-finance",
@@ -20435,7 +20506,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "olympia-trust",
@@ -20447,7 +20519,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "mobile-money-my",
@@ -20459,7 +20532,8 @@
    "sources": [
     "https://ripple.com/ripple-press/bkash-and-mobile-money-connect-through-ripplenet-to-power-wallet-to-wallet-remittances-2/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "andean-wide",
@@ -20471,7 +20545,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "bc-remit",
@@ -20483,7 +20558,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "cascade-pay",
@@ -20495,7 +20571,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "choice-international",
@@ -20507,7 +20584,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "crosspay",
@@ -20519,7 +20597,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "gcc-remit",
@@ -20531,7 +20610,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "isend",
@@ -20543,7 +20623,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "lyons-express",
@@ -20555,7 +20636,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "moneytrans",
@@ -20567,7 +20649,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "pmi-americas",
@@ -20579,7 +20662,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "remitee",
@@ -20591,7 +20675,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "right-choice-payments",
@@ -20603,7 +20688,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "sir-money-changer",
@@ -20615,7 +20701,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "tier-money",
@@ -20627,7 +20714,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "wtm-international",
@@ -20639,7 +20727,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "sabb",
@@ -20676,7 +20765,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-integrates-rlusd-into-ripple-payments-driving-enterprise-demand-and-utility/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "world-central-kitchen",
@@ -20713,7 +20803,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-redefines-payments-with-end-to-end-stablecoin-platform-and-global-customer-momentum/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "masspay",
@@ -20725,7 +20816,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-redefines-payments-with-end-to-end-stablecoin-platform-and-global-customer-momentum/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "azify",
@@ -20737,7 +20829,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-deepens-commitment-to-brazil-with-expanded-payments-offering-growing-customer-momentum-and-vasp-license-application/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "astropay",
@@ -21985,7 +22078,8 @@
     "https://ripple.com/customer-case-study/i-payout/",
     "https://www.prnewswire.com/news-releases/i-payout-and-ripple-partner-to-deliver-a-new-standard-in-cross-border-payout-infrastructure-302569891.html"
    ],
-   "added": "2026-10-19T23:31:25-04:00"
+   "added": "2026-10-19T23:31:25-04:00",
+   "sector": "banks"
   },
   {
    "id": "unicoin",
@@ -22663,7 +22757,8 @@
    "sources": [
     "https://web.archive.org/web/20190425154805/https://ripple.com/ripplenet/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "idt",
@@ -22676,7 +22771,8 @@
     "https://web.archive.org/web/20190425154805/https://ripple.com/ripplenet/",
     "https://ripple.com/insights/more-global-payment-providers-idt-and-mercuryfx-sign-up-to-use-xrp/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "cargills-bank",
@@ -22702,7 +22798,8 @@
     "https://web.archive.org/web/20190425154805/https://ripple.com/ripplenet/",
     "https://ripple.com/ripple-press/ripple-appoints-sendi-young-as-managing-director-of-europe/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "nbe-egypt",
@@ -22727,7 +22824,8 @@
    "sources": [
     "https://web.archive.org/web/20210614192641/https://ripple.com/customers/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "ria",
@@ -22740,7 +22838,8 @@
     "https://web.archive.org/web/20210614192641/https://ripple.com/customers/",
     "https://ripple.com/insights/ripple-partners-with-ria-money-transfer-to-power-instant-global-payments/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "vitesse",
@@ -22752,7 +22851,8 @@
    "sources": [
     "https://web.archive.org/web/20190927134910/https://www.ripple.com/customers"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "saldo-mx",
@@ -23382,7 +23482,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-appoints-sendi-young-as-managing-director-of-europe/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "carboncure",
@@ -24900,7 +25001,8 @@
    "sources": [
     "https://ripple.com/insights/ripple-supports-xendpay-in-opening-new-remittance-markets-to-stay-ahead-of-the-competition/"
    ],
-   "added": "2026-10-20T00:59:43-04:00"
+   "added": "2026-10-20T00:59:43-04:00",
+   "sector": "banks"
   },
   {
    "id": "tpbank",
@@ -25119,7 +25221,8 @@
    "sources": [
     "https://ripple.com/insights/paydek-expands-footprint-to-latin-america-and-africa-through-ripplenet/"
    ],
-   "added": "2026-10-20T00:59:43-04:00"
+   "added": "2026-10-20T00:59:43-04:00",
+   "sector": "banks"
   },
   {
    "id": "crypto-oasis",
@@ -27268,7 +27371,8 @@
    "sources": [
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "banks"
   },
   {
    "id": "agilityfx",
@@ -27280,7 +27384,8 @@
    "sources": [
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "banks"
   },
   {
    "id": "bancoli",
@@ -27292,7 +27397,8 @@
    "sources": [
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "banks"
   },
   {
    "id": "cloud-payments",
@@ -27304,7 +27410,8 @@
    "sources": [
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "banks"
   },
   {
    "id": "atlantic-xchange",
@@ -27316,7 +27423,8 @@
    "sources": [
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "banks"
   },
   {
    "id": "zil-money",
@@ -27328,7 +27436,8 @@
    "sources": [
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "banks"
   },
   {
    "id": "wavetip",
@@ -31005,6 +31114,18 @@
     "https://www.sec.gov/Archives/edgar/data/2099103/000143774925037057/iset20251205_s1.htm"
    ],
    "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "graniteshares-etf-trust",
+   "label": "GraniteShares ETF Trust",
+   "type": "etf",
+   "handle": "",
+   "summary": "SEC-registered ETF trust (CIK 1689873). On Oct 26 2026 it filed a 485BXT delaying Post-Effective Amendment No. 107 (3x Long/Short Bitcoin, Ether, Solana and XRP Daily ETFs) to Nov 30, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1689873/000149315226048400/form485bxt.htm"
+   ],
+   "added": "2026-10-26T14:23:36-04:00"
   }
  ],
  "edges": [
@@ -102009,6 +102130,28 @@
    "source": "https://ripple.com/ripple-press/ripple-treasury-introduces-always-on-corporate-treasury-platform-to-modernize-corporate-cash-management/",
    "side": "supports",
    "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "graniteshares-etf-trust",
+   "to": "xrp",
+   "label": "485BXT (2026-10-26) delays PEA No. 107 for 3x Long/Short XRP Daily ETFs to 2026-11-30",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1689873/000149315226048400/form485bxt.htm",
+   "side": "neutral",
+   "added": "2026-10-26T14:23:36-04:00"
+  },
+  {
+   "from": "braza",
+   "to": "rlusd",
+   "label": "Braza Bank's own terms (read 2026-10-26) list virtual-asset deposit/withdrawal for USDT, USDC, BBRL, USDB only; RLUSD not listed (Ripple says Braza supports RLUSD)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.brazabank.com.br/termos-e-condicoes-especificos/",
+   "side": "contradicts",
+   "added": "2026-10-26T14:23:36-04:00"
   }
  ]
 }
