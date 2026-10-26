@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-25T14:29:30-04:00",
+  "updated": "2026-10-25T20:32:40-04:00",
   "version": 3
  },
  "nodes": [
@@ -510,7 +510,8 @@
     "https://www.sec.gov/newsroom/press-releases/2020-338",
     "https://www.sec.gov/enforcement-litigation/litigation-releases/lr-26369"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "cftc",
@@ -523,7 +524,8 @@
     "https://xrp.org",
     "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf"
    ],
-   "added": "2026-10-19T21:13:00-04:00"
+   "added": "2026-10-19T21:13:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "clarity",
@@ -537,7 +539,8 @@
     "https://clerk.house.gov/Votes/2025199",
     "https://www.senate.gov/legislative/cloture/119.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "occ",
@@ -551,7 +554,8 @@
     "https://occ.treas.gov/news-issuances/news-releases/2025/nr-occ-2025-125b.pdf",
     "https://www.everycrsreport.com/reports/IN12722.html"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "nydfs",
@@ -564,7 +568,8 @@
     "https://www.coindesk.com/markets/2024/12/10/xrp-rallies-10-as-ripples-stablecoin-gets-regulatory-approval-ceo-garlinghouse-says",
     "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr202105041"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "fincen",
@@ -577,7 +582,8 @@
     "https://www.fincen.gov/sites/default/files/shared/Ripple_Assessment.pdf",
     "https://www.federalregister.gov/documents/2026/10/05/2026-20371/proposal-of-special-measure-prohibiting-the-transmittal-of-funds-regarding-transactions-involving"
    ],
-   "added": "2026-10-19T07:47:00-04:00"
+   "added": "2026-10-19T07:47:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "secvripple",
@@ -1332,7 +1338,8 @@
    "sources": [
     "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.json"
    ],
-   "added": "2026-10-19T21:55:00-04:00"
+   "added": "2026-10-19T21:55:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "donahue",
@@ -1465,7 +1472,8 @@
     "https://www.federalregister.gov/documents/2026/03/23/2026-05635/application-of-the-federal-securities-laws-to-certain-types-of-crypto-assets-and-certain",
     "https://www.cftc.gov/PressRoom/PressReleases/9198-26"
    ],
-   "added": "2026-10-19T21:55:00-04:00"
+   "added": "2026-10-19T21:55:00-04:00",
+   "sector": "regulators"
   },
   {
    "id": "atkins",
@@ -1668,7 +1676,8 @@
     "https://www.bis.org",
     "https://www.imf.org/-/media/files/publications/ftn063/2023/english/ftnea2023001.pdf"
    ],
-   "added": "2026-10-19"
+   "added": "2026-10-19",
+   "sector": "regulators"
   },
   {
    "id": "bis-wp1374",
@@ -3036,7 +3045,8 @@
     "https://www.coindesk.com/business/2025/05/26/dubai-unveils-real-estate-tokenization-platform-on-xrp-ledger-amid-usd16b-initiative",
     "https://coingape.com/xrp-news-dubai-tokenized-properties-trading-goes-live-on-xrpl-as-ctrl-alt-advances-project/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "reece-merrick",
@@ -8229,7 +8239,8 @@
     "https://en.vijesti.me/news-b/economy-d/757023/long-road-to-Montenegrin-digital-currency",
     "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "mintic",
@@ -8243,6 +8254,7 @@
     "https://cbdctracker.hrf.org/currency/colombia"
    ],
    "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators",
    "tier": 2
   },
   {
@@ -8270,7 +8282,8 @@
     "https://www.bcb.gov.br/content/estabilidadefinanceira/real_digital_docs/piloto/Relatorio_Drex_piloto_fase_1.pdf",
     "https://ripple.com/legal/compliance/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "drex",
@@ -8455,7 +8468,8 @@
     "https://www.congress.gov/bill/119th-congress/senate-bill/1582",
     "https://occ.gov/news-issuances/news-releases/2025/nr-occ-2025-125b.pdf"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "cbdc-ban",
@@ -8469,7 +8483,8 @@
     "https://www.theblock.co/news/regulation/2026-07-11-housing-bill-cbdc-ban-passed-into-law-without-trump-signature-406548",
     "https://www.congress.gov/bill/119th-congress/house-bill/1919/all-actions"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "cbdc-ban-claim",
@@ -8717,7 +8732,8 @@
     "https://www.fsa.go.jp/frtc/kenkyu/event/20260624/02-sessyon1-1_saitomasahiko.pdf",
     "https://www.fsa.go.jp/en/regulated/licensed/denshikessaisyudan.pdf"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "mufg",
@@ -8811,7 +8827,8 @@
    "sources": [
     "https://www.everycrsreport.com/reports/IN12722.html"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "peirce",
@@ -8837,7 +8854,8 @@
     "https://www.sec.gov/newsroom/press-releases/2025-30",
     "https://www.cftc.gov/PressRoom/PressReleases/9164-25"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "uyeda",
@@ -8876,7 +8894,8 @@
     "https://www.fdic.gov/news/financial-institution-letters/2025/fdic-clarifies-process-banks-engage-crypto-related",
     "https://ripple.com/ripple-press/raising-the-standard-for-stablecoins-ripple-usd-launches-globally/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "occ-il1183",
@@ -8888,7 +8907,8 @@
    "sources": [
     "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2025/int1183.pdf"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "imf",
@@ -8901,7 +8921,8 @@
     "https://www.imf.org/-/media/files/publications/ftn063/2023/english/ftnea2023001.pdf",
     "https://chambers.com/articles/wilson-sonsini-adds-jess-cheng-former-senior-federal-reserve-payments-counsel-to-fintech-practice"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "imf-ftn2023",
@@ -8926,7 +8947,8 @@
    "sources": [
     "https://blogs.worldbank.org/en/psd/paying-across-borders-can-distributed-ledgers-bring-us-closer-together"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "fsb",
@@ -8938,7 +8960,8 @@
    "sources": [
     "https://www.fsb.org/2025/10/g20-roadmap-for-cross-border-payments-consolidated-progress-report-for-2025/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "g20-roadmap",
@@ -9526,7 +9549,8 @@
    "sources": [
     "https://www.federalregister.gov/documents/2026/08/21/2026-17183/regulation-crypto-assets"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "sec-lr-26369",
@@ -9817,7 +9841,8 @@
     "https://www.congress.gov/bill/119th-congress/house-bill/1919",
     "https://www.congress.gov/bill/119th-congress/house-bill/3633/all-actions"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "rfia-draft",
@@ -9829,7 +9854,8 @@
    "sources": [
     "https://lda.gov/filings/public/filing/aa78b72d-e416-467d-95c8-59ba2d5088cd/print/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "ripple-lda-inhouse",
@@ -10125,7 +10151,8 @@
     "https://www.fca.org.uk/firms/cryptoassets-information",
     "https://ripple.com/legal/compliance/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "dfsa",
@@ -10141,7 +10168,8 @@
     "https://ripple.com/legal/compliance/",
     "https://ripple.com/press-releases/page/8/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "vara",
@@ -10155,7 +10183,8 @@
     "https://ripple.com/ripple-press/difc-champions-dubai-as-a-global-crypto-hub-with-approval-of-xrp-under-its-virtual-assets-regime/",
     "https://www.vara.ae/page-data/sq/d/1078231335.json"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "mas",
@@ -10170,7 +10199,8 @@
     "https://ripple.com/ripple-press/ripple-secures-major-payments-institution-license-from-the-monetary-authority-of-singapore/",
     "https://ripple.com/press-releases/page/3/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "lbry-algo-fn51",
@@ -11093,7 +11123,8 @@
     "https://ripple.com/ripple-press/ripple-receives-full-eu-mica-casp-license/",
     "https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches/psca/ripple-payments-europe-sa"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "cbi",
@@ -11108,7 +11139,8 @@
     "https://registers.centralbank.ie/FirmDataPage.aspx?firmReferenceNumber=C477156",
     "https://registers.centralbank.ie/DownloadsPage.aspx"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "asic",
@@ -11121,7 +11153,8 @@
     "https://www.coindesk.com/markets/2026/03/11/ripple-to-acquire-australian-financial-services-license-as-apac-payments-volume-doubles",
     "https://search-afsl.com/Ripple%20Payments%20Australia%20Pty%20ltd/afs-licensee/493372/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "xpring",
@@ -11365,7 +11398,8 @@
    "sources": [
     "https://www.justice.gov/atr/staff-profile/susan-c-athey-chief-economist"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "zoe-cruz",
@@ -11884,7 +11918,8 @@
     "https://ripple.com/ripple-press/craig-phillips-joins-ripple-board-of-directors/",
     "https://ripple.com/ripple-press/ripple-appoints-former-treasurer-of-the-united-states-rosie-rios-to-board-of-directors-names-new-cfo-kristina-campbell/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "michael-warren",
@@ -11948,7 +11983,8 @@
     "https://ripple.com/press-releases/page/23/",
     "https://www.bis.org/press/p240605.htm"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "uae-exchange",
@@ -12502,7 +12538,8 @@
     "https://uk.linkedin.com/in/matthew-osborne-49552716",
     "https://www.bankofengland.co.uk/research/fintech/proofs-of-concept/ripple"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "regulators"
   },
   {
    "id": "dan-morgan",
@@ -16271,7 +16308,8 @@
     "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.csv",
     "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/holder-data.csv"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "regulators"
   },
   {
    "id": "custodia",
@@ -16298,7 +16336,8 @@
     "https://ripple.com/legal/money-transfer-license/",
     "https://extranet.dfi.in.gov/ConsumerCredit/EntityDetails/18441"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "regulators"
   },
   {
    "id": "tether",
@@ -17689,7 +17728,8 @@
     "https://files.brokercheck.finra.org/firm/firm_331954.pdf",
     "https://www.prnewswire.com/news-releases/hidden-road-receives-finra-approval-for-broker-dealer-license-302430941.html"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "regulators"
   },
   {
    "id": "hrp-civ-us",
@@ -18364,7 +18404,8 @@
     "https://valor.globo.com/financas/criptomoedas/noticia/2025/02/19/cvm-aprova-o-lanamento-do-primeiro-etf-da-criptomoeda-xrp-do-mundo.ghtml",
     "https://hashdex.com/pt-BR/products/XRPH11"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "osc",
@@ -18377,7 +18418,8 @@
     "https://www.purposeinvest.com/thoughtful/purpose-xrp-etf-receives-osc-receipt-set-to-launch-on-tsx-on-wednesday-june-18-2025",
     "https://evolveetfs.com/2025/06/evolve-xrp-etf-begins-trading-today-on-tsx/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "adgm-fsra",
@@ -18390,7 +18432,8 @@
     "https://ripple.com/ripple-press/rlusd-recognized-as-accepted-fiat-referenced-token-for-use-within-abu-dhabis-adgm/",
     "https://assets.adgm.com/download/assets/AFRT+List+November+2025.pdf/c1b34426b88e11f0912ade26907f67ec"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "ripple-licenses",
@@ -18507,7 +18550,8 @@
     "https://clerk.house.gov/committees/BA21",
     "https://financialservices.house.gov/119th-congress-subcommittees/subcommittee-on-digital-assets-financial-technology-and-artificial-intelligence.htm"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "bitlicense-xrp-ii-2016",
@@ -18574,7 +18618,8 @@
    "sources": [
     "https://jvcea.or.jp/statistics/document/greenlist/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "korea-fsc",
@@ -18587,7 +18632,8 @@
     "https://www.fsc.go.kr/eng/pr010101/",
     "https://www.blockmedia.co.kr/archives/1121858"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "cbb-bahrain",
@@ -18602,7 +18648,8 @@
     "https://www.cbb.gov.bh/fintech/",
     "https://invezz.com/news/2025/10/09/ripple-to-launch-rlusd-stablecoin-in-bahrain/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "hk-sfc",
@@ -18616,7 +18663,8 @@
     "https://www.osl.com/hk-en/announcement/initial-listing-xrp-xrp-trading-will-be-available-on-osl-hk-for-retail-investors",
     "https://www.hkma.gov.hk/eng/regulatory-resources/registers/register-of-licensed-stablecoin-issuers/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "finma",
@@ -18629,7 +18677,8 @@
     "https://ripple.com/legal/compliance/",
     "https://www.pymnts.com/cryptocurrency/2025/amina-bank-integrates-ripple-payments-to-facilitate-cross-border-stablecoin-transactions/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "austrac",
@@ -18641,7 +18690,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "ripple-payments-au",
@@ -18669,7 +18719,8 @@
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng",
     "https://fintrac-canafe.canada.ca/msb-esm/reg-eng.csv"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "cnbv-mexico",
@@ -18681,7 +18732,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "non-us-reg-sweep-2026-10-19",
@@ -18723,7 +18775,8 @@
     "https://www.wam.ae/en/article/hszrb7vw-fintech-ripple-chooses-dubai-international",
     "https://assets.difc.com/v1/media/edge/images/dubaiintern0078-difcexperie96c5-production-3253/media/project/difcexperiences/difc/difcwebsite/documents/media-section/publications/client-case-studies/2025---case-studies/ripple_2025.pdf"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "bot-thailand",
@@ -18736,7 +18789,8 @@
     "https://ripple.com/ripple-press/scb-partners-with-ripple-extending-scb-global-payment-strategy/",
     "https://www.bot.or.th/en/financial-innovation/digital-finance/fintech-in-thailand/regulatory-sandbox.html"
    ],
-   "added": "2026-10-19T23:05:08-04:00"
+   "added": "2026-10-19T23:05:08-04:00",
+   "sector": "regulators"
   },
   {
    "id": "w-gemini",
@@ -18874,7 +18928,8 @@
    "sources": [
     "https://www.bny.com/corporate/global/en/investor-relations/corporate-governance/board-of-directors/oconnor.html"
    ],
-   "added": "2026-10-19T23:06:27-04:00"
+   "added": "2026-10-19T23:06:27-04:00",
+   "sector": "regulators"
   },
   {
    "id": "hims",
@@ -21802,7 +21857,8 @@
     "https://www.fid.nv.gov/siteassets/opinion/Fortress_Trust_LLC_-_Cease_and_Desist_10.22.25.pdf",
     "https://www.business.nv.gov/siteassets/content/files/elemental-financial-technologies-inc.-petition-and-exhibits-filed.pdf"
    ],
-   "added": "2026-10-19T23:31:25-04:00"
+   "added": "2026-10-19T23:31:25-04:00",
+   "sector": "regulators"
   },
   {
    "id": "mgi-class-2021",
@@ -22054,7 +22110,8 @@
     "https://ripple.com/legal/compliance/",
     "https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches/psca/ripple-payments-europe-sa"
    ],
-   "added": "2026-10-19T23:57:49-04:00"
+   "added": "2026-10-19T23:57:49-04:00",
+   "sector": "regulators"
   },
   {
    "id": "clf-pac",
@@ -23055,7 +23112,8 @@
    "sources": [
     "https://web.archive.org/web/20181005153213/https://swell.ripple.com/agenda/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "regulators"
   },
   {
    "id": "remitr",
@@ -23079,7 +23137,8 @@
    "sources": [
     "https://web.archive.org/web/20181005153213/https://swell.ripple.com/agenda/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "regulators"
   },
   {
    "id": "level39",
@@ -26395,7 +26454,8 @@
     "https://dfpi.ca.gov/news/monthly-bulletins/monthly-bulletin-january-2025/",
     "https://www.treasurer.ca.gov/sites/default/files/executive-office/pr-26-30.pdf"
    ],
-   "added": "2026-10-20T00:59:43-04:00"
+   "added": "2026-10-20T00:59:43-04:00",
+   "sector": "regulators"
   },
   {
    "id": "hfsc",
@@ -26922,7 +26982,8 @@
    "sources": [
     "https://web.archive.org/web/20191216081750/https://ripple.com/insights/regulations-compliance-update-u-s-treasury-csbs-and-canadian-senate/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "canada-senate-banking",
@@ -26934,7 +26995,8 @@
    "sources": [
     "https://web.archive.org/web/20191216081750/https://ripple.com/insights/regulations-compliance-update-u-s-treasury-csbs-and-canadian-senate/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "aba",
@@ -27067,7 +27129,8 @@
    "sources": [
     "https://ripple.com/insights/how-tuerkiye-has-become-a-digital-assets-hub/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "optimism",
@@ -27177,7 +27240,8 @@
     "https://ripple.com/insights/crypto-momentum-in-the-us-whats-next-for-ripple-payments/",
     "https://lei.bloomberg.com/leis/view/984500E8897C9DALF522"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "geoswift",
@@ -27417,7 +27481,8 @@
    "sources": [
     "https://ripple.com/insights/bridging-the-gap-public-private-collaboration-in-digital-asset-innovation/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "banque-de-france",
@@ -27429,7 +27494,8 @@
    "sources": [
     "https://ripple.com/insights/bridging-the-gap-public-private-collaboration-in-digital-asset-innovation/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "oecd",
@@ -27441,7 +27507,8 @@
    "sources": [
     "https://ripple.com/insights/bridging-the-gap-public-private-collaboration-in-digital-asset-innovation/"
    ],
-   "added": "2026-10-20T01:54:19-04:00"
+   "added": "2026-10-20T01:54:19-04:00",
+   "sector": "regulators"
   },
   {
    "id": "ccaf",
@@ -28323,7 +28390,8 @@
     "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=101261",
     "https://portal.mvp.bafin.de/database/InstInfo/institutDetails.do?cmd=loadInstitutAction&institutId=157207"
    ],
-   "added": "2026-10-20T10:29:10-04:00"
+   "added": "2026-10-20T10:29:10-04:00",
+   "sector": "regulators"
   },
   {
    "id": "esma",
@@ -28335,7 +28403,8 @@
    "sources": [
     "https://www.esma.europa.eu/sites/default/files/2024-12/CASPS.csv"
    ],
-   "added": "2026-10-20T10:29:10-04:00"
+   "added": "2026-10-20T10:29:10-04:00",
+   "sector": "regulators"
   },
   {
    "id": "hl-policy-center",
@@ -28411,7 +28480,8 @@
     "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197",
     "https://www.bot.or.th/en/news-and-media/news/news-20250403.html"
    ],
-   "added": "2026-10-20T10:29:10-04:00"
+   "added": "2026-10-20T10:29:10-04:00",
+   "sector": "regulators"
   },
   {
    "id": "bnm",
@@ -28424,7 +28494,8 @@
     "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197",
     "https://www.bot.or.th/en/news-and-media/news/news-20250403.html"
    ],
-   "added": "2026-10-20T10:29:10-04:00"
+   "added": "2026-10-20T10:29:10-04:00",
+   "sector": "regulators"
   },
   {
    "id": "bsp",
@@ -28437,7 +28508,8 @@
     "https://www.rbi.org.in/Scripts/BS_PressReleaseDisplay.aspx?prid=58197",
     "https://www.bot.or.th/en/news-and-media/news/news-20250403.html"
    ],
-   "added": "2026-10-20T10:29:10-04:00"
+   "added": "2026-10-20T10:29:10-04:00",
+   "sector": "regulators"
   },
   {
    "id": "paynet",
@@ -28540,7 +28612,8 @@
     "https://ripple.com/files/Ripple_IOSCO_Policy%20Recommendations%20for%20Crypto%20and%20Digital%20Asset%20Markets%20Consultation_July%202023_final.pdf",
     "https://ripple.com/public-policy/"
    ],
-   "added": "2026-10-20T12:25:42-04:00"
+   "added": "2026-10-20T12:25:42-04:00",
+   "sector": "regulators"
   },
   {
    "id": "ripple-iosco-2023",
@@ -29301,7 +29374,8 @@
     "https://www.occ.gov/news-issuances/news-releases/2026/nr-occ-2026-92a.pdf",
     "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the"
    ],
-   "added": "2026-10-21T12:31:57-04:00"
+   "added": "2026-10-21T12:31:57-04:00",
+   "sector": "regulators"
   },
   {
    "id": "rc-ask-rule400-no-presumption",
@@ -29542,7 +29616,8 @@
    "sources": [
     "https://www.bok.or.kr/portal/bbs/B0000502/view.do?depth=201265&menuNo=201265&nttId=10097017&programType=newsData&relate=Y"
    ],
-   "added": "2026-10-21T18:24:12-04:00"
+   "added": "2026-10-21T18:24:12-04:00",
+   "sector": "regulators"
   },
   {
    "id": "hangang",
@@ -29570,7 +29645,8 @@
     "https://www.bis.org/media-releases/20240605-project-mbridge-reaches-minimum-viable-product-stage-and-invites-further-international",
     "https://www.bis.org/about/bisih/topics/cbdc/mcbdc_bridge.htm"
    ],
-   "added": "2026-10-21T18:24:12-04:00"
+   "added": "2026-10-21T18:24:12-04:00",
+   "sector": "regulators"
   },
   {
    "id": "xrp-etf-in-kind-2026-10",
@@ -29599,7 +29675,8 @@
     "https://www.federalregister.gov/documents/2026/10/13/2026-20888/regulation-crypto-asset-transactions-and-regulation-crypto-asset-markets",
     "https://www.cftc.gov/PressRoom/SpeechesTestimony/seligstatement100526"
    ],
-   "added": "2026-10-21T18:24:12-04:00"
+   "added": "2026-10-21T18:24:12-04:00",
+   "sector": "regulators"
   },
   {
    "id": "selig-x-optin-2026-10-21",
@@ -30412,7 +30489,8 @@
    "sources": [
     "https://www.eba.europa.eu/publications-and-media/press-releases/eba-classifies-usdc-first-significant-e-money-token-european-union"
    ],
-   "added": "2026-10-23T10:28:22-04:00"
+   "added": "2026-10-23T10:28:22-04:00",
+   "sector": "regulators"
   },
   {
    "id": "fca-cp26-36-2026-10-21",
@@ -30761,6 +30839,30 @@
     "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf"
    ],
    "added": "2026-10-25T10:31:22-04:00"
+  },
+  {
+   "id": "g7-bank-digital-money",
+   "label": "G7 bank digital-money group (10 banks, 2025)",
+   "type": "company",
+   "handle": "",
+   "summary": "Ten banks (Banco Santander, Bank of America, Barclays, BNP Paribas, Citi, Deutsche Bank, Goldman Sachs, MUFG Bank, TD Bank Group, UBS) said on 2025-10-10 they are exploring a 1:1 reserve-backed form of digital money on public blockchains, focused on G7 currencies. No chain named; no Ripple or XRP. Rival-rail context for H3.",
+   "grade": "A",
+   "sources": [
+    "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/"
+   ],
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "id": "cad-tokenized-deposits",
+   "label": "Canadian banks' CAD tokenized deposit project (2026)",
+   "type": "company",
+   "handle": "",
+   "summary": "BMO, CIBC, National Bank of Canada, RBC, Scotiabank and TD said on 2026-09-22 they are exploring a secure CAD tokenized deposit solution. Rail not named; no Ripple or XRP.",
+   "grade": "A",
+   "sources": [
+    "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution"
+   ],
+   "added": "2026-10-25T20:27:44-04:00"
   }
  ],
  "edges": [
@@ -46076,7 +46178,7 @@
   {
    "from": "wkahneman",
    "to": "currenc",
-   "label": "speculated (2026) that Ripple + Animoca want Tranglo separated from Currenc; Currenc's filings show the Animoca merger talks were suspended 2026-09-21 and describe no Tranglo separation plan",
+   "label": "speculated (2026) that Ripple + Animoca want Tranglo separated from Currenc; Currenc's filings show the Animoca merger talks were suspended 2026-09-21 and describe no Tranglo separation plan; Currenc 6-K (2026-10-07) adds that a Malaysian High Court charging order over Seamless's 100,465 Tranglo shares was made absolute (RMA enforcing its 2025 Singapore judgment), a creditor-enforcement route, not a Ripple separation plan",
    "grade": "C",
    "strength": 1,
    "key": false,
@@ -56020,12 +56122,12 @@
   {
    "from": "yes-bank",
    "to": "ripplenet",
-   "label": "joined Ripple network 2017-04-26",
+   "label": "joined Ripple network 2017-04-26 (Ripple-side only; YES BANK FY18/FY19 annual reports and BSE search show no Ripple item)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ten-financial-institutions-join-ripples-global-payments-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56058,7 +56160,7 @@
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/insights/ripple-powered-instant-payment-services-now-live-axis-bank-rakbank-standard-chartered/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56091,7 +56193,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.nbk.com/kuwait/news-and-insights/media-relations/news.html?news=nbk-leads-the-way-in-kuwait-in-a-partnership-with-ripplenet-to-offer-instant-cross-border-payments-to-customers",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56168,7 +56270,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/seven-leading-banks-join-ripples-global-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56267,7 +56369,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/seven-leading-banks-join-ripples-global-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -56498,7 +56600,7 @@
    "strength": 3,
    "key": false,
    "source": "https://qnb.com/sites/qnb/qnbglobal/en/ennews24jul2022news",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -63824,7 +63926,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/the-swell-2026-lineup-is-here/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -63835,7 +63937,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/the-swell-2026-lineup-is-here/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -64616,7 +64718,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-adds-several-new-banks-global-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -64666,12 +64768,12 @@
   {
    "from": "westpac",
    "to": "ripple",
-   "label": "existing Ripple customer (2016); GPSG founding member",
+   "label": "existing Ripple customer (2016); GPSG founding member (Ripple-side only; no current Westpac-side Ripple item found)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-adds-several-new-banks-global-network/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -65452,7 +65554,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-expands-in-the-middle-east-deepens-commitment-with-new-office-and-brings-annual-global-conference-to-dubai/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -65463,7 +65565,7 @@
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-expands-in-the-middle-east-deepens-commitment-with-new-office-and-brings-annual-global-conference-to-dubai/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -101127,6 +101229,171 @@
    "source": "https://centrifuge.io/blog/nylim-centrifuge",
    "side": "contradicts",
    "added": "2026-10-25T14:23:52-04:00"
+  },
+  {
+   "from": "barclays",
+   "to": "g7-bank-digital-money",
+   "label": "Barclays named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "ubs",
+   "to": "g7-bank-digital-money",
+   "label": "UBS named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "santander",
+   "to": "g7-bank-digital-money",
+   "label": "Banco Santander named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "bofa",
+   "to": "g7-bank-digital-money",
+   "label": "Bank of America named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "citi",
+   "to": "g7-bank-digital-money",
+   "label": "Citi named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "goldman",
+   "to": "g7-bank-digital-money",
+   "label": "Goldman Sachs named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "mufg",
+   "to": "g7-bank-digital-money",
+   "label": "MUFG Bank named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "bnp",
+   "to": "g7-bank-digital-money",
+   "label": "BNP Paribas named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "g7-bank-digital-money",
+   "label": "Deutsche Bank named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "td-securities",
+   "to": "g7-bank-digital-money",
+   "label": "TD Bank Group named in the 10-bank group exploring 1:1 reserve-backed digital money on public blockchains (2025-10-10); chain unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://home.barclays/news/press-releases/2025/10/Group-of-leading-international-banks-explores-issuance-of-a-1-1-reserve-backed-form-of-digital-money/",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "bmo",
+   "to": "cad-tokenized-deposits",
+   "label": "BMO named in six-bank CAD tokenized deposit exploration (2026-09-22); rail unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "cibc",
+   "to": "cad-tokenized-deposits",
+   "label": "CIBC named in six-bank CAD tokenized deposit exploration (2026-09-22); rail unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "rbc",
+   "to": "cad-tokenized-deposits",
+   "label": "RBC named in six-bank CAD tokenized deposit exploration (2026-09-22); rail unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "scotiabank",
+   "to": "cad-tokenized-deposits",
+   "label": "Scotiabank named in six-bank CAD tokenized deposit exploration (2026-09-22); rail unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
+  },
+  {
+   "from": "td-securities",
+   "to": "cad-tokenized-deposits",
+   "label": "TD named in six-bank CAD tokenized deposit exploration (2026-09-22); rail unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://newsroom.bmo.com/2026-09-22-Six-Canadian-banks-explore-development-of-a-secure-CAD-tokenized-deposit-solution",
+   "side": "neutral",
+   "added": "2026-10-25T20:27:44-04:00"
   }
  ]
 }
