@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T08:36:52-04:00",
+  "updated": "2026-10-26T10:35:12-04:00",
   "version": 3
  },
  "nodes": [
@@ -293,12 +293,13 @@
    "label": "GTreasury",
    "type": "company",
    "handle": "",
-   "summary": "Treasury management system; $1B acquisition announced 2025-10-16 (reported closed Dec 2025).",
+   "summary": "Treasury management system; $1B acquisition announced 2025-10-16 (reported closed Dec 2025). On Oct 26, 2026 Ripple announced always-on Ripple Treasury capabilities unveiled at Swell 2026: an AI orchestration layer with its GSmart AI and '24/7 Returns' on qualifying digital assets including RLUSD; the release names customers including American Airlines, Trax, Christian Louboutin, Subway, Adecco and Kingfisher.",
    "why": "Treasury-management software company Ripple bought for $1B in 2025; it then acquired Solvexia, now part of Ripple Treasury.",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-breaks-into-corporate-treasury-with-gtreasury-acquisition/",
-    "https://hgcapital.com/insights/hg-agrees-sale-of-gtreasury-to-ripple"
+    "https://hgcapital.com/insights/hg-agrees-sale-of-gtreasury-to-ripple",
+    "https://ripple.com/ripple-press/ripple-treasury-introduces-always-on-corporate-treasury-platform-to-modernize-corporate-cash-management/"
    ],
    "added": "2026-10-19T06:36:00-04:00"
   },
@@ -30906,6 +30907,104 @@
     "https://custodiabank.com/press/participate-hazel-complete-worlds-first-loan-participation-or-syndication-payment-using-tokenized-deposits/"
    ],
    "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "id": "ripple-occ-genius-letter-2026-05-01",
+   "label": "Ripple comment on the OCC GENIUS NPRM, OCC-2025-0372 (2026-05-01)",
+   "type": "event",
+   "handle": "",
+   "summary": "64-page letter dated May 1, 2026 (received May 1, posted May 3) on the OCC's GENIUS NPRM (RIN 1557-AF41). Signed by Jack McDonald, SVP of Stablecoins at Ripple and CEO of Standard Custody & Trust Co. Ripple writes 'as a state-chartered issuer of a payment stablecoin operating under NYDFS supervision', 'not as a petitioner seeking OCC oversight'. Main asks: a principles-based reserve framework with an optional safe harbor (10% liquid floor, 30% five-day floor, 60% single-institution cap instead of 40%); no 20-day WAM limit; no insured-deposit requirement (§15.11(d)); no extension of the yield ban to affiliates or third parties; a 'related third party' definition limited to white-label arrangements; collateral-trustee arrangements expressly permitted; the $10B threshold measured as a rolling four-quarter average; a 10-business-day notice window; at least 180 days after a waiver denial; and (Q5) the SQPSI waiver made available to uninsured, non-Fed-supervised state trust companies that meet the federal 'depository institution' definition. Advocacy, not an outcome.",
+   "grade": "A",
+   "sources": [
+    "https://www.regulations.gov/comment/OCC-2025-0372-0246",
+    "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "ripple-treas-issuance-letter-2026-10-19",
+   "label": "Ripple comment on Treasury's GENIUS issuance/offer/sale NPRM, TREAS-DO-2026-0496 (2026-10-19)",
+   "type": "event",
+   "handle": "",
+   "summary": "5-page letter dated Oct 19, 2026 (posted Oct 20) on Treasury's proposed 12 CFR part 1523 (RIN 1505-AC95, 91 FR 53368). Signed by Jack McDonald, SVP of Stablecoins at Ripple and CEO of Standard Custody & Trust Co. Three asks: (1) 'issuer'/'issue' (§1523.1(c); Q23-25): supports the conjunctive issuer test and 'issue' meaning the first transfer; reserve managers and collateral trustees are not issuers; a PPSI's issuance is not issuance on behalf of a foreign affiliate; (2) DASP diligence (§1523.3(c); Q52): reliance on the section 8 and section 18 government lists counts as reasonable diligence; (3) state issuers (§1523.4; Q74): an NYDFS-type state-approved issuer is a PPSI until the SCRC acts on the state's initial certification, or else a safe harbor. Advocacy, not an outcome.",
+   "grade": "A",
+   "sources": [
+    "https://www.regulations.gov/comment/TREAS-DO-2026-0496-0120",
+    "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "sr-nasdaq-2025-053-etha-staking",
+   "label": "Nasdaq 19b-4 to permit ETHA staking, SR-NASDAQ-2025-053 (withdrawn 2025-09-26)",
+   "type": "event",
+   "handle": "",
+   "summary": "Filed Jul 16, 2025 (notice 34-103561, 90 FR 36206, Aug 1, 2025). The extension 34-103936 set Oct 30, 2025 as the action date. The SEC page marks all releases 'WITHDRAWN on 9/26/2025', so no approval or disapproval order was issued. ETHA's Aug 6, 2026 prospectus says the Trust 'currently does not expect to earn any form of staking rewards'. BlackRock's staking product is the separate iShares Staked Ethereum Trust ETF (ETHB): S-1 filed Dec 8, 2025, effective Mar 11, 2026, and its prospectus cites Nasdaq's generic listing standards.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-053",
+    "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?field_display_title_value=WITHDRAWN&file_number=&month=All&page=1&release_number=&sro_organization=All&year=2025",
+    "https://www.sec.gov/Archives/edgar/data/2000638/000143774926026297/etha20260806_424b3.htm",
+    "https://www.sec.gov/Archives/edgar/data/2099103/000143774926007771/iset20260311_424b3.htm"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "sr-cboebzx-2025-039-franklin-sol",
+   "label": "Cboe BZX 19b-4 for Franklin Solana ETF, SR-CboeBZX-2025-039 (withdrawn 2025-09-26)",
+   "type": "event",
+   "handle": "",
+   "summary": "Notice 34-102651 (Mar 13, 2025), then proceedings, then the final extension 34-103930 (Sep 10, 2025), which set Nov 14, 2025. The SEC page marks it 'WITHDRAWN on 9/26/2025', so no order was issued. The fund later listed on NYSE Arca as SOEZ (8-A12B and EFFECT Nov 25, 2025; 424B3 Nov 26, 2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboebzx-2025-039",
+    "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?field_display_title_value=WITHDRAWN&file_number=&month=All&page=1&release_number=&sro_organization=All&year=2025",
+    "https://www.sec.gov/Archives/edgar/data/2057388/000207184425000543/8a.htm",
+    "https://www.sec.gov/Archives/edgar/data/2057388/000207184425000549/424b3.htm"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "sr-cboebzx-2025-040-franklin-xrp",
+   "label": "Cboe BZX 19b-4 for Franklin XRP ETF, SR-CboeBZX-2025-040 (withdrawn 2025-09-26)",
+   "type": "event",
+   "handle": "",
+   "summary": "Notice 34-102656 (Mar 13, 2025), proceedings 34-103278 (Jun 17, 2025), and the final extension 34-103933 (Sep 10, 2025), which set Nov 14, 2025. The SEC page marks it 'WITHDRAWN on 9/26/2025', so no order was issued. The fund later listed on NYSE Arca as XRPZ (8-A12B Nov 18, 2025; NYSE Arca certification Nov 21; 424B3 Nov 24, 2025).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboebzx-2025-040",
+    "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/national-securities-exchanges?field_display_title_value=WITHDRAWN&file_number=&month=All&page=1&release_number=&sro_organization=All&year=2025",
+    "https://www.sec.gov/Archives/edgar/data/2059438/000207184425000473/8a.htm",
+    "https://www.sec.gov/Archives/edgar/data/2059438/000207184425000517/424b3.htm"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "soez",
+   "label": "Franklin Solana ETF (SOEZ)",
+   "type": "etf",
+   "handle": "",
+   "summary": "Franklin Solana Trust (CIK 2057388), listed on NYSE Arca under the ticker SOEZ. 8-A12B and EFFECT Nov 25, 2025; 424B3 prospectus Nov 26, 2025; NYSE Arca certification Dec 2, 2025. The prospectus says the Sponsor seeks to stake 'as much of the Fund's Solana as is practicable (i.e., up to 100%)'.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2057388/000207184425000549/424b3.htm",
+    "https://www.sec.gov/Archives/edgar/data/2057388/000207184425000543/8a.htm",
+    "https://www.sec.gov/Archives/edgar/data/2057388/000114336225000425/SOEZ120225.pdf"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "id": "ethb",
+   "label": "iShares Staked Ethereum Trust ETF (ETHB)",
+   "type": "etf",
+   "handle": "",
+   "summary": "BlackRock/iShares staked-ether ETP (CIK 2099103), listed on Nasdaq under the ticker ETHB. S-1 filed Dec 8, 2025; 8-A12B Mar 9, 2026; EFFECT and 424B3 Mar 11, 2026. The prospectus says the staking liquidity policy 'is intended to be consistent with NASDAQ's generic listing standards'.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2099103/000143774926007771/iset20260311_424b3.htm",
+    "https://www.sec.gov/Archives/edgar/data/2099103/000143774925037057/iset20251205_s1.htm"
+   ],
+   "added": "2026-10-26T10:30:06-04:00"
   }
  ],
  "edges": [
@@ -100803,11 +100902,11 @@
   {
    "from": "cantor",
    "to": "evernorth",
-   "label": "committed equity facility: Evernorth may sell up to 5,218,935 XRPN shares to CF Principal Investments at 97% of VWAP over 14 months; proceeds earmarked for XRP acquisition (8-K/S-1, Oct 23 2026)",
+   "label": "committed equity facility: Evernorth may sell up to 5,218,935 XRPN shares to CF Principal Investments at 97% of VWAP over 14 months, about $80M gross if fully used at the Oct 22 close; proceeds partly for XRP acquisition (8-K Oct 23, release Oct 26 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026067061/evernorth-elocx8xk.htm",
+   "source": "https://www.globenewswire.com/news-release/2026/10/26/3388042/0/en/evernorth-secures-committed-equity-facility-for-approximately-80-million-to-support-xrp-treasury-growth.html",
    "side": "supports",
    "added": "2026-10-23T20:22:31-04:00"
   },
@@ -101624,6 +101723,292 @@
    "source": "https://custodiabank.com/press/custodia-issues-Stablecoin/",
    "side": "contradicts",
    "added": "2026-10-26T08:32:14-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-occ-genius-letter-2026-05-01",
+   "label": "filed comment on the OCC GENIUS NPRM, OCC-2025-0372 (dated 2026-05-01; posted 2026-05-03)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.regulations.gov/comment/OCC-2025-0372-0246",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "occ",
+   "label": "comment on RIN 1557-AF41: asks for a principles-based reserve safe harbor (60% custodian cap, no 20-day WAM, no insured-deposit mandate) and no yield-ban extension to affiliates",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "genius",
+   "label": "asks that the SQPSI $10B-transition waiver cover uninsured, non-Fed-supervised state trust companies meeting the federal 'depository institution' definition (Q5)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "sctc",
+   "label": "signed by the SCTC CEO; describes SCTC as a NYDFS-regulated limited purpose trust company through which Ripple issues RLUSD",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "jmcdonald",
+   "label": "signed by Jack McDonald (SVP of Stablecoins, Ripple; CEO, Standard Custody & Trust Co.)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "rntb",
+   "label": "cites the Dec 2025 conditional approval for Ripple National Trust Bank as the RLUSD reserve collateral trustee; asks the OCC to expressly permit collateral-trustee arrangements",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "nydfs",
+   "label": "offers the NYDFS-supervised RLUSD reserve framework as the working model for principles-based diversification",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/OCC-2025-0372-0246/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "ripple-treas-state-sim-letter-2026-06-02",
+   "label": "consistent with: same NYDFS-baseline framing and OCC metrics treated as an optional safe harbor; the later Jun 2 letter keeps these positions",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-treas-issuance-letter-2026-10-19",
+   "label": "filed comment on Treasury's GENIUS issuance/offer/sale NPRM, TREAS-DO-2026-0496 (dated 2026-10-19; posted 2026-10-20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.regulations.gov/comment/TREAS-DO-2026-0496-0120",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-treas-issuance-letter-2026-10-19",
+   "to": "treasury",
+   "label": "comment on RIN 1505-AC95 (91 FR 53368): asks that state-approved issuers count as PPSIs until the SCRC acts on the state certification (or a safe harbor)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-treas-issuance-letter-2026-10-19",
+   "to": "sctc",
+   "label": "signed by the SCTC CEO; describes SCTC as a NYDFS-regulated limited purpose trust company through which Ripple issues RLUSD",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-treas-issuance-letter-2026-10-19",
+   "to": "jmcdonald",
+   "label": "signed by Jack McDonald (SVP of Stablecoins, Ripple; CEO, Standard Custody & Trust Co.)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-treas-issuance-letter-2026-10-19",
+   "to": "rntb",
+   "label": "states the OCC conditionally approved Ripple National Trust Bank (In Organization) in Dec 2025",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-treas-issuance-letter-2026-10-19",
+   "to": "treasury-scrc-state-cert-ifr",
+   "label": "cites the SCRC interim procedures (91 FR 61688) to argue state issuers need interim PPSI status while certification is pending",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "ripple-treas-issuance-letter-2026-10-19",
+   "to": "ripple-treas-state-sim-letter-2026-06-02",
+   "label": "extends: carries the Jun 2 letter's transition-time theme to issuer status during state certification; different signatory (McDonald vs Alderoty)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0496-0120/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "nasdaq",
+   "to": "sr-nasdaq-2025-053-etha-staking",
+   "label": "filed 19b-4 to permit ETHA staking (2025-07-16; SEC action date Oct 30, 2025); withdrawn 2025-09-26, no order",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-nasdaq-2025-053",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "sr-nasdaq-2025-053-etha-staking",
+   "to": "blackrock",
+   "label": "proposal for iShares Ethereum Trust (ETHA); ETHA's Aug 2026 prospectus says it does not currently stake",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2000638/000143774926026297/etha20260806_424b3.htm",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "blackrock",
+   "to": "ethb",
+   "label": "sponsors iShares Staked Ethereum Trust ETF (ETHB) on Nasdaq; S-1 2025-12-08, effective 2026-03-11",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2099103/000143774926007771/iset20260311_424b3.htm",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "cboe-bzx",
+   "to": "sr-cboebzx-2025-039-franklin-sol",
+   "label": "filed 19b-4 for Franklin Solana ETF (notice 2025-03-13; SEC action date Nov 14, 2025); withdrawn 2025-09-26, no order",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboebzx-2025-039",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "sr-cboebzx-2025-039-franklin-sol",
+   "to": "franklin",
+   "label": "proposal for the Franklin Solana ETF",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboebzx-2025-039",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "franklin",
+   "to": "soez",
+   "label": "sponsors Franklin Solana ETF (SOEZ) on NYSE Arca; 8-A12B and EFFECT 2025-11-25, 424B3 2025-11-26",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2057388/000207184425000549/424b3.htm",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "nyse-arca",
+   "to": "soez",
+   "label": "lists SOEZ (NYSE Arca certification filed 2025-12-02)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2057388/000114336225000425/SOEZ120225.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "cboe-bzx",
+   "to": "sr-cboebzx-2025-040-franklin-xrp",
+   "label": "filed 19b-4 for Franklin XRP ETF (notice 2025-03-13; SEC action date Nov 14, 2025); withdrawn 2025-09-26, no order",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboebzx-2025-040",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "sr-cboebzx-2025-040-franklin-xrp",
+   "to": "franklin",
+   "label": "proposal for the Franklin XRP ETF",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-cboebzx-2025-040",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "sr-cboebzx-2025-040-franklin-xrp",
+   "to": "xrpz",
+   "label": "same fund later listed on NYSE Arca as XRPZ (8-A12B 2025-11-18; 424B3 2025-11-24), not under this BZX filing",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2059438/000207184425000517/424b3.htm",
+   "side": "neutral",
+   "added": "2026-10-26T10:30:06-04:00"
+  },
+  {
+   "from": "gtreasury",
+   "to": "rlusd",
+   "label": "Ripple Treasury '24/7 Returns': eligible corporate customers can earn returns on qualifying digital assets incl. RLUSD held in a Ripple wallet (announced 2026-10-26)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-treasury-introduces-always-on-corporate-treasury-platform-to-modernize-corporate-cash-management/",
+   "side": "supports",
+   "added": "2026-10-26T10:30:06-04:00"
   }
  ]
 }
