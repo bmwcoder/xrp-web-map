@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T14:28:44-04:00",
+  "updated": "2026-10-26T18:30:57-04:00",
   "version": 3
  },
  "nodes": [
@@ -293,7 +293,7 @@
    "label": "GTreasury",
    "type": "company",
    "handle": "",
-   "summary": "Treasury management system; $1B acquisition announced 2025-10-16 (reported closed Dec 2025). On Oct 26, 2026 Ripple announced always-on Ripple Treasury capabilities unveiled at Swell 2026: an AI orchestration layer with its GSmart AI and '24/7 Returns' on qualifying digital assets including RLUSD; the release names customers including American Airlines, Trax, Christian Louboutin, Subway, Adecco and Kingfisher.",
+   "summary": "Treasury management system; $1B acquisition announced 2025-10-16 (reported closed Dec 2025). On Oct 26, 2026 Ripple announced always-on Ripple Treasury capabilities unveiled at Swell 2026: an AI orchestration layer with its GSmart AI and '24/7 Returns' on qualifying digital assets including RLUSD; separately, the release names Ripple Treasury customers including American Airlines, Trax, Christian Louboutin, Subway, Adecco and Kingfisher; it does not say these customers use RLUSD or 24/7 Returns.",
    "why": "Treasury-management software company Ripple bought for $1B in 2025; it then acquired Solvexia, now part of Ripple Treasury.",
    "grade": "A",
    "sources": [
@@ -31126,6 +31126,46 @@
     "https://www.sec.gov/Archives/edgar/data/1689873/000149315226048400/form485bxt.htm"
    ],
    "added": "2026-10-26T14:23:36-04:00"
+  },
+  {
+   "id": "ripple-treasury-247-returns",
+   "label": "Ripple Treasury '24/7 Returns' (announced 2026-10-26)",
+   "type": "event",
+   "handle": "",
+   "summary": "Feature for eligible corporate customers, announced Oct 26, 2026 (Swell 2026). Ripple says customers 'may earn returns on their qualifying digital assets held in a Ripple wallet including RLUSD … subject to meeting program requirements'. Program page: cash is wired in before the cut-off (5pm ET in the cycle text, 4:30pm ET in the FAQ), 'converted 1:1 and deployed' overnight or over the weekend, and principal comes back in fiat before the open; 'Returns accrue daily and are paid monthly in fiat'; 'A client-segregated account is provided'; 'One partner and one counterparty'. No public terms name the payer, the source of the return, the rate, or the licensed entity, so who pays is UNRESOLVED as of 2026-10-26.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/ripple-press/ripple-treasury-introduces-always-on-corporate-treasury-platform-to-modernize-corporate-cash-management/",
+    "https://treasury.ripple.com/solutions/digital-assets/digital-assets",
+    "https://treasury.ripple.com/posts/always-on-treasury",
+    "https://finance.yahoo.com/markets/crypto/articles/xrp-news-ripple-now-lets-145459462.html"
+   ],
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "id": "rlusd-user-terms-2026-10-14",
+   "label": "RLUSD Stablecoin User Terms (updated 2026-10-14)",
+   "type": "event",
+   "handle": "",
+   "summary": "ripple.com/legal/stablecoin/, 'Last updated: October 14, 2026'. Names SCTC as 'the issuer of RLUSD'; direct customers are under a separate, non-public RLUSD Customer Agreement. 'RLUSD is not designed to increase in value, generate returns, or otherwise create profit or gain for Users.' The Reserve is held in segregated accounts: T-bills of 3 months or less, overnight reverse repo, US government MMFs, deposits. 'Ripple is entitled to and may withdraw from the Reserve all net returns earned on assets held in the Reserve' above the required minimum. NMLS: SCTC 2261284; Ripple Markets DE LLC 2314015.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/legal/stablecoin/"
+   ],
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "id": "nydfs-23nycrr202-proposal-2026-06-09",
+   "label": "NYDFS proposed 23 NYCRR 202, Authorized Payment Stablecoin Issuers (2026-06-09)",
+   "type": "event",
+   "handle": "",
+   "summary": "NYDFS proposal (announced Jun 9, 2026) to align New York's stablecoin regime with GENIUS and Treasury's state-certification proposals. Part 202 would take effect on the GENIUS effective date. §202.4(f) 'Prohibition on interest': an authorized issuer 'shall comply with section 4(a)(11) of the GENIUS Act (12 U.S.C. § 5903(a)(11)) and 12 C.F.R. § 15.10(c)(4)'. It is the state route by which the federal yield text would bind NYDFS-supervised issuers such as SCTC. Proposed, not final.",
+   "grade": "A",
+   "sources": [
+    "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20260609",
+    "https://www.dfs.ny.gov/system/files/documents/2026/07/rp-fs-23nycrr202-text.pdf"
+   ],
+   "added": "2026-10-26T18:26:29-04:00"
   }
  ],
  "edges": [
@@ -102152,6 +102192,127 @@
    "source": "https://www.brazabank.com.br/termos-e-condicoes-especificos/",
    "side": "contradicts",
    "added": "2026-10-26T14:23:36-04:00"
+  },
+  {
+   "from": "gtreasury",
+   "to": "ripple-treasury-247-returns",
+   "label": "offers '24/7 Returns' (2026-10-26): idle operating cash wired in, 'converted 1:1 and deployed' overnight/weekends; returns paid monthly in fiat; payer, rate and source not disclosed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://treasury.ripple.com/solutions/digital-assets/digital-assets",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-treasury-247-returns",
+   "label": "announced 24/7 Returns (Oct 26, 2026); the release names no payer, rate, source of return or licensed entity",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-treasury-introduces-always-on-corporate-treasury-platform-to-modernize-corporate-cash-management/",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "ripple-treasury-247-returns",
+   "to": "rlusd",
+   "label": "release: returns on 'qualifying digital assets held in a Ripple wallet including RLUSD… subject to meeting program requirements'; the program page does not say whether cash is converted into RLUSD",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-treasury-introduces-always-on-corporate-treasury-platform-to-modernize-corporate-cash-management/",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "sctc",
+   "to": "rlusd-user-terms-2026-10-14",
+   "label": "named in the RLUSD User Terms (2026-10-14) as 'the issuer of RLUSD'; Reserve held in segregated accounts",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/legal/stablecoin/",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "rlusd-user-terms-2026-10-14",
+   "to": "rlusd",
+   "label": "terms: RLUSD 'not designed to … generate returns' for Users; Ripple 'may withdraw from the Reserve all net returns earned' above the required minimum",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/legal/stablecoin/",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "nydfs",
+   "to": "nydfs-23nycrr202-proposal-2026-06-09",
+   "label": "proposed new 23 NYCRR 202 for authorized payment stablecoin issuers (announced 2026-06-09)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.dfs.ny.gov/reports_and_publications/press_releases/pr20260609",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "nydfs-23nycrr202-proposal-2026-06-09",
+   "to": "genius",
+   "label": "§202.4(f): issuers 'shall comply with section 4(a)(11) of the GENIUS Act' and 12 C.F.R. § 15.10(c)(4) (the interest/yield ban)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.dfs.ny.gov/system/files/documents/2026/07/rp-fs-23nycrr202-text.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "nydfs",
+   "to": "sctc",
+   "label": "lists SCTC as Limited Purpose Trust Charter (2021-05); Greenlist marks RLUSD approved for issuance in NY",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.dfs.ny.gov/apps_and_licensing/virtual_currency_businesses",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "occ-genius-final-rule-2026-10-21",
+   "to": "genius",
+   "label": "final §15.10(c)(4): issuer may not pay a holder 'any form of interest or yield … solely in connection with the holding, use, or retention'; proposed affiliate/related-third-party presumption dropped; anti-evasion authority kept",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "ripple-occ-genius-letter-2026-05-01",
+   "to": "occ-genius-final-rule-2026-10-21",
+   "label": "outcome vs ask: Ripple asked that affiliates may pay yield and 'related third party' be limited to white-label; the final rule drops the presumption and that definition but adopts no safe harbor or de minimis",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/10/23/2026-21706/implementing-the-guiding-and-establishing-national-innovation-for-us-stablecoins-act-for-the",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "ripple-treas-state-sim-letter-2026-06-02",
+   "to": "genius",
+   "label": "calls the §4(a)(11) yield ban 'direct and absolute'; argues states may police evasion without copying OCC 'related third party' definitions",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf",
+   "side": "neutral",
+   "added": "2026-10-26T18:26:29-04:00"
   }
  ]
 }
