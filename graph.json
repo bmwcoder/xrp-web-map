@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T08:34:28-04:00",
+  "updated": "2026-10-27T10:33:39-04:00",
   "version": 3
  },
  "nodes": [
@@ -3596,6 +3596,7 @@
    "type": "company",
    "handle": "",
    "summary": "Completed acquisition of Bitstamp on Jun 2, 2025 (~$200M).",
+   "why": "Robinhood expanded its Ripple partnership on Oct 27, 2026: RLUSD is live on Robinhood Chain and Bitstamp by Robinhood (app listing and XRPL settlement are planned, not live), and it will integrate Ripple Treasury.",
    "grade": "A",
    "sources": [
     "https://blog.bitstamp.net/post/robinhood-completes-acquisition-of-bitstamp/",
@@ -31271,6 +31272,34 @@
     "https://x.com/XamanWallelt/status/2114933291883041163"
    ],
    "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "id": "dws",
+   "label": "DWS (Xtrackers)",
+   "type": "company",
+   "handle": "",
+   "summary": "Asset manager whose Xtrackers ETP range includes, via the Swiss issuer Xtrackers Digital Markets ETC AG, the Galaxy Physical Bitcoin and Ethereum ETCs (Mar 27, 2024) and the multi-asset Xtrackers Galaxy MSCI Physical Crypto Market ETC (launched Jul 31, 2026), which holds XRP. Checked Oct 27, 2026: no single-asset XRP product in the Xtrackers range.",
+   "grade": "A",
+   "sources": [
+    "https://etf.dws.com/en-fi/etc/CH1492505164-xtrackers-galaxy-msci-physical-crypto-market-etc-securities/",
+    "https://etf.dws.com/download/asset/30d0c575-0940-4891-9e9d-485f5d6b8348",
+    "https://etf.dws.com/en-ch/product-finder/?AssetClasses=Crypto+currency,Precious+Metals"
+   ],
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "id": "xtrackers-galaxy-crypto-market-etc",
+   "label": "Xtrackers Galaxy MSCI Physical Crypto Market ETC (CH1492505164)",
+   "type": "etf",
+   "handle": "",
+   "summary": "Physically backed crypto-basket ETC, ISIN CH1492505164, issued by Xtrackers Digital Markets ETC AG, launched Jul 31, 2026, TER 0.65%, listed on Xetra (XBSE EUR; XBSK USD). DWS page, data as of Oct 26, 2026: BTC 50.73%, ETH 31.59%, XRP 8.52% (0.83135119 XRP per security), SOL 6.63%, LINK 0.96%, ADA 0.96%, BCH 0.61%; series holding about USD 323,553. Factsheet (Sep 30, 2026): custodian/sub-custodian Coinbase Luxembourg S.A. and Zodia Custody (Europe) S.A.; trustee Vistra Capital Markets Trustees Limited.",
+   "grade": "A",
+   "sources": [
+    "https://etf.dws.com/en-fi/etc/CH1492505164-xtrackers-galaxy-msci-physical-crypto-market-etc-securities/",
+    "https://etf.dws.com/download/asset/30d0c575-0940-4891-9e9d-485f5d6b8348",
+    "https://www.cashmarket.deutsche-boerse.com/cash-en/Stay-Informed/newsroom/press-releases/New-ETF-and-ETP-Listings-on-August-13-2026-on-Deutsche-B-rse-5431742"
+   ],
+   "added": "2026-10-27T10:31:15-04:00"
   }
  ],
  "edges": [
@@ -31360,7 +31389,7 @@
    "label": "renamed Ripple Labs (2013-09-26)",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://lists.w3.org/Archives/Public/public-webpayments/2013Sep/0144.html",
    "side": "neutral",
    "added": "2026-10-19T06:36:00-04:00"
@@ -41804,7 +41833,7 @@
    "label": "NSCC notice: Hidden Road Partners CIV US LLC added (first trade Mar 2, 2026) with Pershing as clearing broker",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://files.dtcc.com/download/assets/a9727/7fbee8c2957911f190ec6a7a18072738",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
@@ -66290,7 +66319,7 @@
    "label": "Ripple Labs total $93.0M (4 txns 2023-12-15→2025-08-29)",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://docquery.fec.gov/cgi-bin/fecimg/?202608209899725949",
    "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
@@ -71130,7 +71159,7 @@
    "label": "Q2-2026 13F-HR (as of 2026-06-30, filed 2026-08-14): 2,208,949 sh, $25.76M, no put/call; long positions only, may be client or market-making inventory, not a directional bet",
    "grade": "A",
    "strength": 2,
-   "key": true,
+   "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/886982/000088698226000519/InfoTable_2026-08-13_Final_1.xml",
    "side": "neutral",
    "added": "2026-10-19T23:24:14-04:00"
@@ -71548,7 +71577,7 @@
    "label": "Spent $40,134,927 backing Moreno in the 2024 Ohio Senate race (its largest target; Moreno won)",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://www.opensecrets.org/outside-spending/detail/2024?cmte=C00836221&tab=targeted_candidates",
    "side": "neutral",
    "added": "2026-10-19T23:24:14-04:00"
@@ -80612,7 +80641,7 @@
    "label": "both listed as Ripple Strategic Advisors (Sep 2020 page): Cruz's bio lists the Old Mutual plc board; Hemphill was Old Mutual Group CEO Nov 2015–Jun 2019",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://web.archive.org/web/20200920211426/https://ripple.com/company/strategic-advisors/",
    "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
@@ -82493,7 +82522,7 @@
    "label": "Investment Partner at Hard Yaka Ventures 2011–2020 (Evernorth 424B3)",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/2092592/000119312526371512/d944435d424b3.htm",
    "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
@@ -84396,7 +84425,7 @@
    "label": "independent director and audit-committee chair of SUI Group (Sui treasury company) from 2026-07-09; former Ripple Labs CFO",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1425355/000114036126028055/ef20077426_ex99-1.htm",
    "side": "neutral",
    "added": "2026-10-20T00:29:28-04:00"
@@ -98608,7 +98637,7 @@
    "label": "Evernorth rKXXrAgp sent 41,963,819 XRP (its whole stack bar 300K) to BitGo multisig rPjKkBTu, 12 h after a 5 XRP test; no onward move yet (Oct 21 2026 20:51 ET)",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://xrpscan.com/tx/C1C478B1B777CCB4909041847E47CA576BFBB69DF17110F6D1BC44707399FD35",
    "side": "neutral",
    "added": "2026-10-22T02:26:15-04:00"
@@ -99235,7 +99264,7 @@
    "label": "Nine Evernorth custody wallets moved 327.38M XRP into six new BitGo multisigs in four ledgers (Oct 22 2026 14:08 ET); combined Evernorth-linked XRP unchanged at ~472.78M, no exchange involved",
    "grade": "A",
    "strength": 3,
-   "key": true,
+   "key": false,
    "source": "https://xrpscan.com/account/rBKrEjXChk7iWTx1cdr2EpBVoXRZ2Bunhj",
    "side": "neutral",
    "added": "2026-10-22T14:31:59-04:00"
@@ -101443,7 +101472,7 @@
   {
    "from": "versabank",
    "to": "ethereum",
-   "label": "issues tokenized bank deposits (USDVB/CADVB, now VUSD) on Ethereum, alongside Algorand and Stellar (SEC 6-K, Sep 2025; U.S. commercial phase Oct 15, 2026); XRPL not named",
+   "label": "issues tokenized bank deposits (USDVB/CADVB, now VUSD) on Ethereum, alongside Algorand and Stellar (SEC 6-K, Sep 2025; the Oct 15, 2026 6-K on the U.S. VUSD commercial phase names no blockchain); XRPL not named",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -101454,7 +101483,7 @@
   {
    "from": "versabank",
    "to": "stellar",
-   "label": "issues tokenized bank deposits on Stellar, alongside Algorand and Ethereum (SEC 6-K, Sep 2025; U.S. commercial phase Oct 15, 2026); XRPL not named",
+   "label": "issues tokenized bank deposits on Stellar, alongside Algorand and Ethereum (SEC 6-K, Sep 2025; the Oct 15, 2026 6-K on the U.S. VUSD commercial phase names no blockchain); XRPL not named",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -101465,7 +101494,7 @@
   {
    "from": "versabank",
    "to": "algorand-foundation",
-   "label": "issues tokenized bank deposits on the Algorand blockchain, alongside Ethereum and Stellar (SEC 6-K, Sep 2025; U.S. commercial phase Oct 15, 2026); XRPL not named",
+   "label": "issues tokenized bank deposits on the Algorand blockchain, alongside Ethereum and Stellar (SEC 6-K, Sep 2025; the Oct 15, 2026 6-K on the U.S. VUSD commercial phase names no blockchain); XRPL not named",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -102455,11 +102484,11 @@
   {
    "from": "occ",
    "to": "rntb",
-   "label": "final charter approval (Oct 26, 2026, announced by Ripple); approved activities: RLUSD reserve management, collateral trustee, fiduciary digital asset custody",
+   "label": "final charter approval (Oct 26, 2026, announced by Ripple; not shown in OCC news or CAS as of Oct 27); approved activities: RLUSD reserve management, collateral trustee, fiduciary digital asset custody; bank not yet open (Ripple: 'upon opening')",
    "grade": "B",
    "strength": 4,
    "key": false,
-   "source": "https://www.tmcnet.com/usubmit/-ripple-receives-final-occ-approval-establish-national-trust-/2026/10/26/10469920.htm",
+   "source": "https://ripple.com/ripple-press/ripple-receives-final-occ-approval-to-establish-national-trust-bank/",
    "side": "supports",
    "added": "2026-10-26T20:29:31-04:00"
   },
@@ -102565,55 +102594,55 @@
   {
    "from": "hsbc",
    "to": "hyperledger-besu",
-   "label": "issues HSBC RedCoin (RCHKD) HKD stablecoin as an ERC-20 token on its own private, permissioned Hyperledger Besu network, live on PayMe from Oct 23, 2026; public-chain connectivity needs HKMA approval; XRPL not named",
-   "grade": "B",
+   "label": "issues HSBC RedCoin (RCHKD) HKD stablecoin as an ERC-20 token on the permissioned Hyperledger Besu blockchain (QBFT; validators run by HSBC), live on PayMe from Oct 23, 2026; public-chain connectivity 'subject to HKMA approval'; XRPL not named",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://defiprime.com/hsbc-redcoin-payme-hkd-stablecoin-launch",
+   "source": "https://payme.hsbc.com.hk/files/HSBC-HKD-Stablecoin-Terms-and-Conditions-EN.pdf",
    "side": "contradicts",
    "added": "2026-10-27T08:29:27-04:00"
   },
   {
    "from": "bny",
    "to": "xrp",
-   "label": "custody support: BNY now supports XRP on its institutional digital asset custody platform (Ripple release, Oct 27, 2026)",
+   "label": "custody support: BNY now supports XRP on its institutional digital asset custody platform (confirmed by BNY: @BNYglobal X post (Oct 27, 2026 09:59 ET) and bny.com newsroom release)",
    "grade": "A",
    "strength": 3,
    "key": true,
-   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-expands-strategic-digital-assets-collaboration-with-bny-across-custody-and-tokenized-trade-finance.html",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
   {
    "from": "bny",
    "to": "rlusd",
-   "label": "custody support for RLUSD on BNY's digital asset custody platform (Oct 27, 2026); planned: BNY clients to mint and redeem RLUSD directly through BNY (BNY 'intends', not live)",
+   "label": "custody support for RLUSD on BNY's digital asset custody platform (confirmed by BNY's bny.com newsroom release, Oct 27, 2026); planned: BNY clients to mint and redeem RLUSD directly through BNY (BNY 'intends', not live)",
    "grade": "A",
    "strength": 3,
    "key": true,
-   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-expands-strategic-digital-assets-collaboration-with-bny-across-custody-and-tokenized-trade-finance.html",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
   {
    "from": "bny",
    "to": "ripple",
-   "label": "expanded strategic collaboration across custody and tokenized trade finance on XRPL (Oct 27, 2026); trade finance work 'subject to client requirements' (planned)",
+   "label": "expanded strategic collaboration across custody and tokenized trade finance on XRPL (confirmed by BNY: @BNYglobal X post (Oct 27, 2026 09:59 ET) and bny.com newsroom release); trade finance work 'subject to client requirements' (planned)",
    "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-expands-strategic-digital-assets-collaboration-with-bny-across-custody-and-tokenized-trade-finance.html",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
   {
    "from": "bny",
    "to": "c2fo",
-   "label": "with Ripple, exploring a supply chain finance initiative with C2FO as first step toward tokenized trade finance on XRPL (exploring, Oct 27, 2026)",
+   "label": "with Ripple, exploring a supply chain finance initiative with C2FO as first step toward tokenized trade finance on XRPL (exploring; confirmed by BNY's bny.com newsroom release, Oct 27, 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-expands-strategic-digital-assets-collaboration-with-bny-across-custody-and-tokenized-trade-finance.html",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
@@ -102671,6 +102700,127 @@
    "source": "https://x.com/XamanWallelt/status/2114933291883041163",
    "side": "neutral",
    "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "dws",
+   "to": "xtrackers-galaxy-crypto-market-etc",
+   "label": "issues via Xtrackers Digital Markets ETC AG (launched Jul 31, 2026; Xetra XBSE/XBSK)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://etf.dws.com/download/asset/30d0c575-0940-4891-9e9d-485f5d6b8348",
+   "side": "neutral",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "xtrackers-galaxy-crypto-market-etc",
+   "to": "xrp",
+   "label": "holds physical XRP in its crypto basket: 8.52% weight, 0.83135119 XRP per security (DWS data, Oct 26, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etf.dws.com/en-fi/etc/CH1492505164-xtrackers-galaxy-msci-physical-crypto-market-etc-securities/",
+   "side": "neutral",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "galaxy",
+   "to": "xtrackers-galaxy-crypto-market-etc",
+   "label": "co-branded index/crypto partner on the Xtrackers Galaxy MSCI Physical Crypto Market ETC (DWS factsheet, Sep 30, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etf.dws.com/download/asset/30d0c575-0940-4891-9e9d-485f5d6b8348",
+   "side": "neutral",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "zodia",
+   "to": "xtrackers-galaxy-crypto-market-etc",
+   "label": "custodian/sub-custodian as Zodia Custody (Europe) S.A., alongside Coinbase Luxembourg S.A. (DWS factsheet, Sep 30, 2026); which custodian holds the XRP is not stated",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etf.dws.com/download/asset/30d0c575-0940-4891-9e9d-485f5d6b8348",
+   "side": "neutral",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "xtrackers-galaxy-crypto-market-etc",
+   "label": "custodian/sub-custodian as Coinbase Luxembourg S.A., alongside Zodia Custody (Europe) S.A. (DWS factsheet, Sep 30, 2026); which custodian holds the XRP is not stated",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etf.dws.com/download/asset/30d0c575-0940-4891-9e9d-485f5d6b8348",
+   "side": "neutral",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "rntb",
+   "label": "status check Oct 27, 2026 (08:47 ET): no OCC news release on RNTB since Ripple's Oct 26 final-approval release (latest OCC RSS item nr-occ-2026-93, Oct 22); CAS still shows only Receipt (2025-07-02) and Approved (2025-12-12) for charter 25364",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://apps.occ.gov/CAS/home/details?FilingID=RjzoD2gxmYOv&FilingSubtypeID=1093&FilingTypeID=2",
+   "side": "neutral",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "robinhood",
+   "label": "strategic partnership expanded across RLUSD, Ripple Prime and Ripple Treasury (announced Oct 27, 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
+   "side": "supports",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "rlusd",
+   "label": "RLUSD live on Robinhood Chain and Bitstamp by Robinhood; Robinhood app availability expected later in 2026 (planned, per Ripple release Oct 27, 2026; refines the earlier 'not on Robinhood app' edge)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
+   "side": "supports",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "xrpl",
+   "label": "plans to use RLUSD on the XRP Ledger for institutional settlement (announced Oct 27, 2026; go-live date not stated)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
+   "side": "supports",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "gtreasury",
+   "label": "will integrate Ripple Treasury (announced Oct 27, 2026; planned)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
+   "side": "supports",
+   "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "bitstamp",
+   "label": "Ripple Prime provides Bitstamp by Robinhood lending and margin financing across ~20 digital assets; Ripple Prime clients get Bitstamp spot; perps planned later in 2026 (announced Oct 27, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
+   "side": "supports",
+   "added": "2026-10-27T10:31:15-04:00"
   }
  ]
 }
