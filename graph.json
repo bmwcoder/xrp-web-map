@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T20:33:40-04:00",
+  "updated": "2026-10-27T00:33:28-04:00",
   "version": 3
  },
  "nodes": [
@@ -31187,6 +31187,25 @@
     "https://primerevenue.com/resources/news/primerevenue-brings-trade-finance-assets-to-solana-expanding-access-to-on-chain-capital-markets/"
    ],
    "added": "2026-10-26T20:29:31-04:00"
+  },
+  {
+   "id": "deutsche-ripple-tie-check-2026-10-27",
+   "label": "Check: Deutsche Bank tie to Ripple/XRP/XRPL/RLUSD/Metaco (Oct 27, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "No primary-sourced Deutsche Bank tie to Ripple, XRP, XRPL, RLUSD, Metaco or Ripple Custody found, and no NDA or confidentiality mention. Searched: db.com (1,157 English URLs from www/flow/corporates sitemaps plus site search), all 988 ripple.com sitemap URLs (press, insights, case studies), EDGAR full-text ('Deutsche Bank' with Ripple Labs/Ripple/XRP/XRPL/RLUSD/Metaco; 527 non-13F docs checked for proximity, only bios/underwriter/lender/subsidiary-list hits), DB AG 13F-HR 2026-08-07 (no XRP ETF), XRP ETF custodian listings (Coinbase/BitGo/Gemini/Anchorage). DB custody is built with Taurus (A) and reportedly Bitpanda (B). DB-Ripple stories (Jun 2025, Feb 2026) are unconfirmed community claims (C). Metaco only appears as conference-panel co-speaker on flow.db.com.",
+   "grade": "A",
+   "sources": [
+    "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
+    "https://www.taurushq.com/blog/deutsche-bank-and-taurus-sign-a-global-partnership/",
+    "https://ripple.com/insights/2025-crypto-predictions-from-ripple-leadership/",
+    "https://ripple.com/customer-case-study/dz-bank/",
+    "https://www.sec.gov/Archives/edgar/data/948046/000094804626000042/",
+    "https://efts.sec.gov/LATEST/search-index?q=%22Deutsche%20Bank%22%20%22Ripple%20Labs%22",
+    "https://wealth.db.com/dam/deutschewealth/location-assets/americas/docs/dbsi-ineligible-securities-list-10-26-26.pdf",
+    "https://www.deraktionaer.de/artikel/krypto/xrp-deutsche-bank-setzt-auf-ripple-power-20395607.html"
+   ],
+   "added": "2026-10-27T00:29:00-04:00"
   }
  ],
  "edges": [
@@ -102378,6 +102397,72 @@
    "source": "https://www.tmcnet.com/usubmit/-ripple-receives-final-occ-approval-establish-national-trust-/2026/10/26/10469920.htm",
    "side": "supports",
    "added": "2026-10-26T20:29:31-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "ripple",
+   "label": "reported use of 'Ripple-nahe' (Ripple-linked) providers for FX, payments and custody (Der Aktionär, Feb 2026; traced to an X developer post); neither firm confirmed",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.deraktionaer.de/artikel/krypto/xrp-deutsche-bank-setzt-auf-ripple-power-20395607.html",
+   "side": "supports",
+   "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "taurus",
+   "label": "global partnership (2023-09-14): Deutsche Bank integrates Taurus custody and tokenization technology; also a Taurus Series B investor (2023)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.taurushq.com/blog/deutsche-bank-and-taurus-sign-a-global-partnership/",
+   "side": "contradicts",
+   "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "bitpanda",
+   "label": "Bitpanda Technology Solutions reported as tech partner (with Taurus) for the 2026 crypto custody launch (Bloomberg, 2025-07-01)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2025/07/02/deutsche-bank-plans-to-introduce-crypto-custody-with-bitpanda-next-year-bloomberg",
+   "side": "contradicts",
+   "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "rlusd",
+   "label": "own release (2026-09-16): digital-asset custody launches with BTC, ETH, USDC, EURC and EURAU; RLUSD and XRP not listed, providers unnamed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
+   "side": "contradicts",
+   "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "xrp",
+   "label": "DBSI Ineligible Securities List (2026-10-26): all U.S. spot XRP ETFs (XRP, GXRP, TOXR, XRPC, XRPI, XRPM, XRPR, XRPZ) barred for Wealth Management purchase, alongside bitcoin/ether ETFs (blanket crypto-ETP rule)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://wealth.db.com/dam/deutschewealth/location-assets/americas/docs/dbsi-ineligible-securities-list-10-26-26.pdf",
+   "side": "neutral",
+   "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "from": "deutsche",
+   "to": "deutsche-ripple-tie-check-2026-10-27",
+   "label": "confirmed absence: no Ripple/XRP/XRPL/RLUSD/Metaco tie or NDA mention in db.com, ripple.com, EDGAR full-text or 13F; custody stack is Taurus/Bitpanda",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
+   "side": "neutral",
+   "added": "2026-10-27T00:29:00-04:00"
   }
  ]
 }
