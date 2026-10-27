@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T00:33:28-04:00",
+  "updated": "2026-10-27T02:33:17-04:00",
   "version": 3
  },
  "nodes": [
@@ -315,7 +315,8 @@
     "https://ripple.com/ripple-press/ripple-to-acquire-rail-for-200m-expanding-leadership-in-stablecoin-payments/",
     "https://www.galaxy.com/insights/perspectives/backing-rail-to-create-the-new-global-payments-system"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "banks"
   },
   {
    "id": "metaco",
@@ -2743,7 +2744,8 @@
     "https://ripple.com/ripple-press/ripples-usd-backed-stablecoin-rlusd-arrives-in-Africa/",
     "https://yellowcard.io/blog/yellow-card-secures-40-million-in-strategic-funding-to-further-global-expansion"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "mercycorps",
@@ -4351,7 +4353,8 @@
     "https://xrpl.org/about/uses",
     "https://github.com/XRPLF/xrpl-dev-portal/blob/master/about/uses.page.tsx"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "carbonland-trust",
@@ -7230,7 +7233,8 @@
     "https://news.bitcoin.com/binance-lists-ripples-rlusd-as-ethereum-goes-live-xrp-ledger-next/",
     "https://attrus.com/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "ripio",
@@ -11279,7 +11283,8 @@
     "https://flutterwave.com/us/blog/ripple-participates-in-flutterwaves-series-e-with-strategic-investment-to-accelerate-african-stablecoin-payments",
     "https://techcrunch.com/2026/06/16/payments-startup-flutterwave-hits-3-2b-valuation-backed-by-ripple/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "zilo",
@@ -12114,9 +12119,11 @@
    "summary": "UK payments firm; strategic partnership for payments into UK/EU (2022-02-02).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/17/"
+    "https://ripple.com/press-releases/page/17/",
+    "https://ripple.com/ripple-press/modulr-and-ripple-announce-strategic-partnership-to-enable-seamless-payments-into-the-uk-and-europe/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "finci",
@@ -16640,7 +16647,8 @@
    "sources": [
     "https://ripple.com/ripple-press/earthport-and-ripple-labs-announce-global-partnership-to-improve-the-efficiency-and-speed-of-cross-border-payments/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "akbank",
@@ -17047,7 +17055,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "banks"
   },
   {
    "id": "caleb-brown",
@@ -20757,7 +20766,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-transforms-payments-experience-to-unlock-enterprise-crypto-adoption/"
    ],
-   "added": "2026-10-19T23:14:58-04:00"
+   "added": "2026-10-19T23:14:58-04:00",
+   "sector": "banks"
   },
   {
    "id": "bkk-forex",
@@ -22894,7 +22904,8 @@
    "sources": [
     "https://ripple.com/ripple-press/modulr-and-ripple-announce-strategic-partnership-to-enable-seamless-payments-into-the-uk-and-europe/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "faysal-bank",
@@ -23247,7 +23258,8 @@
    "sources": [
     "https://web.archive.org/web/20181005153213/https://swell.ripple.com/agenda/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "sec-thailand",
