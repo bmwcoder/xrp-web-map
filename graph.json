@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T10:33:39-04:00",
+  "updated": "2026-10-27T12:34:33-04:00",
   "version": 3
  },
  "nodes": [
@@ -102649,33 +102649,33 @@
   {
    "from": "c2fo",
    "to": "ripple",
-   "label": "partnership to bring financing and settlement supporting C2FO Instant Pay onto XRPL (announced Oct 27, 2026, Swell)",
+   "label": "partnership to bring financing and settlement supporting C2FO Instant Pay onto XRPL (announced Oct 27, 2026, Swell; confirmed by C2FO's own newsroom release, Oct 27, 2026; waitlist only)",
    "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger",
+   "source": "https://c2fo.com/newsroom/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger/",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
   {
    "from": "c2fo",
    "to": "xrpl",
-   "label": "C2FO Instant Pay financing/settlement on the XRP Ledger, funded by participating capital providers (announced Oct 27, 2026; go-live date not stated)",
+   "label": "C2FO Instant Pay financing/settlement on the XRP Ledger, funded by participating capital providers (announced Oct 27, 2026; go-live date not stated; confirmed by C2FO's own newsroom release, Oct 27, 2026; waitlist only)",
    "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger",
+   "source": "https://c2fo.com/newsroom/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger/",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
   {
    "from": "c2fo",
    "to": "rlusd",
-   "label": "RLUSD is the settlement asset for C2FO Instant Pay on XRPL (announced Oct 27, 2026)",
+   "label": "RLUSD is the settlement asset for C2FO Instant Pay on XRPL (announced Oct 27, 2026; confirmed by C2FO's own newsroom release, Oct 27, 2026; waitlist only)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger",
+   "source": "https://c2fo.com/newsroom/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger/",
    "side": "supports",
    "added": "2026-10-27T08:29:27-04:00"
   },
@@ -102770,8 +102770,8 @@
   {
    "from": "ripple",
    "to": "robinhood",
-   "label": "strategic partnership expanded across RLUSD, Ripple Prime and Ripple Treasury (announced Oct 27, 2026)",
-   "grade": "A",
+   "label": "strategic partnership expanded across RLUSD, Ripple Prime and Ripple Treasury (announced Oct 27, 2026; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it)",
+   "grade": "B",
    "strength": 4,
    "key": true,
    "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
@@ -102781,8 +102781,8 @@
   {
    "from": "robinhood",
    "to": "rlusd",
-   "label": "RLUSD live on Robinhood Chain and Bitstamp by Robinhood; Robinhood app availability expected later in 2026 (planned, per Ripple release Oct 27, 2026; refines the earlier 'not on Robinhood app' edge)",
-   "grade": "A",
+   "label": "RLUSD live on Robinhood Chain and Bitstamp by Robinhood; Robinhood app availability expected later in 2026 (planned; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it; refines the earlier 'not on Robinhood app' edge)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
@@ -102792,8 +102792,8 @@
   {
    "from": "robinhood",
    "to": "xrpl",
-   "label": "plans to use RLUSD on the XRP Ledger for institutional settlement (announced Oct 27, 2026; go-live date not stated)",
-   "grade": "A",
+   "label": "plans to use RLUSD on the XRP Ledger for institutional settlement (announced Oct 27, 2026; go-live date not stated; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
@@ -102803,8 +102803,8 @@
   {
    "from": "robinhood",
    "to": "gtreasury",
-   "label": "will integrate Ripple Treasury (announced Oct 27, 2026; planned)",
-   "grade": "A",
+   "label": "will integrate Ripple Treasury (announced Oct 27, 2026; planned; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
@@ -102814,8 +102814,8 @@
   {
    "from": "rprime",
    "to": "bitstamp",
-   "label": "Ripple Prime provides Bitstamp by Robinhood lending and margin financing across ~20 digital assets; Ripple Prime clients get Bitstamp spot; perps planned later in 2026 (announced Oct 27, 2026)",
-   "grade": "A",
+   "label": "Ripple Prime provides Bitstamp by Robinhood lending and margin financing across ~20 digital assets; Ripple Prime clients get Bitstamp spot; perps planned later in 2026 (announced Oct 27, 2026; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
