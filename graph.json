@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T02:33:17-04:00",
+  "updated": "2026-10-27T08:34:28-04:00",
   "version": 3
  },
  "nodes": [
@@ -352,7 +352,7 @@
    "type": "bank",
    "handle": "",
    "summary": "Primary reserve custodian for RLUSD.",
-   "why": "BNY is RLUSD's primary reserve custodian (and also custodies USDC reserves); its Pershing unit is the clearing broker for a Ripple Prime (Hidden Road) US entity at NSCC.",
+   "why": "BNY is RLUSD's primary reserve custodian and, per Ripple's Oct 27, 2026 release, now supports XRP and RLUSD in its digital asset custody, with direct RLUSD mint and redeem only planned; it also sits on non-XRPL rails like Swift's ledger, Agora and its own tokenized deposits.",
    "grade": "A",
    "sources": [
     "https://ripple.com/insights/ripple-closes-hidden-road-acquisition/",
@@ -614,7 +614,8 @@
     "https://www.coindesk.com/markets/2025/11/13/first-xrp-spot-etf-opens-for-trade-with-canary-capital-s-xrpc",
     "https://www.nasdaqtrader.com/content/newsalerts/2025/InfoCircular/XRPC_Circular_NQ.pdf"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "bitwise",
@@ -627,7 +628,8 @@
     "https://bitwiseinvestments.com/newsroom/bitwise-xrp-etf-ticker-xrp-launches-on-nyse",
     "https://www.sec.gov/Archives/edgar/data/2039525/000119312526346245/xrp-20260630.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpz",
@@ -640,7 +642,8 @@
     "https://www.franklintempleton.com/press-releases/news-room/2025/franklin-templeton-launches-franklin-xrp-etf-xrpz",
     "https://www.sec.gov/Archives/edgar/data/2059438/000114036126033198/ef20077164_10-q.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "gxrp",
@@ -653,7 +656,8 @@
     "https://www.theblock.co/news/markets/2025-11-24-grayscale-rolls-out-xrp-etf-expanding-its-crypto-fund-lineup-379992",
     "https://www.sec.gov/Archives/edgar/data/2037427/000119312526104248/R14.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "toxr",
@@ -667,7 +671,8 @@
     "https://www.globenewswire.com/news-release/2025/12/11/3204020/0/en/21shares-broadens-us-spot-crypto-lineup-with-the-launch-of-xrp-etf-toxr.html",
     "https://www.sec.gov/Archives/edgar/data/2028835/000121390026087823/ea0299658-10q_21shares.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpr",
@@ -680,7 +685,8 @@
     "https://xrp-insights.com/",
     "https://www.sec.gov/Archives/edgar/data/1771146/000199937126010096/xrpr-ncsr_022826.htm"
    ],
-   "added": "2026-10-19T13:55:00-04:00"
+   "added": "2026-10-19T13:55:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xxrp",
@@ -693,7 +699,8 @@
     "https://teucrium.com/hubfs/XXRP_Prospectus%20(4).pdf?hsLang=en",
     "https://www.sec.gov/Archives/edgar/data/1683471/000089418926017840/teucriumxxrp497sticker626r.htm"
    ],
-   "added": "2026-10-19T06:36:00-04:00"
+   "added": "2026-10-19T06:36:00-04:00",
+   "sector": "etfs"
   },
   {
    "id": "evernorth",
@@ -1874,7 +1881,8 @@
     "https://www.volatilityshares.com/xrpi",
     "https://www.sec.gov/Archives/edgar/data/1884021/000113322826008134/vs-efp23432_ncsr.htm"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpt",
@@ -1887,7 +1895,8 @@
     "https://www.volatilityshares.com/XRPT",
     "https://www.sec.gov/Archives/edgar/data/1884021/000113322826008134/vs-efp23432_ncsr.htm"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "uxrp",
@@ -1901,7 +1910,8 @@
     "https://xrp-insights.com/xrp-etf",
     "https://www.proshares.com/our-etfs/leveraged-and-inverse/uxrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpm",
@@ -1914,7 +1924,8 @@
     "https://xrp-insights.com/xrp-etf",
     "https://amplifyetfs.com/xrpm/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrph11",
@@ -1929,7 +1940,8 @@
     "https://etfllama.com/crypto/xrp",
     "https://www.hashdex.com/pt-BR/products/xrph11"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpq",
@@ -1942,7 +1954,8 @@
     "https://www.3iq.io/press-media/3iq-launches-xrp-etf-xrpq-xrpq-u-offering-first-of-its-kind-access-to-xrp-in-north-america",
     "https://etfllama.com/crypto/xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpp",
@@ -1955,7 +1968,8 @@
     "https://www.purposeinvest.com/thoughtful/purpose-investments-launches-purpose-xrp-etf-adding-to-its-diverse-and-growing-suite-of-digital-asset-etfs",
     "https://etfllama.com/crypto/xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "evolve-xrp",
@@ -1968,7 +1982,8 @@
     "https://evolveetfs.com/2025/06/evolve-xrp-etf-begins-trading-today-on-tsx/",
     "https://etfllama.com/crypto/xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "axrp",
@@ -1981,7 +1996,8 @@
     "https://etfllama.com/crypto/xrp",
     "https://www.21shares.com/en-eu/product/axrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "coinshares-xrp",
@@ -1994,7 +2010,8 @@
     "https://etfllama.com/crypto/xrp",
     "https://coinshares.com/etp/physical-xrp/"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "bitwise-gxrp-eu",
@@ -2007,7 +2024,8 @@
     "https://bitwiseinvestments.com/newsroom/bitwise-xrp-etf-ticker-xrp-launches-on-nyse",
     "https://etfllama.com/crypto/xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "xrpw",
@@ -2021,7 +2039,8 @@
     "https://www.theblock.co/etfs/xrp",
     "https://www.wisdomtree.com/ch/en/products/digital-assets/wisdomtree-physical-xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "virtune-xrp",
@@ -2034,7 +2053,8 @@
     "https://etfllama.com/crypto/xrp",
     "https://www.virtune.com/en/product/xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "valour-xrp",
@@ -2047,7 +2067,8 @@
     "https://etfllama.com/crypto/xrp",
     "https://valour.com/en/products/valour-ripple-xrp"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "etfs"
   },
   {
    "id": "arrington-capital",
@@ -18009,7 +18030,8 @@
     "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002046791",
     "https://www.nerdwallet.com/investing/learn/xrp-etfs"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "etfs"
   },
   {
    "id": "coinshares-xrp-etf-us",
@@ -18023,7 +18045,8 @@
     "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002048583",
     "https://www.nerdwallet.com/investing/learn/xrp-etfs"
    ],
-   "added": "2026-10-19T23:02:33-04:00"
+   "added": "2026-10-19T23:02:33-04:00",
+   "sector": "etfs"
   },
   {
    "id": "wh-crypto-summit-2025",
@@ -28423,7 +28446,8 @@
    "sources": [
     "https://www.sec.gov/Archives/edgar/data/1771146/000177114626000780/etfot-497suppxliquidationo.htm"
    ],
-   "added": "2026-10-20T08:05:11-04:00"
+   "added": "2026-10-20T08:05:11-04:00",
+   "sector": "etfs"
   },
   {
    "id": "w-rpxh-hub",
@@ -30462,11 +30486,13 @@
    "label": "C2FO",
    "type": "company",
    "handle": "",
-   "summary": "Working-capital platform. Its President speaks with BNY and Ripple at Swell 2026 (Oct 28). No rail tie found.",
+   "summary": "Working-capital platform. Its President speaks with BNY and Ripple at Swell 2026 (Oct 28). On Oct 27, 2026 C2FO and Ripple announced financing and settlement supporting C2FO Instant Pay on XRPL with RLUSD settlement; Ripple and BNY are exploring a supply chain finance initiative with C2FO.",
+   "why": "A working-capital platform that, per Ripple's and C2FO's Oct 27, 2026 releases, is bringing C2FO Instant Pay financing and settlement onto the XRP Ledger with RLUSD as the settlement asset, though no go-live date was given.",
    "grade": "A",
    "sources": [
     "https://api.brella.io/api/public/events/swell2026/speakers?page[size]=500",
-    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28"
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-28",
+    "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger"
    ],
    "added": "2026-10-23T10:28:22-04:00"
   },
@@ -30802,7 +30828,8 @@
    "sources": [
     "https://www.sec.gov/Archives/edgar/data/1976322/000182912626010727/themesetf_485bxt.htm"
    ],
-   "added": "2026-10-23T14:23:20-04:00"
+   "added": "2026-10-23T14:23:20-04:00",
+   "sector": "etfs"
   },
   {
    "id": "amd-fixcleanup-3-5-0",
@@ -31036,7 +31063,8 @@
     "https://custodiabank.com/press/custodia-issues-Stablecoin/",
     "https://custodiabank.com/press/participate-hazel-complete-worlds-first-loan-participation-or-syndication-payment-using-tokenized-deposits/"
    ],
-   "added": "2026-10-26T08:32:14-04:00"
+   "added": "2026-10-26T08:32:14-04:00",
+   "sector": "banks"
   },
   {
    "id": "ripple-occ-genius-letter-2026-05-01",
@@ -31218,6 +31246,31 @@
     "https://www.deraktionaer.de/artikel/krypto/xrp-deutsche-bank-setzt-auf-ripple-power-20395607.html"
    ],
    "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "id": "xamanwallelt",
+   "label": "@XamanWallelt (Xaman look-alike)",
+   "type": "community",
+   "handle": "@XamanWallelt",
+   "summary": "Look-alike account displaying the name 'Xaman WaIIet' (capital I's for l's) and copying Xaman's bio. At 00:12 ET on Oct 27, 2026 it posted an X Article titled 'The Xaman Airdrop Is Live — Claim Your XRPL Allocation'. Xaman says it has no token and never sends links.",
+   "grade": "C",
+   "sources": [
+    "https://x.com/XamanWallelt/status/2114933291883041163"
+   ],
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "id": "hmddevicesin",
+   "label": "@HMDdevicesIN (renamed 'XummSupport')",
+   "type": "community",
+   "handle": "@HMDdevicesIN",
+   "summary": "Account created 2018-03-29 with about 158K followers, displayed as 'XummSupport' with a bio copying Xaman's support text on Oct 27, 2026. From 00:13 ET it mass-quoted the @XamanWallelt airdrop lure with 'Xaman Rewards Desk is live' posts. The handle suggests a hijacked HMD India brand account (unconfirmed).",
+   "grade": "C",
+   "sources": [
+    "https://x.com/HMDdevicesIN/status/2114933502764523832",
+    "https://x.com/XamanWallelt/status/2114933291883041163"
+   ],
+   "added": "2026-10-27T08:29:27-04:00"
   }
  ],
  "edges": [
@@ -102475,6 +102528,149 @@
    "source": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
    "side": "neutral",
    "added": "2026-10-27T00:29:00-04:00"
+  },
+  {
+   "from": "rre",
+   "to": "primerevenue",
+   "label": "invested (2005, per RRE portfolio page); RRE also lists Ripple, so this is a shared early investor, not an operational Ripple tie",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://rre.com/portfolio",
+   "side": "neutral",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "bankdhofar",
+   "to": "ripplenet",
+   "label": "own mobile-banking page (read 2026-10-27): deposits up to OMR 1,000 to Indian accounts 'instantly through Ripple'; XRP not named (bank-side, current)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bankdhofar.com/electronic-channels/mobile-banking/",
+   "side": "neutral",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "tpbank",
+   "to": "ripplenet",
+   "label": "own news page (Nov 2019): Japan to Vietnam transfers via RippleNet through SBI Ripple Asia; XRP not named (bank-side, historic)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://tpb.vn/tin-tuc/tin-tpbank/tpbank-la-ngan-hang-viet-nam-dau-tien-ung-dung-thanh-cong-chuyen-tien-quoc-te-qua-blockchain",
+   "side": "neutral",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "hsbc",
+   "to": "hyperledger-besu",
+   "label": "issues HSBC RedCoin (RCHKD) HKD stablecoin as an ERC-20 token on its own private, permissioned Hyperledger Besu network, live on PayMe from Oct 23, 2026; public-chain connectivity needs HKMA approval; XRPL not named",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://defiprime.com/hsbc-redcoin-payme-hkd-stablecoin-launch",
+   "side": "contradicts",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "xrp",
+   "label": "custody support: BNY now supports XRP on its institutional digital asset custody platform (Ripple release, Oct 27, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": true,
+   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "rlusd",
+   "label": "custody support for RLUSD on BNY's digital asset custody platform (Oct 27, 2026); planned: BNY clients to mint and redeem RLUSD directly through BNY (BNY 'intends', not live)",
+   "grade": "A",
+   "strength": 3,
+   "key": true,
+   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "ripple",
+   "label": "expanded strategic collaboration across custody and tokenized trade finance on XRPL (Oct 27, 2026); trade finance work 'subject to client requirements' (planned)",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "bny",
+   "to": "c2fo",
+   "label": "with Ripple, exploring a supply chain finance initiative with C2FO as first step toward tokenized trade finance on XRPL (exploring, Oct 27, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-expands-collaboration-with-bny-across-custody-and-tokenized-trade-finance",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "c2fo",
+   "to": "ripple",
+   "label": "partnership to bring financing and settlement supporting C2FO Instant Pay onto XRPL (announced Oct 27, 2026, Swell)",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "c2fo",
+   "to": "xrpl",
+   "label": "C2FO Instant Pay financing/settlement on the XRP Ledger, funded by participating capital providers (announced Oct 27, 2026; go-live date not stated)",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "c2fo",
+   "to": "rlusd",
+   "label": "RLUSD is the settlement asset for C2FO Instant Pay on XRPL (announced Oct 27, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger",
+   "side": "supports",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "xamanwallelt",
+   "to": "xamanimpersonation",
+   "label": "instance: posted a fake 'Xaman Airdrop Is Live — Claim Your XRPL Allocation' lure (Oct 27, 2026)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/XamanWallelt/status/2114933291883041163",
+   "side": "neutral",
+   "added": "2026-10-27T08:29:27-04:00"
+  },
+  {
+   "from": "hmddevicesin",
+   "to": "xamanimpersonation",
+   "label": "instance: renamed 'XummSupport', mass-quoted the fake Xaman Airdrop lure as 'Xaman Rewards Desk' (Oct 27, 2026)",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/XamanWallelt/status/2114933291883041163",
+   "side": "neutral",
+   "added": "2026-10-27T08:29:27-04:00"
   }
  ]
 }
