@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-26T18:30:57-04:00",
+  "updated": "2026-10-26T20:33:40-04:00",
   "version": 3
  },
  "nodes": [
@@ -226,12 +226,13 @@
    "label": "Ripple (Ripple Labs)",
    "type": "company",
    "handle": "@Ripple",
-   "summary": "Renamed from OpenCoin 2013; '85+ licenses' (Oct 2026); $40B valuation (Nov 2025, Fortress/Citadel Securities led). OCC trust-bank charter only conditionally approved.",
+   "summary": "Renamed from OpenCoin 2013; '85+ licenses' (Oct 2026); $40B valuation (Nov 2025, Fortress/Citadel Securities led). Ripple National Trust Bank received final OCC approval (Oct 26, 2026, per Ripple).",
    "why": "The company at the center of the map: it holds about 31.4B XRP in escrow, bought Hidden Road, GTreasury, Metaco, Rail and Standard Custody, and was valued at $40B in Nov 2025, yet its trust-bank charter is only conditionally approved.",
    "grade": "A",
    "sources": [
     "https://en.wikipedia.org/wiki/Ripple_Labs",
-    "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/"
+    "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
+    "https://www.tmcnet.com/usubmit/-ripple-receives-final-occ-approval-establish-national-trust-/2026/10/26/10469920.htm"
    ],
    "added": "2026-10-19T06:36:00-04:00"
   },
@@ -1112,7 +1113,8 @@
     "https://www.sec.gov/Archives/edgar/data/1862935/000149315223027705/ex10-16.htm",
     "https://www.sec.gov/Archives/edgar/data/1862935/000149315224027121/form424b3.htm"
    ],
-   "added": "2026-10-19T08:10:00-04:00"
+   "added": "2026-10-19T08:10:00-04:00",
+   "sector": "banks"
   },
   {
    "id": "gemini",
@@ -10953,7 +10955,8 @@
     "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/",
     "https://www.coindesk.com/markets/2026/03/11/ripple-to-acquire-australian-financial-services-license-as-apac-payments-volume-doubles"
    ],
-   "added": "2026-10-19T22:56:09-04:00"
+   "added": "2026-10-19T22:56:09-04:00",
+   "sector": "banks"
   },
   {
    "id": "banking-circle",
@@ -11104,16 +11107,17 @@
   },
   {
    "id": "rntb",
-   "label": "Ripple National Trust Bank (proposed)",
+   "label": "Ripple National Trust Bank",
    "short": "Ripple Trust Bank",
    "type": "bank",
    "handle": "",
-   "summary": "OCC conditionally approved Ripple's application for a national trust bank on 2025-12-12 to manage RLUSD reserves (dual NYDFS + OCC oversight). Final approval needs pre-opening conditions; not yet opened as of Oct 2026.",
+   "summary": "OCC conditionally approved Ripple's application for a national trust bank on 2025-12-12 to manage RLUSD reserves (dual NYDFS + OCC oversight). On Oct 26, 2026 Ripple announced the OCC granted final approval; approved activities are managing RLUSD's segregated reserves, acting as collateral trustee for RLUSD holders, and fiduciary digital asset custody. RLUSD is still issued by Standard Custody & Trust. Not yet opened; the OCC's public filing page still showed only the conditional approval on the evening of Oct 26.",
    "why": "Ripple's proposed national trust bank to hold RLUSD reserves: the OCC approved it only conditionally (Dec 2025), and no Fed master-account request is listed for it.",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-secures-federal-approval-to-establish-national-trust-bank/",
-    "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/ca1359.pdf"
+    "https://www.occ.gov/topics/charters-and-licensing/interpretations-and-decisions/2026/ca1359.pdf",
+    "https://x.com/bgarlinghouse/status/2114860293859778775"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "banks"
@@ -22864,7 +22868,8 @@
    "sources": [
     "https://web.archive.org/web/20160114094303/http://ripple.com/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "mutual-trust-bank",
@@ -22914,7 +22919,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-partners-with-onafriq-to-power-digital-asset-enabled-cross-border-payments-between-africa-and-the-rest-of-the-world/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "zazi-transfer",
@@ -22926,7 +22932,8 @@
    "sources": [
     "https://ripple.com/ripple-press/ripple-partners-with-onafriq-to-power-digital-asset-enabled-cross-border-payments-between-africa-and-the-rest-of-the-world/"
    ],
-   "added": "2026-10-20T00:11:15-04:00"
+   "added": "2026-10-20T00:11:15-04:00",
+   "sector": "banks"
   },
   {
    "id": "yantra",
@@ -28339,7 +28346,8 @@
     "https://www.finextra.com/pressarticle/81714/terrapay-acquired-and-gets-cash-injection",
     "https://www.quantoz.com/articles/terrapay-cooperative-bank-of-oromia-and-quantoz-launch-blockchain-based-settlement-for-inward-remittances-to-ethiopia/"
    ],
-   "added": "2026-10-20T03:52:34-04:00"
+   "added": "2026-10-20T03:52:34-04:00",
+   "sector": "banks"
   },
   {
    "id": "quantoz",
@@ -30208,7 +30216,8 @@
     "https://x.com/arf_one/status/2113259859986559367",
     "https://x.com/Ripple/status/2113260588574843090"
    ],
-   "added": "2026-10-22T10:26:53-04:00"
+   "added": "2026-10-22T10:26:53-04:00",
+   "sector": "banks"
   },
   {
    "id": "w-bitgo-evernorth-new6",
@@ -31166,6 +31175,18 @@
     "https://www.dfs.ny.gov/system/files/documents/2026/07/rp-fs-23nycrr202-text.pdf"
    ],
    "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "id": "primerevenue",
+   "label": "PrimeRevenue",
+   "type": "company",
+   "handle": "",
+   "summary": "Atlanta-based working-capital / supply-chain finance platform (says 50,000 companies, 100+ funding partners, $300B+ annual payment transactions). On Oct 26 2026 it said it is tokenizing Electronic Time Drafts on Solana; Ripple, XRP and XRPL not named.",
+   "grade": "A",
+   "sources": [
+    "https://primerevenue.com/resources/news/primerevenue-brings-trade-finance-assets-to-solana-expanding-access-to-on-chain-capital-markets/"
+   ],
+   "added": "2026-10-26T20:29:31-04:00"
   }
  ],
  "edges": [
@@ -74432,12 +74453,12 @@
   {
    "from": "circle",
    "to": "occ",
-   "label": "received FINAL OCC approval for Circle National Trust (Jul 10 2026); Ripple NTB (same Dec-2025 cohort) still only conditionally approved",
+   "label": "received FINAL OCC approval for Circle National Trust (Jul 10 2026); Ripple NTB (same Dec-2025 cohort) followed on Oct 26 2026",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.circle.com/pressroom/circle-receives-final-occ-approval-to-establish-national-trust-bank",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -102313,6 +102334,50 @@
    "source": "https://downloads.regulations.gov/TREAS-DO-2026-0232-0047/attachment_1.pdf",
    "side": "neutral",
    "added": "2026-10-26T18:26:29-04:00"
+  },
+  {
+   "from": "primerevenue",
+   "to": "solana",
+   "label": "Tokenizes Electronic Time Drafts (trade-finance payment obligations) on Solana (own release, 2026-10-26); no Ripple/XRPL mention",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://primerevenue.com/resources/news/primerevenue-brings-trade-finance-assets-to-solana-expanding-access-to-on-chain-capital-markets/",
+   "side": "contradicts",
+   "added": "2026-10-26T20:29:31-04:00"
+  },
+  {
+   "from": "treasury",
+   "to": "swell",
+   "label": "Swell 2026 agenda lists 'A Conversation with U.S. Treasury Secretary Scott Bessent', Oct 27 09:30 ET, Garlinghouse assigned (Ripple's agenda only)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-26T20:29:31-04:00"
+  },
+  {
+   "from": "nbad",
+   "to": "jpm",
+   "label": "FAB (NBAD's successor) completed a cross-border payments pilot on J.P. Morgan's Coin Systems (own release, 2023-10-10); FAB's own pages name no Ripple tie",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-successfully-completes-pilot-testing-with-jp-morgans-coin-systems-for-blockchain",
+   "side": "contradicts",
+   "added": "2026-10-26T20:29:31-04:00"
+  },
+  {
+   "from": "occ",
+   "to": "rntb",
+   "label": "final charter approval (Oct 26, 2026, announced by Ripple); approved activities: RLUSD reserve management, collateral trustee, fiduciary digital asset custody",
+   "grade": "B",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.tmcnet.com/usubmit/-ripple-receives-final-occ-approval-establish-national-trust-/2026/10/26/10469920.htm",
+   "side": "supports",
+   "added": "2026-10-26T20:29:31-04:00"
   }
  ]
 }
