@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T10:35:11-04:00",
+  "updated": "2026-10-28T12:27:04-04:00",
   "version": 3
  },
  "nodes": [
@@ -103324,6 +103324,39 @@
    "source": "https://x.com/Yellow/status/2115440210586763415",
    "side": "neutral",
    "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "sbi",
+   "to": "crossriver",
+   "label": "MOU for strategic business alliance, planned Japan JV (tokenized RWAs, cross-border payments, agentic commerce), SBI strategic investment in CRB Group, JPYSC on Cross River's platform (Oct 28 2026); subject to definitive agreements and approvals; no XRP/RLUSD named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sbigroup.co.jp/news/2026/1028_16686.html",
+   "side": "neutral",
+   "added": "2026-10-28T12:24:59-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "hsbc",
+   "label": "per Ripple: named among banks and fintechs using Ripple Payments and Custody to move and manage assets (Ripple Swell 2026 results release, Oct 28, 2026); HSBC has not confirmed on its own channels; XRP not named",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T12:25:43-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "firstrand",
+   "label": "per Ripple: named among banks and fintechs using Ripple Payments and Custody to move and manage assets (Ripple Swell 2026 results release, Oct 28, 2026); FirstRand has not confirmed on its own channels; XRP not named",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T12:25:43-04:00"
   }
  ]
 }
