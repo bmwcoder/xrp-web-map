@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T14:34:25-04:00",
+  "updated": "2026-10-27T20:32:50-04:00",
   "version": 3
  },
  "nodes": [
@@ -102771,18 +102771,18 @@
   {
    "from": "ripple",
    "to": "robinhood",
-   "label": "strategic partnership expanded across RLUSD, Ripple Prime and Ripple Treasury (announced Oct 27, 2026; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it)",
-   "grade": "B",
+   "label": "strategic partnership announced Oct 27, 2026; Robinhood CEO Vlad Tenev confirmed it on Robinhood's Q3 2026 earnings call the same day ('excited to do more business together', calling the two businesses complementary); the RLUSD, Ripple Prime and Ripple Treasury specifics are per Ripple's release and were not detailed by Robinhood",
+   "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://ripple.com/ripple-press/ripple-and-robinhood-partner-to-power-the-next-generation-of-finance/",
+   "source": "https://www.benzinga.com/news/26/10/62641803/robinhood-markets-q3-2026-earnings-call-transcript",
    "side": "supports",
    "added": "2026-10-27T10:31:15-04:00"
   },
   {
    "from": "robinhood",
    "to": "rlusd",
-   "label": "RLUSD live on Robinhood Chain and Bitstamp by Robinhood; Robinhood app availability expected later in 2026 (planned; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat; not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it; refines the earlier 'not on Robinhood app' edge)",
+   "label": "RLUSD announced live on Robinhood Chain and Bitstamp by Robinhood; Robinhood app availability expected later in 2026 (planned; per Ripple's Oct 27, 2026 release, which quotes Robinhood's Johann Kerbrat). On Robinhood Chain the RLUSD contract 0x8d58c0c60b8d6b88fa98b291a646db34d0f98258 (same address and implementation as Ripple's Base and Optimism RLUSD) is deployed but had zero supply and no holders as of Oct 27, 20:19 ET (98 test units minted and burned Oct 19-21); not on Robinhood or Bitstamp channels as of Oct 27, 10:55 ET; returns to A if Robinhood or Bitstamp publishes it; refines the earlier 'not on Robinhood app' edge",
    "grade": "B",
    "strength": 4,
    "key": false,
@@ -102844,6 +102844,50 @@
    "source": "https://www.icba.org/w/occ-release-oct-2026",
    "side": "contradicts",
    "added": "2026-10-27T14:29:36-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "bitstamp",
+   "label": "financing relationship start undisclosed: Bitstamp absent from Hidden Road's Jul 1, 2024 exchange-integration list; first public mention is Ripple's Oct 27, 2026 release",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2024/07/01/prime-broker-hidden-road-adds-major-crypto-exchanges-expands-use-of-blackrocks-buidl-token",
+   "side": "neutral",
+   "added": "2026-10-27T20:28:54-04:00"
+  },
+  {
+   "from": "robinhood",
+   "to": "ripple",
+   "label": "CEO Vlad Tenev on the Q3 2026 call (Oct 27, 2026) calls the Ripple partnership complementary, 'excited to do more business together'; no RLUSD, XRPL, Prime or Treasury specifics (automated transcript of Robinhood's webcast)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.benzinga.com/news/26/10/62641803/robinhood-markets-q3-2026-earnings-call-transcript",
+   "side": "neutral",
+   "added": "2026-10-27T20:28:54-04:00"
+  },
+  {
+   "from": "ahli-bank-kuwait",
+   "to": "ripplenet",
+   "label": "own funds-transfer form (Oct 2024): transfer details must 'comply with SWIFT/ Ripple standards'; XRP not named (bank-side, current)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://abk.eahli.com/media/documents/Funds_Transfer_Form_for_Website_-_October_2024_-_English.pdf",
+   "side": "neutral",
+   "added": "2026-10-27T20:28:54-04:00"
+  },
+  {
+   "from": "cargills-bank",
+   "to": "ripplenet",
+   "label": "own news page (Aug 16, 2018): joined RippleNet using xCurrent for inward remittances; settlement through existing methods; XRP not named (bank-side, historic)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.cargillsbank.com/cargills-bank-joins-ripplenet-for-cross-border-remittance-blockchain/",
+   "side": "neutral",
+   "added": "2026-10-27T20:28:54-04:00"
   }
  ]
 }
