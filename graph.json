@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T22:26:39-04:00",
+  "updated": "2026-10-28T02:28:31-04:00",
   "version": 3
  },
  "nodes": [
@@ -102906,12 +102906,12 @@
   {
    "from": "moodys-ratings",
    "to": "rlusd",
-   "label": "assigned credit ratings to RLUSD (Oct 28, 2026 UTC; A2 long-term / P-1 short-term per Ripple)",
+   "label": "assigned A2 long-term / P-1 short-term deposit ratings to RLUSD issued by SCTC on XRPL and Ethereum (Moody's text, New York, Oct 27, 2026; Ripple release Oct 28 UTC); reserves mostly at BNY, 103% coverage target",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ratings.moodys.com/rmcdocuments/396803",
-   "side": "supports",
+   "source": "https://ratings.moodys.com/ratings-news/475989",
+   "side": "neutral",
    "added": "2026-10-27T22:23:34-04:00"
   },
   {
@@ -102924,6 +102924,50 @@
    "source": "https://x.com/_JackMcDonald_/status/2115249719723074014",
    "side": "neutral",
    "added": "2026-10-27T22:23:34-04:00"
+  },
+  {
+   "from": "moodys-ratings",
+   "to": "sctc",
+   "label": "assigned A2 long-term / P-1 short-term deposit ratings to SCTC-issued RLUSD, solely as issued on XRPL and Ethereum (Moody's, New York, Oct 27, 2026); XRP not mentioned",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ratings.moodys.com/ratings-news/475989",
+   "side": "neutral",
+   "added": "2026-10-28T02:26:42-04:00"
+  },
+  {
+   "from": "atb",
+   "to": "reisebank",
+   "label": "2016 demo transfer CA$1,000 (EUR 667) Calgary to Frankfurt over SAP platform and Ripple's network in seconds; prototype, XRP not named (bank-side, historic)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://innovationlab.dzbank.de/2016/09/19/reisebank-mit-ripple-in-acht-sekunden-ueber-den-atlantik/",
+   "side": "neutral",
+   "added": "2026-10-28T02:26:42-04:00"
+  },
+  {
+   "from": "vereecke",
+   "to": "swell",
+   "label": "Swell 2026 panel 'Where Corporate Finance Is Heading in 2027: Rates, Trade, Technology' with Raghuram Rajan and Ken Montgomery, Oct 27, 10:55 ET (official Brella schedule)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-28T02:27:11-04:00"
+  },
+  {
+   "from": "montgomery",
+   "to": "swell",
+   "label": "Swell 2026 panel 'Where Corporate Finance Is Heading in 2027: Rates, Trade, Technology' with Renaat Ver Eecke and Raghuram Rajan, Oct 27, 10:55 ET (official Brella schedule)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-28T02:27:11-04:00"
   }
  ]
 }
