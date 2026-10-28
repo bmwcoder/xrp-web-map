@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-27T20:32:50-04:00",
+  "updated": "2026-10-27T22:26:39-04:00",
   "version": 3
  },
  "nodes": [
@@ -31301,6 +31301,20 @@
     "https://www.cashmarket.deutsche-boerse.com/cash-en/Stay-Informed/newsroom/press-releases/New-ETF-and-ETP-Listings-on-August-13-2026-on-Deutsche-B-rse-5431742"
    ],
    "added": "2026-10-27T10:31:15-04:00"
+  },
+  {
+   "id": "moodys-ratings",
+   "label": "Moody's Ratings",
+   "type": "company",
+   "handle": "@moodysratings",
+   "summary": "Credit rating agency. On Oct 28, 2026 (UTC) it published a rating action assigning ratings to Ripple USD (RLUSD), issued by Standard Custody & Trust Company. Ripple's Jack McDonald says the ratings are A2 long-term and P-1 short-term under Moody's new stablecoin framework, and calls RLUSD the first stablecoin with an investment-grade Moody's rating (Ripple claim).",
+   "grade": "A",
+   "sources": [
+    "https://ratings.moodys.com/rmcdocuments/396803",
+    "https://ratings.moodys.com/ratings-news/475989",
+    "https://x.com/_JackMcDonald_/status/2115249719723074014"
+   ],
+   "added": "2026-10-27T22:23:34-04:00"
   }
  ],
  "edges": [
@@ -102888,6 +102902,28 @@
    "source": "https://www.cargillsbank.com/cargills-bank-joins-ripplenet-for-cross-border-remittance-blockchain/",
    "side": "neutral",
    "added": "2026-10-27T20:28:54-04:00"
+  },
+  {
+   "from": "moodys-ratings",
+   "to": "rlusd",
+   "label": "assigned credit ratings to RLUSD (Oct 28, 2026 UTC; A2 long-term / P-1 short-term per Ripple)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ratings.moodys.com/rmcdocuments/396803",
+   "side": "supports",
+   "added": "2026-10-27T22:23:34-04:00"
+  },
+  {
+   "from": "jmcdonald",
+   "to": "moodys-ratings",
+   "label": "announced Moody's RLUSD rating on X (Oct 27, 2026 ET)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/_JackMcDonald_/status/2115249719723074014",
+   "side": "neutral",
+   "added": "2026-10-27T22:23:34-04:00"
   }
  ]
 }
