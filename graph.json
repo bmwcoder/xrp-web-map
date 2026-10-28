@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T12:27:04-04:00",
+  "updated": "2026-10-28T14:33:30-04:00",
   "version": 3
  },
  "nodes": [
@@ -31925,11 +31925,11 @@
   {
    "from": "canton",
    "to": "dtcc",
-   "label": "live at launch in DTCC tokenization (DTCC overview, Oct 2026; service launch set for Oct 2026)",
+   "label": "live at launch of the DTCC Tokenization Service (CIP-56), live Oct 28, 2026 (DTCC page)",
    "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://communications.dtcc.com/rs/669-QIL-921/images/DTCC%20Tokenization%20Service%20At-a-Glance.pdf",
+   "source": "https://www.dtcc.com/products-and-services/digital-assets/tokenization",
    "side": "contradicts",
    "added": "2026-10-19T13:55:00-04:00"
   },
@@ -58690,11 +58690,11 @@
   {
    "from": "dtcc",
    "to": "hyperledger-besu",
-   "label": "DTCC's private Besu network live at launch of Tokenization Service, with Canton; XRPL not named (Oct 2026)",
+   "label": "DTCC's private Besu network (ERC-20) live at launch of the Tokenization Service with Canton, live Oct 28, 2026; Stellar and Arc anticipated 2027; XRPL not named (DTCC page)",
    "grade": "A",
    "strength": 4,
    "key": true,
-   "source": "https://communications.dtcc.com/rs/669-QIL-921/images/DTCC%20Tokenization%20Service%20At-a-Glance.pdf",
+   "source": "https://www.dtcc.com/products-and-services/digital-assets/tokenization",
    "side": "contradicts",
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -101117,11 +101117,11 @@
   {
    "from": "themes-2x-xrp",
    "to": "xrp",
-   "label": "proposed 2X long and 2X short daily XRP exposure; 485BXT (2026-10-02) delays effectiveness to 2026-10-30",
+   "label": "proposed 2X long and 2X short daily XRP exposure; 485BXT (2026-10-28) delays effectiveness to 2026-11-27",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626010727/themesetf_485bxt.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626011615/themesetf_485bxt.htm",
    "side": "neutral",
    "added": "2026-10-23T14:23:20-04:00"
   },
@@ -103357,6 +103357,28 @@
    "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
    "side": "neutral",
    "added": "2026-10-28T12:25:43-04:00"
+  },
+  {
+   "from": "hsbc",
+   "to": "gtreasury",
+   "label": "HSBC Developer Portal: Ripple Treasury pre-integrated with HSBC Account Information APIs (balances, transactions); bank-side, no XRP",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://developer.hsbc.com/developer-portal-ui-public/connected-banking/b35c94ba-454b-4b56-b8f7-f35e2b165fd6",
+   "side": "neutral",
+   "added": "2026-10-28T14:31:44-04:00"
+  },
+  {
+   "from": "firstrand",
+   "to": "jpm",
+   "label": "first South African client on Kinexys Digital Payments for 24/7 USD treasury payments (J.P. Morgan, Mar 18, 2026; FirstRand Group Treasurer quoted); XRPL not involved",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.jpmorgan.com/payments/newsroom/firstrand-bank-kinexys-blockchain-south-africa",
+   "side": "contradicts",
+   "added": "2026-10-28T14:31:44-04:00"
   }
  ]
 }
