@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T14:33:30-04:00",
+  "updated": "2026-10-28T16:29:34-04:00",
   "version": 3
  },
  "nodes": [
@@ -103379,6 +103379,39 @@
    "source": "https://www.jpmorgan.com/payments/newsroom/firstrand-bank-kinexys-blockchain-south-africa",
    "side": "contradicts",
    "added": "2026-10-28T14:31:44-04:00"
+  },
+  {
+   "from": "moodys-ratings",
+   "to": "dcp-guggenheim",
+   "label": "assigned Prime-1 (sf) to digital commercial paper issued by Great Bridge Capital Company, LLC, the Guggenheim Treasury Services-managed DCP vehicle (Moody's, New York, Jun 28, 2024); rating action describes issuance via Zeconomy on Ethereum and predates the XRPL issuance",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ratings.moodys.com/ratings-news/424161",
+   "side": "neutral",
+   "added": "2026-10-28T16:25:49-04:00"
+  },
+  {
+   "from": "flare",
+   "to": "xrplf",
+   "label": "added to the XRPL Foundation's recommended validator list (Oct 28 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/XRPLF/status/2115517544467435768",
+   "side": "supports",
+   "added": "2026-10-28T16:25:49-04:00"
+  },
+  {
+   "from": "g-anodos",
+   "to": "xrplf",
+   "label": "removed from the XRPL Foundation's recommended validator list at its own request; validator sunset by end of Oct 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/XRPLF/status/2115517968171815239",
+   "side": "contradicts",
+   "added": "2026-10-28T16:25:49-04:00"
   }
  ]
 }
