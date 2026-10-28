@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T08:36:44-04:00",
+  "updated": "2026-10-28T10:35:11-04:00",
   "version": 3
  },
  "nodes": [
@@ -31308,12 +31308,13 @@
    "label": "Moody's Ratings",
    "type": "company",
    "handle": "@moodysratings",
-   "summary": "Credit rating agency. On Oct 28, 2026 (UTC) it published a rating action assigning ratings to Ripple USD (RLUSD), issued by Standard Custody & Trust Company. Ripple's Jack McDonald says the ratings are A2 long-term and P-1 short-term under Moody's new stablecoin framework, and calls RLUSD the first stablecoin with an investment-grade Moody's rating (Ripple claim).",
+   "summary": "Credit rating agency. On Oct 28, 2026 (UTC) it published a rating action assigning ratings to Ripple USD (RLUSD), issued by Standard Custody & Trust Company. Ripple's Jack McDonald says the ratings are A2 long-term and P-1 short-term under Moody's new stablecoin framework, and calls RLUSD the first investment-grade Moody's stablecoin rating (Ripple claim). It is not Moody's first stablecoin-sector rating: Moody's rated Sky Protocol B3 (speculative-grade issuer rating) on Oct 7, 2026.",
    "grade": "A",
    "sources": [
     "https://ratings.moodys.com/rmcdocuments/396803",
     "https://ratings.moodys.com/ratings-news/475989",
-    "https://x.com/_JackMcDonald_/status/2115249719723074014"
+    "https://x.com/_JackMcDonald_/status/2115249719723074014",
+    "https://www.theblock.co/news/business/2026-10-07-moodys-sky-protocol-b3-rating-first-stablecoin-protocol-417931"
    ],
    "added": "2026-10-27T22:23:34-04:00"
   },
@@ -31328,6 +31329,84 @@
     "https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer"
    ],
    "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "id": "bessent",
+   "label": "Scott Bessent",
+   "type": "person",
+   "handle": "",
+   "summary": "US Treasury Secretary (treasury.gov). Opened Ripple Swell 2026 on Oct 27, 2026 (Brella slot 09:30 ET) in a conversation with Brad Garlinghouse. Per CoinDesk and American Banker, he said dollar stablecoins extend the dollar's reach and could become 'an important source of funding for the Treasury', said Treasury could work with the SEC and CFTC after CLARITY failed, and backed guardrails against debanking. Neither relay mentions XRP. No Treasury readout or official replay as of Oct 28 AM.",
+   "grade": "A",
+   "sources": [
+    "https://home.treasury.gov/news/press-releases",
+    "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+    "https://www.americanbanker.com/news/bessent-stablecoins-will-help-ensure-dollar-dominance",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27"
+   ],
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "id": "tobias-adrian",
+   "label": "Tobias Adrian",
+   "type": "person",
+   "handle": "",
+   "summary": "IMF economist. He gave the May 22, 2026 speech 'Tokenized Finance and Money' as IMF Financial Counsellor (imf.org). The Swell 2026 Brella bio lists him as Special Advisor to the IMF Managing Director and says he was Financial Counsellor and MCM Director from 1/2017 to 8/2026; press still calls him MCM director. He was a panelist on 'Accelerating Stablecoin Adoption' at Swell (Oct 27, 2026). His remarks were not found.",
+   "grade": "A",
+   "sources": [
+    "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
+    "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27"
+   ],
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "id": "sp-global-ratings",
+   "label": "S&P Global Ratings",
+   "type": "company",
+   "handle": "",
+   "summary": "Credit rating agency. It has issued Stablecoin Stability Assessments (SSAs, a 1-5 peg-stability scale that is not a credit rating) since Dec 2023. Its Aug 4, 2026 release lists 11 SSAs: EURC, USDC, USDG and USDP at 2 (strong); GUSD and EURCV at 3; FDUSD and USDS/DAI at 4; USDT, TUSD and USDe at 5. RLUSD and PYUSD are not on that list. It rated Sky Protocol B- in Aug 2025.",
+   "grade": "A",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/sp-global-ratings-more-than-half-of-stablecoin-stability-assessments-are-adequate-or-above-302842767.html"
+   ],
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "id": "sky-protocol",
+   "label": "Sky Protocol (USDS)",
+   "type": "company",
+   "handle": "",
+   "summary": "Operator of the USDS stablecoin (formerly Maker/DAI). Moody's gave it a B3 issuer rating, stable outlook, on Oct 7, 2026, per The Block the agency's first rating of a stablecoin protocol. S&P rated it B- in Aug 2025.",
+   "grade": "B",
+   "sources": [
+    "https://www.theblock.co/news/business/2026-10-07-moodys-sky-protocol-b3-rating-first-stablecoin-protocol-417931"
+   ],
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "id": "kalshi",
+   "label": "Kalshi",
+   "type": "company",
+   "handle": "@Kalshi",
+   "summary": "US CFTC-regulated prediction-market (event contracts) exchange. Named by Ripple (Swell 2026 release, Oct 28 2026) as a venue where Ripple Prime supports settlement, financing and clearing of event contracts; no Kalshi confirmation seen as of 09:23 ET.",
+   "grade": "B",
+   "sources": [
+    "https://on.ripple.com/48kmVP1"
+   ],
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "id": "ripple-swell-2026-release",
+   "label": "Ripple Swell 2026 results release (Oct 28, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Per Ripple: on track to exit 2026 at ~$900M annualized product revenue; 3x growth in multi-solution customers (BNY, DriveWealth, Robinhood, Water.org); 1,700+ institutions; 85+ licenses; 60+ payout markets; network approaching $150B lifetime volume by YE; RLUSD $2.6B market cap (+88% YTD); OCC final approval for Ripple National Trust Bank; Ripple Treasury 1,000+ customers incl. American Airlines and Trax; global campaign with Miles Teller. Company-reported figures, not audited.",
+   "grade": "B",
+   "sources": [
+    "https://on.ripple.com/48kmVP1",
+    "https://x.com/Ripple/status/2115430262905475127",
+    "https://x.com/MonicaLongSF/status/2115431412354441332"
+   ],
+   "added": "2026-10-28T10:31:25-04:00"
   }
  ],
  "edges": [
@@ -90500,11 +90579,11 @@
   {
    "from": "rlusd",
    "to": "base",
-   "label": "launched on Base (per Ripple, 2026-07-23)",
+   "label": "live on Base (@base, Oct 28 2026: 'RLUSD is live on Base'); Ripple dated the Base launch Jul 23, 2026",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/insights/ripple-mint/",
+   "source": "https://x.com/base/status/2115419050431979830",
    "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
@@ -90512,7 +90591,7 @@
    "from": "rlusd",
    "to": "optimism",
    "label": "launched on Optimism (per Ripple, 2026-07-23)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/ripple-mint/",
@@ -90534,7 +90613,7 @@
    "from": "rlusd",
    "to": "unichain",
    "label": "launched on Unichain (per Ripple, 2026-07-23)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/ripple-mint/",
@@ -102512,11 +102591,11 @@
   {
    "from": "occ",
    "to": "rntb",
-   "label": "final charter approval (Oct 26, 2026, announced by Ripple; not shown in OCC news or CAS as of Oct 27); approved activities: RLUSD reserve management, collateral trustee, fiduciary digital asset custody; bank not yet open (Ripple: 'upon opening')",
-   "grade": "B",
+   "label": "final charter approval, Consummated/Effective Oct 26, 2026 (OCC CAS record, charter 25364); approved activities per OCC CA 1359 (Dec 12, 2025 conditional-approval letter, fiduciary powers under 12 USC 92a): managing the segregated RLUSD reserve for SCTC on a directed basis, collateral trustee services for RLUSD holders in a fiduciary capacity, and cryptocurrency custody in a fiduciary capacity for affiliates and unaffiliated institutional customers; bank does not plan to issue stablecoins; opening date not announced",
+   "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-receives-final-occ-approval-to-establish-national-trust-bank/",
+   "source": "https://apps.occ.gov/CAS/home/details?FilingID=RjzoD2gxmYOv&FilingSubtypeID=1093&FilingTypeID=2",
    "side": "neutral",
    "added": "2026-10-26T20:29:31-04:00"
   },
@@ -103073,11 +103152,11 @@
   {
    "from": "ripple",
    "to": "coinbase",
-   "label": "partnership to bring RLUSD to Coinbase (announced Oct 28 2026; RLUSD listing confirmed by @CoinbaseAssets and @CoinbaseInsto); Ripple providing RLUSD liquidity on Base is per Ripple",
+   "label": "partnership to bring RLUSD to Coinbase (announced Oct 28 2026; RLUSD listing confirmed by @CoinbaseAssets and @CoinbaseInsto); Ripple providing RLUSD liquidity on Base confirmed by @base (Oct 28 2026)",
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-and-coinbase-partner-to-expand-access-to-rlusd/",
+   "source": "https://x.com/base/status/2115419052474564982",
    "side": "supports",
    "added": "2026-10-28T08:32:18-04:00"
   },
@@ -103102,6 +103181,149 @@
    "source": "https://x.com/doppler_fi/status/2115413421160325401",
    "side": "neutral",
    "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "bessent",
+   "to": "treasury",
+   "label": "US Treasury Secretary (treasury.gov press releases, e.g. 'Statement from U.S. Secretary of the Treasury Scott Bessent', Oct 14, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://home.treasury.gov/news/press-releases",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "bessent",
+   "to": "swell",
+   "label": "spoke at Swell 2026, Oct 27, 2026, in conversation with Garlinghouse: stablecoins as a dollar-reach tool and Treasury funding source; Treasury-SEC-CFTC coordination after CLARITY failed; anti-debanking guardrails (relays: CoinDesk and American Banker; neither relay mentions XRP; no Treasury readout as of Oct 28 AM)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/policy/2026/10/27/treasury-s-bessent-sees-crypto-as-america-s-next-tool-for-keeping-the-u-s-dollar-on-top",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "tobias-adrian",
+   "to": "imf",
+   "label": "IMF Financial Counsellor as of the May 22, 2026 speech (imf.org); Swell bio (Ripple's Brella agenda) says Special Advisor to the Managing Director, Financial Counsellor and MCM Director 1/2017 to 8/2026",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "tobias-adrian",
+   "to": "swell",
+   "label": "panelist, 'Accelerating Stablecoin Adoption' (Platinum Summit, Oct 27, 2026, 14:30-15:00 ET), with Caroline Pham (MoonPay), Luke Boland (Standard Chartered) and moderator Ryan Lawler (Axios), listed as 'Special Advisor & Former Financial Counsellor' (Ripple's Brella agenda); remarks not found in press, X or a replay as of Oct 28 AM; appearance only, not an endorsement",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "tobias-adrian",
+   "to": "genius",
+   "label": "general stance, NOT Swell remarks (IMF speech, May 22, 2026): stablecoins have no central-bank settlement, deposit insurance or resolution; their binding constraint is liquidity, not solvency; the US framework sits 'closer to the self-service end'; early OCC proposals suggest T+2 redemption, extending to T+7 under stress; warns of currency substitution and dollarization risk in emerging markets; XRP and RLUSD not mentioned",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.imf.org/en/news/articles/2026/05/11/sp051126-tokenized-finance-and-money",
+   "side": "contradicts",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "sp-global-ratings",
+   "to": "rlusd",
+   "label": "no Stablecoin Stability Assessment for RLUSD on S&P's Aug 4, 2026 list of 11 SSAs (USDC 2 as of Dec 18, 2025; USDP 2 as of Dec 1, 2025; USDG 2 as of Feb 12, 2026; PYUSD also absent); SSAs measure peg stability and are not credit ratings",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/sp-global-ratings-more-than-half-of-stablecoin-stability-assessments-are-adequate-or-above-302842767.html",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "moodys-ratings",
+   "to": "sky-protocol",
+   "label": "B3 issuer rating, stable outlook (Oct 7, 2026), Moody's first rating of a stablecoin protocol (per The Block); this is a speculative-grade issuer rating, not a stablecoin deposit rating, so it predates the RLUSD rating but does not contradict the 'first investment-grade stablecoin' claim",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.theblock.co/news/business/2026-10-07-moodys-sky-protocol-b3-rating-first-stablecoin-protocol-417931",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "kalshi",
+   "label": "per Ripple: Ripple Prime supports settlement, financing and clearing of event contracts with Kalshi (Swell release Oct 28 2026; not confirmed by Kalshi)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://on.ripple.com/48kmVP1",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "jump-trading",
+   "label": "per Ripple: named trading partner for Ripple Prime event-contract and RWA perpetual-futures settlement, financing and clearing (Swell release Oct 28 2026; not confirmed by Jump)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://on.ripple.com/48kmVP1",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "rprime",
+   "to": "rothera",
+   "label": "per Ripple: named trading partner for Ripple Prime event-contract and RWA perpetual-futures settlement, financing and clearing (Swell release Oct 28 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://on.ripple.com/48kmVP1",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "ondo",
+   "to": "dtcc",
+   "label": "ecosystem collaborator in the DTCC Tokenization Service at its Oct 28 2026 launch, alongside Broadridge, DRW and Fireblocks (per @Ondo); no network named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/Ondo/status/2115429019269070895",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "drivewealth",
+   "to": "dtcc",
+   "label": "among the first DTC participants live on day one of the DTCC Tokenization Service (DTS) launch, Oct 28 2026 (per @DriveWealth); no network named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/DriveWealth/status/2115445005150306307",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "from": "yellow-network",
+   "to": "xrpl",
+   "label": "per Yellow: commitment to deploy enterprise-grade continuous netting to XRPL's native markets, quoting Coinsilium's Oct 28 2026 note on Yellow's plans to expand trading and clearing on the XRP Ledger; planned, not live",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/Yellow/status/2115440210586763415",
+   "side": "neutral",
+   "added": "2026-10-28T10:31:25-04:00"
   }
  ]
 }
