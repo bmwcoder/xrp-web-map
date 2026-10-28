@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T06:27:27-04:00",
+  "updated": "2026-10-28T08:36:44-04:00",
   "version": 3
  },
  "nodes": [
@@ -761,6 +761,7 @@
    "type": "company",
    "handle": "",
    "summary": "Exchange; Ripple NDA letter of 2018-01-11 (ECF 831-115); Evernorth execution partner.",
+   "why": "Coinbase listed RLUSD on Oct 28, 2026, with sends and receives on XRPL, Base and Ethereum confirmed by Coinbase's own accounts, while the plan for collateral use and Ripple liquidity on Base so far comes only from Ripple.",
    "grade": "A",
    "sources": [
     "https://x.com/evernorthxrp/status/2110341960963654094",
@@ -31315,6 +31316,18 @@
     "https://x.com/_JackMcDonald_/status/2115249719723074014"
    ],
    "added": "2026-10-27T22:23:34-04:00"
+  },
+  {
+   "id": "pontoro",
+   "label": "Pontoro",
+   "type": "company",
+   "handle": "",
+   "summary": "Builder of an Automated Liquidity Pool (ALP) for tokenized private assets on Stellar, announced by the Stellar Development Foundation in Lisbon on Oct 28, 2026; Archax issues the permissioned tokens and SDF discloses it has invested in Pontoro. The release names no BNY role and does not name XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer"
+   ],
+   "added": "2026-10-28T08:32:18-04:00"
   }
  ],
  "edges": [
@@ -102675,9 +102688,9 @@
   {
    "from": "c2fo",
    "to": "xrpl",
-   "label": "C2FO Instant Pay financing/settlement on the XRP Ledger, funded by participating capital providers (announced Oct 27, 2026; go-live date not stated; confirmed by C2FO's own newsroom release, Oct 27, 2026; waitlist only)",
+   "label": "planned: C2FO Instant Pay financing/settlement on the XRP Ledger, funded by participating capital providers (announced Oct 27, 2026; not live; C2FO's Instant Pay page (read Oct 28) says limited rollout over the coming months, US only at launch, waitlist, and does not mention XRPL or RLUSD; confirmed by C2FO's own newsroom release, Oct 27, 2026)",
    "grade": "A",
-   "strength": 4,
+   "strength": 3,
    "key": true,
    "source": "https://c2fo.com/newsroom/c2fo-and-ripple-partner-to-modernize-trade-finance-using-the-xrp-ledger/",
    "side": "supports",
@@ -102686,7 +102699,7 @@
   {
    "from": "c2fo",
    "to": "rlusd",
-   "label": "RLUSD is the settlement asset for C2FO Instant Pay on XRPL (announced Oct 27, 2026; confirmed by C2FO's own newsroom release, Oct 27, 2026; waitlist only)",
+   "label": "planned: RLUSD to be the settlement asset for C2FO Instant Pay on XRPL (announced Oct 27, 2026; not live, waitlist only; confirmed by C2FO's own newsroom release, Oct 27, 2026; C2FO's Instant Pay page does not mention RLUSD)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -102979,6 +102992,116 @@
    "source": "https://x.com/Securitize/status/2115385919909794228",
    "side": "neutral",
    "added": "2026-10-28T06:23:59-04:00"
+  },
+  {
+   "from": "pontoro",
+   "to": "stellar",
+   "label": "Automated Liquidity Pool for tokenized private assets built on Stellar; SDF a disclosed investor (SDF release, Oct 28, 2026); BNY and XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "pontoro",
+   "label": "issues the permissioned tokens for Pontoro's Stellar Automated Liquidity Pool (SDF release, Oct 28, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "bny",
+   "label": "tokenises BNY Investments UCITS money market funds, initially available on 12 chains including XRPL, Stellar, Ethereum, Canton and Solana (Archax, May 27, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://archax.com/insights/archax-to-offer-bny-investments-ucits-money-market-funds-on-digital-assets-platform",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rlusd",
+   "label": "Account raRwevcTC4 (created Apr 2025 by a sub-account of Ripple 50) redeemed 13,909,936.13 RLUSD directly to the XRPL issuer at 07:48 ET on Oct 28 2026; with two 9.95M/9.94M redemptions via rGpaXxcB earlier that morning, XRPL RLUSD supply fell 33.80M to 968.08M",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/701335C06B7014EC60FFD017ECA1F425A4DBA9D6699A1CBC0640C0EAA4B8CD86",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "stellar",
+   "label": "issues the interests of Pontoro's first Automated Liquidity Pool (money-market sleeve plus private-fund sleeve) as permissioned tokens on Stellar; pilot launched Oct 28, 2026 at Meridian with the Stellar Development Foundation; XRPL not named",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://stellar.org/press/tokenization-gave-private-assets-rails-pontoro-is-building-the-liquidity-layer",
+   "side": "contradicts",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "eurcv",
+   "to": "xrpl",
+   "label": "on-chain status check (XRPScan, read Oct 28, 2026 ~07:20 ET): SG-FORGE's verified EURCV issuer account rUNaS5sq...ut4UL (created Sep 10, 2025) shows 10,000,000 EURCV outstanding on XRPL; bank-group stablecoin is live on XRPL, but supply is a round figure, consistent with a seeded float rather than organic circulation (holder spread not read)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rUNaS5sqRuxZz6V7rBGhoSaZiVYA3ut4UL/obligations",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "archax",
+   "to": "stellar",
+   "label": "launched €GOVY, a euro-denominated perpetual tokenised government bill, on Stellar (announced Oct 28 2026 at Meridian); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/ArchaxEx/status/2115383117233926200",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "coinbase",
+   "label": "partnership to bring RLUSD to Coinbase (announced Oct 28 2026; RLUSD listing confirmed by @CoinbaseAssets and @CoinbaseInsto); Ripple providing RLUSD liquidity on Base is per Ripple",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-coinbase-partner-to-expand-access-to-rlusd/",
+   "side": "supports",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "coinbase",
+   "to": "rlusd",
+   "label": "lists RLUSD on Coinbase, Coinbase Prime and the retail app with 1:1 USD conversion; sends/receives on XRPL, Base and Ethereum live Oct 28 2026 (Coinbase's own posts); Global Exchange collateral use to follow, per Ripple",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://x.com/CoinbaseAssets/status/2115414904924495972",
+   "side": "supports",
+   "added": "2026-10-28T08:32:18-04:00"
+  },
+  {
+   "from": "doppler",
+   "to": "canton",
+   "label": "joined the Canton Foundation; plans a Canton Coin vault (announced Oct 28 2026; planned, not live)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/doppler_fi/status/2115413421160325401",
+   "side": "neutral",
+   "added": "2026-10-28T08:32:18-04:00"
   }
  ]
 }
