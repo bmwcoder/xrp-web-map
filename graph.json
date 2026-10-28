@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T06:07:33-04:00",
+  "updated": "2026-10-28T06:27:27-04:00",
   "version": 3
  },
  "nodes": [
@@ -102968,6 +102968,17 @@
    "source": "https://api.brella.io/api/public/events/swell2026/schedule?date=2026-10-27",
    "side": "neutral",
    "added": "2026-10-28T02:27:11-04:00"
+  },
+  {
+   "from": "securitize",
+   "to": "stellar",
+   "label": "plans Stellar integration for issuing and managing tokenized assets (announced Oct 28 2026 at Meridian; planned, not live)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/Securitize/status/2115385919909794228",
+   "side": "neutral",
+   "added": "2026-10-28T06:23:59-04:00"
   }
  ]
 }
