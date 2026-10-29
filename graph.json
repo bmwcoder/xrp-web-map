@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T06:31:08-04:00",
+  "updated": "2026-10-29T08:28:10-04:00",
   "version": 3
  },
  "nodes": [
@@ -31456,6 +31456,26 @@
     "https://treasury.ripple.com/success-stories/american-airlines"
    ],
    "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "id": "tria",
+   "label": "Tria",
+   "type": "company",
+   "handle": "@useTria",
+   "summary": "Self-custody crypto neobank. XRP Ledger support live in its app (hold XRP, RLUSD, USDC; card top-up; futures margin) per its own blog; unveiled an XRPL-based 2027 roadmap at Swell 2026.",
+   "grade": "C",
+   "sources": [],
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "id": "arco-fi",
+   "label": "Arco",
+   "type": "builder",
+   "handle": "@Arco_Fi",
+   "summary": "Building tokenized asset allocation tools (Arco Vault). Signed an MOU with t54 (Oct 29 2026) to explore connecting Arco Vault to XRPL; per t54's post only, Arco has not posted it.",
+   "grade": "C",
+   "sources": [],
+   "added": "2026-10-29T08:24:45-04:00"
   }
  ],
  "edges": [
@@ -103670,6 +103690,83 @@
    "source": "https://x.com/taurus_hq/status/2115441812659667009",
    "side": "neutral",
    "added": "2026-10-29T06:29:51-04:00"
+  },
+  {
+   "from": "gtreasury",
+   "to": "xrp",
+   "label": "per Garlinghouse at Swell (Oct 28, 2026): Ripple Treasury touched about $13T of payments in 2025 and 99.9% 'didn't touch a crypto rail' or a stablecoin; with Ripple Prime's $3-4T, '99 plus percent' is off-chain; moving part of it on-chain is a 2027 goal",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ceointerviews.ai/interview/3153871/",
+   "side": "contradicts",
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "tria",
+   "to": "xrpl",
+   "label": "XRP Ledger support live in Tria's app: hold and send XRP, RLUSD and USDC on XRPL, top up the Tria card with XRP, fund futures trading (Tria's own blog)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://blogs.tria.so/en/xrp-ledger-on-tria",
+   "side": "supports",
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "tria",
+   "to": "xrpl",
+   "label": "Unveiled XRPL-based roadmap at Swell 2026 (Oct 29): XRP-collateralized RLUSD loans and RLUSD card settlement planned Q1 2027, targets $1B RLUSD circulation; plans only, per Tria's release",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://biz.heraldcorp.com/article/10919303",
+   "side": "supports",
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "evernorth-tokenization-report-2026",
+   "to": "xrpl",
+   "label": "Evernorth's own Oct 27, 2026 report: XRPL tokenized real-world assets are 90% 'represented' (only $497M of $5.05B distributed, i.e. moving between holders on-chain) vs 97-100% distributed on Ethereum, BNB Chain, Solana and Stellar; 501 of 539 live XRPL MPTs have two or fewer holders",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-10-27-2026",
+   "side": "contradicts",
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "evernorth-tokenization-report-2026",
+   "to": "rlusd",
+   "label": "Evernorth's own Oct 27, 2026 report: of 972M RLUSD on XRPL, 2.6M (0.27%) sits in XRPL AMM pools; XRPL lending (XLS-66) has no activation date and needs LendingProtocolV1_1 to activate first",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-10-27-2026",
+   "side": "contradicts",
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "fireblocks",
+   "to": "stellar",
+   "label": "named launch partner (with Utila, Arculus, LOBSTR) for WalletConnect's expanded Stellar support / WalletConnect Pay from Stellar wallets, announced at Meridian (Oct 29 2026); Fireblocks has not posted it on its own account; XRPL not named",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/WalletConnect/status/2115760590086107363",
+   "side": "neutral",
+   "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "t54",
+   "to": "arco-fi",
+   "label": "MOU (Oct 29 2026) to explore connecting Arco Vault to XRPL and using t54's Trustline risk engine to assess AI-agent identity, authority and risk; exploratory, nothing live",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/t54ai/status/2115771171220414659",
+   "side": "neutral",
+   "added": "2026-10-29T08:24:45-04:00"
   }
  ]
 }
