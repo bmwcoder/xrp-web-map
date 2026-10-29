@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T16:24:12-04:00",
+  "updated": "2026-10-29T18:28:06-04:00",
   "version": 3
  },
  "nodes": [
@@ -84836,11 +84836,11 @@
   {
    "from": "ripple",
    "to": "unhcr",
-   "label": "rapid-response humanitarian funding (per Ripple, 2024-12-03)",
+   "label": "donor to UNHCR's Ukraine emergency response (per UNHCR, Mar 14, 2022)",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/insights/ripple-joins-pledge-1-percent-to-expand-commitment-to-social-impact-and-blockchain-innovation/",
+   "source": "https://www.unhcr.org/news/press-releases/private-sector-donates-over-us-200-million-unhcrs-ukraine-emergency-response",
    "side": "neutral",
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -90512,22 +90512,22 @@
   {
    "from": "ripple",
    "to": "aba",
-   "label": "member, per Ripple product page (checked 2026-10-20)",
+   "label": "Platinum Member, ABA Partner Network, since June 2024 (per ABA)",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/products/cross-border-payments/",
+   "source": "https://www.aba.com/experts-peers/partner-network/directory/ripple",
    "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
   {
    "from": "ripple",
    "to": "payments-association-uk",
-   "label": "member, per Ripple product page (checked 2026-10-20)",
+   "label": "member, listed in The Payments Association's member directory since Oct 2022",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/products/cross-border-payments/",
+   "source": "https://thepaymentsassociation.org/directory/ripple/",
    "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
@@ -103906,6 +103906,17 @@
    "source": "https://x.com/XamanWallet/status/2115871224899514470",
    "side": "supports",
    "added": "2026-10-29T16:22:44-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rlusd",
+   "label": "froze 40.5M RLUSD at an attacker-linked Ethereum address after a reported Binance hot-wallet exploit (on-chain AccountPaused, Oct 29, 2026; Ripple's Jack McDonald said it was freezing affected funds)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0xafd52fb222019aa5eefd5a8331e7a1197484863184b589cc458fc0c8442c8c0f",
+   "side": "neutral",
+   "added": "2026-10-29T18:26:38-04:00"
   }
  ]
 }
