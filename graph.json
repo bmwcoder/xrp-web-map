@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T08:28:10-04:00",
+  "updated": "2026-10-29T10:33:43-04:00",
   "version": 3
  },
  "nodes": [
@@ -3408,12 +3408,13 @@
    "label": "FXRP (Flare FAsset)",
    "type": "asset",
    "handle": "",
-   "summary": "Overcollateralized 1:1 XRP representation on Flare; mainnet Sep 24, 2025; initial 5M cap filled in <4 hours, later 15M. Used by Firelight (stXRP), earnXRP (Upshift/Clearstar, Dec 2025).",
+   "summary": "Overcollateralized 1:1 XRP representation on Flare; mainnet Sep 24, 2025; initial 5M cap filled in <4 hours, later 15M; by Oct 29, 2026 the on-chain minting cap was 170M XRP with 143.87M FXRP minted (lot size 10 XRP). Used by Firelight (stXRP), earnXRP (Upshift/Clearstar, Dec 2025).",
    "grade": "A",
    "sources": [
     "https://flare.network/news/fassets-fxrp-is-live-on-mainnet",
     "https://www.flare.network/news/flare-rewind-2025",
-    "https://flare.network/news/earnxrp-launches-on-flare-the-first-xrp-denominated-yield-product"
+    "https://flare.network/news/earnxrp-launches-on-flare-the-first-xrp-denominated-yield-product",
+    "https://dev.flare.network/fxrp/parameters"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 1
@@ -31476,6 +31477,32 @@
    "grade": "C",
    "sources": [],
    "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "id": "metamask",
+   "label": "MetaMask",
+   "type": "company",
+   "handle": "@MetaMask",
+   "summary": "Self-custody crypto wallet (Consensys). On Oct 29 2026 MetaMask posted that Stellar is now live on MetaMask; Stellar says eligible MetaMask accounts come with a Stellar address.",
+   "grade": "A",
+   "sources": [
+    "https://x.com/MetaMask/status/2115806304216424551",
+    "https://x.com/BuildOnStellar/status/2115798904218509679"
+   ],
+   "added": "2026-10-29T10:30:18-04:00"
+  },
+  {
+   "id": "walletconnect",
+   "label": "WalletConnect",
+   "type": "company",
+   "handle": "@WalletConnect",
+   "summary": "Wallet connectivity network and WalletConnect Pay. On Oct 29 2026 (Meridian) it extended network support to Stellar, which it says gives Stellar access to 700+ wallets, and named LOBSTR the first wallet live on WalletConnect Pay on Stellar.",
+   "grade": "A",
+   "sources": [
+    "https://x.com/WalletConnect/status/2115799704407544096",
+    "https://x.com/WalletConnect/status/2115805899537387864"
+   ],
+   "added": "2026-10-29T10:30:18-04:00"
   }
  ],
  "edges": [
@@ -31885,7 +31912,7 @@
    "label": "partnership (RLUSD, Payments, Prime)",
    "grade": "A",
    "strength": 4,
-   "source": "https://ripple.com/ripple-press/drivewealth-and-ripple-partner-to-bring-institutional-digital-asset-infrastructure-to-global-investing/",
+   "source": "https://www.drivewealth.com/2026/10/drivewealth-and-ripple-partner-to-bring-institutional-digital-asset-infrastructure-to-global-investing/",
    "side": "supports",
    "added": "2026-10-19T07:47:00-04:00"
   },
@@ -59617,11 +59644,11 @@
   {
    "from": "water-org",
    "to": "rlusd",
-   "label": "RLUSD/Ripple Payments used for transfers (per Ripple)",
+   "label": "RLUSD/Ripple Payments used to move funds to microfinance partners (per Water.org, Jun 9, 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/insights/the-swell-2026-lineup-is-here/",
+   "source": "https://water.org/about-us/news-press/waterorg-and-founding-partners-launch-get-blue-to-bring-water-home-through-everyday-actions/",
    "side": "supports",
    "added": "2026-10-19T23:05:08-04:00"
   },
@@ -80243,7 +80270,7 @@
    "from": "korea-univ",
    "to": "xrpl",
    "label": "runs an on-campus XRPL validator (per Ripple, 2024-09-03)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/yonsei-university-joins-ripples-ubri-to-drive-innovation-in-blockchain-research/",
@@ -80364,7 +80391,7 @@
    "from": "ripple",
    "to": "project-acacia",
    "label": "participates in RBA/DFCRC Project Acacia (per Ripple, 2026-03-11)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/",
@@ -103551,11 +103578,11 @@
   {
    "from": "ripple-swell-2026-release",
    "to": "drivewealth",
-   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
-   "grade": "B",
+   "label": "named as a multi-solution customer/partner (Oct 28, 2026); DriveWealth's own Oct 14 release confirms RLUSD settlement on XRPL, Ripple Payments and custody, with Ripple Prime financing still being explored",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "source": "https://www.drivewealth.com/2026/10/drivewealth-and-ripple-partner-to-bring-institutional-digital-asset-infrastructure-to-global-investing/",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
   },
@@ -103573,11 +103600,11 @@
   {
    "from": "ripple-swell-2026-release",
    "to": "water-org",
-   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
-   "grade": "B",
+   "label": "named as a multi-solution customer/partner (Oct 28, 2026); Water.org's own Jun 9, 2026 release confirms it uses Ripple Payments and RLUSD",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "source": "https://water.org/about-us/news-press/waterorg-and-founding-partners-launch-get-blue-to-bring-water-home-through-everyday-actions/",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
   },
@@ -103606,11 +103633,11 @@
   {
    "from": "ripple-swell-2026-release",
    "to": "privy",
-   "label": "named: Privy supports payments with XRP, RLUSD and other assets on XRPL via programmable wallets (per Ripple, Oct 28, 2026)",
-   "grade": "B",
+   "label": "named: Privy supports payments with XRP, RLUSD and other assets on XRPL via programmable wallets (Oct 28, 2026; confirmed on Privy's own blog)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "source": "https://www.privy.io/blog/building-payments-and-agentic-commerce-with-the-xrp-ledger",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
   },
@@ -103767,6 +103794,39 @@
    "source": "https://x.com/t54ai/status/2115771171220414659",
    "side": "neutral",
    "added": "2026-10-29T08:24:45-04:00"
+  },
+  {
+   "from": "metamask",
+   "to": "stellar",
+   "label": "Stellar live on MetaMask (Oct 29 2026, announced during Meridian)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/MetaMask/status/2115806304216424551",
+   "side": "contradicts",
+   "added": "2026-10-29T10:30:18-04:00"
+  },
+  {
+   "from": "walletconnect",
+   "to": "stellar",
+   "label": "extended WalletConnect Network support to Stellar (Oct 29 2026, Meridian); WalletConnect says 700+ wallets and 900M end-users",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/WalletConnect/status/2115799704407544096",
+   "side": "contradicts",
+   "added": "2026-10-29T10:30:18-04:00"
+  },
+  {
+   "from": "lobstr",
+   "to": "walletconnect",
+   "label": "first wallet live on WalletConnect Pay on Stellar (Oct 29 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/WalletConnect/status/2115805899537387864",
+   "side": "neutral",
+   "added": "2026-10-29T10:30:18-04:00"
   }
  ]
 }
