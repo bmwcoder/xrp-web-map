@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T12:32:19-04:00",
+  "updated": "2026-10-29T14:32:07-04:00",
   "version": 3
  },
  "nodes": [
@@ -31503,6 +31503,19 @@
     "https://x.com/WalletConnect/status/2115805899537387864"
    ],
    "added": "2026-10-29T10:30:18-04:00"
+  },
+  {
+   "id": "waterequity",
+   "label": "WaterEquity",
+   "type": "company",
+   "handle": "",
+   "summary": "Impact investment manager; Ripple's Swell 2026 lineup post calls Gary White CEO and co-founder of Water.org and WaterEquity. Per Ripple's Oct 28, 2026 release, Ripple puts capital to work through the WaterEquity Everspring Fund, a perpetual impact vehicle for water and sanitation lending.",
+   "grade": "A",
+   "sources": [
+    "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
+    "https://ripple.com/insights/the-swell-2026-lineup-is-here/"
+   ],
+   "added": "2026-10-29T14:29:07-04:00"
   }
  ],
  "edges": [
@@ -103849,6 +103862,39 @@
    "source": "https://news.curve.finance/curve-is-live-on-stellar",
    "side": "contradicts",
    "added": "2026-10-29T12:31:03-04:00"
+  },
+  {
+   "from": "water-org",
+   "to": "ripple-custody",
+   "label": "Water.org will use Ripple's Wallet-as-a-Service to manage digital assets for RLUSD WaterCredit disbursements (per Ripple, Oct 28, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
+   "side": "neutral",
+   "added": "2026-10-29T14:29:07-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "water-org",
+   "label": "committed $6M over three years to Water.org plus a $1.25M RLUSD grant via the Stablecoin Impact Fund (Indonesia, Philippines, Uganda); exclusive digital asset and FinTech partner of Get Blue (per Ripple, Oct 28, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
+   "side": "neutral",
+   "added": "2026-10-29T14:29:07-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "waterequity",
+   "label": "invests through the WaterEquity Everspring Fund (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
+   "side": "neutral",
+   "added": "2026-10-29T14:29:07-04:00"
   }
  ]
 }
