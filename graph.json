@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T20:29:21-04:00",
+  "updated": "2026-10-29T02:30:39-04:00",
   "version": 3
  },
  "nodes": [
@@ -16652,10 +16652,11 @@
    "label": "Fidor Bank AG (Germany)",
    "type": "bank",
    "handle": "",
-   "summary": "Europe/Germany. Fidor Bank AG was announced on 2014-05-05 as the first bank to integrate the Ripple protocol, for inter- and intra-bank payments. Historical relationship; no current use found.",
+   "summary": "Europe/Germany. Fidor Bank AG was announced on 2014-05-05 as the first bank to integrate the Ripple protocol, for inter- and intra-bank payments. Historical relationship; no current use found. The former Fidor Bank AG has ceased business and returned its banking licence; it has not been a credit institution since 1 Feb 2025 (successor: FG Management GmbH).",
    "grade": "A",
    "sources": [
-    "https://ripple.com/ripple-press/ripple-labs-announces-fidor-bank-ag-as-first-bank-to-use-the-ripple-protocol/"
+    "https://ripple.com/ripple-press/ripple-labs-announces-fidor-bank-ag-as-first-bank-to-use-the-ripple-protocol/",
+    "https://www.fidor.de/"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "banks"
@@ -31407,6 +31408,54 @@
     "https://x.com/MonicaLongSF/status/2115431412354441332"
    ],
    "added": "2026-10-28T10:31:25-04:00"
+  },
+  {
+   "id": "evernorth-tokenization-report-2026",
+   "label": "Evernorth Tokenization Report 2026 (Oct 27, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Evernorth's own report, dated 27 Oct 2026, built from its Dune queries plus Uphold data it did not verify. Figures: XRPL tokenized value $1.76B (Feb 2026) to $5.05B (Oct 20), about 90% 'represented' ($497M distributed); 92% of the $1.65B of RLUSD swapped on the XRPL DEX traded against XRP; $34.5B of RLUSD moved on XRPL in 2026 in 11.8M payments; 0.27% of XRPL RLUSD sits in AMM pools; XRPL lending has no activation date. The report discloses that Ripple, Uphold and Dune have business relationships with Evernorth.",
+   "grade": "A",
+   "sources": [
+    "https://www.evernorth.xyz/blog-post-10-27-2026"
+   ],
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "id": "exactly-protocol",
+   "label": "Exactly Protocol",
+   "type": "builder",
+   "handle": "",
+   "summary": "Lending protocol on Base. Evernorth's Oct 27, 2026 report, citing Exactly's own Dune dashboard (dune.com/exactly/exactly-base, queries re-run by Evernorth), says protocol deposits across all assets were $6.85M (Aug 31) and $12.26M (Oct 19). XRP was the largest share, at $4.27M and $7.87M. 2,870 loans totalling $2.22M have been made since Jul 1, 2026. Uphold customers can wrap XRP to Base as cbXRP to collateralize loans and a card product there. Not checked against Exactly's own channels.",
+   "grade": "B",
+   "sources": [
+    "https://www.evernorth.xyz/blog-post-10-27-2026"
+   ],
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "id": "alta-partners",
+   "label": "Alta Partners LLC",
+   "type": "company",
+   "handle": "",
+   "summary": "New York LLC (Garden City, NY). Filed a Schedule 13G on Evernorth Holdings on Oct 28, 2026 (event date Oct 19): 1,369,646 Class A shares issuable on exercise of warrants, 4.99%.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2092592/000109489126000314/xslSCHEDULE_13G_X02/primary_doc.xml"
+   ],
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "id": "american-airlines",
+   "label": "American Airlines",
+   "type": "company",
+   "handle": "",
+   "summary": "US airline. Ripple Treasury's (GTreasury) success story says American uses its Collateral Management System plus cash, forecasting, bank-account, debt, letter-of-credit, short-term investment and FX modules. These are vendor-side pages; no XRP, RLUSD or XRPL use is stated.",
+   "grade": "A",
+   "sources": [
+    "https://treasury.ripple.com/success-stories/american-airlines"
+   ],
+   "added": "2026-10-29T02:27:41-04:00"
   }
  ],
  "edges": [
@@ -103544,6 +103593,61 @@
    "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "evernorth-tokenization-report-2026",
+   "label": "published Tokenization Report 2026 (Oct 27, 2026): 92% of RLUSD swapped on the XRPL DEX traded against XRP (own Dune analysis)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-10-27-2026",
+   "side": "supports",
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "from": "uphold",
+   "to": "exactly-protocol",
+   "label": "Uphold customers can wrap XRP to Base as cbXRP to collateralize Exactly Protocol cash loans and a card product (Uphold, per Evernorth's Oct 2026 report)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-10-27-2026",
+   "side": "neutral",
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "from": "cbxrp",
+   "to": "exactly-protocol",
+   "label": "cbXRP is Exactly Protocol collateral on Base; XRP was $7.87M of $12.26M deposits on Oct 19, 2026 (Exactly's Dune dashboard, per Evernorth)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-10-27-2026",
+   "side": "neutral",
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "from": "alta-partners",
+   "to": "evernorth",
+   "label": "Schedule 13G: 1,369,646 Class A shares issuable on warrant exercise, 4.99% (event Oct 19, filed Oct 28, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000109489126000314/xslSCHEDULE_13G_X02/primary_doc.xml",
+   "side": "neutral",
+   "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "from": "american-airlines",
+   "to": "gtreasury",
+   "label": "Ripple Treasury (GTreasury) customer: Collateral Management System plus cash, debt and FX modules (vendor success story); no XRP or RLUSD use stated",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://treasury.ripple.com/success-stories/american-airlines",
+   "side": "neutral",
+   "added": "2026-10-29T02:27:41-04:00"
   }
  ]
 }
