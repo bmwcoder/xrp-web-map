@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-28T16:29:34-04:00",
+  "updated": "2026-10-28T20:29:21-04:00",
   "version": 3
  },
  "nodes": [
@@ -76026,11 +76026,11 @@
   {
    "from": "palisade",
    "to": "amf-france",
-   "label": "Palisade Financial SAS voluntarily deregistered as DASP with AMF effective 2026-04-02 (letter 2026-01-18), per Ripple compliance page",
+   "label": "AMF delisted Palisade Financial SAS as a DASP (E2023-082) at Palisade's request (letter Jan 18, 2026; ACPR assent Feb 26; AMF decision Apr 2, 2026); Palisade told the AMF it stopped registered crypto services after Ripple acquired it on Oct 30, 2025",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/legal/compliance/",
+   "source": "https://www.amf-france.org/sites/institutionnel/files/private/2026-04/delisting_decision_palisade_financial_sas.pdf",
    "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
@@ -84793,11 +84793,11 @@
   {
    "from": "revolut",
    "to": "rlusd",
-   "label": "RLUSD available on Revolut (per Ripple insights, 2025-04-11)",
+   "label": "RLUSD available to buy on Revolut (Revolut's own RLUSD buy and price pages; listed Feb 2025)",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/insights/stablecoin-payments/",
+   "source": "https://www.revolut.com/crypto/buy-ripple-usd/",
    "side": "supports",
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -90601,11 +90601,11 @@
   {
    "from": "rlusd",
    "to": "ink-l2",
-   "label": "launched on Ink (per Ripple, 2026-07-23)",
+   "label": "RLUSD coming to Ink via Wormhole NTT (Ink's own post, Jun 4, 2026); RLUSD contract live on Ink with about 139 RLUSD supply and 6 holders (Ink explorer, Oct 28, 2026)",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/insights/ripple-mint/",
+   "source": "https://x.com/inkonchain/status/2062536685674430947",
    "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
@@ -93938,7 +93938,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://dispersion.xyz/learn/343/dispersion-capital-launches-40m-fund-for-decentralized-infrastructure",
+   "source": "https://web.archive.org/web/2024/https://dispersion.xyz/learn/343/dispersion-capital-launches-40m-fund-for-decentralized-infrastructure",
    "side": "neutral",
    "added": "2026-10-20T03:52:34-04:00"
   },
@@ -93949,7 +93949,7 @@
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://dispersion.xyz/learn/343/dispersion-capital-launches-40m-fund-for-decentralized-infrastructure",
+   "source": "https://web.archive.org/web/2024/https://dispersion.xyz/learn/343/dispersion-capital-launches-40m-fund-for-decentralized-infrastructure",
    "side": "neutral",
    "added": "2026-10-20T03:52:34-04:00"
   },
@@ -103412,6 +103412,138 @@
    "source": "https://x.com/XRPLF/status/2115517968171815239",
    "side": "contradicts",
    "added": "2026-10-28T16:25:49-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-swell-2026-release",
+   "label": "issued the Swell 2026 results release (Oct 28, 2026); company-reported figures",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "dbs",
+   "label": "named as a bank/fintech that Ripple Payments and Custody let move and manage assets (per Ripple, Oct 28, 2026); not bank-confirmed for payments",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "hsbc",
+   "label": "named as a bank/fintech that Ripple Payments and Custody let move and manage assets (per Ripple, Oct 28, 2026); not bank-confirmed for payments",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "firstrand",
+   "label": "named as a bank/fintech that Ripple Payments and Custody let move and manage assets (per Ripple, Oct 28, 2026); not bank-confirmed for payments",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "stanchart",
+   "label": "named as a bank/fintech that Ripple Payments and Custody let move and manage assets (per Ripple, Oct 28, 2026); not bank-confirmed for payments",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "bny",
+   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "drivewealth",
+   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "robinhood",
+   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "water-org",
+   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "trax",
+   "label": "named as a Ripple Treasury customer (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "c2fo",
+   "label": "named: BNY-Ripple tokenized trade finance on XRPL starts with a C2FO supplier finance initiative (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "privy",
+   "label": "named: Privy supports payments with XRP, RLUSD and other assets on XRPL via programmable wallets (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-10-28T20:25:55-04:00"
   }
  ]
 }
