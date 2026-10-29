@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T10:33:43-04:00",
+  "updated": "2026-10-29T12:32:19-04:00",
   "version": 3
  },
  "nodes": [
@@ -103827,6 +103827,28 @@
    "source": "https://x.com/WalletConnect/status/2115805899537387864",
    "side": "neutral",
    "added": "2026-10-29T10:30:18-04:00"
+  },
+  {
+   "from": "sentora",
+   "to": "uphold",
+   "label": "powers Uphold's RLUSD Earn vault on Upshift (launched Oct 29, 2026, per Sentora)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/SentoraHQ/status/2115821697454735384",
+   "side": "supports",
+   "added": "2026-10-29T12:31:03-04:00"
+  },
+  {
+   "from": "curve",
+   "to": "stellar",
+   "label": "Curve StableSwap live on Stellar mainnet, first non-EVM Curve deployment, rebuilt for Soroban at SDF's request (Oct 29 2026, Meridian)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://news.curve.finance/curve-is-live-on-stellar",
+   "side": "contradicts",
+   "added": "2026-10-29T12:31:03-04:00"
   }
  ]
 }
