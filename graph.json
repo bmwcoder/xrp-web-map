@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T06:06:27-04:00",
+  "updated": "2026-10-29T06:31:08-04:00",
   "version": 3
  },
  "nodes": [
@@ -103648,6 +103648,28 @@
    "source": "https://treasury.ripple.com/success-stories/american-airlines",
    "side": "neutral",
    "added": "2026-10-29T02:27:41-04:00"
+  },
+  {
+   "from": "taurus",
+   "to": "stellar",
+   "label": "live Soroban smart-contract asset support in Taurus-PROTECT/Taurus-CAPITAL: banks can custody, issue and manage smart contract-based assets on Stellar (announced Oct 29 2026 at Meridian); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/taurus_hq/status/2115715258983571463",
+   "side": "neutral",
+   "added": "2026-10-29T06:29:51-04:00"
+  },
+  {
+   "from": "taurus",
+   "to": "dtcc",
+   "label": "wallet provider among DTCC Tokenization Service (DTS) ecosystem collaborators, integrating with DTS APIs and nodes (Oct 28 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/taurus_hq/status/2115441812659667009",
+   "side": "neutral",
+   "added": "2026-10-29T06:29:51-04:00"
   }
  ]
 }
