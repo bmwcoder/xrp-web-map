@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T14:32:07-04:00",
+  "updated": "2026-10-29T16:24:12-04:00",
   "version": 3
  },
  "nodes": [
@@ -103895,6 +103895,17 @@
    "source": "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
    "side": "neutral",
    "added": "2026-10-29T14:29:07-04:00"
+  },
+  {
+   "from": "xaman",
+   "to": "rlusd",
+   "label": "planned: XRP and RLUSD yield inside Xaman, teased 'coming soon' by Xaman (Oct 29, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/XamanWallet/status/2115871224899514470",
+   "side": "supports",
+   "added": "2026-10-29T16:22:44-04:00"
   }
  ]
 }
