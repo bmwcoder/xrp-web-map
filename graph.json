@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T18:28:06-04:00",
+  "updated": "2026-10-29T20:28:41-04:00",
   "version": 3
  },
  "nodes": [
@@ -103904,7 +103904,7 @@
    "strength": 2,
    "key": false,
    "source": "https://x.com/XamanWallet/status/2115871224899514470",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-29T16:22:44-04:00"
   },
   {
