@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-30T08:24:53-04:00",
+  "updated": "2026-10-30T10:30:25-04:00",
   "version": 3
  },
  "nodes": [
@@ -85233,7 +85233,7 @@
    "from": "sound-ventures",
    "to": "raising-malawi",
    "label": "introduced Ripple to Raising Malawi (per Ripple)",
-   "grade": "A",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/ripple-and-raising-malawi-launch-campaign-to-sponsor-children-in-need/",
@@ -90677,11 +90677,11 @@
   {
    "from": "rlusd",
    "to": "xrpl-evm",
-   "label": "multichain expansion anchored on XRPL EVM Sidechain (per Ripple, 2026-07-23)",
+   "label": "deployed on XRPL EVM Sidechain as verified ERC-20 RLUSD (explorer shows ~121 RLUSD supply, Oct 30, 2026); Ripple called it the anchor of its multichain expansion (2026-07-23)",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/insights/ripple-mint/",
+   "source": "https://explorer.xrplevm.org/token/0x8d58C0C60B8D6b88Fa98B291a646dB34d0F98258",
    "side": "supports",
    "added": "2026-10-20T01:54:19-04:00"
   },
