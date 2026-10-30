@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-30T06:06:54-04:00",
+  "updated": "2026-10-30T08:24:53-04:00",
   "version": 3
  },
  "nodes": [
@@ -103950,6 +103950,28 @@
    "source": "https://www.surugabank.co.jp/surugabank/kojin/topics/200916.html",
    "side": "contradicts",
    "added": "2026-10-30T02:23:49-04:00"
+  },
+  {
+   "from": "sygnum",
+   "to": "xrp",
+   "label": "bank's own Apr 30, 2020 release: XRP added for custody, trading and credit (Lombard) services; no payment use of XRP described",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sygnum.com/news/xrp-now-available-at-sygnum-bank/",
+   "side": "neutral",
+   "added": "2026-10-30T08:23:05-04:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rlusd",
+   "label": "on-chain (Ethereum RLUSD contract 0x8292Bb45…17eD): the issuer used its per-account pause on two Binance-linked addresses during the Oct 29, 2026 exploit, 0xe702… at 18:00:59 ET (40.54M RLUSD frozen) and Binance 14 (0x28C6c062…1d60) at 18:20:47 ET, block 26301350; shows RLUSD is issuer-controllable and can be frozen at will, which cuts against framing it as a neutral settlement asset",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0x6387e1bb8966eb02b030cdb7a57454eb7599ac667858c87d8989eaaecae0d11d",
+   "side": "contradicts",
+   "added": "2026-10-30T08:23:05-04:00"
   }
  ]
 }
