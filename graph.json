@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-29T20:28:41-04:00",
+  "updated": "2026-10-30T02:26:57-04:00",
   "version": 3
  },
  "nodes": [
@@ -103917,6 +103917,39 @@
    "source": "https://etherscan.io/tx/0xafd52fb222019aa5eefd5a8331e7a1197484863184b589cc458fc0c8442c8c0f",
    "side": "neutral",
    "added": "2026-10-29T18:26:38-04:00"
+  },
+  {
+   "from": "intesa",
+   "to": "swift",
+   "label": "took part in testing Swift's orchestration platform connecting capital markets with DLT networks; real-time settlement of tokenised instruments in fiat and digital currencies (IMI CIB page dated May 7, 2026; no DLT network, Ripple or XRP named)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://imi.intesasanpaolo.com/en/news/2026/trial-swift-markets-dlt/",
+   "side": "neutral",
+   "added": "2026-10-30T02:23:49-04:00"
+  },
+  {
+   "from": "sbi-sumishin",
+   "to": "sbi-ripple-asia",
+   "label": "bank's own Oct 4, 2018 release: Money Tap developed in the consortium whose secretariat is SBI Ripple Asia (historic; 0 XRP mentions; bank's current Money Tap page names no Ripple/XRP and says the app is SBI Remit's service)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.netbk.co.jp/contents/company/press/2018/corp_news_20181004.html",
+   "side": "neutral",
+   "added": "2026-10-30T02:23:49-04:00"
+  },
+  {
+   "from": "suruga",
+   "to": "moneytap",
+   "label": "bank's own Sep 16, 2020 notice: Money Tap transfers paused from Sep 17, 2020 for a safety check, resumption to be announced on its site (bank-side copy of the moneytap.jp suspension)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.surugabank.co.jp/surugabank/kojin/topics/200916.html",
+   "side": "contradicts",
+   "added": "2026-10-30T02:23:49-04:00"
   }
  ]
 }
