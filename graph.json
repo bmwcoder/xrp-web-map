@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-30T10:30:25-04:00",
+  "updated": "2026-10-30T12:29:30-04:00",
   "version": 3
  },
  "nodes": [
@@ -103972,6 +103972,17 @@
    "source": "https://etherscan.io/tx/0x6387e1bb8966eb02b030cdb7a57454eb7599ac667858c87d8989eaaecae0d11d",
    "side": "contradicts",
    "added": "2026-10-30T08:23:05-04:00"
+  },
+  {
+   "from": "uphold",
+   "to": "rlusd",
+   "label": "RLUSD Earn live in the Uphold app: up to 7% APY (variable), vault provider Upshift, withdrawals requestable any time (Uphold's own post, Oct 29, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/UpholdInc/status/2115805993455997095",
+   "side": "supports",
+   "added": "2026-10-30T12:25:58-04:00"
   }
  ]
 }
