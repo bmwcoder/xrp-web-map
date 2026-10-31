@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-31T08:30:10-04:00",
+  "updated": "2026-10-31T10:30:12-04:00",
   "version": 3
  },
  "nodes": [
@@ -103868,8 +103868,8 @@
    "from": "water-org",
    "to": "ripple-custody",
    "label": "Water.org will use Ripple's Wallet-as-a-Service to manage digital assets for RLUSD WaterCredit disbursements (per Ripple, Oct 28, 2026)",
-   "grade": "A",
-   "strength": 2,
+   "grade": "B",
+   "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
    "side": "neutral",
@@ -103878,9 +103878,9 @@
   {
    "from": "ripple",
    "to": "water-org",
-   "label": "committed $6M over three years to Water.org plus a $1.25M RLUSD grant via the Stablecoin Impact Fund (Indonesia, Philippines, Uganda); exclusive digital asset and FinTech partner of Get Blue (per Ripple, Oct 28, 2026)",
-   "grade": "A",
-   "strength": 2,
+   "label": "committed $6M over three years to Water.org plus a $1.25M RLUSD grant via the Stablecoin Impact Fund (Indonesia, Philippines, Uganda) (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-waterorg-deepen-partnership-to-drive-global-access-to-safe-water/",
    "side": "neutral",
