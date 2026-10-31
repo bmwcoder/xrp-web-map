@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-30T20:25:55-04:00",
+  "updated": "2026-10-31T08:30:10-04:00",
   "version": 3
  },
  "nodes": [
@@ -3150,12 +3150,13 @@
    "label": "Default UNL (35 validators, Oct 2026)",
    "type": "builder",
    "handle": "",
-   "summary": "Ripple (vl.ripple.com, seq 85) and XRPL Foundation (unl.xrplf.org, seq 2026070302) publish identical 35-validator default UNLs (100% overlap, checked Oct 19, 2026). Operators include Ripple, XRPL Labs, XRPL Commons, Gatehub, Bithomp, XRPScan, Bitrue, Peersyst, Squid, Interledger, Arrington XRP Capital (via Blockdaemon), and four universities.",
+   "summary": "Ripple (vl.ripple.com, seq 86) and XRPL Foundation (unl.xrplf.org, seq 2026102701) publish identical 35-validator default UNLs (100% overlap, checked Oct 31, 2026). On Oct 28, 2026 the XRPL Foundation list added Flare and removed Anodos at Anodos's own request. Operators include Ripple, XRPL Labs, XRPL Commons, Gatehub, Bithomp, XRPScan, Bitrue, Peersyst, Squid, Interledger, Arrington XRP Capital (via Blockdaemon), and four universities.",
    "grade": "A",
    "sources": [
     "https://unl.xrplf.org",
     "https://vl.ripple.com",
-    "https://api.xrpscan.com/api/v1/validatorregistry"
+    "https://api.xrpscan.com/api/v1/validatorregistry",
+    "https://github.com/XRPLF/unl/pull/25"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "tier": 1
@@ -104005,6 +104006,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026068609/xrpn-20261030.htm",
    "side": "neutral",
    "added": "2026-10-30T20:24:25-04:00"
+  },
+  {
+   "from": "flare",
+   "to": "unl35",
+   "label": "validator key on both default UNLs (vl.ripple.com seq 86 and unl.xrplf.org seq 2026102701; added Oct 28, 2026; checked Oct 31, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://github.com/XRPLF/unl/pull/11",
+   "side": "neutral",
+   "added": "2026-10-31T08:28:43-04:00"
   }
  ]
 }
