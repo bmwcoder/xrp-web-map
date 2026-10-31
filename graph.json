@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-30T12:29:30-04:00",
+  "updated": "2026-10-30T20:25:55-04:00",
   "version": 3
  },
  "nodes": [
@@ -103959,7 +103959,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sygnum.com/news/xrp-now-available-at-sygnum-bank/",
-   "side": "neutral",
+   "side": "supports",
    "added": "2026-10-30T08:23:05-04:00"
   },
   {
@@ -103983,6 +103983,28 @@
    "source": "https://x.com/UpholdInc/status/2115805993455997095",
    "side": "supports",
    "added": "2026-10-30T12:25:58-04:00"
+  },
+  {
+   "from": "gumi",
+   "to": "evernorth",
+   "label": "selling securityholder: 302,332 XRPN Class A (1.2%) registered for resale (Evernorth resale S-1, filed Oct 30, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026068609/xrpn-20261030.htm",
+   "side": "neutral",
+   "added": "2026-10-30T20:24:25-04:00"
+  },
+  {
+   "from": "larsen-trust",
+   "to": "pathfinder",
+   "label": "holds 6,491,583 Company Units of the Evernorth operating company, exchangeable into XRPN Class A (Evernorth resale S-1, filed Oct 30, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026068609/xrpn-20261030.htm",
+   "side": "neutral",
+   "added": "2026-10-30T20:24:25-04:00"
   }
  ]
 }
