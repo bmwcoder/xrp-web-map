@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-01T06:12:26-05:00",
+  "updated": "2026-11-01T08:37:42-05:00",
   "version": 3
  },
  "nodes": [
@@ -31517,6 +31517,42 @@
     "https://ripple.com/insights/the-swell-2026-lineup-is-here/"
    ],
    "added": "2026-10-29T14:29:07-04:00"
+  },
+  {
+   "id": "binance-hack-oct2026",
+   "label": "Binance hack, Oct 29, 2026",
+   "type": "event",
+   "handle": "",
+   "summary": "more than $6B in virtual assets taken from Binance wallets on or about Oct 29, 2026, on ten chains including the XRP Ledger (TRM); FBI attributes it to North Korea's TraderTraitor (alert dated Oct 31, 2026); the FBI address list does not include an XRPL address",
+   "grade": "A",
+   "sources": [
+    "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+   ],
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "id": "w-rk21t6ng",
+   "label": "rK21t6nG… attacker-held XRPL account",
+   "type": "event",
+   "handle": "",
+   "summary": "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx; TRM: five Binance XRPL wallets sent 233.46M XRP to a single attacker address 20:05–20:09 UTC Oct 29, 2026; ledger: holds 233,461,943.70 XRP and has never sent (ledger 108044912, Nov 1, 2026 07:09 ET)",
+   "grade": "B",
+   "sources": [
+    "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history"
+   ],
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "id": "w-tt-eth-sinks",
+   "label": "TraderTraitor Ethereum sinks, 3 FBI-listed addresses",
+   "type": "event",
+   "handle": "",
+   "summary": "0x8532FA14ACAf483729C449b8458aedDb900543D4 (197,460.01 ETH), 0x54401f80Da97893a15D43566184635B6674BC942 (40,600.67 ETH) and 0x03b0eE5d82990cFF1bDa48651AC3e436d1a020ea (17,260.10 ETH); all three on the FBI's Oct 31, 2026 TraderTraitor address list; all at nonce 0 (never sent) at Ethereum block 26319865 (Nov 1, 2026 07:17 ET, publicnode eth_getTransactionCount); held as native ETH, which no issuer can freeze",
+   "grade": "A",
+   "sources": [
+    "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
+   ],
+   "added": "2026-11-01T08:32:41-05:00"
   }
  ],
  "edges": [
@@ -104072,6 +104108,116 @@
    "source": "https://etherscan.io/tx/0xe59c4bdc9a79f250d560fd70c53528a7584af0b0400999a2f16249ff586354dd",
    "side": "supports",
    "added": "2026-10-31T22:24:54-04:00"
+  },
+  {
+   "from": "binance",
+   "to": "binance-hack-oct2026",
+   "label": "victim: about $6.36B moved out of Binance wallets on ten chains (TRM, figures as of Oct 30 00:30 UTC); FBI attribution to North Korea's TraderTraitor (Oct 31, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "binance-hack-oct2026",
+   "to": "w-rk21t6ng",
+   "label": "five Binance XRPL wallets sent 233.46M XRP to this one address 20:05–20:09 UTC Oct 29, 2026 (TRM); amount matches the ledger balance; still unmoved Nov 1, 2026",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "binance-hack-oct2026",
+   "to": "rlusd",
+   "label": "during the exploit response the RLUSD issuer used its per-account pause on Binance 14 (0x28C6c062…1d60), 18:20:47 ET Oct 29, 2026, block 26301350",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etherscan.io/tx/0x6387e1bb8966eb02b030cdb7a57454eb7599ac667858c87d8989eaaecae0d11d",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "binance",
+   "to": "binance-hack-oct2026",
+   "label": "Recovery Update #4 (Nov 1, 2026): phased withdrawals; XRP on the XRP network re-enabled 04:38 ET Nov 1 (@binance); Binance states XRP and RLUSD balances are fully backed and about 95% of the impacted amount is covered (company statement; PoR not independently read)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.binance.com/en/support/announcement/detail/73911fb819b240f88b88256bdd318eda",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "franklin",
+   "to": "canton",
+   "label": "Franklin Templeton tokenized money market fund bought and sold 24/7 against HSBC Tokenized Deposits in DvP on Canton in the Oct 30, 2026 pilot with Uber, Tradeweb and Fireblocks; Franklin also runs the XRPZ spot XRP ETF; XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "fireblocks",
+   "to": "canton",
+   "label": "wallet and signing layer for the Oct 30, 2026 HSBC/Franklin Templeton/Uber 24/7 DvP pilot on Canton",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "binance-hack-oct2026",
+   "to": "rlusd",
+   "label": "the RLUSD issuer paused attacker-linked address 0xe7024ab80143b1ef843efe6a58368696cb87958d (on-chain AccountPaused on the RLUSD contract 0x8292Bb45…17eD, 18:00:59 ET Oct 29, 2026, block 26301251); 40,541,065 RLUSD still held there, frozen (balanceOf at block 26319865, Nov 1, 2026); this address is not on the FBI list",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etherscan.io/tx/0xafd52fb222019aa5eefd5a8331e7a1197484863184b589cc458fc0c8442c8c0f",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "binance-hack-oct2026",
+   "to": "w-tt-eth-sinks",
+   "label": "the FBI alert (Oct 31, 2026) lists these three Ethereum addresses as held by or closely connected to TraderTraitor; on-chain, all three are still at nonce 0 with about 255,321 ETH combined at block 26319865, Nov 1, 2026",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "xrp",
+   "label": "holds only native XRP: 233,461,943.699050 XRP, 0 trust lines, OwnerCount 0, Sequence 107986693 at validated ledger 108045034 (xrplcluster.com account_info and account_lines, Nov 1, 2026 07:17 ET); the only ledger objects are two uncashed inbound spam Checks; not on the FBI list; native XRP can't be frozen by issuers, only exchange and OTC deposit screening can stop it",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://livenet.xrpl.org/accounts/rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx",
+   "side": "neutral",
+   "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "hsbc",
+   "to": "canton",
+   "label": "HSBC Bank USA release (Oct 30, 2026, with Franklin Templeton, Tradeweb, Fireblocks and pilot client Uber): 24/7 liquidity and settlement pilot on Canton; Uber bought and later sold, including over a weekend, Franklin Templeton tokenized money market fund shares against HSBC Tokenized Deposits in delivery-versus-payment; HSBC was named in Ripple's Oct 28 Swell release, but XRP, XRPL and RLUSD are not named here",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
+   "side": "contradicts",
+   "added": "2026-11-01T08:32:41-05:00"
   }
  ]
 }
