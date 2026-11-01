@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-10-31T10:30:12-04:00",
+  "updated": "2026-10-31T22:28:23-04:00",
   "version": 3
  },
  "nodes": [
@@ -104017,6 +104017,61 @@
    "source": "https://github.com/XRPLF/unl/pull/11",
    "side": "neutral",
    "added": "2026-10-31T08:28:43-04:00"
+  },
+  {
+   "from": "rlusd-chain-share-2026-10",
+   "to": "rlusd-xrpl-supply",
+   "label": "707.36M RLUSD on the XRPL, about 29.3% of raw supply (2026-10-31), down from 1,001.88M (38.6%) on Oct 27",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
+   "side": "contradicts",
+   "added": "2026-10-31T22:24:54-04:00"
+  },
+  {
+   "from": "rlusd-chain-share-2026-10",
+   "to": "rlusd-eth-supply",
+   "label": "1,709.84M RLUSD on Ethereum, about 70.7% of raw supply (2026-10-31), up from 1,596.83M on Oct 27",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://etherscan.io/token/0x8292bb45bf1ee4d140127049757c2e0ff06317ed",
+   "side": "neutral",
+   "added": "2026-10-31T22:24:54-04:00"
+  },
+  {
+   "from": "rlusd-xrpl-supply",
+   "to": "rlusd-eth-supply",
+   "label": "Oct 28-30, 2026: 4 XRPL RLUSD redemptions (60.86M) were matched by same-size Ethereum mints within 1 minute, a likely chain move; the other ~287M of 347.75M redeemed via rGpaXxcB had no matching mint",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/account/rGpaXxcBQFCkELhqnHbrascpPDdxSbNqxA",
+   "side": "contradicts",
+   "added": "2026-10-31T22:24:54-04:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "curve",
+   "label": "RLUSD fell to $0.9467 on Curve's RLUSD/USDC pool during the forced sale of hacked RLUSD (Oct 29, 2026, 17:53 ET): 2,000,000 RLUSD in, 1,893,392.19 USDC out",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0xe901adb62549ff41cbdf30c802219c8feeaaeeff0732f22c2b508d136c07ed2b",
+   "side": "contradicts",
+   "added": "2026-10-31T22:24:54-04:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "curve",
+   "label": "RLUSD's Curve RLUSD/USDC fill was back at $0.99856 about 7.5 minutes after the trough (Oct 29, 2026, 18:00:59 ET), consistent with fast arbitrage refilling the pool",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0xe59c4bdc9a79f250d560fd70c53528a7584af0b0400999a2f16249ff586354dd",
+   "side": "supports",
+   "added": "2026-10-31T22:24:54-04:00"
   }
  ]
 }
