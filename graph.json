@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-02T00:34:22-05:00",
+  "updated": "2026-11-02T08:29:31-05:00",
   "version": 3
  },
  "nodes": [
@@ -104394,6 +104394,39 @@
    "source": "https://xrpscan.com/tx/0CF6FAF899D3D09573380E2F65B12CC9F75B78464FF36E74ABBD27812CAC01A0",
    "side": "neutral",
    "added": "2026-11-02T00:31:01-05:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "hkma",
+   "label": "Standard Chartered's own release (Nov 2, 2026): Tokenised Deposits launched in Hong Kong for corporate clients on the bank's proprietary blockchain, with 24/7 interbank settlement in tokenised central bank money (incl. wholesale CBDC) via HKMA EnsembleTX; Fireblocks, HashKey, China AMC, Finloop and PantherTrade named; the bank was named in Ripple's Oct 28 Swell release, but XRP, XRPL, Ripple and RLUSD are not named here",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sc.com/en/press-release/standard-chartered-launches-tokenised-deposits-in-hong-kong/",
+   "side": "contradicts",
+   "added": "2026-11-02T08:25:49-05:00"
+  },
+  {
+   "from": "cantor",
+   "to": "evernorth",
+   "label": "the committed equity facility resale registration (S-1 333-299620) was declared effective Oct 30, 2026 16:00 ET (SEC EFFECT notice posted Nov 2, 2026); the final prospectus (424B3) was filed Oct 30; no draw has been disclosed as of Nov 2",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/999999999526003391/primary_doc.xml",
+   "side": "neutral",
+   "added": "2026-11-02T08:26:24-05:00"
+  },
+  {
+   "from": "hkma",
+   "to": "stanchart",
+   "label": "EnsembleTX moved to 24/7 interbank settlement of tokenised deposits in tokenised central bank money (Nov 2, 2026); 12 participating banks incl. Bank of China (HK), CCB (Asia), ICBC (Asia), Standard Chartered (HK) and HSBC; pioneers incl. Ant International, BlackRock and China AMC; no XRP/XRPL role",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.info.gov.hk/gia/general/202611/02/P2026110200535.htm",
+   "side": "neutral",
+   "added": "2026-11-02T08:26:24-05:00"
   }
  ]
 }
