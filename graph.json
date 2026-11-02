@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-02T08:29:31-05:00",
+  "updated": "2026-11-02T10:25:10-05:00",
   "version": 3
  },
  "nodes": [
@@ -104427,6 +104427,17 @@
    "source": "https://www.info.gov.hk/gia/general/202611/02/P2026110200535.htm",
    "side": "neutral",
    "added": "2026-11-02T08:26:24-05:00"
+  },
+  {
+   "from": "imf",
+   "to": "xrpl",
+   "label": "IMF Oct 2026 GFSR, Ch. 3 'Scaling Tokenization: New Efficiencies, New Vulnerabilities', Figure 3.4 'Layers of Concentration in Tokenized Market Infrastructure' (p. 49), panel 1 'Tokenized Value, by Blockchain Network (Share of total)' lists 'XRP Ledger' alongside Ethereum, Solana, Avalanche, Stellar, BNB Chain and Other (sources: RWA.xyz; IMF staff calculations; excludes tokenized repos and stablecoins); chart legend only (passing): XRPL is not named in the chapter's risk or policy text; no Ripple, RLUSD or XRP-token mention found",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf",
+   "side": "neutral",
+   "added": "2026-11-02T10:23:36-05:00"
   }
  ]
 }
