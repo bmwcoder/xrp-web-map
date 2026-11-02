@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-02T10:25:10-05:00",
+  "updated": "2026-11-02T18:27:04-05:00",
   "version": 3
  },
  "nodes": [
@@ -104438,6 +104438,17 @@
    "source": "https://www.imf.org/-/media/files/publications/gfsr/2026/october/english/ch3.pdf",
    "side": "neutral",
    "added": "2026-11-02T10:23:36-05:00"
+  },
+  {
+   "from": "imf",
+   "to": "eurcv",
+   "label": "IMF Note 2026/006 'The Rise of Tokenization: Deciphering New Trends in Payments and Asset Tokenization' (Adrian, Cabedo, Mancini-Griffoli; published Jul 2, 2026) cites \"Société Générale’s EUR denominated stablecoin CoinVertible issued on Ethereum, Solana, Stellar, and the XRP Ledger\" as an example of banks issuing stablecoins on permissionless blockchains (passing mention; cites SG Forge 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.elibrary.imf.org/view/journals/068/2026/006/article-A001-en.xml",
+   "side": "neutral",
+   "added": "2026-11-02T18:25:47-05:00"
   }
  ]
 }
