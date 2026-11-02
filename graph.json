@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-01T22:29:13-05:00",
+  "updated": "2026-11-02T00:34:22-05:00",
   "version": 3
  },
  "nodes": [
@@ -31532,13 +31532,14 @@
   },
   {
    "id": "w-rk21t6ng",
-   "label": "rK21t6nG… attacker-held XRPL account",
+   "label": "rK21t6nG… suspected hack wallet (XRPScan: reported as hacked; ownership unverified) XRPL account",
    "type": "event",
    "handle": "",
-   "summary": "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx; TRM: five Binance XRPL wallets sent 233.46M XRP to a single attacker address 20:05–20:09 UTC Oct 29, 2026; ledger: holds 233,461,943.70 XRP and has never sent (ledger 108044912, Nov 1, 2026 07:09 ET)",
+   "summary": "rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx; TRM: five Binance XRPL wallets sent 233.46M XRP to a single attacker address 20:05–20:09 UTC Oct 29, 2026; ledger: holds 233,461,943.70 XRP and had never sent as of ledger 108044912 (Nov 1, 2026 07:09 ET). On-chain update Nov 1, 2026: drained 11/01 into six new accounts. From 21:12:40 to 23:00:31 ET it sent 16 untagged XRP Payments: seven 1,000 XRP sends, each activating a new account (first: 22B06ABC… to rJheAAxF…, ledger 108057546), then 233,454,920 XRP to six of those accounts (ryB7NESZ…, rKxwzjpZ…, rhfA8Qzp…, rsNoNkb1… and rhXtRtpf… now 40,001,000 each; raoMrxbM… 33,455,920). It held 23.69905 XRP at validated ledger 108059514 (23:23 ET). As of then, none of the recipients had sent onward. Ownership of rK21t6nG… and of the recipients is unverified.",
    "grade": "B",
    "sources": [
-    "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history"
+    "https://www.trmlabs.com/resources/blog/north-korea-steals-usd-6-36-billion-from-binance-in-the-largest-hack-in-history",
+    "https://xrpscan.com/account/rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx"
    ],
    "added": "2026-11-01T08:32:41-05:00"
   },
@@ -31553,6 +31554,93 @@
     "https://www.fbi.gov/investigate/cyber/alerts/2026/north-korea-responsible-for-6-billion-binance-attack"
    ],
    "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "id": "w-rkxwzjpz",
+   "label": "rKxwzjpZ… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "type": "event",
+   "handle": "",
+   "summary": "rKxwzjpZj5r9eXnCJQvLVUnebpGEHTDH1F; activated Nov 1, 2026 22:48:31 ET (ledger 108058991) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 30,000,000 XRP at 22:53:40 ET (9276B5D5…) and 10,000,000 XRP at 22:58:21 ET (1597D75A…). Balance 40,001,000 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rKxwzjpZj5r9eXnCJQvLVUnebpGEHTDH1F",
+    "https://xrpscan.com/tx/5F85EB35327EE1E15A0B9BE6DC721AE2204C84B5EDD68BBBD779341ABF442A4C",
+    "https://xrpscan.com/tx/9276B5D5876F3805CF9BCA7038CB56DD1DBA4DE673E6EFD7D5FE6EE34BF51671",
+    "https://xrpscan.com/tx/1597D75A8C1F4734EF68C459DE45B8B50DB19B0345C70301D269FBBF76D4D82F"
+   ],
+   "added": "2026-11-02T00:30:02-05:00"
+  },
+  {
+   "id": "w-ryb7nesz",
+   "label": "ryB7NESZ… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "type": "event",
+   "handle": "",
+   "summary": "ryB7NESZcttqzRioiD5L6Kf5tFL87ktmx; activated Nov 1, 2026 22:47:11 ET (ledger 108058971) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 30,000,000 XRP at 22:52:41 ET (156CB85F…) and 10,000,000 XRP at 22:57:20 ET (7D6CC61F…). Balance 40,001,000 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/ryB7NESZcttqzRioiD5L6Kf5tFL87ktmx",
+    "https://xrpscan.com/tx/DFDABF76FBC4CF7C5103E7FF4808EBE1654F7D7D64CFA614E09B1D1DAF3B5ED9",
+    "https://xrpscan.com/tx/156CB85F02F55DCFFC757A88402515472413F085CCB73C032E4C67AF1E34EB69",
+    "https://xrpscan.com/tx/7D6CC61F70A8332DAC76EBC36FD05788268C025CF331FC5389CED98DBFB5627B"
+   ],
+   "added": "2026-11-02T00:30:02-05:00"
+  },
+  {
+   "id": "w-rhfa8qzp",
+   "label": "rhfA8Qzp… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "type": "event",
+   "handle": "",
+   "summary": "rhfA8QzpcDPYX3safySLrvT5afnNjHc9XB; activated Nov 1, 2026 22:49:10 ET (ledger 108058999) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 30,000,000 XRP at 22:54:41 ET (3885C363…) and 10,000,000 XRP at 22:59:00 ET (B416DB72…). Balance 40,001,000 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rhfA8QzpcDPYX3safySLrvT5afnNjHc9XB",
+    "https://xrpscan.com/tx/6FD7CF5695FDD3FBB2B6DD0C66A79AFB438A10A35816053241873AC5393DC5D9",
+    "https://xrpscan.com/tx/3885C363F650AF8B0EF7CAFE754B049E35DC7B119847BE8C1A31583340A0CA62",
+    "https://xrpscan.com/tx/B416DB72953E794BFFAA079C58E8AA010D386CD08D841258E7109A87B33D16D4"
+   ],
+   "added": "2026-11-02T00:30:02-05:00"
+  },
+  {
+   "id": "w-rsnonkb1",
+   "label": "rsNoNkb1… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "type": "event",
+   "handle": "",
+   "summary": "rsNoNkb1zqMBR1rjbrasUzExqjCDXseisW; activated Nov 1, 2026 22:50:00 ET (ledger 108059012) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 40,000,000 XRP at 22:55:31 ET (DC8D39BC…). Balance 40,001,000 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rsNoNkb1zqMBR1rjbrasUzExqjCDXseisW",
+    "https://xrpscan.com/tx/227F40E1936F41845629B828BDEA7346CC4077E727DDEBB8594657F13BE23C7C",
+    "https://xrpscan.com/tx/DC8D39BC98DB7EDB76EE18E7DD6B0874DA83B51091E2BBFD6C4C70C156A0436A"
+   ],
+   "added": "2026-11-02T00:30:02-05:00"
+  },
+  {
+   "id": "w-rhxtrtpf",
+   "label": "rhXtRtpf… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "type": "event",
+   "handle": "",
+   "summary": "rhXtRtpfZRAKVayWd5Z5kRJ2YXYkcuxNRD; activated Nov 1, 2026 22:50:22 ET (ledger 108059019) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 40,000,000 XRP at 22:56:21 ET (3AAA8BEE…). Balance 40,001,000 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rhXtRtpfZRAKVayWd5Z5kRJ2YXYkcuxNRD",
+    "https://xrpscan.com/tx/F018AC7056FD7A221CD9907D2971775F54E208CA424BAEFDCAD3E70375491A05",
+    "https://xrpscan.com/tx/3AAA8BEE45ADFD6833A2CAED9E28D00F82C20278F730BA722B79DB453B0E617D"
+   ],
+   "added": "2026-11-02T00:30:02-05:00"
+  },
+  {
+   "id": "w-raomrxbm",
+   "label": "raoMrxbM… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "type": "event",
+   "handle": "",
+   "summary": "raoMrxbMFo5xpVfE9VPoEuVpv1CTtebm5t; activated Nov 1, 2026 22:50:42 ET (ledger 108059024) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 33,454,920 XRP at 23:00:31 ET (0CF6FAF8…). Balance 33,455,920 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/raoMrxbMFo5xpVfE9VPoEuVpv1CTtebm5t",
+    "https://xrpscan.com/tx/FBD767C477DE179FEFBE070B31E520A85F8512972B27D3A1AF2113BF3B927FFE",
+    "https://xrpscan.com/tx/0CF6FAF899D3D09573380E2F65B12CC9F75B78464FF36E74ABBD27812CAC01A0"
+   ],
+   "added": "2026-11-02T00:30:02-05:00"
   }
  ],
  "edges": [
@@ -104123,7 +104211,7 @@
   {
    "from": "binance-hack-oct2026",
    "to": "w-rk21t6ng",
-   "label": "five Binance XRPL wallets sent 233.46M XRP to this one address 20:05–20:09 UTC Oct 29, 2026 (TRM); amount matches the ledger balance; still unmoved Nov 1, 2026",
+   "label": "five Binance XRPL wallets sent 233.46M XRP to this one address 20:05–20:09 UTC Oct 29, 2026 (TRM); amount matches the ledger balance; Drained Nov 1, 2026 (22:47–23:00 EST) into six new, unlabelled accounts. Ownership unverified.",
    "grade": "B",
    "strength": 2,
    "key": false,
@@ -104200,7 +104288,7 @@
   {
    "from": "w-rk21t6ng",
    "to": "xrp",
-   "label": "holds only native XRP: 233,461,943.699050 XRP, 0 trust lines, OwnerCount 0, Sequence 107986693 at validated ledger 108045034 (xrplcluster.com account_info and account_lines, Nov 1, 2026 07:17 ET); the only ledger objects are two uncashed inbound spam Checks; not on the FBI list; native XRP can't be frozen by issuers, only exchange and OTC deposit screening can stop it",
+   "label": "held only native XRP (233,461,943.699050 XRP before the Nov 1, 2026 22:47–23:00 EST drain; 23.69905 XRP left after it), 0 trust lines, OwnerCount 0, Sequence 107986693 at validated ledger 108045034 (xrplcluster.com account_info and account_lines, Nov 1, 2026 07:17 ET); the only ledger objects are two uncashed inbound spam Checks; not on the FBI list; native XRP can't be frozen by issuers, only exchange and OTC deposit screening can stop it",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -104240,6 +104328,72 @@
    "source": "https://api.xrpscan.com/api/v1/tx/71BB08412E8A4746F1AA3E0737CDDADAB21DF7EF5B2F0CFB2FE95A09114A2E5F",
    "side": "neutral",
    "added": "2026-11-01T22:27:45-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "w-ryb7nesz",
+   "label": "sent 40,001,000 XRP to ryB7NESZ… in 3 untagged Payments (1,000 + 30,000,000 + 10,000,000), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/7D6CC61F70A8332DAC76EBC36FD05788268C025CF331FC5389CED98DBFB5627B",
+   "side": "neutral",
+   "added": "2026-11-02T00:31:01-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "w-rkxwzjpz",
+   "label": "sent 40,001,000 XRP to rKxwzjpZ… in 3 untagged Payments (1,000 + 30,000,000 + 10,000,000), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/1597D75A8C1F4734EF68C459DE45B8B50DB19B0345C70301D269FBBF76D4D82F",
+   "side": "neutral",
+   "added": "2026-11-02T00:31:01-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "w-rhfa8qzp",
+   "label": "sent 40,001,000 XRP to rhfA8Qzp… in 3 untagged Payments (1,000 + 30,000,000 + 10,000,000), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/B416DB72953E794BFFAA079C58E8AA010D386CD08D841258E7109A87B33D16D4",
+   "side": "neutral",
+   "added": "2026-11-02T00:31:01-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "w-rsnonkb1",
+   "label": "sent 40,001,000 XRP to rsNoNkb1… in 2 untagged Payments (1,000 + 40,000,000), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/DC8D39BC98DB7EDB76EE18E7DD6B0874DA83B51091E2BBFD6C4C70C156A0436A",
+   "side": "neutral",
+   "added": "2026-11-02T00:31:01-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "w-rhxtrtpf",
+   "label": "sent 40,001,000 XRP to rhXtRtpf… in 2 untagged Payments (1,000 + 40,000,000), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/3AAA8BEE45ADFD6833A2CAED9E28D00F82C20278F730BA722B79DB453B0E617D",
+   "side": "neutral",
+   "added": "2026-11-02T00:31:01-05:00"
+  },
+  {
+   "from": "w-rk21t6ng",
+   "to": "w-raomrxbm",
+   "label": "sent 33,455,920 XRP to raoMrxbM… in 2 untagged Payments (1,000 + 33,454,920), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://xrpscan.com/tx/0CF6FAF899D3D09573380E2F65B12CC9F75B78464FF36E74ABBD27812CAC01A0",
+   "side": "neutral",
+   "added": "2026-11-02T00:31:01-05:00"
   }
  ]
 }
