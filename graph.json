@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-01T20:26:31-05:00",
+  "updated": "2026-11-01T22:29:13-05:00",
   "version": 3
  },
  "nodes": [
@@ -104229,6 +104229,17 @@
    "source": "https://www.linkedin.com/posts/mastercard_stablecoin-blockchain-payments-activity-7467909363710525440-FZRE",
    "side": "neutral",
    "added": "2026-11-01T20:25:15-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "ripple-escrow",
+   "label": "Ripple re-locked 700M XRP into new escrows on Nov 1, 2026 (12:38–12:42 ET; unlock dates Jun 1 and Jul 1, 2029), leaving 31.1B XRP in 99 escrows",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/tx/71BB08412E8A4746F1AA3E0737CDDADAB21DF7EF5B2F0CFB2FE95A09114A2E5F",
+   "side": "neutral",
+   "added": "2026-11-01T22:27:45-05:00"
   }
  ]
 }
