@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-01T08:37:42-05:00",
+  "updated": "2026-11-01T20:26:31-05:00",
   "version": 3
  },
  "nodes": [
@@ -104218,6 +104218,17 @@
    "source": "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
    "side": "contradicts",
    "added": "2026-11-01T08:32:41-05:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "cbw",
+   "label": "Mastercard names CBW Bank among the first to support its stablecoin settlement option (Jun 3, 2026 release; planned; no XRP or RLUSD tie to CBW stated)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.linkedin.com/posts/mastercard_stablecoin-blockchain-payments-activity-7467909363710525440-FZRE",
+   "side": "neutral",
+   "added": "2026-11-01T20:25:15-05:00"
   }
  ]
 }
