@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T04:24:55-05:00",
+  "updated": "2026-11-03T06:27:03-05:00",
   "version": 3
  },
  "nodes": [
@@ -104586,6 +104586,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2090452/000110465926120989/tm2628734d1_ex99-2.htm",
    "side": "neutral",
    "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "mercadobitcoin",
+   "label": "RLUSD issuer controls used: 39,335 RLUSD taken in the Mercado Bitcoin hack was paused in the attacker-linked Ethereum wallet 0x3c6Daf92 via the RLUSD pauser contract (tx 0xd26b3ead…, block 26,328,391, Nov 2, 2026 11:48 EST); shows the freeze control exists and was used, says nothing about adoption",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0xd26b3eadcc1557b4cf8a47b965d63e9036569dd3eb79aec64baead89553d2830",
+   "side": "neutral",
+   "added": "2026-11-03T06:25:47-05:00"
   }
  ]
 }
