@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T06:27:03-05:00",
+  "updated": "2026-11-03T08:27:40-05:00",
   "version": 3
  },
  "nodes": [
@@ -31690,6 +31690,19 @@
     "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
    ],
    "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "id": "mercadobitcoin-incident-2026-11-02",
+   "label": "Mercado Bitcoin security incident (Nov 2, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Mercado Bitcoin's own posts (Nov 2, 2026): it found and contained a security incident in one of its systems overnight; says no customer losses and no data leak; deposits and withdrawals temporarily paused; it published destination addresses on EVM, BTC, SOL, XLM and TRON only (no XRPL address listed)",
+   "grade": "A",
+   "sources": [
+    "https://x.com/MercadoBitcoin/status/2117239507263132056",
+    "https://x.com/MercadoBitcoin/status/2117261565200146525"
+   ],
+   "added": "2026-11-03T08:26:22-05:00"
   }
  ],
  "edges": [
@@ -104597,6 +104610,17 @@
    "source": "https://etherscan.io/tx/0xd26b3eadcc1557b4cf8a47b965d63e9036569dd3eb79aec64baead89553d2830",
    "side": "neutral",
    "added": "2026-11-03T06:25:47-05:00"
+  },
+  {
+   "from": "mercadobitcoin",
+   "to": "mercadobitcoin-incident-2026-11-02",
+   "label": "Mercado Bitcoin's own posts (Nov 2, 2026): security incident in one system overnight, contained; says no customer losses and no data leak; deposits and withdrawals paused; published destination addresses are EVM, BTC, SOL, XLM and TRON only (no XRPL address listed)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/MercadoBitcoin/status/2117261565200146525",
+   "side": "neutral",
+   "added": "2026-11-03T08:26:22-05:00"
   }
  ]
 }
