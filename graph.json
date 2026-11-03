@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-02T18:27:04-05:00",
+  "updated": "2026-11-03T02:26:07-05:00",
   "version": 3
  },
  "nodes": [
@@ -31641,6 +31641,55 @@
     "https://xrpscan.com/tx/0CF6FAF899D3D09573380E2F65B12CC9F75B78464FF36E74ABBD27812CAC01A0"
    ],
    "added": "2026-11-02T00:30:02-05:00"
+  },
+  {
+   "id": "nyse",
+   "label": "New York Stock Exchange (NYSE Group)",
+   "type": "company",
+   "handle": "@NYSE",
+   "summary": "NYSE Group, part of ICE. On Nov 2, 2026 it named six transfer agents (Securitize, tZERO, Broadridge, Computershare, Equiniti, Superstate) for Issuer Sponsored Tokenized Securities on a planned NYSE-affiliated tokenized-securities venue, pending regulatory approval; the page says the platform can support multiple chains but names no chain.",
+   "grade": "A",
+   "sources": [
+    "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
+   ],
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "id": "tzero",
+   "label": "tZERO",
+   "type": "company",
+   "handle": "@tZERO",
+   "summary": "Regulated tokenization and digital transfer agent firm, merging with FG Imperii Acquisition Corp. Its investor deck filed with the SEC (Nov 2026) calls it chain-agnostic and lists the XRP Ledger among about 17 chains (R255). Named an NYSE transfer agent partner Nov 2, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2090452/000110465926120989/tm2628734d1_ex99-2.htm",
+    "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
+   ],
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "id": "computershare",
+   "label": "Computershare",
+   "type": "company",
+   "handle": "",
+   "summary": "Transfer agent; named Nov 2, 2026 as an NYSE transfer agent partner for Issuer Sponsored Tokenized Securities. The NYSE page names no chain for it.",
+   "grade": "A",
+   "sources": [
+    "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
+   ],
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "id": "equiniti",
+   "label": "Equiniti",
+   "type": "company",
+   "handle": "",
+   "summary": "Transfer agent; named Nov 2, 2026 as an NYSE transfer agent partner for Issuer Sponsored Tokenized Securities. The NYSE page names no chain for it.",
+   "grade": "A",
+   "sources": [
+    "https://www.nyse.com/research/insights/nyse-transfer-agent-partners"
+   ],
+   "added": "2026-11-03T02:22:40-05:00"
   }
  ],
  "edges": [
@@ -104449,6 +104498,94 @@
    "source": "https://www.elibrary.imf.org/view/journals/068/2026/006/article-A001-en.xml",
    "side": "neutral",
    "added": "2026-11-02T18:25:47-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "securitize",
+   "label": "NYSE named it a transfer agent partner for Issuer Sponsored Tokenized Securities on a pending NYSE-affiliated tokenized venue (Nov 2, 2026); NYSE named no chain",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "tzero",
+   "label": "NYSE named it a transfer agent partner for Issuer Sponsored Tokenized Securities on a pending NYSE-affiliated tokenized venue (Nov 2, 2026); NYSE named no chain",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "broadridge",
+   "label": "NYSE named it a transfer agent partner for Issuer Sponsored Tokenized Securities on a pending NYSE-affiliated tokenized venue (Nov 2, 2026); NYSE named no chain",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "computershare",
+   "label": "NYSE named it a transfer agent partner for Issuer Sponsored Tokenized Securities on a pending NYSE-affiliated tokenized venue (Nov 2, 2026); NYSE named no chain",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "equiniti",
+   "label": "NYSE named it a transfer agent partner for Issuer Sponsored Tokenized Securities on a pending NYSE-affiliated tokenized venue (Nov 2, 2026); NYSE named no chain",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "superstate",
+   "label": "NYSE named it a transfer agent partner for Issuer Sponsored Tokenized Securities on a pending NYSE-affiliated tokenized venue (Nov 2, 2026); NYSE named no chain",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "ice",
+   "to": "nyse",
+   "label": "NYSE Group is part of ICE (NYSE page, Nov 2, 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.nyse.com/research/insights/nyse-transfer-agent-partners",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
+  },
+  {
+   "from": "tzero",
+   "to": "xrpl",
+   "label": "tZERO's SEC-filed investor deck lists XRPL among ~17 chains it supports (chain-agnostic; no XRP payment or settlement use named; R255)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2090452/000110465926120989/tm2628734d1_ex99-2.htm",
+   "side": "neutral",
+   "added": "2026-11-03T02:22:40-05:00"
   }
  ]
 }
