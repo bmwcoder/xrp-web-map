@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T14:33:36-05:00",
+  "updated": "2026-11-03T16:26:53-05:00",
   "version": 3
  },
  "nodes": [
@@ -104639,7 +104639,7 @@
   {
    "from": "binance",
    "to": "xrp",
-   "label": "Binance initial findings report: five hot wallets sent 233.46M XRP to an attacker-controlled address 20:05-20:09 UTC Oct 29; ~$6.34B impacted, ~$2.85B frozen/intercepted, 98% replenished as of Oct 31 (Binance's own X Article, Nov 3, 2026)",
+   "label": "Binance initial findings report: five hot wallets sent 233.46M XRP to an attacker-controlled address 20:05-20:09 UTC Oct 29; ~$6.34B impacted, ~$2.85B frozen/intercepted, 98% replenished as of Oct 31; Binance cites the FBI attributing the attack to North Korea (DPRK) (Binance's own X Article, Nov 3, 2026)",
    "grade": "A",
    "strength": 3,
    "key": true,
