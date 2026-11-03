@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T08:27:40-05:00",
+  "updated": "2026-11-03T10:31:12-05:00",
   "version": 3
  },
  "nodes": [
@@ -10745,6 +10745,7 @@
    "type": "company",
    "handle": "",
    "summary": "Global exchange. 145 XRPScan-labeled XRP wallets hold ~2.74B XRP (rich list); the 17 wallets holding ≥5M had 2,643.7M live. Largest: rs8ZPbYqgecRcDzQpJYAMhSxSi5htsjnza 1,577.7M; rJpj1Mv21gJzsbsVnkp1U4nqchZbmZ9pM5 ('XRP-BF2 Reserve', backing Binance-Peg XRP) 325.8M; rP3mUZyC… 150.0M; hot wallet rDAE53Vf… ~134.6M. Live XRPL balances read Oct 19, 2026 ~22:41 ET (ledger 107,774,785), from XRPScan-labeled wallets; a floor, because unlabeled wallets are missed.",
+   "why": "Binance lists RLUSD and holds some of the largest labelled XRP and XRPL RLUSD balances, and its own Nov 3, 2026 report says 233.46M XRP left five of its hot wallets in the Oct 29 hack.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rs8ZPbYqgecRcDzQpJYAMhSxSi5htsjnza",
@@ -104621,6 +104622,17 @@
    "source": "https://x.com/MercadoBitcoin/status/2117261565200146525",
    "side": "neutral",
    "added": "2026-11-03T08:26:22-05:00"
+  },
+  {
+   "from": "binance",
+   "to": "xrp",
+   "label": "Binance initial findings report: five hot wallets sent 233.46M XRP to an attacker-controlled address 20:05-20:09 UTC Oct 29; ~$6.34B impacted, ~$2.85B frozen/intercepted, 98% replenished as of Oct 31 (Binance's own X Article, Nov 3, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": true,
+   "source": "https://x.com/binance/status/2117626126214504729",
+   "side": "neutral",
+   "added": "2026-11-03T10:29:37-05:00"
   }
  ]
 }
