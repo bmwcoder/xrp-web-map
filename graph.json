@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T02:26:07-05:00",
+  "updated": "2026-11-03T04:24:55-05:00",
   "version": 3
  },
  "nodes": [
@@ -104199,7 +104199,7 @@
    "strength": 3,
    "key": false,
    "source": "https://xrpscan.com/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-31T22:24:54-04:00"
   },
   {
@@ -104221,7 +104221,7 @@
    "strength": 2,
    "key": false,
    "source": "https://xrpscan.com/account/rGpaXxcBQFCkELhqnHbrascpPDdxSbNqxA",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-31T22:24:54-04:00"
   },
   {
