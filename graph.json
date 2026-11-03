@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T10:31:12-05:00",
+  "updated": "2026-11-03T14:33:36-05:00",
   "version": 3
  },
  "nodes": [
@@ -31704,6 +31704,19 @@
     "https://x.com/MercadoBitcoin/status/2117261565200146525"
    ],
    "added": "2026-11-03T08:26:22-05:00"
+  },
+  {
+   "id": "cline",
+   "label": "Cline",
+   "type": "company",
+   "handle": "@cline",
+   "summary": "Company behind the open-source Cline AI coding agent. t54 says the two are exploring agent payments for AI compute via Mastercard Agent Pay for Machines with x402, examining RLUSD settlement on XRPL (Nov 3, 2026).",
+   "grade": "B",
+   "sources": [
+    "https://x.com/t54ai/status/2117606343150596491",
+    "https://www.t54.ai/blog/t54-and-cline-explore-agent-payments-for-ai-compute"
+   ],
+   "added": "2026-11-03T14:32:20-05:00"
   }
  ],
  "edges": [
@@ -104633,6 +104646,28 @@
    "source": "https://x.com/binance/status/2117626126214504729",
    "side": "neutral",
    "added": "2026-11-03T10:29:37-05:00"
+  },
+  {
+   "from": "t54",
+   "to": "cline",
+   "label": "planned: exploring agent payments for AI compute in Cline via Mastercard Agent Pay for Machines and x402, examining RLUSD settlement on XRPL alongside other stablecoins; not live (t54's own post and blog, Nov 3, 2026; Cline has not posted)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/t54ai/status/2117606343150596491",
+   "side": "supports",
+   "added": "2026-11-03T14:32:20-05:00"
+  },
+  {
+   "from": "t54",
+   "to": "mastercard",
+   "label": "planned: t54 x Cline exploration built on Mastercard Agent Pay for Machines (AP4M); not live (t54's own post and blog, Nov 3, 2026; Mastercard has not posted)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/t54ai/status/2117606343150596491",
+   "side": "neutral",
+   "added": "2026-11-03T14:32:20-05:00"
   }
  ]
 }
