@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-03T18:29:35-05:00",
+  "updated": "2026-11-04T08:27:50-05:00",
   "version": 3
  },
  "nodes": [
@@ -104690,6 +104690,28 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2055592/000205559226000026/a2025-12x26xamendmenttogem.htm",
    "side": "neutral",
    "added": "2026-11-03T18:28:03-05:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "rlusd",
+   "label": "Garlinghouse's own X reply (Nov 3, 2026): \"RLUSD isn't competing with XRP. It's competing with other stablecoins. Use case matters, and I want those use cases running on the XRPL.\"",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/bgarlinghouse/status/2117668164045623793",
+   "side": "neutral",
+   "added": "2026-11-04T08:26:31-05:00"
+  },
+  {
+   "from": "rlusd",
+   "to": "gemini",
+   "label": "XRPL ledger (Nov 2, 2026, 15:43 ET): RLUSD issuer issued 110,565,832.13 RLUSD via r9c6A65 to Gemini, then 38,837,593.95 at 15:49; together 149,403,426.08, equal to Gemini's Oct 30 redemptions; a recurring month-end cycle (Jan–Oct 2026 pattern), not new issuance demand",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/68E6A0BD1F7C67C798D81767B3C8FB147EE42349835A693198FB689DD58D6187",
+   "side": "neutral",
+   "added": "2026-11-04T08:26:31-05:00"
   }
  ]
 }
