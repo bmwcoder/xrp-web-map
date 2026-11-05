@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-05T12:27:46-05:00",
+  "updated": "2026-11-05T14:33:58-05:00",
   "version": 3
  },
  "nodes": [
@@ -31745,6 +31745,49 @@
     "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network"
    ],
    "added": "2026-11-05T10:25:27-05:00"
+  },
+  {
+   "id": "quaxar",
+   "label": "Quaxar",
+   "type": "company",
+   "handle": "",
+   "summary": "Rust implementation of the XRP Ledger server (TusharPardhe/quaxar). Beta; per its README, testnet runs reached full and proposing and published signed validations. Not on mainnet.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/TusharPardhe/quaxar"
+   ],
+   "added": "2026-11-05T14:32:26-05:00",
+   "sector": "builders",
+   "tier": 3
+  },
+  {
+   "id": "rxrpl",
+   "label": "rxrpl",
+   "type": "company",
+   "handle": "",
+   "summary": "Rust XRPL node and validator implementation, also usable as an SDK (RomThpt/rxrpl README). Listed as a supported client in XRPL Commons' xrpl-hive.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/RomThpt/rxrpl",
+    "https://github.com/XRPL-Commons/xrpl-hive"
+   ],
+   "added": "2026-11-05T14:32:26-05:00",
+   "sector": "builders",
+   "tier": 3
+  },
+  {
+   "id": "xrpl-hive",
+   "label": "xrpl-hive (XRPL Commons)",
+   "type": "company",
+   "handle": "",
+   "summary": "Cross-client integration test framework for XRPL node implementations, forked from Ethereum Hive; supports rippled, goXRPL and rxrpl.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/XRPL-Commons/xrpl-hive"
+   ],
+   "added": "2026-11-05T14:32:26-05:00",
+   "sector": "builders",
+   "tier": 3
   }
  ],
  "edges": [
@@ -104806,6 +104849,61 @@
    "source": "https://yellow.org/.well-known/xrp-ledger.toml",
    "side": "neutral",
    "added": "2026-11-05T12:26:27-05:00"
+  },
+  {
+   "from": "quaxar",
+   "to": "xrpl",
+   "label": "independent Rust XRPL server; testnet proposing per README (Nov 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/TusharPardhe/quaxar",
+   "side": "neutral",
+   "added": "2026-11-05T14:32:26-05:00"
+  },
+  {
+   "from": "rxrpl",
+   "to": "xrpl",
+   "label": "independent Rust XRPL node/validator implementation (README)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/RomThpt/rxrpl",
+   "side": "neutral",
+   "added": "2026-11-05T14:32:26-05:00"
+  },
+  {
+   "from": "xrpl-commons",
+   "to": "xrpl-hive",
+   "label": "XRPL Commons repo: cross-client test harness (rippled, goXRPL, rxrpl)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/XRPL-Commons/xrpl-hive",
+   "side": "neutral",
+   "added": "2026-11-05T14:32:26-05:00"
+  },
+  {
+   "from": "xrpl-hive",
+   "to": "go-xrpl",
+   "label": "lists goXRPL as a supported client under test",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/XRPL-Commons/xrpl-hive",
+   "side": "neutral",
+   "added": "2026-11-05T14:32:26-05:00"
+  },
+  {
+   "from": "dbs",
+   "to": "ripple",
+   "label": "DBS GlobeSend gives Ripple Asia collection and payout via a single API (Euromoney award, Nov 5 2026); no XRP named",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.euromoney.com/article/1ho29c0jx58ko8so844gcg48c/asias-best-financial-institutions-deal-2026-dbs-ripple-group/",
+   "side": "neutral",
+   "added": "2026-11-05T14:32:26-05:00"
   }
  ]
 }
