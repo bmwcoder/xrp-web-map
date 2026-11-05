@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-04T08:27:50-05:00",
+  "updated": "2026-11-05T02:27:27-05:00",
   "version": 3
  },
  "nodes": [
@@ -31717,6 +31717,21 @@
     "https://www.t54.ai/blog/t54-and-cline-explore-agent-payments-for-ai-compute"
    ],
    "added": "2026-11-03T14:32:20-05:00"
+  },
+  {
+   "id": "go-xrpl",
+   "label": "go-xrpl (LeJamon)",
+   "type": "company",
+   "handle": "",
+   "summary": "Independent Go implementation of the XRPL protocol (goxrpl node daemon). Presented by Thomas Hussenet for XRPL Commons at Ripple Swell NYC; on testnet as of 2026-11-04. Targets rippled v3.4.1.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/LeJamon/go-xrpl",
+    "https://x.com/xrpl_commons/status/2118011040273150331"
+   ],
+   "added": "2026-11-05T02:26:08-05:00",
+   "sector": "builders",
+   "tier": 3
   }
  ],
  "edges": [
@@ -104712,6 +104727,28 @@
    "source": "https://xrpscan.com/tx/68E6A0BD1F7C67C798D81767B3C8FB147EE42349835A693198FB689DD58D6187",
    "side": "neutral",
    "added": "2026-11-04T08:26:31-05:00"
+  },
+  {
+   "from": "xrpl-commons",
+   "to": "go-xrpl",
+   "label": "Thomas Hussenet presented go-xrpl on testnet at Ripple Swell NYC (2026-11-04)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/xrpl_commons/status/2118011040273150331",
+   "side": "neutral",
+   "added": "2026-11-05T02:26:08-05:00"
+  },
+  {
+   "from": "go-xrpl",
+   "to": "xrpl",
+   "label": "independent Go XRPL client targeting rippled v3.4.1; on testnet",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/LeJamon/go-xrpl",
+   "side": "neutral",
+   "added": "2026-11-05T02:26:08-05:00"
   }
  ]
 }
