@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-05T10:26:53-05:00",
+  "updated": "2026-11-05T12:27:46-05:00",
   "version": 3
  },
  "nodes": [
@@ -104795,6 +104795,17 @@
    "source": "https://www.about.us.hsbc.com/newsroom/press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
    "side": "neutral",
    "added": "2026-11-05T10:25:27-05:00"
+  },
+  {
+   "from": "yellow-network",
+   "to": "xrpl",
+   "label": "YELLOW bridged token issued on XRPL (1:1 vs ETH lock), 11/05: issuer r4ZosXJjnRikUaRyTTAjTx84Si6NJhaazf, Domain field yellow.org, listed as 'YELLOW issuer' in yellow.org xrp-ledger.toml; a launch, not adoption or a Ripple tie-up",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://yellow.org/.well-known/xrp-ledger.toml",
+   "side": "neutral",
+   "added": "2026-11-05T12:26:27-05:00"
   }
  ]
 }
