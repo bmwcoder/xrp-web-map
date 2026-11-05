@@ -2,157 +2,157 @@
  "schema": 2,
  "mode": "full",
  "as_of": {
-  "ledger_index": 108107972,
-  "ledger_close_utc": "2026-11-04T10:17:20Z",
-  "ledger_close_et": "2026-11-04T05:17:20-05:00",
-  "xrpscan_snapshot_utc": "2026-11-03T21:26:33Z"
+  "ledger_index": 108129550,
+  "ledger_close_utc": "2026-11-05T10:17:11Z",
+  "ledger_close_et": "2026-11-05T05:17:11-05:00",
+  "xrpscan_snapshot_utc": "2026-11-04T21:25:18Z"
  },
- "generated_et": "2026-11-04T06:20:56-05:00",
- "accounts_total": 8309800,
- "coverage": "All 8,309,800 XRP Ledger accounts in validated ledger #108,107,972 were read. Tiers use the XRP in each account itself; the 31,245,180,143 XRP held in escrow (nearly all Ripple's) is not in any account balance and is not counted in the tiers.",
+ "generated_et": "2026-11-05T06:00:23-05:00",
+ "accounts_total": 8314175,
+ "coverage": "All 8,314,175 XRP Ledger accounts in validated ledger #108,129,550 were read. Tiers use the XRP in each account itself; the 31,245,200,290 XRP held in escrow (nearly all Ripple's) is not in any account balance and is not counted in the tiers.",
  "supply": {
-  "total_xrp": 99985569811,
-  "escrowed_xrp": 31245180143,
-  "burned_xrp": 14429047,
-  "in_accounts_xrp": 68740302054
+  "total_xrp": 99985567924,
+  "escrowed_xrp": 31245200290,
+  "burned_xrp": 14431130,
+  "in_accounts_xrp": 68740280021
  },
  "tiers": [
   {
    "tier": "Top 10%",
    "pct": 10,
-   "accounts": 830980,
+   "accounts": 831417,
    "covered": true,
-   "min_xrp": 2058.78,
-   "total_xrp": 67817097185,
+   "min_xrp": 2057.0,
+   "total_xrp": 67817764156,
    "share_of_supply_pct": 67.83,
-   "max_xrp": 2591.97
+   "max_xrp": 2589.73
   },
   {
    "tier": "Top 9%",
    "pct": 9,
-   "accounts": 747882,
+   "accounts": 748275,
    "covered": true,
-   "min_xrp": 2591.97,
-   "total_xrp": 67624588747,
-   "share_of_supply_pct": 67.63,
-   "max_xrp": 3278.44
+   "min_xrp": 2589.73,
+   "total_xrp": 67625326525,
+   "share_of_supply_pct": 67.64,
+   "max_xrp": 3275.0
   },
   {
    "tier": "Top 8%",
    "pct": 8,
-   "accounts": 664784,
+   "accounts": 665134,
    "covered": true,
-   "min_xrp": 3278.44,
-   "total_xrp": 67380168063,
+   "min_xrp": 3275.0,
+   "total_xrp": 67380972120,
    "share_of_supply_pct": 67.39,
-   "max_xrp": 4244.8
+   "max_xrp": 4240.62
   },
   {
    "tier": "Top 7%",
    "pct": 7,
-   "accounts": 581686,
+   "accounts": 581992,
    "covered": true,
-   "min_xrp": 4244.8,
-   "total_xrp": 67067765826,
+   "min_xrp": 4240.62,
+   "total_xrp": 67068653741,
    "share_of_supply_pct": 67.08,
-   "max_xrp": 5321.89
+   "max_xrp": 5318.17
   },
   {
    "tier": "Top 6%",
    "pct": 6,
-   "accounts": 498588,
+   "accounts": 498850,
    "covered": true,
-   "min_xrp": 5321.89,
-   "total_xrp": 66666381044,
+   "min_xrp": 5318.17,
+   "total_xrp": 66667309941,
    "share_of_supply_pct": 66.68,
-   "max_xrp": 7218.94
+   "max_xrp": 7213.06
   },
   {
    "tier": "Top 5%",
    "pct": 5,
-   "accounts": 415490,
+   "accounts": 415708,
    "covered": true,
-   "min_xrp": 7218.94,
-   "total_xrp": 66149488934,
+   "min_xrp": 7213.06,
+   "total_xrp": 66150519223,
    "share_of_supply_pct": 66.16,
-   "max_xrp": 10003.9
+   "max_xrp": 10003.55
   },
   {
    "tier": "Top 4%",
    "pct": 4,
-   "accounts": 332392,
+   "accounts": 332567,
    "covered": true,
-   "min_xrp": 10003.9,
-   "total_xrp": 65427439850,
+   "min_xrp": 10003.55,
+   "total_xrp": 65428540569,
    "share_of_supply_pct": 65.44,
-   "max_xrp": 13600.25
+   "max_xrp": 13591.18
   },
   {
    "tier": "Top 3%",
    "pct": 3,
-   "accounts": 249294,
+   "accounts": 249425,
    "covered": true,
-   "min_xrp": 13600.25,
-   "total_xrp": 64487777370,
+   "min_xrp": 13591.18,
+   "total_xrp": 64488812960,
    "share_of_supply_pct": 64.5,
-   "max_xrp": 21234.62
+   "max_xrp": 21224.03
   },
   {
    "tier": "Top 2%",
    "pct": 2,
-   "accounts": 166196,
+   "accounts": 166283,
    "covered": true,
-   "min_xrp": 21234.62,
-   "total_xrp": 63052634522,
+   "min_xrp": 21224.03,
+   "total_xrp": 63053700013,
    "share_of_supply_pct": 63.06,
-   "max_xrp": 43340.95
+   "max_xrp": 43304.31
   },
   {
    "tier": "Top 1%",
    "pct": 1,
-   "accounts": 83098,
+   "accounts": 83141,
    "covered": true,
-   "min_xrp": 43340.95,
-   "total_xrp": 60556496869,
+   "min_xrp": 43304.31,
+   "total_xrp": 60557579807,
    "share_of_supply_pct": 60.57,
-   "max_xrp": 78593.37
+   "max_xrp": 78483.54
   },
   {
    "tier": "Top 0.5%",
    "pct": 0.5,
-   "accounts": 41549,
+   "accounts": 41570,
    "covered": true,
-   "min_xrp": 78593.37,
-   "total_xrp": 58203384551,
+   "min_xrp": 78483.54,
+   "total_xrp": 58204730145,
    "share_of_supply_pct": 58.21,
-   "max_xrp": 270400.36
+   "max_xrp": 270237.69
   },
   {
    "tier": "Top 0.1%",
    "pct": 0.1,
-   "accounts": 8309,
+   "accounts": 8314,
    "covered": true,
-   "min_xrp": 270400.36,
-   "total_xrp": 53868218837,
+   "min_xrp": 270237.69,
+   "total_xrp": 53871012470,
    "share_of_supply_pct": 53.88,
-   "max_xrp": 3648937.05
+   "max_xrp": 3646743.92
   },
   {
    "tier": "Top 0.01%",
    "pct": 0.01,
-   "accounts": 830,
+   "accounts": 831,
    "covered": true,
-   "min_xrp": 3648937.05,
-   "total_xrp": 48710599340,
-   "share_of_supply_pct": 48.72,
+   "min_xrp": 3646743.92,
+   "total_xrp": 48740270334,
+   "share_of_supply_pct": 48.75,
    "max_xrp": null
   }
  ],
  "crosschecks": [
   {
    "check": "ledger total_coins (xrplcluster) vs XRPScan total_coins",
-   "value": 99985569810710315,
-   "reference": 99985570953474987,
+   "value": 99985567924017542,
+   "reference": 99985568869912084,
    "diff_pct": -0.0,
    "tolerance_pct": 0.05,
    "ok": true,
@@ -160,28 +160,28 @@
   },
   {
    "check": "accounts scanned vs XRPScan AccountRoot count (nightly)",
-   "value": 8309800,
-   "reference": 8307786,
-   "diff_pct": 0.024,
+   "value": 8314175,
+   "reference": 8311966,
+   "diff_pct": 0.027,
    "tolerance_pct": 1.0,
    "ok": true,
    "unit": "accounts"
   },
   {
    "check": "XRP in account balances + escrowed (ledger Escrow objects) vs ledger total_coins",
-   "value": 99985482196892873,
-   "reference": 99985569810710315,
+   "value": 99985480311097277,
+   "reference": 99985567924017542,
    "diff_pct": -0.0,
    "tolerance_pct": 0.5,
    "ok": true,
    "unit": "drops",
-   "escrow_source": "sum of 14627 XRP Escrow objects in ledger 108107972"
+   "escrow_source": "sum of 14690 XRP Escrow objects in ledger 108129550"
   },
   {
    "check": "XRPScan top-1,000 accounts found in the scan within 5% of XRPScan's nightly balance",
-   "value": 982,
+   "value": 970,
    "reference": 1000,
-   "diff_pct": -1.8,
+   "diff_pct": -3.0,
    "tolerance_pct": 15,
    "ok": true,
    "unit": "accounts"
@@ -219,5 +219,5 @@
    "used_for": "attribution"
   }
  ],
- "runtime_s": 3815
+ "runtime_s": 2587
 }

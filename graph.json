@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-05T02:27:27-05:00",
+  "updated": "2026-11-05T10:26:53-05:00",
   "version": 3
  },
  "nodes": [
@@ -31732,6 +31732,19 @@
    "added": "2026-11-05T02:26:08-05:00",
    "sector": "builders",
    "tier": 3
+  },
+  {
+   "id": "uber",
+   "label": "Uber",
+   "type": "company",
+   "handle": "",
+   "summary": "Pilot client in the Oct 30, 2026 HSBC Bank USA 24/7 liquidity and settlement demonstration on Canton Network: used HSBC Tokenized Deposits to buy and later sell Franklin Templeton tokenized money market funds on Tradeweb via Fireblocks DvP. One corporate-treasury data point on a rival ledger; not a trend by itself.",
+   "grade": "A",
+   "sources": [
+    "https://www.about.us.hsbc.com/newsroom/press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
+    "https://www.canton.network/canton-network-press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network"
+   ],
+   "added": "2026-11-05T10:25:27-05:00"
   }
  ],
  "edges": [
@@ -104749,6 +104762,39 @@
    "source": "https://github.com/LeJamon/go-xrpl",
    "side": "neutral",
    "added": "2026-11-05T02:26:08-05:00"
+  },
+  {
+   "from": "circle",
+   "to": "xrpl",
+   "label": "XRPL not listed as a CCTP chain as of 11/01",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://developers.circle.com/cctp/cctp-supported-blockchains",
+   "side": "contradicts",
+   "added": "2026-11-05T10:25:27-05:00"
+  },
+  {
+   "from": "uber",
+   "to": "canton",
+   "label": "pilot client in HSBC Bank USA Oct 30, 2026 24/7 DvP demo: bought and sold Franklin Templeton tokenized MMF using HSBC Tokenized Deposits via Tradeweb and Fireblocks",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.about.us.hsbc.com/newsroom/press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
+   "side": "contradicts",
+   "added": "2026-11-05T10:25:27-05:00"
+  },
+  {
+   "from": "uber",
+   "to": "hsbc",
+   "label": "pilot client for HSBC Tokenized Deposits 24/7 liquidity and settlement solution on Canton (Oct 30, 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.about.us.hsbc.com/newsroom/press-releases/uber-completes-pilot-of-a-first-ever-on-chain-liquidity-and-settlement-solution-on-a-public-network",
+   "side": "neutral",
+   "added": "2026-11-05T10:25:27-05:00"
   }
  ]
 }
