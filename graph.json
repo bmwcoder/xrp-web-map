@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-06T06:07:46-05:00",
+  "updated": "2026-11-06T08:29:50-05:00",
   "version": 3
  },
  "nodes": [
@@ -105104,6 +105104,61 @@
    "source": "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/",
    "side": "supports",
    "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "from": "uob",
+   "to": "swift-ledger",
+   "label": "live SGD tokenised-deposit interbank txs with DBS and OCBC on Swift's ledger (UOB/DBS/OCBC joint newsroom, Sep 10, 2026); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/singapore-banks-on-swift-ledger.page",
+   "side": "neutral",
+   "added": "2026-11-06T08:28:34-05:00"
+  },
+  {
+   "from": "uob",
+   "to": "swift-ledger",
+   "label": "live HKD cross-border tokenised-deposit txs with HSBC on Swift's ledger (UOB newsroom, Aug 26, 2026); first Singapore-headquartered bank on the ledger; Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-cross-border-transactions-on-swift.page",
+   "side": "neutral",
+   "added": "2026-11-06T08:28:34-05:00"
+  },
+  {
+   "from": "dbs",
+   "to": "swift-ledger",
+   "label": "live SGD tokenised-deposit interbank txs with OCBC and UOB on Swift's ledger (joint newsroom, Sep 10, 2026); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/singapore-banks-on-swift-ledger.page",
+   "side": "neutral",
+   "added": "2026-11-06T08:28:34-05:00"
+  },
+  {
+   "from": "ocbc",
+   "to": "swift-ledger",
+   "label": "live SGD tokenised-deposit interbank txs with DBS and UOB on Swift's ledger (joint newsroom, Sep 10, 2026); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/singapore-banks-on-swift-ledger.page",
+   "side": "neutral",
+   "added": "2026-11-06T08:28:34-05:00"
+  },
+  {
+   "from": "hsbc",
+   "to": "swift-ledger",
+   "label": "live HKD cross-border tokenised-deposit txs with UOB on Swift's ledger (UOB newsroom, Aug 26, 2026); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-cross-border-transactions-on-swift.page",
+   "side": "neutral",
+   "added": "2026-11-06T08:28:34-05:00"
   }
  ]
 }
