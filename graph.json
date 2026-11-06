@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-05T22:33:41-05:00",
+  "updated": "2026-11-06T00:25:59-05:00",
   "version": 3
  },
  "nodes": [
@@ -31804,6 +31804,36 @@
    "added": "2026-11-05T20:25:51-05:00",
    "sector": "builders",
    "tier": 3
+  },
+  {
+   "id": "dinaro",
+   "label": "Dinaro",
+   "type": "company",
+   "handle": "",
+   "summary": "Slovenian electronic money institution (EMI) authorised by Banka Slovenije (2 Nov 2021). Issuer of GateHub Euro (EURGH), a MiCA euro e-money token launched with GateHub on 5 Nov 2026 on XRPL and Xahau. Also a principal Mastercard issuer. Not a Ripple partner.",
+   "grade": "A",
+   "sources": [
+    "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/",
+    "https://dinaro.si/mica-eurgh-whitepaper",
+    "https://www.bsi.si/sl/nadzor-bancnega-sistema/register-subjektov-nadzora/dinaro-druzba-za-izdajo-elektronskega-denarja-in-placilne-storitve-d-o-o"
+   ],
+   "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "id": "eurgh",
+   "label": "GateHub Euro (EURGH)",
+   "type": "asset",
+   "handle": "",
+   "summary": "MiCA-compliant euro e-money token (EMT) issued by Dinaro d.o.o.; launched with GateHub on 5 Nov 2026 on XRPL and Xahau (issuer rDdaSjBbgCGQQsGRSfMidBMyHbPoeE5KQR). Instant SEPA mint/redeem via GateHub wallets. Ripple is not named.",
+   "why": "GateHub Euro (EURGH) is a MiCA euro e-money token issued by Slovenian EMI Dinaro and launched with GateHub on Nov 5, 2026 on XRPL and Xahau, with instant SEPA mint and redeem; Ripple is not named.",
+   "grade": "A",
+   "sources": [
+    "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/",
+    "https://dinaro.si/mica-eurgh-whitepaper",
+    "https://xrpscan.com/account/rDdaSjBbgCGQQsGRSfMidBMyHbPoeE5KQR",
+    "https://x.com/GateHub/status/2118390384955138331"
+   ],
+   "added": "2026-11-06T00:24:45-05:00"
   }
  ],
  "edges": [
@@ -105019,6 +105049,61 @@
    "source": "https://www.upshift.finance/blog/uphold-earn-rlusd",
    "side": "neutral",
    "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "dinaro",
+   "to": "eurgh",
+   "label": "issuer of GateHub Euro (EURGH), a MiCA euro EMT (whitepaper + GateHub launch, Nov 5, 2026)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://dinaro.si/mica-eurgh-whitepaper",
+   "side": "supports",
+   "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "from": "gatehub",
+   "to": "dinaro",
+   "label": "partners to launch GateHub Euro (EURGH) MiCA euro EMT (GateHub blog, Nov 5, 2026); Ripple not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/",
+   "side": "neutral",
+   "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "from": "gatehub",
+   "to": "eurgh",
+   "label": "platform partner: GateHub wallets mint/redeem EURGH via instant SEPA (GateHub blog, Nov 5, 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/",
+   "side": "supports",
+   "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "from": "eurgh",
+   "to": "xrpl",
+   "label": "issued on XRPL (issuer rDdaSjBbgCGQQsGRSfMidBMyHbPoeE5KQR; GateHub/Dinaro launch Nov 5, 2026)",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://xrpscan.com/account/rDdaSjBbgCGQQsGRSfMidBMyHbPoeE5KQR",
+   "side": "supports",
+   "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "from": "eurgh",
+   "to": "xahau",
+   "label": "also issued on Xahau (same issuer address; GateHub/Dinaro launch Nov 5, 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://gatehub.net/blog/gatehub-partners-with-dinaro-to-launch-gatehub-euro-eurgh/",
+   "side": "supports",
+   "added": "2026-11-06T00:24:45-05:00"
   }
  ]
 }
