@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-06T08:29:50-05:00",
+  "updated": "2026-11-06T14:28:59-05:00",
   "version": 3
  },
  "nodes": [
@@ -105159,6 +105159,39 @@
    "source": "https://www.uobgroup.com/uobgroup/newsroom/news-releases/2026/uob-cross-border-transactions-on-swift.page",
    "side": "neutral",
    "added": "2026-11-06T08:28:34-05:00"
+  },
+  {
+   "from": "clearbank",
+   "to": "circle",
+   "label": "ClearBank Europe MiCAR CASP (AFM, Apr 9 2026) to roll out Circle Mint and offer EURC/USDC; Digital Asset Rails live May 28 2026 (EURC→SEPA Instant); no Ripple/XRP/XRPL named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://clear.bank/learn/news/clearbank-europe-becomes-the-first-dutch-credit-institution-to-complete-micar-notification-to-offer-digital-assets-services-in-europe",
+   "side": "contradicts",
+   "added": "2026-11-06T14:24:30-05:00"
+  },
+  {
+   "from": "clearbank",
+   "to": "circle-payments-network",
+   "label": "strategic framework (Oct 27 2025): plans to join Circle Payments Network; European USDC/EURC via Circle Mint; no Ripple/XRP/XRPL named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://clear.bank/learn/news/clearbank-announces-plans-to-join-circles-payments-network-to-power-faster-more-connected-finance",
+   "side": "contradicts",
+   "added": "2026-11-06T14:24:30-05:00"
+  },
+  {
+   "from": "clearbank",
+   "to": "usdc",
+   "label": "Digital Asset Rails / Circle Mint: USDC access planned (MiCAR CASP Apr 9 2026; CPN framework Oct 27 2025); no Ripple/XRP/XRPL named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://clear.bank/learn/news/clearbank-europe-launches-digital-asset-rails-to-unlock-programmable-liquidity-for-cross-border-flows",
+   "side": "contradicts",
+   "added": "2026-11-06T14:24:30-05:00"
   }
  ]
 }
