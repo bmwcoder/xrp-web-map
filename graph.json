@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-05T14:33:58-05:00",
+  "updated": "2026-11-05T20:29:04-05:00",
   "version": 3
  },
  "nodes": [
@@ -31721,7 +31721,7 @@
   {
    "id": "go-xrpl",
    "label": "go-xrpl (LeJamon)",
-   "type": "company",
+   "type": "builder",
    "handle": "",
    "summary": "Independent Go implementation of the XRPL protocol (goxrpl node daemon). Presented by Thomas Hussenet for XRPL Commons at Ripple Swell NYC; on testnet as of 2026-11-04. Targets rippled v3.4.1.",
    "grade": "A",
@@ -31749,12 +31749,13 @@
   {
    "id": "quaxar",
    "label": "Quaxar",
-   "type": "company",
+   "type": "builder",
    "handle": "",
-   "summary": "Rust implementation of the XRP Ledger server (TusharPardhe/quaxar). Beta; per its README, testnet runs reached full and proposing and published signed validations. Not on mainnet.",
+   "summary": "Rust implementation of the XRP Ledger server (TusharPardhe/quaxar). Beta; per its README, testnet runs reached full and proposing and published signed validations. README: suitable for development/parity testing and testnet node/validator operation; production validator operation not recommended yet.",
    "grade": "A",
    "sources": [
-    "https://github.com/TusharPardhe/quaxar"
+    "https://github.com/TusharPardhe/quaxar",
+    "https://raw.githubusercontent.com/TusharPardhe/quaxar/main/README.md"
    ],
    "added": "2026-11-05T14:32:26-05:00",
    "sector": "builders",
@@ -31763,7 +31764,7 @@
   {
    "id": "rxrpl",
    "label": "rxrpl",
-   "type": "company",
+   "type": "builder",
    "handle": "",
    "summary": "Rust XRPL node and validator implementation, also usable as an SDK (RomThpt/rxrpl README). Listed as a supported client in XRPL Commons' xrpl-hive.",
    "grade": "A",
@@ -31778,7 +31779,7 @@
   {
    "id": "xrpl-hive",
    "label": "xrpl-hive (XRPL Commons)",
-   "type": "company",
+   "type": "builder",
    "handle": "",
    "summary": "Cross-client integration test framework for XRPL node implementations, forked from Ethereum Hive; supports rippled, goXRPL and rxrpl.",
    "grade": "A",
@@ -31786,6 +31787,21 @@
     "https://github.com/XRPL-Commons/xrpl-hive"
    ],
    "added": "2026-11-05T14:32:26-05:00",
+   "sector": "builders",
+   "tier": 3
+  },
+  {
+   "id": "xrpl-confluence",
+   "label": "xrpl-confluence (XRPL Commons)",
+   "type": "builder",
+   "handle": "",
+   "summary": "Kurtosis harness (XRPL-Commons) that orchestrates mixed networks of rippled and go-xrpl nodes to validate p2p messaging, transaction propagation, ledger sync, and consensus compatibility. Overview docs relate it to Hive as a whole-network differential-testing layer. Private test networks (NETWORK_ID 10000); not a mainnet claim.",
+   "grade": "A",
+   "sources": [
+    "https://github.com/XRPL-Commons/xrpl-confluence",
+    "https://raw.githubusercontent.com/XRPL-Commons/xrpl-confluence/main/docs/overview.md"
+   ],
+   "added": "2026-11-05T20:25:51-05:00",
    "sector": "builders",
    "tier": 3
   }
@@ -104904,6 +104920,105 @@
    "source": "https://www.euromoney.com/article/1ho29c0jx58ko8so844gcg48c/asias-best-financial-institutions-deal-2026-dbs-ripple-group/",
    "side": "neutral",
    "added": "2026-11-05T14:32:26-05:00"
+  },
+  {
+   "from": "xrpl-hive",
+   "to": "rxrpl",
+   "label": "lists rxrpl as a supported client under test (README Supported Clients; hive link target peerparty/rxrpl 404, RomThpt/rxrpl used as node source)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/XRPL-Commons/xrpl-hive",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "xrpl-hive",
+   "to": "rippled",
+   "label": "lists rippled (XRPLF/rippled) as a supported client under test",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/XRPL-Commons/xrpl-hive",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "xrpl-commons",
+   "to": "xrpl-confluence",
+   "label": "XRPL Commons repo: Kurtosis mixed-network interop harness (rippled + go-xrpl)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/XRPL-Commons/xrpl-confluence",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "xrpl-confluence",
+   "to": "rippled",
+   "label": "orchestrates rippled nodes in mixed private networks for interop/differential tests (docs/overview.md)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/XRPL-Commons/xrpl-confluence/main/docs/overview.md",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "xrpl-confluence",
+   "to": "go-xrpl",
+   "label": "orchestrates go-xrpl nodes alongside rippled for interop/differential tests (docs/overview.md)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://raw.githubusercontent.com/XRPL-Commons/xrpl-confluence/main/docs/overview.md",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "xrpl-confluence",
+   "to": "xrpl",
+   "label": "interop test harness for independent XRPL implementations (not a payment rail)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://github.com/XRPL-Commons/xrpl-confluence",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "uphold",
+   "to": "upshift",
+   "label": "RLUSD Earn vault provider (Uphold X post Oct 29 2026 names @upshift_fi; Upshift blog same day)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/UpholdInc/status/2115805993455997095",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "uphold",
+   "to": "sentora",
+   "label": "RLUSD Earn strategy/risk curation (Uphold product page; Sentora Medium Oct 29 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://uphold.com/en-us/rlusd-earn",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
+  },
+  {
+   "from": "upshift",
+   "to": "morpho",
+   "label": "Uphold RLUSD Earn vault supplies Sentora-curated Morpho lending markets (Upshift blog Oct 29 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.upshift.finance/blog/uphold-earn-rlusd",
+   "side": "neutral",
+   "added": "2026-11-05T20:25:51-05:00"
   }
  ]
 }
