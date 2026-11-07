@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-06T22:26:33-05:00",
+  "updated": "2026-11-07T02:30:33-05:00",
   "version": 3
  },
  "nodes": [
@@ -105217,6 +105217,17 @@
    "source": "https://www.lloydsbankinggroup.com/insights/fintech-trends-2025.html",
    "side": "neutral",
    "added": "2026-11-06T20:31:45-05:00"
+  },
+  {
+   "from": "macquarie",
+   "to": "osl",
+   "label": "Macquarie Capital sole overall coordinator / placement agent / FA for OSL Group HK$2,355m (~US$300m) follow-on equity financing (as of 31 Jul 2025); page names OSL Pay and stablecoin business; Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.macquarie.com/in/en/insights/facilitating-the-largest-public-equity-financing-in-asias-digital-asset-sector.html",
+   "side": "neutral",
+   "added": "2026-11-07T02:29:20-05:00"
   }
  ]
 }
