@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-06T16:27:53-05:00",
+  "updated": "2026-11-06T20:34:52-05:00",
   "version": 3
  },
  "nodes": [
@@ -31834,6 +31834,20 @@
     "https://x.com/GateHub/status/2118390384955138331"
    ],
    "added": "2026-11-06T00:24:45-05:00"
+  },
+  {
+   "id": "coadjute",
+   "label": "Coadjute",
+   "type": "company",
+   "handle": "",
+   "summary": "UK property-tech / DLT collaboration platform. Lloyds Banking Group Fintech trends 2025 insight (24 Jan 2025) names an investment in Coadjute for DLT/tokenisation alongside Fnality. Ripple, XRP, RLUSD and XRPL are not named on that page.",
+   "grade": "A",
+   "sources": [
+    "https://www.lloydsbankinggroup.com/insights/fintech-trends-2025.html"
+   ],
+   "added": "2026-11-06T20:31:45-05:00",
+   "sector": "builders",
+   "tier": 3
   }
  ],
  "edges": [
@@ -105192,6 +105206,17 @@
    "source": "https://clear.bank/learn/news/clearbank-europe-launches-digital-asset-rails-to-unlock-programmable-liquidity-for-cross-border-flows",
    "side": "contradicts",
    "added": "2026-11-06T14:24:30-05:00"
+  },
+  {
+   "from": "lloyds",
+   "to": "coadjute",
+   "label": "Lloyds Fintech trends 2025 insight names investment in Coadjute for DLT/tokenisation (24 Jan 2025); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.lloydsbankinggroup.com/insights/fintech-trends-2025.html",
+   "side": "neutral",
+   "added": "2026-11-06T20:31:45-05:00"
   }
  ]
 }
