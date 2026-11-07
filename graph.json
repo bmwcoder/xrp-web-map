@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-07T06:24:17-05:00",
+  "updated": "2026-11-07T08:31:02-05:00",
   "version": 3
  },
  "nodes": [
@@ -31848,6 +31848,48 @@
    "added": "2026-11-06T20:31:45-05:00",
    "sector": "builders",
    "tier": 3
+  },
+  {
+   "id": "bpce",
+   "label": "Groupe BPCE",
+   "type": "bank",
+   "handle": "",
+   "summary": "French mutual banking group (Banque Populaire / Caisse d'Epargne / Natixis). Own Jun 3 2026 release: partner in BIS Project Agorá tokenised cross-border payments prototype. Own Oct 23 2026 Natixis CIB insight names Agorá and SWIFT Ledger; Hexarq crypto custody (Mar 2026) names Bitcoin and Ethereum. Ripple/XRP/RLUSD/XRPL not named on these pages.",
+   "why": "French mutual banking group whose own pages name Project Agorá partnership (3 Jun 2026) and Natixis CIB commentary on Agorá and SWIFT Ledger (23 Oct 2026), plus Hexarq crypto custody (BTC/ETH); Ripple/XRP/RLUSD/XRPL are not named on those pages.",
+   "grade": "A",
+   "sources": [
+    "https://www.groupebpce.com/en/all-the-latest-news/project-agora-groupe-bpce-contributes-to-the-success-of-a-global-experiment-for-the-future-of-payments/",
+    "https://www.groupebpce.com/en/all-the-latest-news/modernisation-of-cross-border-payments-operational-challenges-and-monetary-sovereignty/",
+    "https://www.digital-payments.groupebpce.com/en/bpce-launches-a-crypto-asset-investment-and-custody-offering-through-its-subsidiary-hexarq/"
+   ],
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "id": "hexarq",
+   "label": "Hexarq",
+   "type": "company",
+   "handle": "",
+   "summary": "BPCE Digital & Payments crypto-asset subsidiary (CASP under MiCA; AMF/ACPR). Own Mar 2026 release: retail buy/hold/sell via Banque Populaire and Caisse d'Epargne apps; range such as Bitcoin and Ethereum. Ripple/XRP/RLUSD/XRPL not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.digital-payments.groupebpce.com/en/bpce-launches-a-crypto-asset-investment-and-custody-offering-through-its-subsidiary-hexarq/"
+   ],
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "id": "bochk",
+   "label": "Bank of China (Hong Kong)",
+   "type": "bank",
+   "handle": "",
+   "summary": "Bank of China (Hong Kong). Own 2 Nov 2026 release: tokenised-deposit bank in HKMA Project Ensemble / EnsembleTX pilot; introduces tokenised central bank money as interbank settlement asset, 24/7; over HK$2.3bn real-value txs by end-Oct 2026; first-batch Ant International transfers. Ripple/XRP/RLUSD/XRPL not named.",
+   "why": "Bank of China (Hong Kong) is an HKMA EnsembleTX tokenised-deposit bank (own 2 Nov 2026 release): 24/7 settlement in tokenised central bank money, over HK$2.3bn real-value txs by end-Oct 2026, and first-batch Ant International transfers; Ripple/XRP/XRPL/RLUSD are not named.",
+   "grade": "A",
+   "sources": [
+    "https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2026/261102079_Press_Release_EN.pdf"
+   ],
+   "added": "2026-11-07T08:29:20-05:00",
+   "sector": "banks",
+   "tier": 3
   }
  ],
  "edges": [
@@ -32744,7 +32786,7 @@
    "label": "Swell teaser (posted Oct 19, 2026) end card: merch/community collab for Fuzzy Con, not an endorsement of $FUZZY; eye colours match the $FUZZY mascot (our pixel check)",
    "grade": "A",
    "strength": 2,
-   "key": true,
+   "key": false,
    "source": "https://x.com/evernorthxrp/status/2112304285908381828",
    "side": "neutral",
    "added": "2026-10-19T21:20:00-04:00"
@@ -105228,6 +105270,83 @@
    "source": "https://www.macquarie.com/in/en/insights/facilitating-the-largest-public-equity-financing-in-asias-digital-asset-sector.html",
    "side": "neutral",
    "added": "2026-11-07T02:29:20-05:00"
+  },
+  {
+   "from": "bpce",
+   "to": "agora",
+   "label": "Groupe BPCE own release (3 Jun 2026): partner in BIS Project Agorá tokenised deposits/CBDC cross-border prototype with 40+ FIs; Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://www.groupebpce.com/en/all-the-latest-news/project-agora-groupe-bpce-contributes-to-the-success-of-a-global-experiment-for-the-future-of-payments/",
+   "side": "contradicts",
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "natixis",
+   "to": "swift-ledger",
+   "label": "Natixis CIB experts on Groupe BPCE Oct 23 2026 insight name Agorá and SWIFT Ledger as shared-ledger 24/7 settlement initiatives (40+ banks; six-currency tests 2026); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.groupebpce.com/en/all-the-latest-news/modernisation-of-cross-border-payments-operational-challenges-and-monetary-sovereignty/",
+   "side": "contradicts",
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "natixis",
+   "to": "agora",
+   "label": "Natixis CIB experts on Groupe BPCE Oct 23 2026 insight name Agorá among shared-ledger initiatives for interbank settlement; Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.groupebpce.com/en/all-the-latest-news/modernisation-of-cross-border-payments-operational-challenges-and-monetary-sovereignty/",
+   "side": "contradicts",
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "bpce",
+   "to": "hexarq",
+   "label": "BPCE Digital & Payments own release (published 02/09/2026): launches Hexarq crypto investment/custody via Banque Populaire and Caisse d'Epargne apps (BTC/ETH named); Ripple/XRP/RLUSD/XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.digital-payments.groupebpce.com/en/bpce-launches-a-crypto-asset-investment-and-custody-offering-through-its-subsidiary-hexarq/",
+   "side": "neutral",
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "bpce",
+   "to": "natixis",
+   "label": "Natixis is Groupe BPCE corporate & investment bank; Oct 23 2026 group insight authored by Natixis CIB experts Hollette and de Gouttes",
+   "grade": "A",
+   "strength": 5,
+   "key": false,
+   "source": "https://www.groupebpce.com/en/all-the-latest-news/modernisation-of-cross-border-payments-operational-challenges-and-monetary-sovereignty/",
+   "side": "neutral",
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "bochk",
+   "to": "hkma",
+   "label": "BOCHK own release (2 Nov 2026): EnsembleTX pilot phase with tokenised central bank money as interbank settlement asset, 24/7; over HK$2.3bn real-value txs by end-Oct 2026; Ripple/XRP/XRPL/RLUSD not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2026/261102079_Press_Release_EN.pdf",
+   "side": "neutral",
+   "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "bochk",
+   "to": "ant-international",
+   "label": "BOCHK own release (2 Nov 2026): first batch of real-time cross-border/interbank fund transfers for Ant International using BOCHK tokenised deposits on EnsembleTX; Ripple/XRP/XRPL/RLUSD not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2026/261102079_Press_Release_EN.pdf",
+   "side": "neutral",
+   "added": "2026-11-07T08:29:20-05:00"
   }
  ]
 }
