@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-09T06:30:34-05:00",
+  "updated": "2026-11-09T08:26:12-05:00",
   "version": 3
  },
  "nodes": [
@@ -31890,6 +31890,18 @@
    "added": "2026-11-07T08:29:20-05:00",
    "sector": "banks",
    "tier": 3
+  },
+  {
+   "id": "ypf-luz",
+   "label": "YPF Luz",
+   "type": "company",
+   "handle": "",
+   "summary": "YPF Energía Eléctrica S.A., Argentine power generator. On Feb 12 2026 it launched Enertoken, built by Justoken on the XRP Ledger, saying over USD 800M of energy contracts and assets were tokenized (company-stated). No XRP or RLUSD leg named.",
+   "grade": "A",
+   "sources": [
+    "https://www.ypfluz.com/Noticias/NoticiaCompleta/213"
+   ],
+   "added": "2026-11-09T08:24:37-05:00"
   }
  ],
  "edges": [
@@ -105347,6 +105359,61 @@
    "source": "https://www.bochk.com/dam/bochk/desktop/top/aboutus/pressrelease2/2026/261102079_Press_Release_EN.pdf",
    "side": "neutral",
    "added": "2026-11-07T08:29:20-05:00"
+  },
+  {
+   "from": "ypf-luz",
+   "to": "justoken",
+   "label": "Enertoken platform developed by Justoken (launched Feb 12 2026)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.ypfluz.com/Noticias/NoticiaCompleta/213",
+   "side": "neutral",
+   "added": "2026-11-09T08:24:37-05:00"
+  },
+  {
+   "from": "ypf-luz",
+   "to": "xrpl",
+   "label": "Enertoken tokenizes energy contracts on the XRP Ledger, over USD 800M at launch (company-stated, Feb 12 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.ypfluz.com/Noticias/NoticiaCompleta/213",
+   "side": "supports",
+   "added": "2026-11-09T08:24:37-05:00"
+  },
+  {
+   "from": "schwartz",
+   "to": "xrp",
+   "label": "says he sold about 2.5M XRP in 2025, mostly received in 2020 and 2023 (own post, Nov 9 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/JoelKatz/status/2119664181381374149",
+   "side": "neutral",
+   "added": "2026-11-09T08:24:37-05:00"
+  },
+  {
+   "from": "bitwise",
+   "to": "etf-xrp-holdings",
+   "label": "held 413,140,980 XRP at Sep 30 2026 per Q3 10-Q (131,223,200 at Dec 31 2025)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2039525/000119312526451776/xrp-20260930.htm",
+   "side": "supports",
+   "added": "2026-11-09T08:24:57-05:00"
+  },
+  {
+   "from": "gxrp",
+   "to": "etf-xrp-holdings",
+   "label": "held 65,442,141 XRP at Sep 30 2026 per Q3 10-Q (122,230,386 at Dec 31 2025)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2037427/000203742726000009/ck0002037427-20260930.htm",
+   "side": "neutral",
+   "added": "2026-11-09T08:24:57-05:00"
   }
  ]
 }
