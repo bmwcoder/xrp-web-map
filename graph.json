@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-09T08:26:12-05:00",
+  "updated": "2026-11-09T14:26:52-05:00",
   "version": 3
  },
  "nodes": [
@@ -31902,6 +31902,20 @@
     "https://www.ypfluz.com/Noticias/NoticiaCompleta/213"
    ],
    "added": "2026-11-09T08:24:37-05:00"
+  },
+  {
+   "id": "avalanche",
+   "label": "Avalanche (AVAX)",
+   "type": "asset",
+   "handle": "",
+   "summary": "Layer-1 blockchain built by Ava Labs. On Nov 9 2026 Ava Labs and NYSE said Avalanche will provide the core ledger technology for the clearing firm of NYSE's affiliated upcoming tokenized-securities ATS (subject to regulatory approval). Neither release names Ripple, XRP or XRPL.",
+   "why": "NYSE's affiliated tokenized-securities platform picked Avalanche, not the XRP Ledger, as its clearing and settlement ledger (Nov 9 2026), a reminder that big exchanges are choosing rival chains too.",
+   "grade": "A",
+   "sources": [
+    "https://www.prnewswire.com/news-releases/avalanche-to-serve-as-core-ledger-technology-for-clearing-and-settlement-of-nyse-affiliated-upcoming-tokenized-securities-platform-302932803.html",
+    "https://www.prnewswire.com/news-releases/avalanche-to-support-nyses-affiliated-upcoming-digital-ats-nyse-content-update-302933387.html"
+   ],
+   "added": "2026-11-09T14:23:40-05:00"
   }
  ],
  "edges": [
@@ -105414,6 +105428,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2037427/000203742726000009/ck0002037427-20260930.htm",
    "side": "neutral",
    "added": "2026-11-09T08:24:57-05:00"
+  },
+  {
+   "from": "nyse",
+   "to": "avalanche",
+   "label": "NYSE-affiliated tokenized-securities ATS will use Avalanche as its clearing and settlement ledger (Nov 9 2026, subject to approval); Ripple/XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": true,
+   "source": "https://www.prnewswire.com/news-releases/avalanche-to-support-nyses-affiliated-upcoming-digital-ats-nyse-content-update-302933387.html",
+   "side": "contradicts",
+   "added": "2026-11-09T14:23:40-05:00"
   }
  ]
 }
