@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-10T06:07:11-05:00",
+  "updated": "2026-11-10T08:26:42-05:00",
   "version": 3
  },
  "nodes": [
@@ -105439,6 +105439,39 @@
    "source": "https://www.prnewswire.com/news-releases/avalanche-to-support-nyses-affiliated-upcoming-digital-ats-nyse-content-update-302933387.html",
    "side": "contradicts",
    "added": "2026-11-09T14:23:40-05:00"
+  },
+  {
+   "from": "schwartz",
+   "to": "myth-2025plan",
+   "label": "own reply (Nov 9, 2026) to a holder asking Ripple for 'the real plan': 'We talk about our plans constantly. There's no secret plan we aren't telling you about.'",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/JoelKatz/status/2119828938767868099",
+   "side": "contradicts",
+   "added": "2026-11-10T08:25:08-05:00"
+  },
+  {
+   "from": "bitwise",
+   "to": "etf-xrp-holdings",
+   "label": "issuer holdings page: XRP in trust fell from 415,365,129 (data as of Nov 5, 2026) to 406,770,578 (data as of Nov 8, 2026), shares outstanding 37.21M to 36.44M, a net redemption of about 8.59M XRP",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://bitxrpetf.com/",
+   "side": "contradicts",
+   "added": "2026-11-10T08:25:08-05:00"
+  },
+  {
+   "from": "sec",
+   "to": "evernorth",
+   "label": "SEC declared Evernorth's resale registration (333-299739) effective Nov 9, 2026: 73,688,162 Class A shares registered for resale, incl. up to 31,392,746 from Class C conversions and 22,953,128 from Company Units (424B3, Nov 9 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026072223/evernorth-424b3.htm",
+   "side": "neutral",
+   "added": "2026-11-10T08:25:26-05:00"
   }
  ]
 }
