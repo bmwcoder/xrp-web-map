@@ -218,9 +218,9 @@ function assignSectors(nodes, rawEdges) {
 
 function layoutNodes(nodes) {
   const pins = {
-    xrp: [240, 70, 30],
-    ripple: [-260, -40, 90],
-    xrpl: [10, 230, 210],
+    xrp: [0, 0, 40],
+    ripple: [-260, 150, 120],
+    xrpl: [210, -130, 200],
   };
   const groups = new Map();
   for (const node of nodes) {
@@ -238,37 +238,61 @@ function layoutNodes(nodes) {
   const extra = [...groups.keys()].filter((id) => !known.includes(id)).sort();
   const order = known.concat(extra);
   const sectors = [];
-  const start = -Math.PI / 2;
+  const shell = 1760;
   order.forEach((id, index) => {
     const list = groups.get(id).slice().sort((a, b) => (a.id < b.id ? -1 : 1));
-    const a0 = start + (index / order.length) * Math.PI * 2;
-    const a1 = start + ((index + 1) / order.length) * Math.PI * 2;
-    const span = a1 - a0;
-    const pad = Math.min(span * 0.12, 0.18);
-    const outer = id === "claims" ? 5600 : 4900;
-    const inner = id === "claims" ? 2100 : 860;
-    list.forEach((node, i) => {
-      const t = list.length === 1 ? 0.5 : i / (list.length - 1);
-      const ang = a0 + pad + (span - pad * 2) * t + (hash01(node.id + ":a") - 0.5) * (span / Math.max(list.length, 1)) * 0.55;
+    const elev = (index + 0.5) / order.length * 2 - 1;
+    const ring = Math.sqrt(Math.max(0.08, 1 - elev * elev));
+    const az = -Math.PI / 2 + (index / order.length) * Math.PI * 2;
+    const reach = id === "claims" ? shell * 1.22 : shell;
+    const cx = Math.cos(az) * ring * reach;
+    const cy = Math.sin(az) * ring * reach;
+    const cz = elev * shell * 1.05;
+    const spread = 150 + Math.sqrt(list.length) * 26;
+    list.forEach((node) => {
       const hub = Math.min(1, Math.log2(1 + node.deg) / 7);
-      const radial = hash01(node.id + ":r");
-      const r = inner + (outer - inner) * (1 - hub * 0.84) * (0.42 + 0.58 * radial);
-      node.x = Math.cos(ang) * r;
-      node.y = Math.sin(ang) * r;
-      node.z = (hash01(node.id + ":z") - 0.5) * 1280 * (0.3 + (1 - hub));
+      const local = spread * (0.28 + 0.72 * (1 - hub * 0.75)) * (0.45 + 0.55 * hash01(node.id + ":r"));
+      const phi = hash01(node.id + ":p") * Math.PI * 2;
+      const lift = hash01(node.id + ":z") * 2 - 1;
+      const ring2 = Math.sqrt(Math.max(0, 1 - lift * lift));
+      node.x = cx + Math.cos(phi) * ring2 * local;
+      node.y = cy + Math.sin(phi) * ring2 * local;
+      node.z = cz + lift * local;
     });
     sectors.push({
       id,
       title: sectorTitle(id),
       color: sectorColor(id),
-      a0,
-      a1,
-      r0: inner,
-      r1: outer,
+      a0: az - Math.PI / order.length,
+      a1: az + Math.PI / order.length,
+      r0: Math.max(200, reach - spread),
+      r1: reach + spread,
       n: list.length,
     });
   });
   return sectors;
+}
+
+/** Place an entity's real neighbors on a 3D shell around it so the lines can be read.
+ *  This does not add or remove connections. Leaving the selection restores galaxy positions.
+ */
+export function shellAround(origin, neighbors) {
+  const list = neighbors.slice().sort((a, b) => (a.id < b.id ? -1 : 1));
+  const n = list.length;
+  const radius = n > 80 ? 980 : n > 16 ? 760 : 560;
+  const golden = Math.PI * (3 - Math.sqrt(5));
+  return list.map((node, i) => {
+    const lift = n === 0 ? 0 : 1 - ((i + 0.5) / n) * 2;
+    const ring = Math.sqrt(Math.max(0, 1 - lift * lift));
+    const theta = i * golden;
+    const rad = radius * (0.94 + 0.08 * hash01(node.id));
+    return {
+      i: node.i,
+      x: origin.x + Math.cos(theta) * ring * rad,
+      y: origin.y + Math.sin(theta) * ring * rad,
+      z: origin.z + lift * rad,
+    };
+  });
 }
 
 export function createModel(data) {

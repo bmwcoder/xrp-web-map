@@ -32,18 +32,19 @@ a { color: #c9dbff; }
 #space { position: absolute; inset: 0; }
 #space canvas.gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
 #labels3d { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-.lab { position: absolute; left: 0; top: 0; white-space: nowrap; font: 600 11px/1.2 var(--font); letter-spacing: .04em; color: #e8eefc; text-shadow: 0 1px 2px #000, 0 0 6px #000; }
+.lab { position: absolute; left: 0; top: 0; white-space: nowrap; font: 650 15px/1.2 var(--font); color: #f7f9ff; text-shadow: 0 1px 2px #000; }
+.lab span { background: rgba(7, 11, 20, .78); border-radius: 4px; padding: 2px 5px; }
 .lab i { display: none; }
 .lab span { position: relative; left: 8px; top: -6px; }
 .lab.gold { color: var(--gold); }
-.lab.sel span { background: rgba(14, 18, 32, .88); border: 1px solid rgba(230, 193, 90, .7); border-radius: 4px; padding: 3px 6px; }
+.lab.sel span { border: 1px solid rgba(230, 193, 90, .85); color: #fff; }
 .lab.sl { letter-spacing: .16em; text-transform: uppercase; font-size: 11px; }
 .lab.sl span { left: 0; transform: translateX(-50%); }
 
 #boot, #fallback { position: absolute; inset: 0; display: grid; place-items: center; background: rgba(7, 11, 20, .92); z-index: 5; padding: 24px; text-align: center; }
 #fallback { bottom: var(--foot, 150px); place-items: start center; padding: 188px 16px 24px; overflow: auto; }
 #boot.err { color: var(--text); }
-#boot button, .banner button, #reloadBtn, .actions button, #filters button, #zoom button, #tour button, .pop button, #panel #pX {
+#boot button, .banner button, #reloadBtn, .actions button, #filters button, #zoom button, #tour button, .pop button, #panel #pX, #panel #pMore {
   border: 1px solid var(--line); background: var(--panel); border-radius: 999px; padding: 8px 12px; min-height: 40px;
 }
 #fallback { align-items: stretch; text-align: left; overflow: auto; }
@@ -78,7 +79,7 @@ a { color: #c9dbff; }
 
 #panel { position: fixed; z-index: 8; top: calc(var(--top, 62px) + var(--filters, 46px) + 8px + var(--sa-t)); right: calc(12px + var(--sa-r)); bottom: calc(var(--foot, 76px) + 8px + var(--sa-b)); width: min(400px, calc(100vw - 24px)); background: var(--panel); border: 1px solid var(--line); border-radius: 16px; overflow: auto; padding: 16px 16px 24px; }
 #pGrab { display: none; }
-#pX { position: sticky; top: 0; float: right; }
+#pX, #pMore { position: sticky; top: 0; float: right; margin-left: 6px; }
 .kicker, .handle, .fine, .meta { color: var(--muted); }
 .kicker { text-transform: uppercase; letter-spacing: .08em; font-size: 12px; margin: 0; }
 #panel h2 { margin: 4px 40px 6px 0; font-size: 26px; line-height: 1.15; }
@@ -133,19 +134,27 @@ body:has(#panel:not([hidden])) #zoom { right: min(448px, calc(100vw - 54px)); }
 .sheet { width: min(640px, 100%); max-height: min(86vh, 760px); overflow: auto; background: var(--panel); border: 1px solid var(--line); border-radius: 16px; padding: 18px 18px 24px; }
 .sheet h2 { margin-top: 0; }
 
+#filterBtn { display: none; }
 @media (max-width: 759px) {
-  #top { flex-wrap: wrap; }
+  #top { flex-wrap: wrap; gap: 6px; padding: 6px 8px 4px; }
+  .brand { flex: none; }
+  .pv { display: none; }
+  .actions { order: 2; flex: 1; min-width: 0; flex-wrap: nowrap; overflow-x: auto; }
+  .actions button { padding: 6px 8px; min-height: 36px; font-size: 13px; }
   #searchWrap { order: 3; flex-basis: 100%; }
-  .actions { order: 2; }
-  #panel { inset: auto 0 0 0; top: auto; width: auto; height: 78vh; height: 78dvh; border-radius: 16px 16px 0 0; }
-  #panel.open[data-snap="peek"] { height: 46vh; height: 46dvh; }
+  #q { min-height: 38px; }
+  #filterBtn { display: inline-flex; }
+  #filters { display: none; }
+  body.show-filters #filters { display: flex; }
+  #panel { inset: auto 0 0 0; top: auto; width: auto; height: 72vh; height: 72dvh; border-radius: 16px 16px 0 0; }
+  #panel.open[data-snap="peek"] { height: 30vh; height: 30dvh; }
   #pGrab { display: grid; place-items: center; height: 22px; }
   #pGrab i { width: 42px; height: 4px; border-radius: 4px; background: #8ea0c4; }
   body:has(#panel:not([hidden])) #zoom,
   body:has(#fallback:not([hidden])) #zoom { display: none; }
   #tour { max-width: none; }
   #foot { font-size: 12px; }
-  #latest { display: none; }
+  #foot .legal, #latest { display: none; }
 }
 @media (prefers-reduced-motion: reduce) {
   * { scroll-behavior: auto !important; transition: none !important; animation: none !important; }

@@ -2,12 +2,13 @@ import {
   CENTER_IDS, GRADE_TEXT, GRADES, SIDE_HINT, SIDE_TEXT, SIDES,
   adoptionTally, applyFilters, createModel, defaultFilters, edgesOf,
   escapeHtml, formatUpdated, hostOf, latestEdges, safeUrl, searchNodes,
-  toggleGrade, toggleSide, toursFor, validateGraph,
+  shellAround, toggleGrade, toggleSide, toursFor, validateGraph,
 } from "./graph.js";
 
 const CACHE_NAME = "xrpmap-space-graph-v1";
 const CACHE_REQ = new Request(new URL("./graph-cache.json", document.baseURI));
-const CODE = "space-preview-1";
+const CODE = "space-preview-2";
+const PUBLIC_GRAPH = "https://xrpmap.org/graph.json";
 
 const $ = (sel, root = document) => root.querySelector(sel);
 const $$ = (sel, root = document) => [...root.querySelectorAll(sel)];
@@ -45,6 +46,8 @@ const preview = {
   get source() { return state.source; },
   get warnings() { return state.model ? state.model.warnings : []; },
   get engine() { return state.space; },
+  get view() { return viewMetrics(); },
+  get dataHref() { return state.dataHref || ""; },
 };
 window.__spacePreview = preview;
 
@@ -65,14 +68,22 @@ function placeChrome() {
 }
 
 async function fetchLive() {
-  const url = new URL("../graph.json", document.baseURI);
-  const res = await fetch(url, { cache: "no-cache" });
-  if (!res.ok) throw new Error(`Public graph.json returned HTTP ${res.status}.`);
-  const text = await res.text();
-  let data;
-  try { data = JSON.parse(text); }
-  catch { throw new Error("Public graph.json is not valid JSON."); }
-  return { data, text };
+  const candidates = [new URL("../graph.json", document.baseURI).href, PUBLIC_GRAPH];
+  const errors = [];
+  for (const href of candidates) {
+    try {
+      const res = await fetch(href, { cache: "no-cache" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const text = await res.text();
+      let data;
+      try { data = JSON.parse(text); }
+      catch { throw new Error("not valid JSON"); }
+      return { data, text, href };
+    } catch (error) {
+      errors.push(`${href}: ${error.message || error}`);
+    }
+  }
+  throw new Error(errors.join(" "));
 }
 
 async function readCache() {
@@ -111,7 +122,7 @@ async function loadGraph() {
       throw error;
     }
     await writeCache(live.text);
-    return { data: live.data, source: "live", savedAt: "" };
+    return { data: live.data, source: "live", savedAt: "", href: live.href };
   } catch (error) {
     const cached = await readCache();
     if (cached) {
@@ -152,6 +163,12 @@ function paintCounts() {
   $("#updated").textContent = `Graph updated ${formatUpdated(m.meta.updated)}`;
   $("#updated").dateTime = m.meta.updated;
   $("#updated").title = m.meta.updated;
+  const from = $("#dataFrom");
+  if (from) {
+    if (state.source === "cache") from.textContent = "Showing a copy saved in this browser.";
+    else if (state.dataHref && state.dataHref.includes("xrpmap.org/graph.json") && !state.dataHref.startsWith(location.origin)) from.textContent = "Loaded from xrpmap.org/graph.json.";
+    else from.textContent = "Loaded from this site’s graph.json.";
+  }
   const hud = $("#hudCount");
   if (hud) hud.textContent = `${m.countN.toLocaleString("en-US")} shown · ${m.nodes.length.toLocaleString("en-US")} in graph`;
 }
@@ -174,6 +191,10 @@ function afterFilterChange() {
   paintCounts();
   syncFilterButtons();
   if (state.space) state.space.applyVisibility();
+  if (state.space) {
+    applyFocusLayout(state.sel);
+    if (state.sel >= 0) frameFocus(state.sel);
+  }
   if (state.mode === "fallback") renderFallbackList();
   if (state.sel >= 0) renderPanel();
 }
@@ -190,7 +211,7 @@ function select(index, reason) {
   if (state.tour && reason !== "tour") stopTour(false);
   state.sel = index;
   if (index >= 0) revealSelection(index);
-  if (state.space) state.space.select(index, state.mode === "webgl" && index >= 0 && reason !== "tour");
+  if (state.space) state.space.select(index, false);
   if (index >= 0) {
     renderPanel();
     openPanel();
@@ -257,6 +278,7 @@ function renderPanel() {
     <div class="split">
       <p><b>Connections</b> are sourced links between two entities. A connection is not adoption, a partnership, or an accusation.</p>
       <p><b>Adoption</b> is a separate mark on each connection: ${tally.supports} support it, ${tally.contradicts} contradict it, ${tally.neutral} are not about adoption.</p>
+      <p>Around this entity, space shows only its real connections, moved nearby so the names can be read. Nothing is added. Home puts every entity back in the galaxy.</p>
     </div>
     ${[...groups.entries()].map(([type, rows]) => `
       <details open>
@@ -308,27 +330,121 @@ function renderFallbackList() {
     || "<p>Nothing matches.</p>";
 }
 
+function visibleNeighbors(index) {
+  const m = state.model;
+  return edgesOf(m, index).filter((edge) => m.ve[edge.j]).map((edge) => m.nodes[edge.a === index ? edge.b : edge.a]);
+}
+
+function applyFocusLayout(index) {
+  const space = state.space;
+  if (!space?.syncPositions) return;
+  if (index < 0) {
+    space.syncPositions(null);
+    return;
+  }
+  const origin = state.model.nodes[index];
+  const shell = shellAround(origin, visibleNeighbors(index));
+  const placed = new Map(shell.map((point) => [point.i, point]));
+  space.syncPositions((node) => {
+    const point = placed.get(node.i);
+    return point ? [point.x, point.y, point.z] : null;
+  });
+}
+
+function frameFocus(index) {
+  const space = state.space;
+  if (!space) return Promise.resolve();
+  const ids = [index, ...visibleNeighbors(index).map((node) => node.i)];
+  let cx = 0;
+  let cy = 0;
+  let cz = 0;
+  const pts = [];
+  for (const i of ids) {
+    const x = space.nodePos[i * 3];
+    const y = space.nodePos[i * 3 + 1];
+    const z = space.nodePos[i * 3 + 2];
+    if (![x, y, z].every(Number.isFinite)) continue;
+    cx += x;
+    cy += y;
+    cz += z;
+    pts.push([x, y, z]);
+  }
+  if (!pts.length) return Promise.resolve();
+  cx /= pts.length;
+  cy /= pts.length;
+  cz /= pts.length;
+  let rad = 80;
+  for (const [x, y, z] of pts) rad = Math.max(rad, Math.hypot(x - cx, y - cy, z - cz));
+  const dist = Math.min(5200, Math.max(700, rad / Math.sin((50 * Math.PI / 180) / 2) * 1.18));
+  const eye = space.camera.position.clone().set(cx + dist * 0.38, cy - dist * 0.78, cz + dist * 0.5);
+  const target = space.controls.target.clone().set(cx, cy, cz - (phone() ? rad * 0.55 : 0));
+  return space.flyTo(eye, target, state.motionOff ? 1 : 900);
+}
+
+function viewMetrics() {
+  const space = state.space;
+  const labels = document.querySelectorAll("#labels3d .lab").length;
+  if (!space || state.sel < 0) return { n: 0, width: 0, height: 0, labels, header: $("#top").getBoundingClientRect().height, sheet: 0, innerHeight };
+  const ids = [state.sel, ...visibleNeighbors(state.sel).map((node) => node.i)];
+  const pts = [];
+  for (const i of ids) {
+    const projected = space.nodeVec(i).clone().project(space.camera);
+    if (!Number.isFinite(projected.x) || projected.z > 1) continue;
+    pts.push([(projected.x + 1) / 2 * space.w, (1 - projected.y) / 2 * space.h]);
+  }
+  const xs = pts.map((p) => p[0]);
+  const ys = pts.map((p) => p[1]);
+  const panel = $("#panel");
+  return {
+    n: pts.length,
+    width: pts.length ? Math.max(...xs) - Math.min(...xs) : 0,
+    height: pts.length ? Math.max(...ys) - Math.min(...ys) : 0,
+    labels,
+    header: $("#top").getBoundingClientRect().height,
+    sheet: panel.hidden ? 0 : panel.getBoundingClientRect().height,
+    innerHeight,
+  };
+}
+
 function labelSet() {
   const m = state.model;
   const out = [];
-  if (state.tour) {
+  const focus = state.sel;
+  if (state.tour && focus < 0) {
     const step = state.tour.steps[state.step];
     for (const i of step?.group || []) out.push({ i, cls: "nl tag", force: true });
     if (step?.focus >= 0) out.push({ i: step.focus, cls: "nl sel", force: true });
     return out;
   }
-  const ranked = m.nodes.filter((n) => m.vn[n.i]).sort((a, b) => b.deg - a.deg);
-  const cap = phone() ? 8 : 16;
-  for (const n of ranked.slice(0, cap)) {
-    out.push({ i: n.i, cls: CENTER_IDS.includes(n.id) || n.id === "rlusd" ? "nl gold" : "nl" });
+  if (focus >= 0) {
+    out.push({ i: focus, cls: "nl sel", force: true });
+    const neighbors = visibleNeighbors(focus).sort((a, b) => b.deg - a.deg || (a.id < b.id ? -1 : 1));
+    const picked = [];
+    const seen = new Set();
+    for (const node of neighbors) {
+      if (seen.has(node.sec)) continue;
+      seen.add(node.sec);
+      picked.push(node);
+    }
+    for (const node of neighbors) {
+      if (picked.length >= (phone() ? 7 : 12)) break;
+      if (!picked.includes(node)) picked.push(node);
+    }
+    for (const node of picked) out.push({ i: node.i, cls: "nl nb", force: true });
+    return out;
   }
-  if (state.sel >= 0) {
-    out.push({ i: state.sel, cls: "nl sel", force: true });
-    const neighbors = edgesOf(m, state.sel).filter((e) => m.ve[e.j])
-      .map((e) => m.nodes[e.a === state.sel ? e.b : e.a])
-      .sort((a, b) => b.deg - a.deg)
-      .slice(0, phone() ? 5 : 10);
-    for (const n of neighbors) out.push({ i: n.i, cls: "nl nb" });
+  const cap = phone() ? 7 : 12;
+  for (const id of [...CENTER_IDS, "rlusd"]) {
+    const i = m.idx.get(id);
+    if (i !== undefined && m.vn[i]) out.push({ i, cls: "nl gold", force: true });
+  }
+  const seen = new Set(out.map((item) => m.nodes[item.i].sec));
+  const ranked = m.nodes.filter((node) => m.vn[node.i]).sort((a, b) => b.deg - a.deg);
+  for (const node of ranked) {
+    if (out.length >= cap) break;
+    if (seen.has(node.sec)) continue;
+    seen.add(node.sec);
+    out.push({ i: node.i, cls: "nl" });
   }
   return out;
 }
@@ -355,8 +471,9 @@ function simplifySpace(space) {
   }
   if (software || state.motionOff) {
     space.directRender = true;
+    if (software && space.sky) space.sky.visible = false;
     const pixels = innerWidth * innerHeight;
-    space.dpr = software ? (pixels > 800000 ? 0.5 : pixels > 450000 ? 0.7 : 1) : 1;
+    space.dpr = software ? (pixels > 700000 ? 0.5 : 0.85) : 1;
     space.resize();
   }
   space.motionOff = state.motionOff;
@@ -402,7 +519,7 @@ async function startSpace() {
     if (info.software) {
       const note = $("#soft");
       note.hidden = false;
-      note.textContent = "Software WebGL on this browser: bloom is off and the view is drawn smaller. A real phone or tablet GPU was not measured and may be faster.";
+      note.textContent = "Software WebGL on this browser: the full-screen sky shader is off. A real phone or tablet GPU was not measured and may be faster.";
     }
   } catch (error) {
     console.error(error);
@@ -456,7 +573,7 @@ function setMotion(off) {
   state.motionOff = off;
   if (state.space) state.space.motionOff = off;
   $("#pauseBtn").setAttribute("aria-pressed", String(off));
-  $("#pauseBtn").textContent = off ? "Motion off" : "Pause motion";
+  $("#pauseBtn").textContent = off ? "Motion off" : "Pause";
 }
 
 async function goHome() {
@@ -483,6 +600,7 @@ function stopTour(resetCamera) {
     state.space.setPath(null);
     state.space.setGroup(null);
     state.space.cancelFly();
+    applyFocusLayout(state.sel);
     if (resetCamera) state.space.overview(state.motionOff ? 1 : 1200);
   }
 }
@@ -491,6 +609,7 @@ async function showStep() {
   const tour = state.tour;
   if (!tour || !state.space) return;
   const step = tour.steps[state.step];
+  if (!(step.focus >= 0)) applyFocusLayout(-1);
   $("#tTitle").textContent = tour.title;
   $("#tCount").textContent = `${state.step + 1} of ${tour.steps.length}`;
   $("#tCaption").textContent = step.caption;
@@ -518,9 +637,9 @@ async function showStep() {
   } else if (step.focus >= 0) {
     state.sel = step.focus;
     state.space.select(step.focus, false);
+    applyFocusLayout(step.focus);
     renderPanel();
-    openPanel();
-    await state.space.flyToNode(step.focus);
+    await frameFocus(step.focus);
   }
 }
 
@@ -576,6 +695,17 @@ function bindChrome() {
   $("#allBtn").addEventListener("click", () => { applyFilters(state.model, { key: false }); afterFilterChange(); });
   for (const btn of $$("[data-grade]")) btn.addEventListener("click", () => { toggleGrade(state.model, btn.dataset.grade); afterFilterChange(); });
   for (const btn of $$("[data-side]")) btn.addEventListener("click", () => { toggleSide(state.model, btn.dataset.side); afterFilterChange(); });
+  $("#filterBtn").addEventListener("click", () => {
+    const open = document.body.classList.toggle("show-filters");
+    $("#filterBtn").setAttribute("aria-expanded", String(open));
+    placeChrome();
+  });
+  $("#pMore").addEventListener("click", () => {
+    const panel = $("#panel");
+    if (phone()) panel.dataset.snap = panel.dataset.snap === "full" ? "peek" : "full";
+    const sources = $("#pBody .srcs");
+    if (sources) sources.scrollIntoView({ block: "nearest" });
+  });
   $("#homeBtn").addEventListener("click", () => goHome());
   $("#pauseBtn").addEventListener("click", () => setMotion(!state.motionOff));
   $("#zIn").addEventListener("click", () => zoom(1 / 1.3));
@@ -720,6 +850,7 @@ async function main() {
     return;
   }
   state.source = loaded.source;
+  state.dataHref = loaded.href || "";
   state.savedAt = loaded.savedAt || "";
   state.loadError = loaded.loadError || "";
   paintCounts();

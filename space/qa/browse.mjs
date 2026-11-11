@@ -86,11 +86,41 @@ async function runProfile(browser, name, contextOptions, path) {
   check(`${name} live graph`, info.source === "live" && info.meta.updated === "2026-11-11T08:25:56-05:00", `${info.source} ${info.meta && info.meta.updated}`);
   check(`${name} counts`, info.counts.nodes === 2371 && info.counts.edges === 6704 && info.counts.shownE === 91, JSON.stringify(info.counts));
   check(`${name} updated visible`, (await page.locator("#updated").innerText()).includes("2026"), await page.locator("#updated").innerText());
+  await page.screenshot({ path: `${out}/${path}-home.png` });
+  const narrow = (page.viewportSize()?.width || 1000) < 760;
+  if (narrow) {
+    const header = await page.locator("#top").evaluate((el) => el.getBoundingClientRect().height);
+    const filtersDisplay = await page.locator("#filters").evaluate((el) => getComputedStyle(el).display);
+    check(`${name} header stays compact`, header < 170, `${Math.round(header)}px`);
+    check(`${name} filters start closed`, filtersDisplay === "none", filtersDisplay);
+    await page.click("#filterBtn");
+  }
+  await page.click("#allBtn");
+  await page.waitForFunction(() => window.__spacePreview.counts.shownE === 6704);
+  check(`${name} all-connections control`, (await readPreview(page)).counts.shownE === 6704);
+  await page.click("#keyBtn");
+  await page.waitForFunction(() => window.__spacePreview.counts.shownE === 91 && window.__spacePreview.counts.key === true);
+  check(`${name} key-connections control`, (await readPreview(page)).counts.shownE === 91);
+  if (narrow) await page.click("#filterBtn");
+  await page.click("#pauseBtn");
+  check(`${name} pause control`, (await page.locator("#pauseBtn").getAttribute("aria-pressed")) === "true" && (await readPreview(page)).motionOff === true);
+  await page.click("#pauseBtn");
   const shot = await inspectXrp(page);
+  await page.waitForFunction(() => {
+    const view = window.__spacePreview.view;
+    return view && view.n > 10 && view.width > 220 && view.height > 120 && view.labels >= 6;
+  }, null, { timeout: 8000 });
+  const view = await page.evaluate(() => window.__spacePreview.view);
+  check(`${name} selected neighborhood has depth`, view.width > 220 && view.height > 120 && view.labels >= 6, JSON.stringify(view));
   check(`${name} selected XRP`, shot.title === "XRP", shot.title);
   check(`${name} grade and adoption copy`, /Primary or official source/.test(shot.text) && /Connections/.test(shot.text) && /Adoption/.test(shot.text), shot.text.slice(0, 180));
   check(`${name} source link`, /^https:\/\//.test(shot.href || ""), shot.href || "");
+  if (narrow) check(`${name} sheet leaves the galaxy visible`, view.sheet / view.innerHeight < 0.42, `${Math.round(view.sheet)}/${view.innerHeight}`);
   await page.screenshot({ path: `${out}/${path}-selected.png` });
+  await page.click("#pMore");
+  await page.waitForSelector("#pBody .srcs a");
+  check(`${name} evidence control shows sources`, (await page.locator("#pBody .srcs a").count()) >= 1);
+  await page.screenshot({ path: `${out}/${path}-evidence.png` });
   await page.click("#homeBtn");
   await page.waitForTimeout(400);
   check(`${name} home clears selection`, (await page.locator("#panel").getAttribute("hidden")) !== null);
@@ -175,6 +205,19 @@ await tour.click("#tStop");
 check("tour ends", await tour.locator("#tour").getAttribute("hidden") !== null);
 check("tour console clean", tbucket.errors.length === 0, tbucket.errors.join(" | "));
 await tourCtx.close();
+
+const phoneTourCtx = await browser.newContext(devices["iPhone 13"]);
+const phoneTour = await phoneTourCtx.newPage();
+await phoneTour.goto(`${base}/space/`, { waitUntil: "domcontentloaded" });
+await settle(phoneTour);
+await phoneTour.click("#tourBtn");
+await phoneTour.click('#tourList button[data-tour="adoption"]');
+await phoneTour.waitForFunction(() => /Connection:/.test(document.querySelector("#tCaption")?.textContent || "") && /Adoption:/.test(document.querySelector("#tCaption")?.textContent || ""));
+check("phone tour caption", /Adoption:/.test(await phoneTour.locator("#tCaption").innerText()));
+await phoneTour.screenshot({ path: `${out}/phone-tour.png` });
+await phoneTour.click("#tNext");
+await phoneTour.click("#tStop");
+await phoneTourCtx.close();
 
 await browser.close();
 

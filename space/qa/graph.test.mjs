@@ -2,7 +2,7 @@ import assert from "node:assert/strict";
 import { readFileSync } from "node:fs";
 import test from "node:test";
 import {
-  applyFilters, bestEdge, createModel, defaultFilters, searchNodes, toursFor, validateGraph,
+  applyFilters, bestEdge, createModel, defaultFilters, edgesOf, searchNodes, shellAround, toursFor, validateGraph,
 } from "../js/graph.js";
 
 const live = JSON.parse(readFileSync(new URL("../../graph.json", import.meta.url), "utf8"));
@@ -122,6 +122,22 @@ test("schema failures are explicit", () => {
   assert.equal(loose.edges.find((edge) => edge.label === "knows").side, "neutral");
   assert.equal(loose.edges.find((edge) => edge.label === "odd").side, "neutral");
   assert.ok(loose.warnings.length >= 1);
+});
+
+test("galaxy has vertical depth and a selection shell only moves real neighbors", () => {
+  const model = createModel(live);
+  const zs = model.nodes.map((node) => node.z);
+  assert.ok(Math.max(...zs) - Math.min(...zs) > 1200);
+  const xrp = model.nodes[model.idx.get("xrp")];
+  const neighbors = edgesOf(model, xrp.i).map((edge) => model.nodes[edge.a === xrp.i ? edge.b : edge.a]);
+  const shell = shellAround(xrp, neighbors);
+  assert.equal(shell.length, neighbors.length);
+  assert.deepEqual(new Set(shell.map((point) => point.i)), new Set(neighbors.map((node) => node.i)));
+  const shellZ = shell.map((point) => point.z);
+  assert.ok(Math.max(...shellZ) - Math.min(...shellZ) > 400);
+  const again = shellAround(xrp, neighbors);
+  assert.equal(again[0].x, shell[0].x);
+  assert.equal(again[0].z, shell[0].z);
 });
 
 test("key filter can be cleared without changing totals", () => {

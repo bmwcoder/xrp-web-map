@@ -38,9 +38,10 @@
   </div>
   <div class="actions">
     <button type="button" id="homeBtn">Home</button>
-    <button type="button" id="pauseBtn" aria-pressed="false">Pause motion</button>
+    <button type="button" id="pauseBtn" aria-pressed="false" aria-label="Pause motion">Pause</button>
     <button type="button" id="tourBtn" aria-expanded="false" hidden>Tours</button>
-    <button type="button" id="helpBtn">How to read</button>
+    <button type="button" id="filterBtn" aria-expanded="false" aria-controls="filters">Filters</button>
+    <button type="button" id="helpBtn" aria-label="How to read this map">Help</button>
   </div>
 </header>
 
@@ -69,6 +70,7 @@
 
 <aside id="panel" hidden aria-labelledby="pTitle">
   <div id="pGrab" aria-hidden="true"><i></i></div>
+  <button type="button" id="pMore">Evidence</button>
   <button type="button" id="pX" aria-label="Close details">Close</button>
   <div id="pBody"></div>
 </aside>
@@ -94,7 +96,7 @@
 
 <footer id="foot">
   <p id="counts" aria-live="polite"></p>
-  <p><time id="updated"></time> · code <span id="code">space-preview-1</span> · <button type="button" id="reloadBtn">Check for a newer graph</button></p>
+  <p><time id="updated"></time> · <span id="dataFrom"></span> · code <span id="code">space-preview-2</span> · <button type="button" id="reloadBtn">Check for a newer graph</button></p>
   <p id="soft" class="legal" hidden></p>
   <p class="legal">Not investment advice. A line is a connection, not adoption. The author holds XRP. <a href="../">Current map</a>. Unlisted preview, not private.</p>
   <details id="latest">
@@ -113,7 +115,7 @@
     <p>The view opens on <b>key connections</b>, the smaller set marked in the public graph. “All connections” draws every link in the file. Home clears a selection and returns to key connections.</p>
     <p>Drag to orbit, scroll or pinch to zoom, tap a point or search to inspect sources. Arrow keys orbit when the galaxy is focused. Slash focuses search. Escape closes this dialog, a tour, then the details.</p>
     <p>Pause motion stops the slow orbit, the star shimmer, and the fly-to glide. Reduced-motion settings start paused. If WebGL is missing, search and the written record stay available.</p>
-    <p>Data is <a href="../graph.json">graph.json</a>, the same public file as the live map, read when this page loads. The galaxy positions are computed in the browser from sectors and connections. They are not the flat map’s x/y coordinates, and they are not a video.</p>
+    <p>Data is the public <a href="https://xrpmap.org/graph.json">graph.json</a>, the same file as the live map. On this host it is read from the copy beside the page; if that file is missing, the page requests xrpmap.org directly. Selecting an entity draws its real connections in a nearby shell so the names fit on screen. That arrangement is not a new relationship, and Home restores the galaxy. Positions are not the flat map’s x/y coordinates, and this is not a video.</p>
     <p>The live map is unchanged. This page asks crawlers not to index it. That is not access control.</p>
   </div>
 </div>
