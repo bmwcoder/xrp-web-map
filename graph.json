@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-11T06:29:13-05:00",
+  "updated": "2026-11-11T08:25:56-05:00",
   "version": 3
  },
  "nodes": [
@@ -31916,6 +31916,18 @@
     "https://www.prnewswire.com/news-releases/avalanche-to-support-nyses-affiliated-upcoming-digital-ats-nyse-content-update-302933387.html"
    ],
    "added": "2026-11-09T14:23:40-05:00"
+  },
+  {
+   "id": "maple-finance",
+   "label": "Maple Finance",
+   "type": "company",
+   "handle": "@maplefinance",
+   "summary": "Onchain asset manager and institutional lender (syrupUSDC and syrupUSDT products). Its collateral disclosures, as reported by CryptoSlate, list about 225M XRP backing fixed-term stablecoin loans.",
+   "grade": "B",
+   "sources": [
+    "https://cryptoslate.com/maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations/"
+   ],
+   "added": "2026-11-11T08:24:40-05:00"
   }
  ],
  "edges": [
@@ -105472,6 +105484,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026072223/evernorth-424b3.htm",
    "side": "neutral",
    "added": "2026-11-10T08:25:26-05:00"
+  },
+  {
+   "from": "maple-finance",
+   "to": "xrp",
+   "label": "collateral disclosures list 142,766,086 XRP (syrupUSDC) and 82,314,669 XRP (syrupUSDT), about 225M XRP behind fixed-term stablecoin loans of about $151.8M maturing Dec 2026 to Jan 2027 (Maple disclosures as reported by CryptoSlate, Oct 31 2026)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://cryptoslate.com/maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations/",
+   "side": "neutral",
+   "added": "2026-11-11T08:24:40-05:00"
   }
  ]
 }
