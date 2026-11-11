@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-11T10:28:17-05:00",
+  "updated": "2026-11-11T14:23:58-05:00",
   "version": 3
  },
  "nodes": [
@@ -105519,6 +105519,39 @@
    "source": "https://www.federalregister.gov/documents/2026/11/10/2026-22962/imposition-of-special-measure-prohibiting-the-transmittal-of-funds-involving-mexc-global",
    "side": "neutral",
    "added": "2026-11-11T10:26:55-05:00"
+  },
+  {
+   "from": "schwartz",
+   "to": "xrp",
+   "label": "says his XRP is down from a high of about 26M to about 3M (also ~1,500 BTC to 1 BTC, ~40,000 ETH to 6 ETH) (own post, Nov 10 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/JoelKatz/status/2120281421940146625",
+   "side": "neutral",
+   "added": "2026-11-11T14:22:38-05:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "xrp",
+   "label": "at Swell (Oct 28, 2026): 99.9% of Ripple Treasury's ~$13T of 2025 payments 'didn't touch a crypto rail'; with Ripple Prime, '99 plus percent' off-chain (third-party transcript)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ceointerviews.ai/interview/3153871/",
+   "side": "contradicts",
+   "added": "2026-11-11T14:22:38-05:00"
+  },
+  {
+   "from": "garlinghouse",
+   "to": "xrp",
+   "label": "Bloomberg Crypto at Swell (Oct 28, 2026): XRP 'continues to be an asset we use as a bridge asset between different currency pairs'; no corridor, client or volume named (auto-transcript)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://finance.yahoo.com/video/xrp-heart-everything-ripple-does-200103964.html",
+   "side": "supports",
+   "added": "2026-11-11T14:22:38-05:00"
   }
  ]
 }
