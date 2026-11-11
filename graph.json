@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-11T08:25:56-05:00",
+  "updated": "2026-11-11T10:28:17-05:00",
   "version": 3
  },
  "nodes": [
@@ -31928,6 +31928,19 @@
     "https://cryptoslate.com/maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations/"
    ],
    "added": "2026-11-11T08:24:40-05:00"
+  },
+  {
+   "id": "mexc",
+   "label": "MEXC Global",
+   "type": "company",
+   "handle": "",
+   "summary": "Convertible virtual currency (CVC) exchange operating outside the United States. On Nov 6, 2026 FinCEN issued a section 9714(a) order finding MEXC Global (incl. subsidiaries, branches, offices and successors outside the US) a financial institution of primary money laundering concern in connection with Russian illicit finance; Treasury says it facilitated at least $16B in illicit transactions (May 2021-May 2026). The order was published in the Federal Register Nov 10, 2026 (FR Doc. 2026-22962) and is effective Dec 10, 2026, with no cessation date.",
+   "grade": "A",
+   "sources": [
+    "https://www.federalregister.gov/documents/2026/11/10/2026-22962/imposition-of-special-measure-prohibiting-the-transmittal-of-funds-involving-mexc-global",
+    "https://home.treasury.gov/news/press-releases/sb0685"
+   ],
+   "added": "2026-11-11T10:26:55-05:00"
   }
  ],
  "edges": [
@@ -105495,6 +105508,17 @@
    "source": "https://cryptoslate.com/maple-locks-280m-in-xrp-collateral-and-upcoming-maturity-dates-threaten-liquidations/",
    "side": "neutral",
    "added": "2026-11-11T08:24:40-05:00"
+  },
+  {
+   "from": "fincen",
+   "to": "mexc",
+   "label": "FinCEN section 9714(a) special measure (order issued Nov 6, 2026; FR Doc. 2026-22962 published Nov 10, 2026; effective Dec 10, 2026, no cessation date): prohibits covered US financial institutions from any transmittal of funds from or to MEXC Global, found of primary money laundering concern in connection with Russian illicit finance",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalregister.gov/documents/2026/11/10/2026-22962/imposition-of-special-measure-prohibiting-the-transmittal-of-funds-involving-mexc-global",
+   "side": "neutral",
+   "added": "2026-11-11T10:26:55-05:00"
   }
  ]
 }
