@@ -5,6 +5,7 @@
  *
  * Uses the system Chrome. Set CHROME to override the binary.
  */
+import { execFileSync } from "node:child_process";
 import { mkdirSync } from "node:fs";
 import { chromium, devices } from "playwright-core";
 
@@ -56,6 +57,11 @@ async function readPreview(page) {
   });
 }
 
+function ocr(file) {
+  try { return execFileSync("tesseract", [file, "stdout", "--psm", "6"], { encoding: "utf8" }); }
+  catch { return ""; }
+}
+
 async function fps(page) {
   await page.waitForTimeout(1500);
   return page.evaluate(() => window.__spacePreview.fps);
@@ -87,6 +93,28 @@ async function runProfile(browser, name, contextOptions, path) {
   check(`${name} counts`, info.counts.nodes === 2371 && info.counts.edges === 6704 && info.counts.shownE === 91, JSON.stringify(info.counts));
   check(`${name} updated visible`, (await page.locator("#updated").innerText()).includes("2026"), await page.locator("#updated").innerText());
   await page.screenshot({ path: `${out}/${path}-home.png` });
+  const homeFill = await page.evaluate(() => {
+    const space = window.__spacePreview.engine;
+    const model = space.s;
+    const pts = [];
+    for (const node of model.nodes) {
+      if (!model.vn[node.i]) continue;
+      const projected = space.nodeVec(node.i).clone().project(space.camera);
+      if (projected.z < 1) pts.push([(projected.x + 1) / 2 * space.w, (1 - projected.y) / 2 * space.h]);
+    }
+    const xs = pts.map((p) => p[0]);
+    const ys = pts.map((p) => p[1]);
+    return { width: Math.max(...xs) - Math.min(...xs), view: space.w };
+  });
+  check(`${name} home graph fills the view`, homeFill.width > homeFill.view * 0.45, `${Math.round(homeFill.width)}/${Math.round(homeFill.view)}`);
+  if (name === "phone") {
+    const clipped = await page.evaluate(() => {
+      const brand = document.querySelector(".brand").getBoundingClientRect();
+      const home = document.querySelector("#homeBtn").getBoundingClientRect();
+      return !(home.right <= brand.left || home.left >= brand.right || home.bottom <= brand.top || home.top >= brand.bottom);
+    });
+    check(`${name} Home is not under the brand`, !clipped);
+  }
   const narrow = (page.viewportSize()?.width || 1000) < 760;
   if (narrow) {
     const header = await page.locator("#top").evaluate((el) => el.getBoundingClientRect().height);
@@ -117,6 +145,23 @@ async function runProfile(browser, name, contextOptions, path) {
   check(`${name} source link`, /^https:\/\//.test(shot.href || ""), shot.href || "");
   if (narrow) check(`${name} sheet leaves the galaxy visible`, view.sheet / view.innerHeight < 0.42, `${Math.round(view.sheet)}/${view.innerHeight}`);
   await page.screenshot({ path: `${out}/${path}-selected.png` });
+  if (name === "desktop" || name === "phone") {
+    const clip = await page.evaluate(() => {
+      const panel = document.querySelector("#panel").getBoundingClientRect();
+      const filters = document.querySelector("#filters").getBoundingClientRect();
+      const head = document.querySelector("#top").getBoundingClientRect();
+      const y = Math.max(head.bottom, filters.height ? filters.bottom : 0) + 4;
+      const side = panel.left > window.innerWidth * 0.45;
+      const width = side ? panel.left - 8 : window.innerWidth - 8;
+      const height = side ? window.innerHeight - y - 48 : panel.top - y - 4;
+      return { x: 4, y, width: Math.max(80, width), height: Math.max(80, height) };
+    });
+    const crop = `${out}/${path}-labels.png`;
+    await page.screenshot({ path: crop, clip });
+    const text = ocr(crop);
+    const wanted = name === "desktop" ? /Bitwise|Evernorth|Santander|DekaBank|XRPL/i : /Bitwise|Evernorth|Santander|BNY|XRPL/i;
+    check(`${name} screenshot shows entity names`, wanted.test(text), text.replace(/\s+/g, " ").slice(0, 180));
+  }
   await page.click("#pMore");
   await page.waitForSelector("#pBody .srcs a");
   check(`${name} evidence control shows sources`, (await page.locator("#pBody .srcs a").count()) >= 1);

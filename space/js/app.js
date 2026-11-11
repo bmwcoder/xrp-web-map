@@ -503,6 +503,7 @@ async function startSpace() {
     simplifySpace(space);
     space.setLabelSet(labelSet);
     space.setActive(true);
+    space.host.appendChild($("#labels3d"));
     const canvas = space.renderer.domElement;
     canvas.tabIndex = 0;
     canvas.setAttribute("role", "application");
@@ -576,6 +577,40 @@ function setMotion(off) {
   $("#pauseBtn").textContent = off ? "Motion off" : "Pause";
 }
 
+function fitGalaxy(duration = 900) {
+  const space = state.space;
+  if (!space) return Promise.resolve();
+  applyFocusLayout(-1);
+  const pts = [];
+  for (const node of state.model.nodes) {
+    if (!state.model.vn[node.i]) continue;
+    const x = space.nodePos[node.i * 3];
+    const y = space.nodePos[node.i * 3 + 1];
+    const z = space.nodePos[node.i * 3 + 2];
+    if ([x, y, z].every(Number.isFinite)) pts.push([x, y, z]);
+  }
+  if (pts.length < 2) return space.overview(state.motionOff ? 1 : duration);
+  let cx = 0;
+  let cy = 0;
+  let cz = 0;
+  for (const p of pts) { cx += p[0]; cy += p[1]; cz += p[2]; }
+  cx /= pts.length;
+  cy /= pts.length;
+  cz /= pts.length;
+  const dists = pts.map((p) => Math.hypot(p[0] - cx, p[1] - cy, p[2] - cz)).sort((a, b) => a - b);
+  const rad = Math.max(280, dists[Math.min(dists.length - 1, Math.floor((dists.length - 1) * 0.9))]);
+  const fov = 50 * Math.PI / 180;
+  const aspect = space.w / Math.max(space.h, 1);
+  const vLimit = rad / Math.sin(fov / 2);
+  const hFov = 2 * Math.atan(Math.tan(fov / 2) * aspect);
+  const hLimit = rad / Math.sin(hFov / 2);
+  const chrome = space.h > 0 ? Math.min(0.45, ((parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--top")) || 0) + (parseFloat(getComputedStyle(document.documentElement).getPropertyValue("--foot")) || 0)) / space.h) : 0.2;
+  const dist = Math.min(7000, Math.max(700, Math.max(vLimit, hLimit) * (0.78 + chrome)));
+  const eye = space.camera.position.clone().set(cx + dist * 0.2, cy - dist * 0.86, cz + dist * 0.38);
+  const target = space.controls.target.clone().set(cx, cy, cz);
+  return space.flyTo(eye, target, state.motionOff ? 1 : duration);
+}
+
 async function goHome() {
   stopTour(false);
   $("#q").value = "";
@@ -585,7 +620,7 @@ async function goHome() {
   if (state.space) {
     state.space.setGroup(null);
     state.space.setPath(null);
-    await state.space.overview(state.motionOff ? 1 : 1400);
+    await fitGalaxy(state.motionOff ? 1 : 800);
   }
   afterFilterChange();
 }
@@ -623,7 +658,7 @@ async function showStep() {
     state.space.select(-1, false);
     state.sel = -1;
     closePanel();
-    await state.space.overview(state.motionOff ? 1 : 1500);
+    await fitGalaxy(state.motionOff ? 1 : 900);
   } else if (step.sector) {
     const anchor = state.space.sectorAnchors.find((item) => item.sec.id === step.sector);
     if (anchor) {
@@ -691,7 +726,7 @@ function bindSearch() {
 }
 
 function bindChrome() {
-  $("#keyBtn").addEventListener("click", () => { applyFilters(state.model, { key: true }); afterFilterChange(); if (state.space) state.space.overview(state.motionOff ? 1 : 900); });
+  $("#keyBtn").addEventListener("click", () => { applyFilters(state.model, { key: true }); afterFilterChange(); fitGalaxy(state.motionOff ? 1 : 700); });
   $("#allBtn").addEventListener("click", () => { applyFilters(state.model, { key: false }); afterFilterChange(); });
   for (const btn of $$("[data-grade]")) btn.addEventListener("click", () => { toggleGrade(state.model, btn.dataset.grade); afterFilterChange(); });
   for (const btn of $$("[data-side]")) btn.addEventListener("click", () => { toggleSide(state.model, btn.dataset.side); afterFilterChange(); });
@@ -710,7 +745,7 @@ function bindChrome() {
   $("#pauseBtn").addEventListener("click", () => setMotion(!state.motionOff));
   $("#zIn").addEventListener("click", () => zoom(1 / 1.3));
   $("#zOut").addEventListener("click", () => zoom(1.3));
-  $("#zFit").addEventListener("click", () => state.space && state.space.overview(state.motionOff ? 1 : 900));
+  $("#zFit").addEventListener("click", () => fitGalaxy(state.motionOff ? 1 : 700));
   $("#reloadBtn").addEventListener("click", reload);
   $("#tourBtn").addEventListener("click", () => { $("#tourPop").hidden = !$("#tourPop").hidden; });
   $("#tourList").addEventListener("click", (event) => {
@@ -868,6 +903,7 @@ async function main() {
   document.body.classList.add("ready");
   await startSpace();
   placeChrome();
+  if (!/node=|tour=/.test(location.hash)) await fitGalaxy(1);
   applyHash(true);
 }
 

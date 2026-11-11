@@ -30,14 +30,14 @@ a { color: #c9dbff; }
 
 #stage { position: fixed; inset: 0; }
 #space { position: absolute; inset: 0; }
-#space canvas.gl { position: absolute; inset: 0; width: 100%; height: 100%; display: block; touch-action: none; }
-#labels3d { position: absolute; inset: 0; pointer-events: none; overflow: hidden; }
-.lab { position: absolute; left: 0; top: 0; white-space: nowrap; font: 650 15px/1.2 var(--font); color: #f7f9ff; text-shadow: 0 1px 2px #000; }
-.lab span { background: rgba(7, 11, 20, .78); border-radius: 4px; padding: 2px 5px; }
+#space canvas.gl { position: absolute; inset: 0; z-index: 1; width: 100%; height: 100%; display: block; touch-action: none; }
+#labels3d { position: absolute; inset: 0; z-index: 2; pointer-events: none; overflow: hidden; }
+.lab { position: absolute; left: 0; top: 0; z-index: 2; white-space: nowrap; font: 700 16px/1.2 var(--font); color: #fff; }
+.lab span { background: rgba(5, 8, 16, .94); border: 1px solid rgba(255, 255, 255, .72); border-radius: 4px; padding: 3px 7px; color: #fff; }
 .lab i { display: none; }
-.lab span { position: relative; left: 8px; top: -6px; }
-.lab.gold { color: var(--gold); }
-.lab.sel span { border: 1px solid rgba(230, 193, 90, .85); color: #fff; }
+.lab span { position: relative; left: 12px; top: -8px; }
+.lab.gold span { color: #ffe7a3; border-color: rgba(230, 193, 90, .95); }
+.lab.sel span { border: 2px solid #f6d98a; color: #fff; }
 .lab.sl { letter-spacing: .16em; text-transform: uppercase; font-size: 11px; }
 .lab.sl span { left: 0; transform: translateX(-50%); }
 
@@ -137,9 +137,9 @@ body:has(#panel:not([hidden])) #zoom { right: min(448px, calc(100vw - 54px)); }
 #filterBtn { display: none; }
 @media (max-width: 759px) {
   #top { flex-wrap: wrap; gap: 6px; padding: 6px 8px 4px; }
-  .brand { flex: none; }
+  .brand, .actions, #searchWrap { flex: 1 0 100%; }
   .pv { display: none; }
-  .actions { order: 2; flex: 1; min-width: 0; flex-wrap: nowrap; overflow-x: auto; }
+  .actions { order: 2; min-width: 0; flex-wrap: nowrap; overflow-x: auto; }
   .actions button { padding: 6px 8px; min-height: 36px; font-size: 13px; }
   #searchWrap { order: 3; flex-basis: 100%; }
   #q { min-height: 38px; }
