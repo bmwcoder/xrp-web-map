@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-11T14:23:58-05:00",
+  "updated": "2026-11-12T08:31:55-05:00",
   "version": 3
  },
  "nodes": [
@@ -105552,6 +105552,28 @@
    "source": "https://finance.yahoo.com/video/xrp-heart-everything-ripple-does-200103964.html",
    "side": "supports",
    "added": "2026-11-11T14:22:38-05:00"
+  },
+  {
+   "from": "sec",
+   "to": "nasdaq",
+   "label": "SEC approved Nasdaq ISE rule change SR-ISE-2026-42 (Rel. No. 34-106863, Nov 10 2026): generic options-listing criteria for digital-commodity trust shares; no individual ETP or option approved",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/rules-regulations/self-regulatory-organization-rulemaking/sr-ise-2026-42",
+   "side": "neutral",
+   "added": "2026-11-12T08:30:35-05:00"
+  },
+  {
+   "from": "solana",
+   "to": "dtcc",
+   "label": "DTCC plans to connect its Tokenization Service to Solana, with DTC-tokenized assets expected on Solana in the second half of 2027 (joint release with DTCC executives quoted, Nov 12 2026); XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/dtcc-tokenization-service-to-connect-with-solana-advancing-multi-chain-strategy-and-expanding-access-to-leading-blockchain-networks-302937697.html",
+   "side": "contradicts",
+   "added": "2026-11-12T08:30:35-05:00"
   }
  ]
 }
