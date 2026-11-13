@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-12T20:26:07-05:00",
+  "updated": "2026-11-13T02:32:27-05:00",
   "version": 3
  },
  "nodes": [
@@ -31952,7 +31952,20 @@
    "sources": [
     "https://oldglorybank.com/crypto-faq"
    ],
-   "added": "2026-11-12T20:24:38-05:00"
+   "added": "2026-11-12T20:24:38-05:00",
+   "sector": "banks"
+  },
+  {
+   "id": "digital-asset-acquisition-corp",
+   "label": "Digital Asset Acquisition Corp (DAAQ)",
+   "type": "company",
+   "handle": "",
+   "summary": "Nasdaq-listed SPAC (Princeton, NJ). Signed a business combination with Old Glory Holding Co on Jan 13 2026; mutually terminated Aug 13 2026 (8-K).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2052162/000121390026089219/ea0302045-8k425_digital.htm"
+   ],
+   "added": "2026-11-13T02:29:26-05:00"
   }
  ],
  "edges": [
@@ -105597,6 +105610,28 @@
    "source": "https://oldglorybank.com/crypto-faq",
    "side": "supports",
    "added": "2026-11-12T20:24:38-05:00"
+  },
+  {
+   "from": "digital-asset-acquisition-corp",
+   "to": "old-glory-bank",
+   "label": "business combination with Old Glory Holding (Jan 13 2026) mutually terminated Aug 13 2026",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2052162/000121390026089219/ea0302045-8k425_digital.htm",
+   "side": "neutral",
+   "added": "2026-11-13T02:29:26-05:00"
+  },
+  {
+   "from": "fdic",
+   "to": "old-glory-bank",
+   "label": "PCA directives: Significantly Undercapitalized (2.69% leverage, Aug 6 2026), then Critically Undercapitalized (1.91%, Sep 11 2026); May 2024 Consent Order; restricts high-risk activities, approval needed for material transactions (constrains the planned XRP feature; later reported adequately capitalized)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2016561/000149315226043060/form1-sa.htm",
+   "side": "contradicts",
+   "added": "2026-11-13T02:29:26-05:00"
   }
  ]
 }
