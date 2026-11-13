@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-12T08:31:55-05:00",
+  "updated": "2026-11-12T20:26:07-05:00",
   "version": 3
  },
  "nodes": [
@@ -31941,6 +31941,18 @@
     "https://home.treasury.gov/news/press-releases/sb0685"
    ],
    "added": "2026-11-11T10:26:55-05:00"
+  },
+  {
+   "id": "old-glory-bank",
+   "label": "Old Glory Bank",
+   "type": "bank",
+   "handle": "",
+   "summary": "Oklahoma bank planning crypto features in its banking app. Its own FAQ says the first launch supports ETH mainnet, Polygon and PulseChain, with XRP and BTC as 'fast followers', and that 'we use the Ripple Rails for XRP transactions' (no Ripple agreement or date named). Plans an ERC-20 stablecoin, OGUSD.",
+   "grade": "A",
+   "sources": [
+    "https://oldglorybank.com/crypto-faq"
+   ],
+   "added": "2026-11-12T20:24:38-05:00"
   }
  ],
  "edges": [
@@ -105574,6 +105586,17 @@
    "source": "https://www.prnewswire.com/news-releases/dtcc-tokenization-service-to-connect-with-solana-advancing-multi-chain-strategy-and-expanding-access-to-leading-blockchain-networks-302937697.html",
    "side": "contradicts",
    "added": "2026-11-12T08:30:35-05:00"
+  },
+  {
+   "from": "old-glory-bank",
+   "to": "xrp",
+   "label": "own FAQ: plans XRP support after an ETH/Polygon/PulseChain first launch and says it uses 'the Ripple Rails for XRP transactions'; planned, no date, no Ripple agreement named",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://oldglorybank.com/crypto-faq",
+   "side": "supports",
+   "added": "2026-11-12T20:24:38-05:00"
   }
  ]
 }
