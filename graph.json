@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-13T02:32:27-05:00",
+  "updated": "2026-11-13T08:29:48-05:00",
   "version": 3
  },
  "nodes": [
@@ -105632,6 +105632,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2016561/000149315226043060/form1-sa.htm",
    "side": "contradicts",
    "added": "2026-11-13T02:29:26-05:00"
+  },
+  {
+   "from": "flare",
+   "to": "layerzero",
+   "label": "Flare joins LayerZero as a DVN (100 data providers verify OFT messages); live early Dec 2026, Flare and Ethereum first",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://flare.network/news/flare-joins-layerzero-as-a-dvn-bringing-network-level-security-to-cross-chain-value",
+   "side": "neutral",
+   "added": "2026-11-13T08:28:30-05:00"
   }
  ]
 }
