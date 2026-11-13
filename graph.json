@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-13T08:29:48-05:00",
+  "updated": "2026-11-13T14:31:25-05:00",
   "version": 3
  },
  "nodes": [
@@ -47336,7 +47336,7 @@
   {
    "from": "ripple",
    "to": "gemini",
-   "label": "2nd Amendment: $250M commitment to 2026-07-01, RLUSD collateral (2025-12-26)",
+   "label": "2nd Amendment (2025-12-26): $250M commitment, RLUSD collateral ≥20% and RLUSD-activity covenant; terminated by its terms Jul 1 2026 (cap back to $150M, rate 7.0%→6.5%) per Q3 10-Q",
    "grade": "A",
    "strength": 4,
    "key": false,
@@ -105643,6 +105643,17 @@
    "source": "https://flare.network/news/flare-joins-layerzero-as-a-dvn-bringing-network-level-security-to-cross-chain-value",
    "side": "neutral",
    "added": "2026-11-13T08:28:30-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "gemini",
+   "label": "Q3 2026 10-Q: Ripple warehouse credit line (card receivables) $152.8M outstanding at 6.5% on 9/30/26, maturity 2027-11-15; $1.2B drawn / $1.3B repaid Jan–Sep 2026; 2nd Amendment (RLUSD collateral and activity covenant) terminated Jul 1 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2055592/000205559226000074/R23.htm",
+   "side": "neutral",
+   "added": "2026-11-13T14:30:11-05:00"
   }
  ]
 }
