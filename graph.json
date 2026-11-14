@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-14T02:26:30-05:00",
+  "updated": "2026-11-14T14:31:31-05:00",
   "version": 3
  },
  "nodes": [
@@ -10727,7 +10727,7 @@
   },
   {
    "id": "etf-xrp-holdings",
-   "label": "US spot XRP ETF holdings (~1.19B XRP)",
+   "label": "US spot XRP ETF holdings (~1.14–1.15B XRP, Nov 12 2026)",
    "type": "asset",
    "handle": "",
    "summary": "Per the issuer-site holdings compiled by xrp-insights (dated Sep 28 to Oct 19, 2026): Bitwise XRP 417.73M, Franklin XRPZ 301.80M, Canary XRPC 243.46M, 21Shares TOXR 107.30M, Grayscale GXRP 65.44M, REX-Osprey XRPR 35.70M, plus BITW index 20.97M, for 1.19B XRP in total (~1.19% of supply). Franklin's 10-Q separately reports 225,368,820.73 XRP held at Jun 30, 2026. Canary's 10-Q reports $241.3M of XRP at fair value on Jun 30, 2026.",
@@ -10735,7 +10735,8 @@
    "sources": [
     "https://xrp-insights.com/xrp-radar",
     "https://www.sec.gov/Archives/edgar/data/2059438/000114036126033198/ef20077164_10-q.htm",
-    "https://www.sec.gov/Archives/edgar/data/2039505/000199937126017438/xrpc-10q_063026.htm"
+    "https://www.sec.gov/Archives/edgar/data/2039505/000199937126017438/xrpc-10q_063026.htm",
+    "https://xrp-insights.com/data/xrp-etf-flows.csv"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -105667,15 +105668,92 @@
    "added": "2026-11-13T20:31:56-05:00"
   },
   {
-   "from": "ripple",
-   "to": "rprime",
-   "label": "Hidden Road Inc wholly acquired 21 Oct 2025 for $1.25B in a mix of cash, XRP and Ripple stock (Hidden Road Partners CIV UK Ltd FY2025 accounts, Note 20)",
-   "grade": "A",
-   "strength": 3,
+   "from": "ethena",
+   "to": "rlusd",
+   "label": "Ethena-published Coinbase Web3 wallet 0x2d4d2a025b10c09bdbd794b4fce4f7ea8c7d7bb4 received 100M RLUSD on Ethereum, Nov 13 2026 09:40-09:42 ET, from the route of Ethereum-only mints; no XRPL leg",
+   "grade": "B",
+   "strength": 2,
    "key": false,
-   "source": "https://find-and-update.company-information.service.gov.uk/company/11705969/filing-history/MzUxMDA1ODQzNGFkaXF6a2N4/document?format=pdf&download=0",
+   "source": "https://paragraph.com/@ethena-labs/custodian-attestations-of-assets-backing-usde-november-1",
    "side": "neutral",
-   "added": "2026-11-13T20:31:56-05:00"
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "etf-xrp-holdings",
+   "to": "xrp",
+   "label": "Nov 1–13, 2026: zero net-inflow days across the four 33-Act trusts with daily issuer series (XRP, XRPZ, XRPC, TOXR); sector net −10.0M XRP month to date; last inflow day Oct 29 (+6.57M)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrp-insights.com/data/xrp-etf-flows.csv",
+   "side": "contradicts",
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "bitwise",
+   "to": "etf-xrp-holdings",
+   "label": "413,140,980 XRP at Sep 30 (Q3 10-Q) to 406,770,578 at Nov 12, 2026 (issuer page); shares 37,260,000 (10-Q cover, Nov 1) to 36,440,000, a net redemption of 820k shares, about 9.15M XRP",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://bitxrpetf.com/",
+   "side": "contradicts",
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "gxrp",
+   "to": "etf-xrp-holdings",
+   "label": "65,442,141 XRP at Sep 30 (Q3 10-Q) to 58,060,446 at Nov 13, 2026 (issuer page); shares 3,350,100 (10-Q cover, Nov 2) to 3,000,100, a net redemption of 350k shares, about 6.77M XRP",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://etfs.grayscale.com/gxrp",
+   "side": "contradicts",
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "xrpc",
+   "to": "etf-xrp-holdings",
+   "label": "247,755,213 XRP at Sep 30 (Q3 10-Q) to 242,525,445 at Nov 12, 2026 (issuer holdings file); shares 23,350,000 to 22,920,000 (10-Q cover, Nov 9)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://canaryetfs.com/xrpc",
+   "side": "contradicts",
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "toxr",
+   "to": "etf-xrp-holdings",
+   "label": "107,295,621 XRP at Sep 30 to 107,073,961 at Nov 13, 2026 (flat); 10,000,000 of its ~11.0M shares are Ripple Markets' locked seed (to Dec 20, 2026), about 97M XRP, so third-party demand in this fund is about 1M shares",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2028835/000121390026118028/ea0310084-10q_21shares.htm",
+   "side": "contradicts",
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "xrpz",
+   "to": "etf-xrp-holdings",
+   "label": "293,112,265 XRP at Sep 30 (Q3 10-Q) to about 310.4M by Nov 2, 2026 (28,600,000 cover shares x 10.856 XRP/share): the only one of five 33-Act trusts that added in Oct–Nov",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2059438/000114036126043720/ef20083832_10q.htm",
+   "side": "supports",
+   "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "xrpr",
+   "to": "etf-xrp-holdings",
+   "label": "22,275,382 XRP held directly plus 417,180 CoinShares XRP ETP units at Aug 31, 2026 (N-PORT), financed partly by $98.75M Marex reverse repo against $53.0M net assets; 19,385,382 XRP direct and 353,850 ETP units by Nov 12, 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1771146/000119312526433851/primary_doc.xml",
+   "side": "contradicts",
+   "added": "2026-11-14T14:28:28-05:00"
   }
  ]
 }
