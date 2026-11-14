@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-13T14:31:25-05:00",
+  "updated": "2026-11-13T20:33:11-05:00",
   "version": 3
  },
  "nodes": [
@@ -105654,6 +105654,28 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2055592/000205559226000074/R23.htm",
    "side": "neutral",
    "added": "2026-11-13T14:30:11-05:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "pathfinder",
+   "label": "transferred 346,484,972 XRP to Pathfinder after the Oct 9 2026 closing; ~346.28M XRP held at Sep 30 (Q3 10-Q, filed Nov 13 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026073871/R19.htm",
+   "side": "neutral",
+   "added": "2026-11-13T20:31:56-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "rprime",
+   "label": "Hidden Road Inc wholly acquired 21 Oct 2025 for $1.25B in a mix of cash, XRP and Ripple stock (Hidden Road Partners CIV UK Ltd FY2025 accounts, Note 20)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://find-and-update.company-information.service.gov.uk/company/11705969/filing-history/MzUxMDA1ODQzNGFkaXF6a2N4/document?format=pdf&download=0",
+   "side": "neutral",
+   "added": "2026-11-13T20:31:56-05:00"
   }
  ]
 }
