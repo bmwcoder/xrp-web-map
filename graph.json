@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-13T20:33:11-05:00",
+  "updated": "2026-11-14T02:26:30-05:00",
   "version": 3
  },
  "nodes": [
@@ -32243,7 +32243,7 @@
   {
    "from": "ripple",
    "to": "rprime",
-   "label": "acquired Hidden Road for $1.25B (announced Apr 8, 2025; closed Oct 24, 2025) → Ripple Prime",
+   "label": "acquired Hidden Road for $1.25B (announced Apr 8, 2025; completed 21 Oct 2025 per Companies House PSC filings; Ripple announced closing Oct 24, 2025) → Ripple Prime",
    "grade": "A",
    "strength": 5,
    "key": true,
