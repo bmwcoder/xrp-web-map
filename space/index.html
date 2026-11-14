@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<meta name="googlebot" content="noindex, nofollow">
+<meta name="theme-color" content="#070b14">
+<link rel="icon" href="data:,">
+<title>xrpmap.org · Space preview</title>
+<meta name="description" content="Unlisted interactive preview of an XRP map galaxy. Same public graph as the live map. Not investment advice.">
+<link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+<a class="skip" href="#q">Skip to search</a>
+<div id="stage">
+  <div id="space"><div id="labels3d"></div></div>
+  <div id="boot" role="status">Loading the public graph…</div>
+  <div id="fallback" hidden>
+    <div>
+      <h2>3D view unavailable</h2>
+      <p id="fallbackReason"></p>
+      <p>Search still opens the same public entities, grades, connections, and sources.</p>
+      <div id="fallbackList"></div>
+    </div>
+  </div>
+</div>
+
+<header id="top">
+  <div class="brand">
+    <a href="https://xrpmap.org/" title="Open the current map">xrpmap<span>.org</span></a>
+    <span class="pv" title="Preview page. noindex is not privacy: anyone with the URL can open it.">Space preview</span>
+  </div>
+  <div id="searchWrap">
+    <label class="mg" for="q">Search</label>
+    <input id="q" type="search" autocomplete="off" spellcheck="false" placeholder="Search entities" aria-autocomplete="list" aria-controls="results" aria-expanded="false" role="combobox">
+    <div id="results" role="listbox" hidden></div>
+  </div>
+  <div class="actions">
+    <button type="button" id="homeBtn">Home</button>
+    <button type="button" id="pauseBtn" aria-pressed="false" aria-label="Pause motion">Pause</button>
+    <button type="button" id="tourBtn" aria-expanded="false" hidden>Tours</button>
+    <button type="button" id="filterBtn" aria-expanded="false" aria-controls="filters">Filters</button>
+    <button type="button" id="helpBtn" aria-label="How to read this map">Help</button>
+  </div>
+</header>
+
+<div id="tourPop" class="pop" hidden>
+  <h2>Tours</h2>
+  <p>Each step is a connection or entity in the graph this page just loaded. Missing pairs are left out.</p>
+  <div id="tourList"></div>
+</div>
+
+<nav id="filters" aria-label="What is drawn">
+  <button type="button" id="keyBtn" aria-pressed="true">Key connections</button>
+  <button type="button" id="allBtn" aria-pressed="false">All connections</button>
+  <span class="sep" aria-hidden="true"></span>
+  <button type="button" data-grade="A" aria-pressed="false">A primary</button>
+  <button type="button" data-grade="B" aria-pressed="false">B reporting</button>
+  <button type="button" data-grade="C" aria-pressed="false">C claim</button>
+  <button type="button" data-grade="X" aria-pressed="false">X false</button>
+  <span class="sep" aria-hidden="true"></span>
+  <button type="button" data-side="supports" aria-pressed="false">Supports adoption</button>
+  <button type="button" data-side="neutral" aria-pressed="false">Not about adoption</button>
+  <button type="button" data-side="contradicts" aria-pressed="false">Contradicts adoption</button>
+</nav>
+
+<div id="banner" class="banner" role="status" hidden></div>
+<p id="warns" class="warns" hidden></p>
+
+<aside id="panel" hidden aria-labelledby="pTitle">
+  <div id="pGrab" aria-hidden="true"><i></i></div>
+  <button type="button" id="pMore">Evidence</button>
+  <button type="button" id="pX" aria-label="Close details">Close</button>
+  <div id="pBody"></div>
+</aside>
+
+<section id="tour" hidden aria-label="Guided tour">
+  <div class="tbar">
+    <p><b id="tTitle"></b> <span id="tCount"></span></p>
+    <div>
+      <button type="button" id="tPrev">Back</button>
+      <button type="button" id="tNext">Next</button>
+      <button type="button" id="tStop">End</button>
+    </div>
+  </div>
+  <p id="tCaption"></p>
+  <p id="tSource"></p>
+</section>
+
+<div id="zoom" aria-label="Zoom">
+  <button type="button" id="zIn" aria-label="Zoom in">+</button>
+  <button type="button" id="zOut" aria-label="Zoom out">−</button>
+  <button type="button" id="zFit" aria-label="Fit the galaxy">⌂</button>
+</div>
+
+<footer id="foot">
+  <p id="counts" aria-live="polite"></p>
+  <p><time id="updated"></time> · <span id="dataFrom"></span> · code <span id="code">space-preview-2</span> · <button type="button" id="reloadBtn">Check for a newer graph</button></p>
+  <p id="soft" class="legal" hidden></p>
+  <p class="legal">Not investment advice. A line is a connection, not adoption. The author holds XRP. <a href="https://xrpmap.org/">Current map</a>. Unlisted preview, not private.</p>
+  <details id="latest">
+    <summary>Newest dated connections in this file</summary>
+    <ul id="latestList"></ul>
+  </details>
+</footer>
+
+<div class="modal" id="help" hidden role="dialog" aria-labelledby="helpTitle">
+  <div class="sheet">
+    <button type="button" class="x" data-close aria-label="Close help">Close</button>
+    <h2 id="helpTitle">How to read this preview</h2>
+    <p><b>Connections</b> are lines. Each line means a public source ties two entities in the way the label says. Size is how many connections an entity has. A connection is not a partnership, control, or wrongdoing unless the label and the source say so.</p>
+    <p><b>Adoption</b> is a separate mark on a connection: supports XRP or Ripple payment-rail adoption, is not about that question, or contradicts it. Both directions are drawn. Filtering to “supports adoption” hides the rest; it does not turn those connections into adoption.</p>
+    <p><b>Grades</b> rate the source, not the person. A is a primary or official record. B is reputable reporting. C is an unverified claim. X was checked and found false.</p>
+    <p>The view opens on <b>key connections</b>, the smaller set marked in the public graph. “All connections” draws every link in the file. Home clears a selection and returns to key connections.</p>
+    <p>Drag to orbit, scroll or pinch to zoom, tap a point or search to inspect sources. Arrow keys orbit when the galaxy is focused. Slash focuses search. Escape closes this dialog, a tour, then the details.</p>
+    <p>Pause motion stops the slow orbit, the star shimmer, and the fly-to glide. Reduced-motion settings start paused. If WebGL is missing, search and the written record stay available.</p>
+    <p>Data is the public <a href="https://xrpmap.org/graph.json">graph.json</a>, the same file as the live map. On this host it is read from the copy beside the page; if that file is missing, the page requests xrpmap.org directly. Selecting an entity draws its real connections in a nearby shell so the names fit on screen. That arrangement is not a new relationship, and Home restores the galaxy. Positions are not the flat map’s x/y coordinates, and this is not a video.</p>
+    <p>The live map is unchanged. This page asks crawlers not to index it. That is not access control.</p>
+  </div>
+</div>
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
