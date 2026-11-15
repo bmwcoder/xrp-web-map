@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-15T06:17:19-05:00",
+  "updated": "2026-11-15T08:28:14-05:00",
   "version": 3
  },
  "nodes": [
@@ -21805,7 +21805,7 @@
   },
   {
    "id": "w-rbnc-desk",
-   "label": "rBNCyNEw… two-way XRP/RLUSD desk (owner unconfirmed)",
+   "label": "rBNCyNEw… unlabelled XRP/RLUSD cluster wallet (owner unconfirmed)",
    "type": "asset",
    "handle": "",
    "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange looks like a market-maker or OTC liquidity desk, not a plain Binance deposit. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C. Follow-up Oct 20, 2026 ~02:40 ET: XRPScan API shows no accountName, username or domain; Bithomp shows 'No username'. Destination tag 2695199675 appears in no published market-maker or exchange deposit list found. Ripple's XRP Markets reports disclose no wallet addresses (they only mention leases to market makers). Biggest unlabeled counterparty rLoD9U2g… (2019) also cycles XRP with Coinbase, Crypto.com, Kraken and Bitstamp under per-venue tags, which again looks like a trading desk. Still grade C.",
@@ -105681,7 +105681,7 @@
   {
    "from": "etf-xrp-holdings",
    "to": "xrp",
-   "label": "Nov 1–13, 2026: zero net-inflow days across the four 33-Act trusts with daily issuer series (XRP, XRPZ, XRPC, TOXR); sector net −10.0M XRP month to date; last inflow day Oct 29 (+6.57M)",
+   "label": "Nov 1–13, 2026: zero net-inflow days across the four 33-Act trusts with daily issuer series (XRP, XRPZ, XRPC, TOXR); sector net −10.0M XRP month to date; last inflow day Oct 29 (+6.57M); 11 straight sessions with no net inflow, November net about −$19.66M (SoSoValue via Coindaro, five-fund tracker)",
    "grade": "B",
    "strength": 2,
    "key": false,
@@ -105754,6 +105754,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/1771146/000119312526433851/primary_doc.xml",
    "side": "contradicts",
    "added": "2026-11-14T14:28:28-05:00"
+  },
+  {
+   "from": "kraken",
+   "to": "xrp",
+   "label": "11/14/2026 UTC close 0.91397, below the 0.98 invalidation of the 1.00–1.02 dip zone (weak, price-only)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://api.kraken.com/0/public/OHLC?pair=XRPUSD&interval=1440",
+   "side": "contradicts",
+   "added": "2026-11-15T08:27:02-05:00"
   }
  ]
 }
