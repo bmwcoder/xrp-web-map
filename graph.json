@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-15T08:28:14-05:00",
+  "updated": "2026-11-15T12:32:33-05:00",
   "version": 3
  },
  "nodes": [
@@ -21808,13 +21808,14 @@
    "label": "rBNCyNEw… unlabelled XRP/RLUSD cluster wallet (owner unconfirmed)",
    "type": "asset",
    "handle": "",
-   "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange looks like a market-maker or OTC liquidity desk, not a plain Binance deposit. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C. Follow-up Oct 20, 2026 ~02:40 ET: XRPScan API shows no accountName, username or domain; Bithomp shows 'No username'. Destination tag 2695199675 appears in no published market-maker or exchange deposit list found. Ripple's XRP Markets reports disclose no wallet addresses (they only mention leases to market makers). Biggest unlabeled counterparty rLoD9U2g… (2019) also cycles XRP with Coinbase, Crypto.com, Kraken and Bitstamp under per-venue tags, which again looks like a trading desk. Still grade C.",
+   "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Funded from Ripple-labelled wallets (Ripple 50 → raRVLN1i… → rBNCyNEw, 748.1M XRP); owner unconfirmed, and the funding link is not evidence of who controls it. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange looks like a market-maker or OTC liquidity desk, not a plain Binance deposit. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C. Follow-up Oct 20, 2026 ~02:40 ET: XRPScan API shows no accountName, username or domain; Bithomp shows 'No username'. Destination tag 2695199675 appears in no published market-maker or exchange deposit list found. Ripple's XRP Markets reports disclose no wallet addresses (they only mention leases to market makers). Biggest unlabeled counterparty rLoD9U2g… (2019) also cycles XRP with Coinbase, Crypto.com, Kraken and Bitstamp under per-venue tags, which again looks like a trading desk. Still grade C.",
    "grade": "C",
    "sources": [
     "https://xrpscan.com/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR",
     "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
     "https://x.com/RivexPro/status/2109829763493982660",
-    "https://bithomp.com/en/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR"
+    "https://bithomp.com/en/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR",
+    "https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf"
    ],
    "added": "2026-10-19T23:24:14-04:00"
   },
@@ -31967,6 +31968,47 @@
     "https://www.sec.gov/Archives/edgar/data/2052162/000121390026089219/ea0302045-8k425_digital.htm"
    ],
    "added": "2026-11-13T02:29:26-05:00"
+  },
+  {
+   "id": "w-rhpgfxtg",
+   "label": "rHPGFxtg… Binance-10-created XRPL account that activated rBNCyNEw and rDzukHGH (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u, no XRPScan label. Created Apr 1, 2022 (UTC) by a 275,129.75 XRP payment from XRPScan-labelled 'Binance 10' rNU4eAow… (tx 8B00B9A7…). Full ledger history (15,549 tx, read Nov 15, 2026): about 7.94B XRP in and out. Largest inflows came from labelled Binance wallets ('Binance 6' 1.38B, 'Binance 15' 1.11B, 'Binance 14' 1.05B, 'Binance 10' 1.01B, 'Binance 18' 0.98B, 'Binance 9' 0.98B) and 850.82M from raRVLN1i… in 688 payments (Dec 3, 2024–Aug 5, 2025 UTC, dest tag 1402065290). Outflows include 1,073.03M XRP to 'Binance 11' rNxp4h8a… in 1,170 payments (Jul 25, 2023–Aug 1, 2025 UTC), 5.36B to unlabelled r4H6GW2J… and 816.1M to rLoD9U2g…. It activated rDzukHGH… (Jan 17, 2025), rKxLugg51… (Apr 1, 2025) and rBNCyNEw… (Jul 30, 2025); balance 4.04 XRP. A deposit is not a sale. Lineage only: an activator or funder is not evidence of who controls the accounts it activated. Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
+    "https://xrpscan.com/tx/8B00B9A7A2EC3456EADC729C71EA7CF23872BE1F36DE5BCE74F18F6859EDBEB3",
+    "https://xrplcluster.com"
+   ],
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "id": "w-rkxlugg51",
+   "label": "rKxLugg51… XRPL account that activated the rpxh7h17 hub (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rKxLugg51yhhPRJ21yeb5Ymcwsmm4T66Jh, no XRPScan label. rHPGFxtg… activated it with 100 XRP on Apr 1, 2025 (UTC; tx 82CC6FDE…), and it activated hub rpxh7h17… with 95 XRP on Aug 2, 2025 (tx C841460D…). Balance about 5.0 XRP (Nov 15, 2026). Lineage only; owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rKxLugg51yhhPRJ21yeb5Ymcwsmm4T66Jh",
+    "https://xrpscan.com/tx/82CC6FDE0BBB97D695DC965DC640029997F9F79B12AD49439D405F73D93239C7"
+   ],
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "id": "nexo",
+   "label": "Nexo",
+   "type": "company",
+   "handle": "@Nexo",
+   "summary": "Company behind nexo.io. XRPScan names several XRPL accounts 'Nexo' with domain nexo.io: Nexo 1 rwADc5YV…, Nexo 2 rnuPTVikw8… (XRPScan-verified) and Nexo 3 r3S8AV7D…. Read Nov 15, 2026.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rnuPTVikw8HKK4hBGCtnq2J2433VYaZPZQ",
+    "https://api.xrpscan.com/api/v1/account/rwADc5YVbAfDmRyjbqPoG48H5jmnbD2xV5",
+    "https://api.xrpscan.com/api/v1/account/r3S8AV7DQ6URd9qhKkDc2vD6XCaNU34328"
+   ],
+   "added": "2026-11-15T12:29:37-05:00"
   }
  ],
  "edges": [
@@ -105765,6 +105807,72 @@
    "source": "https://api.kraken.com/0/public/OHLC?pair=XRPUSD&interval=1440",
    "side": "contradicts",
    "added": "2026-11-15T08:27:02-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rdzukhg",
+   "label": "activated it with 10 XRP on Jan 17, 2025 (lineage, not evidence of control)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/CA8B7F77EBC556F88F7C0B8F8A71DA063826EEC23C22E289EB2FCBD629A8E44A",
+   "side": "neutral",
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rbnc-desk",
+   "label": "activated it with 1,000 XRP on Jul 30, 2025 (lineage, not evidence of control)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/3E51A125319E81F7AAF05E06EC3AA957FE82057F41DA02E98A486B5CF46016EC",
+   "side": "neutral",
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rkxlugg51",
+   "label": "activated it with 100 XRP on Apr 1, 2025 (lineage, not evidence of control)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/82CC6FDE0BBB97D695DC965DC640029997F9F79B12AD49439D405F73D93239C7",
+   "side": "neutral",
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "from": "w-rkxlugg51",
+   "to": "w-rpxh-hub",
+   "label": "activated the hub with 95 XRP on Aug 2, 2025 (lineage, not evidence of control)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/C841460DAB8BE38D6942B11FED43CF95D839832C33FDCC0398021E41DCBC665C",
+   "side": "neutral",
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "binance",
+   "label": "1,073.03M XRP to 'Binance 11' rNxp4h8a… in 1,170 payments, Jul 25, 2023–Aug 1, 2025 (UTC); descriptive, a deposit is not a sale",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/BF998D1678EB403FA69FD21EDC3183C7E6B5EF87203A3422984427443F107543",
+   "side": "neutral",
+   "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "from": "w-rl1quagi",
+   "to": "nexo",
+   "label": "lead (plausible, not proven): sent 957,158.64 XRP on Nov 10 and 936,462.56 on Nov 15, 2026 to rU6QN9HA… (created 2020 by 'Nexo 2'), which passes XRP on to 'Nexo 3'; lineage only, owner unconfirmed",
+   "grade": "C",
+   "strength": 1,
+   "key": false,
+   "source": "https://xrpscan.com/tx/5878BDCAAA604FAD5958BAB8BDEC7765E25EE404E7218D6101D986738E5EA158",
+   "side": "neutral",
+   "added": "2026-11-15T12:29:37-05:00"
   }
  ]
 }
