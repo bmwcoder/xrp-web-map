@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-15T12:32:33-05:00",
+  "updated": "2026-11-15T16:32:48-05:00",
   "version": 3
  },
  "nodes": [
@@ -105873,6 +105873,28 @@
    "source": "https://xrpscan.com/tx/5878BDCAAA604FAD5958BAB8BDEC7765E25EE404E7218D6101D986738E5EA158",
    "side": "neutral",
    "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "from": "w-ripple-binance-chain",
+   "to": "w-rhpgfxtg",
+   "label": "raRVLN1i… sent rHPGFxtg… 850.82M XRP in 688 payments on dest tag 1402065290, Dec 3, 2024–Aug 5, 2025 (UTC); one of 56 senders on that tag; source, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/B11DE6561820340A46CBB6CF2A1BC76AAF4BD8EDD3892FDBC8FE3D8F76BC7C5D",
+   "side": "neutral",
+   "added": "2026-11-15T16:29:43-05:00"
+  },
+  {
+   "from": "binance",
+   "to": "w-rhpgfxtg",
+   "label": "'Binance 10' rNU4eAow… created rHPGFxtg… with 275,129.75 XRP on Apr 1, 2022 (UTC; dest tag 1402065290); source, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/8B00B9A7A2EC3456EADC729C71EA7CF23872BE1F36DE5BCE74F18F6859EDBEB3",
+   "side": "neutral",
+   "added": "2026-11-15T16:29:43-05:00"
   }
  ]
 }
