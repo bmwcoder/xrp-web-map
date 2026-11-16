@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16T10:35:48-05:00",
+  "updated": "2026-11-16T14:30:28-05:00",
   "version": 3
  },
  "nodes": [
@@ -67359,12 +67359,12 @@
   {
    "from": "w-rlusd-ops",
    "to": "gemini-credit-2025",
-   "label": "large RLUSD deliveries to Gemini fit the RLUSD-linked credit facility (inference)",
+   "label": "RLUSD deliveries to Gemini (May 22–Oct 19 2026) were once read as fitting the RLUSD-linked credit terms (inference); those terms ended Jul 1 2026 per Gemini's Q3 10-Q, so most of the window is not covered",
    "grade": "C",
    "strength": 1,
    "key": false,
    "source": "https://api.xrpscan.com/api/v1/account/raBQUYdAhnnojJQ6Xi3eXztZ74ot24RDq1",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -104990,7 +104990,7 @@
   {
    "from": "gemini",
    "to": "rlusd",
-   "label": "Ripple–Gemini Credit Agreement 2nd Amendment (Dec 26, 2025; Gemini 10-K Ex-10.4, acc. 0002055592-26-000026), §3: by Apr 1, 2026 and until the Final Maturity Date, Borrower must maintain an average AUC of RLUSD issued on the XRP Ledger of no less than [redacted] in any calendar month, excluding the 3 highest and 3 lowest Daily AUCs in the month; shortfall payment of 2% per annum on the difference",
+   "label": "Ripple–Gemini Credit Agreement 2nd Amendment (Dec 26, 2025; Gemini 10-K Ex-10.4, acc. 0002055592-26-000026), §3: by Apr 1, 2026 and until the Final Maturity Date, Borrower must maintain an average AUC of RLUSD issued on the XRP Ledger of no less than [redacted] in any calendar month, excluding the 3 highest and 3 lowest Daily AUCs in the month; shortfall payment of 2% per annum on the difference; per Gemini's Q3 2026 10-Q the 2nd Amendment terminated by its terms on Jul 1 2026, so this covenant no longer applies",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -105001,7 +105001,7 @@
   {
    "from": "ripple",
    "to": "gemini",
-   "label": "Ripple–Gemini Credit Agreement 2nd Amendment (Dec 26, 2025; Gemini 10-K Ex-10.4, acc. 0002055592-26-000026), §1(e): Borrower is not required to comply with the RLUSD pledge requirements of §1(c)(i)–(ii) (security interest in Pledged RLUSD; NYDFS-regulated qualified custodian) from March 30, 2026 through April 2, 2026",
+   "label": "Ripple–Gemini Credit Agreement 2nd Amendment (Dec 26, 2025; Gemini 10-K Ex-10.4, acc. 0002055592-26-000026), §1(e): Borrower is not required to comply with the RLUSD pledge requirements of §1(c)(i)–(ii) (security interest in Pledged RLUSD; NYDFS-regulated qualified custodian) from March 30, 2026 through April 2, 2026; the whole 2nd Amendment terminated by its terms on Jul 1 2026 (Gemini Q3 2026 10-Q)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -106042,6 +106042,61 @@
    "source": "https://thehill.com/policy/technology/6219609-democrats-congress-control-crypto/",
    "side": "contradicts",
    "added": "2026-11-16T10:34:37-05:00"
+  },
+  {
+   "from": "intesa",
+   "to": "gxrp",
+   "label": "Q3-2026 13F-HR (as of 2026-09-30, filed 2026-11-16), CUSIP 38965L106: 712,319 SH, $20,515,089, discretion DFND, no voting; same share count as Q1 and Q2",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1374384/000137438426000009/isp_2026q3informationtable.xml",
+   "side": "neutral",
+   "added": "2026-11-16T14:29:07-05:00"
+  },
+  {
+   "from": "intesa",
+   "to": "bitwise",
+   "label": "Q3-2026 13F-HR (as of 2026-09-30, filed 2026-11-16), CUSIP 09174F107: 402,750 SH of Bitwise XRP ETF, $6,697,733, discretion DFND, no voting; first appearance in Intesa's 13F-HRs",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1374384/000137438426000009/isp_2026q3informationtable.xml",
+   "side": "neutral",
+   "added": "2026-11-16T14:29:07-05:00"
+  },
+  {
+   "from": "bitpay",
+   "to": "xrp",
+   "label": "BitPay's own supported-crypto list (updated Nov 16 2026): XRP accepted for invoice payments, not for BitPay Send/payouts; one of 18 assets, availability varies by location",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://support.bitpay.com/hc/en-us/articles/37436300598157-List-of-Supported-Cryptocurrencies-and-Associated-White-Papers",
+   "side": "neutral",
+   "added": "2026-11-16T14:29:07-05:00"
+  },
+  {
+   "from": "mxnb",
+   "to": "xrpl",
+   "label": "Juno's own Mint Platform page (modified Aug 12 2026): MXNB natively on Arbitrum and Ethereum, Mint Platform supports Arbitrum only; XRP Ledger not listed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://business-support.bitso.com/hc/en-us/articles/35987002519188-Blockchain-Support-on-Juno-s-Mint-Platform",
+   "side": "neutral",
+   "added": "2026-11-16T14:29:07-05:00"
+  },
+  {
+   "from": "soil",
+   "to": "ripple",
+   "label": "Ripple's Swell 2026 recap (Nov 16 2026): Soil working with Ripple to explore potential uses for XRP in credit and collateral within Ripple Payments (exploratory, no product announced)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/insights/ripple-swell-2026-recap/",
+   "side": "neutral",
+   "added": "2026-11-16T14:29:07-05:00"
   }
  ]
 }
