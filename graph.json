@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16T08:36:44-05:00",
+  "updated": "2026-11-16T10:35:48-05:00",
   "version": 3
  },
  "nodes": [
@@ -106031,6 +106031,17 @@
    "source": "https://stablecoins.llama.fi/stablecoins",
    "side": "contradicts",
    "added": "2026-11-16T08:33:42-05:00"
+  },
+  {
+   "from": "clarity",
+   "to": "xrp",
+   "label": "Lame-duck outlook (analyst opinion, not congressional record): Stifel's Brian Gardner told The Hill (Nov 15, 2026) CLARITY is 'off the table for the lame-duck session'; congress.gov latest action is still Sep 15, 2026 (Tillis motion to reconsider entered after cloture failed 49-50, roll 234); the bill dies when the 119th Congress ends Jan 3, 2027 unless acted on",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://thehill.com/policy/technology/6219609-democrats-congress-control-crypto/",
+   "side": "contradicts",
+   "added": "2026-11-16T10:34:37-05:00"
   }
  ]
 }
