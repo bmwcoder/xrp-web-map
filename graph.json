@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-15T16:32:48-05:00",
+  "updated": "2026-11-15T22:32:06-05:00",
   "version": 3
  },
  "nodes": [
@@ -32009,6 +32009,32 @@
     "https://api.xrpscan.com/api/v1/account/r3S8AV7DQ6URd9qhKkDc2vD6XCaNU34328"
    ],
    "added": "2026-11-15T12:29:37-05:00"
+  },
+  {
+   "id": "w-r4h6gw2j",
+   "label": "r4H6GW2J… XRPL pass-through account that took 5.36B XRP from rHPGFxtg… (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "r4H6GW2JQQaEqtktWNQ3ms1ThCVpQXNMT, no XRPScan label. Created Jul 28, 2023 (UTC) by ra8xqX4Q… with 500 XRP. rHPGFxtg… paid it 5,361.94M XRP in 1,041 payments on dest tag 2990779035 (Nov 28, 2023–Nov 22, 2024 UTC); largest 17.37M. Balance about 10,226 XRP (Nov 15, 2026), so it is not a holding wallet. Onward flow not traced. Lineage only; owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/r4H6GW2JQQaEqtktWNQ3ms1ThCVpQXNMT",
+    "https://xrpscan.com/tx/6FA5FA961D3766334FC40E4D50F74AE8C6B4F66BBE7496E60CB235982A9EC45C"
+   ],
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "id": "w-rpqtbuyp",
+   "label": "rPqtBuYP… XRPL account created by rHPGFxtg… (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rPqtBuYPGN7jFAkLKxKDJWXuqGT8buZCaR, no XRPScan label. rHPGFxtg… created it with 2,000,000 XRP on Aug 17, 2023 (UTC) and paid it 236.27M XRP in 97 payments through Mar 14, 2024 (largest 11.0M). Balance about 10 XRP (Nov 15, 2026). Lineage only; owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://api.xrpscan.com/api/v1/account/rPqtBuYPGN7jFAkLKxKDJWXuqGT8buZCaR",
+    "https://xrpscan.com/tx/80F83B7B3AD09A49620238567D0D83F7B71D3485FE4B450676E8DB48EF41A05D"
+   ],
+   "added": "2026-11-15T22:28:43-05:00"
   }
  ],
  "edges": [
@@ -105895,6 +105921,94 @@
    "source": "https://xrpscan.com/tx/8B00B9A7A2EC3456EADC729C71EA7CF23872BE1F36DE5BCE74F18F6859EDBEB3",
    "side": "neutral",
    "added": "2026-11-15T16:29:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-r4h6gw2j",
+   "label": "sent 5,361.94M XRP in 1,041 payments on dest tag 2990779035, Nov 28, 2023–Nov 22, 2024 (UTC); destination, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/6FA5FA961D3766334FC40E4D50F74AE8C6B4F66BBE7496E60CB235982A9EC45C",
+   "side": "neutral",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rlod9u2g",
+   "label": "sent 816.12M XRP in 1,288 payments, Jan 25, 2024–Aug 2, 2025 (UTC); destination, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/4C3DF667027D91EC1286254E5693481F3833827B2B5A4386CF00556BE1128AE1",
+   "side": "neutral",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rpqtbuyp",
+   "label": "sent 236.27M XRP in 97 payments, Aug 17, 2023–Mar 14, 2024 (UTC); destination, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/80F83B7B3AD09A49620238567D0D83F7B71D3485FE4B450676E8DB48EF41A05D",
+   "side": "neutral",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rbnc-desk",
+   "label": "sent 71.44M XRP in 33 payments, Jul 30, 2025–Mar 30, 2026 (UTC); destination, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/605176F83480E8BF9EFD25BE707DC3AC6DD73A026BE6AEF7DB4AF99976A6F612",
+   "side": "neutral",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rdzukhg",
+   "label": "sent 37.03M XRP in 7 payments, Jan 17–Apr 8, 2025 (UTC); destination, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/882565441EFD0F33E5A2635D418F041ABFD44A4D9C66BB8451543C471C1EDB87",
+   "side": "neutral",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rdzukhg",
+   "label": "activator of rDzukHGH… looks like exchange-side omnibus reading (medium confidence, not proof): 98.2% of rHPGFxtg…'s XRP inflow arrived on shared dest tag 1402065290 from 56 senders, including six Binance hot wallets, and about 7.94B XRP passed in and out; this weakens a single-owner reading of the accounts it activated; owner unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
+   "side": "contradicts",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rbnc-desk",
+   "label": "activator of rBNCyNEw… looks like exchange-side omnibus reading (medium confidence, not proof): 98.2% of rHPGFxtg…'s XRP inflow arrived on shared dest tag 1402065290 from 56 senders, including six Binance hot wallets, and about 7.94B XRP passed in and out; this weakens a single-owner reading of the accounts it activated; owner unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
+   "side": "contradicts",
+   "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "w-rhpgfxtg",
+   "to": "w-rkxlugg51",
+   "label": "activator of rKxLugg51… looks like exchange-side omnibus reading (medium confidence, not proof): 98.2% of rHPGFxtg…'s XRP inflow arrived on shared dest tag 1402065290 from 56 senders, including six Binance hot wallets, and about 7.94B XRP passed in and out; this weakens a single-owner reading of the accounts it activated; owner unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
+   "side": "contradicts",
+   "added": "2026-11-15T22:28:43-05:00"
   }
  ]
 }
