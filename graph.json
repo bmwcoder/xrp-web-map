@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16T06:12:10-05:00",
+  "updated": "2026-11-16T08:36:44-05:00",
   "version": 3
  },
  "nodes": [
@@ -106009,6 +106009,28 @@
    "source": "https://api.xrpscan.com/api/v1/account/rHPGFxtgJCd2gAvUvvhyZ2H63CASVjcJ2u",
    "side": "contradicts",
    "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "from": "novatti",
+   "to": "ripplenet",
+   "label": "Novatti's own ASX announcement (Apr 9 2021): Ripple partnership live, revenue-generating Australia-Philippines transactions through RippleNet with iRemit; names XRP only as a Ripple capability, not as its payment leg",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://announcements.asx.com.au/asxpdf/20210409/pdf/44vdgrlph32p60.pdf",
+   "side": "neutral",
+   "added": "2026-11-16T08:33:42-05:00"
+  },
+  {
+   "from": "rlusd-xrpl-supply",
+   "to": "xrpl",
+   "label": "RLUSD supply on the XRPL fell to 701.8M by Nov 16, 2026 from 878.2M a week earlier and 1,029.3M a month earlier, while the Ethereum leg rose to 2,060.1M (DefiLlama chain split; issuer obligations on the XRPL read 701,846,328 RLUSD at ledger 108367334)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://stablecoins.llama.fi/stablecoins",
+   "side": "contradicts",
+   "added": "2026-11-16T08:33:42-05:00"
   }
  ]
 }
