@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-17T10:35:39-05:00",
+  "updated": "2026-11-17T14:33:15-05:00",
   "version": 3
  },
  "nodes": [
@@ -106176,6 +106176,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/1997464/000199746426000078/information_table.xml",
    "side": "neutral",
    "added": "2026-11-17T10:34:17-05:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "xrp",
+   "label": "Evernorth Q3 2026 10-Q: pre-closing XRP carried at $341,887,231 at Sep 30 2026 after $271,037,170 of 2026 impairment; as a Ripple related party it is outside ASU 2023-08, so XRP stays at cost less impairment and is not written back up when prices recover",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026073871/xrpn-20260930.htm",
+   "side": "neutral",
+   "added": "2026-11-17T14:31:57-05:00"
   }
  ]
 }
