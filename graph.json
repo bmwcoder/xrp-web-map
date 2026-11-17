@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16T20:35:16-05:00",
+  "updated": "2026-11-17T08:32:56-05:00",
   "version": 3
  },
  "nodes": [
@@ -106114,8 +106114,8 @@
   {
    "from": "soil",
    "to": "ripple",
-   "label": "Ripple's Swell 2026 recap (Nov 16 2026): Soil working with Ripple to explore potential uses for XRP in credit and collateral within Ripple Payments (exploratory, no product announced)",
-   "grade": "A",
+   "label": "Soil working with Ripple to explore potential uses for XRP in credit and collateral within Ripple Payments, per Ripple (Swell 2026 recap, Nov 16 2026); exploratory, no product announced",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/ripple-swell-2026-recap/",
