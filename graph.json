@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-16T14:30:28-05:00",
+  "updated": "2026-11-16T20:35:16-05:00",
   "version": 3
  },
  "nodes": [
@@ -32035,6 +32035,30 @@
     "https://xrpscan.com/tx/80F83B7B3AD09A49620238567D0D83F7B71D3485FE4B450676E8DB48EF41A05D"
    ],
    "added": "2026-11-15T22:28:43-05:00"
+  },
+  {
+   "id": "rakuten-group",
+   "label": "Rakuten Group",
+   "type": "company",
+   "handle": "",
+   "summary": "Japanese internet group. Its Q3 2026 13F-HR (as of 2026-09-30) lists 6,690 SH of Bitwise XRP ETF ($111,255) and 9,333 SH of Bitwise Solana Staking ETF ($150,728); small lines.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1294591/000129459126000005/20260930information_table.xml"
+   ],
+   "added": "2026-11-16T20:33:54-05:00"
+  },
+  {
+   "id": "rakuten-wallet",
+   "label": "Rakuten Wallet (楽天ウォレット)",
+   "type": "company",
+   "handle": "",
+   "summary": "Japanese crypto exchange, JFSA-registered crypto-asset exchange service provider (Kanto Local Finance Bureau No. 00015, registered 2019-03-25); the JFSA register (as of 2026-09-30) lists XRP among its 14 handled assets. Exchange listing, not a payment-rail use.",
+   "grade": "A",
+   "sources": [
+    "https://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf"
+   ],
+   "added": "2026-11-16T20:33:54-05:00"
   }
  ],
  "edges": [
@@ -106097,6 +106121,39 @@
    "source": "https://ripple.com/insights/ripple-swell-2026-recap/",
    "side": "neutral",
    "added": "2026-11-16T14:29:07-05:00"
+  },
+  {
+   "from": "rakuten-group",
+   "to": "bitwise",
+   "label": "Q3-2026 13F-HR (as of 2026-09-30), CUSIP 09174F107: 6,690 SH of Bitwise XRP ETF, $111,255, discretion DFND, sole voting",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1294591/000129459126000005/20260930information_table.xml",
+   "side": "neutral",
+   "added": "2026-11-16T20:33:54-05:00"
+  },
+  {
+   "from": "jfsa",
+   "to": "rakuten-wallet",
+   "label": "JFSA crypto-asset exchange register (as of 2026-09-30): Rakuten Wallet registered Kanto Local Finance Bureau No. 00015, 2019-03-25",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf",
+   "side": "neutral",
+   "added": "2026-11-16T20:33:54-05:00"
+  },
+  {
+   "from": "rakuten-wallet",
+   "to": "xrp",
+   "label": "JFSA register (as of 2026-09-30) lists XRP among the 14 crypto-assets Rakuten Wallet handles (exchange listing)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf",
+   "side": "neutral",
+   "added": "2026-11-16T20:33:54-05:00"
   }
  ]
 }
