@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-17T08:32:56-05:00",
+  "updated": "2026-11-17T10:35:39-05:00",
   "version": 3
  },
  "nodes": [
@@ -106154,6 +106154,28 @@
    "source": "https://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf",
    "side": "neutral",
    "added": "2026-11-16T20:33:54-05:00"
+  },
+  {
+   "from": "marex",
+   "to": "bitwise",
+   "label": "Q3-2026 13F-HR (as of 2026-09-30, filed 2026-11-16), CUSIP 09174F107: 644,239 SH of Bitwise XRP ETF, $10,713,695, discretion DFND, other manager 2, sole voting. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1997464/000199746426000078/information_table.xml",
+   "side": "neutral",
+   "added": "2026-11-17T10:34:17-05:00"
+  },
+  {
+   "from": "marex",
+   "to": "xrpc",
+   "label": "Q3-2026 13F-HR (as of 2026-09-30, filed 2026-11-16), CUSIP 13723M100: 253,991 SH of Canary XRP ETF, $4,005,438, discretion DFND, other manager 2, sole voting. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1997464/000199746426000078/information_table.xml",
+   "side": "neutral",
+   "added": "2026-11-17T10:34:17-05:00"
   }
  ]
 }
