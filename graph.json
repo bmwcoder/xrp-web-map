@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T02:33:38-05:00",
+  "updated": "2026-11-18T04:31:44-05:00",
   "version": 3
  },
  "nodes": [
@@ -32059,6 +32059,56 @@
     "https://www.fsa.go.jp/menkyo/menkyoj/kasoutuka.pdf"
    ],
    "added": "2026-11-16T20:33:54-05:00"
+  },
+  {
+   "id": "w-eth-0x9cbdbd7f",
+   "label": "0x9cbDbd7F… Ethereum multisig-type wallet (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "0x9cbDbd7Fa768Ad6E9546FF57238722fA9B925329 on Ethereum (Blockscout label: SimpleMultiSig; holds no RLUSD role). It holds RLUSD and other tokens and has sent RLUSD to 0x860A80BD… repeatedly since Oct 22, 2026 and to 0x549d8353… (500,000 RLUSD at 08:26 ET Nov 17). Owner unconfirmed; this is a transfer record, not an ownership claim.",
+   "grade": "A",
+   "sources": [
+    "https://etherscan.io/address/0x9cbDbd7Fa768Ad6E9546FF57238722fA9B925329",
+    "https://eth.blockscout.com/address/0x9cbDbd7Fa768Ad6E9546FF57238722fA9B925329"
+   ],
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "id": "w-eth-0x860a80bd",
+   "label": "0x860A80BD… RLUSD burner-role holder on Ethereum (contract named MultiSign; owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "0x860A80BD349dc4E46DC7345600eb627552ff898e on Ethereum holds BURNER_ROLE on the RLUSD contract 0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD (RoleGranted in block 24743603, 2026-03-26 18:44 UTC, granted by the DEFAULT_ADMIN holder 0x66fc2d9e…; hasRole true at the latest block). Verified contract named MultiSign. Signers and owner not readable on chain, so no owner is named.",
+   "grade": "A",
+   "sources": [
+    "https://etherscan.io/address/0x860A80BD349dc4E46DC7345600eb627552ff898e",
+    "https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD"
+   ],
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "id": "w-eth-0x549d",
+   "label": "0x549d8353… Ethereum RLUSD-heavy address that cycles RLUSD with forwarders and Binance-tagged deposit addresses (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "0x549d835356d92983abb76e4cae639f7857963425 on Ethereum held about 68.8M RLUSD at block 26440464 (Nov 18, 2026 02:3x ET). It sends RLUSD to Etherscan-tagged 'Binance Deposit' addresses and to forwarder contracts, and receives RLUSD back from 0x9cbDbd7F… and from Binance 151 (0x690C3Eeb…). No role on the RLUSD contract. Owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://etherscan.io/address/0x549d835356d92983abb76e4cae639f7857963425"
+   ],
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "id": "w-rdgjaj8dfm",
+   "label": "rDGJAj8D… XRPL relay account between rLoD9U2g… and rBNCyNEw… (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rDGJAj8DFMQsqGbiB4F2PhfxezrbpW2Mnh. Between 21:40 ET Nov 16 and 05:37 ET Nov 17, 2026 it received 15,918,821 RLUSD in 4 payments from rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc and forwarded 15,918,621 RLUSD to rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR within 1 to 3 minutes of each. At 20:26 ET Nov 17 it received 4,900,000 RLUSD back from rBNCyNEw…. RLUSD balance 4,904,831.02 at ledger 108406190. No XRPScan label; owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rDGJAj8DFMQsqGbiB4F2PhfxezrbpW2Mnh"
+   ],
+   "added": "2026-11-18T04:28:51-05:00"
   }
  ],
  "edges": [
@@ -104750,7 +104800,7 @@
   {
    "from": "w-rk21t6ng",
    "to": "w-ryb7nesz",
-   "label": "sent 40,001,000 XRP to ryB7NESZ… in 3 untagged Payments (1,000 + 30,000,000 + 10,000,000), Nov 1, 2026 22:47–23:00 EST; no onward move as of 00:30 EST Nov 2; ownership of both accounts unverified",
+   "label": "sent 40,001,000 XRP to ryB7NESZ… in 3 untagged Payments (1,000 + 30,000,000 + 10,000,000), Nov 1, 2026 22:47–23:00 EST; drained to dust by ledger 108383635 (Nov 17); ownership of both accounts unverified",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -106209,6 +106259,61 @@
    "source": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-4/",
    "side": "neutral",
    "added": "2026-11-18T02:32:26-05:00"
+  },
+  {
+   "from": "w-eth-0x9cbdbd7f",
+   "to": "w-eth-0x860a80bd",
+   "label": "sent 5,000,000 RLUSD to the burner-role holder 0x860A80BD… at 10:30 ET Nov 16, 2026 (tx 0xa6f64003…), six minutes before 0x860A80BD…'s 5,000,000 RLUSD burn at 10:36; similar transfers recurred from Oct 22; destination, not owner; neither owner confirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0xa6f640038cd14092a7911b1e4eb64a5b7faf73738b60fd6b17936c94ef4620ea",
+   "side": "neutral",
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "from": "w-eth-0x860a80bd",
+   "to": "rlusd-eth-roles",
+   "label": "holds BURNER_ROLE on the RLUSD contract (RoleGranted block 24743603, 2026-03-26 18:44 UTC; hasRole true); role holder, not owner",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/address/0x8292Bb45bf1Ee4d140127049757C2E0fF06317eD",
+   "side": "neutral",
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "from": "w-eth-0x549d",
+   "to": "w-eth-0x9cbdbd7f",
+   "label": "cycle via two forwarder contracts: 0x549d8353… sent 300,000 RLUSD (04:40 ET Nov 17) and 325,000 RLUSD (07:27) to forwarders 0x8A85636B… and 0x36e71b3F…, which passed 300,000 (04:55) and 325,000 (07:33) on to 0x9cbDbd7F…; 0x9cbDbd7F… returned 500,000 RLUSD to 0x549d8353… at 08:26 (tx 0x52322757…); transfer pattern, owners unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etherscan.io/tx/0x523227573f7f71352f94002348490ce411e8a0e74712dba018dd92a0daefe7e2",
+   "side": "neutral",
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "from": "w-rlod9u2g",
+   "to": "w-rdgjaj8dfm",
+   "label": "sent 15,918,821 RLUSD in 4 payments, Nov 16 21:40 – Nov 17 05:34 ET, 2026 (4,059,253 + 3,309,040 + 4,356,268 + 4,194,260); each lot was forwarded within about 1 to 3 minutes; destination, not owner; owners unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/265C38240B6B74CA17734B7BA9EEB160FF8F7EF0219099A824995D7E7EE4D021",
+   "side": "neutral",
+   "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "from": "w-rdgjaj8dfm",
+   "to": "w-rbnc-desk",
+   "label": "forwarded 15,918,621 RLUSD in 4 payments, Nov 16 21:41 – Nov 17 05:37 ET, 2026 (4,059,203 + 3,308,990 + 4,356,218 + 4,194,210), 50 RLUSD less than received on each hop; destination, not owner; owners unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/21D2D2541CCEF15EE1DE0C5140F204A932DD7E060DDF6BB6441ADC08C46464CB",
+   "side": "neutral",
+   "added": "2026-11-18T04:28:51-05:00"
   }
  ]
 }
