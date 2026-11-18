@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-17T14:33:15-05:00",
+  "updated": "2026-11-17T20:29:15-05:00",
   "version": 3
  },
  "nodes": [
@@ -76689,7 +76689,7 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol: not enabled as of 2026-10-21 07:45 ET; 18 validator yes-votes vs 25 needed (introduced rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol not enabled as of 2026-11-17 19:35 ET; 23 of 35 validators voting yes vs a threshold of 28 (introduced rippled 3.1.0) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -99459,7 +99459,7 @@
   {
    "from": "schwartz",
    "to": "btctalk2011",
-   "label": "confirmed thread as the 'starting point' for Ripple and Stellar (2019-06-16)",
+   "label": "replied 'Yes. This is a valuable piece of history now!' (2019-06-16, post #38, as JoelKatz) to a 2014 post calling the thread 'probably the starting point for Jed's projects Ripple and now Stellar'",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -106180,7 +106180,7 @@
   {
    "from": "evernorth",
    "to": "xrp",
-   "label": "Evernorth Q3 2026 10-Q: pre-closing XRP carried at $341,887,231 at Sep 30 2026 after $271,037,170 of 2026 impairment; as a Ripple related party it is outside ASU 2023-08, so XRP stays at cost less impairment and is not written back up when prices recover",
+   "label": "Evernorth Q3 2026 10-Q: pre-closing XRP carried at $341,887,231 at Sep 30 2026 after $271,037,170 of 2026 impairment; as a Ripple related party it is outside ASU 2023-08, so XRP stays at cost less impairment and is not written back up when prices recover. Context: a $240,311,432 gain on refundable investor advances cushioned the nine-month net loss to $32,870,033. Cuts against the treasury-premium story; neutral for XRP as a payment rail",
    "grade": "A",
    "strength": 2,
    "key": false,
