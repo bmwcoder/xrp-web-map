@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T10:40:30-05:00",
+  "updated": "2026-11-18T14:37:39-05:00",
   "version": 3
  },
  "nodes": [
@@ -9,13 +9,14 @@
    "label": "XRP",
    "type": "asset",
    "handle": "",
-   "summary": "Native asset of the XRP Ledger; 100B created at genesis, no mining. ~$1.30 on 2026-10-19 (#5 by market cap). Ripple holds ~31.4B in escrow (~300M/month net release).",
+   "summary": "Native asset of the XRP Ledger; 100B created at genesis, no mining. ~$1.30 on 2026-10-19 (#5 by market cap). Ripple holds ~31.1B in escrow (99 escrow objects, XRPL read 2026-11-18) (~300M/month net release).",
    "why": "The asset everything here is about: Ripple's escrow, Evernorth and the spot ETFs all hold it, and a 2026 SEC/CFTC release named it a digital commodity, while some funds (e.g. WisdomTree's US filing) withdrew.",
    "grade": "A",
    "sources": [
     "https://xrpl.org/docs/introduction/what-is-xrp",
     "https://www.coingecko.com/en/coins/xrp",
-    "https://xrp-insights.com/xrp-radar/escrow"
+    "https://xrp-insights.com/xrp-radar/escrow",
+    "https://xrpscan.com/account/rNASJdZjY9dToHnNURi3HAUku3duPwbtD1"
    ],
    "added": "2026-10-19T06:36:00-04:00"
   },
@@ -10524,15 +10525,16 @@
   },
   {
    "id": "ripple-escrow",
-   "label": "Ripple XRP escrow (31.4B XRP)",
+   "label": "Ripple XRP escrow (31.1B XRP)",
    "type": "asset",
    "handle": "",
-   "summary": "Live XRPL read (validated ledger 107,774,785, 2026-10-20 02:41 UTC = Oct 19 22:41 ET): 31,400M XRP locked in 98 time-locked escrow objects owned by 8 Ripple accounts (rDdXiA3M…, rKwJaGmB…, rKDvgGUs…, rN8pqRwL… 5,000M each; rB3WNZc4…, r9UUEXn3… 4,500M each; rU9qmGM4… 1,400M; rNASJdZj… 1,000M). Exactly 1,000M unlocks on the 1st of each month from 2026-11-01 through 2029-05-01, plus 400M on 2029-06-01; no CancelAfter set.",
+   "summary": "Live XRPL read (validated ledger 108,416,196, 2026-11-18 13:41 ET): 31,100M XRP locked in 99 time-locked escrow objects owned by 8 Ripple accounts (rDdXiA3M… 5,000M in 17; rKwJaGmB…, rKDvgGUs…, rN8pqRwL… 5,000M in 16 each; rB3WNZc4…, r9UUEXn3… 4,000M in 12 each; rU9qmGM4… 1,600M in 5; rNASJdZj… 1,500M in 5). 1,000M unlocks on the 1st of each month from 2026-12-01 through 2029-06-01, plus 100M on 2029-07-01; no CancelAfter set. On 2026-11-01, 1,000M unlocked and 700M was re-escrowed (rNASJdZj… 500M, rU9qmGM4… 2 x 100M).",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn",
     "https://xrpscan.com/account/rDdXiA3M4mYTQ4cFpWkVXfc2UaAXCFWeCK",
-    "https://ripple.com/insights/ripple-escrows-55-billion-xrp-for-supply-predictability/"
+    "https://ripple.com/insights/ripple-escrows-55-billion-xrp-for-supply-predictability/",
+    "https://xrpscan.com/account/rB3WNZc45gxzW31zxfXdkx8HusAhoqscPn"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -16247,7 +16249,7 @@
    "label": "Discrepancy: XRPL launch date (June 2012 vs Dec 2012 vs \"late 2012/early 2013\")",
    "type": "riddle",
    "handle": "",
-   "summary": "Sources differ on when the ledger went live. xrpl.org: 'first launched in June 2012' and code complete by June 2012. SEC complaint ¶45: XRP created 'upon the completion of the XRP Ledger in December 2012'. 9th Cir. (Jan 2026): public 'in either late 2012 or early 2013'. The Ledger's earliest available history begins at ledger 32570 (Jan 2013) because early ledgers were lost. JoelKatz (David Schwartz) on the Ripple Forum, Sep 4 2013 (archived): \"There was a bug that caused ledger headers not to be properly saved. All the servers running at the time had the same bug\"; only headers were missing and his reconstruction got stuck on 32,569. Not resolved; both sides recorded.",
+   "summary": "Sources differ on when the ledger went live. xrpl.org: 'first launched in June 2012' and code complete by June 2012. SEC complaint ¶45: XRP created 'upon the completion of the XRP Ledger in December 2012'. 9th Cir. (Jan 2026): public 'in either late 2012 or early 2013'. The earliest available production ledger is index 32570 (closed 2013-01-01 03:21 UTC = 2012-12-31 ET); xrpl.org's full-history page says 'the first two weeks or so of ledger history was lost due to a bug in the server at the time' (the lost span is late Dec 2012, not early 2012). JoelKatz (David Schwartz) on the Ripple Forum, Sep 4 2013 (archived): \"There was a bug that caused ledger headers not to be properly saved. All the servers running at the time had the same bug\"; only headers were missing and his reconstruction got stuck on 32,569. Not resolved; both sides recorded.",
    "grade": "B",
    "sources": [
     "https://xrpl.org/about/history",
@@ -16984,11 +16986,12 @@
    "label": "Japan Bank Consortium (61 banks, SBI Ripple Asia)",
    "type": "bank",
    "handle": "",
-   "summary": "APAC/Japan. A coalition of 61 Japanese banks organized by SBI Ripple Asia. Ran a xCurrent pilot with Woori and Shinhan in Dec 2017; this later became MoneyTap. Current-status check (2026-10-20): the 47 'commercial phase' member links rest on a single 2017 Ripple post. Of those 47 names, the moneytap.jp service table lists only Yamaguchi Bank, DOCOMO SMTB Net Bank (ex-SBI Sumishin) and Suruga (suspended). Resona left in 2019. The rest have no current public evidence of use.",
+   "summary": "APAC/Japan. A coalition of 61 Japanese banks organized by SBI Ripple Asia. Ran a xCurrent pilot with Woori and Shinhan in Dec 2017; this later became MoneyTap. Current-status check (2026-10-20): the 47 'commercial phase' member links rest on a single 2017 Ripple post. Of those 47 names, the moneytap.jp service table lists only Yamaguchi Bank, DOCOMO SMTB Net Bank (ex-SBI Sumishin) and Suruga (suspended). Resona left in 2019. The rest have no current public evidence of use. On 2026-11-18 moneytap.jp listed 9 banks in all: Ehime, Ogaki Kyoritsu, Kitakyushu, Shimane, Suruga (suspended), Chikuho, DOCOMO SMTB Net Bank, Momiji and Yamaguchi; 6 of them are not among the 47 names, and Chikuho Bank's own notice said its MoneyTap linking ended 2024-11-30.",
    "grade": "A",
    "sources": [
     "https://www.finextra.com/newsarticle/31484/japanese-and-korean-banks-to-test-ripplenet-for-cross-border-funds-transfers",
-    "https://moneytap.jp/"
+    "https://moneytap.jp/",
+    "https://moneytap.jp/account.html"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "banks"
@@ -32116,11 +32119,12 @@
    "label": "Global Layer One (GL1)",
    "type": "community",
    "handle": "",
-   "summary": "Global Layer One (GL1), an MAS-launched industry initiative on shared ledger infrastructure; members pending verification from MAS primary source.",
-   "grade": "B",
+   "summary": "Global Layer One (GL1): shared-ledger standards initiative launched by MAS in Nov 2023 (MAS release names BNY Mellon, DBS, J.P. Morgan and MUFG; MAS's Jun 2024 release names BNY, Citi, J.P. Morgan, MUFG and SG Forge, with ECB, Banque de France and IMF staff observing). GL1's Nov 2025 release lists Euroclear, HSBC, Kinexys, MUFG and SG-FORGE as participating institutions, with the Bank of England, Banque de France, ECB and MAS as supporting policymakers; it published the Market Infrastructure (MI) Toolkit, a self-attestation control framework, and the Programmable Compliance Toolkit. On 4 Nov 2026 HSBC, Kinexys by J.P. Morgan, MUFG Bank, Societe Generale-FORGE and Standard Chartered founded GL1 Org, a Singapore non-profit that makes GL1 industry-led. GL1's own releases name no specific chain.",
+   "grade": "A",
    "sources": [
     "https://pages.xrpl.foundation/xrp-ledger-gl1/",
-    "https://x.com/XRP/status/2123042862002577853"
+    "https://x.com/XRP/status/2123042862002577853",
+    "https://global-layer-one.org/pdf/gl1-org-launch-4-nov-2026.pdf"
    ],
    "added": "2026-11-18T08:32:59-05:00"
   },
@@ -32185,6 +32189,19 @@
     "https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf"
    ],
    "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "id": "electric-capital",
+   "label": "Electric Capital (Developer Report)",
+   "type": "company",
+   "handle": "",
+   "summary": "Venture firm that publishes the Developer Report (developerreport.com), counting monthly active open-source developers per crypto ecosystem from its public crypto-ecosystems GitHub taxonomy. Its XRP ecosystem page showed 310 monthly active devs and 119 full-time devs for the week of 2026-11-11.",
+   "grade": "A",
+   "sources": [
+    "https://www.developerreport.com/ecosystems/xrp",
+    "https://www.developerreport.com/api/charts/dev_mau/xrp"
+   ],
+   "added": "2026-11-18T14:34:34-05:00"
   }
  ],
  "edges": [
@@ -97638,7 +97655,7 @@
   {
    "from": "ripple",
    "to": "amd-lending",
-   "label": "ripple.com validator votes yes on LendingProtocol (18/32, 25 needed; 2026-10-21)",
+   "label": "ripple.com validator votes yes on LendingProtocol; pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 13:42 ET (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -97649,7 +97666,7 @@
   {
    "from": "xrpl-commons",
    "to": "amd-lending",
-   "label": "its validator votes yes on SingleAssetVault and fixCleanup3_4_0 but not LendingProtocol (2026-10-21)",
+   "label": "its validator (v2.xrpl-commons.org) now votes yes on LendingProtocol, 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 13:42 ET; it did not on 2026-10-21",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -106425,6 +106442,50 @@
    "added": "2026-11-18T08:32:59-05:00"
   },
   {
+   "from": "gl1",
+   "to": "hsbc",
+   "label": "HSBC: founding member of GL1 Org (joint release on GL1's site, 4 Nov 2026); also a GL1 participating institution (GL1, 10 Nov 2025)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://global-layer-one.org/pdf/gl1-org-launch-4-nov-2026.pdf",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "from": "gl1",
+   "to": "jpm",
+   "label": "Kinexys by J.P. Morgan: founding member of GL1 Org (joint release on GL1's site, 4 Nov 2026); J.P. Morgan is named in MAS's GL1 releases of Nov 2023 and Jun 2024",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://global-layer-one.org/pdf/gl1-org-launch-4-nov-2026.pdf",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "from": "gl1",
+   "to": "mufg",
+   "label": "MUFG Bank: founding member of GL1 Org (joint release on GL1's site, 4 Nov 2026); also named in MAS's GL1 releases of Nov 2023 and Jun 2024",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://global-layer-one.org/pdf/gl1-org-launch-4-nov-2026.pdf",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "from": "gl1",
+   "to": "sgforge",
+   "label": "Societe Generale-FORGE: founding member of GL1 Org (joint release on GL1's site, 4 Nov 2026); also named in MAS's Jun 2024 GL1 release",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://global-layer-one.org/pdf/gl1-org-launch-4-nov-2026.pdf",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
    "from": "fed",
    "to": "fed-waller-tokenized-markets-2026-11-17",
    "label": "Governor Waller at The Clearing House conference (Nov 17, 2026): Fed to provide 'core payment and settlement infrastructure on which all market participants can build'; private sector builds the tokenized-money solutions; names no rail",
@@ -106516,10 +106577,10 @@
    "from": "partior",
    "to": "gl1",
    "label": "self-attestation against the GL1 MI Toolkit, verified by CertiK for Architecture and Resiliency in the same round as XRPLF (CertiK release, Nov 18 2026); not certification or endorsement by GL1 or MAS",
-   "grade": "B",
-   "strength": 2,
+   "grade": "A",
+   "strength": 3,
    "key": false,
-   "source": "https://financefeeds.com/certik-verifies-gl1-network-operator-self-attestations/",
+   "source": "https://x.com/CertiK/status/2123053614641905828",
    "side": "neutral",
    "added": "2026-11-18T10:36:43-05:00"
   },
@@ -106527,12 +106588,56 @@
    "from": "certik",
    "to": "partior",
    "label": "scope: Architecture and Resiliency only, same verification round as XRPLF (CertiK release, Nov 18 2026)",
-   "grade": "B",
-   "strength": 2,
+   "grade": "A",
+   "strength": 3,
    "key": false,
-   "source": "https://financefeeds.com/certik-verifies-gl1-network-operator-self-attestations/",
+   "source": "https://x.com/CertiK/status/2123053614641905828",
    "side": "neutral",
    "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "mas",
+   "to": "gl1",
+   "label": "launched the Global Layer One (GL1) initiative (MAS release, 15 Nov 2023, with BNY Mellon, DBS, J.P. Morgan and MUFG); convened it until the 4 Nov 2026 hand-over to the industry-led GL1 Org, which MAS welcomed",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/media-releases/2023/mas-partners-financial-industry-to-expand-asset-tokenisation-initiatives",
+   "side": "neutral",
+   "added": "2026-11-18T14:34:34-05:00"
+  },
+  {
+   "from": "gl1",
+   "to": "stanchart",
+   "label": "Standard Chartered: founding member of GL1 Org, the Singapore non-profit taking GL1 industry-led (joint release on GL1's site, 4 Nov 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://global-layer-one.org/pdf/gl1-org-launch-4-nov-2026.pdf",
+   "side": "neutral",
+   "added": "2026-11-18T14:34:34-05:00"
+  },
+  {
+   "from": "electric-capital",
+   "to": "xrpl",
+   "label": "Developer Report, XRP ecosystem: monthly active devs averaged 205 in 2024, 340 in 2025 and 372 in 2026 to Nov 11, full-time devs 51 to 85 to 103 (yearly means derived from EC's weekly series); latest week 310, down from 370 a year earlier and from the 499 peak of Jul 2025",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.developerreport.com/api/charts/dev_mau/xrp",
+   "side": "supports",
+   "added": "2026-11-18T14:34:34-05:00"
+  },
+  {
+   "from": "rippled",
+   "to": "xrpl",
+   "label": "rippled development activity: 211 commits by 29 active authors in 2024, 471 by 42 in 2025, 1,375 by 64 in 2026 to mid-Nov (GitHub contributor stats, default branch, read 2026-11-18); commit search by committer date gives 199 / 453 / 1,054",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.github.com/repos/XRPLF/rippled/stats/contributors",
+   "side": "supports",
+   "added": "2026-11-18T14:34:34-05:00"
   }
  ]
 }
