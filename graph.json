@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T08:35:58-05:00",
+  "updated": "2026-11-18T10:40:30-05:00",
   "version": 3
  },
  "nodes": [
@@ -16394,11 +16394,12 @@
    "label": "Custodia Bank",
    "type": "bank",
    "handle": "",
-   "summary": "Wyoming SPDI crypto bank. Its first Fed master-account request (2020-10-29, KC Fed) was Rejected on 2023-01-27; the 10th Circuit upheld the denial and denied rehearing in Mar 2026. A second request (2026-02-06, Dallas Fed) was Withdrawn on 2026-05-21.",
+   "summary": "Wyoming SPDI crypto bank. Its first Fed master-account request (2020-10-29, KC Fed) was Rejected on 2023-01-27; the 10th Circuit upheld the denial (Oct 31, 2025, 2-1) and denied rehearing en banc on Mar 13, 2026; the Supreme Court denied cert on Nov 16, 2026 (No. 26-62). A second request (2026-02-06, Dallas Fed) was Withdrawn on 2026-05-21.",
    "grade": "A",
    "sources": [
     "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.csv",
-    "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111400884.pdf"
+    "https://www.ca10.uscourts.gov/sites/ca10/files/opinions/010111400884.pdf",
+    "https://www.supremecourt.gov/docket/docketfiles/html/public/26-62.html"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "banks"
@@ -32115,7 +32116,7 @@
    "label": "Global Layer One (GL1)",
    "type": "community",
    "handle": "",
-   "summary": "Multilateral initiative of global financial institutions and policymakers on compatible tokenised-asset market infrastructures; launched by Singapore's central bank (MAS) and now described by @XRP as industry-led, founded by HSBC, Kinexys by J.P. Morgan, MUFG, Societe Generale-FORGE and Standard Chartered. Publishes the GL1 Market Infrastructure (MI) Toolkit (ten principles, built on CPMI-IOSCO PFMI, DASCP and GBBC RMF).",
+   "summary": "Global Layer One (GL1), an MAS-launched industry initiative on shared ledger infrastructure; members pending verification from MAS primary source.",
    "grade": "B",
    "sources": [
     "https://pages.xrpl.foundation/xrp-ledger-gl1/",
@@ -32134,6 +32135,56 @@
     "https://pages.xrpl.foundation/xrp-ledger-gl1/"
    ],
    "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "id": "fed-waller-tokenized-markets-2026-11-17",
+   "label": "Waller speech: Payments and Tokenized Markets (Nov 17, 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "Fed Governor Christopher Waller's speech 'Considerations at the Intersection of Payments and Tokenized Markets' at The Clearing House Annual Conference 2026, New York, Nov 17, 2026. He said the private sector is best positioned to develop payment solutions and the Fed supports them by 'providing core payment and settlement infrastructure upon which the private sector can innovate'; he sees 'a range of payment solutions coexisting'. No rail, XRP or XRPL is named.",
+   "grade": "A",
+   "sources": [
+    "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm"
+   ],
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "id": "w-rgpaxxcb",
+   "label": "rGpaXxcB… XRPL account that receives RLUSD from rLoD9U2g… and pays RLUSD to the RLUSD issuer (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rGpaXxcBQFCkELhqnHbrascpPDdxSbNqxA made 98 RLUSD payments to the RLUSD issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De totalling 991,019,691.22 RLUSD between Oct 19 and Nov 17, 2026 (ET). For 53 of those payments, rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc had sent the same amount (within 0.1%) to rGpaXxcB… in the 24 hours before. This is a transfer record only; no claim about who owns either account or why the payments were made.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rGpaXxcBQFCkELhqnHbrascpPDdxSbNqxA",
+    "https://xrpscan.com/account/rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc"
+   ],
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "id": "w-rarwevctc4",
+   "label": "raRwevcTC4… XRPL account that exchanges RLUSD with the RLUSD issuer (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "raRwevcTC4NafoNUP28JfmfrKYtdeQWwZ2 holds RLUSD (29,000,090.02 at validated ledger 108411693, 08:4x ET Nov 18, 2026). The RLUSD issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De sent it 20 payments of 100,000 RLUSD or more (221,968,656.12 in total) between Apr 22 and Nov 18, 2026 ET, latest 7,900,000 at 00:39 ET Nov 18; it sent the issuer 50 such payments (560,305,975.25 in total) between Jul 8 and Nov 16. It sent 4,900,000 RLUSD to rBPQ7bVL1RPYe3bqq5hm2uX5S5unf8eByh at 03:29 ET Nov 18. Transfer record only; owner unconfirmed.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/raRwevcTC4NafoNUP28JfmfrKYtdeQWwZ2",
+    "https://xrpscan.com/tx/E66FA037FFEDDD828A920419BD9D10F4F32E0C2858F0061049D4A329E242BA53"
+   ],
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "id": "w-rarvln1i",
+   "label": "raRVLN1i… XRPL account that trades XRP with rBNCyNEw…, Ripple 50 and r39TAwuqkA… (Domain unset; owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf held 106,659,651.33 XRP at validated ledger 108411773 (Nov 18, 2026, 08:4x ET). Since Oct 19, 2026 it received 331,551,687.00 XRP (rJqiMb94hyz41SBTNr2AyPNW8AzELa8nE 225,000,000 in 5 payments; rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR 87,051,687 in 8; r3mSX4GyKrHrPte8CLbz4EvsLWqTZQJRtq 19,500,000 in 1) and sent 254,000,000.00 XRP (r39TAwuqkA5BNxxfL5YXewRGtCgBcADjcx 206,000,000 in 7; rBNCyNEw… 46,200,000 in 17; rnPpiykzCFkievFjCdx7xLKb2KGA1is3ew 1,800,000 in 3); net +77,551,687.00 XRP. Lineage and shared destination tags do not show who controls it.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/raRVLN1i5QFF6w8cwV3RovtTkjFj3qyNRf"
+   ],
+   "added": "2026-11-18T10:36:43-05:00"
   }
  ],
  "edges": [
@@ -106372,6 +106423,116 @@
    "source": "https://pages.xrpl.foundation/xrp-ledger-gl1/",
    "side": "neutral",
    "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "from": "fed",
+   "to": "fed-waller-tokenized-markets-2026-11-17",
+   "label": "Governor Waller at The Clearing House conference (Nov 17, 2026): Fed to provide 'core payment and settlement infrastructure on which all market participants can build'; private sector builds the tokenized-money solutions; names no rail",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.federalreserve.gov/newsevents/speech/waller20261117a.htm",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "custodia",
+   "to": "fed",
+   "label": "Custodia Bank v. Fed. Reserve Bd. (10th Cir. No. 24-8024, Oct 31, 2025, 2-1, Tymkovich dissenting): Reserve Banks have discretion to deny master accounts to eligible crypto-focused banks; en banc rehearing denied Mar 13, 2026; Supreme Court denied cert Nov 16, 2026 (No. 26-62)",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.supremecourt.gov/docket/docketfiles/html/public/26-62.html",
+   "side": "contradicts",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "dbs",
+   "to": "jpm",
+   "label": "launched a 24/7 interoperability link between DBS Token Services and Kinexys tokenised deposits for instant USD transfers between the US and Singapore; Ant International is the first client (DBS, Nov 16, 2026); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.dbs.com/newsroom/DBS_and_Kinexys_by_JP_Morgan_launch_industry_first_247_interoperability_solution_for_cross_border_tokenised_deposit_transfers",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "dbs",
+   "to": "circle",
+   "label": "partnership letting eligible institutional clients mint and redeem USDC directly through DBS, with 24/7 USD-USDC settlement (DBS, Nov 18, 2026, Singapore FinTech Festival week); XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.dbs.com/newsroom/DBS_and_Circle_expand_institutional_access_to_USDC_in_Asia",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "w-rlod9u2g",
+   "to": "w-rgpaxxcb",
+   "label": "funder, not owner: rLoD9U2g… sent rGpaXxcB… the same RLUSD amount (within 0.1%) in the 24 hours before 53 of rGpaXxcB…'s 98 RLUSD payments to the issuer, Oct 19 – Nov 16 2026 ET; 354,549,757 RLUSD gross, not netted for round trips (about 36% of the 991.0M paid to the issuer); funding record only, owners unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/9067F0FEEF0D5DF10D26D29D0B0E140F5BC0D1CD2FFAE45F678909747300EFF2",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "w-rlusd-ops",
+   "to": "w-rarwevctc4",
+   "label": "issuer rMxCKbED… sent raRwevcTC4… 20 RLUSD payments of 100,000 or more, 221,968,656.12 in total, Apr 22 – Nov 18 2026 ET (latest 7,900,000 at 00:39 ET Nov 18); destination, not owner; owner of raRwevcTC4… unconfirmed",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/E66FA037FFEDDD828A920419BD9D10F4F32E0C2858F0061049D4A329E242BA53",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "w-rarwevctc4",
+   "to": "w-rlusd-ops",
+   "label": "raRwevcTC4… sent the issuer rMxCKbED… 50 RLUSD payments of 100,000 or more, 560,305,975.25 in total, Jul 8 – Nov 16 2026 ET (latest 10,000,000 at 05:35 ET Nov 16); a payment to the issuer, no claim about purpose or ownership",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/48E8B259BC8A656D33502B82A21EEA4F176C91F5451F76B48F17B974778C39D6",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "w-rbnc-desk",
+   "to": "w-rarvln1i",
+   "label": "reverse leg: rBNCyNEw… sent raRVLN1i… 87,051,687 XRP in 8 payments (destination tag 4156796778), Oct 30 – Nov 18 2026 ET, including 5,000,000 at 00:14 and 8,000,000 at 01:48 ET Nov 18; raRVLN1i… sent rBNCyNEw… 46,200,000 XRP in 17 payments (tag 2695199675) since Oct 19; destination, not owner; whether rBNCyNEw… is a sell desk is not shown",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/26640CD48E6D88A5329F6E5CB62BB811B13784CD4FA31D29856593EFC1DDBD89",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "partior",
+   "to": "gl1",
+   "label": "self-attestation against the GL1 MI Toolkit, verified by CertiK for Architecture and Resiliency in the same round as XRPLF (CertiK release, Nov 18 2026); not certification or endorsement by GL1 or MAS",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://financefeeds.com/certik-verifies-gl1-network-operator-self-attestations/",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
+  },
+  {
+   "from": "certik",
+   "to": "partior",
+   "label": "scope: Architecture and Resiliency only, same verification round as XRPLF (CertiK release, Nov 18 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://financefeeds.com/certik-verifies-gl1-network-operator-self-attestations/",
+   "side": "neutral",
+   "added": "2026-11-18T10:36:43-05:00"
   }
  ]
 }
