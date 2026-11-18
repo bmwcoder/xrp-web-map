@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T06:17:26-05:00",
+  "updated": "2026-11-18T08:35:58-05:00",
   "version": 3
  },
  "nodes": [
@@ -32109,6 +32109,31 @@
     "https://xrpscan.com/account/rDGJAj8DFMQsqGbiB4F2PhfxezrbpW2Mnh"
    ],
    "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "id": "gl1",
+   "label": "Global Layer One (GL1)",
+   "type": "community",
+   "handle": "",
+   "summary": "Multilateral initiative of global financial institutions and policymakers on compatible tokenised-asset market infrastructures; launched by Singapore's central bank (MAS) and now described by @XRP as industry-led, founded by HSBC, Kinexys by J.P. Morgan, MUFG, Societe Generale-FORGE and Standard Chartered. Publishes the GL1 Market Infrastructure (MI) Toolkit (ten principles, built on CPMI-IOSCO PFMI, DASCP and GBBC RMF).",
+   "grade": "B",
+   "sources": [
+    "https://pages.xrpl.foundation/xrp-ledger-gl1/",
+    "https://x.com/XRP/status/2123042862002577853"
+   ],
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "id": "certik",
+   "label": "CertiK",
+   "type": "company",
+   "handle": "",
+   "summary": "Blockchain security firm. Issued the independent attestation report (dated Nov 13, 2026) on XRPLF's GL1 MI Toolkit self-attestation for XRPL, covering the Architecture and Resiliency principles (per XRPLF's Nov 18, 2026 release). CertiK is a separate company from the Shentu (CTK) chain.",
+   "grade": "A",
+   "sources": [
+    "https://pages.xrpl.foundation/xrp-ledger-gl1/"
+   ],
+   "added": "2026-11-18T08:32:59-05:00"
   }
  ],
  "edges": [
@@ -68082,12 +68107,12 @@
   {
    "from": "clearpool",
    "to": "amd-lending",
-   "label": "launch gated on XLS-66 Lending Protocol activation (not live, Sep 2026)",
+   "label": "launch gated on XLS-66 Lending Protocol activation; pending (not yet enabled), LendingProtocol 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (XRPScan amendments API)",
    "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://xrpbreadcrumbs.com/institutions/xrp-stack-live-versus-waiting/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -76739,7 +76764,7 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol pending (not yet enabled), 23 yes votes / threshold 28 / 35 validators as of 2026-11-18 01:34 ET (introduced rippled 3.1.0; XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (introduced rippled 3.1.0; XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -76750,7 +76775,7 @@
   {
    "from": "amd-vault",
    "to": "xrpl",
-   "label": "mainnet status: SingleAssetVault pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 01:34 ET (rippled 3.1.0; XRPScan amendments API)",
+   "label": "mainnet status: SingleAssetVault pending (not yet enabled), 25 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (rippled 3.1.0; XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -88520,12 +88545,12 @@
   {
    "from": "clearpool",
    "to": "xrpl",
-   "label": "XRPL RLUSD credit vault is still Devnet-only, pending activation of SingleAssetVault (24 yes votes / threshold 28 / 35 validators) and LendingProtocolV1_1 (23 / 28 / 35), as of 2026-11-18 01:34 ET (XRPScan amendments API)",
+   "label": "XRPL RLUSD credit vault is still Devnet-only, pending activation of SingleAssetVault (25 yes votes / threshold 28 / 35 validators) and LendingProtocolV1_1 (24 / 28 / 35), as of 2026-11-18 07:27 ET (XRPScan amendments API)",
    "grade": "A",
    "strength": 3,
    "key": false,
    "source": "https://api.xrpscan.com/api/v1/amendments",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T00:59:43-04:00"
   },
   {
@@ -96418,7 +96443,7 @@
   {
    "from": "amd-lending-v1-1",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocolV1_1 pending (not yet enabled), 23 yes votes / threshold 28 / 35 validators as of 2026-11-18 01:34 ET (rippled 3.4.0; XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocolV1_1 pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (rippled 3.4.0; XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -106314,6 +106339,39 @@
    "source": "https://xrpscan.com/tx/21D2D2541CCEF15EE1DE0C5140F204A932DD7E060DDF6BB6441ADC08C46464CB",
    "side": "neutral",
    "added": "2026-11-18T04:28:51-05:00"
+  },
+  {
+   "from": "partior",
+   "to": "mas",
+   "label": "technology provider for Project Simbolon (Nov 16 2026), the MAS–Deutsche Bundesbank proof of concept with DBS and Deutsche Bank that settled EUR/SGD wholesale-CBDC payment-versus-payment across two central bank test ledgers using zero-knowledge proofs; XRPL not named",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.bundesbank.de/resource/blob/1016066/3a4055ee775460730e0657ccd6094be5/472B63F073F071307366337C94F8C870/2026-11-16-mas-anlage-data.pdf",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "from": "xrplf",
+   "to": "gl1",
+   "label": "self-attestation against GL1 toolkit; not certification or endorsement by GL1, MAS or any institution (per XRPLF page)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://pages.xrpl.foundation/xrp-ledger-gl1/",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
+  },
+  {
+   "from": "certik",
+   "to": "xrplf",
+   "label": "scope: Architecture and Resiliency only, report Nov 13",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://pages.xrpl.foundation/xrp-ledger-gl1/",
+   "side": "neutral",
+   "added": "2026-11-18T08:32:59-05:00"
   }
  ]
 }
