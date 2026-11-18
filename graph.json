@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T14:37:39-05:00",
+  "updated": "2026-11-18T18:30:01-05:00",
   "version": 3
  },
  "nodes": [
@@ -32202,6 +32202,19 @@
     "https://www.developerreport.com/api/charts/dev_mau/xrp"
    ],
    "added": "2026-11-18T14:34:34-05:00"
+  },
+  {
+   "id": "stifel",
+   "label": "Stifel Financial Corp",
+   "type": "company",
+   "handle": "",
+   "summary": "St. Louis-based financial services holding company (brokerage, investment banking, Stifel Bank); SEC 13F filer CIK 720672. Its Q2 and Q3 2026 13F-HR information tables list small Bitwise XRP ETF positions (31,967 SH at 6/30/2026, 33,995 SH at 9/30/2026).",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000720672&type=13F-HR",
+    "https://www.sec.gov/Archives/edgar/data/720672/000072067226000017/20261111_125827_13FReport.xml"
+   ],
+   "added": "2026-11-18T18:26:46-05:00"
   }
  ],
  "edges": [
@@ -106638,6 +106651,149 @@
    "source": "https://api.github.com/repos/XRPLF/rippled/stats/contributors",
    "side": "supports",
    "added": "2026-11-18T14:34:34-05:00"
+  },
+  {
+   "from": "stifel",
+   "to": "bitwise",
+   "label": "Stifel Financial Corp 13F-HR as of 2026-09-30, CUSIP 09174F107 Bitwise XRP ETF: 33,995 SH, $565,336 (2 rows: 31,770 + 2,225); Q2 (6/30) 31,967 SH, so +2,028 SH, not a new holder. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/720672/000072067226000017/20261111_125827_13FReport.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "jane-street",
+   "to": "bitwise",
+   "label": "Jane Street Group LLC 13F-HR as of 2026-09-30, CUSIP 09174F107 Bitwise XRP ETF: 733,472 SH, $12,197,639 (2 rows); Call 38,500 sh, $640,255; Put 13,700 sh, $227,831. Q2 (6/30) 1,205,067 SH, Call 15,100, no Put, so a cut of 471,595 SH; market-maker inventory, no rail inference. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1595888/000159588826000162/q3-2026-13f-hr.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "jane-street",
+   "to": "gxrp",
+   "label": "Jane Street Group LLC 13F-HR as of 2026-09-30, CUSIP 38965L106 Grayscale XRP ETF: 0 SH (no row) vs 45,891 SH ($929,293) at Q2 (6/30), an exit. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1595888/000159588826000162/q3-2026-13f-hr.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "jane-street",
+   "to": "xrpc",
+   "label": "Jane Street Group LLC 13F-HR as of 2026-09-30, CUSIP 13723M100 Canary XRP ETF: 198,266 SH, $3,126,655; Call 822,200 sh, $12,966,094; Put 802,400 sh, $12,653,848. Q2 (6/30) 30,205 SH, Call 732,500, Put 732,700, so +168,061 SH. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1595888/000159588826000162/q3-2026-13f-hr.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "susquehanna",
+   "to": "bitwise",
+   "label": "Susquehanna International Group 13F-HR as of 2026-09-30, CUSIP 09174F107 Bitwise XRP ETF: 878,786 SH, $14,614,211; Call 204,200 sh, $3,395,846; Put 208,400 sh, $3,465,692. Q2 (6/30) 53,116 SH, no options, so +825,670 SH. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1446194/000144619426000009/file.XML",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "susquehanna",
+   "to": "gxrp",
+   "label": "Susquehanna International Group 13F-HR as of 2026-09-30, CUSIP 38965L106 Grayscale XRP ETF: 199,374 SH, $5,741,971; Call 7,000 sh, $201,600. Q2 (6/30) no row, so a new position. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1446194/000144619426000009/file.XML",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "susquehanna",
+   "to": "xrpc",
+   "label": "Susquehanna International Group 13F-HR as of 2026-09-30, CUSIP 13723M100 Canary XRP ETF: 300,821 SH, $4,743,947; Call 176,300 sh, $2,780,251. Q2 (6/30) no SH row, Call 61,300, so new SH position. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1446194/000144619426000009/file.XML",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "citadel-advisors",
+   "to": "bitwise",
+   "label": "Citadel Advisors LLC 13F-HR as of 2026-09-30, CUSIP 09174F107 Bitwise XRP ETF: no SH row; Call 186,600 sh, $3,103,158; Put 42,100 sh, $700,123. Q2 (6/30) no SH, Call 46,200, Put 19,100. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926128228/infotable.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "citadel-advisors",
+   "to": "gxrp",
+   "label": "Citadel Advisors LLC 13F-HR as of 2026-09-30, CUSIP 38965L106 Grayscale XRP ETF: no SH row; Put 8,500 sh, $244,800. Q2 (6/30) no row, so a new put position. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926128228/infotable.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "citadel-advisors",
+   "to": "xrpc",
+   "label": "Citadel Advisors LLC 13F-HR as of 2026-09-30, CUSIP 13723M100 Canary XRP ETF: 43,902 SH, $692,335; Call 91,200 sh, $1,438,224. Q2 (6/30) no SH, Call 79,500, so new SH position. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1423053/000110465926128228/infotable.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "jpm",
+   "to": "bitwise",
+   "label": "JPMorgan Chase & Co 13F-HR as of 2026-09-30, CUSIP 09174F107 Bitwise XRP ETF: 539 SH, $8,996 (discretion OTR). Q2 (6/30) 113 SH, $1,356, so +426 SH; client-sized. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000404/Information_Table_09.30.2026.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "jpm",
+   "to": "gxrp",
+   "label": "JPMorgan Chase & Co 13F-HR as of 2026-09-30, CUSIP 38965L106 Grayscale XRP ETF: 0 SH (no row) vs 181 SH ($3,763) at Q2 (6/30), an exit; client-sized. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/19617/000001961726000404/Information_Table_09.30.2026.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "morgan-stanley",
+   "to": "bitwise",
+   "label": "Morgan Stanley 13F-HR as of 2026-09-30, CUSIP 09174F107 Bitwise XRP ETF: 67 SH, $1,114. Q2 (6/30) 67 SH, $781, so unchanged shares; client-sized. 13F long positions only; may be client, hedging or market-making inventory, not a directional bet.",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000309/US_13F-408-20260930.xml",
+   "side": "neutral",
+   "added": "2026-11-18T18:26:46-05:00"
   }
  ]
 }
