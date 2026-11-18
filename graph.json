@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-17T20:29:15-05:00",
+  "updated": "2026-11-18T02:33:38-05:00",
   "version": 3
  },
  "nodes": [
@@ -68021,7 +68021,7 @@
   {
    "from": "clearpool",
    "to": "rlusd",
-   "label": "planned RLUSD institutional credit on XRPL with Ripple & Cicada (2026)",
+   "label": "planned RLUSD institutional credit on XRPL with Ripple & Cicada (2026); conditional on mainnet activation of SingleAssetVault and the Lending Protocol (pending as of Nov 18 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -76689,23 +76689,23 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol not enabled as of 2026-11-17 19:35 ET; 23 of 35 validators voting yes vs a threshold of 28 (introduced rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol pending (not yet enabled), 23 yes votes / threshold 28 / 35 validators as of 2026-11-18 01:34 ET (introduced rippled 3.1.0; XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://api.xrpscan.com/api/v1/amendments",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
    "from": "amd-vault",
    "to": "xrpl",
-   "label": "mainnet status: SingleAssetVault: not enabled as of 2026-10-21 07:45 ET; 20 yes-votes vs 25 needed (rippled 3.1.0) (XRPScan amendments API)",
+   "label": "mainnet status: SingleAssetVault pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 01:34 ET (rippled 3.1.0; XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://api.xrpscan.com/api/v1/amendments",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -88470,7 +88470,7 @@
   {
    "from": "clearpool",
    "to": "xrpl",
-   "label": "XRPL RLUSD credit vault is still Devnet-only. It needs SingleAssetVault (19 of 32 validators voting yes) and LendingProtocolV1_1 (17 of 32), both short of the 25 needed and not enabled (XRPScan amendments, re-checked Oct 21 2026 20:20 ET)",
+   "label": "XRPL RLUSD credit vault is still Devnet-only, pending activation of SingleAssetVault (24 yes votes / threshold 28 / 35 validators) and LendingProtocolV1_1 (23 / 28 / 35), as of 2026-11-18 01:34 ET (XRPScan amendments API)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -96368,7 +96368,7 @@
   {
    "from": "amd-lending-v1-1",
    "to": "xrpl",
-   "label": "mainnet status as of 2026-10-20: open for voting, 18/32 yes vs 25 needed",
+   "label": "mainnet status: LendingProtocolV1_1 pending (not yet enabled), 23 yes votes / threshold 28 / 35 validators as of 2026-11-18 01:34 ET (rippled 3.4.0; XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -106187,6 +106187,28 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026073871/xrpn-20260930.htm",
    "side": "neutral",
    "added": "2026-11-17T14:31:57-05:00"
+  },
+  {
+   "from": "hkma",
+   "to": "swift-ledger",
+   "label": "HKMA (Nov 16 2026) widens its Swift collaboration to explore interoperability between Swift's ledger and Project Ensemble's settlement layer for cross-border payments with multi-currency tokenised deposits, with BOCHK, Standard Chartered (HK) and HSBC; exploratory; the release names no Ripple, XRP or XRPL",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-4/",
+   "side": "neutral",
+   "added": "2026-11-18T02:32:26-05:00"
+  },
+  {
+   "from": "bochk",
+   "to": "swift-ledger",
+   "label": "named in HKMA's Nov 16 2026 release among banks exploring Swift ledger and Project Ensemble interoperability with tokenised deposits (exploratory)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.hkma.gov.hk/eng/news-and-media/press-releases/2026/11/20261116-4/",
+   "side": "neutral",
+   "added": "2026-11-18T02:32:26-05:00"
   }
  ]
 }
