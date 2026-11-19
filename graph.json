@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-19T10:36:15-05:00",
+  "updated": "2026-11-19T15:08:39-05:00",
   "version": 3
  },
  "nodes": [
@@ -8354,12 +8354,16 @@
    "label": "Swift blockchain ledger",
    "type": "event",
    "handle": "",
-   "summary": "Shared ledger announced 2025-09-29 (prototype by Consensys; 30+ design banks incl. BofA, JPM, Citi, HSBC, Santander, SocGen-FORGE, Deutsche, Bradesco, Absa, BNY, StanChart). Ready for use 2026-07-09 with 17 pilot banks moving tokenised deposits 24/7; final settlement via existing systems. Reported to run on Consensys Linea tech (B).",
+   "summary": "Shared ledger announced 2025-09-29 (prototype by Consensys; 30+ design banks incl. BofA, JPM, Citi, HSBC, Santander, SocGen-FORGE, Deutsche, Bradesco, Absa, BNY, StanChart). Ready for use 2026-07-09 with 17 pilot banks moving tokenised deposits 24/7; final settlement via existing systems. Reported to run on Consensys Linea tech (B), but Swift's own MVP update (Mar 30 2026) says it uses an EVM-compatible architecture based on Hyperledger Besu (A). Swift, Sep 28 2026: most of the 17 first-mover banks have used it for 24/7 payments, in EUR, GBP, HKD, SGD and USD (A). Swift's Sibos recap, Oct 22 2026: 17 banks piloting live cross-border transactions with tokenised deposits (A).",
    "grade": "A",
    "sources": [
     "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance",
     "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
-    "https://www.thebigwhale.io/article/exclusive-swift-launches-on-linea-to-test-its-on-chain-model"
+    "https://www.thebigwhale.io/article/exclusive-swift-launches-on-linea-to-test-its-on-chain-model",
+    "https://www.swift.com/insights/news/swifts-blockchain-based-shared-ledger-progresses-mvp-implementation",
+    "https://www.swift.com/insights/news/swift-platform-transforms-cross-border-payments-experience-across-existing-rails-and-digital-value",
+    "https://www.swift.com/insights/news/four-reflections-swift-sibos-2026",
+    "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -10603,14 +10607,15 @@
    "short": "Evernorth wallets",
    "type": "asset",
    "handle": "",
-   "summary": "13 BitGo-activated 2-of-3 multisig XRPL accounts with the master key disabled. Together they hold 473,276,566 XRP (live, ledger 107,774,862, Oct 19, 2026, 22:4x ET), which matches the 424B3's 'at least 473,276,430 XRP'. XRPScan labels only two of them 'Evernorth' (rsT3yYMk… 45.62M, rKXXrAgp… 42.26M). Seven more are linked by payments (rKhjV48G…, rGJBNGkD…, rJX1qoSG…, rJuyHPDF…, rUgQciCP…, rPhQdyEa…, rGy4zJtG…). Three plus a staging wallet (rfiEXPM2…, r3tTJV8r…, rBZWJZpV…, rNtaHck1…) are linked only by matching the purchased tranche's amount (per xrp-insights). The XRP has not moved since Nov 2025.",
+   "summary": "13 BitGo-activated 2-of-3 multisig XRPL accounts with the master key disabled. Together they hold 473,276,566 XRP (live, ledger 107,774,862, Oct 19, 2026, 22:4x ET), which matches the 424B3's 'at least 473,276,430 XRP'. XRPScan labels only two of them 'Evernorth' (rsT3yYMk… 45.62M, rKXXrAgp… 42.26M). Seven more are linked by payments (rKhjV48G…, rGJBNGkD…, rJX1qoSG…, rJuyHPDF…, rUgQciCP…, rPhQdyEa…, rGy4zJtG…). Three plus a staging wallet (rfiEXPM2…, r3tTJV8r…, rBZWJZpV…, rNtaHck1…) are linked only by matching the purchased tranche's amount (per xrp-insights). The XRP did not move from Nov 2025 until Oct 21-22 2026. Before the Oct 9 2026 closing the set held XRP of two legal owners (derived, by exact amounts; the filings give no addresses): Pathfinder, then a wholly owned Ripple subsidiary (Ripple's 126,791,458 contributed XRP, via rsT3yYMk… tag 4 to rKXXrAgp…, which sent 42,263,817 each to rPhQdyEa… and rGy4zJtG… on 2025-11-26), and Pubco-named escrow wallets held for the Series C sponsor (211,319,096), the Ripple-affiliated subscriber (50,000,000) and advance subscribers (600,000), all received at other tags of rsT3yYMk… (Evernorth 8-K/A Ex 99.1). After closing, Evernorth transferred 346,484,972 XRP to Pathfinder (Ex 99.1, Note 9).",
    "why": "On-ledger check of Evernorth's 13 BitGo wallets, holding about 473.28M XRP, matching its filing; the traced wallets show no outgoing transactions since the merger.",
    "grade": "B",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rsT3yYMkuicxW1hYsy787mg5XHhkz2uQRk",
     "https://api.xrpscan.com/api/v1/account/rKhjV48GdbgxAAfSvusqGNktGwAxnzzXpv",
     "https://xrp-insights.com/xrp-radar/evernorth",
-    "https://www.sec.gov/Archives/edgar/data/2092592/000119312526371512/d944435d424b3.htm"
+    "https://www.sec.gov/Archives/edgar/data/2092592/000119312526371512/d944435d424b3.htm",
+    "https://www.sec.gov/Archives/edgar/data/2092592/000162828026074319/pf20260930-8xka.htm"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -31580,10 +31585,10 @@
   },
   {
    "id": "w-ryb7nesz",
-   "label": "ryB7NESZ… XRPL account, funded by suspected hack wallet rK21t6nG… (XRPScan: source reported as hacked; ownership unverified)",
+   "label": "ryB7NESZ… XRPL account, funded by rK21t6nG… (XRPScan alone flags it as reported hacked; single source; ownership unverified)",
    "type": "event",
    "handle": "",
-   "summary": "ryB7NESZcttqzRioiD5L6Kf5tFL87ktmx; activated Nov 1, 2026 22:47:11 ET (ledger 108058971) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, a suspected hack wallet (XRPScan: reported as hacked; ownership unverified). It then received 30,000,000 XRP at 22:52:41 ET (156CB85F…) and 10,000,000 XRP at 22:57:20 ET (7D6CC61F…). Balance 40,001,000 XRP at validated ledger 108059514 (Nov 1, 2026 23:23 ET), no trust lines, never signed a transaction. This account itself has no XRPScan advisory or label. Ownership unconfirmed.",
+   "summary": "ryB7NESZcttqzRioiD5L6Kf5tFL87ktmx; activated Nov 1, 2026 22:47:11 ET (ledger 108058971) by a 1,000 XRP Payment with no DestinationTag from rK21t6nGLy4MNDqhvy3pGwcLFy25qgfzMx, which XRPScan flags as reported hacked (single source so far; ownership unverified). Inbound large payments (8, total 233,460,891 XRP): rK21t6nG… 40,001,000 XRP in 3 Payments on Nov 1 (1,000 + 30,000,000 + 10,000,000), then 193,459,891 XRP from five other accounts, Nov 6–10 ET (rKxwzjpZ… 40,000,990; rhfA8Qzp… 40,000,995; rsNoNkb1… 40,000,995; rhXtRtpf… 40,000,996; raoMrxbM… 33,455,915). Outbound: 1,313 XRP Payments totalling 233,461,880 XRP to 100 distinct destination accounts, Nov 5 09:56 ET – Nov 12 13:06 ET; these are destinations only, not owners. Also 2,397 small inbound Payments (each under 1,000 XRP, 996 XRP combined). Balance 4.536207 XRP (Sequence 108060285) at validated ledger 108438467 on Nov 19, 2026 14:2x ET, no activity since Nov 12. Ownership unconfirmed; the 'hack' wording rests on XRPScan alone until a second source appears.",
    "grade": "A",
    "sources": [
     "https://xrpscan.com/account/ryB7NESZcttqzRioiD5L6Kf5tFL87ktmx",
@@ -44156,7 +44161,7 @@
   {
    "from": "swift-ledger",
    "to": "linea",
-   "label": "reportedly built on Linea",
+   "label": "reportedly built on Linea (The Big Whale); Swift's own Mar 30 2026 MVP update names Hyperledger Besu, not Linea",
    "grade": "B",
    "strength": 3,
    "key": false,
@@ -44178,33 +44183,33 @@
   {
    "from": "swift-ledger",
    "to": "xrpl",
-   "label": "XRPL not chosen (Consensys/Linea picked)",
+   "label": "XRPL not named; Swift says the ledger MVP uses an EVM-compatible architecture based on Hyperledger Besu (Mar 30 2026); Consensys built the Sep 2025 conceptual prototype",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swift-add-blockchain-based-ledger-its-infrastructure-stack-groundbreaking-move-accelerate-and-scale-benefits-digital-finance",
+   "source": "https://www.swift.com/insights/news/swifts-blockchain-based-shared-ledger-progresses-mvp-implementation",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "bny",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "stanchart",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -44684,11 +44689,11 @@
   {
    "from": "wellsfargo",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -45014,11 +45019,11 @@
   {
    "from": "mufg",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -45036,11 +45041,11 @@
   {
    "from": "hsbc",
    "to": "swift-ledger",
-   "label": "connects Tokenised Deposit Service; pilot bank (2026-07-09)",
+   "label": "connects Tokenised Deposit Service; piloted initial live transactions on the ledger (Swift ledger page)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -45058,11 +45063,11 @@
   {
    "from": "citi",
    "to": "swift-ledger",
-   "label": "pilot bank; moved tokenised deposits (2026)",
+   "label": "piloted initial live transactions on the ledger; moved tokenised deposits (Swift ledger page, 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -72481,7 +72486,7 @@
   {
    "from": "pathfinder",
    "to": "w-evernorth-set",
-   "label": "Ripple's 126,791,446 XRP (via Pathfinder contribution) landed in Evernorth wallet rsT3yYMk… on 2025-10-23/24",
+   "label": "Ripple's 126,791,458 XRP contribution to Pathfinder (then a wholly owned Ripple subsidiary; Evernorth 8-K/A Ex 99.1) arrived as 12 + 126,791,446 XRP at destination tag 4 of the shared BitGo intake account rsT3yYMk… (XRPScan 'Evernorth 1') on 2025-10-23/24, next to Pubco-escrow XRP at other tags; moved on to rKXXrAgp… on 2025-11-06",
    "grade": "A",
    "strength": 4,
    "key": false,
@@ -74311,7 +74316,7 @@
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.firmenpresse.de/pressrelease275023/opencoin-extends-ripple-network-to-include-all-bitcoin-merchants-and-users.html",
+   "source": "https://finance.yahoo.com/news/opencoin-extends-ripple-network-bitcoin-120500664.html",
    "side": "neutral",
    "added": "2026-10-19T23:31:25-04:00"
   },
@@ -99761,88 +99766,88 @@
   {
    "from": "bnp",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "dbs",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "nbad",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "firstrand",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "itau",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "lloyds",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "ubs",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
   {
    "from": "uob",
    "to": "swift-ledger",
-   "label": "pilot bank (2026-07-09)",
+   "label": "piloted initial live transactions on the ledger (Swift ledger page; named a pilot bank Jul 9 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+   "source": "https://www.swift.com/payments/payment-innovation/blockchain-based-ledger",
    "side": "neutral",
    "added": "2026-10-22T10:26:53-04:00"
   },
@@ -105954,7 +105959,7 @@
   {
    "from": "fdic",
    "to": "old-glory-bank",
-   "label": "PCA directives: Significantly Undercapitalized (2.69% leverage, Aug 6 2026), then Critically Undercapitalized (1.91%, Sep 11 2026); May 2024 Consent Order; restricts high-risk activities, approval needed for material transactions (constrains the planned XRP feature; later reported adequately capitalized)",
+   "label": "PCA directives: Significantly Undercapitalized (2.69% leverage, Aug 6 2026), then Critically Undercapitalized (1.91%, Sep 11 2026); May 2024 Consent Order; restricts high-risk activities, approval needed for material transactions (constrains the planned XRP feature)",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -107076,7 +107081,7 @@
   {
    "from": "ripple",
    "to": "pathfinder",
-   "label": "related-party revolving credit facility: $7.0M from Nov 6 2025, raised to $10.0M on Oct 7 2026, $9.7M drawn by Oct 7, repayable within five business days of closing (Pathfinder MD&A, Evernorth 8-K/A filed Nov 16 2026)",
+   "label": "unsecured related-party revolving credit facility at 3.81% simple interest: $7.0M from Nov 6 2025, raised to $10.0M on Oct 7 2026, $9.7M drawn by Oct 7, repayable within five business days of closing (Pathfinder MD&A, Evernorth 8-K/A filed Nov 16 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -107138,6 +107143,39 @@
    "source": "https://github.com/XRPLF/XRPL-LendingReference",
    "side": "supports",
    "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "from": "w3c",
+   "to": "xrp",
+   "label": "W3C Payment Request API (Candidate Recommendation Draft, 17 Nov 2026) cites XRP, with XBT, only as an example of a well-formed currency code outside the official ISO 4217 list that browsers will accept; a format note, not an endorsement or a listed payment method",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.w3.org/TR/payment-request/",
+   "side": "neutral",
+   "added": "2026-11-19T14:48:29-05:00"
+  },
+  {
+   "from": "fdic",
+   "to": "old-glory-bank",
+   "label": "amended PCA directive FDIC-26-0083PCAS (dated Oct 27 2026; FDIC published it Oct 30) reflects the bank's 'adequately capitalized' condition as of Sep 30 2026; FDIC prior approval for material transactions stays until it is adequately capitalized on average for four consecutive quarters",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://business.cch.com/bfld/Old-Glory-Bank-Amended-Supervisory-Prompt-Corrective-Action-Directive-10272026110326.pdf",
+   "side": "neutral",
+   "added": "2026-11-19T14:48:29-05:00"
+  },
+  {
+   "from": "swift-ledger",
+   "to": "hyperledger-besu",
+   "label": "ledger MVP built on an EVM-compatible architecture based on Hyperledger Besu (Swift, Mar 30 2026); XRPL not named",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.swift.com/insights/news/swifts-blockchain-based-shared-ledger-progresses-mvp-implementation",
+   "side": "contradicts",
+   "added": "2026-11-19T14:48:29-05:00"
   }
  ]
 }
