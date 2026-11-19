@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-19T15:08:39-05:00",
+  "updated": "2026-11-19T18:30:00-05:00",
   "version": 3
  },
  "nodes": [
@@ -12578,10 +12578,11 @@
    "label": "Unloq",
    "type": "company",
    "handle": "",
-   "summary": "Trade-finance platform; partnered with Ripple under MAS BLOOM (2026-03-25).",
+   "summary": "Trade-finance platform (Unloq SC+); partnered with Ripple under MAS BLOOM (2026-03-25, stated on Unloq's own LinkedIn and in Ripple's release); co-listed with Ripple and Schroders on MAS's BLOOM use-case list (Nov 19, 2026): tokenised cross-border receivables settled in stablecoins.",
    "grade": "A",
    "sources": [
-    "https://ripple.com/press-releases/page/3/"
+    "https://ripple.com/press-releases/page/3/",
+    "https://www.linkedin.com/posts/unloqglobal_tradefinance-fintech-blockchain-activity-7442495637331402752-nbQS"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -51498,11 +51499,11 @@
   {
    "from": "unloq",
    "to": "ripple",
-   "label": "MAS BLOOM trade-finance partner (2026)",
+   "label": "MAS BLOOM trade-finance partner (2026): Unloq's own post (Mar 25, 2026) says the pilot runs on Unloq SC+ with Ripple's XRP Ledger and RLUSD; MAS's BLOOM use-case list (Nov 19, 2026) names Ripple, Schroders and Unloq",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-joins-monetary-authority-of-singapore-s-bloom-initiative-and-partners-with-unloq-to-advance-programmable-settlement-infrastructure-in-trade-finance/",
+   "source": "https://www.linkedin.com/posts/unloqglobal_tradefinance-fintech-blockchain-activity-7442495637331402752-nbQS",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -107176,6 +107177,17 @@
    "source": "https://www.swift.com/insights/news/swifts-blockchain-based-shared-ledger-progresses-mvp-implementation",
    "side": "contradicts",
    "added": "2026-11-19T14:48:29-05:00"
+  },
+  {
+   "from": "schroders",
+   "to": "ripple",
+   "label": "co-listed with Ripple and Unloq on one MAS BLOOM industry use case: tokenised cross-border receivables settled in stablecoins (MAS BLOOM use-case list, published at SFF Nov 19, 2026); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "supports",
+   "added": "2026-11-19T18:27:02-05:00"
   }
  ]
 }
