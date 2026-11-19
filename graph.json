@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T18:30:01-05:00",
+  "updated": "2026-11-18T20:34:03-05:00",
   "version": 3
  },
  "nodes": [
@@ -32215,6 +32215,21 @@
     "https://www.sec.gov/Archives/edgar/data/720672/000072067226000017/20261111_125827_13FReport.xml"
    ],
    "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "id": "straid",
+   "label": "Straid",
+   "type": "builder",
+   "handle": "",
+   "summary": "Beta lending service on XRPL mainnet (straid.xyz) offering fixed 7-day RLUSD loans against XRP locked in a borrower-signed conditional escrow: up to 40% LTV, called at 55%, 7.5% a year, manual operations, no third-party audit (own docs, read Nov 18 2026). Its site reports 40 loans repaid in full (self-reported) and names Soil as first partner. It pitched at the Swell 2026 Demo Day at Ripple's New York office.",
+   "grade": "A",
+   "sources": [
+    "https://straid.xyz/",
+    "https://straid.xyz/docs",
+    "https://ripple.com/insights/ripple-swell-2026-recap/",
+    "https://luma.com/zpcdsbpu"
+   ],
+   "added": "2026-11-18T20:32:39-05:00"
   }
  ],
  "edges": [
@@ -106794,6 +106809,94 @@
    "source": "https://www.sec.gov/Archives/edgar/data/895421/000089542126000309/US_13F-408-20260930.xml",
    "side": "neutral",
    "added": "2026-11-18T18:26:46-05:00"
+  },
+  {
+   "from": "electric-capital",
+   "to": "xrpl",
+   "label": "Developer Report share test (derived from EC weekly series): the XRP ecosystem was 1.23% of all-crypto monthly active devs in the week of Nov 11 2026 vs 0.90% a year earlier (12-week mean 1.17% vs 1.06% for the prior 12 weeks); the share rose because the all-crypto count fell faster (41,079 to 25,135) than XRP's (370 to 310)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.developerreport.com/api/charts/dev_mau/all-crypto-ecosystems",
+   "side": "supports",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "electric-capital",
+   "to": "xrpl",
+   "label": "Developer Report peer test (derived from EC weekly series): XRP's share of XRP+Stellar+Hedera+Solana monthly active devs fell to 3.83% in the week of Nov 11 2026 from 4.22% a year earlier (12-week mean 4.26% vs 4.53% for the prior 12 weeks); Stellar (1,473 to 4,232) and Hedera (709 to 771) rose while XRP (370 to 310) and Solana (6,214 to 2,774) fell",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.developerreport.com/api/charts/dev_mau/stellar",
+   "side": "contradicts",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "rippled",
+   "to": "xrpl",
+   "label": "rippled contributors, last 12 weeks vs prior 12 (derived from GitHub contributor stats, read Nov 18 2026): 36 authors and 348 commits in the weeks of Aug 30 to Nov 15 2026 vs 43 and 495 in Jun 7 to Aug 23; still above the same window a year earlier (23 and 213)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.github.com/repos/XRPLF/rippled/stats/contributors",
+   "side": "contradicts",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "straid",
+   "to": "xrpl",
+   "label": "fixed-term RLUSD loans against XRP held in a borrower-signed XRPL escrow (beta, small limits, mainnet; own docs read Nov 18 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://straid.xyz/docs",
+   "side": "neutral",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "straid",
+   "to": "rlusd",
+   "label": "loans are paid out and repaid in RLUSD (issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De); Straid says it does not issue RLUSD (own docs, Nov 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://straid.xyz/docs",
+   "side": "neutral",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "straid",
+   "to": "soil",
+   "label": "Straid's site names Soil as its 'First partner' (read Nov 18 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://straid.xyz/",
+   "side": "neutral",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "straid",
+   "label": "Ripple's Swell 2026 recap: Straid demonstrated liquidity for XRP holders at the Demo Day held at Ripple's New York office (Nov 16 2026 post)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/insights/ripple-swell-2026-recap/",
+   "side": "neutral",
+   "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "udax",
+   "to": "straid",
+   "label": "Straid listed among the 12 startups at UDAX's Swell 2026 Demo Day (Luma event page)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://luma.com/zpcdsbpu",
+   "side": "neutral",
+   "added": "2026-11-18T20:32:39-05:00"
   }
  ]
 }
