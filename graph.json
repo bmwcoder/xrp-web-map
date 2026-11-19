@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T22:35:28-05:00",
+  "updated": "2026-11-19T02:28:20-05:00",
   "version": 3
  },
  "nodes": [
@@ -106966,6 +106966,39 @@
    "source": "https://xrpscan.com/tx/EEF231674444B8C778E1781938234427C1483423B0D239300812BFFC8BAA471D",
    "side": "neutral",
    "added": "2026-11-18T22:34:07-05:00"
+  },
+  {
+   "from": "clio",
+   "to": "xrpl",
+   "label": "Clio (XRPL API server software) code activity held steady: 55 code changes by 9 developers in the last 12 weeks vs 55 by 8 in the 12 weeks before; the same stretch a year earlier had 117 by 8 (GitHub commit list, Aug 30-Nov 19 2026 vs Jun 7-Aug 29 2026; merge commits and bots excluded; read Nov 19 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.github.com/repos/XRPLF/clio/commits?since=2026-08-30T00:00:00Z&until=2026-11-22T00:00:00Z",
+   "side": "neutral",
+   "added": "2026-11-19T02:27:01-05:00"
+  },
+  {
+   "from": "xrpl-js",
+   "to": "xrpl",
+   "label": "xrpl.js (JavaScript toolkit for building on the XRPL) code activity rose: 25 code changes by 9 developers in the last 12 weeks vs 12 by 8 in the 12 weeks before; the same stretch a year earlier had 16 by 7; small numbers (GitHub commit list, Aug 30-Nov 19 2026 vs Jun 7-Aug 29 2026; merge commits and bots excluded; read Nov 19 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.github.com/repos/XRPLF/xrpl.js/commits?since=2026-08-30T00:00:00Z&until=2026-11-22T00:00:00Z",
+   "side": "supports",
+   "added": "2026-11-19T02:27:01-05:00"
+  },
+  {
+   "from": "xrpl-py",
+   "to": "xrpl",
+   "label": "xrpl-py (Python toolkit for building on the XRPL) code activity is small and flat: 6 code changes by 3 developers in the last 12 weeks vs 7 by 6 in the 12 weeks before; the same stretch a year earlier had 7 by 3 (GitHub commit list, Aug 30-Nov 19 2026 vs Jun 7-Aug 29 2026; merge commits and bots excluded; read Nov 19 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.github.com/repos/XRPLF/xrpl-py/commits?since=2026-08-30T00:00:00Z&until=2026-11-22T00:00:00Z",
+   "side": "neutral",
+   "added": "2026-11-19T02:27:01-05:00"
   }
  ]
 }
