@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-19T06:16:27-05:00",
+  "updated": "2026-11-19T08:31:01-05:00",
   "version": 3
  },
  "nodes": [
@@ -32244,6 +32244,18 @@
     "https://xrpscan.com/tx/3BE60111B2CDAF698628449CBAE71A478C65E867E57794B9CD59DA90C672ECFB"
    ],
    "added": "2026-11-18T22:34:07-05:00"
+  },
+  {
+   "id": "roundhill",
+   "label": "Roundhill Investments (Roundhill ETF Trust)",
+   "type": "company",
+   "handle": "",
+   "summary": "New York ETF sponsor (Roundhill ETF Trust, SEC file 333-273052). Registered a proposed Roundhill XRP Covered Call Strategy ETF in Oct 2025 (post-effective amendment no. 191, filed Oct 17 2025) and filed Form AW on Nov 18 2026 to withdraw it, stating no shares were sold.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/1976517/000139834426020270/fp0101810-3_aw.htm"
+   ],
+   "added": "2026-11-19T08:29:24-05:00"
   }
  ],
  "edges": [
@@ -106999,6 +107011,39 @@
    "source": "https://api.github.com/repos/XRPLF/xrpl-py/commits?since=2026-08-30T00:00:00Z&until=2026-11-22T00:00:00Z",
    "side": "neutral",
    "added": "2026-11-19T02:27:01-05:00"
+  },
+  {
+   "from": "roundhill",
+   "to": "xrp",
+   "label": "withdrew its proposed XRP Covered Call Strategy ETF before launch (Form AW, Nov 18 2026; registered Oct 17 2025; no shares sold)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1976517/000139834426020270/fp0101810-3_aw.htm",
+   "side": "contradicts",
+   "added": "2026-11-19T08:29:24-05:00"
+  },
+  {
+   "from": "pathfinder",
+   "to": "xrp",
+   "label": "held about 126.8M XRP at Sep 30 2026, all from Ripple's contribution, booked at Ripple's historical carrying value of zero (common control) (Pathfinder MD&A, Evernorth 8-K/A filed Nov 16 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026074319/pf20260930-mda.htm",
+   "side": "neutral",
+   "added": "2026-11-19T08:29:24-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "pathfinder",
+   "label": "related-party revolving credit facility: $7.0M from Nov 6 2025, raised to $10.0M on Oct 7 2026, $9.7M drawn by Oct 7, repayable within five business days of closing (Pathfinder MD&A, Evernorth 8-K/A filed Nov 16 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026074319/pf20260930-mda.htm",
+   "side": "neutral",
+   "added": "2026-11-19T08:29:24-05:00"
   }
  ]
 }
