@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-18T20:34:03-05:00",
+  "updated": "2026-11-18T22:35:28-05:00",
   "version": 3
  },
  "nodes": [
@@ -21809,10 +21809,10 @@
   },
   {
    "id": "w-rbnc-desk",
-   "label": "rBNCyNEw… unlabelled XRP/RLUSD cluster wallet (owner unconfirmed)",
+   "label": "rBNCyNEw… unlabelled XRP/RLUSD wallet (owner unconfirmed)",
    "type": "asset",
    "handle": "",
-   "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Funded from Ripple-labelled wallets (Ripple 50 → raRVLN1i… → rBNCyNEw, 748.1M XRP); owner unconfirmed, and the funding link is not evidence of who controls it. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange looks like a market-maker or OTC liquidity desk, not a plain Binance deposit. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C. Follow-up Oct 20, 2026 ~02:40 ET: XRPScan API shows no accountName, username or domain; Bithomp shows 'No username'. Destination tag 2695199675 appears in no published market-maker or exchange deposit list found. Ripple's XRP Markets reports disclose no wallet addresses (they only mention leases to market makers). Biggest unlabeled counterparty rLoD9U2g… (2019) also cycles XRP with Coinbase, Crypto.com, Kraken and Bitstamp under per-venue tags, which again looks like a trading desk. Still grade C.",
+   "summary": "rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR. Funded from Ripple-labelled wallets (Ripple 50 → raRVLN1i… → rBNCyNEw, 748.1M XRP); owner unconfirmed, and the funding link is not evidence of who controls it. Created 2025-07-30 by rHPGFxtg…, an account Binance 10 created in 2022. No XRPScan or Bithomp label; whale trackers (RiveX, xrpdotfish, XRPWhaleTracker) list it as 'Unknown'. XRP balance ~6.06M on Oct 2, 2026. From May 1 to Oct 20, 2026 (UTC), 7,929 payments plus Checks and Escrows. In: 737M RLUSD from Binance 6 (rDAE53Vf), 680M RLUSD from unlabeled rLoD9U2g… (created 2019), 634M XRP from raRVLN1i… (Ripple 50 sub-wallet), 141M RLUSD from 'RLUSD 1', 65M XRP from Bitso 3. Out: 770M RLUSD and 676M XRP to Binance 11, 848M RLUSD to unlabeled rMrjxnZG…, 137M XRP to Bybit 3. Inbound payments use one destination tag (2695199675). The pattern of taking Ripple XRP and RLUSD, cycling both assets with Binance in both directions, and taking XRP from an ODL exchange could fit a market-maker or OTC liquidity desk, or an exchange-side omnibus account (its activator rHPGFxtg… shows a shared-tag omnibus pattern); the data do not show which. No exchange or market-maker disclosure names it. Owner UNCONFIRMED; any attribution is grade C. Follow-up Oct 20, 2026 ~02:40 ET: XRPScan API shows no accountName, username or domain; Bithomp shows 'No username'. Destination tag 2695199675 appears in no published market-maker or exchange deposit list found. Ripple's XRP Markets reports disclose no wallet addresses (they only mention leases to market makers). Biggest unlabeled counterparty rLoD9U2g… (2019) also cycles XRP with Coinbase, Crypto.com, Kraken and Bitstamp under per-venue tags, which again looks like a trading desk. Still grade C.",
    "grade": "C",
    "sources": [
     "https://xrpscan.com/account/rBNCyNEwpaEbGP9nqkQeYcvwYAwwKkRzTR",
@@ -28838,15 +28838,16 @@
   },
   {
    "id": "w-rdzukhg",
-   "label": "rDzukHGH… desk-linked wallet paying Binance 11 (owner unconfirmed)",
+   "label": "rDzukHGH… XRPL wallet paying Binance 11 (owner unconfirmed)",
    "type": "asset",
    "handle": "",
-   "summary": "rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz has no XRPScan label. rHPGFxtg… created it on Jan 17, 2025; that is the Binance-10-created account that also created the rBNCyNEw desk and the hub's activator. Ledger history to Oct 20, 2026 (585 tx): 233.21M XRP in (127.18M from rBNCyNEw…, 69.0M from the hub on May 13, 2026, 37.03M from rHPGFxtg…) and 178.20M out (82.05M to 'Binance 11' rNxp4h8a… in 246 payments with dest tag 280342602, May 2025–Aug 2026; 47.36M to the hub and 34.37M to rBNCyNEw… on Sep 22, 2026). Live balance 55.01M XRP. Owner unconfirmed.",
+   "summary": "rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz has no XRPScan label. rHPGFxtg… created it on Jan 17, 2025; that is the Binance-10-created account that also created rBNCyNEw… and the hub's activator. Ledger history to Oct 20, 2026 (585 tx): 233.21M XRP in (127.18M from rBNCyNEw…, 69.0M from the hub on May 13, 2026, 37.03M from rHPGFxtg…) and 178.20M out (82.05M to 'Binance 11' rNxp4h8a… in 246 payments with dest tag 280342602, May 2025–Aug 2026; 47.36M to the hub and 34.37M to rBNCyNEw… on Sep 22, 2026). Live balance 55.01M XRP. Owner unconfirmed.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz",
     "https://xrpscan.com/tx/325ACF46D165A2EE2F28A8E25255296C918878DCBA7A01AE4361FFDB36A49015",
-    "https://xrpscan.com/tx/0807857DA3FE106194327C16C0A494EBDAFB65F496132442894A9D19D36E1C73"
+    "https://xrpscan.com/tx/0807857DA3FE106194327C16C0A494EBDAFB65F496132442894A9D19D36E1C73",
+    "https://xrpscan.com/account/rDzukHGHcJRH5CqUBfo18p8ySGaciD2cyz"
    ],
    "added": "2026-10-20T12:25:42-04:00"
   },
@@ -32230,6 +32231,19 @@
     "https://luma.com/zpcdsbpu"
    ],
    "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "id": "w-rbpq7bvl1r",
+   "label": "rBPQ7bVL1R… XRPL account that passes RLUSD between raRwevcTC4…, rLoD9U2g… and rnxXa22D… (owner unconfirmed)",
+   "type": "asset",
+   "handle": "",
+   "summary": "rBPQ7bVL1RPYe3bqq5hm2uX5S5unf8eByh sent and received RLUSD in 126 payments between Oct 19 and Nov 18, 2026 ET: it received 448.90M RLUSD in 61 payments (raRwevcTC4NafoNUP28JfmfrKYtdeQWwZ2 281.49M; rLoD9U2ghXP2xUYbtML6G6v1p8LhM9mSnc 167.41M) and sent 448.90M in 65 payments (rLoD9U2g… 266.13M; rnxXa22Dh15BoKaSXqCGeV8s9UqM76gyzS 182.77M). Its last RLUSD move found was 13,899,950 to rLoD9U2g… at 15:27 ET Nov 18. Transfer record only; no claim about who owns it or why the payments were made. Unlabelled.",
+   "grade": "A",
+   "sources": [
+    "https://xrpscan.com/account/rBPQ7bVL1RPYe3bqq5hm2uX5S5unf8eByh",
+    "https://xrpscan.com/tx/3BE60111B2CDAF698628449CBAE71A478C65E867E57794B9CD59DA90C672ECFB"
+   ],
+   "added": "2026-11-18T22:34:07-05:00"
   }
  ],
  "edges": [
@@ -106897,6 +106911,61 @@
    "source": "https://luma.com/zpcdsbpu",
    "side": "neutral",
    "added": "2026-11-18T20:32:39-05:00"
+  },
+  {
+   "from": "w-rkxwzjpz",
+   "to": "w-ryb7nesz",
+   "label": "rKxwzjpZ… sent ryB7NESZ… 40,000,990 XRP in 1 untagged Payment, Nov 6, 2026 01:06 ET; it was that account's only outgoing Payment as of validated ledger 108422417 (Nov 18); destination, not owner; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/E01BCF037CE24D837D3B7CBED3E25241D10AD870F5D1899D8E09BB37A9D79783",
+   "side": "neutral",
+   "added": "2026-11-18T22:34:07-05:00"
+  },
+  {
+   "from": "w-rhfa8qzp",
+   "to": "w-ryb7nesz",
+   "label": "rhfA8Qzp… sent ryB7NESZ… 40,000,995 XRP in 1 untagged Payment, Nov 6, 2026 21:50 ET; it was that account's only outgoing Payment as of validated ledger 108422417 (Nov 18); destination, not owner; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/6FA5FCC46AAE77D51F7C25F7EE59DCAA60B7D76A32882D538A831F31A5A38383",
+   "side": "neutral",
+   "added": "2026-11-18T22:34:07-05:00"
+  },
+  {
+   "from": "w-rsnonkb1",
+   "to": "w-ryb7nesz",
+   "label": "rsNoNkb1… sent ryB7NESZ… 40,000,995 XRP in 1 untagged Payment, Nov 8, 2026 18:53 ET; it was that account's only outgoing Payment as of validated ledger 108422417 (Nov 18); destination, not owner; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/7209B9BF001209E802D8C90D6D281C2EDEB2A559EBCD2DC50F7BDB6113832884",
+   "side": "neutral",
+   "added": "2026-11-18T22:34:07-05:00"
+  },
+  {
+   "from": "w-rhxtrtpf",
+   "to": "w-ryb7nesz",
+   "label": "rhXtRtpf… sent ryB7NESZ… 40,000,996 XRP in 1 untagged Payment, Nov 9, 2026 12:18 ET; it was that account's only outgoing Payment as of validated ledger 108422417 (Nov 18); destination, not owner; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/31E546859AE55EF4520331093F25C4E429FBD2931F20A3C3DCC18760B6222798",
+   "side": "neutral",
+   "added": "2026-11-18T22:34:07-05:00"
+  },
+  {
+   "from": "w-raomrxbm",
+   "to": "w-ryb7nesz",
+   "label": "raoMrxbM… sent ryB7NESZ… 33,455,915 XRP in 1 untagged Payment, Nov 10, 2026 19:01 ET; it was that account's only outgoing Payment as of validated ledger 108422417 (Nov 18); destination, not owner; ownership of both accounts unverified",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://xrpscan.com/tx/EEF231674444B8C778E1781938234427C1483423B0D239300812BFFC8BAA471D",
+   "side": "neutral",
+   "added": "2026-11-18T22:34:07-05:00"
   }
  ]
 }
