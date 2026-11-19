@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-19T08:31:01-05:00",
+  "updated": "2026-11-19T10:36:15-05:00",
   "version": 3
  },
  "nodes": [
@@ -32256,6 +32256,45 @@
     "https://www.sec.gov/Archives/edgar/data/1976517/000139834426020270/fp0101810-3_aw.htm"
    ],
    "added": "2026-11-19T08:29:24-05:00"
+  },
+  {
+   "id": "kristin-johnson",
+   "label": "Kristin N. Johnson",
+   "type": "person",
+   "handle": "",
+   "summary": "Former CFTC Commissioner (confirmed by the Senate March 2022, served until September 2025, per her own Nov 19 2026 testimony). Nominated to be a Member of the SEC; Senate Banking Committee nomination hearing Thu 2026-11-19 10:00 ET, Dirksen 538. A committee hearing is not confirmation; not confirmed as of 2026-11-19.",
+   "grade": "A",
+   "sources": [
+    "https://www.banking.senate.gov/hearings/11/12/2026/nomination-hearing",
+    "https://www.banking.senate.gov/download/johnson-testimony-11-19-26",
+    "https://www.cftc.gov/PressRoom/SpeechesTestimony/johnsonstatement112123"
+   ],
+   "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "id": "steven-levine",
+   "label": "Steven B. Levine",
+   "type": "person",
+   "handle": "",
+   "summary": "SEC staff attorney (per his own Nov 19 2026 testimony: joined SEC staff after asset-management law practice; past two years a detailee to the Council of Economic Advisers and the Department of Labor). Nominated to be a Member of the SEC; Senate Banking Committee nomination hearing Thu 2026-11-19 10:00 ET. Not confirmed as of 2026-11-19.",
+   "grade": "A",
+   "sources": [
+    "https://www.banking.senate.gov/hearings/11/12/2026/nomination-hearing",
+    "https://www.banking.senate.gov/download/levine-testimony-11-19-26"
+   ],
+   "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "id": "sg-digital-ledger",
+   "label": "SG Digital Ledger",
+   "type": "company",
+   "handle": "",
+   "summary": "MAS's SGD Testnet (wholesale CBDC test network that supported interbank settlement and tokenised MAS Bills issuance) is to be repositioned as an operational utility renamed SG Digital Ledger (MAS MD Chia Der Jiun keynote, Singapore FinTech Festival, 19 Nov 2026). The speech names no Ripple, XRP or XRPL.",
+   "grade": "A",
+   "sources": [
+    "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026"
+   ],
+   "added": "2026-11-19T10:31:52-05:00"
   }
  ],
  "edges": [
@@ -107044,6 +107083,61 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026074319/pf20260930-mda.htm",
    "side": "neutral",
    "added": "2026-11-19T08:29:24-05:00"
+  },
+  {
+   "from": "kristin-johnson",
+   "to": "sec",
+   "label": "nominee, Member of the SEC; Senate Banking nomination hearing 2026-11-19 (hearing is not confirmation)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.banking.senate.gov/hearings/11/12/2026/nomination-hearing",
+   "side": "neutral",
+   "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "from": "kristin-johnson",
+   "to": "cftc",
+   "label": "CFTC Commissioner, March 2022 to September 2025 (own testimony)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.banking.senate.gov/download/johnson-testimony-11-19-26",
+   "side": "neutral",
+   "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "from": "steven-levine",
+   "to": "sec",
+   "label": "nominee, Member of the SEC; Senate Banking nomination hearing 2026-11-19 (hearing is not confirmation)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.banking.senate.gov/hearings/11/12/2026/nomination-hearing",
+   "side": "neutral",
+   "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "from": "mas",
+   "to": "sg-digital-ledger",
+   "label": "MAS MD Chia Der Jiun's SFF keynote (19 Nov 2026): the SGD Testnet will become an operational utility renamed SG Digital Ledger, to 'support settlement across institutions, tokenised assets, forms of digital money and ledgers'; take-up 'led by market demand'; the speech names no Ripple, XRP or XRPL",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026",
+   "side": "neutral",
+   "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "from": "xrplf",
+   "to": "vs1-finance",
+   "label": "XRPL Foundation open-sourced an XRPL permissioned-lending reference app built with VS1 Finance (Nov 19 2026): Single Asset Vault, Lending Protocol, Credentials and Permissioned Domains, set up with Batch; runs on XRPL Devnet by default, not a mainnet product",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://github.com/XRPLF/XRPL-LendingReference",
+   "side": "supports",
+   "added": "2026-11-19T10:31:52-05:00"
   }
  ]
 }
