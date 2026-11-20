@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-20T10:32:18-05:00",
+  "updated": "2026-11-20T14:34:47-05:00",
   "version": 3
  },
  "nodes": [
@@ -107199,6 +107199,17 @@
    "source": "https://announcements.bybit.com/en/article/rlusd-hold-earn-phase-5-up-to-3-75-apr-on-rlusd-1-5m-xrp-rewards--art57ce97884983/",
    "side": "neutral",
    "added": "2026-11-20T08:27:31-05:00"
+  },
+  {
+   "from": "fxrp",
+   "to": "morpho",
+   "label": "Morpho API Nov 20 2026 (read 2026-11-20 13:30 ET): isolated Morpho Blue market on Ethereum, market 0x4fa31e3f..., RLUSD loan asset, FXRP (0xCE6170EA...) collateral, LLTV 77%: about 13.97M FXRP posted (~$12.74M), ~$7.14M RLUSD borrowed of ~$8.33M supplied, utilization ~85.7%; XRP used as DeFi collateral, not a payment leg",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://blue-api.morpho.org/graphql",
+   "side": "neutral",
+   "added": "2026-11-20T14:33:20-05:00"
   }
  ]
 }
