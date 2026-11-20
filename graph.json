@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-20T08:28:46-05:00",
+  "updated": "2026-11-20T10:32:18-05:00",
   "version": 3
  },
  "nodes": [
@@ -44789,8 +44789,8 @@
   {
    "from": "mastercard",
    "to": "rlusd",
-   "label": "RLUSD-on-XRPL card settlement pilot announced 2025-11-05 (explore stage, pending regulatory approval); go-live not confirmed by a primary as of Oct 2026",
-   "grade": "A",
+   "label": "RLUSD-on-XRPL card settlement pilot announced 2025-11-05 (explore stage, pending regulatory approval; per Ripple); go-live not confirmed by a primary as of Nov 2026",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -44800,8 +44800,8 @@
   {
    "from": "webbank",
    "to": "rlusd",
-   "label": "would settle Mastercard flows in RLUSD (2025-11-05)",
-   "grade": "A",
+   "label": "would settle Mastercard flows in RLUSD (announced 2025-11-05, per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -44822,11 +44822,11 @@
   {
    "from": "mastercard",
    "to": "ripple",
-   "label": "RLUSD settlement collaboration (2025-11-05)",
+   "label": "Mastercard says it will support card settlement in Ripple's RLUSD, including on the XRPL (Mastercard's own post, Jun 3, 2026); the Nov 5, 2025 Gemini/WebBank card pilot is per Ripple",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
+   "source": "https://www.linkedin.com/posts/mastercard_stablecoin-blockchain-payments-activity-7467909363710525440-FZRE",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -49578,7 +49578,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-strengthens-digital-capital-markets-infrastructure-with-investments-in-zilo-and-licuido/",
+   "source": "https://www.avivainvestors.com/en-gb/about/company-news/2026/07/aviva-investors-launches-tokenised-share-class-for-usd-liquidity-fund/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -49589,7 +49589,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-strengthens-digital-capital-markets-infrastructure-with-investments-in-zilo-and-licuido/",
+   "source": "https://www.avivainvestors.com/en-gb/about/company-news/2026/07/aviva-investors-launches-tokenised-share-class-for-usd-liquidity-fund/",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -51235,8 +51235,8 @@
   {
    "from": "mastercard",
    "to": "rlusd",
-   "label": "Announced plan (2025-11-05) to explore RLUSD settlement of Gemini Credit Card transactions with WebBank & Gemini, pending regulatory approval; live status not confirmed by any primary (Mastercard's Jun 3 2026 release does not name WebBank or Gemini)",
-   "grade": "A",
+   "label": "Announced plan (2025-11-05) to explore RLUSD settlement of Gemini Credit Card transactions with WebBank & Gemini, pending regulatory approval (per Ripple); live status not confirmed by any primary (Mastercard's Jun 3 2026 release does not name WebBank or Gemini)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -51246,8 +51246,8 @@
   {
    "from": "webbank",
    "to": "rlusd",
-   "label": "RLUSD settlement (2025)",
-   "grade": "A",
+   "label": "RLUSD settlement of Gemini card flows (announced 2025, per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -65590,8 +65590,8 @@
   {
    "from": "mastercard",
    "to": "webbank",
-   "label": "RLUSD settlement of Gemini card (WebBank issuer) on XRPL (Nov 2025)",
-   "grade": "A",
+   "label": "RLUSD settlement of Gemini card (WebBank issuer) on XRPL, announced Nov 2025 (per Ripple; not confirmed by Mastercard or WebBank)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -65601,8 +65601,8 @@
   {
    "from": "mastercard",
    "to": "gemini",
-   "label": "collaboration to explore RLUSD-on-XRPL settlement of Gemini Credit Card transactions (announced 2025-11-05; onboarding subject to regulatory approval)",
-   "grade": "A",
+   "label": "collaboration to explore RLUSD-on-XRPL settlement of Gemini Credit Card transactions (announced 2025-11-05; onboarding subject to regulatory approval) (per Ripple; Gemini's Q3 2026 10-Q does not mention it)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -97193,8 +97193,8 @@
   {
    "from": "mastercard",
    "to": "swell-2025",
-   "label": "RLUSD-on-XRPL card-settlement collaboration with WebBank and Gemini announced at Swell 2025 (Nov 5, 2025)",
-   "grade": "A",
+   "label": "RLUSD-on-XRPL card-settlement collaboration with WebBank and Gemini announced at Swell 2025 (Nov 5, 2025) (per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-teams-up-with-mastercard-webbank-and-gemini/",
@@ -102924,11 +102924,11 @@
   {
    "from": "bny",
    "to": "aviva-investors",
-   "label": "custodian of the assets of Aviva Investors Sterling (GBP) Liquidity Fund, whose tokenised share class launched on XRPL (Ripple release, Oct 26 2026)",
+   "label": "custodian of the assets of Aviva Investors Sterling (GBP) Liquidity Fund, whose tokenised share class launched on XRPL (Aviva Investors release, Oct 26 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/aviva-investors-expands-its-tokenised-offering-with-the-launch-of-a-sterling-liquidity-fund-tokenised-share-class/",
+   "source": "https://www.avivainvestors.com/en-gb/about/company-news/2026/10/aviva-investors-launches-tokenised-share-class-for-sterling-liquidity-fund/",
    "side": "neutral",
    "added": "2026-10-26T08:32:14-04:00"
   },
