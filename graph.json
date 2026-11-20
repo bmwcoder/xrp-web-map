@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-20T14:34:47-05:00",
+  "updated": "2026-11-20T18:32:58-05:00",
   "version": 3
  },
  "nodes": [
@@ -41119,7 +41119,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/products/stablecoin/",
+   "source": "https://www.binance.com/en/support/announcement/detail/29ba8e4cfa1b45ea88653c029cedd0cd",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -41361,7 +41361,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/new-partnerships-bring-rlusd-to-turkiye/",
+   "source": "https://www.linkedin.com/posts/bilira_new-partnerships-bring-ripples-usd-backed-activity-7467648759368171522-Cyh4",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -62543,8 +62543,8 @@
   {
    "from": "zilo",
    "to": "aviva-investors",
-   "label": "supports Aviva tokenized USD Liquidity Fund on XRPL",
-   "grade": "A",
+   "label": "supports Aviva tokenized USD Liquidity Fund on XRPL (per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-strengthens-digital-capital-markets-infrastructure-with-investments-in-zilo-and-licuido/",
@@ -62554,11 +62554,11 @@
   {
    "from": "licuido",
    "to": "aviva-investors",
-   "label": "supports Aviva tokenized fund distribution",
+   "label": "tokenisation infrastructure for Aviva Investors' tokenised Liquidity Fund share classes on XRPL (USD Jul 2026, Sterling Oct 2026; Aviva Investors releases)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-strengthens-digital-capital-markets-infrastructure-with-investments-in-zilo-and-licuido/",
+   "source": "https://www.avivainvestors.com/en-gb/about/company-news/2026/07/aviva-investors-launches-tokenised-share-class-for-usd-liquidity-fund/",
    "side": "supports",
    "added": "2026-10-19T23:06:27-04:00"
   },
@@ -107210,6 +107210,116 @@
    "source": "https://blue-api.morpho.org/graphql",
    "side": "neutral",
    "added": "2026-11-20T14:33:20-05:00"
+  },
+  {
+   "from": "uob",
+   "to": "mas",
+   "label": "first-listed (as 'UOB') on MAS BLOOM industry use case S/N 1 of 11, with 'OCBC', 'Kasikornbank' and 'StraitsX': stablecoin settlement for cross border correspondent banking (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "dbs",
+   "to": "mas",
+   "label": "first-listed (as 'DBS') on MAS BLOOM industry use case S/N 2 of 11, with 'J.P. Morgan': cross-bank interoperability of tokenised deposits (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "mas",
+   "label": "first-listed (as 'SCB') on MAS BLOOM industry use case S/N 3 of 11, with 'StraitsX' and 'OCBC': common settlement infrastructure for interbank tokenised deposit interoperability (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "visa",
+   "to": "mas",
+   "label": "first-listed (as 'Visa') on MAS BLOOM industry use case S/N 4 of 11, with 'Nium': enabling efficient, 7-day-a-week card settlement through the use of stablecoins (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "ocbc",
+   "to": "mas",
+   "label": "first-listed (as 'OCBC') on MAS BLOOM industry use case S/N 5 of 11, with 'StraitsX': cross-border B2B payments via stablecoin rails, received as fiat in existing bank accounts (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "kasikornbank",
+   "to": "mas",
+   "label": "first-listed (as 'Kasikornbank') on MAS BLOOM industry use case S/N 6 of 11, with 'Ant', 'StraitsX' and 'Grab': cross-border QR payments using Purpose Bound Money for instant, stablecoin-powered settlement (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "ant-international",
+   "to": "mas",
+   "label": "first-listed (as 'Ant') on MAS BLOOM industry use case S/N 7 of 11, with 'DBS' and 'Franklin Templeton': interoperability between tokenised money market funds and tokenised deposits (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "circle",
+   "to": "mas",
+   "label": "sole participant (as 'Circle') on MAS BLOOM industry use case S/N 8 of 11: 24/7 treasury management through on-chain settlement of tokenised money market fund transactions using stablecoins (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "anchorage",
+   "to": "mas",
+   "label": "sole participant (as 'Anchorage Digital') on MAS BLOOM industry use case S/N 10 of 11: stablecoin settlement for cross border correspondent banking (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "circle",
+   "to": "mas",
+   "label": "sole participant (as 'Circle') on MAS BLOOM industry use case S/N 11 of 11: on-chain institutional FX with PvP stablecoin-to-stablecoin settlement via smart contracts (MAS BLOOM use-case list, published at SFF Nov 19, 2026; Ripple is on 1 of the 11, S/N 9); use case, not a disclosed commercial deal; chain and stablecoin not named",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
+   "side": "neutral",
+   "added": "2026-11-20T18:29:50-05:00"
   }
  ]
 }
