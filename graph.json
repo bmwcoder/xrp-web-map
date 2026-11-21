@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-20T18:32:58-05:00",
+  "updated": "2026-11-20T20:28:56-05:00",
   "version": 3
  },
  "nodes": [
@@ -32920,7 +32920,7 @@
   {
    "from": "clarity",
    "to": "xrp",
-   "label": "market-structure bill (stalled in Senate)",
+   "label": "market-structure bill (stalled in Senate: cloture on the motion to proceed failed 49–50 on Sep 15, 2026, roll call 234)",
    "grade": "A",
    "strength": 3,
    "source": "https://www.senate.gov/legislative/cloture/119.htm",
@@ -61421,7 +61421,7 @@
   {
    "from": "adgm-fsra",
    "to": "rlusd",
-   "label": "Accepted Fiat-Referenced Token (Nov 2025)",
+   "label": "Accepted Fiat-Referenced Token on Ethereum and XRP Ledger (FSRA consolidated AFRT list dated Sep 1, 2026)",
    "grade": "A",
    "strength": 4,
    "key": false,
@@ -61839,7 +61839,7 @@
   {
    "from": "jvcea",
    "to": "xrp",
-   "label": "Green List: XRP handled by 20 member firms (2026-10-02)",
+   "label": "Green List: XRP handled by 20 member firms (2026-11-02)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -83201,11 +83201,11 @@
   {
    "from": "redotpay",
    "to": "rlusd",
-   "label": "RLUSD on XRPL deposit + card spend live Jun 2 2026, withdrawals Jun 9 (RedotPay announcement Jun 5, via SpendNode); Dec 2025 Ripple release had listed RLUSD as \"future\"",
-   "grade": "B",
-   "strength": 2,
+   "label": "RLUSD deposit + card spend live Jun 2 2026, withdrawals Jun 9 (RedotPay notice dated May 29 2026; the notice names no chain); Dec 2025 Ripple release had listed RLUSD as 'future'",
+   "grade": "A",
+   "strength": 3,
    "key": false,
-   "source": "https://www.spendnode.io/blog/redotpay-adds-rlusd-xrpl-deposit-spend-june-2026/",
+   "source": "https://helpcenter.redotpay.com/en/articles/15302279-rlusd-is-now-live-on-redotpay",
    "side": "supports",
    "added": "2026-10-20T00:26:07-04:00"
   },
