@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-21T10:36:55-05:00",
+  "updated": "2026-11-21T14:34:57-05:00",
   "version": 3
  },
  "nodes": [
@@ -17392,14 +17392,15 @@
   },
   {
    "id": "rlusd-xrpl-supply",
-   "label": "RLUSD supply on XRPL (941M)",
+   "label": "RLUSD supply on XRPL (768.6M, Nov 21 2026)",
    "type": "asset",
    "handle": "",
-   "summary": "gateway_balances on the RLUSD issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De (XRPScan-verified 'RLUSD Issuer', ripple.com) returned 941,353,317 RLUSD outstanding on the XRPL at ledger ~107,774,9xx (Oct 19, 2026). xrp-insights shows $2.42B total across XRPL and Ethereum, with Ethereum at 58%. Less than 0.3% of the XRPL supply sits in the RLUSD/XRP AMM.",
+   "summary": "gateway_balances on the RLUSD issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De returned 768,557,088.45 RLUSD obligations on the XRPL at validated ledger 108,480,664 (read 2026-11-21 13:3x ET). Earlier reads: 941,353,317 (Oct 19, 2026) and 981.99M (Oct 28). DefiLlama showed about $0.747B on XRPL on Nov 20 (different method). Less than 0.3% of the XRPL supply sat in the RLUSD/XRP AMM (Oct 2026 read).",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
-    "https://xrp-insights.com/xrp-radar"
+    "https://xrp-insights.com/xrp-radar",
+    "https://xrplcluster.com (gateway_balances rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De, ledger 108480664)"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "rlusd"
@@ -18559,12 +18560,13 @@
    "label": "Ripple global licence footprint (75+)",
    "type": "event",
    "handle": "",
-   "summary": "Ripple says it holds more than 75 regulatory licences (2026-03-11). Register-verified so far: FCA EMI + crypto (FRN 1028021), MAS MPI, DFSA F008529, CBI VASP C477156, CSSF EMI + MiCA CASP, NMLS 2314015 (43 US jurisdictions + BitLicense), NMLS 2261284 + NYDFS trust (SCTC), OCC conditional national trust charter (RNTB), and an AFSL via BC Payments Australia (pending). There is no Fed master account; SCTC's request is pending.",
+   "summary": "Ripple says it holds more than 75 regulatory licences (2026-03-11). Register-verified so far: FCA EMI + crypto (FRN 1028021), MAS MPI, DFSA F008529, CBI VASP C477156, CSSF EMI + MiCA CASP, NMLS 2314015 (43 US jurisdictions + BitLicense), NMLS 2261284 + NYDFS trust (SCTC), OCC national trust charter (RNTB; OCC CAS: Consummated/Effective 2026-10-26), and AFSL 493372, held by Ripple Payments Australia Pty Ltd (formerly BC Payments Australia; ASIC AFS licensee dataset Oct 2026, licence start 2017-08-08). There is no Fed master account; SCTC's request is pending.",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/",
     "https://ripple.com/legal/compliance/",
-    "https://ripple.com/legal/money-transfer-license/"
+    "https://ripple.com/legal/money-transfer-license/",
+    "https://data.gov.au/data/dataset/ab7eddce-84df-4098-bc8f-500d0d9776d1/resource/1fc2b334-74ae-4588-85aa-83e3a8c9f2cc/download/afs_lic_202610.tsv ; https://apps.occ.gov/CAS/home/details?FilingID=RjzoD2gxmYOv&FilingSubtypeID=1093&FilingTypeID=2"
    ],
    "added": "2026-10-19T23:05:08-04:00",
    "tier": 2
@@ -61872,11 +61874,11 @@
   {
    "from": "bcb",
    "to": "ripple-brasil",
-   "label": "VASP under Res. 520/25 transitional regime; licence application planned",
-   "grade": "A",
+   "label": "VASP under Res. 520/25 transitional regime; SPSAV authorisation application filed (reported Oct 28, 2026); BCB's Nov 6 2026 list of applicants shows Ripple Brasil (CNPJ 31.857.323) as corretora, 'Em exame' (under review), process 318102 (BCB list as reproduced by press; BCB page not read directly)",
+   "grade": "B",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/legal/compliance/",
+   "source": "https://bitnoticias.com.br/noticias/banco-central-divulga-lista-de-total-empresas-que-pediram-licenca/",
    "side": "supports",
    "added": "2026-10-19T23:05:08-04:00"
   },
@@ -98843,7 +98845,7 @@
   {
    "from": "occ",
    "to": "rntb",
-   "label": "status check Oct 21, 2026: OCC CAS shows only Receipt (2025-07-02) and Approved (2025-12-12) for charter 25364; no final approval, extension or expiry posted",
+   "label": "status check Oct 21, 2026 (superseded): at the time CAS showed only Receipt and Approved; the live OCC CAS record now shows Consummated/Effective 10/26/2026 for charter 25364 (re-read 2026-11-21)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -103760,7 +103762,7 @@
   {
    "from": "occ",
    "to": "rntb",
-   "label": "status check Oct 27, 2026 (08:47 ET): no OCC news release on RNTB since Ripple's Oct 26 final-approval release (latest OCC RSS item nr-occ-2026-93, Oct 22); CAS still shows only Receipt (2025-07-02) and Approved (2025-12-12) for charter 25364",
+   "label": "status check Oct 27, 2026 (08 (superseded): at the time CAS showed only Receipt and Approved; the live OCC CAS record now shows Consummated/Effective 10/26/2026 for charter 25364 (re-read 2026-11-21)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -107397,6 +107399,17 @@
    "source": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47318/SINGLCLASS/franklin-xrp-etf/XRPZ",
    "side": "neutral",
    "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "mastercard",
+   "to": "gemini",
+   "label": "Mastercard SVP Christian Rau, XRPL Commons/GDF roundtable interview (Paris, posted Apr 2026): 'we work with Gemini ... explore with them to settle their card flows in RLUSD', aiming 'still in the first half of this year' (YouTube auto-transcript; an aim, not a go-live confirmation; no XRP leg)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.youtube.com/watch?v=cv2H_aZFs74",
+   "side": "neutral",
+   "added": "2026-11-21T14:31:32-05:00"
   }
  ]
 }
