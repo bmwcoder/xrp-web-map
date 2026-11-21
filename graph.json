@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-21T14:34:57-05:00",
+  "updated": "2026-11-21T18:35:56-05:00",
   "version": 3
  },
  "nodes": [
@@ -91530,11 +91530,11 @@
   {
    "from": "rlusd",
    "to": "chainlink",
-   "label": "Chainlink Price Feeds for RLUSD on Ethereum (2025-01-07)",
+   "label": "Chainlink Price Feeds for RLUSD on Ethereum (2025-01-07); Chainlink's own Q1 2025 review confirms the RLUSD feeds (Ethereum mainnet per Ripple)",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-adopts-the-chainlink-standard-to-further-rippleusd-utility-and-access-in-defi/",
+   "source": "https://chain.link/blog/quarterly-review-q1-2025",
    "side": "supports",
    "added": "2026-10-20T01:54:19-04:00"
   },
@@ -97096,11 +97096,11 @@
   {
    "from": "onafriq",
    "to": "swell-2023",
-   "label": "Ripple Payments deal for UK, GCC and Australia to Africa corridors (via PayAngel, Pyypl, Zazi Transfer) announced at Swell 2023 (Nov 8, 2023)",
+   "label": "Ripple Payments deal for UK, GCC and Australia to Africa corridors (via PayAngel, Pyypl, Zazi Transfer), confirmed live on Onafriq's own LinkedIn post (Nov 8, 2023); timed to Swell 2023 per Ripple",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-partners-with-onafriq-to-power-digital-asset-enabled-cross-border-payments-between-africa-and-the-rest-of-the-world/",
+   "source": "https://www.linkedin.com/posts/onafriq1_ripple-partners-with-onafriq-to-power-africa-activity-7128026490813739008-Cor9",
    "side": "neutral",
    "added": "2026-10-20T14:29:06-04:00"
   },
@@ -97140,8 +97140,8 @@
   {
    "from": "irc",
    "to": "swell-2024",
-   "label": "aid partnership (Ripple Payments + RLUSD exploration, $1M pledge) announced at Swell 2024 (Oct 16, 2024)",
-   "grade": "A",
+   "label": "aid partnership (Ripple Payments + RLUSD exploration, $1M pledge) announced at Swell 2024 (Oct 16, 2024), per Ripple",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-international-rescue-committee-partner-to-innovate-humanitarian-aid-delivery/",
