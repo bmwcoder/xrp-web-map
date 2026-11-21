@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-21T06:14:58-05:00",
+  "updated": "2026-11-21T10:36:55-05:00",
   "version": 3
  },
  "nodes": [
@@ -49849,8 +49849,8 @@
   {
    "from": "bitso",
    "to": "ripple",
-   "label": "expanded stablecoin settlement partnership (2026-06-11)",
-   "grade": "A",
+   "label": "expanded stablecoin settlement partnership (2026-06-11, per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
@@ -51455,8 +51455,8 @@
   {
    "from": "neuberger",
    "to": "rprime",
-   "label": "$200M debt facility (2026-05-11)",
-   "grade": "A",
+   "label": "$200M debt facility (2026-05-11, per Ripple; Neuberger's counsel Sidley confirms)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-prime-secures-usd200-million-debt-facility-from-neuberger-specialty-finance-to-expand-capacity/",
@@ -56020,8 +56020,8 @@
   {
    "from": "bitso",
    "to": "ripple",
-   "label": "expanded stablecoin settlement partnership (2026)",
-   "grade": "A",
+   "label": "expanded stablecoin settlement partnership (2026, per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
@@ -61157,8 +61157,8 @@
   {
    "from": "mxnb",
    "to": "amd-permdex",
-   "label": "uses Permissioned DEX",
-   "grade": "A",
+   "label": "announced for XRPL Permissioned DEX (Jun 2026, per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
@@ -65843,8 +65843,8 @@
   {
    "from": "bitso",
    "to": "amd-permdex",
-   "label": "MXNB integrated into XRPL Permissioned DEX alongside RLUSD (Jun 2026)",
-   "grade": "A",
+   "label": "MXNB to be integrated into XRPL Permissioned DEX alongside RLUSD (announced Jun 2026, per Ripple; not live per Bitso Nov 18)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
@@ -67724,8 +67724,8 @@
   {
    "from": "bitso",
    "to": "xrpl",
-   "label": "MXNB (Juno/Bitso) to be issued on XRPL for Ripple's Permissioned DEX (Jun 9 2026); XRPL issuer address not yet public",
-   "grade": "A",
+   "label": "MXNB (Juno/Bitso) to be issued on XRPL for Ripple's Permissioned DEX (announced Jun 9 2026, per Ripple); not live per Bitso Nov 18",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
@@ -107320,6 +107320,83 @@
    "source": "https://www.mas.gov.sg/-/media/mas-media-library/development/fintech/bloom/bloom-industry-use-cases.pdf",
    "side": "neutral",
    "added": "2026-11-20T18:29:50-05:00"
+  },
+  {
+   "from": "moonpay",
+   "to": "occ",
+   "label": "applied to organize MoonPay National Trust Bank, a non-depository national bank limited to trust-company activities (Miami Beach; no deposit insurance sought); application dated Nov 17, OCC received Nov 18, 2026 (OCC digital-asset licensing list)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.occ.gov/topics/charters-and-licensing/digital-assets-licensing-applications/moonpay-national-trust-bank-combined-cv-pa.pdf",
+   "side": "neutral",
+   "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "gxrp",
+   "to": "etf-xrp-holdings",
+   "label": "Grayscale GXRP issuer page, Nov 20 2026: 51,476,924.66 XRP in fund, 2,660,100 shares (19.3515 XRP/share); 10-Q shows 65,442,141 XRP / 3,380,100 shares on Sep 30 and 3,350,100 shares on Nov 2, so 690,000 shares redeemed Nov 2-20",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://etfs.grayscale.com/gxrp",
+   "side": "neutral",
+   "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "xrpc",
+   "to": "etf-xrp-holdings",
+   "label": "Canary XRPC issuer daily data, Oct 19-Nov 20 2026: shares 22,960,000 to 22,390,000 (+70,000 Oct 30; -40,000 Nov 2; -70,000 Nov 9; -40,000 Nov 10; -490,000 Nov 17); 234,649,381.81 XRP held (holdings file dated Nov 23)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.canaryetfs.com/xrpc",
+   "side": "neutral",
+   "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "bitwise",
+   "to": "etf-xrp-holdings",
+   "label": "Bitwise XRP ETF issuer page: 401,190,506.82 XRP in trust (holdings dated Nov 20 2026); 36,440,000 shares, $391.31M AUM (Nov 19)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.bitwiseetfs.com/single-asset/xrp",
+   "side": "neutral",
+   "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "mxnb",
+   "to": "xrpl",
+   "label": "Bitso's official X account (Nov 18 2026): for now MXNB works on Arbitrum and Base, and XRPL is not among them; the XRPL issuance Ripple announced in Jun 2026 is not live per the issuer",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/Bitso/status/2123164056710221886",
+   "side": "contradicts",
+   "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "mxnb",
+   "to": "solana",
+   "label": "Bitso (Nov 17 2026): MXNB is coming to Solana",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/Bitso/status/2122494939082961286",
+   "side": "neutral",
+   "added": "2026-11-21T10:32:55-05:00"
+  },
+  {
+   "from": "xrpz",
+   "to": "etf-xrp-holdings",
+   "label": "Franklin XRPZ issuer page, Nov 20 2026: 314,770,786.96 XRP in fund, 29,000,000 shares, $280.18M net assets",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/47318/SINGLCLASS/franklin-xrp-etf/XRPZ",
+   "side": "neutral",
+   "added": "2026-11-21T10:32:55-05:00"
   }
  ]
 }
