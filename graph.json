@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-21T20:33:42-05:00",
+  "updated": "2026-11-22T02:27:58-05:00",
   "version": 3
  },
  "nodes": [
@@ -59130,10 +59130,10 @@
    "from": "ripple",
    "to": "circle-bid",
    "label": "offered $4–5B",
-   "grade": "C",
-   "strength": 1,
+   "grade": "B",
+   "strength": 2,
    "key": false,
-   "source": "https://www.theblock.co/news/deals/2025-06-03-brad-garlinghouse-says-ripple-never-made-a-bid-to-acquire-circle-contradicting-recent-reports-356818",
+   "source": "https://www.bloomberg.com/news/articles/2025-04-30/ripple-is-said-to-have-offered-to-buy-stablecoin-rival-circle",
    "side": "contradicts",
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -59141,10 +59141,10 @@
    "from": "circle-bid",
    "to": "circle",
    "label": "target; rejected",
-   "grade": "C",
-   "strength": 1,
+   "grade": "B",
+   "strength": 2,
    "key": false,
-   "source": "https://www.theblock.co/news/deals/2025-06-03-brad-garlinghouse-says-ripple-never-made-a-bid-to-acquire-circle-contradicting-recent-reports-356818",
+   "source": "https://www.bloomberg.com/news/articles/2025-04-30/ripple-is-said-to-have-offered-to-buy-stablecoin-rival-circle",
    "side": "contradicts",
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -107430,11 +107430,11 @@
   {
    "from": "ripple",
    "to": "celsius",
-   "label": "sought standing in Celsius's Chapter 11; spokesperson: 'interested in learning about Celsius and its assets' (Aug 2022); no bid reported, assets went to Galaxy (GK8) and Fahrenheit",
-   "grade": "B",
+   "label": "Ripple Labs Inc. on the Celsius Chapter 11 court notice list (22-10964, via Davis Wright Tremaine; Doc 7556, Jul 24 2024); spokesperson: 'interested in learning about Celsius and its assets' (Aug 2022); no bid shown, assets went to Galaxy (GK8) and Fahrenheit",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.reuters.com/business/finance/exclusive-ripple-labs-interested-bankrupt-crypto-lender-celsius-assets-2022-08-10/",
+   "source": "https://cases.stretto.com/public/x191/11749/PLEADINGS/1174907272480000000004.pdf",
    "side": "neutral",
    "added": "2026-11-21T20:32:31-05:00"
   },
