@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-21T18:35:56-05:00",
+  "updated": "2026-11-21T20:33:42-05:00",
   "version": 3
  },
  "nodes": [
@@ -19687,10 +19687,11 @@
    "label": "Zürcher Kantonalbank",
    "type": "bank",
    "handle": "",
-   "summary": "Swiss cantonal bank; Metaco Series A investor (2020).",
+   "summary": "Swiss cantonal bank; Metaco Series A investor (2020). Since Sep 4 2024 it offers BTC and ETH trading and custody to clients and third-party banks (first partner Thurgauer Kantonalbank): ZKB holds the private keys itself and routes trades through Crypto Finance AG (Deutsche Börse). Its own release names no Ripple, Metaco or XRP.",
    "grade": "A",
    "sources": [
-    "https://www.metaco.com/press-release/metaco-secures-17m-in-series-a-investment-from-global-financial-services-leaders/"
+    "https://www.metaco.com/press-release/metaco-secures-17m-in-series-a-investment-from-global-financial-services-leaders/",
+    "https://www.zkb.ch/de/ueber-uns/medien/medienmitteilungen/2024/kryptowaehrung.html"
    ],
    "added": "2026-10-19T23:09:55-04:00",
    "sector": "banks"
@@ -32303,6 +32304,21 @@
     "https://www.mas.gov.sg/news/speeches/2026/keynote-address-by-md-at-the-singapore-fintech-festival-2026"
    ],
    "added": "2026-11-19T10:31:52-05:00"
+  },
+  {
+   "id": "celsius",
+   "label": "Celsius Network",
+   "type": "company",
+   "handle": "",
+   "summary": "Crypto lender that filed for Chapter 11 in S.D.N.Y. on Jul 13 2022. Its GK8 custody unit was sold to Galaxy Digital (Dec 2022); the Fahrenheit consortium (Arrington Capital, US Bitcoin Corp and others) was picked as winning bidder for the remaining assets on May 25 2023, with BRIC as backup. Ripple said in Aug 2022 it was interested in Celsius's assets; no Ripple bid was reported.",
+   "grade": "B",
+   "sources": [
+    "https://www.reuters.com/business/finance/exclusive-ripple-labs-interested-bankrupt-crypto-lender-celsius-assets-2022-08-10/",
+    "https://news.bitcoin.com/ripple-labs-is-interested-in-bankrupt-crypto-lender-celsius-and-its-assets-company-spokesperson-says/",
+    "https://www.reuters.com/markets/deals/galaxy-wins-bid-collapsed-crypto-lender-celsius-gk8-unit-2022-12-02/",
+    "https://www.coindesk.com/policy/2023/05/25/fahrenheit-wins-bid-to-acquire-assets-of-insolvent-crypto-lender-celsius"
+   ],
+   "added": "2026-11-21T20:32:31-05:00"
   }
  ],
  "edges": [
@@ -107410,6 +107426,28 @@
    "source": "https://www.youtube.com/watch?v=cv2H_aZFs74",
    "side": "neutral",
    "added": "2026-11-21T14:31:32-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "celsius",
+   "label": "sought standing in Celsius's Chapter 11; spokesperson: 'interested in learning about Celsius and its assets' (Aug 2022); no bid reported, assets went to Galaxy (GK8) and Fahrenheit",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.reuters.com/business/finance/exclusive-ripple-labs-interested-bankrupt-crypto-lender-celsius-assets-2022-08-10/",
+   "side": "neutral",
+   "added": "2026-11-21T20:32:31-05:00"
+  },
+  {
+   "from": "celsius",
+   "to": "galaxy",
+   "label": "sold its GK8 custody unit to Galaxy Digital in the Chapter 11 sale process (Dec 2 2022)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.reuters.com/markets/deals/galaxy-wins-bid-collapsed-crypto-lender-celsius-gk8-unit-2022-12-02/",
+   "side": "neutral",
+   "added": "2026-11-21T20:32:31-05:00"
   }
  ]
 }
