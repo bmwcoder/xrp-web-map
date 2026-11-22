@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-22T14:33:44-05:00",
+  "updated": "2026-11-22T18:36:04-05:00",
   "version": 3
  },
  "nodes": [
@@ -44919,11 +44919,11 @@
   {
    "from": "kbank",
    "to": "metaco",
-   "label": "deploys Ripple Custody wallets (2026-04-30)",
+   "label": "Ripple Custody wallet infrastructure (announced 2026-04-30); Kbank's own blog (Oct 22, 2026) describes a stablecoin-remittance PoC on Ripple's Palisade wallet",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://x.com/Ripple/status/2049655476019663087",
+   "source": "https://blog.kbanknow.com/kbw-2026-blockchain-bank-view/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -51541,11 +51541,11 @@
   {
    "from": "kbank",
    "to": "metaco",
-   "label": "Ripple Custody wallets (2026-04-29)",
+   "label": "Ripple Custody wallets (2026-04-29); Kbank's own blog (Oct 22, 2026) confirms the April Ripple partnership and a second stablecoin-remittance PoC on Ripple's Palisade wallet",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-partners-with-kbank-to-deploy-scalable-digital-asset-wallet-infrastructure-through-ripple-custody/",
+   "source": "https://blog.kbanknow.com/kbw-2026-blockchain-bank-view/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -51563,19 +51563,19 @@
   {
    "from": "jeonbuk",
    "to": "ripplenet",
-   "label": "cross-border payments (2026-08-18)",
-   "grade": "A",
+   "label": "Ripple Payments for cross-border payments, announced 2026-08-18 (per Ripple; Jeonbuk's statement reported by Yonhap)",
+   "grade": "B",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-and-jeonbuk-bank-partner-to-modernize-cross-border-payments-for-korea-s-regional-banking-sector/",
+   "source": "https://www.yna.co.kr/view/AKR20260818115100055",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "brevan-howard",
    "to": "ripple",
-   "label": "deepened relationship (2026-10-06)",
-   "grade": "A",
+   "label": "deepened relationship, announced 2026-10-06 (per Ripple; Brevan Howard's LinkedIn reshared Ripple's post without its own statement)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-brevan-howard-deepen-relationship/",
@@ -72738,8 +72738,8 @@
   {
    "from": "brevan-howard",
    "to": "rprime",
-   "label": "Ripple Prime gives Brevan Howard funds multi-asset prime brokerage, clearing and financing (2026-10-06); builds on its 2025 Ripple equity stake",
-   "grade": "A",
+   "label": "Ripple Prime gives Brevan Howard funds multi-asset prime brokerage, clearing and financing (2026-10-06, per Ripple); builds on its 2025 Ripple equity stake",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-brevan-howard-deepen-relationship/",
