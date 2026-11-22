@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-22T06:12:40-05:00",
+  "updated": "2026-11-22T08:32:30-05:00",
   "version": 3
  },
  "nodes": [
@@ -107448,6 +107448,17 @@
    "source": "https://www.reuters.com/markets/deals/galaxy-wins-bid-collapsed-crypto-lender-celsius-gk8-unit-2022-12-02/",
    "side": "neutral",
    "added": "2026-11-21T20:32:31-05:00"
+  },
+  {
+   "from": "circle",
+   "to": "tazapay",
+   "label": "signed a Share Purchase Agreement (Sep 4 2026, via Taurus Acquisition Inc.) to acquire the Tazapay shares it does not already hold for Circle stock worth $400M (adjusted) plus $25M incentive RSUs; close expected 2027 pending MAS approval; Tazapay is Ripple-backed (Series B Mar 2026) and a CPN design partner; filings name no Ripple, XRP or RLUSD (contradicts, weak)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000267/crcl-20260904.htm",
+   "side": "contradicts",
+   "added": "2026-11-22T08:30:48-05:00"
   }
  ]
 }
