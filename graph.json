@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-22T08:32:30-05:00",
+  "updated": "2026-11-22T14:33:44-05:00",
   "version": 3
  },
  "nodes": [
@@ -8589,7 +8589,7 @@
    "label": "Bank patents listing XRP (boilerplate)",
    "type": "event",
    "handle": "",
-   "summary": "Several bank patents name XRP only in example lists of cryptocurrencies: StanChart US11164186B2 ('XRP by Ripple', expired), Wells Fargo US20250371616A1 & US12586061B2, Truist US20240232884A1 (abandoned), TD US20250053973A1 (abandoned), Synchrony US20210192520A1 ('RippleNet' as a rail, abandoned), BofA US20250285088A1. Mentions are not adoption.",
+   "summary": "Several bank patents name XRP only in example lists of cryptocurrencies: StanChart US11164186B2 ('XRP by Ripple', expired), Wells Fargo US20250371616A1, US12586061B2 & pending continuation US20260187622A1 (published Jul 2 2026), Truist US20240232884A1 (abandoned), TD US20250053973A1 (abandoned), Synchrony US20210192520A1 ('RippleNet' as a rail, abandoned), BofA US20250285088A1. Mentions are not adoption.",
    "grade": "A",
    "sources": [
     "https://patents.google.com/patent/US11164186B2/en",
@@ -8597,7 +8597,8 @@
     "https://patents.google.com/patent/US12586061B2/en",
     "https://patents.google.com/patent/US20240232884A1/en",
     "https://patents.google.com/patent/US20250053973A1/en",
-    "https://patents.google.com/patent/US20210192520A1/en"
+    "https://patents.google.com/patent/US20210192520A1/en",
+    "https://patents.google.com/patent/US20260187622A1/en"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -8606,11 +8607,12 @@
    "label": "Wells Fargo",
    "type": "bank",
    "handle": "",
-   "summary": "US bank; patents US12586061B2 (2026) and US20250371616A1 cite XRP/Ripple network as examples. Swift ledger pilot bank (2026-07-09).",
+   "summary": "US bank; patents US12586061B2 (2026), US20250371616A1 and pending continuation US20260187622A1 (published Jul 2 2026) cite XRP/Ripple network as examples. Swift ledger pilot bank (2026-07-09).",
    "grade": "A",
    "sources": [
     "https://patents.google.com/patent/US12586061B2/en",
-    "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure"
+    "https://www.swift.com/news-events/press-releases/swifts-blockchain-ledger-ready-use-17-banks-set-pioneer-tokenised-cross-border-payments-trusted-global-infrastructure",
+    "https://patents.google.com/patent/US20260187622A1/en"
    ],
    "added": "2026-10-19T22:56:09-04:00",
    "sector": "banks"
@@ -107459,6 +107461,28 @@
    "source": "https://www.sec.gov/Archives/edgar/data/1876042/000187604226000267/crcl-20260904.htm",
    "side": "contradicts",
    "added": "2026-11-22T08:30:48-05:00"
+  },
+  {
+   "from": "ripple",
+   "to": "tazapay",
+   "label": "invested in Tazapay's Series B (round closed Aug 27 2025, led by Peak XV; Ripple SVP Eric Jeck quoted); an existing backer again in the Mar 2026 extension",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.prnewswire.com/news-releases/tazapay-lands-strategic-investments-from-ripple-and-circle-signaling-a-new-era-for-cross-border-payments-302539389.html",
+   "side": "neutral",
+   "added": "2026-11-22T14:31:58-05:00"
+  },
+  {
+   "from": "hanwha-am",
+   "to": "solana",
+   "label": "announced an MOU with the Solana Foundation (Jan 23 2026): Solana education and Solana-based ETP launches; Hanwha's own announced crypto MOU, unlike the industry-sourced Ripple/Canary framework",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.yna.co.kr/view/AKR20260123028600008",
+   "side": "neutral",
+   "added": "2026-11-22T14:31:58-05:00"
   }
  ]
 }
