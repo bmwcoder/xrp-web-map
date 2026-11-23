@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-23T06:07:23-05:00",
+  "updated": "2026-11-23T10:35:04-05:00",
   "version": 3
  },
  "nodes": [
@@ -44758,7 +44758,7 @@
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-expands-global-custody-footprint-into-africa-with-absa-bank/",
+   "source": "https://cib.absa.africa/home/insights-and-events/absa-bank-partners-with-ripple-to-expand-digital-asset-custody-offering-in-south-africa/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -107476,11 +107476,11 @@
   {
    "from": "hanwha-am",
    "to": "solana",
-   "label": "announced an MOU with the Solana Foundation (Jan 23 2026): Solana education and Solana-based ETP launches; Hanwha's own announced crypto MOU, unlike the industry-sourced Ripple/Canary framework",
-   "grade": "B",
+   "label": "signed an MOU with the Solana Foundation (Jan 23 2026, Hanwha's own post); Korean press gives the scope as Solana education, Solana-based ETP launches and custody guidance; Korea has not yet cleared spot-crypto ETPs (FSC); Hanwha's own announced crypto MOU, unlike the industry-sourced Ripple/Canary framework",
+   "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.yna.co.kr/view/AKR20260123028600008",
+   "source": "https://www.linkedin.com/posts/hanwha-asset-management_hanwha-asset-partners-with-solana-foundation-activity-7420381695654412288-FLSK",
    "side": "neutral",
    "added": "2026-11-22T14:31:58-05:00"
   }
