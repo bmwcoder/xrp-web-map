@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-23T14:28:35-05:00",
+  "updated": "2026-11-23T18:36:12-05:00",
   "version": 3
  },
  "nodes": [
@@ -35673,7 +35673,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-and-securitize-enable-rlusd-smart-sontract-functionality-for-blackrock-buidl-and-vaneck-vbill-tokenized-funds/",
+   "source": "https://investors.securitize.io/news/news-details/2025/Ripple-and-Securitize-Enable-RLUSD-Smart-Contract-Functionality-for-BlackRocks-BUIDL-and-VanEcks-VBILL-Tokenized-Funds-09-23-2025/default.aspx",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -36058,7 +36058,7 @@
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/ripple-press/guggenheim-uses-zeconomy-to-issue-digital-paper-on-xrp-ledger/",
+   "source": "https://www.zeconomy.com/news/guggenheim-treasury-services-taps-zeconomy-platform-to-issue-digital-commercial-paper-on-the-xrp-ledger",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -37400,7 +37400,7 @@
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://ripple.com/ripple-press/mercado-bitcoin-expands-global-access-by-tokenizing-200m-in-regulated-financial-assets-on-the-xrp-ledger/",
+   "source": "https://www.mercadobitcoin.com.br/blog/novidades/ripple-e-mb/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -41404,7 +41404,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/new-partnerships-bring-rlusd-to-turkiye/",
+   "source": "https://tr.linkedin.com/posts/bitlo_bitlo-ile-ripple-aras%C4%B1ndaki-ripple-usd-anla%C5%9Fmas%C4%B1-activity-7473816480686657536-gp-7",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -41565,11 +41565,11 @@
   {
    "from": "virtu",
    "to": "rprime",
-   "label": "trading RWA swaps via Ripple Prime (2026-10)",
+   "label": "trading RWA perpetual swaps via Ripple Prime (Virtu's own post, Oct 19 2026)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-launches-support-for-institutions-to-access-real-world-asset-perpetual-swaps/",
+   "source": "https://www.linkedin.com/posts/virtu-financial_ripple-prime-opens-247-swaps-on-stocks-activity-7517946580222627840-3slL",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -51018,7 +51018,7 @@
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/national-bank-of-georgia-selects-ripple-as-key-partner-for-digital-lari-pilot-project/",
+   "source": "https://nbg.gov.ge/en/media/news/ripple-the-flagship-international-company-becomes-the-technology-partner-for-the-digital",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -67316,11 +67316,11 @@
   {
    "from": "absa",
    "to": "ripple-custody",
-   "label": "launched Absa Digital Asset Custody on Ripple custody tech (2026-09-21; deal announced 2025-10-15)",
+   "label": "launched Absa Digital Asset Custody (Absa release Sep 29, 2026), the custody service Absa announced with Ripple in Oct 2025; go-live Sep 21, 2026 and Ripple technology per Absa CIB to ITWeb",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-expands-global-custody-footprint-into-africa-with-absa-bank/",
+   "source": "https://www.absa.africa/our-stories/our-voices/2026/absa-becomes-first-bank-in-africa-to-secure-regulatory-approval-for-digital-asset-custody/",
    "side": "supports",
    "added": "2026-10-19T23:14:58-04:00"
   },
@@ -89954,11 +89954,11 @@
   {
    "from": "ripple",
    "to": "w3c",
-   "label": "co-chair of W3C Web Payments Working Group (Ripple boilerplate, 2016–2017)",
+   "label": "co-chair of W3C Web Payments Working Group (Adrian Hope-Bailie of Ripple, named by W3C, Oct 2015)",
    "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/ripple-press/financial-institutions-join-ripples-global-network/",
+   "source": "https://www.w3.org/press-releases/2015/webpaymentswg/",
    "side": "supports",
    "added": "2026-10-20T01:02:49-04:00"
   },
