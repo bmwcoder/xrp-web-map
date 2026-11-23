@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-22T18:36:04-05:00",
+  "updated": "2026-11-23T02:34:03-05:00",
   "version": 3
  },
  "nodes": [
@@ -48806,15 +48806,15 @@
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://www.linkedin.com/posts/ripple_ripple-caps-record-year-with-200-million-activity-6613757421372485632-MWd3",
+   "source": "https://courts.delaware.gov/Opinions/Download.aspx?id=318100",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "sbi",
    "to": "ripple-series-c-2019",
-   "label": "invested (Dec 2019)",
-   "grade": "A",
+   "label": "invested (Dec 2019, per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://www.linkedin.com/posts/ripple_ripple-caps-record-year-with-200-million-activity-6613757421372485632-MWd3",
@@ -48824,8 +48824,8 @@
   {
    "from": "route66",
    "to": "ripple-series-c-2019",
-   "label": "invested (Dec 2019)",
-   "grade": "A",
+   "label": "invested (Dec 2019, round per Ripple; Route 66's own portfolio page lists Ripple Labs without naming the round)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://www.linkedin.com/posts/ripple_ripple-caps-record-year-with-200-million-activity-6613757421372485632-MWd3",
