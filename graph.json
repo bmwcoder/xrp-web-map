@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-23T10:35:04-05:00",
+  "updated": "2026-11-23T14:28:35-05:00",
   "version": 3
  },
  "nodes": [
@@ -15833,11 +15833,12 @@
    "label": "MXNB (Bitso peso stablecoin)",
    "type": "asset",
    "handle": "",
-   "summary": "Bitso's MXN-backed stablecoin MXNB, launching on XRPL Permissioned DEX per Ripple-Bitso expanded partnership (2026).",
+   "summary": "Bitso's MXN-backed stablecoin MXNB. Ripple announced it for the XRPL Permissioned DEX (Jun 2026, per Ripple). Bitso's own X account said on Nov 18 2026: 'Por ahora MXNB funciona en las redes Arbitrum y Base, XRPL no está entre ellas' (for now MXNB works on Arbitrum and Base; XRPL is not among them), and on Nov 17 2026 that MXNB is coming to Solana. Bitso's business product page lists Arbitrum, Ethereum and Avalanche. XRPL Meta shows only 2 MXNB issuers with no Domain or KYC (4 holders each); neither is shown to be Bitso's (checked 2026-11-23).",
    "grade": "A",
    "sources": [
     "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
-    "https://s1.xrplmeta.org/tokens?name_like=MXNB&limit=10"
+    "https://s1.xrplmeta.org/tokens?name_like=MXNB&limit=10",
+    "https://x.com/Bitso/status/2123164056710221886"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "rlusd"
@@ -28867,7 +28868,7 @@
    "label": "ConfidentialTransfer amendment (XLS-96)",
    "type": "event",
    "handle": "",
-   "summary": "XRPL amendment from rippled 3.3.0 that shields MPT balances and transfer amounts using EC-ElGamal encryption and zero-knowledge proofs, while issuers, auditors or other designated parties can still verify total supply. Status as of 2026-10-20 11:26 ET: open for voting, not enabled; 19 of 32 validators vote yes against a threshold of 25, with no majority (XRPScan). xrpl.org's table, a snapshot from Sep 16, 2026, showed 31.43%.",
+   "summary": "XRPL amendment from rippled 3.3.0 that shields MPT balances and transfer amounts using EC-ElGamal encryption and zero-knowledge proofs, while issuers, auditors or other designated parties can still verify total supply. Status as of 2026-11-23 13:30 ET: open for voting, not enabled; 22 of 34 validators heard vote yes, XRPScan threshold 27 (computed on the 34 heard, not on the 35-key UNL).",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/amendments",
