@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T02:30:46-05:00",
+  "updated": "2026-11-24T08:36:47-05:00",
   "version": 3
  },
  "nodes": [
@@ -107495,6 +107495,39 @@
    "source": "https://assets-prod.mxnb.mx/commons/attestation-reports/2026/mxnb_attestation_q3_2026_en.pdf",
    "side": "neutral",
    "added": "2026-11-23T20:34:48-05:00"
+  },
+  {
+   "from": "usdy",
+   "to": "stellar",
+   "label": "Stellar is one of the nine USDY networks on Ondo's USDY product page (Ethereum, Mantle, Solana, Sui, Arbitrum, Stellar, Sei, Tempo, BNB Chain; checked Nov 24 2026); the XRP Ledger is not among them",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ondo.finance/usdy",
+   "side": "neutral",
+   "added": "2026-11-24T08:35:31-05:00"
+  },
+  {
+   "from": "ousg",
+   "to": "xrpl",
+   "label": "XRPL is one of four OUSG networks on Ondo's OUSG product page (Ethereum, Polygon, Solana, XRPL; checked Nov 24 2026); 1,584,220.17 OUSG outstanding on the XRPL issuer, unchanged since Oct 20 2026",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://ondo.finance/ousg",
+   "side": "neutral",
+   "added": "2026-11-24T08:35:31-05:00"
+  },
+  {
+   "from": "onxrp",
+   "to": "amd-lending-v1-1",
+   "label": "its validator (onxrp.com) now votes yes on LendingProtocolV1_1 but not on LendingProtocol or SingleAssetVault; 26 yes votes / threshold 28 / 35 validators as of 2026-11-24 07:37 ET",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/validatorregistry",
+   "side": "neutral",
+   "added": "2026-11-24T08:35:31-05:00"
   }
  ]
 }
