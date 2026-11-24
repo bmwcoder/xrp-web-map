@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-23T18:36:12-05:00",
+  "updated": "2026-11-23T20:35:59-05:00",
   "version": 3
  },
  "nodes": [
@@ -35196,7 +35196,7 @@
   {
    "from": "evernorth",
    "to": "xrpl",
-   "label": "plans to run XRPL validators; RLUSD DeFi on-ramp",
+   "label": "plans to run XRPL validators; RLUSD DeFi on-ramp (Oct 20, 2025 launch release)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -56035,7 +56035,7 @@
    "strength": 3,
    "key": false,
    "source": "https://s1.xrplmeta.org/tokens?name_like=MXNB&limit=10",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -67294,7 +67294,7 @@
   {
    "from": "riyad-bank",
    "to": "ripple",
-   "label": "Jeel (innovation arm) sandbox PoC partnership (2026-01-26); exploratory, no XRP confirmed",
+   "label": "Jeel (innovation arm) MOU with Ripple plus sandbox PoCs (2026-01-26); exploratory, no XRP confirmed",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -96609,7 +96609,7 @@
   {
    "from": "amd-confidential-transfer",
    "to": "xrpl",
-   "label": "mainnet status as of 2026-10-20: open for voting, 19/32 yes vs 25 needed",
+   "label": "mainnet status as of 2026-11-23: open for voting, not enabled; 22 yes of 34 validators heard by XRPScan, threshold 27 (XRPScan field; 29 of the 35-key default UNL, derived)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -100580,7 +100580,7 @@
   {
    "from": "rippled",
    "to": "amd-smartescrow",
-   "label": "develop-branch features.macro registers SmartEscrow as Supported::No, VoteBehavior::DefaultNo (placeholder, not votable; checked 2026-10-23); XLS-0100 still Draft",
+   "label": "develop-branch features.macro registers SmartEscrow as Supported::No, VoteBehavior::DefaultNo (placeholder, not votable; checked 2026-11-23); XLS-0100 still Draft",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -107484,6 +107484,17 @@
    "source": "https://www.linkedin.com/posts/hanwha-asset-management_hanwha-asset-partners-with-solana-foundation-activity-7420381695654412288-FLSK",
    "side": "neutral",
    "added": "2026-11-22T14:31:58-05:00"
+  },
+  {
+   "from": "mxnb",
+   "to": "arc",
+   "label": "BDO Mexico's Q3 2026 MXNB attestation (as of Sep 30 2026, dated Oct 14) checked circulating supply on Arc alongside Ethereum, Arbitrum, Avalanche, Polygon and Base; the XRP Ledger is not among the chains checked",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://assets-prod.mxnb.mx/commons/attestation-reports/2026/mxnb_attestation_q3_2026_en.pdf",
+   "side": "neutral",
+   "added": "2026-11-23T20:34:48-05:00"
   }
  ]
 }
