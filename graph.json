@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-23T20:35:59-05:00",
+  "updated": "2026-11-24T02:30:46-05:00",
   "version": 3
  },
  "nodes": [
@@ -44551,7 +44551,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes.20260818_EvolvinglistofDLToperators.en.pdf.pdf",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -45508,7 +45508,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226046169/form6-k.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -54253,7 +54253,7 @@
    "strength": 2,
    "key": false,
    "source": "https://x.com/_Mr_Pool_/status/1906186487533592637",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -54385,7 +54385,7 @@
    "strength": 1,
    "key": false,
    "source": "https://cryptopotato.com/could-elon-musks-x-money-use-xrp-xrpl-foundation-cto-weighs-in/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -57300,7 +57300,7 @@
    "strength": 3,
    "key": true,
    "source": "https://www.federalreserve.gov/paymentsystems/account-and-access-disclosure/requestor-data.csv",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -61557,7 +61557,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.fec.gov/data/candidate/S6MA00304/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -61568,7 +61568,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.fec.gov/data/independent-expenditures/?committee_id=C00848440&two_year_transaction_period=2026",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -61579,7 +61579,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.fec.gov/data/independent-expenditures/?committee_id=C00836221&two_year_transaction_period=2026",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -65814,7 +65814,7 @@
    "strength": 2,
    "key": false,
    "source": "https://zandotc.com/aed-stablecoin/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:14:58-04:00"
   },
   {
@@ -77727,7 +77727,7 @@
    "strength": 1,
    "key": false,
    "source": "https://api.xrpscan.com/api/v1/validatorregistry",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -88463,7 +88463,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ondo.finance/.well-known/xrp-ledger.toml",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T00:59:43-04:00"
   },
   {
@@ -90806,7 +90806,7 @@
    "strength": 1,
    "key": false,
    "source": "https://1click.chaindefuser.com/v0/tokens",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T01:11:52-04:00"
   },
   {
@@ -92940,7 +92940,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.esma.europa.eu/sites/default/files/2024-12/EMTWP.csv",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
   {
@@ -93919,7 +93919,7 @@
    "strength": 2,
    "key": false,
    "source": "https://data.sec.gov/submissions/CIK0001862935.json",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T02:33:14-04:00"
   },
   {
@@ -95690,7 +95690,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/claytantor/xrpl-poc-python",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95701,7 +95701,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/audiotarky",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95712,7 +95712,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/radynamics",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95723,7 +95723,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/Vivid-IOV-Labs/peerkat-nft-viewer",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95745,7 +95745,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/Interstellar-Trinity/xrpl4gd",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95756,7 +95756,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/cryptum-official",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95767,7 +95767,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/kodelabio",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95778,7 +95778,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/XRPhone",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95800,7 +95800,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/x-Tokenize",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95822,7 +95822,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/ohonesix/XRPL-Discord-Bot",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95833,7 +95833,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/rsteimen/CryptoIso20022Interop",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95844,7 +95844,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/VBoureaud/FoodTrustSimulator",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95855,7 +95855,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/petproof",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95866,7 +95866,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/poofpayments",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95877,7 +95877,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/wshbair/blockly2hooks",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95888,7 +95888,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/TusharPardhe/medledger-docs",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95899,7 +95899,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/thingsgoonline",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95910,7 +95910,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/conFIEL",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95921,7 +95921,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/kaiju-web3-labs",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95932,7 +95932,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/covecredit",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95943,7 +95943,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/evm-finance/XRP",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95954,7 +95954,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/Safehaven-io",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95965,7 +95965,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/gmosx/xrpl-sdk-rust",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -95976,7 +95976,7 @@
    "strength": 2,
    "key": false,
    "source": "https://github.com/lucca65/xrpl",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T12:25:42-04:00"
   },
   {
@@ -97109,7 +97109,7 @@
    "strength": 2,
    "key": false,
    "source": "https://efts.sec.gov/LATEST/search-index?q=%22Ripple%22&entityName=RocketFuel",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T14:29:06-04:00"
   },
   {
@@ -103346,7 +103346,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.brazabank.com.br/termos-e-condicoes-especificos/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-26T14:23:36-04:00"
   },
   {
@@ -103555,7 +103555,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.db.com/news/detail/20260916-deutsche-bank-to-launch-digital-asset-custody-solution-for-institutional-and-corporate-clients",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-27T00:29:00-04:00"
   },
   {
@@ -105348,7 +105348,7 @@
    "strength": 2,
    "key": false,
    "source": "https://developers.circle.com/cctp/cctp-supported-blockchains",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-11-05T10:25:27-05:00"
   },
   {
