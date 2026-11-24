@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T14:29:31-05:00",
+  "updated": "2026-11-24T18:32:26-05:00",
   "version": 3
  },
  "nodes": [
@@ -32324,6 +32324,33 @@
     "https://www.coindesk.com/policy/2023/05/25/fahrenheit-wins-bid-to-acquire-assets-of-insolvent-crypto-lender-celsius"
    ],
    "added": "2026-11-21T20:32:31-05:00"
+  },
+  {
+   "id": "blackrock-hkd-digital-liquidity-fund",
+   "label": "BlackRock HKD Digital Liquidity Fund (tokenized classes)",
+   "type": "asset",
+   "handle": "",
+   "summary": "BlackRock Premier Funds II sub-fund, a Hong Kong SFC-authorised HKD money market fund (authorised Sep 2026) with tokenized 'OnChain' unit classes. Standard Chartered Bank (Hong Kong) is administrator, registrar, token custodian, tokenization agent and digital platform operator, on a permissioned platform using Ethereum smart contracts as the primary blockchain (prospectus and key facts). Launched with about USD 100M from Ant International and Standard Chartered (Ledger Insights, Nov 2026).",
+   "grade": "A",
+   "sources": [
+    "https://www.blackrock.com/hk/en/literature/prospectus/bpfii-blackrock-hkd-digital-liquidity-fund-prospectus-hk-en.pdf",
+    "https://www.blackrock.com/hk/en/literature/key-fact-statement/bpfii-blackrock-hkd-digital-liquidity-fund-tokenized-classes-product-key-facts-hk-en.pdf",
+    "https://www.ledgerinsights.com/blackrock-launches-100m-hkd-tokenized-mmf-with-ant-intl-stanchart-as-investors/"
+   ],
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "id": "doj-binance-forfeiture-2026-11-23",
+   "label": "DOJ civil forfeiture of Binance-hack USDC (D.D.C., Nov 23 2026)",
+   "type": "event",
+   "handle": "",
+   "summary": "On Nov 23 2026 the US Attorney's Office for D.C. and DOJ filed a verified in rem civil forfeiture complaint (Civ. No. 26-4150) for more than $1.1B of USDC tied to the Oct 29 2026 Binance hack, attributed to Lazarus/APT38. The Defendant Property is the USDC at 36 addresses on 18 blockchains (Ethereum, Base, Arbitrum, Polygon, Avalanche, OP, World Chain, Solana, HyperEVM, Monad, Plasma, Unichain, Arc, Celo, Linea, Sei, Sonic, XDC). The schedule lists no XRP Ledger address, no XRP and no RLUSD. Restrained under a Nov 12 TRO served on Circle; Circle assisted.",
+   "grade": "A",
+   "sources": [
+    "https://www.justice.gov/opa/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-stolen-north-korean",
+    "https://www.justice.gov/usao-dc/media/1473936/dl"
+   ],
+   "added": "2026-11-24T18:29:07-05:00"
   }
  ],
  "edges": [
@@ -35429,9 +35456,9 @@
   {
    "from": "galaxy",
    "to": "xrp",
-   "label": "holds ~64M XRP",
-   "grade": "C",
-   "strength": 1,
+   "label": "Q2 2025 10-Q (Jun 30 2025) itemizes 15,387,541 XRP, fair value $34.4M (cost $33.6M); the ~64M figure is not in the filing",
+   "grade": "A",
+   "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1859392/000185939225000030/glxy-20250630.htm",
    "side": "supports",
@@ -35451,9 +35478,9 @@
   {
    "from": "virtu",
    "to": "xrp",
-   "label": "holds ~22M XRP",
-   "grade": "X",
-   "strength": 1,
+   "label": "Q2 2025 10-Q (Jun 30 2025) itemizes 10,049,381 XRP, fair value $22.79M ($22,791K; cost $22,778K); later 10-Qs do not itemize XRP",
+   "grade": "A",
+   "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1592386/000159238625000123/virt-20250630.htm",
    "side": "supports",
@@ -42029,8 +42056,8 @@
   {
    "from": "citadel-sec",
    "to": "ripple-round-2025",
-   "label": "co-lead investor (2025)",
-   "grade": "A",
+   "label": "co-lead investor (2025; per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
@@ -43580,8 +43607,8 @@
   {
    "from": "santander",
    "to": "seriesa2015",
-   "label": "Santander InnoVentures joined (Oct 6, 2015)",
-   "grade": "A",
+   "label": "Santander InnoVentures joined (Oct 6, 2015; per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-adds-santander-innoventures-fund-as-series-a-investor/",
@@ -44746,7 +44773,7 @@
   {
    "from": "absa",
    "to": "metaco",
-   "label": "built Absa Digital Asset Custody on Ripple Custody (live 2026-09-21)",
+   "label": "built Absa Digital Asset Custody on Ripple Custody (offered in partnership with Ripple, per Absa CIB's own page)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -48585,8 +48612,8 @@
   {
    "from": "cme-ventures",
    "to": "seriesa2015",
-   "label": "invested (May 2015)",
-   "grade": "A",
+   "label": "invested (May 2015; per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-labs-closes-28-million-series-a-funding-round/",
@@ -48893,8 +48920,8 @@
   {
    "from": "marshall-wace",
    "to": "ripple-round-2025",
-   "label": "invested (Nov 2025, $40B)",
-   "grade": "A",
+   "label": "invested (Nov 2025, $40B; per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
@@ -49839,8 +49866,8 @@
   {
    "from": "archax",
    "to": "rlusd",
-   "label": "launch listing",
-   "grade": "A",
+   "label": "launch listing (per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/raising-the-standard-for-stablecoins-ripple-usd-launches-globally/",
@@ -50664,8 +50691,8 @@
   {
    "from": "r3",
    "to": "xrp",
-   "label": "interbank XRP trial with 12 member banks (2016-10-20)",
-   "grade": "A",
+   "label": "interbank XRP trial with 12 member banks (2016-10-20; per Ripple, R3's own page not read)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/r3-trials-interbank-cross-border-payments-ripples-digital-asset-xrp/",
@@ -51357,11 +51384,11 @@
   {
    "from": "bdacs",
    "to": "metaco",
-   "label": "Ripple Custody partner, Korea (2025-02-26)",
+   "label": "BDACS's own post (2025-02-27): partners with Ripple for institutional-grade custody of XRP, RLUSD and other digital assets in Korea; use of Ripple Custody software per Ripple (2025-02-26)",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/bdacs-signs-digital-asset-custody-partnership-with-ripple/",
+   "source": "https://www.linkedin.com/posts/bdacs_crypto-blockchain-xrp-activity-7300668942417543168-fobH",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -54200,7 +54227,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.federalreserve.gov/paymentsystems/fednow_about.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -57484,8 +57511,8 @@
   {
    "from": "banco-rendimento",
    "to": "ripplenet",
-   "label": "RippleNet member 2019; first RippleNet Cloud bank 2020-06-15",
-   "grade": "A",
+   "label": "RippleNet member 2019; first RippleNet Cloud bank 2020-06-15 (per Ripple, whose release Rendimento's blog reposts verbatim)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripplenet-cloud-reaches-new-milestone-signs-first-bank-customer/",
@@ -57880,11 +57907,11 @@
   {
    "from": "credit-agricole",
    "to": "ripplenet",
-   "label": "joined RippleNet (announced 2017-10-10)",
+   "label": "Crédit Agricole's own release (2018-01-26): 6-month test of Ripple-developed private blockchain for CHF cross-border salary transfers (Crédit Agricole Payment Services; Crédit Agricole des Savoie and Crédit Agricole Next Bank); RippleNet membership date (2017-10-10) per Ripple",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/insights/ripplenet-grows-to-over-100-financial-institutions/",
+   "source": "https://pressroom.credit-agricole.com/news/credit-agricole-tests-out-blockchain-technology-for-cross-border-credit-transfers-c396-94727.html",
    "side": "supports",
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -61202,8 +61229,8 @@
   {
    "from": "csdbr",
    "to": "amd-mptokens",
-   "label": "mirrors BTG Pactual fund shares as MPTs",
-   "grade": "A",
+   "label": "mirrors BTG Pactual fund shares as MPTs (per Ripple, CSDBR's site only reposts the Valor article)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/csdbr-and-ripple-use-the-xrpl-blockchain-to-expand-brazils-financial-market-infrastructure/",
@@ -62065,7 +62092,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.vara.ae/en/licenses-and-register/public-register/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62076,7 +62103,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.fsc.go.kr/eng/pr010101/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62087,7 +62114,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.cbb.gov.bh/licensing-directory/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62098,7 +62125,7 @@
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/legal/compliance/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62109,7 +62136,7 @@
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/legal/compliance/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62120,7 +62147,7 @@
    "strength": 1,
    "key": false,
    "source": "https://fintrac-canafe.canada.ca/msb-esm/reg-eng",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62131,7 +62158,7 @@
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-and-bitso-expand-partnership/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62153,7 +62180,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.hkma.gov.hk/eng/regulatory-resources/registers/register-of-licensed-stablecoin-issuers/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62373,7 +62400,7 @@
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/scb-partners-with-ripple-extending-scb-global-payment-strategy/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -62395,7 +62422,7 @@
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-expands-into-the-kingdom-of-bahrain-through-strategic-partnership-with-bahrain-fintech-bay/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:05:08-04:00"
   },
   {
@@ -64689,8 +64716,8 @@
   {
    "from": "ripple",
    "to": "bcb",
-   "label": "DREX interoperability research via Fenasbac/UFRJ",
-   "grade": "A",
+   "label": "DREX interoperability research via Fenasbac/UFRJ (per Ripple)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-joins-fenasbacs-next-accelerator-to-advance-blockchain-innovation/",
@@ -66581,8 +66608,8 @@
   {
    "from": "catalyst-cu",
    "to": "odl",
-   "label": "xRapid production contract (2018-10-02)",
-   "grade": "A",
+   "label": "xRapid production contract (2018-10-02; per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-highlights-record-year-xrapid-now-commercially-available/",
@@ -66867,8 +66894,8 @@
   {
    "from": "gcc-remit",
    "to": "odl",
-   "label": "new/upgraded ODL customer (2022-11-16)",
-   "grade": "A",
+   "label": "new/upgraded ODL customer (2022-11-16; per Ripple)",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-expands-on-demand-liquidity-to-nearly-40-payout-markets-adds-machine-learning-capabilities/",
@@ -67164,8 +67191,8 @@
   {
    "from": "astropay",
    "to": "xrpl",
-   "label": "launched Ripple LatAm gateway (2014)",
-   "grade": "A",
+   "label": "launched Ripple LatAm gateway (2014; per Ripple)",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/ripple-press/astropay-launches-first-latin-american-money-service-business-on-ripple-protocol/",
@@ -70332,8 +70359,8 @@
   {
    "from": "lemonway",
    "to": "odl",
-   "label": "first French ODL customer (2022-10-11)",
-   "grade": "A",
+   "label": "first French ODL customer (2022-10-11; per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-continues-european-expansion-bringing-the-benefits-of-on-demand-liquidity-to-france-and-sweden",
@@ -81145,8 +81172,8 @@
   {
    "from": "moneynet-int",
    "to": "ripplenet",
-   "label": "still live in Jun 2021: \"long-standing customer\" launching UK/EU→Brazil corridors (2021-06-30)",
-   "grade": "A",
+   "label": "still live in Jun 2021: \"long-standing customer\" launching UK/EU→Brazil corridors (2021-06-30; per Ripple)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-appoints-sendi-young-as-managing-director-of-europe/",
@@ -83070,8 +83097,8 @@
   {
    "from": "immix",
    "to": "ripple-investments",
-   "label": "listed in Ripple's investment portfolio (markets category) on ripple.com/investments (Oct 2026)",
-   "grade": "A",
+   "label": "listed in Ripple's investment portfolio (markets category) on ripple.com/investments (Oct 2026; per Ripple, Ripple's own portfolio page)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/investments/",
@@ -84021,7 +84048,7 @@
    "strength": 2,
    "key": false,
    "source": "https://centralbank.ae/media/hw0lreyi/cb-register-august-2026.pdf",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
   {
@@ -86172,8 +86199,8 @@
   {
    "from": "jp-senshu-ikeda-bank",
    "to": "japan-bank-consortium",
-   "label": "named consortium member; RC Cloud pilot completed (2017-03-02)",
-   "grade": "A",
+   "label": "named consortium member; RC Cloud pilot completed (2017-03-02; per Ripple, member list is in Ripple's release)",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
@@ -86447,8 +86474,8 @@
   {
    "from": "jp-hachijuni-bank",
    "to": "japan-bank-consortium",
-   "label": "named consortium member; RC Cloud pilot completed (2017-03-02)",
-   "grade": "A",
+   "label": "named consortium member; RC Cloud pilot completed (2017-03-02; per Ripple, member list is in Ripple's release)",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
@@ -86821,8 +86848,8 @@
   {
    "from": "bahnhof",
    "to": "xrpl",
-   "label": "new XRPL validator operator (named 2017-07-17)",
-   "grade": "A",
+   "label": "new XRPL validator operator (named 2017-07-17; per Ripple)",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/xrp-ledger-decentralizes-expansion-55-validator-nodes/",
@@ -91232,8 +91259,8 @@
   {
    "from": "hanyang",
    "to": "ubri",
-   "label": "UBRI partner university, advisory council seat (2025-10-27)",
-   "grade": "A",
+   "label": "UBRI partner university, advisory council seat (2025-10-27; per Ripple)",
+   "grade": "B",
    "strength": 1,
    "key": false,
    "source": "https://ripple.com/insights/ripple-expands-academic-collaboration-with-usf-partnership-and-ubri-renewals-in-rlusd/",
@@ -98992,7 +99019,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
   {
@@ -99003,7 +99030,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
   {
@@ -99014,7 +99041,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
   {
@@ -99025,7 +99052,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.circle.com/pressroom/circle-announces-founding-validator-cohort-and-major-integrations-for-arc-ahead-of-september-16-mainnet-launch",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
   {
@@ -107563,6 +107590,171 @@
    "source": "https://www.evernorth.xyz/blog-post-11-24-2026",
    "side": "contradicts",
    "added": "2026-11-24T14:28:17-05:00"
+  },
+  {
+   "from": "absa",
+   "to": "metaco",
+   "label": "go-live 2026-09-21 per ITWeb (Sep 30 2026): Absa CIB confirmed the date to ITWeb; Absa's own article gives no date",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://itweb.africa/article/absa-sets-digital-asset-custody-milestone/WnpNgM21yNz7VrGd",
+   "side": "supports",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "blackrock",
+   "to": "arc",
+   "label": "named by Circle as founding Arc validator (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "galaxy",
+   "to": "arc",
+   "label": "named by Circle as founding Arc validator (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "visa",
+   "to": "arc",
+   "label": "named by Circle as founding Arc validator (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "arc",
+   "label": "named by Circle as founding Arc validator (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "bny",
+   "to": "arc",
+   "label": "named by Circle as listed as an Arc bank participant (private mainnet access) (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "hsbc",
+   "to": "arc",
+   "label": "named by Circle as listed as an Arc bank participant (private mainnet access) (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "btg",
+   "to": "arc",
+   "label": "named by Circle as listed as an Arc bank participant (private mainnet access) (release, Sep 16 2026); also has a Ripple/XRPL tie, so dual-rail, and no statement choosing Arc over XRPL",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.circle.com/pressroom/circle-launches-arc-mainnet-an-economic-operating-system-for-the-internet",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "blackrock",
+   "to": "blackrock-hkd-digital-liquidity-fund",
+   "label": "manager of the fund; tokenized HKD money market units, SFC-authorised Sep 2026",
+   "grade": "A",
+   "strength": 4,
+   "key": false,
+   "source": "https://www.blackrock.com/hk/en/literature/prospectus/bpfii-blackrock-hkd-digital-liquidity-fund-prospectus-hk-en.pdf",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "stanchart",
+   "to": "blackrock-hkd-digital-liquidity-fund",
+   "label": "tokenization agent, token custodian and digital platform operator (prospectus)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.blackrock.com/hk/en/literature/prospectus/bpfii-blackrock-hkd-digital-liquidity-fund-prospectus-hk-en.pdf",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "blackrock-hkd-digital-liquidity-fund",
+   "to": "ethereum",
+   "label": "tokenized units run on Ethereum smart contracts as the primary blockchain on StanChart's permissioned platform (prospectus and key facts); no XRPL mention. Fund-level lean-against only",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.blackrock.com/hk/en/literature/key-fact-statement/bpfii-blackrock-hkd-digital-liquidity-fund-tokenized-classes-product-key-facts-hk-en.pdf",
+   "side": "contradicts",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "ant-international",
+   "to": "blackrock-hkd-digital-liquidity-fund",
+   "label": "launch investor alongside Standard Chartered, about USD 100M combined (Ledger Insights)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.ledgerinsights.com/blackrock-launches-100m-hkd-tokenized-mmf-with-ant-intl-stanchart-as-investors/",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "doj-binance-forfeiture-2026-11-23",
+   "to": "binance-hack-oct2026",
+   "label": "civil forfeiture complaint (Civ. No. 26-4150) for the USDC at 36 addresses on 18 chains; complaint ¶1 says Binance representatives confirmed the transfers were unauthorized; no XRPL, XRP or RLUSD in the schedule",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.justice.gov/usao-dc/media/1473936/dl",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "circle",
+   "to": "doj-binance-forfeiture-2026-11-23",
+   "label": "issuer of the USDC; DOJ release: 'Circle Internet Financial provided valuable assistance'; restraint served on Circle Nov 12 2026",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.justice.gov/opa/pr/united-states-files-action-recover-more-1-billion-cryptocurrency-assets-stolen-north-korean",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "binance",
+   "to": "doj-binance-forfeiture-2026-11-23",
+   "label": "Binance's own post (Nov 24 2026): 'coordinating closely with the U.S. Department of Justice' and expects to cooperate through the asset forfeiture process; DOJ release: the action is part of the effort to assist Binance in recovering over $6B",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/binance/status/2125198606139633797",
+   "side": "neutral",
+   "added": "2026-11-24T18:29:07-05:00"
   }
  ]
 }
