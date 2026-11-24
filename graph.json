@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T10:31:24-05:00",
+  "updated": "2026-11-24T14:29:31-05:00",
   "version": 3
  },
  "nodes": [
@@ -10419,11 +10419,12 @@
    "label": "New Margin Holding Limited",
    "type": "company",
    "handle": "",
-   "summary": "Agreed buyer (2026-01-02) of Seamless Group's 60% Tranglo stake for $400M; deal subject to Bank Negara Malaysia approval, auto-terminates if not closed by 2026-09-30.",
+   "summary": "Agreed buyer (2026-01-02) of Seamless Group's 60% Tranglo stake for $400M; deal subject to Bank Negara Malaysia approval. The SPA lapsed on 2026-09-30 and was reinstated on 2026-10-29 with a longstop of 2027-03-31; New Margin also agreed in principle to buy 100% of Tranglo for US$666,666,666.67, with Ripple Markets APAC's 66,977 shares left to a tripartite agreement targeted for 2026-12-31 (Currenc 6-K, Oct 30 2026).",
    "grade": "A",
    "sources": [
     "https://investors.currencgroup.com/English/news-and-events/news-details/2026/Currenc-Group-Announces-Strategic-Divestment-of-Controlling-Interest-in-Tranglo-to-New-Margin-Holding-for-US400-Million/default.aspx",
-    "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm"
+    "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm",
+    "https://www.sec.gov/Archives/edgar/data/1862935/000149315226049360/form6-k.htm"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -28868,12 +28869,13 @@
    "label": "ConfidentialTransfer amendment (XLS-96)",
    "type": "event",
    "handle": "",
-   "summary": "XRPL amendment from rippled 3.3.0 that shields MPT balances and transfer amounts using EC-ElGamal encryption and zero-knowledge proofs, while issuers, auditors or other designated parties can still verify total supply. Status as of 2026-11-23 13:30 ET: open for voting, not enabled; 22 of 34 validators heard vote yes, XRPScan threshold 27 (computed on the 34 heard, not on the 35-key UNL).",
+   "summary": "XRPL amendment from rippled 3.3.0 that shields MPT balances and transfer amounts using EC-ElGamal encryption and zero-knowledge proofs, while issuers, auditors or other designated parties can still verify total supply. Status as of 2026-11-24 13:33 ET: open for voting, not enabled; 22 yes of 35 validators heard; 29 needed (rippled passes only when votes exceed the threshold value, floor(35 x 80%) = 28).",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/amendments",
     "https://xrpl.org/resources/known-amendments",
-    "https://opensource.ripple.com/docs/xls-96-confidential-transfers"
+    "https://opensource.ripple.com/docs/xls-96-confidential-transfers",
+    "https://github.com/XRPLF/rippled/blob/3.4.1/src/xrpld/app/misc/detail/AmendmentTable.cpp"
    ],
    "added": "2026-10-20T12:25:42-04:00"
   },
@@ -35982,7 +35984,7 @@
    "strength": 3,
    "key": false,
    "source": "https://docs.ondo.finance/general-access-products/usdy/basics",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -40987,7 +40989,7 @@
    "strength": 2,
    "key": false,
    "source": "https://listedon.org/en/ticker/RLUSD",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -41009,7 +41011,7 @@
    "strength": 2,
    "key": false,
    "source": "https://listedon.org/en/ticker/RLUSD",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -41372,7 +41374,7 @@
    "strength": 2,
    "key": false,
    "source": "https://listedon.org/en/ticker/RLUSD",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -43055,7 +43057,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/files/rules/interp/2026/33-11412.pdf",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -45503,11 +45505,11 @@
   {
    "from": "currenc",
    "to": "tranglo",
-   "label": "$400M sale of the 100,465 Tranglo shares to New Margin (SPA 2026-01-02; lapses if not closed by 2026-09-30) is not reported closed: the Oct 2026 6-K still has Seamless owning them, now under a Ripple Markets APAC charging order. Termination not disclosed.",
+   "label": "$400M SPA for Seamless's 100,465 Tranglo shares (60%) lapsed on 2026-09-30 and was reinstated by a binding letter of 2026-10-29 with a new longstop of 2027-03-31 (Currenc 6-K, Oct 30 2026)",
    "grade": "B",
    "strength": 3,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226046169/form6-k.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226049360/form6-k.htm",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -47571,11 +47573,11 @@
   {
    "from": "new-margin",
    "to": "tranglo",
-   "label": "agreed buyer of Seamless's 60% stake (long-stop 2026-09-30)",
+   "label": "buyer under the reinstated SPA (60%, longstop 2027-03-31); agreed in principle (2026-10-29) to buy 100% of Tranglo for US$666.7M, with Ripple Markets APAC's 40% left to a separate tripartite agreement",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226049360/form6-k.htm",
    "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -58774,7 +58776,7 @@
    "strength": 1,
    "key": false,
    "source": "https://docs.ripple.com/products/payments-odl/introduction/concepts/on-demand-liquidity/connecting-to-digital-asset-exchanges",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -76836,7 +76838,7 @@
    "strength": 1,
    "key": false,
    "source": "https://listedon.org/en/ticker/RLUSD",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -80290,7 +80292,7 @@
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20190425154805/https://ripple.com/ripplenet/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -80334,7 +80336,7 @@
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20190425154805/https://ripple.com/ripplenet/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -80345,7 +80347,7 @@
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20210614192641/https://ripple.com/customers/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -80356,7 +80358,7 @@
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20210614192641/https://ripple.com/customers/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -80378,7 +80380,7 @@
    "strength": 1,
    "key": false,
    "source": "https://web.archive.org/web/20210614192641/https://ripple.com/customers/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -80400,7 +80402,7 @@
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20190927134910/https://www.ripple.com/customers",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -80411,7 +80413,7 @@
    "strength": 1,
    "key": false,
    "source": "https://web.archive.org/web/20160114094303/http://ripple.com/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:11:15-04:00"
   },
   {
@@ -89970,7 +89972,7 @@
    "strength": 2,
    "key": false,
    "source": "https://web.archive.org/web/20181229220457/https://ripple.com/ripplenet/",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T01:02:49-04:00"
   },
   {
@@ -96609,7 +96611,7 @@
   {
    "from": "amd-confidential-transfer",
    "to": "xrpl",
-   "label": "mainnet status as of 2026-11-23: open for voting, not enabled; 22 yes of 34 validators heard by XRPScan, threshold 27 (XRPScan field; 29 of the 35-key default UNL, derived)",
+   "label": "mainnet status as of 2026-11-24: open for voting, not enabled; 22 yes of 35 validators heard; 29 needed (threshold value 28; rippled requires votes > threshold)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -99551,7 +99553,7 @@
    "strength": 1,
    "key": false,
    "source": "https://x.com/Yellow/status/2112755761801781528",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-21T20:31:21-04:00"
   },
   {
@@ -103522,7 +103524,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.deraktionaer.de/artikel/krypto/xrp-deutsche-bank-setzt-auf-ripple-power-20395607.html",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-27T00:29:00-04:00"
   },
   {
@@ -107528,6 +107530,39 @@
    "source": "https://api.xrpscan.com/api/v1/validatorregistry",
    "side": "neutral",
    "added": "2026-11-24T08:35:31-05:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "xrpl",
+   "label": "Q3 2026 XRP Liquidity Report (Nov 24 2026): XRPL order-book volume 4.51M XRP/day vs 1.63M a year earlier; top 10 accounts 65% of it (per Evernorth, Dune data)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-11-24-2026",
+   "side": "supports",
+   "added": "2026-11-24T14:28:17-05:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "rlusd",
+   "label": "Q3 2026 report: RLUSD on XRPL averaged $937M and closed Q3 at $1.15B; XRPL 45% of XRPL+Ethereum supply at quarter-end (per Evernorth)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-11-24-2026",
+   "side": "supports",
+   "added": "2026-11-24T14:28:17-05:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "xrpl",
+   "label": "Q3 2026 report: XRPL exchange volume in dollars $612M, down 15% YoY (seven-network decline 42%); daily active accounts down 34% (per Evernorth)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.evernorth.xyz/blog-post-11-24-2026",
+   "side": "contradicts",
+   "added": "2026-11-24T14:28:17-05:00"
   }
  ]
 }
