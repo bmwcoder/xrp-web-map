@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T08:36:47-05:00",
+  "updated": "2026-11-24T10:31:24-05:00",
   "version": 3
  },
  "nodes": [
@@ -49023,11 +49023,11 @@
   {
    "from": "ripple",
    "to": "bc-payments-au",
-   "label": "agreed to acquire for AFSL (2026-03-11, pending)",
+   "label": "acquired for its AFSL (announced 2026-03-11; entity renamed Ripple Payments Australia Pty Ltd on 2026-04-08 per the Australian Business Register)",
    "grade": "A",
    "strength": 5,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-to-secure-australian-financial-services-license-expanding-payments-offering-across-apac/",
+   "source": "https://abr.business.gov.au/AbnHistory/View?id=18611822390",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -64467,8 +64467,8 @@
   {
    "from": "intesa",
    "to": "ripple-custody",
-   "label": "uses Ripple Custody (2026)",
-   "grade": "A",
+   "label": "uses Ripple Custody for digital-asset custody (per Ripple, Apr 15 2026; Intesa's own custody pages name no vendor)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/insights/ripple-custody-is-the-foundation-of-institutional-digital-asset-adoption/",
