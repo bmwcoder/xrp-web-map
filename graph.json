@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T06:07:57-05:00",
+  "updated": "2026-11-25T10:37:33-05:00",
   "version": 3
  },
  "nodes": [
@@ -35926,11 +35926,11 @@
   {
    "from": "archax",
    "to": "rlusd",
-   "label": "launch listing (2024-12-17)",
+   "label": "supported RLUSD at launch (2024-12-17); Archax CMO Simon Barnby's own LinkedIn post (Dec 18 2024): Archax is 'amongst the first platforms to support the new Ripple USD at launch'",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/raising-the-standard-for-stablecoins-ripple-usd-launches-globally/",
+   "source": "https://www.linkedin.com/posts/simonbarnby_stablecoin-rlusd-activity-7275081473223716864--91f",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -41915,7 +41915,7 @@
    "strength": 3,
    "key": false,
    "source": "https://x.com/CantonNetwork/status/2107822752250077262",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -42196,8 +42196,8 @@
   {
    "from": "marshall-wace",
    "to": "ripple-round-2025",
-   "label": "participated (2025)",
-   "grade": "A",
+   "label": "participated (2025; per Ripple)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
@@ -45607,7 +45607,7 @@
    "from": "currenc",
    "to": "tranglo",
    "label": "$400M SPA for Seamless's 100,465 Tranglo shares (60%) lapsed on 2026-09-30 and was reinstated by a binding letter of 2026-10-29 with a new longstop of 2027-03-31 (Currenc 6-K, Oct 30 2026)",
-   "grade": "B",
+   "grade": "A",
    "strength": 3,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226049360/form6-k.htm",
@@ -48950,8 +48950,8 @@
   {
    "from": "citadel-sec",
    "to": "ripple-round-2025",
-   "label": "invested (Nov 2025, $40B)",
-   "grade": "A",
+   "label": "invested (Nov 2025, $40B; per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
@@ -49940,11 +49940,11 @@
   {
    "from": "archax",
    "to": "rlusd",
-   "label": "launch listing (per Ripple)",
-   "grade": "B",
+   "label": "launch listing (Dec 17 2024; confirmed by Archax CMO's own LinkedIn post)",
+   "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/raising-the-standard-for-stablecoins-ripple-usd-launches-globally/",
+   "source": "https://www.linkedin.com/posts/simonbarnby_stablecoin-rlusd-activity-7275081473223716864--91f",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -59757,7 +59757,7 @@
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-launches-support-for-institutions-to-access-real-world-asset-perpetual-swaps/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -59790,7 +59790,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/publications/working-paper-1385-competing-rails-crossborder-payments-banks-fintechs-and-stablecoins",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -66836,8 +66836,8 @@
   {
    "from": "banco-rendimento",
    "to": "ripplenet",
-   "label": "one of 13 new RippleNet members (2019-01-10)",
-   "grade": "A",
+   "label": "one of 13 new RippleNet members (2019-01-10; per Ripple, whose release Rendimento's blog reposts verbatim)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripplenet-reaches-milestone-surpasses-200-customers/",
@@ -69690,7 +69690,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.bis.org/innovation_hub/projects/agora_list_participants.pdf",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:17:00-04:00"
   },
   {
@@ -76818,7 +76818,7 @@
    "strength": 1,
    "key": false,
    "source": "https://crypto.news/ripple-joins-open-usd-what-it-means-for-rlusd-and-xrp/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -82208,7 +82208,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.coindesk.com/markets/2026/01/07/ripple-again-rules-out-ipo-says-balance-sheet-gives-it-room-to-stay-private",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T00:17:21-04:00"
   },
   {
@@ -86273,11 +86273,11 @@
   {
    "from": "jp-senshu-ikeda-bank",
    "to": "japan-bank-consortium",
-   "label": "named consortium member; RC Cloud pilot completed (2017-03-02; per Ripple, member list is in Ripple's release)",
-   "grade": "B",
+   "label": "bank's own release (2016-10-03): agreed to join the SBI Holdings / SBI Ripple Asia domestic-and-foreign-exchange consortium as a founding member; RC Cloud pilot completion (2017-03-02) per Ripple",
+   "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://ripple.com/insights/forty-seven-japanese-banks-move-towards-commercial-phase-using-ripple/",
+   "source": "https://www.sihd-bk.jp/fresh_news/0000000991/pdf/fresh.pdf",
    "side": "supports",
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -90117,7 +90117,7 @@
    "strength": 2,
    "key": false,
    "source": "https://247wallst.com/investing/cryptocurrency/2026/09/30/will-blackrock-launch-an-xrp-etf/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T01:02:49-04:00"
   },
   {
@@ -92812,7 +92812,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.coindesk.com/business/2023/04/19/web3-notification-platform-yoz-labs-raises-35m-to-simplify-on-chain-communication-between-developers-and-users",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T01:54:19-04:00"
   },
   {
@@ -94165,7 +94165,7 @@
    "strength": 3,
    "key": true,
    "source": "https://ripple.com/insights/q2-2023-xrp-markets-report/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T02:33:14-04:00"
   },
   {
@@ -94176,7 +94176,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/q4-2024-xrp-markets-report/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T02:33:14-04:00"
   },
   {
@@ -94187,7 +94187,7 @@
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/insights/q1-2025-xrp-markets-report/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T02:33:14-04:00"
   },
   {
@@ -107525,8 +107525,8 @@
   {
    "from": "mastercard",
    "to": "gemini",
-   "label": "Mastercard SVP Christian Rau, XRPL Commons/GDF roundtable interview (Paris, posted Apr 2026): 'we work with Gemini ... explore with them to settle their card flows in RLUSD', aiming 'still in the first half of this year' (YouTube auto-transcript; an aim, not a go-live confirmation; no XRP leg)",
-   "grade": "B",
+   "label": "Mastercard explored settling Gemini card flows in RLUSD (Rau, XRPL Commons video cv2H_aZFs74, Apr 16 2026, 2:27-2:49): 'we explore with them to settle their card flows in RLUSD' (YouTube auto-captions). The H1 2026 target has passed with no confirmation that the pilot went live",
+   "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.youtube.com/watch?v=cv2H_aZFs74",
