@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T10:37:33-05:00",
+  "updated": "2026-11-25T14:37:02-05:00",
   "version": 3
  },
  "nodes": [
@@ -32425,6 +32425,19 @@
    ],
    "added": "2026-11-25T04:28:56-05:00",
    "sector": "claims"
+  },
+  {
+   "id": "franklin-ezpz",
+   "label": "Franklin Crypto Index ETF (EZPZ)",
+   "type": "etf",
+   "handle": "",
+   "summary": "Sole series of Franklin Crypto Trust. Seeks to reflect the CF Institutional Digital Asset Index – US–Settlement Price. A 424B3 filed Nov 25 2026 says the index adds Hyperliquid (HYPE) effective Dec 1 2026; constituents from then: BTC, ETH, XRP, SOL, DOGE, ADA, XLM, HYPE, held in approximately index weights, rebalanced quarterly.",
+   "grade": "A",
+   "sources": [
+    "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm"
+   ],
+   "added": "2026-11-25T14:35:28-05:00",
+   "sector": "etfs"
   }
  ],
  "edges": [
@@ -102135,11 +102148,11 @@
   {
    "from": "themes-2x-xrp",
    "to": "xrp",
-   "label": "proposed 2X long and 2X short daily XRP exposure; 485BXT (2026-10-28) delays effectiveness to 2026-11-27",
+   "label": "proposed 2X long and 2X short daily XRP exposure; 485BXT (2026-11-25, PEA No. 644) delays effectiveness to 2026-12-23",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626011615/themesetf_485bxt.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1976322/000182912626012826/themesetf_485bxt.htm",
    "side": "neutral",
    "added": "2026-10-23T14:23:20-04:00"
   },
@@ -107917,6 +107930,39 @@
    "source": "https://x.com/heurist_ai/status/2125345009998451044",
    "side": "contradicts",
    "added": "2026-11-25T04:28:56-05:00"
+  },
+  {
+   "from": "franklin-ezpz",
+   "to": "xrp",
+   "label": "holds XRP as an index constituent; from Dec 1 2026 the index adds HYPE (8 constituents), weights follow the index (424B3, Nov 25 2026; no weights stated)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm",
+   "side": "neutral",
+   "added": "2026-11-25T14:35:28-05:00"
+  },
+  {
+   "from": "franklin-ezpz",
+   "to": "hyperliquid",
+   "label": "adds HYPE as an index constituent effective Dec 1 2026 (424B3, Nov 25 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm",
+   "side": "neutral",
+   "added": "2026-11-25T14:35:28-05:00"
+  },
+  {
+   "from": "franklin",
+   "to": "franklin-ezpz",
+   "label": "Franklin Crypto Index ETF is the sole series of Franklin Crypto Trust (424B3, Nov 25 2026)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm",
+   "side": "neutral",
+   "added": "2026-11-25T14:35:28-05:00"
   }
  ]
 }
