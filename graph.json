@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T20:30:08-05:00",
+  "updated": "2026-11-25T02:33:41-05:00",
   "version": 3
  },
  "nodes": [
@@ -8548,11 +8548,12 @@
    "label": "Eurosystem Pontes",
    "type": "event",
    "handle": "",
-   "summary": "ECB DLT-to-TARGET settlement bridge launched 2026-09-21: tokenised wholesale trades settle in central-bank money. Initial DLT operators: Clearstream, SWIAT, Cashlink, Axiology; banks incl. Deutsche, Santander, SocGen, Deka. No XRPL operator listed.",
+   "summary": "ECB DLT-to-TARGET settlement bridge launched 2026-09-21: tokenised wholesale trades settle in central-bank money. Initial DLT operators: Clearstream, SWIAT, Cashlink, Axiology; banks incl. Deutsche, Santander, SocGen, Deka. No public-XRPL operator listed; Axiology's DLT TSS is a private, permissioned chain built on XRPL open-source code (Axiology's own site).",
    "grade": "A",
    "sources": [
     "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr260921~e754847a7b.en.html",
-    "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes.20260818_EvolvinglistofDLToperators.en.pdf.pdf"
+    "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes.20260818_EvolvinglistofDLToperators.en.pdf.pdf",
+    "https://www.axiologyfinance.com/technology"
    ],
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -32357,14 +32358,42 @@
    "label": "Heurist",
    "type": "company",
    "handle": "@heurist_ai",
-   "summary": "AI-inference router and agent network. Says AI agents pay it per request on the XRP Ledger: 10M+ inference payments settled in RLUSD through t54's x402 facilitator (own X post, Nov 24 2026; payment count only, no value verified). Also takes x402 payments on Monad (own post, Nov 13 2026).",
+   "summary": "AI-inference router and agent network. Says AI agents pay it per request on the XRP Ledger: 10M+ inference payments settled in RLUSD through t54's x402 facilitator (own X post, Nov 24 2026; payment count only). The xrpl-ai.org hub puts all-time value at about 46k RLUSD (Nov 25 2026); Bitquery (Oct 19) traced most payers to one 110-wallet cluster. Also takes x402 payments on Monad (own post, Nov 13 2026).",
    "grade": "A",
    "sources": [
     "https://x.com/heurist_ai/status/2125345009998451044",
     "https://x.com/t54ai/status/2125342723788218376",
-    "https://x.com/heurist_ai/status/2121297353663762617"
+    "https://x.com/heurist_ai/status/2121297353663762617",
+    "https://bitquery.io/investigations/rlusd-xrpl-dust-bots"
    ],
    "added": "2026-11-24T20:27:00-05:00"
+  },
+  {
+   "id": "yapi-kredi",
+   "label": "Yapı Kredi",
+   "type": "bank",
+   "handle": "",
+   "summary": "One of Türkiye's largest private banks. Its 100%-owned Yapı Kredi Kripto platform got CMB founding approval (bulletin 2026/18, Mar 26 2026), and the CMB viewed the bank's crypto custody licence application favourably (bank's own page). Ripple says (Nov 25 2026) the bank uses Ripple Custody, deployed on its own premises, to custody assets for Yapı Kredi Kripto.",
+   "grade": "A",
+   "sources": [
+    "https://www.yapikredi.com.tr/yapi-kredi-hakkinda/yapi-kredi-kripto",
+    "https://ripple.com/ripple-press/yapi-kredi-and-ripple-partner-to-advance-institutional-digital-asset-custody-in-turkey/"
+   ],
+   "added": "2026-11-25T02:30:36-05:00"
+  },
+  {
+   "id": "axiology",
+   "label": "Axiology",
+   "type": "company",
+   "handle": "",
+   "summary": "Vilnius-based operator of a DLT Trading and Settlement System authorised under EU Regulation 2022/858, and a Bank of Lithuania-authorised investment firm (own site). Its DLT TSS is a private, permissioned blockchain built on the XRP Ledger's open-source code, operating independently of Ripple and of the public XRP Ledger (own technology page). One of four DLT operators registered for the initial launch of the ECB's Pontes (ECB list, Aug 2026).",
+   "grade": "A",
+   "sources": [
+    "https://www.axiologyfinance.com/technology",
+    "https://www.axiologyfinance.com/",
+    "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes.20260818_EvolvinglistofDLToperators.en.pdf.pdf"
+   ],
+   "added": "2026-11-25T02:30:36-05:00"
   }
  ],
  "edges": [
@@ -36020,9 +36049,9 @@
   {
    "from": "usdy",
    "to": "xrpl",
-   "label": "supported on XRPL",
+   "label": "previously listed in Ondo docs; current Ondo docs omit XRPL (checked Nov 24–25 2026)",
    "grade": "A",
-   "strength": 3,
+   "strength": 1,
    "key": false,
    "source": "https://docs.ondo.finance/general-access-products/usdy/basics",
    "side": "neutral",
@@ -44589,7 +44618,7 @@
   {
    "from": "pontes",
    "to": "xrpl",
-   "label": "no XRPL operator among initial four (Aug/Sep 2026)",
+   "label": "no public-XRPL operator among initial four (Aug/Sep 2026); Axiology's chain is a private network built on XRPL code",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -107773,7 +107802,7 @@
   {
    "from": "heurist",
    "to": "t54",
-   "label": "merchant on t54's XRPL x402 facilitator: 10M+ AI-inference payments settled in RLUSD (both firms' own posts, Nov 24 2026; count only)",
+   "label": "merchant on t54's XRPL x402 facilitator: 10M+ AI-inference payments settled in RLUSD (both firms' own posts, Nov 24 2026; count only; all-time value about 46k RLUSD per xrpl-ai.org hub)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -107784,13 +107813,57 @@
   {
    "from": "heurist",
    "to": "xrpl",
-   "label": "takes per-request AI-inference payments on the XRP Ledger, settled in RLUSD (10M+ payments, own post Nov 24 2026; count only, no value verified)",
+   "label": "takes per-request AI-inference payments on the XRP Ledger, settled in RLUSD (10M+ payments per own post, Nov 24 2026; count only). All-time value about 46k RLUSD, mostly from about 110 payer wallets funded as one cluster (xrpl-ai.org hub; Bitquery, Oct 19)",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://x.com/heurist_ai/status/2125345009998451044",
    "side": "supports",
    "added": "2026-11-24T20:27:00-05:00"
+  },
+  {
+   "from": "yapi-kredi",
+   "to": "ripple-custody",
+   "label": "uses Ripple Custody on its own premises for Yapı Kredi Kripto custody (per Ripple, Nov 25 2026; custody tech only, no XRP leg)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/yapi-kredi-and-ripple-partner-to-advance-institutional-digital-asset-custody-in-turkey/",
+   "side": "neutral",
+   "added": "2026-11-25T02:30:36-05:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "yapi-kredi",
+   "label": "approved Yapı Kredi Kripto's founding (bulletin 2026/18, Mar 26 2026) and viewed the bank's crypto custody licence application favourably",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.yapikredi.com.tr/yapi-kredi-hakkinda/yapi-kredi-kripto",
+   "side": "neutral",
+   "added": "2026-11-25T02:30:36-05:00"
+  },
+  {
+   "from": "axiology",
+   "to": "pontes",
+   "label": "one of four DLT operators registered for Pontes' initial launch (ECB list, Aug 2026)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes.20260818_EvolvinglistofDLToperators.en.pdf.pdf",
+   "side": "neutral",
+   "added": "2026-11-25T02:30:36-05:00"
+  },
+  {
+   "from": "axiology",
+   "to": "xrpl",
+   "label": "runs a private, permissioned chain built on XRP Ledger open-source code, independent of Ripple and of the public XRP Ledger (own site; not XRPL mainnet, no XRP)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.axiologyfinance.com/technology",
+   "side": "neutral",
+   "added": "2026-11-25T02:30:36-05:00"
   }
  ]
 }
