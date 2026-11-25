@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T14:37:02-05:00",
+  "updated": "2026-11-25T18:36:16-05:00",
   "version": 3
  },
  "nodes": [
@@ -32961,7 +32961,7 @@
    "strength": 4,
    "key": true,
    "source": "https://www.dtcc.com/products-and-services/digital-assets/tokenization",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T13:55:00-04:00"
   },
   {
@@ -35598,8 +35598,8 @@
   {
    "from": "citadel-sec",
    "to": "ripple",
-   "label": "co-led $500M at $40B (2025-11-05)",
-   "grade": "A",
+   "label": "co-led $500M at $40B (2025-11-05; per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
@@ -35631,8 +35631,8 @@
   {
    "from": "marshall-wace",
    "to": "ripple",
-   "label": "participated $500M round (2025-11-05)",
-   "grade": "A",
+   "label": "participated $500M round (2025-11-05; per Ripple)",
+   "grade": "B",
    "strength": 4,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-announces-500-million-strategic-investment-led-by-fortress-citadel-securities-valuing-the-company-at-40-billion-following-record-growth/",
@@ -35939,8 +35939,8 @@
   {
    "from": "archax",
    "to": "rlusd",
-   "label": "supported RLUSD at launch (2024-12-17); Archax CMO Simon Barnby's own LinkedIn post (Dec 18 2024): Archax is 'amongst the first platforms to support the new Ripple USD at launch'",
-   "grade": "A",
+   "label": "supported RLUSD at launch (2024-12-17), per Archax CMO (personal post): Simon Barnby's LinkedIn, Dec 18 2024, Archax is 'amongst the first platforms to support the new Ripple USD at launch'",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.linkedin.com/posts/simonbarnby_stablecoin-rlusd-activity-7275081473223716864--91f",
@@ -45597,12 +45597,12 @@
   {
    "from": "ripple",
    "to": "tranglo",
-   "label": "Ripple stake ~40%; Ripple exercised tag-along right to join the New Margin sale on 2026-01-23",
+   "label": "Ripple stake ~40%; exercised tag-along (2026-01-23) to join the New Margin sale, a planned exit that has not closed (Currenc 6-K, Oct 30 2026)",
    "grade": "A",
    "strength": 4,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm",
-   "side": "contradicts",
+   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226049360/form6-k.htm",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -47698,12 +47698,12 @@
   {
    "from": "ripple",
    "to": "tranglo",
-   "label": "Ripple Labs Singapore holds 40%; exercised tag-along 2026-01-23 (Currenc 20-F)",
+   "label": "Ripple Labs Singapore holds 40%; exercised tag-along 2026-01-23, a planned exit not yet closed (Currenc 20-F; 6-K Oct 30 2026)",
    "grade": "A",
    "strength": 5,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226020709/form20-f.htm",
-   "side": "contradicts",
+   "source": "https://www.sec.gov/Archives/edgar/data/1862935/000149315226049360/form6-k.htm",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -49953,8 +49953,8 @@
   {
    "from": "archax",
    "to": "rlusd",
-   "label": "launch listing (Dec 17 2024; confirmed by Archax CMO's own LinkedIn post)",
-   "grade": "A",
+   "label": "launch listing (Dec 17 2024), per Archax CMO (personal post)",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://www.linkedin.com/posts/simonbarnby_stablecoin-rlusd-activity-7275081473223716864--91f",
@@ -59836,7 +59836,7 @@
    "strength": 4,
    "key": true,
    "source": "https://ir.westernunion.com/news/archived-press-releases/press-release-details/2026/Western-Union-Launches-USDPT-on-Solana-Advancing-Regulated-Digital-Infrastructure-for-Global-Payments/default.aspx",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:02:33-04:00"
   },
   {
@@ -74715,7 +74715,7 @@
    "from": "eric-jeck",
    "to": "outmatch",
    "label": "ex-Executive Chairman of OutMatch (per Ripple bio); Garlinghouse also sat on the OutMatch board, a shared outside seat",
-   "grade": "A",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://ripple.com/company/leadership/",
@@ -75038,7 +75038,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.ledgerinsights.com/hsbc-completes-e-hkd-trials-of-cbdc-on-public-blockchains/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -77068,7 +77068,7 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (introduced rippled 3.1.0; XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol pending (not yet enabled), 28 yes votes / 35 validators as of 2026-11-25 18:34 ET, one short of majority (needs more than 28) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -77079,7 +77079,7 @@
   {
    "from": "amd-vault",
    "to": "xrpl",
-   "label": "mainnet status: SingleAssetVault pending (not yet enabled), 25 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (rippled 3.1.0; XRPScan amendments API)",
+   "label": "mainnet status: SingleAssetVault reached validator majority 2026-11-25 14:38:51 ET (29 yes / 35 validators, threshold 28); not yet enabled; activates ~2026-12-09 14:39 ET only if the majority holds two weeks (XRPScan amendments API; Amendments ledger object)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -79746,7 +79746,7 @@
    "strength": 2,
    "key": false,
    "source": "https://docs.obligate.com/legal/legal-and-regulatory-framework",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -79801,7 +79801,7 @@
    "strength": 2,
    "key": false,
    "source": "https://partners.circle.com/partner/mecash",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T23:57:49-04:00"
   },
   {
@@ -96747,7 +96747,7 @@
   {
    "from": "amd-lending-v1-1",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocolV1_1 pending (not yet enabled), 24 yes votes / threshold 28 / 35 validators as of 2026-11-18 07:27 ET (rippled 3.4.0; XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocolV1_1 pending (not yet enabled), 28 yes votes / 35 validators as of 2026-11-25 18:34 ET, one short of majority (needs more than 28) (XRPScan amendments API)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -99172,7 +99172,7 @@
    "strength": 2,
    "key": false,
    "source": "https://docs.bvnk.com/bvnk/get-started/global-money-platform/",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-21T18:24:12-04:00"
   },
   {
@@ -100525,7 +100525,7 @@
    "strength": 3,
    "key": false,
    "source": "https://stellar.org/case-studies/arf",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-22T20:29:42-04:00"
   },
   {
@@ -100690,7 +100690,7 @@
    "strength": 3,
    "key": false,
    "source": "https://www.prnewswire.com/news-releases/jp-morgan-asset-management-expands-access-to-its-tokenized-money-market-funds-on-solana-302917188.html",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-23T02:24:51-04:00"
   },
   {
@@ -102615,7 +102615,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-25T08:31:12-04:00"
   },
   {
@@ -102626,7 +102626,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-25T08:31:12-04:00"
   },
   {
@@ -102637,7 +102637,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1690639/000169063925000039/ddrcdnpilotprogramsept16.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-25T08:31:38-04:00"
   },
   {
@@ -103616,7 +103616,7 @@
    "strength": 1,
    "key": false,
    "source": "https://www.bankfab.com/en-ae/about-fab/group/in-the-media/fab-successfully-completes-pilot-testing-with-jp-morgans-coin-systems-for-blockchain",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-26T20:29:31-04:00"
   },
   {
@@ -105783,7 +105783,7 @@
    "strength": 4,
    "key": false,
    "source": "https://clear.bank/learn/news/clearbank-announces-plans-to-join-circles-payments-network-to-power-faster-more-connected-finance",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-11-06T14:24:30-05:00"
   },
   {
@@ -105794,7 +105794,7 @@
    "strength": 3,
    "key": false,
    "source": "https://clear.bank/learn/news/clearbank-europe-launches-digital-asset-rails-to-unlock-programmable-liquidity-for-cross-border-flows",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-11-06T14:24:30-05:00"
   },
   {
