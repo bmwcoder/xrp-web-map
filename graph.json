@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T02:33:41-05:00",
+  "updated": "2026-11-25T04:30:12-05:00",
   "version": 3
  },
  "nodes": [
@@ -32394,6 +32394,37 @@
     "https://www.ecb.europa.eu/paym/target/target-professional-use-documents-links/pontes/shared/pdf/ecb.pontes.20260818_EvolvinglistofDLToperators.en.pdf.pdf"
    ],
    "added": "2026-11-25T02:30:36-05:00"
+  },
+  {
+   "id": "claim-ripple-swift-shareholder-nov24",
+   "label": "Claim: \"Ripple to become a major SWIFT shareholder by Nov 24\" (Nov 2026)",
+   "type": "riddle",
+   "handle": "",
+   "summary": "DEBUNKED: dated claim failed. @real_MrQ17 (Nov 24, 16:20 EST) said Garlinghouse 'reportedly confirmed' Ripple would become a major SWIFT shareholder by Nov 24; relayed by @TrumpChild3. Nov 24 passed with nothing on ripple.com/press-releases or swift.com news (newest item Oct 26), per XRP Historian's check; NDA Tracker graded it X (Nov 24 22:34 ET).",
+   "grade": "X",
+   "sources": [
+    "https://x.com/i/status/2125338726842941477",
+    "https://x.com/i/status/2125354118336135391",
+    "https://ripple.com/press-releases/",
+    "https://www.swift.com/news-events/news"
+   ],
+   "added": "2026-11-25T04:28:56-05:00",
+   "sector": "claims"
+  },
+  {
+   "id": "claim-xrp-agents-pay-in-xrp",
+   "label": "@XRP (Nov 24) said 'Agents can pay in XRP' while quoting Heurist's case study; that case study shows agent payments settled in RLUSD via t54's x402 facilitator, not XRP.",
+   "type": "riddle",
+   "handle": "",
+   "summary": "Not supported by the cited case study. @XRP post 2125351749397745778 (Nov 24, 17:11 EST) said 'Agents can pay in XRP and merchants receive any currency they want' while quoting @heurist_ai post 2125345009998451044, whose image reads 'Settled in RLUSD through t54's x402 facilitator' and whose text says '10M+ inference payments, settled in RLUSD'. XRPL can settle in XRP in general; this case study shows RLUSD settlement.",
+   "grade": "A",
+   "sources": [
+    "https://x.com/XRP/status/2125351749397745778",
+    "https://x.com/heurist_ai/status/2125345009998451044",
+    "https://xrpl-ai.org"
+   ],
+   "added": "2026-11-25T04:28:56-05:00",
+   "sector": "claims"
   }
  ],
  "edges": [
@@ -107864,6 +107895,28 @@
    "source": "https://www.axiologyfinance.com/technology",
    "side": "neutral",
    "added": "2026-11-25T02:30:36-05:00"
+  },
+  {
+   "from": "claim-ripple-swift-shareholder-nov24",
+   "to": "swift",
+   "label": "Promoters' dated claim that Ripple would be a major SWIFT shareholder by Nov 24, 2026 failed: no Ripple or Swift announcement",
+   "grade": "X",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/i/status/2125338726842941477",
+   "side": "contradicts",
+   "added": "2026-11-25T04:28:56-05:00"
+  },
+  {
+   "from": "claim-xrp-agents-pay-in-xrp",
+   "to": "heurist",
+   "label": "@XRP's 'Agents can pay in XRP' line is not supported by the cited Heurist case study, which shows payments settled in RLUSD via t54's x402 facilitator",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://x.com/heurist_ai/status/2125345009998451044",
+   "side": "contradicts",
+   "added": "2026-11-25T04:28:56-05:00"
   }
  ]
 }
