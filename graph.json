@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-24T18:32:26-05:00",
+  "updated": "2026-11-24T20:30:08-05:00",
   "version": 3
  },
  "nodes": [
@@ -32351,6 +32351,20 @@
     "https://www.justice.gov/usao-dc/media/1473936/dl"
    ],
    "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "id": "heurist",
+   "label": "Heurist",
+   "type": "company",
+   "handle": "@heurist_ai",
+   "summary": "AI-inference router and agent network. Says AI agents pay it per request on the XRP Ledger: 10M+ inference payments settled in RLUSD through t54's x402 facilitator (own X post, Nov 24 2026; payment count only, no value verified). Also takes x402 payments on Monad (own post, Nov 13 2026).",
+   "grade": "A",
+   "sources": [
+    "https://x.com/heurist_ai/status/2125345009998451044",
+    "https://x.com/t54ai/status/2125342723788218376",
+    "https://x.com/heurist_ai/status/2121297353663762617"
+   ],
+   "added": "2026-11-24T20:27:00-05:00"
   }
  ],
  "edges": [
@@ -40989,11 +41003,11 @@
   {
    "from": "bybit",
    "to": "rlusd",
-   "label": "lists RLUSD (2025-09-26)",
-   "grade": "B",
+   "label": "lists RLUSD: RLUSD/USDT spot pair and RLUSD Hold & Earn (Bybit's own announcement, Jul 20 2026)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://listedon.org/en/ticker/RLUSD",
+   "source": "https://announcements.bybit.com/en/article/rlusd-hold-earn-earn-up-to-7-apr-and-enjoy-0-maker-fee-spot-trading--artcd38d89e1129/",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -76893,11 +76907,11 @@
   {
    "from": "bybit",
    "to": "rlusd-listings",
-   "label": "RLUSD listing Sep 26 2025 (RLUSD/USDT) per ListedOn tracker",
-   "grade": "C",
-   "strength": 1,
+   "label": "RLUSD/USDT spot pair listed on Bybit (Bybit's own Hold & Earn announcement, Jul 20 2026)",
+   "grade": "A",
+   "strength": 2,
    "key": false,
-   "source": "https://listedon.org/en/ticker/RLUSD",
+   "source": "https://announcements.bybit.com/en/article/rlusd-hold-earn-earn-up-to-7-apr-and-enjoy-0-maker-fee-spot-trading--artcd38d89e1129/",
    "side": "supports",
    "added": "2026-10-19T23:57:49-04:00"
   },
@@ -107755,6 +107769,28 @@
    "source": "https://x.com/binance/status/2125198606139633797",
    "side": "neutral",
    "added": "2026-11-24T18:29:07-05:00"
+  },
+  {
+   "from": "heurist",
+   "to": "t54",
+   "label": "merchant on t54's XRPL x402 facilitator: 10M+ AI-inference payments settled in RLUSD (both firms' own posts, Nov 24 2026; count only)",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://x.com/heurist_ai/status/2125345009998451044",
+   "side": "supports",
+   "added": "2026-11-24T20:27:00-05:00"
+  },
+  {
+   "from": "heurist",
+   "to": "xrpl",
+   "label": "takes per-request AI-inference payments on the XRP Ledger, settled in RLUSD (10M+ payments, own post Nov 24 2026; count only, no value verified)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/heurist_ai/status/2125345009998451044",
+   "side": "supports",
+   "added": "2026-11-24T20:27:00-05:00"
   }
  ]
 }
