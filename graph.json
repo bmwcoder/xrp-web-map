@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-26T10:28:59-05:00",
+  "updated": "2026-11-26T14:35:29-05:00",
   "version": 3
  },
  "nodes": [
@@ -17386,11 +17386,12 @@
    "label": "RLUSD/XRP AMM pool (rhWTXC2m…)",
    "type": "asset",
    "handle": "",
-   "summary": "AMM account rhWTXC2m2gGGA9WozUaoMm6kLAVPb1tcS3, pairing XRP with RLUSD (issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De). Live Oct 19, 2026: 1,848,615 XRP and 2,408,163 RLUSD (~$4.8M TVL), trading fee 0.205%. It is the deepest RLUSD pool on XRPL. The RLUSD/USDC pool (rfWfhoLj…) holds only ~25.1K of each side.",
+   "summary": "AMM account rhWTXC2m2gGGA9WozUaoMm6kLAVPb1tcS3, pairing XRP with RLUSD (issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De). Live Oct 19, 2026: 1,848,615 XRP and 2,408,163 RLUSD (~$4.8M TVL), trading fee 0.205%. It is the deepest RLUSD pool on XRPL. The RLUSD/USDC pool (rfWfhoLj…) holds only ~25.1K of each side. Re-read Nov 26, 2026 (amm_info, ledger 108,589,311, ~13:31 ET): 1,885,512 XRP and 1,797,157 RLUSD, trading fee 0.315%; LP-token supply 1,550.07M vs 1,788.18M at ledger 107,777,345 (Oct 20) (-13.3%, derived), so liquidity was withdrawn on net.",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rhWTXC2m2gGGA9WozUaoMm6kLAVPb1tcS3",
-    "https://api.xrpscan.com/api/v1/amm/pools"
+    "https://api.xrpscan.com/api/v1/amm/pools",
+    "https://xrpscan.com/account/rhWTXC2m2gGGA9WozUaoMm6kLAVPb1tcS3"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "rlusd"
@@ -20025,11 +20026,12 @@
    "label": "wXRP (Hex Trust)",
    "type": "asset",
    "handle": "",
-   "summary": "Hex Trust-issued, custodied 1:1 wrapped XRP via LayerZero OFT on Solana, Ethereum, Optimism, HyperEVM (Dec 2025; >$100M TVL at launch); XRP/RLUSD pairs.",
+   "summary": "Hex Trust-issued, custodied 1:1 wrapped XRP via LayerZero OFT on Solana, Ethereum, Optimism, HyperEVM (Dec 2025; >$100M TVL at launch); XRP/RLUSD pairs. Supply read Nov 26, 2026: Ethereum 50,000,244.99 (totalSupply, ~07:28 ET), Solana 2,033,969.33 (Solscan, ~13:35 ET), Optimism 0, HyperEVM dust; ~52.03M in total (derived).",
    "grade": "A",
    "sources": [
     "https://www.hextrust.com/resources-collection/hex-trust-to-issue-and-custody-wrapped-xrp-wxrp",
-    "https://www.theblock.co/post/382211/hex-trust-issue-custody-wrapped-xrp-defi-utility-multiple-blockchains"
+    "https://www.theblock.co/post/382211/hex-trust-issue-custody-wrapped-xrp-defi-utility-multiple-blockchains",
+    "https://solscan.io/token/6UpQcMAb5xMzxc7ZfPaVMgx3KqsvKZdT5U718BzD5We2"
    ],
    "added": "2026-10-19T23:14:58-04:00"
   },
