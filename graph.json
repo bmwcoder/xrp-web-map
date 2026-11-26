@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T18:36:16-05:00",
+  "updated": "2026-11-25T20:31:01-05:00",
   "version": 3
  },
  "nodes": [
@@ -107637,7 +107637,7 @@
   {
    "from": "onxrp",
    "to": "amd-lending-v1-1",
-   "label": "its validator (onxrp.com) now votes yes on LendingProtocolV1_1 but not on LendingProtocol or SingleAssetVault; 26 yes votes / threshold 28 / 35 validators as of 2026-11-24 07:37 ET",
+   "label": "its validator (onxrp.com) votes yes on LendingProtocolV1_1, and since Nov 25 2026 also on LendingProtocol and SingleAssetVault; LendingProtocolV1_1 at 28 yes / threshold 28 / 35 validators, no majority, as of 2026-11-25 19:31 ET",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -107934,11 +107934,11 @@
   {
    "from": "franklin-ezpz",
    "to": "xrp",
-   "label": "holds XRP as an index constituent; from Dec 1 2026 the index adds HYPE (8 constituents), weights follow the index (424B3, Nov 25 2026; no weights stated)",
+   "label": "holds XRP as an index constituent: 647,563 XRP, 4.78% of fund assets on Nov 24 2026 (fund page; 5.37% on Sep 30 per 10-Q); from Dec 1 2026 the index adds HYPE (424B3, Nov 25 2026), post-rebalance weights not yet published",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm",
+   "source": "https://www.franklintempleton.com/investments/options/exchange-traded-funds/products/41786/SINGLCLASS/franklin-crypto-index-etf/EZPZ",
    "side": "neutral",
    "added": "2026-11-25T14:35:28-05:00"
   },
@@ -107963,6 +107963,28 @@
    "source": "https://www.sec.gov/Archives/edgar/data/2033807/000207184426001935/draftezpz424b3nov2026.htm",
    "side": "neutral",
    "added": "2026-11-25T14:35:28-05:00"
+  },
+  {
+   "from": "onxrp",
+   "to": "amd-vault",
+   "label": "its validator (onxrp.com) votes yes on SingleAssetVault, one of two votes added between 13:34 and 14:38 ET Nov 25 2026 that took it to 29 of 35 (majority 14:38:51 ET)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/validatorregistry",
+   "side": "neutral",
+   "added": "2026-11-25T20:28:20-05:00"
+  },
+  {
+   "from": "interledger",
+   "to": "amd-vault",
+   "label": "its validator (xrp-validator.interledger.org) votes yes on SingleAssetVault, one of two votes added between 13:34 and 14:38 ET Nov 25 2026 that took it to 29 of 35 (majority 14:38:51 ET)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://api.xrpscan.com/api/v1/validatorregistry",
+   "side": "neutral",
+   "added": "2026-11-25T20:28:20-05:00"
   }
  ]
 }
