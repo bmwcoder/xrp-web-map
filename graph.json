@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-26T14:35:29-05:00",
+  "updated": "2026-11-26T18:29:08-05:00",
   "version": 3
  },
  "nodes": [
@@ -104506,11 +104506,11 @@
   {
    "from": "ripple-swell-2026-release",
    "to": "bny",
-   "label": "named as a multi-solution customer/partner (per Ripple, Oct 28, 2026)",
-   "grade": "B",
+   "label": "named: Ripple and BNY are exploring a supply chain finance initiative with C2FO as a first step toward tokenized trade finance on XRPL (BNY release, Oct 27, 2026)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-expands-strategic-digital-assets-collaboration-with-bny-across-custody-and-tokenized-trade-finance.html",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
   },
@@ -104550,22 +104550,22 @@
   {
    "from": "ripple-swell-2026-release",
    "to": "trax",
-   "label": "named as a Ripple Treasury customer (per Ripple, Oct 28, 2026)",
+   "label": "named as a Ripple Treasury customer (Oct 28, 2026); Trax CEO describes adopting Ripple Treasury in a Treasury Today interview (per Trax CEO (interview), Nov 2026)",
    "grade": "B",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "source": "https://treasurytoday.com/insight-and-analysis/around-the-clock-around-the-corner/",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
   },
   {
    "from": "ripple-swell-2026-release",
    "to": "c2fo",
-   "label": "named: BNY-Ripple tokenized trade finance on XRPL starts with a C2FO supplier finance initiative (per Ripple, Oct 28, 2026)",
-   "grade": "B",
+   "label": "named: BNY-Ripple tokenized trade finance on XRPL to start with a C2FO supplier finance initiative (Oct 28, 2026); BNY's own Oct 27 2026 bny.com release confirms Ripple and BNY are exploring the C2FO supply chain finance initiative as a first step (planned, not live)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "source": "https://www.bny.com/corporate/global/en/about-us/newsroom/press-release/ripple-expands-strategic-digital-assets-collaboration-with-bny-across-custody-and-tokenized-trade-finance.html",
    "side": "neutral",
    "added": "2026-10-28T20:25:55-04:00"
   },
@@ -107989,6 +107989,17 @@
    "source": "https://api.xrpscan.com/api/v1/validatorregistry",
    "side": "neutral",
    "added": "2026-11-25T20:28:20-05:00"
+  },
+  {
+   "from": "ripple-swell-2026-release",
+   "to": "bny",
+   "label": "named as a multi-solution customer (per Ripple, Oct 28, 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
+   "side": "neutral",
+   "added": "2026-11-26T18:26:10-05:00"
   }
  ]
 }
