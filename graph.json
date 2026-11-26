@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-25T20:31:01-05:00",
+  "updated": "2026-11-26T02:34:37-05:00",
   "version": 3
  },
  "nodes": [
@@ -17485,11 +17485,12 @@
    "label": "cbXRP (Coinbase wrapped XRP)",
    "type": "asset",
    "handle": "",
-   "summary": "Coinbase-issued wrapped XRP on Base. xrp-insights reads 144.5M XRP of cbXRP from on-chain supply (Oct 19, 2026). XRPScan labels two 'Coinbase cbXRP' XRPL wallets: rUf5QkXtwVr9XxCdVhn1pFN7ZyMwGhN5Ng 33.8M and rU1DGbMWhrFSJLPcrtKuV5iPyD1wrVgeaU 2.3M, so most backing must sit in other Coinbase wallets.",
+   "summary": "Coinbase-issued wrapped XRP on Base. Base totalSupply() read on Nov 26, 2026 (~01:34 ET): 162,348,112.59 cbXRP. xrp-insights reads 144.5M XRP of cbXRP from on-chain supply (Oct 19, 2026). XRPScan labels two 'Coinbase cbXRP' XRPL wallets: rUf5QkXtwVr9XxCdVhn1pFN7ZyMwGhN5Ng 33.8M and rU1DGbMWhrFSJLPcrtKuV5iPyD1wrVgeaU 2.3M, so most backing must sit in other Coinbase wallets.",
    "grade": "B",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rUf5QkXtwVr9XxCdVhn1pFN7ZyMwGhN5Ng",
-    "https://xrp-insights.com/xrp-radar"
+    "https://xrp-insights.com/xrp-radar",
+    "https://docs.exact.ly/guides/smart-contract-addresses"
    ],
    "added": "2026-10-19T23:02:33-04:00"
   },
@@ -31451,10 +31452,11 @@
    "label": "Exactly Protocol",
    "type": "builder",
    "handle": "",
-   "summary": "Lending protocol on Base. Evernorth's Oct 27, 2026 report, citing Exactly's own Dune dashboard (dune.com/exactly/exactly-base, queries re-run by Evernorth), says protocol deposits across all assets were $6.85M (Aug 31) and $12.26M (Oct 19). XRP was the largest share, at $4.27M and $7.87M. 2,870 loans totalling $2.22M have been made since Jul 1, 2026. Uphold customers can wrap XRP to Base as cbXRP to collateralize loans and a card product there. Not checked against Exactly's own channels.",
-   "grade": "B",
+   "summary": "Lending protocol on Base, OP Mainnet and Ethereum. Exactly's own docs list a cbXRP market on Base (MarketcbXRP 0x1Dcf89Dfa88363ef33d49dD591b1eE5e84DD0F75, risk-adjust factor 0.60); an on-chain read on Nov 26, 2026 showed 7,139,190.81 cbXRP in that market. Evernorth's Oct 27, 2026 report, citing Exactly's Dune dashboard, put protocol deposits at $6.85M (Aug 31) and $12.26M (Oct 19), XRP being $4.27M and $7.87M, with 2,870 loans totalling $2.22M since Jul 1, 2026. Uphold customers can wrap XRP to Base as cbXRP to collateralize loans and a card product (per Evernorth).",
+   "grade": "A",
    "sources": [
-    "https://www.evernorth.xyz/blog-post-10-27-2026"
+    "https://www.evernorth.xyz/blog-post-10-27-2026",
+    "https://docs.exact.ly/guides/parameters"
    ],
    "added": "2026-10-29T02:27:41-04:00"
   },
@@ -104601,11 +104603,11 @@
   {
    "from": "cbxrp",
    "to": "exactly-protocol",
-   "label": "cbXRP is Exactly Protocol collateral on Base; XRP was $7.87M of $12.26M deposits on Oct 19, 2026 (Exactly's Dune dashboard, per Evernorth)",
-   "grade": "B",
-   "strength": 2,
+   "label": "cbXRP is a listed Exactly Protocol market on Base (MarketcbXRP 0x1Dcf89Df…0F75, Exactly docs); the market held 7,139,190.81 cbXRP on Nov 26, 2026 (on-chain totalAssets read); XRP was $7.87M of $12.26M deposits on Oct 19, 2026 (Exactly's Dune dashboard, per Evernorth)",
+   "grade": "A",
+   "strength": 3,
    "key": false,
-   "source": "https://www.evernorth.xyz/blog-post-10-27-2026",
+   "source": "https://docs.exact.ly/guides/smart-contract-addresses",
    "side": "neutral",
    "added": "2026-10-29T02:27:41-04:00"
   },
