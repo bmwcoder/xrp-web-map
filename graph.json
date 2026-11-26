@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-26T06:06:17-05:00",
+  "updated": "2026-11-26T10:28:59-05:00",
   "version": 3
  },
  "nodes": [
@@ -35462,7 +35462,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.nasdaq.com/press-release/trident-announces-500-million-financing-plan-xrp-treasury-and-appoints-chaince",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
@@ -82355,7 +82355,7 @@
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1983550/000121390026048646/ea0286241-20f_trident.htm",
-   "side": "contradicts",
+   "side": "neutral",
    "added": "2026-10-20T00:17:21-04:00"
   },
   {
