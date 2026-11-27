@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T07:30:53-05:00",
+  "updated": "2026-11-27T08:28:29-05:00",
   "version": 3
  },
  "nodes": [
@@ -32445,6 +32445,30 @@
    ],
    "added": "2026-11-25T14:35:28-05:00",
    "sector": "etfs"
+  },
+  {
+   "id": "b3",
+   "label": "B3 (Brasil Bolsa Balcão)",
+   "type": "company",
+   "handle": "",
+   "summary": "Brazil's stock exchange operator. On Nov 27 2026 it announced Open BRL, a real-pegged stablecoin issued by Banco B3 with Bradesco, BTG Pactual, Itaú Unibanco, Safra, Santander and XP, targeted for Q1 2027 (CoinDesk citing Valor Econômico). No XRP or RLUSD leg named.",
+   "grade": "B",
+   "sources": [
+    "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin"
+   ],
+   "added": "2026-11-27T08:27:14-05:00"
+  },
+  {
+   "id": "open-brl",
+   "label": "Open BRL",
+   "type": "company",
+   "handle": "",
+   "summary": "Real-pegged stablecoin, backed 1:1 by reais and issued by Banco B3, for interbank transfers and digital-asset/tokenized-stock settlement; launch planned Q1 2027; chain not disclosed; no XRP or RLUSD leg named (CoinDesk citing Valor, Nov 27 2026).",
+   "grade": "B",
+   "sources": [
+    "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin"
+   ],
+   "added": "2026-11-27T08:27:14-05:00"
   }
  ],
  "edges": [
@@ -108025,6 +108049,50 @@
    "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
    "side": "neutral",
    "added": "2026-11-27T07:29:40-05:00"
+  },
+  {
+   "from": "b3",
+   "to": "open-brl",
+   "label": "Banco B3 to issue Open BRL, a real-pegged stablecoin for interbank transfers and tokenized-stock settlement, Q1 2027; chain not disclosed (announced Nov 27 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "side": "neutral",
+   "added": "2026-11-27T08:27:14-05:00"
+  },
+  {
+   "from": "bradesco",
+   "to": "open-brl",
+   "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "side": "neutral",
+   "added": "2026-11-27T08:27:14-05:00"
+  },
+  {
+   "from": "itau",
+   "to": "open-brl",
+   "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "side": "neutral",
+   "added": "2026-11-27T08:27:14-05:00"
+  },
+  {
+   "from": "santander",
+   "to": "open-brl",
+   "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
+   "grade": "B",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "side": "neutral",
+   "added": "2026-11-27T08:27:14-05:00"
   }
  ]
 }
