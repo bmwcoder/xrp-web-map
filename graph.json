@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T12:29:41-05:00",
+  "updated": "2026-11-27T14:30:20-05:00",
   "version": 3
  },
  "nodes": [
@@ -77099,7 +77099,7 @@
   {
    "from": "amd-lending",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocol pending (not yet enabled), 28 yes votes / 35 validators as of 2026-11-25 18:34 ET, one short of majority (needs more than 28) (XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocol reached validator majority 2026-11-27 09:22:02 ET (30 yes / 35 validators, threshold 28); not yet enabled; activates ~2026-12-11 09:22 ET only if the majority holds two weeks (XRPScan amendments API; Amendments ledger object)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -96778,7 +96778,7 @@
   {
    "from": "amd-lending-v1-1",
    "to": "xrpl",
-   "label": "mainnet status: LendingProtocolV1_1 pending (not yet enabled), 28 yes votes / 35 validators as of 2026-11-25 18:34 ET, one short of majority (needs more than 28) (XRPScan amendments API)",
+   "label": "mainnet status: LendingProtocolV1_1 reached validator majority 2026-11-27 09:22:02 ET (30 yes / 35 validators, threshold 28); not yet enabled; activates ~2026-12-11 09:22 ET only if the majority holds two weeks (XRPScan amendments API; Amendments ledger object)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -108054,10 +108054,10 @@
    "from": "b3",
    "to": "open-brl",
    "label": "Banco B3 to issue Open BRL, a real-pegged stablecoin for interbank transfers and tokenized-stock settlement, Q1 2027; chain not disclosed (announced Nov 27 2026)",
-   "grade": "B",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "source": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
    "side": "neutral",
    "added": "2026-11-27T08:27:14-05:00"
   },
@@ -108065,10 +108065,10 @@
    "from": "bradesco",
    "to": "open-brl",
    "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
-   "grade": "B",
+   "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "source": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
    "side": "neutral",
    "added": "2026-11-27T08:27:14-05:00"
   },
@@ -108076,10 +108076,10 @@
    "from": "itau",
    "to": "open-brl",
    "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
-   "grade": "B",
+   "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "source": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
    "side": "neutral",
    "added": "2026-11-27T08:27:14-05:00"
   },
@@ -108087,10 +108087,10 @@
    "from": "santander",
    "to": "open-brl",
    "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
-   "grade": "B",
+   "grade": "A",
    "strength": 1,
    "key": false,
-   "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+   "source": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
    "side": "neutral",
    "added": "2026-11-27T08:27:14-05:00"
   },
@@ -108115,6 +108115,17 @@
    "source": "https://x.com/FlareNetworks/status/2126344652324479243",
    "side": "neutral",
    "added": "2026-11-27T12:28:21-05:00"
+  },
+  {
+   "from": "btg",
+   "to": "open-brl",
+   "label": "BTG Pactual is one of six financial firms joining B3's Open BRL real-pegged stablecoin and shared settlement infrastructure (initial stage run by B3; issuer Banco B3; no chain, XRP or RLUSD leg named; announced Nov 27 2026)",
+   "grade": "A",
+   "strength": 1,
+   "key": false,
+   "source": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
+   "side": "neutral",
+   "added": "2026-11-27T14:27:34-05:00"
   }
  ]
 }
