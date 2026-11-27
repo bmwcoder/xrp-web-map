@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T14:30:20-05:00",
+  "updated": "2026-11-27T18:33:22-05:00",
   "version": 3
  },
  "nodes": [
@@ -51623,11 +51623,11 @@
   {
    "from": "neuberger",
    "to": "rprime",
-   "label": "$200M debt facility (2026-05-11, per Ripple; Neuberger's counsel Sidley confirms)",
-   "grade": "B",
+   "label": "revolving credit facility to Hidden Road (Ripple Prime's former name): 'Hidden Road Revolver A/B 4/26', dated Apr 15 2026, 1-mo SOFR + 9.50%, matures Jul 15 2028, held by Neuberger Berman-advised Neuberger Asset-Based Credit Fund (N-CSRS Jun 30 2026; N-PORT Sep 30 2026, $4.9M drawn in this fund)",
+   "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://ripple.com/ripple-press/ripple-prime-secures-usd200-million-debt-facility-from-neuberger-specialty-finance-to-expand-capacity/",
+   "source": "https://www.sec.gov/Archives/edgar/data/2041175/000119312526480227/nbpartf.htm",
    "side": "supports",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -82434,12 +82434,12 @@
   {
    "from": "quantum-biopharma",
    "to": "xrp-treasury-filings-check",
-   "label": "small multi-asset holder (XRP ~1.7% of $5.89M crypto book)",
+   "label": "XRP held in its own filing: Q3 2026 6-K digital-assets note shows XRP $140,667 at Sep 30, 2026 (2026 additions $231,000, dispositions $77,000; about 1.6% of an $8.66M multi-asset crypto book) (execution only)",
    "grade": "A",
-   "strength": 1,
+   "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1771885/000118518526003497/qntmex99-1.htm",
-   "side": "neutral",
+   "source": "https://www.sec.gov/Archives/edgar/data/1771885/000118518526005323/qntmex99-1.htm",
+   "side": "supports",
    "added": "2026-10-20T00:17:21-04:00"
   },
   {
@@ -82456,11 +82456,11 @@
   {
    "from": "xrp-treasury-filings-check",
    "to": "xrp",
-   "label": "net: announced XRP-treasury plans by Trident/Webus/Wellgistics produced no reported XRP holdings",
+   "label": "net: own filings of announced XRP-treasury companies show 4 explicit no-XRP statements (Wellgistics 424B4; VivoPower and Wetour FY2026 20-Fs; Reliance Global Q3 2026 10-Q) vs 2 with filed XRP holdings (Evernorth Q3 2026 10-Q; Quantum BioPharma Q3 2026 6-K); not counted: Trident (silent), Worksport and Hyperscale Data (no XRP line in their filings); execution only; announcements not contradicted",
    "grade": "A",
-   "strength": 3,
+   "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1983550/000121390026048646/ea0286241-20f_trident.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/2030763/000149315225015899/form424b4.htm",
    "side": "contradicts",
    "added": "2026-10-20T00:17:21-04:00"
   },
@@ -108126,6 +108126,28 @@
    "source": "https://www.b3.com.br/pt_br/noticias/bolsa-e-seis-instituicoes-financeiras-se-unem-para-criar-stablecoin-em-reais.htm",
    "side": "neutral",
    "added": "2026-11-27T14:27:34-05:00"
+  },
+  {
+   "from": "evernorth",
+   "to": "xrp-treasury-filings-check",
+   "label": "XRP treasury executed in its own filing: Q3 2026 10-Q says 'As of September 30, 2026, we held approximately 346 million XRP' (346,284,972 XRP contributed; carried at $341,887,231 after impairment); 424B3 (Oct 19 2026): about 473M after the Oct 9 close (execution only)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/2092592/000162828026073871/xrpn-20260930.htm",
+   "side": "supports",
+   "added": "2026-11-27T18:30:03-05:00"
+  },
+  {
+   "from": "neuberger",
+   "to": "rprime",
+   "label": "$200M facility size and 'Neuberger Specialty Finance' as lender (May 11 2026, per Ripple; Neuberger's counsel Sidley confirms)",
+   "grade": "B",
+   "strength": 3,
+   "key": false,
+   "source": "https://ripple.com/ripple-press/ripple-prime-secures-usd200-million-debt-facility-from-neuberger-specialty-finance-to-expand-capacity/",
+   "side": "supports",
+   "added": "2026-11-27T18:30:03-05:00"
   }
  ]
 }
