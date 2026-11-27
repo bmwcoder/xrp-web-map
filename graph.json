@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T08:28:29-05:00",
+  "updated": "2026-11-27T10:30:51-05:00",
   "version": 3
  },
  "nodes": [
@@ -35475,11 +35475,11 @@
   {
    "from": "vivopower",
    "to": "xrp",
-   "label": "pivoted to XRP treasury 2025; exited Feb 2026 (0 XRP per DefiLlama)",
+   "label": "XRP-focused treasury strategy (May 2025) discontinued: FY2026 20-F (Nov 2, 2026): 'We discontinued our digital asset treasury strategy in 2026' and 'we no longer hold digital assets directly'; remaining exposure is 40,928 Ripple Labs shares (US$4.3M at Jun 30 2026), with the sale of their economic rights to KWeather and Lean Ventures not completed; this covers execution only, not the May 2025 announcement",
    "grade": "A",
    "strength": 3,
    "key": false,
-   "source": "https://www.globenewswire.com/de/news-release/2026/02/05/3233123/0/en/VivoPower-Completes-Definitive-Agreement-with-KWeather-Advances-Strategic-Exit-from-Digital-Asset-Holdings-with-No-Realized-or-Unrealized-Losses.html",
+   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226049646/form20-f.htm",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
@@ -35519,18 +35519,18 @@
   {
    "from": "webus",
    "to": "xrp",
-   "label": "planned XRP treasury (Jun 2025; up to $300M mandate, no assets ever committed) — apparently abandoned: renamed Wetour Robotics (Cayman name-change certificate 2026-03-09; pivot to physical-AI / wearable robotics); its 2026-08-26 424B5 never mentions XRP or Ripple",
+   "label": "planned XRP treasury (Jun 2025; up to $300M mandate with Samara Alpha) not executed: Wetour Robotics' (ex-Webus) FY2026 20-F (Nov 5, 2026) says its crypto assets are 'comprised solely of bitcoin' (nil at Jun 30 2025; 6.51 BTC bought in FY2026); this covers execution of the plan only, not the Jun 2025 announcement",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.globenewswire.com/news-release/2025/06/02/3091815/0/en/webus-signs-up-to-300-million-xrp-treasury-management-agreement-with-top-tier-manager-samara-alpha-making-a-major-step-in-its-xrp-treasury-strategy.html",
+   "source": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026116149/ea0308910-20f_wetour.htm",
    "side": "contradicts",
    "added": "2026-10-19T22:56:09-04:00"
   },
   {
    "from": "wellgistics",
    "to": "xrp",
-   "label": "$50M ELOC for XRP treasury (May 2025) — Sep 29 2025 424B4: 'To date, we have not purchased XRP, nor have we retained any XRP received from customers'; no target holding; SEC staff (Sep 10 2025 comment letter) pressed for treasury-strategy details",
+   "label": "$50M ELOC for an XRP treasury (May 2025) not executed: Sep 29 2025 424B4: 'To date, we have not purchased XRP, nor have we retained any XRP received from customers as payment'; later filings as DataMeds AI (FY2025 10-K, 2026 10-Qs) carry no XRP line; this covers execution of the plan only, not the May 2025 announcement",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -82390,18 +82390,18 @@
   {
    "from": "webus",
    "to": "xrp-treasury-filings-check",
-   "label": "$300M mandate; renamed Wetour Robotics, Aug 2026 prospectus has 0 XRP mentions",
+   "label": "$300M mandate not executed: Wetour Robotics' FY2026 20-F (Nov 5, 2026) says its crypto assets are 'comprised solely of bitcoin' (execution only)",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026093723/ea0303200-424b5_wetour.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1941158/000121390026116149/ea0308910-20f_wetour.htm",
    "side": "contradicts",
    "added": "2026-10-20T00:17:21-04:00"
   },
   {
    "from": "wellgistics",
    "to": "xrp-treasury-filings-check",
-   "label": "$50M ELOC; \"to date, we have not purchased XRP\" (424B4 Sep 2025)",
+   "label": "$50M ELOC not executed: \"To date, we have not purchased XRP\" (424B4, Sep 2025); later DataMeds AI filings carry no XRP line (execution only)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -82412,11 +82412,11 @@
   {
    "from": "vivopower",
    "to": "xrp-treasury-filings-check",
-   "label": "2026 6-Ks: AI data-center/powered-land developer; XRP advisory chair departed Jul 2026",
+   "label": "XRP-treasury strategy discontinued: FY2026 20-F (Nov 2, 2026) says 'we no longer hold digital assets directly'; now an AI data-center/powered-land developer; XRP advisory chair departed Jul 2026 (execution only)",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226033801/form6-k.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226049646/form20-f.htm",
    "side": "contradicts",
    "added": "2026-10-20T00:17:21-04:00"
   },
@@ -89254,11 +89254,11 @@
   {
    "from": "vivopower",
    "to": "xrp",
-   "label": "pivot away from the XRP-treasury pitch: the Jul 29 2026 $50M PIPE (6-K ex99.1) funds the Mo i Rana, Norway AI data center and debt reduction, and the release does not mention XRP. The Aug 3 6-K retires $28.8M of debt owed to AWN, an affiliate of Kevin Chin",
+   "label": "pivot away from the XRP-treasury pitch: the Jul 29 2026 $50M PIPE (6-K ex99.1) funds the Mo i Rana, Norway AI data center and debt reduction; the FY2026 20-F (Nov 2, 2026) says the company discontinued its XRP-focused treasury strategy and will not acquire digital assets on its balance sheet. The Aug 3 6-K retires $28.8M of debt owed to AWN, an affiliate of Kevin Chin",
    "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226035125/ex99-1.htm",
+   "source": "https://www.sec.gov/Archives/edgar/data/1681348/000149315226049646/form20-f.htm",
    "side": "contradicts",
    "added": "2026-10-20T00:59:43-04:00"
   },
@@ -108093,6 +108093,17 @@
    "source": "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
    "side": "neutral",
    "added": "2026-11-27T08:27:14-05:00"
+  },
+  {
+   "from": "reliance-global",
+   "to": "xrp-treasury-filings-check",
+   "label": "digital-asset treasury not held: Q3 2026 10-Q (Nov 16, 2026) says the company 'did not hold any digital assets as of September 30, 2026'; its Dec 31 2025 holdings table lists only ZEC (213.14); the initiative is 'currently on hold' (execution only; the Sep 2025 'added XRP' release is not contradicted)",
+   "grade": "A",
+   "strength": 2,
+   "key": false,
+   "source": "https://www.sec.gov/Archives/edgar/data/1812727/000149315226052577/form10-q.htm",
+   "side": "contradicts",
+   "added": "2026-11-27T10:29:30-05:00"
   }
  ]
 }
