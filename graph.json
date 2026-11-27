@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T10:30:51-05:00",
+  "updated": "2026-11-27T12:29:41-05:00",
   "version": 3
  },
  "nodes": [
@@ -108104,6 +108104,17 @@
    "source": "https://www.sec.gov/Archives/edgar/data/1812727/000149315226052577/form10-q.htm",
    "side": "contradicts",
    "added": "2026-11-27T10:29:30-05:00"
+  },
+  {
+   "from": "flare",
+   "to": "layerzero",
+   "label": "Flare says it joins Zero, LayerZero's new blockchain, as a genesis validator and FXRP goes cross-chain via the OFT standard; LayerZero says 40+ validators secure Zero at its Nov 30 launch but its posts seen don't name Flare (Flare on X, Nov 27 2026)",
+   "grade": "B",
+   "strength": 2,
+   "key": false,
+   "source": "https://x.com/FlareNetworks/status/2126344652324479243",
+   "side": "neutral",
+   "added": "2026-11-27T12:28:21-05:00"
   }
  ]
 }
