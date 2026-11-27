@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T06:06:57-05:00",
+  "updated": "2026-11-27T07:30:53-05:00",
   "version": 3
  },
  "nodes": [
@@ -17398,15 +17398,16 @@
   },
   {
    "id": "rlusd-xrpl-supply",
-   "label": "RLUSD supply on XRPL (768.6M, Nov 21 2026)",
+   "label": "RLUSD supply on XRPL (741.0M, Nov 27 2026)",
    "type": "asset",
    "handle": "",
-   "summary": "gateway_balances on the RLUSD issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De returned 768,557,088.45 RLUSD obligations on the XRPL at validated ledger 108,480,664 (read 2026-11-21 13:3x ET). Earlier reads: 941,353,317 (Oct 19, 2026) and 981.99M (Oct 28). DefiLlama showed about $0.747B on XRPL on Nov 20 (different method). Less than 0.3% of the XRPL supply sat in the RLUSD/XRP AMM (Oct 2026 read).",
+   "summary": "gateway_balances on the RLUSD issuer rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De returned 741,009,149.67 RLUSD obligations on the XRPL at validated ledger 108,605,650 (read 2026-11-27 ~07:21 ET). Earlier reads: 768,557,088.45 (ledger 108,480,664, Nov 21), 701,846,328 (ledger 108,367,334, Nov 16), 941,353,317 (Oct 19) and 981.99M (Oct 28). DefiLlama showed about $0.747B on XRPL on Nov 20 (different method). Less than 0.3% of the XRPL supply sat in the RLUSD/XRP AMM (Oct 2026 read).",
    "grade": "A",
    "sources": [
     "https://api.xrpscan.com/api/v1/account/rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De",
     "https://xrp-insights.com/xrp-radar",
-    "https://xrplcluster.com (gateway_balances rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De, ledger 108480664)"
+    "https://xrplcluster.com (gateway_balances rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De, ledger 108480664)",
+    "https://xrplcluster.com (gateway_balances rMxCKbEDwqr76QuheSUMdEGf4B9xJ8m5De, ledger 108605650)"
    ],
    "added": "2026-10-19T23:02:33-04:00",
    "sector": "rlusd"
@@ -32377,11 +32378,13 @@
    "label": "Yapı Kredi",
    "type": "bank",
    "handle": "",
-   "summary": "One of Türkiye's largest private banks. Its 100%-owned Yapı Kredi Kripto platform got CMB founding approval (bulletin 2026/18, Mar 26 2026), and the CMB viewed the bank's crypto custody licence application favourably (bank's own page). Ripple says (Nov 25 2026) the bank uses Ripple Custody, deployed on its own premises, to custody assets for Yapı Kredi Kripto.",
+   "summary": "One of Türkiye's largest private banks. Its 100%-owned Yapı Kredi Kripto platform got CMB founding approval (bulletin 2026/18, Mar 26 2026). A Jun 10 2026 KAP filing says the CMB resolved to approve the bank's application for authorization as a crypto-asset custody institution, with the licence certificate to follow once the required conditions are met. On the SPK provisional 'Faaliyette Bulunanlar' list as of Nov 26 2026, entry #44 is still 'Yapı ve Kredi Bankası AŞ (Saklama Başvurusu)' (custody application); the list itself says it is not an authorisation. Ripple says (Nov 25 2026) the bank uses Ripple Custody, deployed on its own premises, to custody assets for Yapı Kredi Kripto.",
    "grade": "A",
    "sources": [
     "https://www.yapikredi.com.tr/yapi-kredi-hakkinda/yapi-kredi-kripto",
-    "https://ripple.com/ripple-press/yapi-kredi-and-ripple-partner-to-advance-institutional-digital-asset-custody-in-turkey/"
+    "https://ripple.com/ripple-press/yapi-kredi-and-ripple-partner-to-advance-institutional-digital-asset-custody-in-turkey/",
+    "https://www.kap.org.tr/en/Bildirim/1616049",
+    "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi"
    ],
    "added": "2026-11-25T02:30:36-05:00"
   },
@@ -106431,12 +106434,12 @@
   {
    "from": "rlusd-xrpl-supply",
    "to": "xrpl",
-   "label": "RLUSD supply on the XRPL fell to 701.8M by Nov 16, 2026 from 878.2M a week earlier and 1,029.3M a month earlier, while the Ethereum leg rose to 2,060.1M (DefiLlama chain split; issuer obligations on the XRPL read 701,846,328 RLUSD at ledger 108367334)",
-   "grade": "B",
+   "label": "RLUSD supply on the XRPL was 741.0M (741,009,149.67 issuer obligations at validated ledger 108,605,650, gateway_balances read Nov 27 2026); earlier issuer reads 768.6M (Nov 21) and 701.8M (Nov 16)",
+   "grade": "A",
    "strength": 2,
    "key": false,
-   "source": "https://stablecoins.llama.fi/stablecoins",
-   "side": "contradicts",
+   "source": "https://xrplcluster.com",
+   "side": "neutral",
    "added": "2026-11-16T08:33:42-05:00"
   },
   {
@@ -107938,7 +107941,7 @@
   {
    "from": "franklin-ezpz",
    "to": "xrp",
-   "label": "holds XRP as an index constituent: 647,563 XRP, 4.78% of fund assets on Nov 24 2026 (fund page; 5.37% on Sep 30 per 10-Q); from Dec 1 2026 the index adds HYPE (424B3, Nov 25 2026), post-rebalance weights not yet published",
+   "label": "holds XRP as an index constituent: 647,563.39 XRP, 4.85% of fund assets as of Nov 25 2026 (fund page; net assets $12.52 million as of Nov 26; 5.37% on Sep 30 per 10-Q); from Dec 1 2026 the index adds HYPE (424B3, Nov 25 2026), post-rebalance weights not yet published",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -108000,6 +108003,28 @@
    "source": "https://ripple.com/ripple-press/ripple-reports-banner-year-approaching-900m-product-revenue-run-rate-signs-multi-solution-partnerships/",
    "side": "neutral",
    "added": "2026-11-26T18:26:10-05:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "yapi-kredi",
+   "label": "resolved to approve Yapı ve Kredi Bankası A.Ş.'s application for authorization to operate as a crypto-asset custody institution (Weekly Bulletin 2026/34; KAP filing Jun 10 2026); the authorization certificate follows once the required conditions are met",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://www.kap.org.tr/en/Bildirim/1616049",
+   "side": "neutral",
+   "added": "2026-11-27T07:29:40-05:00"
+  },
+  {
+   "from": "tr-cmb",
+   "to": "yapi-kredi",
+   "label": "lists Yapı ve Kredi Bankası AŞ as entry #44 on the provisional 'Faaliyette Bulunanlar' list, marked '(Saklama Başvurusu)' (custody application), as of Nov 26 2026; the list's own disclaimer says its existence does not mean the institutions on it have been authorized",
+   "grade": "A",
+   "strength": 3,
+   "key": false,
+   "source": "https://spk.gov.tr/kurumlar/kripto-varlik-hizmet-saglayicilar/faaliyette-bulunanlar-listesi",
+   "side": "neutral",
+   "added": "2026-11-27T07:29:40-05:00"
   }
  ]
 }
