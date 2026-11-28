@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-27T18:33:22-05:00",
+  "updated": "2026-11-27T20:29:31-05:00",
   "version": 3
  },
  "nodes": [
@@ -32463,10 +32463,11 @@
    "label": "Open BRL",
    "type": "company",
    "handle": "",
-   "summary": "Real-pegged stablecoin, backed 1:1 by reais and issued by Banco B3, for interbank transfers and digital-asset/tokenized-stock settlement; launch planned Q1 2027; chain not disclosed; no XRP or RLUSD leg named (CoinDesk citing Valor, Nov 27 2026).",
+   "summary": "Real-pegged stablecoin, backed 1:1 by reais and issued by Banco B3, for interbank transfers and digital-asset/tokenized-stock settlement; launch planned Q1 2027; chain not disclosed; no XRP or RLUSD leg named (Q1 2027 timing and tokenized-stock settlement per B3 VP Luiz Masagão in Valor's Nov 27 2026 interview; B3's own release names no chain and gives no date).",
    "grade": "B",
    "sources": [
-    "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin"
+    "https://www.coindesk.com/business/2026/11/27/brazil-s-stock-exchange-teams-up-with-major-banks-to-launch-real-pegged-stablecoin",
+    "https://valor.globo.com/financas/criptomoedas/noticia/2026/11/27/bolsa-e-bancos-se-unem-para-criar-stablecoin-em-reais.ghtml"
    ],
    "added": "2026-11-27T08:27:14-05:00"
   }
@@ -108053,7 +108054,7 @@
   {
    "from": "b3",
    "to": "open-brl",
-   "label": "Banco B3 to issue Open BRL, a real-pegged stablecoin for interbank transfers and tokenized-stock settlement, Q1 2027; chain not disclosed (announced Nov 27 2026)",
+   "label": "Banco B3 to issue Open BRL, a real-referenced stablecoin, with B3 running the technology in the initial stage of a shared infrastructure for value transfer and settlement; B3's release names no chain (announced Nov 27 2026)",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -108064,7 +108065,7 @@
   {
    "from": "bradesco",
    "to": "open-brl",
-   "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
+   "label": "one of six financial institutions joining B3 to develop Open BRL, a real-referenced stablecoin and shared infrastructure for value transfer and settlement; B3's release names no chain and no XRP or RLUSD leg (announced Nov 27 2026)",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -108075,7 +108076,7 @@
   {
    "from": "itau",
    "to": "open-brl",
-   "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
+   "label": "one of six financial institutions joining B3 to develop Open BRL, a real-referenced stablecoin and shared infrastructure for value transfer and settlement; B3's release names no chain and no XRP or RLUSD leg (announced Nov 27 2026)",
    "grade": "A",
    "strength": 1,
    "key": false,
@@ -108086,7 +108087,7 @@
   {
    "from": "santander",
    "to": "open-brl",
-   "label": "one of six financial firms joining B3's Open BRL real-pegged stablecoin network (Q1 2027 target; no XRP or RLUSD leg named; announced Nov 27 2026)",
+   "label": "one of six financial institutions joining B3 to develop Open BRL, a real-referenced stablecoin and shared infrastructure for value transfer and settlement; B3's release names no chain and no XRP or RLUSD leg (announced Nov 27 2026)",
    "grade": "A",
    "strength": 1,
    "key": false,
