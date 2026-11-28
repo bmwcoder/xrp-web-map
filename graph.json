@@ -1,6 +1,6 @@
 {
  "meta": {
-  "updated": "2026-11-28T06:07:32-05:00",
+  "updated": "2026-11-28T10:34:25-05:00",
   "version": 3
  },
  "nodes": [
@@ -49402,7 +49402,7 @@
   {
    "from": "mas",
    "to": "ripple-markets-apac",
-   "label": "Major Payment Institution licence (2023)",
+   "label": "Major Payment Institution licence (2023); MAS's register lists account issuance, domestic and cross-border money transfer, e-money issuance and digital payment token services (directory as of Oct 27 2026)",
    "grade": "A",
    "strength": 4,
    "key": false,
@@ -51624,7 +51624,7 @@
   {
    "from": "neuberger",
    "to": "rprime",
-   "label": "revolving credit facility to Hidden Road (Ripple Prime's former name): 'Hidden Road Revolver A/B 4/26', dated Apr 15 2026, 1-mo SOFR + 9.50%, matures Jul 15 2028, held by Neuberger Berman-advised Neuberger Asset-Based Credit Fund (N-CSRS Jun 30 2026; N-PORT Sep 30 2026, $4.9M drawn in this fund)",
+   "label": "revolving credit facility to Hidden Road (Ripple Prime per FINRA BrokerCheck): 'Hidden Road Revolver A/B 4/26', dated Apr 15 2026, 1-mo SOFR + 9.50%, matures Jul 15 2028, held by Neuberger Berman-advised Neuberger Asset-Based Credit Fund (N-CSRS Jun 30 2026; N-PORT Sep 30 2026, $4.9M drawn in this fund)",
    "grade": "A",
    "strength": 3,
    "key": false,
@@ -82457,7 +82457,7 @@
   {
    "from": "xrp-treasury-filings-check",
    "to": "xrp",
-   "label": "net: own filings of announced XRP-treasury companies show 4 explicit no-XRP statements (Wellgistics 424B4; VivoPower and Wetour FY2026 20-Fs; Reliance Global Q3 2026 10-Q) vs 2 with filed XRP holdings (Evernorth Q3 2026 10-Q; Quantum BioPharma Q3 2026 6-K); not counted: Trident (silent), Worksport and Hyperscale Data (no XRP line in their filings); execution only; announcements not contradicted",
+   "label": "net: own filings of announced XRP-treasury companies show 4 explicit no-XRP statements (Wellgistics 424B4; VivoPower and Wetour FY2026 20-Fs; Reliance Global Q3 2026 10-Q) vs 2 with filed XRP holdings (Evernorth Q3 2026 10-Q, Ripple-backed (Ripple contributed 126.8M XRP); Quantum BioPharma Q3 2026 6-K); not counted: Trident (silent), Worksport and Hyperscale Data (no XRP line in their filings); execution only; announcements not contradicted",
    "grade": "A",
    "strength": 2,
    "key": false,
@@ -82787,12 +82787,12 @@
   {
    "from": "worksport",
    "to": "xrp-treasury-filings-check",
-   "label": "one of the few announced XRP treasuries that reports a purchase: initial six-figure BTC+XRP buy (Jan 2025 8-K)",
+   "label": "announced XRP treasury (Jan 2025 8-K); own FY2025 10-K and 2026 10-Qs show no XRP held; not counted",
    "grade": "A",
    "strength": 2,
    "key": false,
    "source": "https://www.sec.gov/Archives/edgar/data/1096275/000149315225004095/ex99-1.htm",
-   "side": "supports",
+   "side": "neutral",
    "added": "2026-10-20T00:26:07-04:00"
   },
   {
@@ -93138,8 +93138,8 @@
   {
    "from": "mas",
    "to": "ripple-markets-apac",
-   "label": "Ripple press Dec 1 2025: MAS approved an expanded scope of payment activities for RMA's MPI licence, letting Ripple Payments use DPTs (RLUSD, XRP) for collection, holding, swapping and payout in Singapore",
-   "grade": "A",
+   "label": "MAS approved an expanded scope of payment activities for RMA's MPI licence, letting Ripple Payments use DPTs (RLUSD, XRP) for collection, holding, swapping and payout in Singapore (Dec 1 2025, per Ripple)",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://ripple.com/ripple-press/ripple-expands-scope-of-payment-activities-in-singapore-for-its-major-payment-institution-license/",
@@ -102169,8 +102169,8 @@
   {
    "from": "gtreasury",
    "to": "usbank",
-   "label": "ClearConnect Gateway bank-API integration: U.S. Bank balance and transaction reporting (2023-10-19, before Ripple acquired GTreasury); bank-data connectivity, not XRP/XRPL",
-   "grade": "A",
+   "label": "ClearConnect Gateway bank-API integration: U.S. Bank balance and transaction reporting (2023-10-19, per GTreasury before Ripple acquired it; U.S. Bank has not confirmed); bank-data connectivity, not XRP/XRPL",
+   "grade": "B",
    "strength": 3,
    "key": false,
    "source": "https://treasury.ripple.com/news/gtreasury-adds-u-s-bank-to-its-clearconnect-gateway-connectivity-suite",
@@ -104655,8 +104655,8 @@
   {
    "from": "american-airlines",
    "to": "gtreasury",
-   "label": "Ripple Treasury (GTreasury) customer: Collateral Management System plus cash, debt and FX modules (vendor success story); no XRP or RLUSD use stated",
-   "grade": "A",
+   "label": "Ripple Treasury (GTreasury) customer: Collateral Management System plus cash, debt and FX modules (per Ripple Treasury success story); no XRP or RLUSD use stated",
+   "grade": "B",
    "strength": 2,
    "key": false,
    "source": "https://treasury.ripple.com/success-stories/american-airlines",
@@ -108131,7 +108131,7 @@
   {
    "from": "evernorth",
    "to": "xrp-treasury-filings-check",
-   "label": "XRP treasury executed in its own filing: Q3 2026 10-Q says 'As of September 30, 2026, we held approximately 346 million XRP' (346,284,972 XRP contributed; carried at $341,887,231 after impairment); 424B3 (Oct 19 2026): about 473M after the Oct 9 close (execution only)",
+   "label": "Ripple-backed (Ripple contributed 126.8M XRP); XRP treasury executed in its own filing: Q3 2026 10-Q says 'As of September 30, 2026, we held approximately 346 million XRP' (346,284,972 XRP contributed; carried at $341,887,231 after impairment); 424B3 (Oct 19 2026): about 473M after the Oct 9 close (execution only)",
    "grade": "A",
    "strength": 2,
    "key": false,
